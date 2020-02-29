@@ -2,11 +2,9 @@
 
 {% block content %}
 
-<form>
-    <label for="account">帳號 : </label>
-    <input type="text" name="account"><br><br>
-    <label for="pwd"">密碼 : </label>
-    <input type="password" name="pwd"><br><br>
+<form method="POST">
+    {% csrf_token %}
+    {{ user.as_p }}
     <input type="submit" value="Submit">
 </form>
 

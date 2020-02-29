@@ -33,9 +33,26 @@ class User_data_create_form(forms.ModelForm):
 
 
 class User_data_login_form(forms.Form):
+    """
+    @pony
+    使用者登入時用的form
+    """
     account = forms.CharField(
-        label="帳號",
-        placehodler="Account"
+        label="帳號 : ",
+        widget=forms.TextInput(
+            attrs={
+                "is_required": True,
+                "placeholder": "Account"
+            }
+        )
     )
 
-    password = forms.PasswordInput()
+    password = forms.CharField(
+        label="密碼 : ",
+        widget=forms.PasswordInput(
+            attrs={
+                "is_required": True,
+                "placeholder": "Password",
+            }
+        )
+    )
