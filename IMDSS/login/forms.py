@@ -30,3 +30,12 @@ class User_data_create_form(forms.ModelForm):
             "email",
             "department"
         ]
+
+
+class User_data_login_form(forms.Form):
+    account = forms.CharField(
+        label="帳號",
+        placehodler="Account"
+    )
+
+    password = forms.PasswordInput()
