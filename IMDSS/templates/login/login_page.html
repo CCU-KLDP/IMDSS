@@ -56,19 +56,50 @@
         </ul>
     </div>
     -->
-<div class="row">
-    <div class="delete_border">
-        <img src="{% static 'image/login/bg_black.jpg' %}" width="1920" id="top_bg_pic">   
-        <div class="col s5 offset-s3 white-text top_title">
-            <h1>Title</h1>
-            <text>There is nothing in here now</text><br>
-            <text>we will update someday</text><br>
-        </div>
-        <div class="col s3 white-text top_login grey darken-3">
-
-        </div>
-    </div> 
-     
+    <div class="row">
+        <div class="delete_border">
+            <img src="{% static 'image/login/bg_black.jpg' %}" width="1920" id="top_bg_pic">   
+            <div class="col s5 offset-s3 white-text top_title">
+                <h1>Title</h1>
+                <text>There is nothing in here now</text><br>
+                <text>we will update someday</text><br>
+            </div>
+            <div class="col s3 white-text top_login grey darken-3">
+                <span class="col s5 offset-s4 login_icon">
+                    <img src="{% static 'image/login/IMDSS_icon.png' %}" width="85">
+                </span>
+                <span class="col s10 offset-s2">
+                    <h4>Login to IMDSS</h4>
+                </span>
+                <form class="col s12" method="POST">
+                    {% csrf_token %}
+                    <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">account_circle</i>
+                        {{ user.account }}
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">lock_outlinee</i>
+                        {{ user.password }}
+                    </div>
+                    </div>
+                    <div>
+                        <span class="col s6 offset-s1">
+                            <label>
+                                <input type="checkbox" />
+                                <span white-text>Remember me</span>
+                            </label>
+                        </span>
+                        <button class="btn waves-effect waves-white right" type="submit" name="action">Login
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div> 
+        
     
     </div>
 

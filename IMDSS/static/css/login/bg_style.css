@@ -63,6 +63,8 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     z-index:-1;
 }
 
+
+
 .top_title {
     position:absolute;
     top:170px;
@@ -84,9 +86,15 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     top:130px;
     border-style:solid;
     border-color: white;
+    border-width:1px;
     left: 54.3333333333%;
     width: 400px;
     height: 450px
+}
+
+.row .col.login_icon {
+    position:relative;
+    top:30px;
 }
 
 
