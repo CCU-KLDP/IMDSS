@@ -1,8 +1,8 @@
 .trapezoid_top_border1 {
     height:300px;
     width: 25%;
-    background-color:black;
-    clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 79%);
+    background-color:blue;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 79%);
     z-index: -2;
     position:absolute;
     top:350px;
@@ -11,7 +11,7 @@
 .trapezoid_top_border2 {
     height:220px;
     width: 25%;
-    background-color:black;
+    background-color:blue;
     clip-path: polygon(0 0, 100% 0, 100% 96%, 0 79%);
     z-index: -2;
     position:absolute;
@@ -44,6 +44,38 @@ clip-path: polygon(0 0, 100% 0, 100% 52%, 0 34%);
 
 }
 
+#hexagon_top_black{
+    width: 1920px;
+    height:900px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 16%, 81% 80%, 0 29%, 0 0);
+    position:absolute;
+    z-index: -3;
+    top:0px;
+    left:0px;
+}
+
+.traingle_top_right_white{
+    width: 1340px;
+    height:919px;
+    clip-path: polygon(100% 9%, 40% 100%, 100% 100%);
+
+    background-color:white;
+    position:absolute;
+    z-index: -2;
+    top:50px;
+    right:0px;
+}
+
+.traingle_top_right_black{
+    width: 520px;
+    height:298px;
+    clip-path: polygon(100% 61%, 0 1%, 38% 100%);
+
+    position:absolute;
+    z-index: -1;
+    top:670px;
+    right:0px;
+}
 
 
 .delete_margin{ 
@@ -82,11 +114,8 @@ clip-path: polygon(0 0, 100% 0, 100% 52%, 0 34%);
 
 .row .col.top_login {
     position:relative;
-    top:130px;
-    border-style:solid;
-    border-color: white;
-    border-width:1px;
-    left: 54.3333333333%;
+    top:40px;
+    left: 56.3333333333%;
     width: 400px;
     height: 450px
 }
