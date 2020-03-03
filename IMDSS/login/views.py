@@ -8,20 +8,24 @@ from django.urls import reverse
 
 
 def login_view(request):
+    """
+    @pony
+    驗證使用者
+    """
     user = User_data_login_form(request.POST or None)
-    print(user)
     if request.method == "POST":
         pwd = User_data.objects.get(
-            account=user.cleaned_data['account']
+            account=request.POST['account']
         ).password
-        if user.cleaned_data["password"] == pwd:
-            return HttpResponseRedirect(reverse("login:home"))
-        else : 
-            user = User_data_login_form()
+        if request.POST["password"] == pwd:
+            return HttpResponseRedirect(reverse("login:success"))
+        else:
+            pass
     context = {
-        "user" :user
+        "user": user
     }
     return render(request, "login/login_page.html", context)
 
-def home_page_view(request):
+
+def success_page_view(request):
     return render(request, "another/test.html", {})

@@ -42,7 +42,10 @@ class User_data_login_form(forms.Form):
         widget=forms.TextInput(
             attrs={
                 "is_required": True,
-                "placeholder": "Account"
+                "placeholder": "Account",
+                "id": "account",
+                "type": "text",
+                "class": "validate white-text"
             }
         )
     )
@@ -53,6 +56,9 @@ class User_data_login_form(forms.Form):
             attrs={
                 "is_required": True,
                 "placeholder": "Password",
+                "input id": "password",
+                "type": "password",
+                "class": "validate white-text"
             }
         )
     )
