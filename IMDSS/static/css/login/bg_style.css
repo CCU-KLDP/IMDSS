@@ -76,6 +76,18 @@ clip-path: polygon(0 0, 100% 0, 100% 52%, 0 34%);
     top:670px;
     right:0px;
 }
+.traingle_top_left_grey{
+    width: 600px;
+    height:520px;
+    clip-path: polygon(71% 24.2%, 0 0, 0 68%);
+
+    position:absolute;
+    z-index: -1;
+    top:260px;
+    left:0px;
+}
+
+
 
 
 .delete_margin{ 
