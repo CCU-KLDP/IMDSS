@@ -125,7 +125,17 @@ clip-path: polygon(0 0, 100% 0, 100% 52%, 0 34%);
     left:0px; 
 }
 
+@font-face {
+    font-family: 'WeddingTextBT-Regular';
+    src: url('../../font/WeddingTextBT-Regular.woff2') format('woff2'),
+        url('../../font/WeddingTextBT-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
+.myfont {
+    font-family: "WeddingTextBT-Regular";
+}
 
 
 
