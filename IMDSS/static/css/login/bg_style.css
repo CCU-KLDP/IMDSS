@@ -158,3 +158,16 @@
     font-size: 30px;
     line-height: 40px;
   }
+
+.page-footer.footer-position{
+    position: absolute;
+    top: 140%;
+    left: 0;
+    width: 100%;
+    
+}
+
+.page-footer .avatar{
+    
+}
+
