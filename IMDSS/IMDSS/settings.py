@@ -80,7 +80,8 @@ DATABASES = {
         'USER': "public_user",
         'PASSWORD': "123456",
         'Host': "localhost",
-        'PORT': "3306",
+        #danny's port is 3308
+        'PORT': "3308",
         'OPTIONS': {
             "init_command": "SET sql_mode='STRICT_TRANS_TABLES'",
         }
