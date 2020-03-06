@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "select_patient",
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,7 @@ ROOT_URLCONF = 'IMDSS.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [TEMPLATE_DIR],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -80,7 +81,7 @@ DATABASES = {
         'USER': "public_user",
         'PASSWORD': "123456",
         'Host': "localhost",
-        #danny's port is 3308
+        # danny's port is 3308
         'PORT': "3308",
         'OPTIONS': {
             "init_command": "SET sql_mode='STRICT_TRANS_TABLES'",
