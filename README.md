@@ -29,3 +29,5 @@ University project
 
     ``` pip install flake8 ```
 
+## Setting Database 
+
