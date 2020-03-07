@@ -29,7 +29,7 @@ University project
 
     ``` pip install flake8 ```
 
-## Setting Database 
+## II. Setting Database 
 ### 1. move a config.py into IMDSS/IMDSS/
 
 ### 2. make migrations
