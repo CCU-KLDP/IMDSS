@@ -1,17 +1,6 @@
-<<<<<<< HEAD
 .venv/
 IMDSS/__pycache__
 IMDSS/IMDSS/__pycache__
-IMDSS/IMDSS/__pycache__
 IMDSS/login/__pycache__
 IMDSS/login/migrations/__pycache__
-=======
-.venv/
-IMDSS/__pycache__
-IMDSS/IMDSS/__pycache__
-IMDSS/IMDSS/__pycache__
-IMDSS/login/__pycache__
-IMDSS/login/migrations/__pycache__
-IMDSS/IMDSS/__pycache__
 IMDSS/IMDSS/config.py
->>>>>>> 0d3ce83bb775dfb56d1c3bcf7b1d4735b1984c12
