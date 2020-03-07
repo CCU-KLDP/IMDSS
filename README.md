@@ -29,3 +29,17 @@ University project
 
     ``` pip install flake8 ```
 
+## Setting Database 
+### 1. move a config.py into IMDSS/IMDSS/
+
+### 2. make migrations
+``` (.venv)IMDSS-Project/IMDSS> python3 manage.py makemigrations```
+
+### 3. migrate
+``` (.venv)IMDSS-Project/IMDSS> python3 manage.py migrate```
+
+### 4. test db connection
+``` (.venv)IMDSS-Project/IMDSS> python3 test_db.py ```
+
+Connect successfully! You will get like this as below
+![](https://i.imgur.com/YNP8cJz.png)
