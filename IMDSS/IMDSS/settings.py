@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+from . import config as cfg
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -76,14 +77,12 @@ WSGI_APPLICATION = 'IMDSS.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': "IMDSS-Project",
-        'USER': "public_user",
-        'PASSWORD': "123456",
-        'Host': "localhost",
-        'PORT': "3306",
-        'OPTIONS': {
-            "init_command": "SET sql_mode='STRICT_TRANS_TABLES'",
-        }
+        'NAME': cfg.db['name'],
+        'USER': cfg.db['user'],
+        'PASSWORD': cfg.db['password'],
+        'HOST': cfg.db['host'],
+        'PORT': cfg.db['port'],
+        'OPTIONS': cfg.db['options']
     }
 }
 
