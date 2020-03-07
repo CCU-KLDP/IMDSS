@@ -1,0 +1,16 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IMDSS</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{% static 'css/materialize.css' %}">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        {% block ref %}
+        {% endblock %}
+
+    </head>
+    {% block content %}
+    {% endblock %}
+</html>
