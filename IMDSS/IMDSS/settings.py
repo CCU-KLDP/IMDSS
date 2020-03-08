@@ -77,15 +77,12 @@ WSGI_APPLICATION = 'IMDSS.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': "IMDSS-Project",
-        'USER': "public_user",
-        'PASSWORD': "123456",
-        'Host': "localhost",
-        # danny's port is 3308
-        'PORT': "3308",
-        'OPTIONS': {
-            "init_command": "SET sql_mode='STRICT_TRANS_TABLES'",
-        }
+        'NAME': cfg.db['name'],
+        'USER': cfg.db['user'],
+        'PASSWORD': cfg.db['password'],
+        'HOST': cfg.db['host'],
+        'PORT': cfg.db['port'],
+        'OPTIONS': cfg.db['options']
     }
 }
 
