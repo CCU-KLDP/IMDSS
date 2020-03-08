@@ -4,3 +4,5 @@ IMDSS/IMDSS/__pycache__
 IMDSS/login/__pycache__
 IMDSS/login/migrations/__pycache__
 IMDSS/IMDSS/config.py
+IMDSS/display_patient_detail/__pycache__
+IMDSS/display_patient_detail/migrations/__pycache__
