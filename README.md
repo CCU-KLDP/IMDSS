@@ -34,7 +34,7 @@ University project
     ``` pip install mysql-connector ```｀
 
 ## II. Setting Database 
-### 1. move a config.py into IMDSS/IMDSS/
+### 1. move the config.py into IMDSS/IMDSS/
 
 ### 2. make migrations
 ``` (.venv)IMDSS-Project/IMDSS> python3 manage.py makemigrations```
