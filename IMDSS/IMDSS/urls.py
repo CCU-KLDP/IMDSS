@@ -18,5 +18,9 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+<<<<<<< HEAD
     path("select_patient/", include("select_patient.urls"))
+=======
+    path("login/", include("login.urls"))
+>>>>>>> login_page
 ]
