@@ -2,7 +2,7 @@ db = {
     'engine':'django.db.backends.mysql',
     'name':'imdss-project',
     'user':'KLDP',
-    'password':'3XmpYX1WWHzAntiE',
+    'password':'1bYzMpZOqHdgPUpw',
     'host':'140.123.173.62',
     'port':'3306',
     'options':{
