@@ -21,7 +21,7 @@
                         </a>
                     </div>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="/login">Another1</a></li>
+                        <li><a href="{% url 'login:signup_user' %}">Sign Up</a></li>
                         <li><a href="/login">Another2</a></li>
                         <li><a href="/login">Another3</a></li>
                     </ul>
@@ -56,6 +56,10 @@
         </ul>
     </div>
     -->
+    <!-- this can display error -->
+    <font size="10" color="red">{{ error }}</font>
+
+
     <div class="row">
         <div class="delete_margin grey darken-3" id="hexagon_top_black"></div>
         <div class="delete_margin traingle_top_left_grey grey darken-1"></div>
@@ -77,13 +81,15 @@
                 <div class="row">
                 <div class="input-field col s12">
                     <i class="material-icons prefix">account_circle</i>
-                    {{ user.account }}
+                    <!-- {{ user.account }} -->
+                    <input type="text" name="username" placeholder="Username">
                 </div>
                 </div>
                 <div class="row">
                 <div class="input-field col s12">
                     <i class="material-icons prefix">lock_outlinee</i>
-                    {{ user.password }}
+                    <!-- {{ user.password }} -->
+                    <input type="password" name="password" placeholder="Password">
                 </div>
                 </div>
                 <div>

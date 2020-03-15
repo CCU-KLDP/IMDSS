@@ -2,6 +2,10 @@
 
 {% block content %}
 
-<h2>login success</h2>
+<h2> Success</h2>
+
+<a href="{% url 'admin:index' %}"> Admin </a>
+
+<a href="{% url 'login:logout_user' %}"> Logout </a>
 
 {% endblock %}
