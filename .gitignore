@@ -8,4 +8,6 @@ IMDSS/display_patient_detail/__pycache__
 IMDSS/display_patient_detail/migrations/__pycache__
 IMDSS/select_patient/__pycache__
 IMDSS/select_patient/migrations/__pycache__
+IMDSS/emr/__pycache__
+IMDSS/emr/migrations/__pycache__
 IMDSS/IMDSS/config.py
