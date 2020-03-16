@@ -1,0 +1,7 @@
+.col #top_chart{
+    position: absolute;
+    left: 0;
+    top: 12%;
+    width: 100%;
+    height: 200%;
+}

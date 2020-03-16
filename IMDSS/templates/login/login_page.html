@@ -8,8 +8,6 @@
 
 {% block content %}
 
-
-
 <body>
     <div class="navbar-fixed">
         <nav class="nav-wrapper grey darken-3 ">
@@ -29,33 +27,6 @@
             </div>
         </nav>
     </div>
-    <!--
-    <div class="slider fullscreen">
-        <ul class="slides">
-            <li>
-                <img src="{% static 'image/bg_picture1.png' %}">
-                <div class="caption center-align">
-                    <h3>这是一个巨大的标签行</h3>
-                    <h5 class="light grey-text text-lighten-3">这是我们的小口号。</h5>
-                </div>
-            </li>
-            <li>
-                <img src="{% static 'image/bg_picture2.jpg' %}"> 
-                <div class="caption left-align">
-                    <h3>左对齐标题</h3>
-                    <h5 class="light grey-text text-lighten-3">这是我们的小口号。</h5>
-                </div>
-            </li>
-            <li>
-                <img src="{% static 'image/bg_picture3.jpg' %}">
-                <div class="caption right-align">
-                    <h3>右对齐标题</h3>
-                    <h5 class="light grey-text text-lighten-3">这是我们的小口号。</h5>
-                </div>
-            </li>
-        </ul>
-    </div>
-    -->
     <div class="row">
         <div class="delete_margin grey darken-3" id="hexagon_top_black"></div>
         <div class="delete_margin traingle_top_left_grey grey darken-1"></div>
@@ -150,43 +121,22 @@
         </footer>
     </div>
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript", src="{% static 'js/materialize.js' %}"></script>
-    
-    <script>
-        $(document).ready(function(){
-            $('.slider').slider({
-                indicators: false,
-                interval: 5000
-            });
+{% block js-ref %}
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript", src="{% static 'js/materialize.js' %}"></script>
+<script type="text/javascript", src="{% static 'js/login/feature_show.js' %}"></script>
+
+<!--  幻燈片demo
+<script>
+    $(document).ready(function(){
+        $('.slider').slider({
+            indicators: false,
+            interval: 5000
         });
+    });
+</script>
+-->
 
-
-        const slider = document.querySelector('.slider-wrapper');    
-        const beforeImg = document.querySelector('.slider-before-img'); 
-        const handler = document.querySelector('.handler'); 
-        var marginX; 
-
-        handler.onmousedown = function(e) {
-            marginX = e.pageX - handler.offsetLeft;
-            slider.addEventListener('mousemove', moveHandler);
-        }
-        handler.onmouseup = function(e) {
-            slider.removeEventListener('mousemove', moveHandler);
-        }
-
-
-        function moveHandler(e) {
-            handler.style.left = e.pageX - marginX + 'px';
-            beforeImg.style.width = e.pageX - marginX + 'px';
-        }
-    </script>
-
-
-
-    
-    
+{% endblock js-ref %}
 </body>
-
-
-{% endblock %}
+{% endblock content %}
