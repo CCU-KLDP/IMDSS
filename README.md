@@ -29,6 +29,10 @@ University project
 
     ``` pip install flake8 ```
 
+- install mysql-connector
+
+    ``` pip install mysql-connector ```｀
+
 ## II. Setting Database 
 ### 1. move the config.py into IMDSS/IMDSS/
 
