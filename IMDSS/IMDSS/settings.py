@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'login',
     "display_patient_detail",
+    "emr",
 ]
 
 MIDDLEWARE = [
