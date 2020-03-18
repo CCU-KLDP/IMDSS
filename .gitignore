@@ -9,6 +9,7 @@ IMDSS/display_patient_detail/__pycache__
 IMDSS/display_patient_detail/migrations/__pycache__
 IMDSS/select_patient/__pycache__
 IMDSS/select_patient/migrations/__pycache__
+<<<<<<< HEAD
 IMDSS/IMDSS/config.py
 =======
 IMDSS/IMDSS/__pycache__
@@ -20,3 +21,8 @@ IMDSS/display_patient_detail/__pycache__
 IMDSS/display_patient_detail/migrations/__pycache__
 IMDSS/IMDSS/config.py
 >>>>>>> login_page
+=======
+IMDSS/emr/__pycache__
+IMDSS/emr/migrations/__pycache__
+IMDSS/IMDSS/config.py
+>>>>>>> 8b8ea0f039aabfa63b9bd28e803a42ebf939b0ea
