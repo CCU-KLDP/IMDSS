@@ -1,0 +1,7 @@
+.sidenav-trigger .trigger_icon {
+    position: absolute;
+    z-index: 2;
+    top: 45%;
+    left: 0%;
+    width: 4%;
+}
