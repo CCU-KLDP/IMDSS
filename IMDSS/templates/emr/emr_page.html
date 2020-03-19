@@ -9,7 +9,6 @@
 
 {% block content %}
 <body>
-    
     <nav class="nav-wrapper grey darken-3 ">
         <div class="container">
             <div class="row">
@@ -27,12 +26,35 @@
         </div>
     </nav>
     
-    <ul id="slide-out" class="sidenav fixed"style="width:40%">
-        <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-        <li><a href="#!">Second Link</a></li>
+    <ul id="slide-out" class="sidenav fixed" style="width:40%">
+        <li>
+            <div class="input-field">
+                <select>
+                <option value="" disabled selected>Choose your Department</option>
+                <option value="dept1">Dept1</option>
+                <option value="dept2">Dept2</option>
+                <option value="dept3">Dept3</option>
+                </select>
+            </div>
+        </li>
         <li><div class="divider"></div></li>
-        <li><a class="subheader">Subheader</a></li>
-        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+        <li>
+            <div class="itembox unchoose">
+                {% for instance in test_label %}
+                    <label>
+                      <input type="checkbox" class="filled-in"/>
+                      <span>Item {{ instance }}</span>
+                    </label>
+                    <br>
+                {% endfor %}
+            </div>
+            <li><div class="divider"></div></li>
+        </li>
+        <li>
+            <div class="search">
+                <a class="waves-effect waves-light btn large sidenav-trigger" data-target="slide-out"><i class="material-icons right">search</i>Search</a>
+            </div>
+        </li>
     </ul>
     <a href="#" data-target="slide-out" class="sidenav-trigger"><img class="trigger_icon" src="{% static 'image/emr/arrow_right.jpg' %}">
     </i></a>

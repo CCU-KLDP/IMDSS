@@ -2,6 +2,25 @@
     position: absolute;
     z-index: 2;
     top: 45%;
-    left: 0%;
+    left: 2%;
     width: 4%;
 }
+
+.sidenav .input-field{
+    position: relative;
+    left: 34%;
+    width: 28%;
+}
+
+.sidenav .itembox {
+    position: relative;
+    padding-top: 5%;
+    left: 8%;
+}
+
+.sidenav .search {
+    position: relative;
+    bottom: 0%;
+    left: 8%;
+}
+
