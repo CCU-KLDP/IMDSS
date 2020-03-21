@@ -2,20 +2,106 @@
 {% load static %}
 
 {% block ref %}
-
+<link rel="stylesheet" href="{% static 'css/select_patient/bg.css' %}">
 {% endblock %}
 
 
 {% block content %}
 
 <body>
-    
-    <div class="blue">
-        {{ patient }}
+
+    <div class="navbar-fixed">
+        <nav class="nav-wrapper grey darken-3 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col s1">
+                        <a href="/login" class="small brand-logo">
+                            <img class="responsive-img" src="{% static 'image/login/nav_icon.png' %}" width="150" >
+                        </a>
+                    </div>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="/login">Another1</a></li>
+                        <li><a href="/login">Another2</a></li>
+                        <li><a href="/login">Another3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
+    <!--<div class="navbar-fixed">
+        <nav class="nav-wrapper grey darken-3 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col s1">               
+                        <a href="/login" class="small brand-logo">
+                            <img class="responsive-img" src="{% static 'image/login/nav_icon.png' %}" width="150" >
+                        </a>
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li><a href="/login">Another1</a></li>
+                            <li><a href="/login">Another2</a></li>
+                            <li><a href="/login">Another3</a></li>
+                        </ul>
+                    </div>
+                   
+                        
+                   
+                </div> 
+            </div>
+           
+        </nav>
+    </div>
+-->
+    
+
+
+<div class="row1">
+    <span class="span_sel">
+   
+
+<div id="tri2" style="background-color: #414040";></div>
+<div id="tri1" style="background-color: #757575";></div>
+<div id="tri3" style="background-color:#757575 ;"></div>
+        <div class="col s5 offset-s3 white-text top_title">
+                         <div id="select">
+                             
+                                  <div id="input-field col s12">
+                                      
+                                        <select>
+                                        <option value="" disabled selected>Choose your option</option>
+                                        <option value="1">上寬</option>
+                                        <option value="2">Option 2</option>
+                                        <option value="3">Option 3</option>
+                                        </select>
+                                        <label>Materialize Select</label>
+                                 </div>
+
+                                
+                                 <div id="select_form" style="background-color: rgb(255, 255, 255);">
+                                
+                                 </div>
+                                 <div style="width:530px;height:230px;background-color:rgb(248, 248, 248); border:1px blue dashed;">
+                                     <ul> 
+                                         <li>technologists</li>
+                                         <li>thinkers</li>
+                                         <li>builders</li>
+                                    </ul>
+                                 </div>
+
+                        </div>
+                    </span>
+                                
+</div>
+
+
+ <!--HTML寫這裡-->
+
+    {% block js-ref %}
+    <script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+    <script type="text/javascript", src="{% static 'js/materialize.js' %}"></script>
+    <script type="text/javascript", src="{% static 'js/select_patient/sp.js' %}"></script>
+    {% endblock js-ref %} 
 </body>
 
 
 
-
-{% endblock %}
+{% endblock content %}
