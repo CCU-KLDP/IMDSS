@@ -3,7 +3,7 @@
    visibility: visible;
      margin-left: auto;
      margin-right: auto;
-     margin-bottom: 700px;
+     margin-bottom: 300px;
     max-width: initial;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
@@ -94,4 +94,46 @@
     left:0px;
     margin: 0px;
     clip-path:polygon(49% 50%, 0% 100%,100% 100%,100% 0%);
+  }
+
+  html,body{
+      height: 100%;
+  }
+ 
+  .par1{
+    /* The image used */
+   /* background-image: url('https://www.bnext.com.tw/article/54056/free-image-sources');*/
+    max-height: 600px;
+    /* Full height */
+    height: 100%; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .par2{
+    height: 5%; 
+    max-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .page-footer{
+    visibility: visible;
+    margin-left: auto;
+    margin-right: auto;
+   max-width: initial; 
+   position: relative;
+  }
+  .row{
+   height: 110px;
+    visibility: visible;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+   position: relative;
   }

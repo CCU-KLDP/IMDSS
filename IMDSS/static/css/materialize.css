@@ -2825,7 +2825,7 @@ video.responsive-video {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: -1;
+  z-index: -70;
 }
 
 .parallax-container .parallax img {
@@ -5543,7 +5543,7 @@ button.btn-floating {
 }
 
 .dropdown-content {
-  background-color: #fff;
+  background-color: rgb(216, 126, 126);
   margin: 0;
   display: none;
   min-width: 100px;
@@ -5586,7 +5586,7 @@ button.btn-floating {
 
 .dropdown-content li > a, .dropdown-content li > span {
   font-size: 16px;
-  color: #26a69a;
+  color: #ee6e73;
   display: block;
   line-height: 22px;
   padding: 14px 16px;
@@ -5607,7 +5607,7 @@ button.btn-floating {
 }
 
 body.keyboard-focused .dropdown-content li:focus {
-  background-color: #dadada;
+  background-color: #ee6e73;
 }
 
 .input-field.col .dropdown-content [type="checkbox"] + label {
@@ -7173,7 +7173,7 @@ select {
   cursor: pointer;
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid #9e9e9e;
+  border-bottom: 1px solid #ee6e73;
   outline: none;
   height: 3rem;
   line-height: 3rem;
