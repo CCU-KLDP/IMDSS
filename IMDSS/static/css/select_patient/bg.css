@@ -1,25 +1,30 @@
-#select{
-    position: absolute;
-    left:360px;
-    width: 50%;
-    top: 200px;
-}
 .row1{
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 700px;
-    width: 800px;
-    background-color: khaki ;
-}
-.span_sel{
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 700px;
-    width: 800px;
-    background-color: khaki ;
-}
+    background-color: lightskyblue;
+   visibility: visible;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 700px;
+    max-width: initial;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+ }
 
+.select{
+    position: relative;
+   text-align:center;
+    top: 20%;
+    left: 500px;
+    max-width: 400px;
+    max-height: 700;
+}
+.options{
+    left: 44%;
+    text-align: center;
+    position: relative;
+    max-width: 200px;
+}
 #tri1{
+    
     width: 35%;
     height: 41%;
     clip-path: polygon(0 69%, 0 0, 100% 27.2%);
@@ -27,25 +32,42 @@
  /*   z-index: -1;*/
     top: 46.4%;
     left: 0px;
+    z-index: -9;
 }
 #tri2{
+  
     position: absolute;
     top: 0px;
     width: 70%;
     height: 60%;
     clip-path: polygon(50% 0%, 100% 0, 100% 22%, 70% 74%, 0 50%, 0 0);
-    
-   /* z-index: -1;*/
     top: 46.4%;
     left: 0px;
+    z-index: -8;
 }
 
 #tri3{
+    
     width: 30.1%;
     height: 31%;
     clip-path: polygon(100% 90%, 0 58%, 100% 13%);
     position: absolute;
-    z-index: -1;
+    z-index: -5;
     top: 50.8%;
     right: 0px;
+  
+}
+
+.sel_title{
+    position: relative;
+    font-family: fantasy;
+    font-size: 700px;
+    text-align: center;
+}
+.form{
+    background-color: rgb(224, 222, 222);
+    text-align: left;
+    height:400px;
+    width: 500px;
+    border:1px rgb(71, 68, 73) dashed; 
 }
