@@ -1,5 +1,5 @@
 .row1{
-    background-color: lightskyblue;
+   
    visibility: visible;
      margin-left: auto;
      margin-right: auto;
@@ -23,51 +23,75 @@
     position: relative;
     max-width: 200px;
 }
-#tri1{
-    
-    width: 35%;
-    height: 41%;
-    clip-path: polygon(0 69%, 0 0, 100% 27.2%);
-    position: absolute;
- /*   z-index: -1;*/
-    top: 46.4%;
-    left: 0px;
-    z-index: -9;
-}
-#tri2{
-  
-    position: absolute;
-    top: 0px;
-    width: 70%;
-    height: 60%;
-    clip-path: polygon(50% 0%, 100% 0, 100% 22%, 70% 74%, 0 50%, 0 0);
-    top: 46.4%;
-    left: 0px;
-    z-index: -8;
-}
 
-#tri3{
-    
-    width: 30.1%;
-    height: 31%;
-    clip-path: polygon(100% 90%, 0 58%, 100% 13%);
-    position: absolute;
-    z-index: -5;
-    top: 50.8%;
-    right: 0px;
-  
+@font-face {
+    font-family: 'WeddingTextBT-Regular';
+    src: url('../../font/WeddingTextBT-Regular.woff2') format('woff2'),
+        url('../../font/WeddingTextBT-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
-
-.sel_title{
+@font-face {
+    font-family: 'SentyTEA';
+    src: url('../../font/SentyTEA.woff2') format('woff2'),
+        url('../../font/SentyTEA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.sel_title{  
+    color: #ee6e73;
     position: relative;
-    font-family: fantasy;
+    font-family: "SentyTEA";
     font-size: 700px;
     text-align: center;
+    background-color: rgb(255, 255, 255);
+   
+}
+.hello_doc{
+    left: 20px;
+    top: 30px;
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 .form{
-    background-color: rgb(224, 222, 222);
+    background-color: rgb(224, 217, 217);
     text-align: left;
     height:400px;
-    width: 500px;
-    border:1px rgb(71, 68, 73) dashed; 
+    width: 550px;
+ left: 800px;
+ 
 }
+.bgsqr{
+    position: absolute;
+    width:100%;
+    height:100%;
+   z-index: -20;
+   margin: 0px;
+   clip-path:polygon(0% 0%, 0% 100%,50% 50%,100% 0%);
+  }
+.btn{
+    background-color: rgb(34, 34, 34);
+    position: relative;
+    top: 20px;
+    left: 60px;
+    color:#ee6e73;
+}
+.bgsqr2{
+    position: absolute;
+    width:300px;
+    height:100px;
+    clip-path:polygon(0% 0%, 0% 100%,90% 100%,100% 0%);
+  }
+
+.bgsqr3{
+    position: absolute;
+   
+    width:100%;
+    height:100%;
+    left:0px;
+    margin: 0px;
+    clip-path:polygon(49% 50%, 0% 100%,100% 100%,100% 0%);
+  }
