@@ -17,3 +17,16 @@ $(document).ready(function(){
     var elems = document.querySelectorAll('.parallax');
     var instances = M.Parallax.init(elems, options);
   });
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
+  var instance = M.Sidenav.getInstance(elem);
+  instance.open();
+  instance.close();
+  instance.destroy();
