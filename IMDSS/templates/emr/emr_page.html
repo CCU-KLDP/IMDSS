@@ -3,12 +3,12 @@
 
 
 {% block ref %}
-<link rel="stylesheet" href="{% static 'css/emr/sidenav.css' %}">
+<link rel="stylesheet" href="{% static 'css/emr/side_select.css' %}">
 {% endblock %}
 
 
 {% block content %}
-<body>
+<body bgcolor="#f5f5f5">
     <nav class="nav-wrapper grey darken-3 ">
         <div class="container">
             <div class="row">
@@ -25,39 +25,56 @@
             </div>
         </div>
     </nav>
-    
-    <ul id="slide-out" class="sidenav fixed" style="width:40%">
-        <li>
-            <div class="input-field">
+    <div class="side-list-section">
+        <div class="top-select-container input-field">
+            <div id="dept_select">
                 <select>
-                <option value="" disabled selected>Choose your Department</option>
-                <option value="dept1">Dept1</option>
-                <option value="dept2">Dept2</option>
-                <option value="dept3">Dept3</option>
-                </select>
+                    <option value="" disabled selected>Select department</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                    </select>
             </div>
-        </li>
-        <li><div class="divider"></div></li>
-        <li>
-            <div class="itembox unchoose">
-                {% for instance in test_label %}
-                    <label>
-                      <input type="checkbox" class="filled-in"/>
-                      <span>Item {{ instance }}</span>
-                    </label>
-                    <br>
-                {% endfor %}
+
+            <div id="table_select">
+                <select>
+                    <option value="" disabled selected>Select table</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                    </select>
             </div>
-            <li><div class="divider"></div></li>
-        </li>
-        <li>
-            <div class="search">
-                <a class="waves-effect waves-light btn large sidenav-trigger" data-target="slide-out"><i class="material-icons right">search</i>Search</a>
+        </div>
+        <div class="divider"></div>
+        <div class="middle-list">
+            {% for instance in test_label %}
+            <div class="item-list-container">
+                <label>
+                    <input type="checkbox" class="filled-in item-list"/>
+                    <span>{{ instance }}</span>
+                </label>
             </div>
-        </li>
-    </ul>
-    <a href="#" data-target="slide-out" class="sidenav-trigger"><img class="trigger_icon" src="{% static 'image/emr/arrow_right.jpg' %}">
-    </i></a>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="display-emr-section">
+        <div class="selected-attribute">
+            <a class="waves-effect waves-light btn">button</a>
+            <a class="waves-effect waves-light btn">button</a>
+            <a class="waves-effect waves-light btn">button</a>
+            <a class="waves-effect waves-light btn">button</a>
+            <a class="waves-effect waves-light btn">button</a>
+            <a class="waves-effect waves-light btn">button</a>
+        </div>
+        <div class="select-emr">
+            <a class="waves-effect waves-light btn">button</a>
+        </div>
+        <div class="display-emr">
+            
+        </div>
+    </div>
+    
+    
 
     
 

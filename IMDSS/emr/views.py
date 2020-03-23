@@ -5,7 +5,7 @@ from django.shortcuts import render
 
 def emr_view(request):
     content = {
-        "test_label":range(6)
+        "test_label": range(10)
     }
 
     return render(request, "emr/emr_page.html", content)
