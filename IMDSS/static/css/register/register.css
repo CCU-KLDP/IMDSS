@@ -1,12 +1,35 @@
 .reg_bg{
-    background-color: rgb(29, 29, 29); 
-    width: 800px;
-    height:800px;
-    /*clip-path: polygon(100% 90%, 0 58%, 100% 13%);*/
-
-    position:absolute;
-   
-    top:80.8%;
+    background-color: rgb(29, 29, 29);
+    color: lawngreen;
+    width: 60%;
+    height:100%;
+    /*clip-path: polygon(100% 100%, 100% 100%, 100% 100%);*/
+    position: relative;
+    top: 600px;
     right:20px;
-    
+}
+
+.page-footer{
+    visibility: visible;
+    margin-left: auto;
+    margin-right: auto;
+   max-width: initial; 
+  
+   position: absolute;
+   top: 140%;
+   left: 0;
+   width: 100%;
+  }
+  .row{
+   height: 110px;
+    visibility: visible;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+   position: relative;
+  }
+.about_us{
+    width:200px;
+    height:80px;
+position: relative;
 }
