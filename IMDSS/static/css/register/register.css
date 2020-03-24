@@ -1,0 +1,12 @@
+.reg_bg{
+    background-color: rgb(29, 29, 29); 
+    width: 800px;
+    height:800px;
+    /*clip-path: polygon(100% 90%, 0 58%, 100% 13%);*/
+
+    position:absolute;
+   
+    top:80.8%;
+    right:20px;
+    
+}
