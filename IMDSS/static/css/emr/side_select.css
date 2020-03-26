@@ -12,14 +12,14 @@
     margin-top: 8%;
 }
 
-#dept_select {
+#dept-select-container {
     float: left;
     width: 40%;
     margin: 0 auto;
     padding-bottom: 5%;
 }
 
-#table_select {
+#table-select-container {
     float: right;
     width: 40%;
     margin: 0 auto;
@@ -31,7 +31,7 @@
     width: 100%;
 }
 
-.middle-list {
+#middle-list-container {
     padding-top: 10%;
     float: left;
     width: 80%;
@@ -42,26 +42,3 @@
 .item-list-container {
     padding-bottom: 6.5%;
 }
-
-.display-emr-section {
-    float: right;
-    width: 73%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.display-emr-section .selected-attribute {
-    display: flex;
-    border-bottom: 1px solid black;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: left;
-    padding: 2%;
-}
-
-.select-emr {
-    text-align: right;
-    padding-right: 10%;
-    padding-top: 2%;
-}
-

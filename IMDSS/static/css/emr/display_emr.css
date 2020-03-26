@@ -1,0 +1,52 @@
+.display-emr-section {
+    float: right;
+    width: 73%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.display-emr-section .selected-attribute {
+    display: flex;
+    border-bottom: 1px solid black;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    padding: 2%;
+}
+
+.select-emr {
+    text-align: right;
+    padding-right: 3%;
+    padding-top: 2%;
+}
+
+#search-bar{
+    float: right;
+    width: 20%;
+    height: 10%;
+    border-radius: 35px 35px 35px 35px;
+    -moz-border-radius: 35px 35px 35px 35px;
+    -webkit-border-radius: 35px 35px 35px 35px;
+    border: 1px solid #000000;
+    margin-bottom: 1%;
+}
+
+#search-bar .search-text{
+    float: left;
+    margin-left: 1px;
+    padding-left: 7%;
+    padding-bottom: 0px;
+}
+
+#search-icon{
+    float: right;
+    width: 17%;
+    padding-right: 3%;
+    padding-top: 2%;
+    margin-right: 4%;
+}
+
+.select-table table{
+    border: 1px solid black;
+    margin-left: 1.5%;
+}

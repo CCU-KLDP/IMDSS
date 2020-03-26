@@ -4,6 +4,7 @@
 
 {% block ref %}
 <link rel="stylesheet" href="{% static 'css/emr/side_select.css' %}">
+<link rel="stylesheet" href="{% static 'css/emr/display_emr.css' %}">
 {% endblock %}
 
 
@@ -26,35 +27,27 @@
         </div>
     </nav>
     <div class="side-list-section">
-        <div class="top-select-container input-field">
-            <div id="dept_select">
-                <select>
+        <div class="top-select-container input-field fixed">
+            <div id="dept-select-container">
+                <select id="dept_select" onchange="dept_change()">
                     <option value="" disabled selected>Select department</option>
-                    <option value="1">Option 1</option>
-                    <option value="2">Option 2</option>
-                    <option value="3">Option 3</option>
-                    </select>
+                    <option value="0">dept_1</option>
+                    <option value="1">dept_2</option>
+                    <option value="2">dept_3</option>
+                </select>
             </div>
 
-            <div id="table_select">
-                <select>
+            <div id="table-select-container">
+                <select id="table_select" onchange="table_change()">
                     <option value="" disabled selected>Select table</option>
-                    <option value="1">Option 1</option>
-                    <option value="2">Option 2</option>
-                    <option value="3">Option 3</option>
+                    <option value="0">table_1</option>
+                    <option value="1">table_2</option>
+                    <option value="2">table_3</option>
                     </select>
             </div>
         </div>
         <div class="divider"></div>
-        <div class="middle-list">
-            {% for instance in test_label %}
-            <div class="item-list-container">
-                <label>
-                    <input type="checkbox" class="filled-in item-list"/>
-                    <span>{{ instance }}</span>
-                </label>
-            </div>
-            {% endfor %}
+        <div id="middle-list-container">
         </div>
     </div>
     <div class="display-emr-section">
@@ -67,11 +60,42 @@
             <a class="waves-effect waves-light btn">button</a>
         </div>
         <div class="select-emr">
-            <a class="waves-effect waves-light btn">button</a>
+            <div id="search-bar">
+                <div class="search-text">
+                    <script>
+                        var green_pic = "{% static 'image/emr/search_icon_green.png' %}"
+                        var black_pic = "{% static 'image/emr/search_icon_black.png' %}"
+                    </script>
+                    <input placeholder="病歷號查詢" type="text" onmousedown="search_icon_to_green()" onblur="search_icon_to_black()">
+                </div>
+                <img src="{% static 'image/emr/search_icon_black.png' %}" id="search-icon">
+            </div>
+            <div class="select-table">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Date</th>
+                        <th>Type</th>
+                        <th>Department</th>
+                        <th>Diagnosis</th>
+                    </tr>
+                    {% for instance in emr_table %}
+                    <tr>
+                        {% if instance.star == 1 %}
+                            <td><i class="material-icons">star</i></td>
+                        {% else %}
+                            <td></td>
+                        {% endif %}
+                        <td>{{ instance.date }}</td>
+                        <td>{{ instance.type }}</td>
+                        <td>{{ instance.dept }}</td>
+                        <td>{{ instance.diagnosis }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
         </div>
-        <div class="display-emr">
             
-        </div>
     </div>
     
     
@@ -80,8 +104,9 @@
 
     {% block js-ref %}
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript", src="{% static 'js/materialize.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/materialize.js' %}"></script>
     <script type="text/javascript" src="{% static 'js/emr/sidenav.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/emr/display_emr.js' %}"></script>
     {% endblock js-ref %}
 </body>
 {% endblock content %}
