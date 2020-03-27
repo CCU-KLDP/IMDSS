@@ -1,8 +1,8 @@
-.reg_bg{
-    background: linear-gradient(rgb(71, 29, 62),rgba(235, 48, 48, 0.993));
+.reg_bg{/**IMDS LOGO COLOR(232, 86, 97) */
+    background: linear-gradient(rgba(17, 16, 16, 0.993),rgba(232, 86, 97, 0.8));
     /*background-color: rgba(0, 0, 0, 0.678);*/
     width: 100%;
-    height:800px;
+    height:1000px;
     clip-path: polygon(0% 0%, 0% 100%,100% 100%,100% 0%);
     position: absolute;
     opacity: 0.5;
@@ -44,7 +44,7 @@ position: relative;
     top: 10%;
     background-color: rgb(101, 104, 102);
     left:37%;
-    z-index: -6;
+    z-index: 7;
     color: white;
     
     /*opacity: 0.7;*/
@@ -54,7 +54,7 @@ position: relative;
 
 
 @font-face {
-    font-family: 自定義名稱;
+    font-family: "Raleway";
     src: url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
   }
 .sufo{
@@ -66,3 +66,30 @@ position: relative;
     margin-bottom: 0px;
 }
 
+/* style all input elements with a required attribute */
+input:required {
+    box-shadow: 4px 4px 20px rgba(200, 0, 0, 0.85);
+  }
+  
+  /**
+   * style input elements that have a required
+   * attribute and a focus state
+   */
+  input:required:focus {
+    border: 2   px solid red;
+    outline: none;
+  }
+  
+  /**
+   * style input elements that have a required
+   * attribute and a hover state
+   */
+  input:required:hover {
+    opacity: 1;
+  }
+  .btn_signup{
+      left: 35%;
+      top: 160px;
+     margin: 0px;
+     border-radius: 5px;
+  }
