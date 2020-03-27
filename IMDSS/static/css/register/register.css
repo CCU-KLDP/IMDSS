@@ -1,63 +1,62 @@
-.reg_bg{/**IMDS LOGO COLOR(232, 86, 97) */
-    background: linear-gradient(rgba(17, 16, 16, 0.993),rgba(232, 86, 97, 0.8));
+.reg_bg {
+    /**IMDS LOGO COLOR(232, 86, 97) */
+  /*  background: linear-gradient(rgba(76, 145, 235, 0.993), rgba(232, 86, 97, 0.8));*/
+    background: linear-gradient(rgba(14, 12, 12, 0.815), rgba(255, 245, 246, 0.8));
     /*background-color: rgba(0, 0, 0, 0.678);*/
     width: 100%;
-    height:1000px;
-    clip-path: polygon(0% 0%, 0% 100%,100% 100%,100% 0%);
+    height: 1000px;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
     position: absolute;
     opacity: 0.5;
     z-index: -4;
-
 }
 
-.page-footer{
+.page-footer {
     visibility: visible;
     margin-left: auto;
     margin-right: auto;
-   max-width: initial; 
-  
-   position: absolute;
-   top: 140%;
-   left: 0;
-   width: 100%;
-  }
-  .row{
-   height: 110px;
+    max-width: initial;
+    position: absolute;
+    top: 140%;
+    left: 0;
+    width: 100%;
+}
+
+.row {
+    height: 110px;
     visibility: visible;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
-   position: relative;
-  }
-.about_us{
-    width:200px;
-    height:80px;
-position: relative;
+    position: relative;
 }
 
+.about_us {
+    width: 200px;
+    height: 80px;
+    position: relative;
+}
 
-.signup_panel{
-    border-radius:10px;
+.signup_panel {
+    border-radius: 10px;
     border-width: 10px;
     width: 400px;
     height: 600px;
     top: 10%;
     background-color: rgb(101, 104, 102);
-    left:37%;
+    left: 37%;
     z-index: 7;
     color: white;
-    
     /*opacity: 0.7;*/
-   
     position: absolute;
 }
-
 
 @font-face {
     font-family: "Raleway";
     src: url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-  }
-.sufo{
+}
+
+.sufo {
     top: 10px;
     left: 10px;
     font-family: 'Raleway', sans-serif;
@@ -67,29 +66,38 @@ position: relative;
 }
 
 /* style all input elements with a required attribute */
+
 input:required {
     box-shadow: 4px 4px 20px rgba(200, 0, 0, 0.85);
-  }
-  
-  /**
+}
+
+/**
    * style input elements that have a required
    * attribute and a focus state
    */
-  input:required:focus {
-    border: 2   px solid red;
+
+input:required:focus {
+    border: 2 px solid red;
     outline: none;
-  }
-  
-  /**
+}
+
+/**
    * style input elements that have a required
    * attribute and a hover state
    */
-  input:required:hover {
+
+input:required:hover {
     opacity: 1;
-  }
-  .btn_signup{
-      left: 35%;
-      top: 160px;
-     margin: 0px;
-     border-radius: 5px;
-  }
+}
+
+.btn_signup {
+    left: 35%;
+    top: 40px;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+.name_group{
+    display: inline-block;
+    
+}
