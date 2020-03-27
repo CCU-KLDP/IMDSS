@@ -31,22 +31,45 @@
 
     <div class="page_body">
         <div class="reg_bg">
-            
+
             <div class="signup_panel z-depth-4">
-                <h2 class="sufo" style="left: 100px;">&nbsp;Sign Up</h2>   
-                <h7 style="left: 100px;">&nbsp;&nbsp;&nbsp;&nbsp;Already have an account?<a href=""><u><h7 style="color: rgb(55, 228, 199);"><b> sign in</b></h7></u></a></h7>
+                <h2 class="sufo" style="left: 100px;">&nbsp;Sign Up</h2>
+                <h7 style="left: 100px;">&nbsp;&nbsp;&nbsp;&nbsp;Already have an account?<a href=""><u>
+                            <h7 style="color: rgb(55, 228, 199);"><b> sign in</b></h7>
+                        </u></a></h7>
                 <hr size="2px" align="center" width="80%" style="opacity: 0.5;">
 
 
+                <!--Form start-->
+                <form class="col s12">
+                    <!--first name-->
+                    <div class="input-field col s6" style="margin: 10px;">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="icon_prefix" type="text" class="validate">
+                        <label for="icon_prefix">First Name</label>
+                    </div>
+                    <!--second name-->
+                    <div class="input-field col s6" style="margin: 10px;">
+                        <i class="material-icons prefix">assignment_ind</i>
+                        <input id="icon_prefix" type="text" class="validate">
+                        <label for="icon_prefix">Last Name</label>
+                    </div>
 
-                    <!--firstname-->
-                <div class="input-field col s6" style="top: 20px;">
-                    <i class="material-icons prefix">account_circle</i>
+                    <label style="color: white; font-size: 15px;">&nbsp; &nbsp;&nbsp;Select Your Division</label>
+                    <select class="browser-default z-depth-4" style="width: 90%; margin-left: auto; margin-right: auto;">
+                      <option value="" disabled selected>Choose your option</option>
+                      <option value="1">口腔外科</option>
+                      <option value="2">內科</option>
+                      <option value="3">腦神經科</option>
+                    </select>
+                </form>
+
+
+                <div class="input-field col s6" style="margin: 10px;">
+                    <i class="material-icons prefix">assignment_ind</i>
                     <input id="icon_prefix" type="text" class="validate">
-                    <label for="icon_prefix">First Name</label>
-                  </div>
-
-
+                    <label for="icon_prefix">E-mail</label>
+                </div>
 
                 <!--<span class="reg_logo">
             <img src="{% static 'image/login/IMDSS_logo.png' %}" width="85"> </span>
