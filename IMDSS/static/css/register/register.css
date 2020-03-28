@@ -101,3 +101,15 @@ input:required:hover {
     display: inline-block;
     
 }
+
+.name_group_first_name {
+    float: left;
+    width: 40%;
+    padding-left: 5%;
+}
+
+.name_group_last_name {
+    float: right;
+    width: 40%;
+    padding-right: 5%;
+}
