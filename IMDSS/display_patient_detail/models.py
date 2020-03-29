@@ -1,6 +1,8 @@
 from django.db import models
 
 # Create your models here.
+
+
 class Tpr_process(models.Model):
     """
     @louise
@@ -16,4 +18,4 @@ class Tpr_process(models.Model):
     cre_ti = models.IntegerField()
 
     def __str__(self):
-        return self.pat_no
+        return str(self.pat_no)
