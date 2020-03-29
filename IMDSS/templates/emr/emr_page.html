@@ -31,19 +31,13 @@
             <div id="dept-select-container">
                 <select id="dept_select" onchange="dept_change()">
                     <option value="" disabled selected>Select department</option>
-                    <option value="0">dept_1</option>
-                    <option value="1">dept_2</option>
-                    <option value="2">dept_3</option>
+                    {% for instance in dept_lst %}
+                        <option value={{forloop.counter0}}>{{ instance }}</option>
+                    {% endfor %}
                 </select>
             </div>
 
             <div id="table-select-container">
-                <select id="table_select" onchange="table_change()">
-                    <option value="" disabled selected>Select table</option>
-                    <option value="0">table_1</option>
-                    <option value="1">table_2</option>
-                    <option value="2">table_3</option>
-                    </select>
             </div>
         </div>
         <div class="divider"></div>

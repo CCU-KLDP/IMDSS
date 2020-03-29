@@ -10,8 +10,8 @@ def emr_view(request):
     disaply emr_page
     """
     content = {
-        "test_label": range(10),
         "emr_table": get_emr_table(),
+        "dept_lst": get_dept_lst(),
     }
 
     return render(request, "emr/emr_page.html", content)
@@ -44,29 +44,41 @@ def get_emr_table():
     return emr_lst
 
 
-def get_dept_CUI(request):
+def get_dept_table(request):
     """
     @pony
-    選擇科別的Select元素時，會列出該科別底下的所有CUI
+    選擇科別的Select元素時，會在旁邊的table Select內列出該dept下的所有table
     """
     dept_CUI_lst = {
-        "dept": ["dept_1", "dept_2", "dept_3"],
-        "dept_1": ["dept-1-CUI" + str(x) for x in range(10)],
-        "dept_2": ["dept-2-CUI" + str(x) for x in range(5)],
-        "dept_3": ["dept-3-CUI" + str(x) for x in range(2)],
+        "dept": get_dept_lst(),
     }
+
+    for i in get_dept_lst():
+        dept_CUI_lst[i] = get_table_lst(i)
+
     return JsonResponse(dept_CUI_lst)
 
 
-def get_table_CUI(request):
+def get_dept_lst():
     """
     @pony
-    選擇評估表的Select元素時，會列出該評估表底下的所有CUI
+    從資料庫獲得所有部門(科別)
     """
-    table_CUI_lst = {
-        "table": ["table_1", "table_2", "table_3"],
-        "table_1": ["table-1-CUI" + str(x) for x in range(5)],
-        "table_2": ["table-2-CUI" + str(x) for x in range(3)],
-        "table_3": ["table-3-CUI" + str(x) for x in range(7)],
+    return ["dept_1", "dept_2", "dept_3", "dept_4", "dept_5"]
+
+
+def get_table_lst(dept):
+    table_lst = ["table_" + str(x) for x in range(10)]
+    table_dict = {
+        "dept_1": [table_lst[0], table_lst[1], table_lst[2]],
+        "dept_2": [table_lst[0], table_lst[2], table_lst[4]],
+        "dept_3": [table_lst[4], table_lst[6], table_lst[9]],
+        "dept_4": [table_lst[6], table_lst[7], table_lst[8]],
+        "dept_5": [table_lst[3], table_lst[5], table_lst[9]],
     }
-    return JsonResponse(table_CUI_lst)
+    return table_dict[dept]
+
+
+def get_table_item(request):
+    item_lst = ["CUI_" + str(x) for x in range(30)]
+

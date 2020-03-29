@@ -4,29 +4,30 @@ $(document).ready(function(){
 
 function dept_change(){
     var dept_idx = document.getElementById("dept_select").value;
-    var cui_lst_container = document.getElementById("middle-list-container");
-    var insert_html = "";
+    var table_container = document.getElementById("table-select-container");
+    var insert_html = '<select id="table_select" onchange="table_change()">';
+    insert_html += '<option value="" disabled selected>Select table</option>';
     $.ajax({
         type: "GET",
-        url: "http://127.0.0.1:8000/emr_search/dept_CUI",
+        url: "http://127.0.0.1:8000/emr_search/dept_table",
         dataType: "json",
         success: function(result){
             selected_dept = result.dept[dept_idx];
             for(i=0;i < result[selected_dept].length;i++){
                 html = 
-                    '<div class="item-list-container">'+
-                    "<label>"+
-                    '<input type="checkbox" class="filled-in item-list" />'+
-                    "<span>"+
-                    result[selected_dept][i]+
-                    "</span>"+
-                    "</label>"+
-                    "</div>";
-                insert_html += html   
+                '<option value='+
+                i+
+                ">"+
+                result[selected_dept][i]+
+                "</option>";
+                insert_html += html;
             }
-
-            cui_lst_container.innerHTML = insert_html;
-        }
+            insert_html += "</select>";
+            table_container.innerHTML = insert_html;
+            $(document).ready(function(){
+                $('select').formSelect();
+            });
+        }  
     });
 }
 
@@ -36,7 +37,7 @@ function table_change(){
     var insert_html = "";
     $.ajax({
         type: "GET",
-        url: "http://127.0.0.1:8000/emr_search/table_CUI",
+        url: "http://127.0.0.1:8000/emr_search/table_item",
         dataType: "json",
         success: function(result){
             selected_table = result.table[table_idx];
