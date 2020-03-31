@@ -53,7 +53,8 @@ please write your code below here!
 def grid_multiple_charts() -> Grid:
     """
     @pony
-    demo the pyecharts library
+    @return grid(json like object)
+    @param dict，key為日期、生理特徵種類、藥物種類等，value使用list將每個資料存起來
     """
     x_data = ["{}月".format(i) for i in range(1, 40)]
     data = list(range(10, 151))
