@@ -53,7 +53,7 @@
             <a class="waves-effect waves-light btn">button</a>
             <a class="waves-effect waves-light btn">button</a>
         </div>
-        <div class="select-emr">
+        <div class="select-emr-section">
             <div id="search-bar">
                 <div class="search-text">
                     <script>
@@ -64,29 +64,40 @@
                 </div>
                 <img src="{% static 'image/emr/search_icon_black.png' %}" id="search-icon">
             </div>
-            <div class="select-table">
-                <table>
-                    <tr>
-                        <th></th>
-                        <th>Date</th>
-                        <th>Type</th>
-                        <th>Department</th>
-                        <th>Diagnosis</th>
-                    </tr>
-                    {% for instance in emr_table %}
-                    <tr>
-                        {% if instance.star == 1 %}
-                            <td><i class="material-icons">star</i></td>
-                        {% else %}
-                            <td></td>
-                        {% endif %}
-                        <td>{{ instance.date }}</td>
-                        <td>{{ instance.type }}</td>
-                        <td>{{ instance.dept }}</td>
-                        <td>{{ instance.diagnosis }}</td>
-                    </tr>
-                    {% endfor %}
+            <div class="select-emr-table-container">
+                <table id="select-emr-table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Id</th>
+                            <th>Date</th>
+                            <th>Type</th>
+                            <th>Department</th>
+                            <th>Diagnosis</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for instance in emr_table %}
+                        <tr>
+                            {% if instance.star == 1 %}
+                                <td><i class="material-icons">star</i></td>
+                            {% else %}
+                                <td></td>
+                            {% endif %}
+                            <td>{{ instance.id }}</td>
+                            <td>{{ instance.date }}</td>
+                            <td>{{ instance.type }}</td>
+                            <td>{{ instance.dept }}</td>
+                            <td>{{ instance.diagnosis }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
                 </table>
+            </div>
+        </div>
+        <div class="emr-section">
+            <div class="emr-container">
+                <img src="{% static 'image/emr/test_cat.jpg' %}" alt="">
             </div>
         </div>
             

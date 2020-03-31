@@ -32,22 +32,21 @@ function dept_change(){
 }
 
 function table_change(){
-    var table_idx = document.getElementById("table_select").value;
     var cui_lst_container = document.getElementById("middle-list-container");
     var insert_html = "";
     $.ajax({
         type: "GET",
         url: "http://127.0.0.1:8000/emr_search/table_item",
+        data: {"selected_table": $("#table_select option:selected").text()},
         dataType: "json",
         success: function(result){
-            selected_table = result.table[table_idx];
-            for(i=0;i < result[selected_table].length;i++){
+            for(i=0;i < result.length;i++){
                 html = 
                     '<div class="item-list-container">'+
                     "<label>"+
                     '<input type="checkbox" class="filled-in item-list" />'+
                     "<span>"+
-                    result[selected_table][i]+
+                    result[i]+
                     "</span>"+
                     "</label>"+
                     "</div>";
