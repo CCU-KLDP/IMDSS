@@ -381,9 +381,9 @@ def display_patient_detail_view(request):
 
 
 def ajax_get_patient_emr(request):
-    print(request.GET)
-    x_data = request.GET['x_data']
-    y_data = request.GET['y_data[]']
+    print(request.POST)
+    x_data = request.POST['x_data']
+    y_data = request.POST['y_data[]']
     print("x : {}".format(x_data))
     print("y : {}".format(y_data))
 
