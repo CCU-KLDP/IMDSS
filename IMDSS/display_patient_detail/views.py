@@ -56,6 +56,8 @@ def grid_multiple_charts() -> Grid:
     @return grid(json like object)
     @param dict，key為日期、生理特徵種類、藥物種類等，value使用list將每個資料存起來
     """
+
+    # fake data
     x_data = ["{}月".format(i) for i in range(1, 40)]
     data = list(range(10, 151))
     shuffle(data)
@@ -102,6 +104,7 @@ def grid_multiple_charts() -> Grid:
             xaxis_index=0,
             yaxis_index=2,
         )
+        
         .extend_axis(
             yaxis=opts.AxisOpts(
                 name="Temperature",
@@ -210,6 +213,7 @@ def grid_multiple_charts() -> Grid:
             ),
         )
     )
+
     bar_1 = (
         Bar()
         .add_xaxis(x_data)
@@ -325,6 +329,7 @@ def grid_multiple_charts() -> Grid:
 
     grid = (
         Grid()
+        
         .add(
             line,
             grid_opts=opts.GridOpts(
@@ -350,6 +355,7 @@ def grid_multiple_charts() -> Grid:
             is_control_axis_index=True,
         )
         .dump_options_with_quotes()
+        
     )
     return grid
 
@@ -372,3 +378,13 @@ def display_patient_detail_view(request):
 
     }
     return render(request, "display_patient_detail/detail_page.html", content)
+
+
+def ajax_get_patient_emr(request):
+    print(request.GET)
+    x_data = request.GET['x_data']
+    y_data = request.GET['y_data[]']
+    print("x : {}".format(x_data))
+    print("y : {}".format(y_data))
+
+    return JsonResponse(x_data)
