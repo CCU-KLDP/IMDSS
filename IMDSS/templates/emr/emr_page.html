@@ -65,7 +65,7 @@
                 <img src="{% static 'image/emr/search_icon_black.png' %}" id="search-icon">
             </div>
             <div class="select-emr-table-container">
-                <table id="select-emr-table">
+                <table id="select-emr-table" >
                     <thead>
                         <tr>
                             <th></th>
@@ -78,18 +78,22 @@
                     </thead>
                     <tbody>
                         {% for instance in emr_table %}
-                        <tr>
-                            {% if instance.star == 1 %}
-                                <td><i class="material-icons">star</i></td>
+                            {% if forloop.counter0 == 0 %}
+                                <tr class="selected">
                             {% else %}
-                                <td></td>
+                                <tr>
                             {% endif %}
-                            <td>{{ instance.id }}</td>
-                            <td>{{ instance.date }}</td>
-                            <td>{{ instance.type }}</td>
-                            <td>{{ instance.dept }}</td>
-                            <td>{{ instance.diagnosis }}</td>
-                        </tr>
+                                    {% if instance.star == 1 %}
+                                        <td><i class="material-icons">star</i></td>
+                                    {% else %}
+                                        <td></td>
+                                    {% endif %}
+                                    <td>{{ instance.id }}</td>
+                                    <td>{{ instance.date }}</td>
+                                    <td>{{ instance.type }}</td>
+                                    <td>{{ instance.dept }}</td>
+                                    <td>{{ instance.diagnosis }}</td>
+                                </tr>
                         {% endfor %}
                     </tbody>
                 </table>

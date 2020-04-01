@@ -55,10 +55,9 @@
 }
 
 
-
 #select-emr-table>thead>tr{
     display: table;
-    width: 100%;
+    width: 98%;
     table-layout: fixed;
 }
 #select-emr-table>tbody{
@@ -72,6 +71,15 @@
     table-layout: fixed;
 }
 
+#select-emr-table>tbody>tr:hover {
+    background-color: rgb(189,189,189);
+}
+
+#select-emr-table>tbody>tr.selected {
+    background-color: rgb(66,66,66);
+}
+
+
 .emr-container {
     margin-top: 2%;
     padding-left: 1.5%;
@@ -81,3 +89,4 @@
     height: 350px;
     overflow: scroll;
 }
+

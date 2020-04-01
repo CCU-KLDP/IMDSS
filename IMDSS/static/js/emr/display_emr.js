@@ -12,8 +12,10 @@ function search_icon_to_black() {
     bar.style.border = "1px solid black"
 }
 
-$("#select-emr-table tbody").on("click", "tr", function() {
-    var selected_emr_id=$(this).find("td:eq(1)").text()
+$("#select-emr-table>tbody").on("click", "tr", function() {
+    var selected_emr_id=$(this).find("td:eq(1)").text();
+    $("#select-emr-table>tbody>tr").removeClass("selected")
+    $(this).addClass("selected")
     $.ajax({
         type: "GET",
         url: "http://127.0.0.1:8000/emr_search/get_emr",
@@ -23,5 +25,10 @@ $("#select-emr-table tbody").on("click", "tr", function() {
  
         }
         
-    })
+    });
+});
+
+$("#select-emr-table tbody").on("hover", "tr", function() {
+    alert(123)
+    $(this).style.bgColor=rgb(189, 189, 189)
 });
