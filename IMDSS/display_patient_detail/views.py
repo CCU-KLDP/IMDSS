@@ -54,7 +54,7 @@ def grid_multiple_charts() -> Grid:
     """
     @pony
     @return grid(json like object)
-    @param dict，key為日期、生理特徵種類、藥物種類等，value使用list將每個資料存起來
+    @param list 所有type的資料都用list給(日期、生理資料、藥物使用)，每一個index要對好，缺的index用null塞
     """
 
     # fake data
@@ -69,6 +69,7 @@ def grid_multiple_charts() -> Grid:
     y_SBP = bar_data[:40]
     y_DBP = bar_data[40:80]
 
+    # 生理圖表-line-1
     line = (
         Line()
         .add_xaxis(x_data)
@@ -104,7 +105,6 @@ def grid_multiple_charts() -> Grid:
             xaxis_index=0,
             yaxis_index=2,
         )
-        
         .extend_axis(
             yaxis=opts.AxisOpts(
                 name="Temperature",
@@ -214,6 +214,7 @@ def grid_multiple_charts() -> Grid:
         )
     )
 
+    # 生理圖表bar-1
     bar_1 = (
         Bar()
         .add_xaxis(x_data)
@@ -276,6 +277,7 @@ def grid_multiple_charts() -> Grid:
         )
     )
 
+    # 藥物使用bar-1
     bar_drag_1 = (
         Bar()
         .add_xaxis(x_data)
@@ -365,6 +367,7 @@ def chart_view(request):
     @pony
     render the charts to json
     """
+    print(json.loads(grid_multiple_charts()))
     return JsonResponse(json.loads(grid_multiple_charts()))
     # grid_multiple_charts
 
@@ -381,10 +384,21 @@ def display_patient_detail_view(request):
 
 
 def ajax_get_patient_emr(request):
-    print(request.POST)
+    """
+    @pony
+    get frontend click event data by ajax
+    """
+    flag = 0
+    for i in request.POST.keys():
+        if "[]" in i:
+            flag = 1
+    if flag == 1:
+        y_data = request.POST['y_data[]']
+    else:
+        y_data = request.POST['y_data']
+
     x_data = request.POST['x_data']
-    y_data = request.POST['y_data[]']
-    print("x : {}".format(x_data))
-    print("y : {}".format(y_data))
+    print("server get x : {}".format(x_data))
+    print("server get y : {}".format(y_data))
 
     return JsonResponse(x_data)

@@ -56,7 +56,7 @@ function fetchData() {
                     dataType:'json',
                     data: {"x_data": param.name, "y_data": param.value},
                     success: function (result2) {
-                        alert(result2)
+
                     }
                 });
             });
