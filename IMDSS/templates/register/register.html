@@ -4,6 +4,7 @@
 
 {% block ref %}
 <link rel="stylesheet" href="{% static 'css/register/register.css' %}">
+<!--<link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
 {% endblock %}
 
 {% block content %}
@@ -75,22 +76,22 @@
                         <option value="3">腦神經科</option>
                     </select>
 
-                    <div class="input-field col s6" style="margin: 10px;">
+                    <div class="input-field col s6">
                         <i class="material-icons prefix">lock</i>
-                        <input id="icon_prefix" type="text" class="validate" required>
+                        <input id="icon_prefix" type="password" class="validate" required>
                         <label for="icon_prefix">Enter your password(required)</label>
                     </div>
-                    <div class="input-field col s6" style="margin: 10px;">
+                    <div class="input-field col s6">
                         <i class="material-icons prefix">lock</i>
-                        <input id="icon_prefix" type="text" class="validate" required>
+                        <input id="icon_prefix" type="password" class="validate" required>
                         <label for="icon_prefix">Enter your password again(required)</label>
                     </div>
 
 
                     <div class="input-field col s6" style="margin: 10px;">
                         <i class="material-icons prefix">email</i>
-                        <input id="icon_prefix" type="text" class="validate" required>
-                        <label for="icon_prefix">E-mail(required))</label>
+                        <input id="icon_prefix" type="email" class="validate" placeholder="sophie@example.com"required>
+                        <label for="icon_prefix">E-mail(required)</label>
                     </div>
                     <a class="waves-effect waves-light btn-large btn_signup">SIGN UP</a>
             </form>
