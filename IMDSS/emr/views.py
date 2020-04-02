@@ -119,6 +119,10 @@ def ajax_get_table_item(request):
 
 
 def ajax_get_emr(request):
+    """
+    @pony
+    獲取select-emr-table所選擇的病歷id
+    """
     id = request.GET['selected_emr_id']
     string = "Server get id : "+id
     print(string)
