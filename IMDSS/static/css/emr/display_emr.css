@@ -72,11 +72,11 @@
 }
 
 #select-emr-table>tbody>tr:hover {
-    background-color: rgb(189,189,189);
+    background-color: rgb(128,203,196);
 }
 
 #select-emr-table>tbody>tr.selected {
-    background-color: rgb(66,66,66);
+    background-color: rgb(38,166,154);
 }
 
 
