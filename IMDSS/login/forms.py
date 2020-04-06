@@ -1,5 +1,6 @@
 from django import forms
-from .models import User_data, department_choices
+# from .models import User_data, department_choices
+from db_models.models import Doctor, Department, department_choices
 from django.contrib.auth.models import User
 
 class User_form(forms.ModelForm):
@@ -23,11 +24,11 @@ class User_data_create_form(forms.ModelForm):
     建立新使用者時用的form
     """
     department = forms.ChoiceField(
-        choices=department_choices
+        choices=[(department.dep_id, department.dep_name) for department in Department.objects.all()]
     )
 
     class Meta():
-        model = User_data
+        model = Doctor
         fields = [
             "name",
             "department"

@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'login',
-    "display_patient_detail",
+    'display_patient_detail',
+    'db_models',
 ]
 
 MIDDLEWARE = [
