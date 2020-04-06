@@ -61,34 +61,36 @@
                 <div class="input-field col s6 pd-left" style="margin: 10px;">
                     <i class="material-icons prefix cal">dialpad</i>
                     <input id="id_text" type="text" class="validate" required>
-                    <label for="id_text">Doctor's ID(required)</label>
+                    <label for="id_text">Doctor's ID</label>
                 </div>
 
                 <label id="slct_div">&nbsp; &nbsp;&nbsp;Select Your Division</label>
-                <select class="browser-default z-depth-4" style="width: 90%; margin-left: auto; margin-right: auto;">
+                <select class="browser-default z-depth-4 dd_sel">
                     <option value="" disabled selected>Choose your option</option>
-                    <option value="1">口腔外科</option>
-                    <option value="2">內科</option>
-                    <option value="3">腦神經科</option>
+                    <option value="1">Anesthesiology</option>
+                    <option value="2">Dermatology</option>
+                    <option value="3">Neurology</option>
+                    <option value="4">Pathology</option>
+                    <option value="5">Surgery</option>
                 </select>
 
                 <div class="input-field col s6 pd-left">
                     <i class="material-icons prefix lock">lock</i>&nbsp;&nbsp;
                     <input id="pwd_text" type="password" class="validate" required>
-                    <label for="pwd_text">Enter your password(required)</label>
+                    <label for="pwd_text">Enter your password</label>
                 </div>
                 <div class="input-field col s6 pd-left">
                     <i class="material-icons prefix lock">lock</i>&nbsp;&nbsp;
                     <input id="confirm_pwd_text" type="password" class="validate" required>
-                    <label for="confirm_pwd_text">Enter your password again(required)</label>
+                    <label for="confirm_pwd_text">Enter your password again</label>
                     <span id="message"></span>
                 </div>
 
 
-                <div class="input-field col s6" style="margin: 10px;">
+                <div class="input-field col s6 email_field">
                     <i class="material-icons prefix mail">email</i>
-                    <input id="email_text" type="email" class="validate" placeholder="sophie@example.com" required>
-                    <label for="email_text">E-mail(required)</label>
+                    <input id="email_text" type="email" class="validate" placeholder="&nbsp;sophie@example.com" required>
+                    <label for="email_text"><h6 >E-mail Address</h6></label>
                 </div>
                 <a class="waves-effect waves-light btn-large btn_signup">SIGN UP</a>
             </form>
