@@ -2,11 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 
 # Create your models here.
-department_choices = (
-        ("dept1", "dept1"),
-        ("dept2", "dept2"),
-        ("dept3", "dept3")
-)
+
 
 class Department(models.Model):
     """
@@ -73,10 +69,16 @@ class OutPatient_data(models.Model):
     Outpatient_data
     """
     time = models.DateField()
-    doctor_id = models.ForeignKey(Doctor, on_delete=models.DO_NOTHING,
-                                  to_field='doctor_id', related_name='outpatient_doctor')
-    patient_id = models.ForeignKey(Patient, on_delete=models.DO_NOTHING,
-                                   to_field='patient_id', related_name='outpatient_patients')
+    doctor_id = models.ForeignKey(
+        Doctor, on_delete=models.DO_NOTHING,
+        to_field='doctor_id',
+        related_name='outpatient_doctor'
+        )
+    patient_id = models.ForeignKey(
+        Patient, on_delete=models.DO_NOTHING,
+        to_field='patient_id',
+        related_name='outpatient_patients'
+        )
     dep_id = models.ForeignKey(
         Department, on_delete=models.DO_NOTHING, to_field='dep_id')
     med_id = models.ForeignKey(
@@ -86,7 +88,10 @@ class OutPatient_data(models.Model):
 class Tpr_data(models.Model):
     create_at = models.DateField()  # Server日期/時間
     medical_record = models.IntegerField()  # 病歷號
-    patient_id = models.ForeignKey(Patient, on_delete=models.DO_NOTHING, to_field='patient_id')
+    patient_id = models.ForeignKey(
+        Patient, on_delete=models.DO_NOTHING,
+        to_field='patient_id'
+        )
     # item = models.CharField(max_length=100)  # 量測的項
     # value = models.IntegerField()
     source = models.IntegerField()  # 量測來源
@@ -98,6 +103,7 @@ class Tpr_data(models.Model):
     login_user = models.ForeignKey(User, on_delete=models.DO_NOTHING)  # 登錄者
     resident_doctor = models.ForeignKey(
         Doctor, on_delete=models.DO_NOTHING)  # 登錄時的主治醫師
+
     def __str__(self):
         return self.patient_id
 
@@ -109,12 +115,28 @@ class Hospitalized_data(models.Model):
     """
     time = models.DateField(auto_now=False)
     doctor_id = models.ForeignKey(
-        Doctor, on_delete=models.DO_NOTHING, to_field='doctor_id', related_name='hospitalized_doctor')
-    patient_id = models.ForeignKey('db_models.Patient', on_delete=models.DO_NOTHING,
-                                   to_field='patient_id', related_name='hospitalized_patients')
+        Doctor, on_delete=models.DO_NOTHING,
+        to_field='doctor_id',
+        related_name='hospitalized_doctor'
+        )
+    patient_id = models.ForeignKey(
+        'db_models.Patient',
+        on_delete=models.DO_NOTHING,
+        to_field='patient_id',
+        related_name='hospitalized_patients'
+        )
     dep_id = models.ForeignKey(
-        Department, on_delete=models.DO_NOTHING, to_field='dep_id')
+        Department,
+        on_delete=models.DO_NOTHING,
+        to_field='dep_id'
+        )
     med_id = models.ForeignKey(
-        'db_models.Med', on_delete=models.DO_NOTHING, to_field='id')
+        'db_models.Med',
+        on_delete=models.DO_NOTHING,
+        to_field='id'
+        )
     tpr_id = models.ForeignKey(
-        Tpr_data, on_delete=models.DO_NOTHING, to_field='id')
+        Tpr_data,
+        on_delete=models.DO_NOTHING,
+        to_field='id'
+        )
