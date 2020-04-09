@@ -86,15 +86,16 @@ class OutPatient_data(models.Model):
 
 
 class Tpr_data(models.Model):
-    create_at = models.DateField()  # Server日期/時間
-    medical_record = models.IntegerField()  # 病歷號
+    # medical_record = models.IntegerField()  # 病歷號
     patient_id = models.ForeignKey(
         Patient, on_delete=models.DO_NOTHING,
         to_field='patient_id'
         )
     # item = models.CharField(max_length=100)  # 量測的項
     # value = models.IntegerField()
-    source = models.IntegerField()  # 量測來源
+    # source = models.IntegerField()  # 量測來源
+    create_date = models.DateField()
+    create_time = models.TimeField()
     BT_TA = models.DecimalField(max_digits=4, decimal_places=1, null=True)
     HR = models.DecimalField(max_digits=4, decimal_places=1, null=True)
     RR = models.DecimalField(max_digits=4, decimal_places=1, null=True)
