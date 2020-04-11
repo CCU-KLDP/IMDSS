@@ -47,7 +47,7 @@ class Patient(models.Model):
 class Evaluation_form(models.Model):
     name = models.CharField(max_length=50)
     medical_condition = models.CharField(max_length=200)
-    time_form = models.IntegerField()
+    time_frame = models.CharField(max_length=50, null=True)
     cuis_list = models.CharField(max_length=500)
     dep_id = models.ForeignKey(
         'db_models.Department', on_delete=models.DO_NOTHING)

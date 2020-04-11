@@ -1,0 +1,44 @@
+.side-list-section {
+    float: left;
+    width: 27%;
+    text-align: center;
+    border-right: 1px solid black;
+    height: 93.25vh;
+}
+
+.top-select-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+
+#dept-select-container {
+    float: left;
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+
+#table-select-container {
+    float: right;
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+
+.divider {
+    float: none;
+    width: 100%;
+}
+
+#middle-list-container {
+    padding-top: 10%;
+    float: left;
+    width: 80%;
+    text-align: left;
+    margin-left: 15%;
+}
+
+.item-list-container {
+    padding-bottom: 6.5%;
+}

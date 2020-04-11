@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block ref %}
+<link rel="stylesheet" href="{% static 'css/emr/side_select.css' %}">
+<link rel="stylesheet" href="{% static 'css/emr/display_emr.css' %}">
+{% endblock %}
+
+
+{% block content %}
+<body bgcolor="#f5f5f5">
+    <nav class="nav-wrapper grey darken-3 ">
+        <div class="container">
+            <div class="row">
+                <div class="col s1">
+                    <a href="/login" class="small brand-logo">
+                        <img class="responsive-img" src="{% static 'image/login/nav_icon.png' %}" width="150" >
+                    </a>
+                </div>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="/login">Another1</a></li>
+                    <li><a href="/login">Another2</a></li>
+                    <li><a href="/login">Another3</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="side-list-section">
+        <div class="top-select-container input-field fixed">
+            <div id="dept-select-container">
+                <select id="dept_select" onchange="dept_change()">
+                    <option value="" disabled selected>Select department</option>
+                    {% for instance in dept_lst %}
+                        <option value={{forloop.counter0}}>{{ instance }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div id="table-select-container">
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div id="middle-list-container">
+        </div>
+    </div>
+    <div class="display-emr-section">
+        <div class="selected-attribute">
+            <a class="waves-effect waves-light btn">button</a>
+            <a class="waves-effect waves-light btn">button</a>
+            <a class="waves-effect waves-light btn">button</a>
+            <a class="waves-effect waves-light btn">button</a>
+            <a class="waves-effect waves-light btn">button</a>
+            <a class="waves-effect waves-light btn">button</a>
+        </div>
+        <div class="select-emr-section">
+            <div id="search-bar">
+                <div class="search-text">
+                    <script>
+                        var green_pic = "{% static 'image/emr/search_icon_green.png' %}"
+                        var black_pic = "{% static 'image/emr/search_icon_black.png' %}"
+                    </script>
+                    <input placeholder="病歷號查詢" type="text" onmousedown="search_icon_to_green()" onblur="search_icon_to_black()">
+                </div>
+                <img src="{% static 'image/emr/search_icon_black.png' %}" id="search-icon">
+            </div>
+            <div class="select-emr-table-container">
+                <table id="select-emr-table" >
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Id</th>
+                            <th>Date</th>
+                            <th>Type</th>
+                            <th>Department</th>
+                            <th>Diagnosis</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for instance in emr_table %}
+                            {% if forloop.counter0 == 0 %}
+                                <tr class="selected">
+                            {% else %}
+                                <tr>
+                            {% endif %}
+                                    {% if instance.star == 1 %}
+                                        <td><i class="material-icons">star</i></td>
+                                    {% else %}
+                                        <td></td>
+                                    {% endif %}
+                                    <td>{{ instance.id }}</td>
+                                    <td>{{ instance.date }}</td>
+                                    <td>{{ instance.type }}</td>
+                                    <td>{{ instance.dept }}</td>
+                                    <td>{{ instance.diagnosis }}</td>
+                                </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="emr-section">
+            <div class="emr-container">
+                <img src="{% static 'image/emr/test_cat.jpg' %}" alt="">
+            </div>
+        </div>
+            
+    </div>
+    
+    
+
+    
+
+    {% block js-ref %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="{% static 'js/materialize.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/emr/sidenav.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/emr/display_emr.js' %}"></script>
+    {% endblock js-ref %}
+</body>
+{% endblock content %}

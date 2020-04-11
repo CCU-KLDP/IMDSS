@@ -39,8 +39,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'login',
+<<<<<<< HEAD
     'display_patient_detail',
     'db_models',
+=======
+    "display_patient_detail",
+    "emr",
+>>>>>>> origin/emr
 ]
 
 MIDDLEWARE = [
