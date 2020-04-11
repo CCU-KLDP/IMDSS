@@ -10,8 +10,13 @@ IMDSS/display_patient_detail/migrations/__pycache__
 IMDSS/emr/__pycache__
 IMDSS/emr/migrations/__pycache__
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 IMDSS/register/__pycache__
 IMDSS/register/migrations/__pycache__
 >>>>>>> origin/emr
+=======
+IMDSS/register/__pycache__
+IMDSS/register/migrations/__pycache__
+>>>>>>> origin/register
 IMDSS/IMDSS/config.py

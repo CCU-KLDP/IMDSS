@@ -1,0 +1,168 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block ref %}
+<link rel="stylesheet" href="{% static 'css/register/register.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<body>
+    <!--BODY-->
+    <div class="navbar-fixed">
+        <nav class="nav-wrapper grey darken-3 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col s1">
+                        <a href="/login" class="small brand-logo">
+                            <img class="responsive-img" src="{% static 'image/login/nav_icon.png' %}" width="150">
+                        </a>
+                    </div>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="/login">Another1</a></li>
+                        <li><a href="/login">Another2</a></li>
+                        <li><a href="/login">Another3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="page_body">
+        <div class="reg_bg">
+        </div>
+        <div class="signup_panel z-depth-4">
+            <h2 class="sufo" style="left: 100px;">&nbsp;Sign Up</h2>
+            <h7 style="left: 100px;">&nbsp;&nbsp;&nbsp;&nbsp;Already have an account?<a href=""><u>
+                        <h7 style="color: rgb(55, 228, 199);"><b> sign in</b></h7>
+                    </u></a></h7>
+            <hr size="2px" align="center" width="80%" style="opacity: 0.5;">
+
+            <!--Form start-->
+            <form class="col s12">
+
+
+
+                <div class="name_group">
+
+                    <!--first name-->
+                    <div class="input-field name_group_first_name">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="first_name_text" type="text" class="validate" required>
+                        <label for="first_name_text">&nbsp; &nbsp;First Name</label>
+
+                    </div>
+                    <!--last name-->
+                    <div class="input-field name_group_last_name">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="last_name_text" type="text" class="validate" required>
+                        <label for="last_name_text">Last Name</label>
+                    </div>
+                </div>
+                    <div class="input-field col s6" style="margin: 10px;">
+                        <i class="material-icons prefix">dialpad</i>
+                        <input id="id_text" type="text" class="validate" required>
+                        <label for="id_text">Doctor's ID(required)</label>
+                    </div>
+
+                    <label style="color: white; font-size: 15px;">&nbsp; &nbsp;&nbsp;Select Your Division</label>
+                    <select class="browser-default z-depth-4"
+                        style="width: 90%; margin-left: auto; margin-right: auto;">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">口腔外科</option>
+                        <option value="2">內科</option>
+                        <option value="3">腦神經科</option>
+                    </select>
+
+                    <div class="input-field col s6" style="margin: 10px;">
+                        <i class="material-icons prefix">lock</i>
+                        <input id="pwd_text" type="text" class="validate" required>
+                        <label for="pwd_text">Enter your password(required)</label>
+                    </div>
+                    <div class="input-field col s6" style="margin: 10px;">
+                        <i class="material-icons prefix">lock</i>
+                        <input id="confirm_pwd_text" type="text" class="validate" required>
+                        <label for="confirm_pwd_text">Enter your password again(required)</label>
+                    </div>
+
+
+                    <div class="input-field col s6" style="margin: 10px;">
+                        <i class="material-icons prefix">email</i>
+                        <input id="email_text" type="text" class="validate" required>
+                        <label for="email_text">E-mail(required))</label>
+                    </div>
+                    <a class="waves-effect waves-light btn-large btn_signup">SIGN UP</a>
+            </form>
+
+
+
+
+
+            <!--<span class="reg_logo">
+        <img src="{% static 'image/login/IMDSS_logo.png' %}" width="85"> </span>
+            -->
+        </div>
+    </div>
+    <!--姓名、帳號、密碼、信箱、科別選單、醫師編號-->
+
+
+
+
+
+
+
+
+
+
+
+
+    <div>
+        <footer class="page-footer footer-position grey darken-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12 about_us">
+                        <h6 class="white-text">About us : </h6>
+                        <p class="grey-text text-lighten-4"></p>
+                        <img class="col s3 offset-s4" src="{% static 'image/login/member.jpg' %}" width="100%">
+                        <a href="https://github.com/CCU-KLDP" class="col s5 white-text">
+                            <h5><u>CCU-KLDP</u></h5><br>
+                        </a>
+                    </div>
+                    <div class="col l4 offset-s10 s12">
+                        <h5.5 class="white-text">Members' Github</h5.5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="https://github.com/PoPoPoPony">
+                                    <h7>Pony Yang: https://github.com/PoPoPoPony</h7>
+                                </a></li>
+                            <li><a class="grey-text text-lighten-3" href="https://github.com/vt017017">
+                                    <h7>Louise Lin: https://github.com/vt017017</h7>
+                                </a></li>
+                            <li><a class="grey-text text-lighten-3" href="https://github.com/dannnnny12">
+                                    <h7>Danny Chung: https://github.com/dannnnny12</h7>
+                                </a></li>
+                            <li><a class="grey-text text-lighten-3" href="https://github.com/Apple1122">
+                                    <h7>Kyle Huang: https://github.com/Apple1122</h7>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2020 Copyright Text
+                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    {% block js-ref %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" , src="{% static 'js/materialize.js' %}"></script>
+
+
+    {% endblock js-ref %}
+</body>
+{% endblock content %}

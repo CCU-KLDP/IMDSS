@@ -20,5 +20,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("login/", include("login.urls")),
     path("patient_detail/", include("display_patient_detail.urls")),
+<<<<<<< HEAD
     path("emr_search/", include("emr.urls")),
+=======
+    path("register/", include("register.urls")),
+>>>>>>> origin/register
 ]

@@ -44,8 +44,12 @@ INSTALLED_APPS = [
     'db_models',
 =======
     "display_patient_detail",
+<<<<<<< HEAD
     "emr",
 >>>>>>> origin/emr
+=======
+    "register",
+>>>>>>> origin/register
 ]
 
 MIDDLEWARE = [
