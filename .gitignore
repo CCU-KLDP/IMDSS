@@ -1,5 +1,6 @@
 .venv/
 .vscode/
+IMDSS/__pycache__
 IMDSS/IMDSS/__pycache__
 IMDSS/login/__pycache__
 IMDSS/login/migrations/__pycache__
@@ -11,6 +12,7 @@ IMDSS/emr/__pycache__
 IMDSS/emr/migrations/__pycache__
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 IMDSS/register/__pycache__
 IMDSS/register/migrations/__pycache__
@@ -20,3 +22,6 @@ IMDSS/register/__pycache__
 IMDSS/register/migrations/__pycache__
 >>>>>>> origin/register
 IMDSS/IMDSS/config.py
+=======
+IMDSS/IMDSS/config.py
+>>>>>>> origin/select_patient
