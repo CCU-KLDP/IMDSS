@@ -18,16 +18,10 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-<<<<<<< HEAD
     path("login/", include("login.urls")),
     path("patient_detail/", include("display_patient_detail.urls")),
-<<<<<<< HEAD
     path("emr_search/", include("emr.urls")),
-=======
     path("register/", include("register.urls")),
->>>>>>> origin/register
-=======
     path("select_patient/", include("select_patient.urls")),
-    path("login/", include("login.urls"))
->>>>>>> origin/select_patient
+    path("login/", include("login.urls")),
 ]

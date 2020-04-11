@@ -40,17 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "select_patient",
     'login',
-<<<<<<< HEAD
-    'display_patient_detail',
     'db_models',
-=======
     "display_patient_detail",
-<<<<<<< HEAD
     "emr",
->>>>>>> origin/emr
-=======
     "register",
->>>>>>> origin/register
 ]
 
 MIDDLEWARE = [
