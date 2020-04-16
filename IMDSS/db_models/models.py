@@ -9,8 +9,8 @@ class Department(models.Model):
     @Kyle
     department
     """
-    dep_id = models.IntegerField(unique=True, primary_key=True)
-    dep_name = models.CharField(max_length=50)
+    dep_id = models.CharField(max_length=100, unique=True, primary_key=True)
+    dep_name = models.CharField(max_length=100)
 
     def __str__(self):
         return self.dep_name
@@ -21,12 +21,14 @@ class Doctor(models.Model):
     @Kyle
     replace User_data
     """
-    doctor_id = models.IntegerField(unique=True, primary_key=True)
+    doctor_id = models.CharField(max_length=100, unique=True, primary_key=True)
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     name = models.CharField(max_length=100)
     create_time = models.DateField()
     department = models.ForeignKey(
-        'db_models.Department', on_delete=models.DO_NOTHING)
+        'db_models.Department',
+        on_delete=models.DO_NOTHING
+        )
 
     def __str__(self):
         return self.name
@@ -36,7 +38,7 @@ class Doctor(models.Model):
 
 
 class Patient(models.Model):
-    patient_id = models.IntegerField(unique=True)
+    patient_id = models.CharField(max_length=100, unique=True)
     name = models.CharField(max_length=20)
     gender = models.CharField(max_length=10)
     medical_condition = models.CharField(max_length=200)
@@ -48,14 +50,16 @@ class Evaluation_form(models.Model):
     name = models.CharField(max_length=50)
     medical_condition = models.CharField(max_length=200)
     time_frame = models.CharField(max_length=50, null=True)
-    cuis_list = models.CharField(max_length=500)
+    cuis_list = models.CharField(max_length=2500)
     dep_id = models.ForeignKey(
-        'db_models.Department', on_delete=models.DO_NOTHING)
+        'db_models.Department',
+        on_delete=models.DO_NOTHING
+        )
 
 
 class Med(models.Model):
     MedPRS = models.CharField(max_length=100)  # 處置代碼
-    OrderId = models.CharField(max_length=50)  # NIA編號+NIB序號
+    OrderId = models.CharField(max_length=100)  # NIA編號+NIB序號
     begin_at = models.DateField()
     end_at = models.DateField()
     routePmName = models.CharField(max_length=50)  # 途徑代碼
@@ -70,40 +74,46 @@ class OutPatient_data(models.Model):
     """
     time = models.DateField()
     doctor_id = models.ForeignKey(
-        Doctor, on_delete=models.DO_NOTHING,
+        'db_models.Doctor',
+        on_delete=models.DO_NOTHING,
         to_field='doctor_id',
         related_name='outpatient_doctor'
         )
     patient_id = models.ForeignKey(
-        Patient, on_delete=models.DO_NOTHING,
+        'db_models.Patient',
+        on_delete=models.DO_NOTHING,
         to_field='patient_id',
         related_name='outpatient_patients'
         )
     dep_id = models.ForeignKey(
-        Department, on_delete=models.DO_NOTHING, to_field='dep_id')
+        'db_models.Department',
+        on_delete=models.DO_NOTHING,
+        to_field='dep_id'
+        )
     med_id = models.ForeignKey(
-        Med, on_delete=models.DO_NOTHING, to_field='id')
+        'db_models.Med',
+        on_delete=models.DO_NOTHING,
+        to_field='id'
+        )
 
 
 class Tpr_data(models.Model):
     # medical_record = models.IntegerField()  # 病歷號
     patient_id = models.ForeignKey(
-        Patient, on_delete=models.DO_NOTHING,
-        to_field='patient_id'
+        'db_models.Patient',
+        on_delete=models.DO_NOTHING,
+        to_field='patient_id',
         )
-    # item = models.CharField(max_length=100)  # 量測的項
-    # value = models.IntegerField()
+    item = models.CharField(max_length=100, null=True)  # 量測的項
+    value = models.DecimalField(max_digits=4, decimal_places=1, null=True)
     # source = models.IntegerField()  # 量測來源
-    create_date = models.DateField()
-    create_time = models.TimeField()
-    BT_TA = models.DecimalField(max_digits=4, decimal_places=1, null=True)
-    HR = models.DecimalField(max_digits=4, decimal_places=1, null=True)
-    RR = models.DecimalField(max_digits=4, decimal_places=1, null=True)
-    DBP = models.DecimalField(max_digits=4, decimal_places=1, null=True)
-    SBP = models.DecimalField(max_digits=4, decimal_places=1, null=True)
+    create_date = models.DateField(null=True)
+    create_time = models.TimeField(null=True)
     login_user = models.ForeignKey(User, on_delete=models.DO_NOTHING)  # 登錄者
     resident_doctor = models.ForeignKey(
-        Doctor, on_delete=models.DO_NOTHING)  # 登錄時的主治醫師
+        'db_models.Doctor',
+        on_delete=models.DO_NOTHING
+        )  # 登錄時的主治醫師
 
     def __str__(self):
         return self.patient_id
@@ -116,9 +126,10 @@ class Hospitalized_data(models.Model):
     """
     time = models.DateField(auto_now=False)
     doctor_id = models.ForeignKey(
-        Doctor, on_delete=models.DO_NOTHING,
+        'db_models.Doctor',
+        on_delete=models.DO_NOTHING,
         to_field='doctor_id',
-        related_name='hospitalized_doctor'
+        related_name='hospitalized_doctor',
         )
     patient_id = models.ForeignKey(
         'db_models.Patient',
@@ -127,7 +138,7 @@ class Hospitalized_data(models.Model):
         related_name='hospitalized_patients'
         )
     dep_id = models.ForeignKey(
-        Department,
+        'db_models.Department',
         on_delete=models.DO_NOTHING,
         to_field='dep_id'
         )
@@ -137,7 +148,7 @@ class Hospitalized_data(models.Model):
         to_field='id'
         )
     tpr_id = models.ForeignKey(
-        Tpr_data,
+        'db_models.Tpr_data',
         on_delete=models.DO_NOTHING,
         to_field='id'
         )

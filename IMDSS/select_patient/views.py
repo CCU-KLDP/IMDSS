@@ -1,8 +1,8 @@
 from django.shortcuts import render
-from .models import Patient_data
+# from db_models.models import Patient
 from django.http import HttpResponseRedirect
 from django.urls import reverse
-from .forms import Patient_data_form
+# from .forms import Patient_data_form
 
 
 # Create your views here.
