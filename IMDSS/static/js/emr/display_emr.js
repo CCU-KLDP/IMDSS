@@ -13,7 +13,7 @@ function search_icon_to_black() {
 }
 
 $("#select-emr-table>tbody").on("click", "tr", function() {
-    var selected_emr_id=$(this).find("td:eq(1)").text();
+    var selected_emr_id=$(this).find("td:eq(2)").text();
     $("#select-emr-table>tbody>tr").removeClass("selected")
     $(this).addClass("selected")
     $.ajax({
@@ -29,6 +29,26 @@ $("#select-emr-table>tbody").on("click", "tr", function() {
 });
 
 $("#select-emr-table tbody").on("hover", "tr", function() {
-    alert(123)
     $(this).style.bgColor=rgb(189, 189, 189)
+});
+
+$("#search-icon").on("click", function(){
+    var input_text = $("input[name='input'] ").val()
+    $.ajax({
+        type: "GET",
+        url: "http://127.0.0.1:8000/emr_search/text_search_emr",
+        data: {"input_text": input_text},
+        dataType: "json",
+        success: function(result){
+            var html = '<i class="material-icons">search</i>'
+            for(i = 0;i < result.length;i++){
+                var location = '#select-emr-table tbody tr:eq(' + result[i] + ') td:nth-child(2)'
+                $(location).append(html)
+            }
+
+        }
+        
+    });
+
+
 });

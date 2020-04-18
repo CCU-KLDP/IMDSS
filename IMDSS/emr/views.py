@@ -128,3 +128,14 @@ def ajax_get_emr(request):
     print(string)
     
     return JsonResponse(string, safe=False)
+
+def ajax_get_search_emr(request):
+    """
+    @pony
+    搜尋需要標記的emr(by search text)
+    @return list，表示要標記的emr是第幾個(從0開始)
+    """
+    input_text = request.GET['input_text']
+    highlight = [1, 3]
+
+    return JsonResponse(highlight, safe=False)

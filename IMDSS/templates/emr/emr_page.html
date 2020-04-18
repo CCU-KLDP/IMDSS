@@ -45,14 +45,6 @@
         </div>
     </div>
     <div class="display-emr-section">
-        <div class="selected-attribute">
-            <a class="waves-effect waves-light btn">button</a>
-            <a class="waves-effect waves-light btn">button</a>
-            <a class="waves-effect waves-light btn">button</a>
-            <a class="waves-effect waves-light btn">button</a>
-            <a class="waves-effect waves-light btn">button</a>
-            <a class="waves-effect waves-light btn">button</a>
-        </div>
         <div class="select-emr-section">
             <div id="search-bar">
                 <div class="search-text">
@@ -60,15 +52,16 @@
                         var green_pic = "{% static 'image/emr/search_icon_green.png' %}"
                         var black_pic = "{% static 'image/emr/search_icon_black.png' %}"
                     </script>
-                    <input placeholder="病歷號查詢" type="text" onmousedown="search_icon_to_green()" onblur="search_icon_to_black()">
+                    <input name = input placeholder="病歷號查詢" type="text" onmousedown="search_icon_to_green()" onblur="search_icon_to_black()">
                 </div>
                 <img src="{% static 'image/emr/search_icon_black.png' %}" id="search-icon">
             </div>
             <div class="select-emr-table-container">
-                <table id="select-emr-table" >
+                <table id="select-emr-table">
                     <thead>
                         <tr>
-                            <th></th>
+                            <th width = 7%></th>
+                            <th width = 7%></th>
                             <th>Id</th>
                             <th>Date</th>
                             <th>Type</th>
@@ -83,11 +76,8 @@
                             {% else %}
                                 <tr>
                             {% endif %}
-                                    {% if instance.star == 1 %}
-                                        <td><i class="material-icons">star</i></td>
-                                    {% else %}
-                                        <td></td>
-                                    {% endif %}
+                                    <td width = 7%></td>
+                                    <td width = 7%></td>
                                     <td>{{ instance.id }}</td>
                                     <td>{{ instance.date }}</td>
                                     <td>{{ instance.type }}</td>
