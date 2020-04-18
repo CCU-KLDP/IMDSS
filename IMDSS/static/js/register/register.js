@@ -14,3 +14,9 @@ function validatePassword(){
 }
 password.oninput = validatePassword;
 confirm_password.oninput = validatePassword;
+
+function jump(){
+  location.href="http://127.0.0.1:8000/login/";
+  alert("register is done, now redirect to login page"); 
+}
+
