@@ -29,6 +29,8 @@ def get_emr_table(patient_id):
     """
     @pony
     get emr table from database(future)
+    @kyle
+    return date, type, dept, content(emr)
     """
 
     emr_df = pd.DataFrame(list(TestEmr.objects.filter(patient_id=patient_id).values()))
@@ -42,11 +44,10 @@ def get_emr_table(patient_id):
 
         emr_dict = {
             "star": 0,
-            "id": emr.iloc[0]['chartno'],
             "date": emr.iloc[0]['datetime'],
             "type": emr.iloc[0]['notetype'],
             "dept": 'secret',
-            "diagnosis": 'not yet',
+            "content": emr.iloc[:]['content']
         }
         emr_lst.append(emr_dict)
 

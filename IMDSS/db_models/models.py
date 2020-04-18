@@ -106,10 +106,10 @@ class Tpr_data(models.Model):
         )
     item = models.CharField(max_length=100, null=True)  # 量測的項
     value = models.DecimalField(max_digits=4, decimal_places=1, null=True)
+    unit = models.CharField(max_length=20, null=True)
     # source = models.IntegerField()  # 量測來源
     create_date = models.DateField(null=True)
     create_time = models.TimeField(null=True)
-    login_user = models.ForeignKey(User, on_delete=models.DO_NOTHING)  # 登錄者
     resident_doctor = models.ForeignKey(
         'db_models.Doctor',
         on_delete=models.DO_NOTHING
