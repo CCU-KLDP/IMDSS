@@ -41,13 +41,11 @@ def get_emr_table(patient_id):
 
     for key in keys:
         emr = emr_groups.get_group(key)
-
         emr_dict = {
-            "star": 0,
             "date": emr.iloc[0]['datetime'],
             "type": emr.iloc[0]['notetype'],
             "dept": 'secret',
-            "content": emr.iloc[:]['content']
+            "content": emr.iloc[:]['content'].str.strip()
         }
         emr_lst.append(emr_dict)
 
