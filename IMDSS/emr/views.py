@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from django.http import JsonResponse
+from db_models.models import Department
+from emr.models import TestEmr
 import random
 # Create your views here.
 
@@ -8,21 +10,31 @@ def emr_view(request):
     """
     @pony
     disaply emr_page
+
+    @Kyle
+    how to know which patient_id, 
+    2 ways: 1. passing data, 2. create global variable
     """
+    patient_id = '80001'
+
     content = {
-        "emr_table": get_emr_table(),
+        "emr_table": get_emr_table(patient_id),
         "dept_lst": get_dept_lst(),
     }
 
     return render(request, "emr/emr_page.html", content)
 
 
-def get_emr_table():
+def get_emr_table(patient_id):
     """
     @pony
     get emr table from database(future)
     """
 
+    emr_list = TestEmr.objects.filter(patient_id=patient_id)
+
+
+    
     # fake data
     emr_is_star = [0, 1, 0, 1, 0, 1]
     emr_id = [1, 2, 3, 4, 5, 6]
@@ -46,6 +58,16 @@ def get_emr_table():
     return emr_lst
 
 
+def get_dept_lst():
+    """
+    @pony
+    @return list
+    從資料庫獲得所有部門(科別)
+    @kyle
+    """
+    return list(Department.objects.all())
+
+
 def ajax_get_dept_table(request):
     """
     @pony
@@ -60,15 +82,6 @@ def ajax_get_dept_table(request):
         dept_table_lst[i] = get_dept_table(i)
 
     return JsonResponse(dept_table_lst)
-
-
-def get_dept_lst():
-    """
-    @pony
-    @return list
-    從資料庫獲得所有部門(科別)
-    """
-    return ["dept_1", "dept_2", "dept_3", "dept_4", "dept_5"]
 
 
 def get_dept_table(dept):

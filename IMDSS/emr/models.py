@@ -8,4 +8,16 @@
 from django.db import models
 
 
+class TestEmr(models.Model):
+    patient_id = models.CharField(db_column='Patient_ID', max_length=255, blank=True, null=True)  # Field name made lowercase.
+    chartno = models.CharField(db_column='ChartNo', max_length=255, blank=True, null=True)  # Field name made lowercase.
+    admissiondate = models.CharField(db_column='AdmissionDate', max_length=255, blank=True, null=True)  # Field name made lowercase.
+    erdate = models.CharField(db_column='ERDate', max_length=255, blank=True, null=True)  # Field name made lowercase.
+    notetype = models.CharField(db_column='NoteType', max_length=255, blank=True, null=True)  # Field name made lowercase.
+    datetime = models.CharField(db_column='DateTime', max_length=255, blank=True, null=True)  # Field name made lowercase.
+    serial = models.IntegerField(db_column='Serial', blank=True, null=True)  # Field name made lowercase.
+    content = models.TextField(db_column='Content', blank=True, null=True)  # Field name made lowercase.
 
+    class Meta:
+        managed = True
+        db_table = 'test_emr'
