@@ -265,7 +265,7 @@ def grid_multiple_charts() -> Grid:
                 ),
             ),
             title_opts=opts.TitleOpts(
-                title="SBP-DBP",
+                title="血壓",
                 pos_top="24%",
                 pos_left="10%",
                 title_textstyle_opts=opts.TextStyleOpts(
