@@ -4,7 +4,7 @@ import random
 # Create your views here.
 
 
-def emr_view(request):
+def emr_view(request, patient_id):
     """
     @pony
     disaply emr_page
