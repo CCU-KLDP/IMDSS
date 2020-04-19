@@ -137,5 +137,6 @@ def ajax_get_search_emr(request):
     """
     input_text = request.GET['input_text']
     highlight = [1, 3]
+    print(input_text)
 
     return JsonResponse(highlight, safe=False)

@@ -41,14 +41,14 @@ $("#search-icon").on("click", function(){
         dataType: "json",
         success: function(result){
             var html = '<i class="material-icons">search</i>'
+            for(i = 0;i < $("#select-emr-table tbody tr").size();i++){
+                location = '#select-emr-table tbody tr:eq(' + i + ') td:nth-child(2)'
+                $(location).empty()
+            }
             for(i = 0;i < result.length;i++){
                 var location = '#select-emr-table tbody tr:eq(' + result[i] + ') td:nth-child(2)'
                 $(location).append(html)
             }
-
-        }
-        
+        } 
     });
-
-
 });

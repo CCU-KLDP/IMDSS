@@ -72,11 +72,11 @@
 }
 
 #select-emr-table>tbody>tr:hover {
-    background-color: rgb(128,203,196);
+    background-color: rgb(178,223,219);
 }
 
 #select-emr-table>tbody>tr.selected {
-    background-color: rgb(38,166,154);
+    background-color: rgb(128,203,196);
 }
 
 
@@ -90,3 +90,10 @@
     overflow: scroll;
 }
 
+#select-emr-table thead th{
+    font-size: 130%;
+}
+
+#select-emr-table tbody tr td{
+    font-size: 120%;
+}
