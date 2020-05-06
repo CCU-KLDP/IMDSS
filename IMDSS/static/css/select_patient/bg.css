@@ -1,34 +1,68 @@
-.select-container{
-    visibility: visible;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0%;
-
+.row-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 8%;
+    margin-bottom: 30%;
     
-   /* max-width: initial;*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: relative;
-  
- }
+}
 
-.select-container .select{
-    position: relative;
-    text-align:center;
-    padding-top: 8%;
-    padding-bottom: 7.5%;
-    left: 37%;
-    max-width: 400px;
-    max-height: 700;
-  
-}
-.options{
-    font-size: 50px;
+.row-container .select{
     text-align: center;
-    left: 0px;
-    text-align: center;
-    position: relative;
-    max-width: 200px;
+    border: 1px solid black;
+    margin-left: 1.5%;
+    padding-right: 0%;
+    margin-top: 5%;
+    height: 50%;
+    width: 45%;
 }
+
+#select-pats-table>thead>tr{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    color: white;
+    font-size: 30px;
+}
+#select-pats-table>tbody{
+    display: block;
+    height: 271px;
+    overflow-y: scroll;
+    color: white;
+    font-size: 20px;
+}
+#select-pats-table>tbody>tr{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#select-pats-table>tbody>tr:hover {
+    background-color: rgb(178,223,219);
+}
+
+#select-pats-table>tbody>tr.selected {
+    background-color: rgb(128,203,196);
+}
+
+
+.display{   
+    margin-right: 8%;
+    padding-right: 30%;
+    margin-bottom: 10%;
+    position: relative;
+    float: right;
+    left: 0%;
+    top: 50%;
+    width: 30%;
+    height: 400px;
+   background-color: #b9b0b09a
+}
+
+.btn-grp{
+    position: relative;
+    left: 5%;
+}
+
 
 @font-face {
     font-family: 'WeddingTextBT-Regular';
@@ -62,15 +96,7 @@
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
-.form{
-    color: white;
-    background-color: rgba(0, 0, 0, 0.6);
-    text-align: left;
-    height:400px;
-    width: 550px;
-    left: 800px;
- 
-}
+
 .bgsqr{
     position: absolute;
     top : 16%;
@@ -115,7 +141,7 @@ html,body{
      
     /* The image used */
    /* background-image: url('https://www.bnext.com.tw/article/54056/free-image-sources');*/
-    height: 40%;
+    height: 60%;
     /* Full height */
 
     background-image: url('https://images.unsplash.com/photo-1565536421966-1e4aec32c7e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
@@ -128,7 +154,7 @@ html,body{
 }
 .par2{ 
     height: 5%; 
-    max-height: 200px;
+    max-height: 300px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -142,6 +168,7 @@ html,body{
    max-width: initial; 
    position: relative;
   }
+
 .row{
     height: 110px;
     visibility: visible;
@@ -150,6 +177,7 @@ html,body{
     margin-bottom: 0px;
     position: relative;
 }
+
 .doctor_name{
     width:300px;
     height:100px;
