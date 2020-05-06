@@ -89,6 +89,7 @@ def get_table_lst():
     table_lst = ["table_" + str(x) for x in range(10)]
     return table_lst
 
+
 def ajax_get_dept_table(request):
     """
     @pony
@@ -103,7 +104,6 @@ def ajax_get_dept_table(request):
         dept_table_lst[i] = get_dept_table(i)
 
     return JsonResponse(dept_table_lst)
-
 
 
 def ajax_get_table_item(request):
@@ -135,7 +135,6 @@ def ajax_get_emr(request):
     string = "Server get id : "+id
     print(string)
     
-<<<<<<< HEAD
     return JsonResponse(string, safe=False)
 
 def ajax_get_search_emr(request):
@@ -149,6 +148,3 @@ def ajax_get_search_emr(request):
     print(input_text)
 
     return JsonResponse(highlight, safe=False)
-=======
-    return JsonResponse(string, safe=False)
->>>>>>> assemble
