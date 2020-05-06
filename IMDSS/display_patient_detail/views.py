@@ -50,7 +50,7 @@ please write your code below here!
 """
 
 
-def grid_multiple_charts() -> Grid:
+def grid_multiple_charts(patient_id) -> Grid:
     """
     @pony
     @return grid(json like object)
@@ -205,7 +205,7 @@ def grid_multiple_charts() -> Grid:
                     font_family="Microsoft YaHei",
                 ),
 
-                subtitle=u"    病人編號213273490",
+                subtitle=u"    病人編號 : " + str(patient_id),
                 subtitle_textstyle_opts=opts.TextStyleOpts(
                     font_size=20,
                     font_family="Microsoft YaHei",
@@ -265,7 +265,7 @@ def grid_multiple_charts() -> Grid:
                 ),
             ),
             title_opts=opts.TitleOpts(
-                title="SBP-DBP",
+                title="血壓",
                 pos_top="24%",
                 pos_left="10%",
                 title_textstyle_opts=opts.TextStyleOpts(
@@ -362,28 +362,28 @@ def grid_multiple_charts() -> Grid:
     return grid
 
 
-def chart_view(request):
+def chart_view(request, patient_id):
     """
     @pony
     render the charts to json
     """
-    print(json.loads(grid_multiple_charts()))
-    return JsonResponse(json.loads(grid_multiple_charts()))
+    print(json.loads(grid_multiple_charts(patient_id)))
+    return JsonResponse(json.loads(grid_multiple_charts(patient_id)))
     # grid_multiple_charts
 
 
-def display_patient_detail_view(request):
+def display_patient_detail_view(request, patient_id):
     """
     @pony
     render the patient detail page
     """
     content = {
-
+        "patient_id" : patient_id
     }
     return render(request, "display_patient_detail/detail_page.html", content)
 
 
-def ajax_get_patient_emr(request):
+def ajax_get_patient_emr(request, patient_id):
     """
     @pony
     get frontend click event data by ajax
