@@ -14,15 +14,18 @@ function search_icon_to_black() {
 
 $("#select-emr-table>tbody").on("click", "tr", function() {
     var selected_emr_id=$(this).find("td:eq(2)").text();
+    var url = location.href
     $("#select-emr-table>tbody>tr").removeClass("selected")
     $(this).addClass("selected")
     $.ajax({
         type: "GET",
-        url: "http://127.0.0.1:8000/emr_search/get_emr",
+        url: url + "get_emr",
         data: {"selected_emr_id": selected_emr_id},
         dataType: "json",
         success: function(result){
- 
+            insert_html = result['insert_html']
+            $("#emr").empty()
+            $("#emr").append(insert_html)
         }
         
     });
@@ -52,3 +55,4 @@ $("#search-icon").on("click", function(){
         } 
     });
 });
+

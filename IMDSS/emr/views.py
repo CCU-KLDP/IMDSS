@@ -4,6 +4,8 @@ from db_models.models import Department
 from emr.models import TestEmr
 import random
 import pandas as pd
+import lxml
+from lxml import etree
 # Create your views here.
 
 
@@ -138,16 +140,18 @@ def ajax_get_table_item(request):
     return JsonResponse(table_item_dict[selected_table], safe=False)
 
 
-def ajax_get_emr(request):
+def ajax_get_emr(request, patient_id):
     """
     @pony
     獲取select-emr-table所選擇的病歷id
     """
-    id = request.GET['selected_emr_id']
-    string = "Server get id : "+id
-    print(string)
-    
-    return JsonResponse(string, safe=False)
+    xml = lxml.etree.parse("D:/VScode workshop/IMDSS-Project/IMDSS/static/xml/WA2_1081004143938.xml")
+    transform = lxml.etree.XSLT(etree.parse("D:/VScode workshop/IMDSS-Project/IMDSS/static/xslt/Progress_note.xsl"))
+    html = transform(xml)
+
+    content = {u"insert_html": str(html)}
+
+    return JsonResponse(content)
 
 def ajax_get_search_emr(request):
     """

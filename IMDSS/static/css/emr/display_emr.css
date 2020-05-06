@@ -83,6 +83,7 @@
 .emr-container {
     margin-top: 2%;
     padding-left: 1.5%;
+    padding-right: 25px;
 }
 
 .emr-container img{
@@ -97,3 +98,29 @@
 #select-emr-table tbody tr td{
     font-size: 120%;
 }
+
+#emr{
+    overflow-y: scroll;
+    scrollbar-width: 10px;
+    scrollbar-track-color: #f1f1f1;
+    height: 440px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
