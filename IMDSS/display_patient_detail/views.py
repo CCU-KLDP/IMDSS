@@ -53,8 +53,11 @@ please write your code below here!
 def grid_multiple_charts() -> Grid:
     """
     @pony
-    demo the pyecharts library
+    @return grid(json like object)
+    @param list 所有type的資料都用list給(日期、生理資料、藥物使用)，每一個index要對好，缺的index用null塞
     """
+
+    # fake data
     x_data = ["{}月".format(i) for i in range(1, 40)]
     data = list(range(10, 151))
     shuffle(data)
@@ -66,6 +69,7 @@ def grid_multiple_charts() -> Grid:
     y_SBP = bar_data[:40]
     y_DBP = bar_data[40:80]
 
+    # 生理圖表-line-1
     line = (
         Line()
         .add_xaxis(x_data)
@@ -209,6 +213,8 @@ def grid_multiple_charts() -> Grid:
             ),
         )
     )
+
+    # 生理圖表bar-1
     bar_1 = (
         Bar()
         .add_xaxis(x_data)
@@ -271,6 +277,7 @@ def grid_multiple_charts() -> Grid:
         )
     )
 
+    # 藥物使用bar-1
     bar_drag_1 = (
         Bar()
         .add_xaxis(x_data)
@@ -324,6 +331,7 @@ def grid_multiple_charts() -> Grid:
 
     grid = (
         Grid()
+        
         .add(
             line,
             grid_opts=opts.GridOpts(
@@ -349,6 +357,7 @@ def grid_multiple_charts() -> Grid:
             is_control_axis_index=True,
         )
         .dump_options_with_quotes()
+        
     )
     return grid
 
@@ -358,6 +367,7 @@ def chart_view(request):
     @pony
     render the charts to json
     """
+    print(json.loads(grid_multiple_charts()))
     return JsonResponse(json.loads(grid_multiple_charts()))
     # grid_multiple_charts
 
@@ -371,3 +381,24 @@ def display_patient_detail_view(request):
 
     }
     return render(request, "display_patient_detail/detail_page.html", content)
+
+
+def ajax_get_patient_emr(request):
+    """
+    @pony
+    get frontend click event data by ajax
+    """
+    flag = 0
+    for i in request.POST.keys():
+        if "[]" in i:
+            flag = 1
+    if flag == 1:
+        y_data = request.POST['y_data[]']
+    else:
+        y_data = request.POST['y_data']
+
+    x_data = request.POST['x_data']
+    print("server get x : {}".format(x_data))
+    print("server get y : {}".format(y_data))
+
+    return JsonResponse(x_data)

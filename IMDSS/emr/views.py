@@ -1,6 +1,9 @@
 from django.shortcuts import render
 from django.http import JsonResponse
+from db_models.models import Department
+from emr.models import TestEmr
 import random
+import pandas as pd
 # Create your views here.
 
 
@@ -8,58 +11,46 @@ def emr_view(request, patient_id):
     """
     @pony
     disaply emr_page
+
+    @Kyle
+    how to know which patient_id, 
+    2 ways: 1. passing data, 2. create global variable
     """
+    patient_id = '80001'
+
     content = {
-        "emr_table": get_emr_table(),
+        "emr_table": get_emr_table(patient_id),
         "dept_lst": get_dept_lst(),
     }
 
     return render(request, "emr/emr_page.html", content)
 
 
-def get_emr_table():
+def get_emr_table(patient_id):
     """
     @pony
     get emr table from database(future)
+    @kyle
+    return date, type, dept, content(emr)
     """
 
-    # fake data
-    emr_is_star = [0, 1, 0, 1, 0, 1]
-    emr_id = [1, 2, 3, 4, 5, 6]
-    emr_date = [20190101, 20190203, 20316053, 45230265, 12021547, 20326598]
-    emr_type = ["type1", "type1", "type2", "type3", "type2", "type3"]
-    emr_dept = ["head", "body", "body", "leg", "leg", "wqe"]
-    emr_diagnosis = ["www", "wewe", "qweqw", "wqeqw", "iopyt", "weqqw"]
+    emr_df = pd.DataFrame(list(TestEmr.objects.filter(patient_id=patient_id).values()))
+    # print(emr_df.columns)
+    emr_groups = emr_df.groupby(['chartno', 'notetype', 'datetime'])
+    keys = list(emr_groups.groups.keys())
     emr_lst = []
 
-    for i in range(len(emr_is_star)):
+    for key in keys:
+        emr = emr_groups.get_group(key)
         emr_dict = {
-            "star": emr_is_star[i],
-            "id": emr_id[i],
-            "date": emr_date[i],
-            "type": emr_type[i],
-            "dept": emr_dept[i],
-            "diagnosis": emr_diagnosis[i]
+            "date": emr.iloc[0]['datetime'],
+            "type": emr.iloc[0]['notetype'],
+            "dept": 'secret',
+            "content": emr.iloc[:]['content'].str.strip()
         }
         emr_lst.append(emr_dict)
 
     return emr_lst
-
-
-def ajax_get_dept_table(request):
-    """
-    @pony
-    @return Json object
-    選擇dept的Select元素時，會在旁邊的table Select內列出該dept下的所有table
-    """
-    dept_table_lst = {
-        "dept": get_dept_lst(),
-    }
-
-    for i in get_dept_lst():
-        dept_table_lst[i] = get_dept_table(i)
-
-    return JsonResponse(dept_table_lst)
 
 
 def get_dept_lst():
@@ -67,8 +58,9 @@ def get_dept_lst():
     @pony
     @return list
     從資料庫獲得所有部門(科別)
+    @kyle
     """
-    return ["dept_1", "dept_2", "dept_3", "dept_4", "dept_5"]
+    return list(Department.objects.all())
 
 
 def get_dept_table(dept):
@@ -96,6 +88,22 @@ def get_table_lst():
     """
     table_lst = ["table_" + str(x) for x in range(10)]
     return table_lst
+
+def ajax_get_dept_table(request):
+    """
+    @pony
+    @return Json object
+    選擇dept的Select元素時，會在旁邊的table Select內列出該dept下的所有table
+    """
+    dept_table_lst = {
+        "dept": get_dept_lst(),
+    }
+
+    for i in get_dept_lst():
+        dept_table_lst[i] = get_dept_table(i)
+
+    return JsonResponse(dept_table_lst)
+
 
 
 def ajax_get_table_item(request):
@@ -127,6 +135,7 @@ def ajax_get_emr(request):
     string = "Server get id : "+id
     print(string)
     
+<<<<<<< HEAD
     return JsonResponse(string, safe=False)
 
 def ajax_get_search_emr(request):
@@ -140,3 +149,6 @@ def ajax_get_search_emr(request):
     print(input_text)
 
     return JsonResponse(highlight, safe=False)
+=======
+    return JsonResponse(string, safe=False)
+>>>>>>> assemble

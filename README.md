@@ -31,7 +31,11 @@ University project
 
 - install mysql-connector
 
-    ``` pip install mysql-connector ```｀
+    ``` pip install mysql-connector ```
+
+- install pycharts
+
+    ``` pip install pycharts ```
 
 ## II. Setting Database 
 ### 1. move the config.py into IMDSS/IMDSS/

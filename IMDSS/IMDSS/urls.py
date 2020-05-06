@@ -21,4 +21,6 @@ urlpatterns = [
     path("login/", include("login.urls")),
     path("patient_detail/", include("display_patient_detail.urls")),
     path("emr_search/", include("emr.urls")),
+    path("register/", include("register.urls")),
+    path("select_patient/", include("select_patient.urls")),
 ]

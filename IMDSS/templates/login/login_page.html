@@ -19,7 +19,7 @@
                         </a>
                     </div>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="/login">Another1</a></li>
+                        <li><a href="{% url 'login:signup_user' %}">Sign Up</a></li>
                         <li><a href="/login">Another2</a></li>
                         <li><a href="/login">Another3</a></li>
                     </ul>
@@ -27,6 +27,40 @@
             </div>
         </nav>
     </div>
+<<<<<<< HEAD
+=======
+    <!--
+    <div class="slider fullscreen">
+        <ul class="slides">
+            <li>
+                <img src="{% static 'image/bg_picture1.png' %}">
+                <div class="caption center-align">
+                    <h3>这是一个巨大的标签行</h3>
+                    <h5 class="light grey-text text-lighten-3">这是我们的小口号。</h5>
+                </div>
+            </li>
+            <li>
+                <img src="{% static 'image/bg_picture2.jpg' %}"> 
+                <div class="caption left-align">
+                    <h3>左对齐标题</h3>
+                    <h5 class="light grey-text text-lighten-3">这是我们的小口号。</h5>
+                </div>
+            </li>
+            <li>
+                <img src="{% static 'image/bg_picture3.jpg' %}">
+                <div class="caption right-align">
+                    <h3>右对齐标题</h3>
+                    <h5 class="light grey-text text-lighten-3">这是我们的小口号。</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+    -->
+    <!-- this can display error -->
+    <font size="10" color="red">{{ error }}</font>
+
+
+>>>>>>> origin/login_page
     <div class="row">
         <div class="delete_margin grey darken-3" id="hexagon_top_black"></div>
         <div class="delete_margin traingle_top_left_grey grey darken-1"></div>
@@ -48,13 +82,15 @@
                 <div class="row">
                 <div class="input-field col s12">
                     <i class="material-icons prefix">account_circle</i>
-                    {{ user.account }}
+                    <!-- {{ user.account }} -->
+                    <input type="text" name="username" placeholder="Username">
                 </div>
                 </div>
                 <div class="row">
                 <div class="input-field col s12">
                     <i class="material-icons prefix">lock_outlinee</i>
-                    {{ user.password }}
+                    <!-- {{ user.password }} -->
+                    <input type="password" name="password" placeholder="Password">
                 </div>
                 </div>
                 <div>
