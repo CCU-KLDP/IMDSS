@@ -53,6 +53,7 @@ class Evaluation_form(models.Model):
     cuis_list = models.CharField(max_length=2500)
     dep_id = models.ForeignKey(
         'db_models.Department',
+        related_name='dep_evaluation',
         on_delete=models.DO_NOTHING
         )
 
@@ -108,8 +109,8 @@ class Tpr_data(models.Model):
     value = models.DecimalField(max_digits=4, decimal_places=1, null=True)
     unit = models.CharField(max_length=20, null=True)
     # source = models.IntegerField()  # 量測來源
-    create_date = models.DateField(null=True)
-    create_time = models.TimeField(null=True)
+    create_date = models.CharField(max_length=100, null=True)
+    create_time = models.CharField(max_length=100, null=True)
     resident_doctor = models.ForeignKey(
         'db_models.Doctor',
         on_delete=models.DO_NOTHING
