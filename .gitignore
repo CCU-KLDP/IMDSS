@@ -1,5 +1,6 @@
 .venv/
 .vscode/
+IMDSS/__pycache__
 IMDSS/IMDSS/__pycache__
 IMDSS/login/__pycache__
 IMDSS/login/migrations/__pycache__
@@ -9,6 +10,9 @@ IMDSS/display_patient_detail/__pycache__
 IMDSS/display_patient_detail/migrations/__pycache__
 IMDSS/emr/__pycache__
 IMDSS/emr/migrations/__pycache__
+IMDSS/display_patient_detail_V2/__pycache__
+IMDSS/display_patient_detail_V2/migrations/__pycache__
 IMDSS/register/__pycache__
 IMDSS/register/migrations/__pycache__
 IMDSS/IMDSS/config.py
+db_testing
