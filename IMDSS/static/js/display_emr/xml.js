@@ -30,38 +30,17 @@ $.ajaxSetup({
 });  
 
 
-
-
-
 // our code
-var chart = echarts.init(document.getElementById('top_chart'), 'white', {renderer: 'canvas'});
-
-$(
-    function () {
-        fetchData(chart);
-    }
-);
-
-function fetchData() {
-    var id = location.href.split("/")[3]
+$(document).ready(function load_xml() {
+    var url = location.href
     $.ajax({
-        type: "GET",
-        url: "http://127.0.0.1:8000/" + id.toString(10) + "/charts/top_chart",
-        dataType: 'json',
-        data: {patient_id : id},
-        success: function (result) {
-            chart.setOption(result.data);
-            chart.on('click', function (param) {
-                $.ajax({
-                    type: "POST",
-                    url: "http://127.0.0.1:8000/" + id.toString(10) + "/emr",
-                    dataType:'json',
-                    data: {"x_data": param.name, "y_data": param.value},
-                    success: function (result2) {
-
-                    }
-                });
-            });
-        }
+        type: "POST",
+        url: url + "get_xml",
+        dataType: "json",
+        success: function(result){
+            $("#xml").append(result['insert_html'])
+        }  
     });
-}
+    
+    
+});
