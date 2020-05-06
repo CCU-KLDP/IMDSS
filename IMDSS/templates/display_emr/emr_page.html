@@ -25,7 +25,7 @@
             </div>
         </div>
     </nav>
-    <div id="xml" onload="load_xml()">
+    <div id="xml">
 
     </div>
 
@@ -42,6 +42,7 @@
     {% block js-ref %}
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="{% static 'js/materialize.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/display_emr/xml.js' %}"></script>
     {% endblock js-ref %}
 </body>
 {% endblock content %}
