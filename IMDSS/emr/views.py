@@ -46,11 +46,23 @@ def get_emr_table(patient_id):
             "date": emr.iloc[0]['datetime'],
             "type": emr.iloc[0]['notetype'],
             "dept": 'secret',
-            "content": emr.iloc[:]['content'].str.strip()
+            "doctor":'pony',
         }
         emr_lst.append(emr_dict)
 
     return emr_lst
+
+"""
+emr content dict
+
+"date": emr.iloc[0]['datetime'],
+"type": emr.iloc[0]['notetype'],
+"dept": 'secret',
+"content": emr.iloc[:]['content'].str.strip()
+"""
+
+
+
 
 
 def get_dept_lst():

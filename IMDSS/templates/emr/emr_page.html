@@ -62,11 +62,10 @@
                         <tr>
                             <th width = 7%></th>
                             <th width = 7%></th>
-                            <th>Id</th>
                             <th>Date</th>
                             <th>Type</th>
                             <th>Department</th>
-                            <th>Diagnosis</th>
+                            <th>Doctor</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -78,11 +77,10 @@
                             {% endif %}
                                     <td width = 7%></td>
                                     <td width = 7%></td>
-                                    <td>{{ instance.id }}</td>
                                     <td>{{ instance.date }}</td>
                                     <td>{{ instance.type }}</td>
                                     <td>{{ instance.dept }}</td>
-                                    <td>{{ instance.diagnosis }}</td>
+                                    <td>{{ instance.doctor }}</td>
                                 </tr>
                         {% endfor %}
                     </tbody>
