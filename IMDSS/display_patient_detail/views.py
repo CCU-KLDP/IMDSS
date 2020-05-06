@@ -4,6 +4,8 @@ from random import shuffle
 from pyecharts.charts import Line, Bar, Grid
 from pyecharts import options as opts
 from django.http import HttpResponse
+from django.shortcuts import redirect
+from django.urls import reverse
 
 """
 @pony
@@ -58,7 +60,7 @@ def grid_multiple_charts(patient_id) -> Grid:
     """
 
     # fake data
-    x_data = ["{}月".format(i) for i in range(1, 40)]
+    x_data = ["month {}".format(i) for i in range(1, 40)]
     data = list(range(10, 151))
     shuffle(data)
     y_HR = data[:40]
@@ -362,11 +364,14 @@ def grid_multiple_charts(patient_id) -> Grid:
     return grid
 
 
-def chart_view(request, patient_id):
+def chart_view(request):
     """
     @pony
     render the charts to json
     """
+
+    patient_id = request.GET['patient_id']
+
     print(json.loads(grid_multiple_charts(patient_id)))
     return JsonResponse(json.loads(grid_multiple_charts(patient_id)))
     # grid_multiple_charts
@@ -383,7 +388,7 @@ def display_patient_detail_view(request, patient_id):
     return render(request, "display_patient_detail/detail_page.html", content)
 
 
-def ajax_get_patient_emr(request, patient_id):
+def ajax_get_patient_emr(request):
     """
     @pony
     get frontend click event data by ajax
@@ -401,4 +406,9 @@ def ajax_get_patient_emr(request, patient_id):
     print("server get x : {}".format(x_data))
     print("server get y : {}".format(y_data))
 
-    return JsonResponse(x_data)
+    patient_id = request.POST["patient_id"]
+
+    base_url = "http://127.0.0.1:8000/"
+    re_url = base_url + "emr/" + patient_id + "/" + x_data + "/"
+    
+    return response_as_json(re_url)

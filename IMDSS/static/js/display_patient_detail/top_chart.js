@@ -43,10 +43,10 @@ $(
 );
 
 function fetchData() {
-    var id = location.href.split("/")[3]
+    var id = location.href.split("/")[4]
     $.ajax({
         type: "GET",
-        url: "http://127.0.0.1:8000/" + id.toString(10) + "/charts/top_chart",
+        url: "http://127.0.0.1:8000/charts/top_chart",
         dataType: 'json',
         data: {patient_id : id},
         success: function (result) {
@@ -54,11 +54,11 @@ function fetchData() {
             chart.on('click', function (param) {
                 $.ajax({
                     type: "POST",
-                    url: "http://127.0.0.1:8000/" + id.toString(10) + "/emr",
+                    url: "http://127.0.0.1:8000/charts/emr/",
                     dataType:'json',
-                    data: {"x_data": param.name, "y_data": param.value},
+                    data: {"x_data": param.name, "y_data": param.value, "patient_id" :id},
                     success: function (result2) {
-
+                        window.location.href = result2
                     }
                 });
             });
