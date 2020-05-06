@@ -1,0 +1,173 @@
+#hexagon_top_black{
+    width: 100%;
+    height:93%;
+    clip-path: polygon(50% 0%, 100% 0, 100% 22%, 70% 74%, 0 50%, 0 0);
+    position:absolute;
+    z-index: -3;
+    top:0px;
+    left:0px;
+}
+
+.traingle_top_right_black{
+    width: 30.1%;
+    height:31%;
+    clip-path: polygon(100% 90%, 0 58%, 100% 13%);
+
+    position:absolute;
+    z-index: -1;
+    top:50.8%;
+    right:0px;
+}
+.traingle_top_left_grey{
+    width: 35%;
+    height:41%;
+    clip-path: polygon(0 69%, 0 0, 100% 27.2%);
+
+    position:absolute;
+    z-index: -1;
+    top:46.4%;
+    left:0px;
+}
+
+
+
+
+.delete_margin{ 
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.top_title {
+    position:absolute;
+    top:19%;
+    left:0px;   
+}
+
+.top_title h1 {
+    font-size: 90px;
+    font-family: Helvetica;
+}
+.top_title text {
+    font-family: sans-serif;
+    font-size: 22px;
+    
+}
+
+.row .col.top_login {
+    position:absolute;
+    top:10%;
+    left: 56.3333333333%;
+    width: 21%;
+    height: 31px
+}
+
+.row .col.login_icon {
+    position:relative;
+    top:30px;
+}
+
+
+.second_section {
+    position:absolute;
+    top:85%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'WeddingTextBT-Regular';
+    src: url('../../font/WeddingTextBT-Regular.woff2') format('woff2'),
+        url('../../font/WeddingTextBT-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SentyTEA';
+    src: url('../../font/SentyTEA.woff2') format('woff2'),
+        url('../../font/SentyTEA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.time-font {
+    font-family: "WeddingTextBT-Regular";
+    font-weight: bolder;
+    font-size: 60px;    
+}
+
+.middle-content-text {
+    font-family: "SentyTEA";
+    font-weight: bolder;
+    font-size: 35px; 
+}
+
+
+.slider-wrapper{
+    position: relative;
+}
+
+ .row .col .slider-wrapper img{
+    display: block;
+    width: 600px;
+    user-select: none;
+ }
+
+.slider-wrapper .slider-before-img {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.slider-wrapper .handler {
+    display: block;
+    width: 5px;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    transform: translateX(-50%);
+    cursor: ew-resize;    
+}
+
+.slider-wrapper .handler::after {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0,0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    content: "\2b0c";
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px #000;
+    transition: all .1s ease;
+}
+
+.slider-wrapper .handler:hover::after {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+.page-footer.footer-position{
+    position: absolute;
+    top: 140%;
+    left: 0;
+    width: 100%;
+    
+}
+
+.page-footer .avatar{
+    
+}
+

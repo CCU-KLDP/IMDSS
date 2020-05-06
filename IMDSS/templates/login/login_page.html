@@ -1,0 +1,192 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block ref %}
+<link rel="stylesheet" href="{% static 'css/login/bg_style.css' %}">
+{% endblock %}
+
+{% block content %}
+
+
+
+<body>
+    <div class="navbar-fixed">
+        <nav class="nav-wrapper grey darken-3 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col s1">
+                        <a href="/login" class="small brand-logo">
+                            <img class="responsive-img" src="{% static 'image/login/nav_icon.png' %}" width="150" >
+                        </a>
+                    </div>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="/login">Another1</a></li>
+                        <li><a href="/login">Another2</a></li>
+                        <li><a href="/login">Another3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--
+    <div class="slider fullscreen">
+        <ul class="slides">
+            <li>
+                <img src="{% static 'image/bg_picture1.png' %}">
+                <div class="caption center-align">
+                    <h3>这是一个巨大的标签行</h3>
+                    <h5 class="light grey-text text-lighten-3">这是我们的小口号。</h5>
+                </div>
+            </li>
+            <li>
+                <img src="{% static 'image/bg_picture2.jpg' %}"> 
+                <div class="caption left-align">
+                    <h3>左对齐标题</h3>
+                    <h5 class="light grey-text text-lighten-3">这是我们的小口号。</h5>
+                </div>
+            </li>
+            <li>
+                <img src="{% static 'image/bg_picture3.jpg' %}">
+                <div class="caption right-align">
+                    <h3>右对齐标题</h3>
+                    <h5 class="light grey-text text-lighten-3">这是我们的小口号。</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+    -->
+    <div class="row">
+        <div class="delete_margin grey darken-3" id="hexagon_top_black"></div>
+        <div class="delete_margin traingle_top_left_grey grey darken-1"></div>
+        <div class="delete_margin traingle_top_right_black grey darken-3"></div>
+        <div class="col s5 offset-s3 white-text top_title">
+            <h1>Title</h1>
+            <text>There is nothing in here now</text><br>
+            <text>we will update someday</text><br>
+        </div>
+        <div class="col s3 white-text top_login grey darken-3">
+            <span class="col s5 offset-s4 login_icon">
+                <img src="{% static 'image/login/IMDSS_logo.png' %}" width="85">
+            </span>
+            <span class="col s10 offset-s2">
+                <h4>Login to IMDSS</h4>
+            </span>
+            <form class="col s12" method="POST">
+                {% csrf_token %}
+                <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">account_circle</i>
+                    {{ user.account }}
+                </div>
+                </div>
+                <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">lock_outlinee</i>
+                    {{ user.password }}
+                </div>
+                </div>
+                <div>
+                    <span class="col s6 offset-s1">
+                        <label>
+                            <input type="checkbox" />
+                            <span white-text>Remember me</span>
+                        </label>
+                    </span>
+                    <button class="btn waves-effect waves-white right" type="submit" name="action">Login
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="row second_section">
+        <div class="col s4 offset-s2">
+            <h2 class="time-font">The new Revolution</h2>
+            <text class="middle-content-text">
+                Our system helps doctors to<br>
+                make the medical decision more<br>
+                precisely, accurately and wisely<br>
+            </text>
+        </div>
+        <div class="col">
+            <div class="slider-wrapper">
+                <div class="slider-before-img">
+                    <img src="{% static 'image/login/essay.png' %}">
+                </div>
+                <img src="{% static 'image/login/statistics.png' %}">
+                <span class="handler"></span>
+            </div>
+        </div> 
+    </div>
+    <div>
+        <footer class="page-footer footer-position grey darken-1">
+            <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                <h3 class="white-text">About us : </h3>
+                <p class="grey-text text-lighten-4"></p>
+                    <img class="col s3 offset-s4" src="{% static 'image/login/member.jpg' %}" width="20%">
+                    <a href="https://github.com/CCU-KLDP" class="col s5 white-text"><h3>CCU-KLDP</h3><br></a>
+                </div>
+                <div class="col l4 offset-s10 s12">
+                <h5 class="white-text">Members' Github</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/PoPoPoPony"><h5>https://github.com/PoPoPoPony</h5></a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/PoPoPoPony"><h5>https://github.com/PoPoPoPony</h5></a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/PoPoPoPony"><h5>https://github.com/PoPoPoPony</h5></a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/PoPoPoPony"><h5>https://github.com/PoPoPoPony</h5></a></li>
+                </ul>
+                </div>
+            </div>
+            </div>
+            <div class="footer-copyright">
+            <div class="container">
+            © 2020 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+            </div>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript", src="{% static 'js/materialize.js' %}"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $('.slider').slider({
+                indicators: false,
+                interval: 5000
+            });
+        });
+
+
+        const slider = document.querySelector('.slider-wrapper');    
+        const beforeImg = document.querySelector('.slider-before-img'); 
+        const handler = document.querySelector('.handler'); 
+        var marginX; 
+
+        handler.onmousedown = function(e) {
+            marginX = e.pageX - handler.offsetLeft;
+            slider.addEventListener('mousemove', moveHandler);
+        }
+        handler.onmouseup = function(e) {
+            slider.removeEventListener('mousemove', moveHandler);
+        }
+
+
+        function moveHandler(e) {
+            handler.style.left = e.pageX - marginX + 'px';
+            beforeImg.style.width = e.pageX - marginX + 'px';
+        }
+    </script>
+
+
+
+    
+    
+</body>
+
+
+{% endblock %}
