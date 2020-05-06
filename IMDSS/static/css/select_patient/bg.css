@@ -1,26 +1,28 @@
-.row1{
-   
-   visibility: visible;
-     margin-left: auto;
-     margin-right: auto;
-     margin-bottom: 300px;
+.select-container{
+    visibility: visible;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0%;
+
     
    /* max-width: initial;*/
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
   
  }
 
-.select{
+.select-container .select{
     position: relative;
-   text-align:center;
-    top: 20%;
-    left: 500px;
+    text-align:center;
+    padding-top: 8%;
+    padding-bottom: 7.5%;
+    left: 37%;
     max-width: 400px;
     max-height: 700;
   
 }
 .options{
+    font-size: 50px;
     text-align: center;
     left: 0px;
     text-align: center;
@@ -66,17 +68,18 @@
     text-align: left;
     height:400px;
     width: 550px;
- left: 800px;
+    left: 800px;
  
 }
 .bgsqr{
     position: absolute;
+    top : 16%;
     width:100%;
-    height:100%;
-   z-index: -20;
-   margin: 0px;
-   clip-path:polygon(0% 0%, 0% 100%,50% 50%,100% 0%);
-   background-color: #414040;
+    height:82.5%;
+    z-index: -20;
+    margin: 0px;
+    clip-path:polygon(0% 0%, 0% 100%,50% 50%,100% 0%);
+    background-color: #414040;
   }
 .btn{
     background-color: rgb(34, 34, 34);
@@ -95,26 +98,26 @@
 
 .bgsqr3{
     position: absolute;
-   
+    top: 16%;
     width:100%;
-    height:100%;
+    height:83%;
+    z-index: -100;
     left:0px;
     margin: 0px;
-    clip-path:polygon(49% 50%, 0% 100%,100% 100%,100% 0%);
     background-color: #706868;
-  }
+}
 
-  html,body{
+html,body{
       height: 100%;
-  }
+}
  
-  .par1{
+.par1{
      
     /* The image used */
    /* background-image: url('https://www.bnext.com.tw/article/54056/free-image-sources');*/
-    max-height: 600px;
+    height: 40%;
     /* Full height */
-    height: 100%; 
+
     background-image: url('https://images.unsplash.com/photo-1565536421966-1e4aec32c7e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
     
     /* Create the parallax scrolling effect */
@@ -122,42 +125,42 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  .par2{ 
+}
+.par2{ 
     height: 5%; 
     max-height: 200px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
-  .page-footer{
+.page-footer{
     visibility: visible;
     margin-left: auto;
     margin-right: auto;
    max-width: initial; 
    position: relative;
   }
-  .row{
-   height: 110px;
+.row{
+    height: 110px;
     visibility: visible;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
-   position: relative;
-  }
-  .doctor_name{
+    position: relative;
+}
+.doctor_name{
     width:300px;
     height:100px;
-position: absolute;
-z-index: 50;
+    position: absolute;
+    z-index: 50;
 
-  }
+}
 .about_us{
     width:200px;
     height:80px;
-position: relative;
+    position: relative;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
