@@ -91,9 +91,10 @@
 }
 
 .time-font {
-    font-family: "WeddingTextBT-Regular";
+    font-family:  "SentyTEA";
     font-weight: bolder;
     font-size: 60px;    
+    color: #e85762;
 }
 
 .middle-content-text {
@@ -161,13 +162,13 @@
 
 .page-footer.footer-position{
     position: absolute;
+    padding-top: 0.5%;
     top: 140%;
     left: 0;
     width: 100%;
     
 }
 
-.page-footer .avatar{
-    
+.page-footer>.container>.row>.left-section>h3{
+    margin-top: 0;
 }
-
