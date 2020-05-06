@@ -18,11 +18,12 @@ def emr_view(request, patient_id):
     how to know which patient_id, 
     2 ways: 1. passing data, 2. create global variable
     """
-    patient_id = '80001'
+    fixed_patient_id = '80001'
 
     content = {
-        "emr_table": get_emr_table(patient_id),
+        "emr_table": get_emr_table(fixed_patient_id),
         "dept_lst": get_dept_lst(),
+        "patient_id":patient_id
     }
 
     return render(request, "emr/emr_page.html", content)
