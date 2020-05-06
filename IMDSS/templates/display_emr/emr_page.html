@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block ref %}
+
+{% endblock %}
+
+
+{% block content %}
+<body bgcolor="#f5f5f5">
+    <nav class="nav-wrapper grey darken-3 ">
+        <div class="container">
+            <div class="row">
+                <div class="col s1">
+                    <a href="/login" class="small brand-logo">
+                        <img class="responsive-img" src="{% static 'image/login/nav_icon.png' %}" width="150" >
+                    </a>
+                </div>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="/login">Another1</a></li>
+                    <li><a href="/login">Another2</a></li>
+                    <li><a href="/login">Another3</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+
+    
+
+
+
+
+
+    
+
+    {% block js-ref %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="{% static 'js/materialize.js' %}"></script>
+    {% endblock js-ref %}
+</body>
+{% endblock content %}

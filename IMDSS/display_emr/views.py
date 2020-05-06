@@ -7,10 +7,10 @@ import pandas as pd
 
 def display_emr_view(request, date):
     patient_id = '80001'
-    date = 
+    xml_data = emr.iloc[0]['content']
+    print(xml_data)
     content = {
-        "emr_table": get_emr_table(patient_id),
-        "dept_lst": get_dept_lst(),
+
     }
 
-    return render(request, "emr/emr_page.html", content)
+    return render(request, "display_emr/emr_page.html", content)

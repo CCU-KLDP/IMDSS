@@ -3,5 +3,5 @@ from . import views
 
 
 urlpatterns = [
-    path("<str:date>/", views.emr_view, name="show_emr"),
+    path("emr/<str:date>/", views.display_emr_view, name="show_emr"),
 ]
