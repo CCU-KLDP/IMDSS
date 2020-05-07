@@ -73,9 +73,9 @@ def get_dept_lst():
     @pony
     @return list
     從資料庫獲得所有部門(科別)
-    @kyle
     """
-    return list(Department.objects.all())
+    return ["dept_1", "dept_2", "dept_3", "dept_4", "dept_5"]
+
 
 
 def get_dept_table(dept):
@@ -119,7 +119,6 @@ def ajax_get_dept_table(request):
         dept_table_lst[i] = get_dept_table(i)
 
     return JsonResponse(dept_table_lst)
-
 
 def ajax_get_table_item(request):
     """
@@ -165,3 +164,4 @@ def ajax_get_search_emr(request):
     print(input_text)
 
     return JsonResponse(highlight, safe=False)
+
