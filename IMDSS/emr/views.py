@@ -10,7 +10,6 @@ def emr_view(request):
     """
     @pony
     disaply emr_page
-
     @Kyle
     how to know which patient_id, 
     2 ways: 1. passing data, 2. create global variable
@@ -70,13 +69,21 @@ def get_dept_table(dept):
     以dept為key(dept_1 ...)
     獲得dept底下的所有table, [table_1, table_2, ...]
     """
-    table_lst = get_table_lst()
-    counter_lst = range(1, 11)
-    dept_lst = get_dept_lst()
+    # table_lst = get_table_lst()
+    # counter_lst = range(1, 11)
+    # dept_lst = get_dept_lst()
     dept_table_dict = {}
-    for i in dept_lst:
-        dept_table_dict[i] = list(random.sample(table_lst, k=random.choice(counter_lst)))
-    return dept_table_dict[dept]
+    # for i in dept_lst:
+    #     dept_table_dict[i] = list(random.sample(table_lst, k=random.choice(counter_lst)))
+    deps = Department.objects.filter(dep_name=dept).values()
+    for dep in deps: 
+        dep_df = pd.DataFrame(list(dep.dep_evaluation.all().values()))
+        dept_table_dict[dep.dep_name] = dep_df['name'].value_counts().index.tolist()
+
+    # print(dept_table_dict[dept])
+
+    # return dept_table_dict[dept]
+    return dept_table_dict
 
 
 def get_table_lst():
@@ -99,7 +106,11 @@ def ajax_get_dept_table(request):
     }
 
     for i in get_dept_lst():
-        dept_table_lst[i] = get_dept_table(i)
+        name = i.dep_name
+        dept_table_lst[name] = get_dept_table(name)
+    
+    print("start")
+    print(dept_table_lst)
 
     return JsonResponse(dept_table_lst)
 
