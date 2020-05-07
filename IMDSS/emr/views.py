@@ -145,7 +145,11 @@ def ajax_get_emr(request, patient_id):
     @pony
     獲取select-emr-table所選擇的病歷id
     """
-    xml = lxml.etree.parse("D:/VScode workshop/IMDSS-Project/IMDSS/static/xml/WA2_1081004143938.xml")
+    if int(request.GET['selected_emr_id'].split("-")[2][:2]) < 17 : 
+        xml = lxml.etree.parse("D:/VScode workshop/IMDSS-Project/IMDSS/static/xml/WA2_1081004143938.xml")
+    else : 
+        xml = lxml.etree.parse("D:/VScode workshop/IMDSS-Project/IMDSS/static/xml/WA2_1081004143941.xml")
+    
     transform = lxml.etree.XSLT(etree.parse("D:/VScode workshop/IMDSS-Project/IMDSS/static/xslt/Progress_note.xsl"))
     html = transform(xml)
 
