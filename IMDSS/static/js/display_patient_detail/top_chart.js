@@ -65,3 +65,17 @@ function fetchData() {
         }
     });
 }
+
+$("#search").on("click", function() {
+    var id = location.href.split("/")[4]
+    $.ajax({
+        type: "GET",
+        url: "http://127.0.0.1:8000/charts/update_drugs",
+        data: {patient_id : id},
+        dataType: "json",
+        success: function(result){
+            chart.setOption(result.data);
+        }
+        
+    });
+});

@@ -168,4 +168,3 @@ def ajax_get_search_emr(request):
     print(input_text)
 
     return JsonResponse(highlight, safe=False)
-
