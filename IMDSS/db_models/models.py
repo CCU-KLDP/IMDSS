@@ -53,12 +53,12 @@ class OutPatient_data(models.Model):
     doctor = models.ForeignKey(
         'db_models.Doctor',
         on_delete=models.DO_NOTHING,
-        related_name='outpatient_doctor'
+        related_name='doctor_outpatient'
         )
     patient = models.ForeignKey(
         'db_models.Patient',
         on_delete=models.DO_NOTHING,
-        related_name='outpatient_patients'
+        related_name='patient_outpatient'
         )
     dep_id = models.ForeignKey(
         'db_models.Department',
@@ -77,8 +77,8 @@ class Outpatient_Med(models.Model):
     outpatient_data = models.ForeignKey(
         'db_models.Outpatient_data',
         on_delete=models.DO_NOTHING,
-        related_name='med_data',
-    )
+        related_name='data_med',
+        )
 
 
 class Hospitalized_data(models.Model):
@@ -90,27 +90,17 @@ class Hospitalized_data(models.Model):
     doctor = models.ForeignKey(
         'db_models.Doctor',
         on_delete=models.DO_NOTHING,
-        related_name='hospitalized_doctor',
+        related_name='doctor_hospitalized_data',
         )
     patient = models.ForeignKey(
         'db_models.Patient',
         on_delete=models.DO_NOTHING,
-        related_name='hospitalized_patients'
+        related_name='patient_hospitalized_data'
         )
-    dep_id = models.ForeignKey(
+    department = models.ForeignKey(
         'db_models.Department',
         on_delete=models.DO_NOTHING,
-        to_field='dep_id'
-        )
-    med_id = models.ForeignKey(
-        'db_models.Med',
-        on_delete=models.DO_NOTHING,
-        to_field='id'
-        )
-    tpr_id = models.ForeignKey(
-        'db_models.Tpr_data',
-        on_delete=models.DO_NOTHING,
-        to_field='id'
+        related_name='department_hospitalized_data',
         )
 
 
@@ -125,27 +115,16 @@ class Hospitalized_Med(models.Model):
     hospitalized_data = models.ForeignKey(
         'db_models.Hospitalized_data',
         on_delete=models.DO_NOTHING,
-        related_name='med_data',
-    )
-
-
-class Evaluation_form(models.Model):
-    name = models.CharField(max_length=50)
-    medical_condition = models.CharField(max_length=200)
-    time_frame = models.CharField(max_length=50, null=True)
-    cuis_list = models.CharField(max_length=2500)
-    department = models.ForeignKey(
-        'db_models.Department',
-        related_name='dep_evaluation',
-        on_delete=models.DO_NOTHING
+        related_name='data_med',
         )
 
 
 class Tpr_data(models.Model):
     # medical_record = models.IntegerField()  # 病歷號
-    hospitalized_Med = models.ForeignKey(
+    hospitalized_data = models.ForeignKey(
         'db_models.Hospitalized_data',
         on_delete=models.DO_NOTHING,
+        related_name='data_tpr'
         )
     item = models.CharField(max_length=100, null=True)  # 量測的項
     value = models.DecimalField(max_digits=4, decimal_places=1, null=True)
@@ -160,5 +139,18 @@ class Tpr_data(models.Model):
 
     def __str__(self):
         return self.patient_id
+
+class Evaluation_form(models.Model):
+    name = models.CharField(max_length=50)
+    medical_condition = models.CharField(max_length=200)
+    time_frame = models.CharField(max_length=50, null=True)
+    cuis_list = models.CharField(max_length=2500)
+    department = models.ForeignKey(
+        'db_models.Department',
+        related_name='department_evaluation',
+        on_delete=models.DO_NOTHING
+        )
+
+
 
 
