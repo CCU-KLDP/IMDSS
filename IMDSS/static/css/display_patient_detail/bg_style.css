@@ -18,6 +18,26 @@
 
 #select_drugs{
     position:absolute;
-    top: 102%;
+    top: 103%;
     left: 12%;
+    text-align: left;
+    width: 67%;
+    height: 14%;
+    border-right: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.select_drugs_options{
+    padding-right: 3%;
+    margin: 10px;
+}
+
+#search{
+    position: absolute;
+    top: 113%;
+    right: 13%;
 }

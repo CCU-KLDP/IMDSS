@@ -613,7 +613,8 @@ def display_patient_detail_view(request, patient_id):
     render the patient detail page
     """
     content = {
-        "patient_id" : patient_id
+        "patient_id" : patient_id,
+        "test": list(range(21))
     }
     return render(request, "display_patient_detail/detail_page.html", content)
 
