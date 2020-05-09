@@ -111,11 +111,13 @@
 }
 
 #select-emr-table thead th{
-    font-size: 130%;
+    font-size: 140%;
+    font-family: Microsoft Yahei;
 }
 
 #select-emr-table tbody tr td{
     font-size: 120%;
+    font-family: Microsoft Yahei;
 }
 
 #emr{
@@ -124,6 +126,13 @@
     scrollbar-track-color: #f1f1f1;
     height: 440px;
 }
+
+
+
+
+
+
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;

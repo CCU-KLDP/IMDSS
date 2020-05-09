@@ -41,10 +41,7 @@
 		width: 100%;
 	}
 
-	body {
-		font-size: 12pt;
-		font-family: 細明體;
-	}
+	
 }
 
 table, td {
@@ -74,10 +71,16 @@ td.tdinnerft {
 	TEXT-ALIGN:Left;
 }
 
+.set_xml_font{
+	font-size:20px;
+	font-family:細明體;
+}
+
 </style> 
 	</head>
               <body>
                       <br/>
+					  <div  class="set_xml_font">
                       <table border="0" width="100%">
                              <tbody>
                                        <tr>
@@ -866,6 +869,7 @@ td.tdinnerft {
                       </xsl:for-each>
 						         </xsl:for-each>  
               <br/>
+			  </div>
               </body>
       </html>
 </xsl:template>
