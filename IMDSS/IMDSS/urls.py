@@ -24,4 +24,5 @@ urlpatterns = [
     path("select_patient/", include("select_patient.urls")),
     path("emr/", include("display_emr.urls")),
     path("charts/", include("display_patient_detail.urls")),
+    path("mri/", include("mri.urls"))
 ]
