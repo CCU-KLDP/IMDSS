@@ -8,7 +8,7 @@
               <head>
               		<meta http-equiv="X-UA-Compatible" content="IE=8" />
 <style type="text/css"> 
-#emr @page { 
+@page { 
 	size: 210mm 297mm;
 	margin-left: 17mm; 
 	margin-right: 10mm; 
@@ -16,7 +16,7 @@
 	margin-bottom: 30mm; 
 }
 
-#emr @media print {
+@media print {
 	pre.wdwrapft { 
 		overflow: hidden;
 		word-wrap: break-word;
@@ -28,7 +28,7 @@
 	}
 
 	body {
-		font-size: 12pt;
+		font-size: 10pt;
 	}
 	
 	img {
@@ -36,42 +36,41 @@
 	}
 }
 
-#emr @media screen {
+@media screen {
 	table.tbvisualft {
 		width: 100%;
 	}
 
 	body {
-		font-size: 10pt;
-		font-family: 新細明體;
-		
+		font-size: 12pt;
+		font-family: 細明體;
 	}
 }
 
-#emr table, td {
+table, td {
 	border-collapse: collapse;
 	border-color: #000000; 
 }
 
-#emr table.tbinnerft {
+table.tbinnerft {
 	width: 100%;
 	border-collapse: collapse;
 	empty-cells: hide;
 }
 
-#emr td.tdinnerft {
+td.tdinnerft {
 	border-style: solid;
 	border-width: 1px;
 	border-color: #999999;
 }
 
-#emr .tdStyle1{
+.tdStyle1{
 	width:15%;
 	height:33%;
 
 }
 
-#emr .headTDStyle{
+.headTDStyle{
 	TEXT-ALIGN:Left;
 }
 
