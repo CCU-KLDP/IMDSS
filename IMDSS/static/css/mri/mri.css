@@ -1,4 +1,4 @@
-#container #photos li {
+#photos, #photos li {
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -7,8 +7,8 @@
 	position: relative;
 	top: 100px;
 	left: 100px;
-	width: 650px;	/* (圖片的寬度 +  _margin) * 數量 - _margin */
-	height: 100px;	/* 圖片的高度 */
+	width: 650px;	
+	height: 100px;	
 }
 #photos li {
 	position: absolute;
