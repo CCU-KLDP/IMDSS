@@ -168,6 +168,6 @@ class Emr_data(models.Model):
     @Louise
     All emr string with tag
     """
-    EmrId = models.CharField(max_length=50)         # 病歷檔名編號
-    Sequence = models.IntegerField()                # 行數
-    EmrContent = models.CharField(max_length=1000)   # 包含tag內容
+    EmrId = models.CharField(max_length=50)          # 病歷檔名編號
+    Sequence = models.IntegerField()                 # 行數
+    EmrContent = models.CharField(max_length=5000)   # 包含tag內容
