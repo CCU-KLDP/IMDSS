@@ -8,4 +8,5 @@ urlpatterns = [
     path("table_item/", views.ajax_get_table_item, name="get_table_item"),
     path("<int:patient_id>/get_emr/", views.ajax_get_emr, name="get_emr"),
     path("text_search_emr/", views.ajax_get_search_emr),
+    path("<int:patient_id>/save_memo/", views.ajax_save_memo),
 ]

@@ -4,8 +4,6 @@ from random import shuffle
 from pyecharts.charts import Line, Bar, Grid
 from pyecharts import options as opts
 from django.http import HttpResponse
-from django.shortcuts import redirect
-from django.urls import reverse
 
 """
 @pony
@@ -925,3 +923,13 @@ def get_update_drug_charts(patient_id):
     )
 
     return [bar_drag_1, bar_drag_2, bar_drag_3, bar_drag_4, bar_drag_5]
+
+
+def ajax_save_memo(request, patient_id):
+    content = request.GET['content']
+
+    print("{} : {}".format(patient_id, content))
+
+    ret = {"flag": 1}
+
+    return response_as_json(ret)

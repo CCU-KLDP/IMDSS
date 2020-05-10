@@ -1,0 +1,40 @@
+#memo_container{
+    position: fixed;
+    top:63%;
+    /*67%, 7%*/
+    right: 1%;
+    width: 20%;
+    height: 28.5%;
+    background-color: #FFD382;
+    border-radius: 10%;
+    z-index: 2;
+}
+
+#memo_text{
+    position: inherit;
+    resize: none;
+    overflow: hidden;
+    width: 18%;
+    height: 20%;
+    right: 2%;
+    top: 65%;
+    font-size: 20px;
+    
+}
+
+#memo_clean_btn{
+    position: inherit;
+    top: 87%;
+    right: 12%;
+}
+
+#memo_save_btn{
+    position: inherit;
+    top: 87%;
+    right: 4%;
+
+}
+
+.hide{
+    display: none;
+}

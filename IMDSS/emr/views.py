@@ -1,12 +1,24 @@
 from django.shortcuts import render
 from django.http import JsonResponse
+from django.http import HttpResponse
 from db_models.models import Department
 from emr.models import TestEmr
 import random
 import pandas as pd
 import lxml
 from lxml import etree
+import json
 # Create your views here.
+
+
+def response_as_json(data):
+    json_str = json.dumps(data)
+    response = HttpResponse(
+        json_str,
+        content_type="application/json",
+    )
+    response["Access-Control-Allow-Origin"] = "*"
+    return response
 
 
 def emr_view(request, patient_id):
@@ -168,3 +180,13 @@ def ajax_get_search_emr(request):
     print(input_text)
 
     return JsonResponse(highlight, safe=False)
+
+
+def ajax_save_memo(request, patient_id):
+    content = request.GET['content']
+
+    print("{} : {}".format(patient_id, content))
+
+    ret = {"flag": 1}
+
+    return response_as_json(ret)

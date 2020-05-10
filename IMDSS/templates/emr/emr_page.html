@@ -5,6 +5,7 @@
 {% block ref %}
 <link rel="stylesheet" href="{% static 'css/emr/side_select.css' %}">
 <link rel="stylesheet" href="{% static 'css/emr/display_emr.css' %}">
+<link rel="stylesheet" href="{% static 'css/memo/memo.css' %}">
 {% endblock %}
 
 
@@ -48,7 +49,7 @@
         <div class="select-emr-section">
             <div class="top-bar">
                 <div class="patient_id">
-                    <h5>patient_id : {{ patient_id }}</h5>
+                    <h5>病人編號 : {{ patient_id }}</h5>
                 </div>
                 <div id="search-bar">
                     <div class="search-text">
@@ -100,6 +101,7 @@
             
     </div>
     
+    {% include "memo/memo.html"  %}
     
 
     
@@ -109,6 +111,7 @@
     <script type="text/javascript" src="{% static 'js/materialize.js' %}"></script>
     <script type="text/javascript" src="{% static 'js/emr/sidenav.js' %}"></script>
     <script type="text/javascript" src="{% static 'js/emr/display_emr.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/memo/memo.js' %}"></script>
     {% endblock js-ref %}
 </body>
 {% endblock content %}
