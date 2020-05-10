@@ -37,14 +37,22 @@
     </div>
     <div id="select_drugs">
         
-            {% for i in test%}
+            {% for i in test %}
                 <label class="select_drugs_options">
-                    <input type="checkbox" class="filled-in" />
+
+                    {% if forloop.counter0 < 5 %}
+                        <input type="checkbox" class="filled-in" checked="checked" onclick="onCheckBox(this)" name="item"/>
+                    {% else %}
+                        <input type="checkbox" class="filled-in" onclick="onCheckBox(this)" name="item"/>
+                    {% endif %}
+
                     <span>drug-{{ i }}</span>
                 </label>
             {% endfor %}
     </div>
-    <a class="waves-effect waves-light btn" id="search"><i class="material-icons right">search</i>Searchr</a> 
+    
+    <a class="btn-floating btn-medium waves-effect waves-light red" id="clear"><i class="material-icons">clear</i></a>
+    <a class="waves-effect waves-light btn" id="search"><i class="material-icons right">search</i>Search</a> 
     
     {% include "memo/memo.html"  %}
 
