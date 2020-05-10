@@ -12375,3 +12375,14 @@ $jscomp.polyfill = function (e, r, p, m) {
 
   Range.init($('input[type=range]'));
 })(cash, M.anime);
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.parallax');
+  var instances = M.Parallax.init(elems, options);
+});
+
+// Or with jQuery
+
+$(document).ready(function(){
+  $('.parallax').parallax();
+});
+

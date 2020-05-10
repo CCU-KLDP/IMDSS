@@ -1,50 +1,99 @@
 from django.shortcuts import render
 from django.http import JsonResponse
+from db_models.models import Department
+from emr.models import TestEmr
 import random
+import pandas as pd
 # Create your views here.
-
 
 def emr_view(request):
     """
     @pony
     disaply emr_page
+    @Kyle
+    how to know which patient_id, 
+    2 ways: 1. passing data, 2. create global variable
     """
+    patient_id = '80001'
+
     content = {
-        "emr_table": get_emr_table(),
+        "emr_table": get_emr_table(patient_id),
         "dept_lst": get_dept_lst(),
     }
 
     return render(request, "emr/emr_page.html", content)
 
 
-def get_emr_table():
+def get_emr_table(patient_id):
     """
     @pony
     get emr table from database(future)
+    @kyle
+    return date, type, dept, content(emr)
     """
 
-    # fake data
-    emr_is_star = [0, 1, 0, 1, 0, 1]
-    emr_id = [1, 2, 3, 4, 5, 6]
-    emr_date = [20190101, 20190203, 20316053, 45230265, 12021547, 20326598]
-    emr_type = ["type1", "type1", "type2", "type3", "type2", "type3"]
-    emr_dept = ["head", "body", "body", "leg", "leg", "wqe"]
-    emr_diagnosis = ["www", "wewe", "qweqw", "wqeqw", "iopyt", "weqqw"]
+    emr_df = pd.DataFrame(list(TestEmr.objects.filter(patient_id=patient_id).values()))
+    # print(emr_df.columns)
+    emr_groups = emr_df.groupby(['chartno', 'notetype', 'datetime'])
+    keys = list(emr_groups.groups.keys())
     emr_lst = []
 
-    for i in range(len(emr_is_star)):
+    for key in keys:
+        emr = emr_groups.get_group(key)
         emr_dict = {
-            "star": emr_is_star[i],
-            "id": emr_id[i],
-            "date": emr_date[i],
-            "type": emr_type[i],
-            "dept": emr_dept[i],
-            "diagnosis": emr_diagnosis[i]
+            "date": emr.iloc[0]['datetime'],
+            "type": emr.iloc[0]['notetype'],
+            "dept": 'secret',
+            "content": emr.iloc[:]['content'].str.strip()
         }
         emr_lst.append(emr_dict)
 
     return emr_lst
 
+
+def get_dept_lst():
+    """
+    @pony
+    @return list
+    從資料庫獲得所有部門(科別)
+    @kyle
+    """
+    return list(Department.objects.all())
+
+
+def get_dept_table(dept):
+    """
+    @pony
+    @return dict
+    建立所有dept底下的所有table(之後請改從資料庫撈)
+    以dept為key(dept_1 ...)
+    獲得dept底下的所有table, [table_1, table_2, ...]
+    """
+    # table_lst = get_table_lst()
+    # counter_lst = range(1, 11)
+    # dept_lst = get_dept_lst()
+    dept_table_dict = {}
+    # for i in dept_lst:
+    #     dept_table_dict[i] = list(random.sample(table_lst, k=random.choice(counter_lst)))
+    deps = Department.objects.filter(dep_name=dept).values()
+    for dep in deps: 
+        dep_df = pd.DataFrame(list(dep.dep_evaluation.all().values()))
+        dept_table_dict[dep.dep_name] = dep_df['name'].value_counts().index.tolist()
+
+    # print(dept_table_dict[dept])
+
+    # return dept_table_dict[dept]
+    return dept_table_dict
+
+
+def get_table_lst():
+    """
+    @pony
+    @return list
+    建立評估表(table)
+    """
+    table_lst = ["table_" + str(x) for x in range(10)]
+    return table_lst
 
 def ajax_get_dept_table(request):
     """
@@ -57,45 +106,14 @@ def ajax_get_dept_table(request):
     }
 
     for i in get_dept_lst():
-        dept_table_lst[i] = get_dept_table(i)
+        name = i.dep_name
+        dept_table_lst[name] = get_dept_table(name)
+    
+    print("start")
+    print(dept_table_lst)
 
     return JsonResponse(dept_table_lst)
 
-
-def get_dept_lst():
-    """
-    @pony
-    @return list
-    從資料庫獲得所有部門(科別)
-    """
-    return ["dept_1", "dept_2", "dept_3", "dept_4", "dept_5"]
-
-
-def get_dept_table(dept):
-    """
-    @pony
-    @return dict
-    建立所有dept底下的所有table(之後請改從資料庫撈)
-    以dept為key(dept_1 ...)
-    獲得dept底下的所有table, [table_1, table_2, ...]
-    """
-    table_lst = get_table_lst()
-    counter_lst = range(1, 11)
-    dept_lst = get_dept_lst()
-    dept_table_dict = {}
-    for i in dept_lst:
-        dept_table_dict[i] = list(random.sample(table_lst, k=random.choice(counter_lst)))
-    return dept_table_dict[dept]
-
-
-def get_table_lst():
-    """
-    @pony
-    @return list
-    建立評估表(table)
-    """
-    table_lst = ["table_" + str(x) for x in range(10)]
-    return table_lst
 
 
 def ajax_get_table_item(request):
