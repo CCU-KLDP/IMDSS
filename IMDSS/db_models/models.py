@@ -59,13 +59,28 @@ class Evaluation_form(models.Model):
 
 
 class Med(models.Model):
-    MedPRS = models.CharField(max_length=100)  # 處置代碼
+    #MedPRS = models.CharField(max_length=100)  # 處置代碼
+    #OrderId = models.CharField(max_length=100)  # NIA編號+NIB序號
+    #begin_at = models.DateField()
+    #end_at = models.DateField()
+    #routePmName = models.CharField(max_length=50)  # 途徑代碼
+    #dose = models.IntegerField()  # 劑量
+    #doseUnit = models.CharField(max_length=20)  # 劑量單位
+    """
+    @Louise
+    Change med model
+    """
+    patient_id = models.ForeignKey(
+        'db_models.Patient',
+        on_delete=models.DO_NOTHING,
+        to_field='patient_id',
+        )
+    EncounterId = models.CharField(max_length=20) # 住院序號
     OrderId = models.CharField(max_length=100)  # NIA編號+NIB序號
-    begin_at = models.DateField()
-    end_at = models.DateField()
-    routePmName = models.CharField(max_length=50)  # 途徑代碼
+    MedPRS = models.CharField(max_length=100)  # 處置代碼
     dose = models.IntegerField()  # 劑量
     doseUnit = models.CharField(max_length=20)  # 劑量單位
+    exeDt = models.CharField(max_length=15) #執行時間
 
 
 class OutPatient_data(models.Model):
