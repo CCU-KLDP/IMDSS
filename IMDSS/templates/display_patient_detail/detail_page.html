@@ -43,7 +43,7 @@
                     {% if forloop.counter0 < 5 %}
                         <input type="checkbox" class="filled-in" checked="checked" onclick="onCheckBox(this)" name="item"/>
                     {% else %}
-                        <input type="checkbox" class="filled-in" onclick="onCheckBox(this)" name="item"/>
+                        <input type="checkbox" class="filled-in" disabled="disabled" onclick="onCheckBox(this)" name="item"/>
                     {% endif %}
 
                     <span>drug-{{ i }}</span>
