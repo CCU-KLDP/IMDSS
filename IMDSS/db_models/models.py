@@ -59,13 +59,6 @@ class Evaluation_form(models.Model):
 
 
 class Med(models.Model):
-    #MedPRS = models.CharField(max_length=100)  # 處置代碼
-    #OrderId = models.CharField(max_length=100)  # NIA編號+NIB序號
-    #begin_at = models.DateField()
-    #end_at = models.DateField()
-    #routePmName = models.CharField(max_length=50)  # 途徑代碼
-    #dose = models.IntegerField()  # 劑量
-    #doseUnit = models.CharField(max_length=20)  # 劑量單位
     """
     @Louise
     Change med model
@@ -168,3 +161,13 @@ class Hospitalized_data(models.Model):
         on_delete=models.DO_NOTHING,
         to_field='id'
         )
+
+
+class Emr_data(models.Model):
+    """
+    @Louise
+    All emr string with tag
+    """
+    EmrId = models.CharField(max_length=50)         # 病歷檔名編號
+    Sequence = models.IntegerField()                # 行數
+    EmrContent = models.CharField(max_length=1000)   # 包含tag內容
