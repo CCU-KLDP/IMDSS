@@ -4,6 +4,7 @@
 
 {% block ref %}
 <link rel="stylesheet" href="{% static 'css/register/register.css' %}">
+<!--<link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
 {% endblock %}
 
 {% block content %}
@@ -16,7 +17,7 @@
                 <div class="row">
                     <div class="col s1">
                         <a href="/login" class="small brand-logo">
-                            <img class="responsive-img" src="{% static 'image/login/nav_icon.png' %}" width="150">
+                            <img class="responsive-img" src="{% static 'image/login/nav_icon.png' %}">
                         </a>
                     </div>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -33,19 +34,16 @@
         <div class="reg_bg">
         </div>
         <div class="signup_panel z-depth-4">
-            <h2 class="sufo" style="left: 100px;">&nbsp;Sign Up</h2>
-            <h7 style="left: 100px;">&nbsp;&nbsp;&nbsp;&nbsp;Already have an account?<a href=""><u>
-                        <h7 style="color: rgb(55, 228, 199);"><b> sign in</b></h7>
-                    </u></a></h7>
-            <hr size="2px" align="center" width="80%" style="opacity: 0.5;">
+            <h2 class="sufo">&nbsp;Sign Up</h2>
+            <h7 style="left: 100px;">&nbsp;&nbsp;&nbsp;&nbsp;Already have an account?<a
+                    href="http://127.0.0.1:8000/login/">
+                    <h7 id="sign_in">sign in</h7>
+                </a></h7>
+            <hr id="form_line">
 
             <!--Form start-->
             <form class="col s12">
-
-
-
                 <div class="name_group">
-
                     <!--first name-->
                     <div class="input-field name_group_first_name">
                         <i class="material-icons prefix">account_circle</i>
@@ -60,41 +58,43 @@
                         <label for="last_name_text">Last Name</label>
                     </div>
                 </div>
-                    <div class="input-field col s6" style="margin: 10px;">
-                        <i class="material-icons prefix">dialpad</i>
-                        <input id="id_text" type="text" class="validate" required>
-                        <label for="id_text">Doctor's ID(required)</label>
-                    </div>
+                <div class="input-field col s6 pd-left" style="margin: 10px;">
+                    <i class="material-icons prefix cal">dialpad</i>
+                    <input id="id_text" type="text" class="validate" required>
+                    <label for="id_text">Doctor's ID</label>
+                </div>
 
-                    <label style="color: white; font-size: 15px;">&nbsp; &nbsp;&nbsp;Select Your Division</label>
-                    <select class="browser-default z-depth-4"
-                        style="width: 90%; margin-left: auto; margin-right: auto;">
-                        <option value="" disabled selected>Choose your option</option>
-                        <option value="1">口腔外科</option>
-                        <option value="2">內科</option>
-                        <option value="3">腦神經科</option>
-                    </select>
+                <label id="slct_div">&nbsp; &nbsp;&nbsp;Select Your Division</label>
+                <select class="browser-default z-depth-4 dd_sel">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">Anesthesiology</option>
+                    <option value="2">Dermatology</option>
+                    <option value="3">Neurology</option>
+                    <option value="4">Pathology</option>
+                    <option value="5">Surgery</option>
+                </select>
 
-                    <div class="input-field col s6" style="margin: 10px;">
-                        <i class="material-icons prefix">lock</i>
-                        <input id="pwd_text" type="text" class="validate" required>
-                        <label for="pwd_text">Enter your password(required)</label>
-                    </div>
-                    <div class="input-field col s6" style="margin: 10px;">
-                        <i class="material-icons prefix">lock</i>
-                        <input id="confirm_pwd_text" type="text" class="validate" required>
-                        <label for="confirm_pwd_text">Enter your password again(required)</label>
-                    </div>
+                <div class="input-field col s6 pd-left">
+                    <i class="material-icons prefix lock">lock</i>&nbsp;&nbsp;
+                    <input id="pwd_text" type="password" class="validate" required>
+                    <label for="pwd_text">Enter your password</label>
+                </div>
+                <div class="input-field col s6 pd-left">
+                    <i class="material-icons prefix lock">lock</i>&nbsp;&nbsp;
+                    <input id="confirm_pwd_text" type="password" class="validate" required>
+                    <label for="confirm_pwd_text">Enter your password again</label>
+                    <span id="message"></span>
+                </div>
 
 
-                    <div class="input-field col s6" style="margin: 10px;">
-                        <i class="material-icons prefix">email</i>
-                        <input id="email_text" type="text" class="validate" required>
-                        <label for="email_text">E-mail(required))</label>
-                    </div>
-                    <a class="waves-effect waves-light btn-large btn_signup">SIGN UP</a>
+                <div class="input-field col s6 email_field">
+                    <i class="material-icons prefix mail">email</i>
+                    <input id="email_text" type="email" class="validate" placeholder="&nbsp;sophie@example.com" required>
+                    <label for="email_text"><h6 >E-mail Address</h6></label>
+                </div>
+               
             </form>
-
+                    <button class="waves-effect waves-light btn-large btn_signup" onclick="jump()">SIGN UP</button>
 
 
 
@@ -161,7 +161,7 @@
     {% block js-ref %}
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" , src="{% static 'js/materialize.js' %}"></script>
-
+    <script type="text/javascript" , src="{% static 'js/register/register.js' %}"></script>
 
     {% endblock js-ref %}
 </body>
