@@ -1,5 +1,4 @@
 from django import forms
-# from .models import User_data, department_choices
 from db_models.models import Doctor, Department
 from django.contrib.auth.models import User
 

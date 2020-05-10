@@ -23,15 +23,19 @@ class Doctor(models.Model):
     """
     doctor_id = models.CharField(max_length=100, unique=True, primary_key=True)
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    name = models.CharField(max_length=100)
-    create_time = models.DateField()
+    first_name = models.CharField(max_length=30, blank=False, null=True)
+    last_name = models.CharField(max_length=30, blank=False, null=True)
+    create_time = models.CharField(max_length=60, blank=False, null=True)
     department = models.ForeignKey(
         'db_models.Department',
         on_delete=models.DO_NOTHING
-        )
+    )
 
     def __str__(self):
-        return self.name
+        return self.first_name
+
+    # def create(user, first_name, last_name, create_time, department):
+
 
     # class Meta():
     #     ordering = ["-department"]
