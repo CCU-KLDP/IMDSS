@@ -1,7 +1,7 @@
-#photos, #photos li {
+.body #container #photos li {
 	list-style: none;
 	margin: 0;
-	padding: 0;
+    padding: 0;
 }
 #photos {
 	position: relative;
