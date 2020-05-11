@@ -56,21 +56,32 @@
  }
 
   #painter {
-    
-     top: 10px;
-     left: 15%;
-     width:70%;
-     height: 550px;
      position: relative;
+     top: 10px;
+     left: 170px;
+     width:70%;
+     height: 70%;
+    
      background-color: rgb(255, 255, 255);
      opacity: 0.6;
-     
- } 
+     z-index: 1;
+ }
+
+ #painter img{
+
+	width: 500px;
+
+	height: 400px;
+
+}
 
  #canvas {
-    position: relative;
+     position: relative;
     top: 10px;
-    left: 15%; 
-    width: 70%;
-    height: 550px;
+     left: 100px;
+     width:70%;
+     height: 70%;
+     z-index: 2;
+     
+     
  } 

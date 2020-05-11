@@ -29,7 +29,8 @@ $(window).load(function () {
 		// 改變 z-index 以免被遮到, 並移動 left 及 top
 		// 同時找到 img 縮放寬高為原來的 _ratio 倍
 		$this.css('z-index', 1).stop().animate({
-		
+			left: positionData.left - (_width * _ratio - _width) / 2,
+            top: positionData.top - (_height * _ratio - _height) / 2,
           
 		}, _speed).find('img').stop().animate({
 			width: _width * _ratio, 
@@ -50,6 +51,10 @@ $(window).load(function () {
 		}, _speed);
 	});
 });
+
+
+
+
 
 
 
@@ -114,3 +119,20 @@ canvas.addEventListener(moveEvent, function(e){
 canvas.addEventListener(upEvent, function(e){
   isMouseActive = false
 })
+
+
+/*圖片典籍ㄋㄟ*/
+
+var imgs=document.getElementById('photos').getElementsByTagName('img')
+var img=document.getElementById('painter').getElementsByTagName('img')[0]
+for (var i=0;i<imgs.length;i++) {
+
+	imgs[i].onclick=function(){
+
+		img.src=this.src;
+
+	}
+
+}
+
+
