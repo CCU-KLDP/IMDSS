@@ -8,8 +8,8 @@ $(window).load(function () {
         $img = $li.find('img'),
         _width = $img.width(),
         _height = $img.height(),
-        _margin = 10,
-        _ratio = 2,
+        _margin = 5,
+        _ratio = 3,
         _speed = 400;
 
     // 把每一個 li 橫向排列好
@@ -22,33 +22,33 @@ $(window).load(function () {
             top: _top,
             top: parseInt($this.css('top'), 10) || 0
         });
-    }).hover(function () {	// 當滑鼠移入 $li 時
-        var $this = $(this),
-            positionData = $this.data('position');
-
-        // 改變 z-index 以免被遮到, 並移動 left 及 top
-        // 同時找到 img 縮放寬高為原來的 _ratio 倍
-        $this.css('z-index', 1).stop().animate({
-            left: positionData.left - (_width * _ratio - _width) / 2,
-            top: positionData.top - (_height * _ratio - _height) / 2
-        }, _speed).find('img').stop().animate({
-            width: _width * _ratio,
-            height: _height * _ratio
-        }, _speed);
-    }, function () {	// 當滑鼠移出 $li 時
-        var $this = $(this),
-            positionData = $this.data('position');
-
-        // 還原 z-index 並移回原來的 left 及 top
-        // 同時找到 img 還原寬高
-        $this.css('z-index', 0).stop().animate({
-            left: positionData.left,
-            top: positionData.top
-        }, _speed).find('img').stop().animate({
-            width: _width,
-            height: _height
-        }, _speed);
-    });
+    }).hover(function(){	// 當滑鼠移入 $li 時
+		var $this = $(this), 
+			positionData = $this.data('position');
+ 
+		// 改變 z-index 以免被遮到, 並移動 left 及 top
+		// 同時找到 img 縮放寬高為原來的 _ratio 倍
+		$this.css('z-index', 1).stop().animate({
+		
+          
+		}, _speed).find('img').stop().animate({
+			width: _width * _ratio, 
+			height: _height * _ratio
+		}, _speed);
+	}, function(){	// 當滑鼠移出 $li 時
+		var $this = $(this), 
+			positionData = $this.data('position');
+ 
+		// 還原 z-index 並移回原來的 left 及 top
+		// 同時找到 img 還原寬高
+		$this.css('z-index', 0).stop().animate({
+			left: positionData.left,
+			top: positionData.top
+		}, _speed).find('img').stop().animate({
+			width: _width, 
+			height: _height
+		}, _speed);
+	});
 });
 
 

@@ -4,6 +4,7 @@
 
 {% block ref %}
 <link rel="stylesheet" href="{% static 'css/mri/mri.css' %}">
+<link rel="stylesheet" href="{% static 'css/materialize.css' %}">
 {% endblock %}
 
 {% block content %}
@@ -32,15 +33,31 @@
 
     <div id="container">
 
-        <div id="input-field col s12">
-            <select>
+        
+            <select class="browser-default z-depth-4 dd_sel">
+                <option value="" disabled selected>Choose your option</option>
                 <option value="1">X-RAY</option>
                 <option value="2">MRI</option>
             </select>
-            <label>Select the Slide</label>
-          </div>
-          
+            
+        
+
         <ul id="photos">
+            <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li>
             <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
             <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
             <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
@@ -51,7 +68,7 @@
     </div>
 
 
-    <div id ="painter">  
+    <div id="painter">
         <canvas id="canvas"></canvas>
     </div>
 
