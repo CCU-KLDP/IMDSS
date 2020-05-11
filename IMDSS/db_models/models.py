@@ -22,12 +22,13 @@ class Doctor(models.Model):
     """
     doctor_id = models.CharField(max_length=100, unique=True, primary_key=True)
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    name = models.CharField(max_length=100)
-    create_time = models.DateField()
+    first_name = models.CharField(max_length=30, blank=False, null=True)
+    last_name = models.CharField(max_length=30, blank=False, null=True)
+    create_time = models.CharField(max_length=60, blank=False, null=True)
     department = models.ForeignKey(
         'db_models.Department',
         on_delete=models.DO_NOTHING
-        )
+    )
 
     def __str__(self):
         return self.name
@@ -125,7 +126,7 @@ class Tpr_data(models.Model):
         'db_models.Hospitalized_data',
         on_delete=models.DO_NOTHING,
         related_name='data_tpr'
-        )
+    )
     item = models.CharField(max_length=100, null=True)  # 量測的項
     value = models.DecimalField(max_digits=4, decimal_places=1, null=True)
     unit = models.CharField(max_length=20, null=True)
@@ -135,7 +136,7 @@ class Tpr_data(models.Model):
     resident_doctor = models.ForeignKey(
         'db_models.Doctor',
         on_delete=models.DO_NOTHING
-        )  # 登錄時的主治醫師
+    )  # 登錄時的主治醫師
 
     def __str__(self):
         return self.patient_id
@@ -149,7 +150,7 @@ class Evaluation_form(models.Model):
         'db_models.Department',
         related_name='department_evaluation',
         on_delete=models.DO_NOTHING
-        )
+    )
 
 
 
