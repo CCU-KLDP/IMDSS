@@ -5,7 +5,7 @@
     right: 1%;
     width: 20%;
     height: 28.5%;
-    background-color: #FFD382;
+    background-color: #616161;
     border-radius: 10%;
     z-index: 2;
 }
@@ -18,21 +18,22 @@
     height: 20%;
     right: 2%;
     top: 65%;
-    font-size: 20px;
-    
+    font-size: 30px;
+    color: white;
 }
 
 #memo_clean_btn{
     position: inherit;
-    top: 87%;
-    right: 12%;
+    top: 86.5%;
+    right: 12.5%;
+    width: 4%;
 }
 
 #memo_save_btn{
     position: inherit;
-    top: 87%;
-    right: 4%;
-
+    top: 86.5%;
+    right: 5.5%;
+    width: 4%;
 }
 
 .hide{

@@ -25,15 +25,17 @@ $(document).mousedown(
         }
         else {
             if(ev.target.id == 'memo_save_btn'){
+                var now = new Date()
                 var url = location.href
                 var patient_id = url.split("/").pop()
                 var content = $("#memo_text").val()
                 $.ajax({
                     type: "GET",
                     url: url + "save_memo",
-                    data: {content: content},
+                    data: {content: content, time: now.toLocaleString()},
                     dataType: "json",
                     success: function(result){
+                        $("#memo_text").val("")
                         M.toast({html: 'memo saved!'})
                     }
                 });

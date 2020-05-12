@@ -8,31 +8,31 @@ body{
     float: left;
     width: 14%;
     text-align: center;
-    border-right: 1px solid black;
     height: 93.25vh;   
 }
 
 .top-select-container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 8%;
     margin-bottom: 10%;
 }
 
 #dept-select-container {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
     padding-bottom: 5%;
 }
 
 #table-select-container {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
     padding-bottom: 5%;
 }
 
 .select-wrapper input.select-dropdown{
     color: white;
+    font-size: 20px;
 }
 
 .select-wrapper .caret {

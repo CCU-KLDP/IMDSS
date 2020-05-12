@@ -184,8 +184,9 @@ def ajax_get_search_emr(request):
 
 def ajax_save_memo(request, patient_id):
     content = request.GET['content']
+    time = request.GET['time']
 
-    print("{} : {}".format(patient_id, content))
+    print("{} : {},time : {}".format(patient_id, content, time))
 
     ret = {"flag": 1}
 

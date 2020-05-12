@@ -927,8 +927,9 @@ def get_update_drug_charts(patient_id):
 
 def ajax_save_memo(request, patient_id):
     content = request.GET['content']
+    time = request.GET['time']
 
-    print("{} : {}".format(patient_id, content))
+    print("{} : {},time : {}".format(patient_id, content, time))
 
     ret = {"flag": 1}
 
