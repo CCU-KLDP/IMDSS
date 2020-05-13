@@ -30,17 +30,20 @@
         </nav>
     </div>
 
-
+    <div class="delete_margin grey darken-3" id="hexagon_top_black"></div>
+    <div class="delete_margin traingle_top_left_grey grey darken-2"></div>
+    <div class="delete_margin traingle_top_right_black grey darken-3"></div>
+    <div class="col s5 offset-s3 white-text top_title">
     <div id="container">
 
-        
-            <select class="browser-default z-depth-4 dd_sel">
-                <option value="" disabled selected>Choose your option</option>
-                <option value="1">X-RAY</option>
-                <option value="2">MRI</option>
-            </select>
-            
-        
+
+        <select class="browser-default z-depth-4 dd_sel">
+            <option value="" disabled selected>MRI/XRAY</option>
+            <option value="1">X-RAY</option>
+            <option value="2">MRI</option>
+        </select>
+
+
 
         <ul id="photos">
             <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
@@ -68,8 +71,11 @@
     </div>
 
 
+
+
     <div id="painter">
-        <img src="{% static 'image/mri/l.jpg' %}"/>
+        <div id="pic_show">
+            <img src="{% static 'image/mri/l.jpg' %}" selected="false" /></div>
         <canvas id="canvas"></canvas>
     </div>
 
