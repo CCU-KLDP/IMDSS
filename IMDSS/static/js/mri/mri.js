@@ -1,27 +1,22 @@
 
 /*切換XRAY跟MRI*/ 
-window.onload =  function(){
-  var XRAY = document.getElementById('sel_X');
-  var MRI = document.getElementById('sel_M');
-  XRAY.onchange = function(){
-   if(this.value=='1'){
-    document.getElementById('XRAY').style.display = 'block';
-    document.getElementById('MRI').style.display = 'none';
-   }else {
-    document.getElementById('MRI').style.display = 'block';
-    document.getElementById('XRAY').style.display = 'none';
-   }
-  }
-  MRI.onchange = function(){
-   if(this.value=='1'){
-    document.getElementById('MRI').style.display = 'block';
-    document.getElementById('XRAY').style.display = 'none';
-   }else {
-    document.getElementById('XRAY').style.display = 'block';
-    document.getElementById('MRI').style.display = 'none';
-   }
-  }
- }
+$(function() {
+  //隐藏div
+ 
+  //给div添加change事件
+  $("#type").change(function() {
+      if($(this).val() == 0 ) {
+          $("#XRAY").show();
+          $("#MRI").hide();
+          
+      } else if($(this).val() == 1 ) {
+          $("#MRI").show();
+          $("#XRAY").hide();
+          
+      }
+      
+  })
+})
 
 
 
@@ -211,7 +206,7 @@ $('#save').on('click', function () {
 
 
 
-/*圖片點擊放大*/
+/*圖片點擊放大XRAY*/
 
 var imgs = document.getElementById('X_photos').getElementsByTagName('img')
 var img = document.getElementById('painter').getElementsByTagName('img')[0]
@@ -222,5 +217,16 @@ for (var i = 0; i < imgs.length; i++) {
   }
 }
 
+
+/*圖片點擊放大MRI*/
+
+var imgs = document.getElementById('M_photos').getElementsByTagName('img')
+var img = document.getElementById('painter').getElementsByTagName('img')[0]
+for (var i = 0; i < imgs.length; i++) {
+
+  imgs[i].onclick = function () {
+    img.src = this.src;
+  }
+}
 
 

@@ -37,13 +37,13 @@
         <div id="container">
 
 
-            <select class="browser-default z-depth-4 dd_sel">
-                <option  disabled selected>MRI/XRAY</option>
-                <option id="sel_X">X-RAY</option>
-                <option  id="sel_M">MRI</option>
+            <select class="browser-default z-depth-4 dd_sel " name="type" id="type">
+                <option disabled selected>MRI/XRAY</option>
+                <option value="0" id="sel_X">X-RAY</option>
+                <option value="1"id="sel_M">MRI</option>
             </select>
-            <div id="XRAY">
-                <ul id="X_photos">
+            <div id="XRAY" >
+                <ul id="X_photos" >
                     <li><a href="#"><img src="{% static 'image/mri/1.jpg' %}" /></a></li>
                     <li><a href="#"><img src="{% static 'image/mri/2.jpg' %}" /></a></li>
                     <li><a href="#"><img src="{% static 'image/mri/3.jpg' %}" /></a></li>
@@ -64,7 +64,7 @@
                     <li><a href="#"><img src="{% static 'image/mri/l8.jpg' %}" /></a></li>
                 </ul>
             </div>
-            <div id="MRI">
+            <div id="MRI" >
                 <ul id="M_photos">
                     <li><a href="#"><img src="{% static 'image/mri/a.jpg' %}" /></a></li>
                     <li><a href="#"><img src="{% static 'image/mri/b.jpg' %}" /></a></li>
