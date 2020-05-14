@@ -46,7 +46,7 @@
 
 
         <ul id="photos">
-            <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
+            <!-- <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
             <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
             <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
             <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
@@ -65,8 +65,12 @@
             <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
             <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
             <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
-            <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li>
-
+            <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li> -->
+            {% for mri in mris %}
+                {% if mri.mri_image %}
+                    <li><a href="#"><img src="{{  mri.mri_image.url }}" /></a></li>
+                {% endif %}
+            {% endfor %}
         </ul>
     </div>
 
@@ -75,7 +79,7 @@
 
     <div id="painter">
         <div id="pic_show">
-            <img src="{% static 'image/mri/l.jpg' %}" selected="false" /></div>
+            <img src="{{ first.mri_image.url }}" selected="false" /></div>
         <canvas id="canvas"></canvas>
     </div>
 
