@@ -2,7 +2,9 @@
     position: relative;
 }
 
+
 #dept_select_container{
+    float: right;
     position: absolute;
     padding-top: 3%;
     width: 11%;
@@ -27,6 +29,23 @@
     top: 20%;
     left: 12%;
     width: 70%;
+}
+
+#therapy_checkbox_container{
+    position: absolute;
+    top: 55%;
+    left: 12%;
+    width: 70%;
+}
+
+[type="checkbox"] + span:not(.lever){
+    font-size: 20px;
+    font-family: Microsoft Yahei;
+    color: black;
+}
+
+.therapy_checkbox_items{
+    margin-left: 5%;
 }
 
 

@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block ref %}
-<link rel="stylesheet" href="{% static 'css/treatment_analytics/bg_style.css' %}">
+<link rel="stylesheet" href="{% static 'css/therapy_analytics/bg_style.css' %}">
 {% endblock %}
 
 
@@ -30,20 +30,29 @@
 
     <div id="top_select_container">
         <div id="dept_select_container">
-                <select id="dept_select" onchange="dept_change()">
-                    <option value="" disabled selected>Select department</option>
-                        {% for i in dept_lst %}
-                            <option value={{forloop.counter0}}>{{i}}</option>
-                        {% endfor %}
-                </select>
-            </div>
+            <select id="dept_select" onchange="dept_change()">
+                <option value="" disabled selected>Select department</option>
+                    {% for i in dept_lst %}
+                        <option value={{forloop.counter0}}>{{i}}</option>
+                    {% endfor %}
+            </select>
         </div>
+    
         <div id="disease_select_container">
             
         </div>
     </div>
     <div id="collapsible_container">
         
+    </div>
+
+    <div id="therapy_checkbox_container">
+  
+    </div>
+
+    <div id="selectivity_chart">
+
+
     </div>
     
 
@@ -70,7 +79,7 @@
     <script type="text/javascript" , src="{% static 'js/materialize.js' %}"></script>
     
     <!-- <script type="text/javascript" src="{% static 'js/treatment_analytics/charts.js' %}"></script>-->
-    <script type="text/javascript" src="{% static 'js/treatment_analytics/page.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/therapy_analytics/page.js' %}"></script>
     {% endblock js-ref %}
 </body>
 

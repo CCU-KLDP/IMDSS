@@ -21,7 +21,7 @@ def treatement_analytics_view(request):
     content = {
         "dept_lst": get_dept_lst()
     }
-    return render(request, "treatment_analytics/analytics_page.html", content)
+    return render(request, "therapy_analytics/analytics_page.html", content)
 
 
 def get_dept_lst():
