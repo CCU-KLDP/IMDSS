@@ -34,41 +34,23 @@ $.ajaxSetup({
 
 
 // our code
-var chart = echarts.init(document.getElementById('top_chart'), 'white', {renderer: 'canvas'});
-
-$(
-    function () {
-        fetchData(chart);
-    }
-);
-
-function fetchData() {
-    var id = location.href.split("/")[4]
+function fetch_success_ratio_chart(selected_therapy) {
+    var success_ratio_chart = echarts.init(document.getElementById('success_ratio_chart'), 'white', {renderer: 'canvas'});
     $.ajax({
         type: "GET",
-        url: "http://127.0.0.1:8000/charts/top_chart",
+        url: "http://127.0.0.1:8000/therapy_analytics/success_ratio_chart",
         dataType: 'json',
-        data: {patient_id : id},
+        data: {"selected_therapy": selected_therapy},
         success: function (result) {
-            chart.setOption(result.data);
-            chart.on('click', function (param) {
-                $.ajax({
-                    type: "POST",
-                    url: "http://127.0.0.1:8000/charts/emr/",
-                    dataType:'json',
-                    data: {"x_data": param.name, "y_data": param.value, "patient_id" :id},
-                    success: function (result2) {
-                        window.location.href = result2
-                    }
-                });
-            });
+            success_ratio_chart.setOption(result.data);
+            
         }
     });
 }
 
 
 
-
+/*
 function onCheckBox(checkbox)
 {
     var items = document.getElementsByName("item");
@@ -147,4 +129,5 @@ $("#clear").click(function(){
         items[j].disabled = false
 	}
 })
+*/
 

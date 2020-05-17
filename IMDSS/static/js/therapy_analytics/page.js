@@ -1,3 +1,6 @@
+document.write('<script src="{% static "js/therapy_analytics/charts.js" %}"</script>');
+
+
 $(document).ready(function(){
     $('select').formSelect();
 });
@@ -52,7 +55,7 @@ function disease_change(){
                 insert_collapsible+=result[result["treatment"][i]]
                 insert_collapsible+='</p></div></li>'
 
-                insert_checkbox+='<label class="therapy_checkbox_items"><input type="checkbox" class="filled-in" checked="checked"/><span>'
+                insert_checkbox+='<label class="therapy_checkbox_items"><input type="checkbox" class="filled-in" name="therapy" checked="checked"/><span>'
                 insert_checkbox+=result["treatment"][i]
                 insert_checkbox+='</span></label>'
             }
@@ -61,10 +64,20 @@ function disease_change(){
             checkbox_container.innerHTML = insert_checkbox
             $('.collapsible').collapsible();
 
+           var selected_therapy=""
+           $(".therapy_checkbox_items>input:checked[name=therapy]").each(function(index){
+                if($(this)[0].checked){
+                    selected_therapy+=$(this).next('span').text(); 
+                    selected_therapy+=" ";
+                }
+            });
             
+            fetch_success_ratio_chart(selected_therapy)
 
             
+  
 
         }
+    
     });
 }

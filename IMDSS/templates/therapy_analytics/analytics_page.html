@@ -3,6 +3,7 @@
 
 {% block ref %}
 <link rel="stylesheet" href="{% static 'css/therapy_analytics/bg_style.css' %}">
+<link rel="stylesheet" href="{% static 'css/therapy_analytics/charts.css' %}">
 {% endblock %}
 
 
@@ -50,12 +51,12 @@
   
     </div>
 
-    <div id="selectivity_chart">
+    <div id="success_ratio_chart">
 
 
     </div>
     
-
+    
 
 
     <!--
@@ -77,8 +78,8 @@
     {% block js-ref %}
     <script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
     <script type="text/javascript" , src="{% static 'js/materialize.js' %}"></script>
-    
-    <!-- <script type="text/javascript" src="{% static 'js/treatment_analytics/charts.js' %}"></script>-->
+    <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+    <script type="text/javascript" src="{% static 'js/therapy_analytics/charts.js' %}"></script>
     <script type="text/javascript" src="{% static 'js/therapy_analytics/page.js' %}"></script>
     {% endblock js-ref %}
 </body>
