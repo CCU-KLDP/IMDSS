@@ -37,7 +37,7 @@ function table_change(){
     $.ajax({
         type: "GET",
         url: "http://127.0.0.1:8000/emr_search/table_item",
-        data: {"selected_table": $("#table_select option:selected").text()},
+        data: {"selected_table": $("#table_select option:selected").text(), "selected_dept": $('#dept_select :selected').text()},
         dataType: "json",
         success: function(result){
             for(i=0;i < result.length;i++){

@@ -170,11 +170,12 @@ def ajax_get_table_item(request):
     從前端接的table select接收使用者選擇的table，並回傳對應table的items
     """
     # selected_dep = request.GET['selected_dep']
-    selected_dep = 'Chest Medicine'
     selected_table = request.GET['selected_table']
+    selected_dept = request.GET['selected_dept']
+    print(selected_dept)
 
 
-    table_item_list = get_table_item(selected_dep, selected_table)
+    table_item_list = get_table_item(selected_dept, selected_table)
 
     
     return JsonResponse(table_item_list, safe=False)
