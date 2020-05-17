@@ -34,6 +34,7 @@
     <div class="delete_margin traingle_top_left_grey grey darken-2"></div>
     <div class="delete_margin traingle_top_right_black grey darken-3"></div>
     <div class="col s5 offset-s3 white-text top_title">
+<<<<<<< HEAD
         <div id="container">
 
 
@@ -87,6 +88,47 @@
                 </ul>
             </div>
         </div>
+=======
+    <div id="container">
+
+
+        <select class="browser-default z-depth-4 dd_sel">
+            <option value="" disabled selected>MRI/XRAY</option>
+            <option value="1">X-RAY</option>
+            <option value="2">MRI</option>
+        </select>
+
+
+
+        <ul id="photos">
+            <!-- <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
+            <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li> -->
+            {% for mri in mris %}
+                {% if mri.mri_image %}
+                    <li><a href="#"><img src="{{  mri.mri_image.url }}" /></a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+>>>>>>> 87766f6562f3791a809aac4cdd9a968bffdb7ead
 
 
         <div id="painter">
@@ -94,7 +136,15 @@
                 <img src="{% static 'image/mri/a.jpg' %}" selected="false" /></div>
 
 
+<<<<<<< HEAD
             <canvas id="canvas"></canvas>
+=======
+    <div id="painter">
+        <div id="pic_show">
+            <img src="{{ first.mri_image.url }}" selected="false" /></div>
+        <canvas id="canvas"></canvas>
+    </div>
+>>>>>>> 87766f6562f3791a809aac4cdd9a968bffdb7ead
 
         </div>
         <form action="#"></form>
