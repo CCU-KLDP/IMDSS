@@ -1,3 +1,7 @@
+"""
+@Louise
+Explain DB data which is usable.
+"""
 db_models_patient
 *已建十名病人
 *僅80000154 Adam Lee有資料

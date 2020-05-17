@@ -1,3 +1,8 @@
+"""
+@Louise
+Store emr string from xml to MYSQL.
+"""
+
 import MySQLdb
 conn=MySQLdb.connect(
     host='140.123.173.62',
@@ -10,12 +15,12 @@ conn=MySQLdb.connect(
 
 cur=conn.cursor()
 
-emrName = "Special_Note"
-f = open('C:\\DATA\\School\\專題\\整合後data\\xsl\\'+ emrName +'.txt', 'r', encoding="utf-8")
+emrName = "檔名"
+f = open('C:\\路徑\\'+ emrName +'.txt', 'r', encoding="utf-8")
 
 sequence = 1
 for line in f.readlines():
-    cur.execute('insert into db_models_xsl_data(XslId,Sequence,Xslcontent) values(%s,%s,%s)',(emrName,sequence,line))
+    cur.execute('insert into db_models_emr_data(EmrId,Sequence,Emrcontent) values(%s,%s,%s)',(emrName,sequence,line))
     sequence += 1
 
 f.close()
