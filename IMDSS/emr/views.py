@@ -121,14 +121,18 @@ def get_table_item(dep_name, selected_table):
 
     table_item_list = []
 
-    dep = Department.objects.get(dep_name=dep_name)
-    evaluation_list = list(dep.dep_evaluation.all().values())
+    dept = Department.objects.get(dep_name=dep_name)
+    evaluation_list = list(dept.dep_evaluation.all().values())
 
-    dep_df = pd.DataFrame(evaluation_list)
+    dept_df = pd.DataFrame(evaluation_list)
 
-    table_groups = dep_df.groupby('name')
+    if dept_df.empty:
+        table_item_list = ['None', ]
 
-    table_item_list = table_groups.get_group(selected_table).iloc[:]['medical_condition'].tolist()
+    else:
+        table_groups = dept_df.groupby('name')
+
+        table_item_list = table_groups.get_group(selected_table).iloc[:]['medical_condition'].tolist()
 
     print(table_item_list)
 
