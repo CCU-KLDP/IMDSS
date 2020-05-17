@@ -1,12 +1,14 @@
-from django.shortcuts import render
-from django.http import JsonResponse
-from django.http import HttpResponse
-from db_models.models import Department
-from emr.models import TestEmr
+from django.shortcuts   import render
+from django.http        import JsonResponse
+from django.http        import HttpResponse
+from db_models.models   import Department
+from emr.models         import TestEmr
+from lxml               import etree
+
 import random
 import pandas as pd
 import lxml
-from lxml import etree
+
 import json
 # Create your views here.
 
@@ -86,11 +88,11 @@ def get_dept_lst():
     @return list
     從資料庫獲得所有部門(科別)
     """
-    return ["dept_1", "dept_2", "dept_3", "dept_4", "dept_5"]
+    return list(Department.objects.all())
 
 
 
-def get_dept_table(dept):
+def get_dept_table(dept_table_dict):
     """
     @pony
     @return dict
@@ -98,23 +100,49 @@ def get_dept_table(dept):
     以dept為key(dept_1 ...)
     獲得dept底下的所有table, [table_1, table_2, ...]
     """
-    table_lst = get_table_lst()
-    counter_lst = range(1, 11)
-    dept_lst = get_dept_lst()
-    dept_table_dict = {}
-    for i in dept_lst:
-        dept_table_dict[i] = list(random.sample(table_lst, k=random.choice(counter_lst)))
-    return dept_table_dict[dept]
+    dep_name_list = dept_table_dict['dept']
+
+    for dep_name in dep_name_list: 
+        dep = Department.objects.get(dep_name=dep_name)
+        evaluation_list = list(dep.dep_evaluation.all().values())
+        dep_df = pd.DataFrame(evaluation_list)
+        # print(dep_df)
+        if dep_df.empty:
+            dept_table_dict[dep.dep_name] = ['None', ]
+        else:
+            dept_table_dict[dep.dep_name] = dep_df['name'].value_counts().index.tolist()
+        # print(dept_table_dict)
+    # print(dept_table_dict[dept])
+
+    # return dept_table_dict[dept]
+    return dept_table_dict
+
+def get_table_item(dep_name, selected_table):
+
+    table_item_list = []
+
+    dep = Department.objects.get(dep_name=dep_name)
+    evaluation_list = list(dep.dep_evaluation.all().values())
+
+    dep_df = pd.DataFrame(evaluation_list)
+
+    table_groups = dep_df.groupby('name')
+
+    table_item_list = table_groups.get_group(selected_table).iloc[:]['medical_condition'].tolist()
+
+    print(table_item_list)
 
 
-def get_table_lst():
-    """
-    @pony
-    @return list
-    建立評估表(table)
-    """
-    table_lst = ["table_" + str(x) for x in range(10)]
-    return table_lst
+    return table_item_list
+
+# def get_table_lst():
+#     """
+#     @pony
+#     @return list
+#     建立評估表(table)
+#     """
+#     table_lst = ["table_" + str(x) for x in range(10)]
+#     return table_lst
 
 
 def ajax_get_dept_table(request):
@@ -123,14 +151,16 @@ def ajax_get_dept_table(request):
     @return Json object
     選擇dept的Select元素時，會在旁邊的table Select內列出該dept下的所有table
     """
-    dept_table_lst = {
-        "dept": get_dept_lst(),
+    dep_lst = [dep.dep_name for dep in get_dept_lst()]
+    # print(dep_lst)
+    dept_table_dict = {
+        "dept": dep_lst,
     }
 
-    for i in get_dept_lst():
-        dept_table_lst[i] = get_dept_table(i)
+    dept_table_lst = get_dept_table(dept_table_dict)
 
-    return JsonResponse(dept_table_lst)
+    return JsonResponse(dept_table_dict)
+
 
 def ajax_get_table_item(request):
     """
@@ -139,17 +169,15 @@ def ajax_get_table_item(request):
     建立items，並隨機丟給table
     從前端接的table select接收使用者選擇的table，並回傳對應table的items
     """
-    table_lst = get_table_lst()
-    item_lst = ["item_" + str(x) for x in range(30)]
-    counter_lst = range(1, 11)
-    table_item_dict = {}
-
-    for i in table_lst:
-        table_item_dict[i] = list(random.sample(item_lst, k=random.choice(counter_lst)))
-
+    # selected_dep = request.GET['selected_dep']
+    selected_dep = 'Chest Medicine'
     selected_table = request.GET['selected_table']
+
+
+    table_item_list = get_table_item(selected_dep, selected_table)
+
     
-    return JsonResponse(table_item_dict[selected_table], safe=False)
+    return JsonResponse(table_item_list, safe=False)
 
 
 def ajax_get_emr(request, patient_id):

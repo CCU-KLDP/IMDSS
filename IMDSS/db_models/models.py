@@ -53,8 +53,9 @@ class Evaluation_form(models.Model):
     cuis_list = models.CharField(max_length=2500)
     dep_id = models.ForeignKey(
         'db_models.Department',
-        on_delete=models.DO_NOTHING
-        )
+        on_delete=models.DO_NOTHING,
+        related_name='dep_evaluation',
+    )
 
 
 class Med(models.Model):
