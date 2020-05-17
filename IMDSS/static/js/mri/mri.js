@@ -1,20 +1,20 @@
 
-/*切換XRAY跟MRI*/ 
-$(function() {
+/*切換XRAY跟MRI*/
+$(function () {
   //隐藏div
- 
+
   //给div添加change事件
-  $("#type").change(function() {
-      if($(this).val() == 0 ) {
-          $("#XRAY").show();
-          $("#MRI").hide();
-          
-      } else if($(this).val() == 1 ) {
-          $("#MRI").show();
-          $("#XRAY").hide();
-          
-      }
-      
+  $("#type").change(function () {
+    if ($(this).val() == 0) {
+      $("#XRAY").show();
+      $("#MRI").hide();
+
+    } else if ($(this).val() == 1) {
+      $("#MRI").show();
+      $("#XRAY").hide();
+
+    }
+
   })
 })
 
@@ -137,10 +137,19 @@ $(window).load(function () {
 var _canvas = document.getElementById('canvas');
 var ctx = _canvas.getContext('2d');
 canvas.width = window.innerWidth - 475;
-canvas.height = window.innerHeight - 230;
+canvas.height = window.innerHeight - 250;
+ctx.strokeStyle = "orange"
+$('.color input').change(function(){
+  r = $('#red').val();
+  g = $('#green').val();
+  b = $('#blue').val();
+  changeColor(r,g,b);
+  //取出input中的數值
+});
+
+function changeColor(r,g,b){
 
 
-function changeColor(r, g, b) {
   colors = {
     red: r,
     green: g,
@@ -173,10 +182,16 @@ function mouseMove(evt) {
   ctx.lineTo(mousePos.x, mousePos.y);
   //利用取回的值畫線
   ctx.stroke();
-  var grad = ctx.createLinearGradient(150, 0, 280, 0);
+  /*var grad = ctx.createLinearGradient(150, 0, 280, 0);
   grad.addColorStop("0", "orange");
-  ctx.strokeStyle = grad  //畫!
-  ctx.lineWidth = 4;
+  ctx.strokeStyle = grad */ //畫!
+  
+  var x = document.getElementById("bsize").value;
+ 
+  ctx.lineWidth = x/10
+  if(x=0){
+    ctx.lineWidth=0;
+  }
 };
 
 canvas.addEventListener('mousedown', function (evt) {
@@ -201,7 +216,11 @@ $('#save').on('click', function () {
   //利用toDataURL() 把canvas轉成data:image
   this.href = _url;
   //再把href載入上面的Data:image
-});
+}
+
+
+
+);
 
 
 
@@ -215,6 +234,9 @@ for (var i = 0; i < imgs.length; i++) {
   imgs[i].onclick = function () {
     img.src = this.src;
   }
+  if (img.onclick) {
+    canvas.clearRect()
+  }
 }
 
 
@@ -227,6 +249,8 @@ for (var i = 0; i < imgs.length; i++) {
   imgs[i].onclick = function () {
     img.src = this.src;
   }
+
 }
 
 
+/*畫筆大小*/
