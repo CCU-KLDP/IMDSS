@@ -55,9 +55,7 @@ JsonError = json_error
 @pony
 please write your code below here!
 """
-def tpr_data_frame(patient_id = 80000154):
-
-    patient_id = 80000154
+def tpr_data_frame(patient_id):
 
     tpr_df = pd.DataFrame(list(TprData.objects.filter(patient_id_id=patient_id).values()))
     
@@ -81,6 +79,9 @@ def init_multiple_charts(patient_id) -> Grid:
     @return grid(json like object)
     @param list 所有type的資料都用list給(日期、生理資料、藥物使用)，每一個index要對好，缺的index用null塞
     """
+    # ###### in real world should delete
+    patient_id = 80000154
+    # ######
 
     tpr_df = tpr_data_frame(patient_id)
     tpr_df = tpr_df.sort_values(by='time',ascending=True)
@@ -331,11 +332,6 @@ def med_data_frame(patient_id):
     
     med_df['medprs'] = med_df['medprs'].str.strip()
 
-    # keys
-    med_groups = med_df.groupby(['medprs', 'doseunit'])
-    keys = list(med_groups.groups.keys())
-
-
     # pivot table
     meds = med_df['medprs'].value_counts().index.tolist()
 
@@ -351,16 +347,18 @@ def med_data_frame(patient_id):
     for index in max_dict.keys():
         max_dict[index] = int(math.ceil(max_dict[index] / 10.0)) * 10  
 
+    print(max_dict['NS5'])
 
-    return keys, med_new_df, max_dict
-
-
-def get_drug_charts(patient_id):
+    return med_new_df, max_dict
 
 
-    keys, med_df, max_dict = med_data_frame(patient_id)
+def get_drug_charts(patient_id, keys):
+
+
+    med_df, max_dict = med_data_frame(patient_id)
 
     med_df.sort_values(by='exedt',ascending=True)
+
 
     x_data = med_df.index.tolist()
 
@@ -370,6 +368,7 @@ def get_drug_charts(patient_id):
     drug_4 = med_df[keys[3][0]].tolist()
     drug_5 = med_df[keys[4][0]].tolist()
 
+    # print("drug-2", drug_2)
     # print(y_HR)
 
     bar_drag_1 = (
@@ -405,7 +404,7 @@ def get_drug_charts(patient_id):
                 axisline_opts=opts.AxisLineOpts(
                     linestyle_opts=opts.LineStyleOpts(color="#675bba")
                 ),
-                axislabel_opts=opts.LabelOpts(formatter="{value}" + keys[0][1]),
+                axislabel_opts=opts.LabelOpts(formatter="{value} " + keys[0][1]),
                 splitline_opts=opts.SplitLineOpts(
                     is_show=True, linestyle_opts=opts.LineStyleOpts(opacity=1)
                 ),
@@ -451,12 +450,12 @@ def get_drug_charts(patient_id):
                     font_family="Courier New",
                 ),
                 min_=0,
-                max_=5,
+                max_=max_dict[keys[1][0]],
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
                     linestyle_opts=opts.LineStyleOpts(color="#675bba")
                 ),
-                axislabel_opts=opts.LabelOpts(formatter="{value}" + keys[1][1]),
+                axislabel_opts=opts.LabelOpts(formatter="{value} " + keys[1][1]),
                 splitline_opts=opts.SplitLineOpts(
                     is_show=True, linestyle_opts=opts.LineStyleOpts(opacity=1)
                 ),
@@ -507,7 +506,7 @@ def get_drug_charts(patient_id):
                 axisline_opts=opts.AxisLineOpts(
                     linestyle_opts=opts.LineStyleOpts(color="#675bba")
                 ),
-                axislabel_opts=opts.LabelOpts(formatter="{value}" + keys[2][1]),
+                axislabel_opts=opts.LabelOpts(formatter="{value} " + keys[2][1]),
                 splitline_opts=opts.SplitLineOpts(
                     is_show=True, linestyle_opts=opts.LineStyleOpts(opacity=1)
                 ),
@@ -558,7 +557,7 @@ def get_drug_charts(patient_id):
                 axisline_opts=opts.AxisLineOpts(
                     linestyle_opts=opts.LineStyleOpts(color="#675bba")
                 ),
-                axislabel_opts=opts.LabelOpts(formatter="{value}" + keys[3][1]),
+                axislabel_opts=opts.LabelOpts(formatter="{value} " + keys[3][1]),
                 splitline_opts=opts.SplitLineOpts(
                     is_show=True, linestyle_opts=opts.LineStyleOpts(opacity=1)
                 ),
@@ -609,7 +608,7 @@ def get_drug_charts(patient_id):
                 axisline_opts=opts.AxisLineOpts(
                     linestyle_opts=opts.LineStyleOpts(color="#675bba")
                 ),
-                axislabel_opts=opts.LabelOpts(formatter="{value}" + keys[4][1]),
+                axislabel_opts=opts.LabelOpts(formatter="{value} " + keys[4][1]),
                 splitline_opts=opts.SplitLineOpts(
                     is_show=True, linestyle_opts=opts.LineStyleOpts(opacity=1)
                 ),
@@ -670,16 +669,31 @@ def chart_view(request):
     """
 
     patient_id = request.GET['patient_id']
+    patient_id = 80000154
 
-    #print(json.loads(
-    #    grid_multiple_charts(init_multiple_charts(patient_id))
-    #))
+    keys, _ = get_all_drug(patient_id)
+
+
     return JsonResponse(json.loads(grid_multiple_charts(
         init_multiple_charts(patient_id),
-        get_drug_charts(patient_id),
+        get_drug_charts(patient_id, keys),
     )))
 
     # grid_multiple_charts
+
+
+def get_all_drug(patient_id):
+    med_df = pd.DataFrame(list(MedData.objects.filter(patient_id_id=patient_id).values()))
+
+    med_df['medprs'] = med_df['medprs'].str.strip()
+
+    med_groups = med_df.groupby(['medprs', 'doseunit'])
+
+    keys = list(med_groups.groups.keys())
+
+    return keys, med_df['medprs'].value_counts().index.tolist()
+
+
 
 # also working
 def display_patient_detail_view(request, patient_id):
@@ -687,9 +701,13 @@ def display_patient_detail_view(request, patient_id):
     @pony
     render the patient detail page
     """
+    patient_id = 80000154
+    
+    _, drugs = get_all_drug(patient_id)
+
     content = {
         "patient_id" : patient_id,
-        "test": list(range(21)) # drug name
+        "test": drugs # drug name
     }
     return render(request, "display_patient_detail/detail_page.html", content)
 
@@ -722,9 +740,19 @@ def ajax_get_patient_emr(request):
 
 def ajax_update_charts(request):
     patient_id = request.GET['patient_id']
+    patient_id = 80000154
+    # new_drugs = request.GET['new_drugs']
+    new_drugs = ['NS5', 'POTPH', 'RADIK', 'VANCO', 'KEPPI']
+
+    keys, _ = get_all_drug(patient_id)
+    new_keys = []
+    for key in keys:
+        if key[0] in new_drugs:
+            new_keys.append(key)
+            print(key)
 
     physical_charts_lst = init_multiple_charts(patient_id)
-    drug_charts_lst = get_update_drug_charts(patient_id)
+    drug_charts_lst = get_drug_charts(patient_id, new_keys)
 
     return JsonResponse(json.loads(grid_multiple_charts(
         physical_charts_lst,
@@ -732,7 +760,7 @@ def ajax_update_charts(request):
     )))
 
 
-def get_update_drug_charts(patient_id):
+# def get_update_drug_charts(patient_id):
     x_data = ["month {}".format(i) for i in range(1, 40)]
     data = list(range(10, 151))
     shuffle(data)
@@ -1000,8 +1028,9 @@ def get_update_drug_charts(patient_id):
     )
 
     return [bar_drag_1, bar_drag_2, bar_drag_3, bar_drag_4, bar_drag_5]
+# def get_update_drug_charts(patient_id, new_keys):
 
-
+    return get_drug_charts(patient_id, new_keys)
 def ajax_save_memo(request, patient_id):
     content = request.GET['content']
     time = request.GET['time']
