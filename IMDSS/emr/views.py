@@ -184,18 +184,21 @@ def ajax_get_table_item(request):
     
     return JsonResponse(table_item_list, safe=False)
 
-
+# also working
 def ajax_get_emr(request, patient_id):
     """
     @pony
     獲取select-emr-table所選擇的病歷id
     """
     if int(request.GET['selected_emr_id'].split("-")[2][:2]) < 17 : 
-        xml = lxml.etree.parse("D:/VScode workshop/IMDSS-Project/IMDSS/static/xml/WA2_1081004143938.xml")
+        xml = lxml.etree.parse("/Users/kylehuang/DOING-PROJECTS/IMDSS-Project/IMDSS/xml_resource/WA2_1081004143938.xml")
     else : 
-        xml = lxml.etree.parse("D:/VScode workshop/IMDSS-Project/IMDSS/static/xml/WA2_1081004143941.xml")
-    
-    transform = lxml.etree.XSLT(etree.parse("D:/VScode workshop/IMDSS-Project/IMDSS/static/xslt/Progress_note.xsl"))
+        xml = lxml.etree.parse("/Users/kylehuang/DOING-PROJECTS/IMDSS-Project/IMDSS/xml_resource/WA2_1081004143941.xml")
+    # print(type(xml))
+
+    print(request.GET)
+
+    transform = lxml.etree.XSLT(etree.parse("/Users/kylehuang/DOING-PROJECTS/IMDSS-Project/IMDSS/xml_resource/Progress_note.xsl"))
     html = transform(xml)
 
     content = {u"insert_html": str(html)}

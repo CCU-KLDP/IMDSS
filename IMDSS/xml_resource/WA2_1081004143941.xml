@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="big5" ?>
+<?xml-stylesheet href="Progress_note.xsl" type="text/xsl"?>
+<Progress_note xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Progress_note.xsd">
+<IPD_INFO>
+	<IPD_NO>10809250011</IPD_NO>
+	<IPD_IN_DATE>2019-09-25</IPD_IN_DATE>
+	<IPD_BED>AI205</IPD_BED>
+	<IPD_MAJOR_DRNO>7123</IPD_MAJOR_DRNO>
+	<IPD_MAJOR_DR>李世瑜      </IPD_MAJOR_DR>
+</IPD_INFO>
+<CULTURE_MARK>Y</CULTURE_MARK>
+<CULTURE>
+	<CULTURE_DAY>2019-09-27</CULTURE_DAY>
+	<CULTURE_DESCRIPTION>Sputum Culture(Cough out)</CULTURE_DESCRIPTION>
+	<CULTURE_CATEGORY>
+	</CULTURE_CATEGORY>
+	<CULTURE_RESULT>Mix upper respiratory tract microorganisms</CULTURE_RESULT>
+</CULTURE>
+<CULTURE>
+	<CULTURE_DAY>2019-09-27</CULTURE_DAY>
+	<CULTURE_DESCRIPTION>Sputum Culture(Cough out)</CULTURE_DESCRIPTION>
+	<CULTURE_CATEGORY>
+	</CULTURE_CATEGORY>
+	<CULTURE_RESULT>Mix upper respiratory tract microorganisms</CULTURE_RESULT>
+</CULTURE>
+<CULTURE>
+	<CULTURE_DAY>2019-09-27</CULTURE_DAY>
+	<CULTURE_DESCRIPTION>Sputum Culture(Cough out)</CULTURE_DESCRIPTION>
+	<CULTURE_CATEGORY>
+	</CULTURE_CATEGORY>
+	<CULTURE_RESULT>Mix upper respiratory tract microorganisms</CULTURE_RESULT>
+</CULTURE>
+<HYC_MARK>N</HYC_MARK>
+<RECORD_DATE>2019-09-28</RECORD_DATE>
+<RECORD_TIME>11:38</RECORD_TIME>
+<SUBJECTIVE>Left side mild weakness</SUBJECTIVE>
+<OBJECTIVE>Consciousness: E4V5M6
+V/S:BT36.8℃(顳);HR 83次/分;RR 21次/分;ABP 120/ 82mmHg
+EKG: Sinus rhythm
+Chest:Smooth of pattern then breathing sound with clear
+      Under N/C support
+Abdomen: Soft and distension, digestion well, norval active bowel sound
+         No had stool passage for one day
+EXT:  warm of limbs ; patting edema (+/+)
+  ◎Implantation foley tube with urine output 5050ml/D
+Neurological Examination：
+ Cranial nerves：
+  Ⅱ - isocoric：right  3.5  mm, left   3.5  mm,
+       light reflex ：right   +    , left   +    ,
+       visual acuity： normal
+       visual field ：左側忽略
+Ⅲ、Ⅳ、Ⅵ
+                        Ｏ      Ｏ                    Ｏ      Ｏ
+                        │      │                    │      │
+                    Ｏ─┼─Ｘ─┼─Ｏ            Ｏ─┼─Ｘ─┼─Ｏ
+                        │      │                    │      │
+                        Ｏ      Ｏ                    Ｏ      Ｏ
+Ⅴ - facial sensation ：left central facial palsy
+                       (左邊感覺異常,感覺不出刺或痛覺)
+Ⅶ - facial expression：mild elevation of left side
+ Muscle power：
+ 
+                   ○
+                   │
+              5＼／▽＼／4
+                   │
+                 ／  ＼
+                5＼  ／4
+                 ／  ＼</OBJECTIVE>
+<Easy_Progress_Note></Easy_Progress_Note>
+<CONTENT>
+	<PROBLEM_COUNT>01</PROBLEM_COUNT>
+	<PROBLEM>acute large cerebral infarction at right middle cerebral
+artery territory s/p t-PA and EVT</PROBLEM>
+	<ASSESSMENT>   -＞Post stroke day 4, neurological deficit stationary</ASSESSMENT>
+	<DIAG_PLAN>- Monitor consciousness level and neurological examinations
+- Arrange echocardiography for survey heart function and disease</DIAG_PLAN>
+	<THERA_PLAN>- H2 receptor antagonist for stress uler preventions
+  Gaster 20mg tab(Voker)                        1   BID  PO
+- Keep anti-platate agent, bokey 1# po qd
+- Adequate intravensous fluid hydration
+  NS 0.9% 500cc                               500   Q6H  IVD</THERA_PLAN>
+	<PLAN>Plan</PLAN>
+</CONTENT>
+<CONTENT>
+	<PROBLEM_COUNT>01</PROBLEM_COUNT>
+	<PROBLEM>acute large cerebral infarction at right middle cerebral
+artery territory s/p t-PA and EVT</PROBLEM>
+	<ASSESSMENT>   -＞Post stroke day 4, neurological deficit stationary</ASSESSMENT>
+	<DIAG_PLAN>- Monitor consciousness level and neurological examinations
+- Arrange echocardiography for survey heart function and disease</DIAG_PLAN>
+	<THERA_PLAN>- H2 receptor antagonist for stress uler preventions
+  Gaster 20mg tab(Voker)                        1   BID  PO
+- Keep anti-platate agent, bokey 1# po qd
+- Adequate intravensous fluid hydration
+  NS 0.9% 500cc                               500   Q6H  IVD</THERA_PLAN>
+	<PLAN>Plan</PLAN>
+</CONTENT>
+<RECORDER></RECORDER>
+<VS_UPLOAD>李世瑜</VS_UPLOAD>
+<VS_NO_UPLOAD></VS_NO_UPLOAD>
+
+</Progress_note>

@@ -3,11 +3,12 @@ from random                 import shuffle
 from pyecharts.charts       import Line, Bar, Grid
 from pyecharts              import options as opts
 from django.http            import HttpResponse
-from .models                import TprData
+from .models                import TprData, MedData
 
 import pandas               as     pd
 import numpy                as     np
 import json
+import math
 import datetime
 
 
@@ -74,10 +75,6 @@ def tpr_data_frame(patient_id = 80000154):
 
     return tpr_new_df
 
-
-
-
-
 def init_multiple_charts(patient_id) -> Grid:
     """
     @pony
@@ -88,7 +85,7 @@ def init_multiple_charts(patient_id) -> Grid:
     tpr_df = tpr_data_frame(patient_id)
     tpr_df = tpr_df.sort_values(by='time',ascending=True)
 
-    print(tpr_df.index.tolist())
+    # print(tpr_df.index.tolist())
 
     
     # x_data = [x for x in tpr_df.index.tolist()[:40]]
@@ -108,7 +105,7 @@ def init_multiple_charts(patient_id) -> Grid:
 
     # print(tpr_df.index.apply(lambda x: datetime.datetime.strptime(x, "%Y%M%D %H%M%S")))
     # x_list = [datetime.datetime.fromtimestamp(x, "%Y%M%D %H%M%S") for x in tpr_df.index.tolist()]
-    print(type(x_data[0]))
+    # print(type(x_data[0]))
     # print(x_list)
 
     # 生理圖表-line-1
@@ -147,6 +144,7 @@ def init_multiple_charts(patient_id) -> Grid:
             xaxis_index=0,
             yaxis_index=2,
         )
+        # y axis chart
         .extend_axis(
             yaxis=opts.AxisOpts(
                 name="Temperature",
@@ -167,6 +165,7 @@ def init_multiple_charts(patient_id) -> Grid:
                 axislabel_opts=opts.LabelOpts(formatter="{value} ml"),
             )
         )
+        # also y acxis
         .extend_axis(
             yaxis=opts.AxisOpts(
                 name="other",
@@ -191,6 +190,7 @@ def init_multiple_charts(patient_id) -> Grid:
                 ),
             )
         )
+        # also y axis
         .set_global_opts(
             yaxis_opts=opts.AxisOpts(
                 name="some pointer",
@@ -320,29 +320,64 @@ def init_multiple_charts(patient_id) -> Grid:
     )
 
     # 取得藥物使用資料
-
-
     return [line, bar_1]
 
 
+def med_data_frame(patient_id):
+
+    patient_id = 80000154
+
+    med_df = pd.DataFrame(list(MedData.objects.filter(patient_id_id=patient_id).values()))
+    
+    med_df['medprs'] = med_df['medprs'].str.strip()
+
+    # keys
+    med_groups = med_df.groupby(['medprs', 'doseunit'])
+    keys = list(med_groups.groups.keys())
+
+
+    # pivot table
+    meds = med_df['medprs'].value_counts().index.tolist()
+
+    med_df['exedt'] = med_df['exedt'].apply(lambda x: datetime.datetime.strptime(x, "%Y%m%d%H%M%S"))
+
+    med_new_df = pd.pivot_table(med_df, index='exedt', columns='medprs', values='dose', aggfunc=np.sum)
+
+    med_new_df.update(med_new_df[meds].fillna(0))
+
+    # create a max value map
+    max_dict = med_new_df.max().to_dict()
+
+    for index in max_dict.keys():
+        max_dict[index] = int(math.ceil(max_dict[index] / 10.0)) * 10  
+
+
+    return keys, med_new_df, max_dict
+
+
 def get_drug_charts(patient_id):
-    x_data = ["month {}".format(i) for i in range(1, 40)]
-    data = list(range(10, 151))
-    shuffle(data)
-    y_HR = data[:40]
-    y_BT = data[40:80]
-    y_RR = data[80:120]
-    bar_data = list(range(10, 101))
-    shuffle(bar_data)
-    y_SBP = bar_data[:40]
-    y_DBP = bar_data[40:80]
+
+
+    keys, med_df, max_dict = med_data_frame(patient_id)
+
+    med_df.sort_values(by='exedt',ascending=True)
+
+    x_data = med_df.index.tolist()
+
+    drug_1 = med_df[keys[0][0]].tolist()
+    drug_2 = med_df[keys[1][0]].tolist()
+    drug_3 = med_df[keys[2][0]].tolist()
+    drug_4 = med_df[keys[3][0]].tolist()
+    drug_5 = med_df[keys[4][0]].tolist()
+
+    # print(y_HR)
 
     bar_drag_1 = (
         Bar()
         .add_xaxis(x_data)
         .add_yaxis(
-            "Drag-1",
-            y_SBP,
+            keys[0][0], # should change name
+            drug_1,
             stack="stack2",
             label_opts=opts.LabelOpts(is_show=False),
             xaxis_index=2,
@@ -365,18 +400,18 @@ def get_drug_charts(patient_id):
                     font_family="Courier New",
                 ),
                 min_=0,
-                max_=250,
+                max_=max_dict[keys[0][0]],
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
                     linestyle_opts=opts.LineStyleOpts(color="#675bba")
                 ),
-                axislabel_opts=opts.LabelOpts(formatter="{value} °C"),
+                axislabel_opts=opts.LabelOpts(formatter="{value}" + keys[0][1]),
                 splitline_opts=opts.SplitLineOpts(
                     is_show=True, linestyle_opts=opts.LineStyleOpts(opacity=1)
                 ),
             ),
             title_opts=opts.TitleOpts(
-                title="Drug-1",
+                title=keys[0][0],
                 pos_top="44%",
                 pos_left="10%",
                 title_textstyle_opts=opts.TextStyleOpts(
@@ -392,8 +427,8 @@ def get_drug_charts(patient_id):
         Bar()
         .add_xaxis(x_data)
         .add_yaxis(
-            "Drag-2",
-            y_SBP,
+            keys[1][0],
+            drug_2,
             stack="stack3",
             label_opts=opts.LabelOpts(is_show=False),
             xaxis_index=3,
@@ -416,18 +451,18 @@ def get_drug_charts(patient_id):
                     font_family="Courier New",
                 ),
                 min_=0,
-                max_=250,
+                max_=5,
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
                     linestyle_opts=opts.LineStyleOpts(color="#675bba")
                 ),
-                axislabel_opts=opts.LabelOpts(formatter="{value} °C"),
+                axislabel_opts=opts.LabelOpts(formatter="{value}" + keys[1][1]),
                 splitline_opts=opts.SplitLineOpts(
                     is_show=True, linestyle_opts=opts.LineStyleOpts(opacity=1)
                 ),
             ),
             title_opts=opts.TitleOpts(
-                title="Drug-2",
+                title=keys[1][0],
                 pos_top="55.5%",
                 pos_left="10%",
                 title_textstyle_opts=opts.TextStyleOpts(
@@ -443,8 +478,8 @@ def get_drug_charts(patient_id):
         Bar()
         .add_xaxis(x_data)
         .add_yaxis(
-            "Drag-3",
-            y_SBP,
+            keys[2][0],
+            drug_3,
             stack="stack4",
             label_opts=opts.LabelOpts(is_show=False),
             xaxis_index=4,
@@ -467,18 +502,18 @@ def get_drug_charts(patient_id):
                     font_family="Courier New",
                 ),
                 min_=0,
-                max_=250,
+                max_=max_dict[keys[2][0]],
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
                     linestyle_opts=opts.LineStyleOpts(color="#675bba")
                 ),
-                axislabel_opts=opts.LabelOpts(formatter="{value} °C"),
+                axislabel_opts=opts.LabelOpts(formatter="{value}" + keys[2][1]),
                 splitline_opts=opts.SplitLineOpts(
                     is_show=True, linestyle_opts=opts.LineStyleOpts(opacity=1)
                 ),
             ),
             title_opts=opts.TitleOpts(
-                title="Drug-3",
+                title=keys[2][0],
                 pos_top="67%",
                 pos_left="10%",
                 title_textstyle_opts=opts.TextStyleOpts(
@@ -494,8 +529,8 @@ def get_drug_charts(patient_id):
         Bar()
         .add_xaxis(x_data)
         .add_yaxis(
-            "Drag-4",
-            y_SBP,
+            keys[3][0],
+            drug_4,
             stack="stack5",
             label_opts=opts.LabelOpts(is_show=False),
             xaxis_index=5,
@@ -518,18 +553,18 @@ def get_drug_charts(patient_id):
                     font_family="Courier New",
                 ),
                 min_=0,
-                max_=250,
+                max_=max_dict[keys[3][0]],
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
                     linestyle_opts=opts.LineStyleOpts(color="#675bba")
                 ),
-                axislabel_opts=opts.LabelOpts(formatter="{value} °C"),
+                axislabel_opts=opts.LabelOpts(formatter="{value}" + keys[3][1]),
                 splitline_opts=opts.SplitLineOpts(
                     is_show=True, linestyle_opts=opts.LineStyleOpts(opacity=1)
                 ),
             ),
             title_opts=opts.TitleOpts(
-                title="Drug-4",
+                title=keys[3][0],
                 pos_top="78.5%",
                 pos_left="10%",
                 title_textstyle_opts=opts.TextStyleOpts(
@@ -545,8 +580,8 @@ def get_drug_charts(patient_id):
         Bar()
         .add_xaxis(x_data)
         .add_yaxis(
-            "Drag-5",
-            y_SBP,
+            keys[4][0],
+            drug_5,
             stack="stack6",
             label_opts=opts.LabelOpts(is_show=False),
             xaxis_index=6,
@@ -569,18 +604,18 @@ def get_drug_charts(patient_id):
                     font_family="Courier New",
                 ),
                 min_=0,
-                max_=250,
+                max_=max_dict[keys[4][0]],
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
                     linestyle_opts=opts.LineStyleOpts(color="#675bba")
                 ),
-                axislabel_opts=opts.LabelOpts(formatter="{value} °C"),
+                axislabel_opts=opts.LabelOpts(formatter="{value}" + keys[4][1]),
                 splitline_opts=opts.SplitLineOpts(
                     is_show=True, linestyle_opts=opts.LineStyleOpts(opacity=1)
                 ),
             ),
             title_opts=opts.TitleOpts(
-                title="Drug-5",
+                title=keys[4][0],
                 pos_top="90%",
                 pos_left="10%",
                 title_textstyle_opts=opts.TextStyleOpts(
@@ -646,7 +681,7 @@ def chart_view(request):
 
     # grid_multiple_charts
 
-
+# also working
 def display_patient_detail_view(request, patient_id):
     """
     @pony
@@ -654,7 +689,7 @@ def display_patient_detail_view(request, patient_id):
     """
     content = {
         "patient_id" : patient_id,
-        "test": list(range(21))
+        "test": list(range(21)) # drug name
     }
     return render(request, "display_patient_detail/detail_page.html", content)
 
@@ -713,8 +748,8 @@ def get_update_drug_charts(patient_id):
         Bar()
         .add_xaxis(x_data)
         .add_yaxis(
-            "Drag-1",
-            y_SBP,
+            "Drag-1",  # drug name
+            y_SBP,     # data
             stack="stack2",
             label_opts=opts.LabelOpts(is_show=False),
             xaxis_index=2,
