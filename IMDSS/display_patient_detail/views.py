@@ -1,9 +1,15 @@
+from django.shortcuts       import render
+from random                 import shuffle
+from pyecharts.charts       import Line, Bar, Grid
+from pyecharts              import options as opts
+from django.http            import HttpResponse
+from .models                import TprData
+
+import pandas               as     pd
+import numpy                as     np
 import json
-from django.shortcuts import render
-from random import shuffle
-from pyecharts.charts import Line, Bar, Grid
-from pyecharts import options as opts
-from django.http import HttpResponse
+import datetime
+
 
 """
 @pony
@@ -48,6 +54,28 @@ JsonError = json_error
 @pony
 please write your code below here!
 """
+def tpr_data_frame(patient_id = 80000154):
+
+    patient_id = 80000154
+
+    tpr_df = pd.DataFrame(list(TprData.objects.filter(patient_id_id=patient_id).values()))
+    
+    tpr_df['create_date'] = tpr_df['create_date'].astype(int).add(19110000).astype(str)
+    tpr_df['item'] = tpr_df['item'].str.strip()
+    tpr_df['time'] = tpr_df[['create_date', 'create_time']].agg("\n".join, axis=1)
+    
+
+    tpr_df['time'] = tpr_df['time'].apply(lambda x: datetime.datetime.strptime(x, "%Y%m%d %H%M%S"))
+
+    # tpr_new_df = pd.pivot_table(tpr_df, index=['create_date', 'create_time'], columns='item', values='value', aggfunc=np.sum)
+    tpr_new_df = pd.pivot_table(tpr_df, index='time', columns='item', values='value' , aggfunc=np.sum)
+    tpr_new_df.update(tpr_new_df[['BT(TA)', 'BW', 'DBP1', 'HR', 'RR', 'SBP1']].fillna(method='bfill'))
+    # print(tpr_new_df)
+
+    return tpr_new_df
+
+
+
 
 
 def init_multiple_charts(patient_id) -> Grid:
@@ -57,17 +85,31 @@ def init_multiple_charts(patient_id) -> Grid:
     @param list 所有type的資料都用list給(日期、生理資料、藥物使用)，每一個index要對好，缺的index用null塞
     """
 
-    # fake data
-    x_data = ["month {}".format(i) for i in range(1, 40)]
-    data = list(range(10, 151))
-    shuffle(data)
-    y_HR = data[:40]
-    y_BT = data[40:80]
-    y_RR = data[80:120]
-    bar_data = list(range(10, 101))
-    shuffle(bar_data)
-    y_SBP = bar_data[:40]
-    y_DBP = bar_data[40:80]
+    tpr_df = tpr_data_frame(patient_id)
+    tpr_df = tpr_df.sort_values(by='time',ascending=True)
+
+    print(tpr_df.index.tolist())
+
+    
+    # x_data = [x for x in tpr_df.index.tolist()[:40]]
+    # y_HR = tpr_df.iloc[:40]['HR'].tolist()
+    # y_BT = tpr_df.iloc[:40]['BT(TA)'].tolist()
+    # y_RR = tpr_df.iloc[:40]['RR'].tolist()
+    # y_SBP = tpr_df.iloc[:40]['SBP1'].tolist()
+    # y_DBP = tpr_df.iloc[:40]['DBP1'].tolist()
+
+    x_data = tpr_df.index.tolist()
+    y_HR = tpr_df['HR'].tolist()
+    y_BT = tpr_df['BT(TA)'].tolist()
+    y_RR = tpr_df['RR'].tolist()
+    y_SBP = tpr_df['SBP1'].tolist()
+    y_DBP = tpr_df['DBP1'].tolist()
+
+
+    # print(tpr_df.index.apply(lambda x: datetime.datetime.strptime(x, "%Y%M%D %H%M%S")))
+    # x_list = [datetime.datetime.fromtimestamp(x, "%Y%M%D %H%M%S") for x in tpr_df.index.tolist()]
+    print(type(x_data[0]))
+    # print(x_list)
 
     # 生理圖表-line-1
     line = (
