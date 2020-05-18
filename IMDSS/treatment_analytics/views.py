@@ -45,7 +45,15 @@ def ajax_get_treatment_detail(request):
     return response_as_json(dic)
 
 
+def ajax_side_effect_detail(request):
+    selected_disease = request.GET["selected_disease"]
+    treatment_lst = ["treatment_1", "treatment_2", "treatment_3"]
+    dic = {}
+    dic['treatment'] = treatment_lst
+    for i in treatment_lst:
+        dic[i] = "side effect description - " + i.split("_")[1]
 
+    return response_as_json(dic)
 
 
 """
@@ -90,9 +98,7 @@ new label setting by pyecharts
 """
 fn = """
     function(params) {
-        if(params.name == '失敗率(%)')
-            return '\\n\\n\\n' + params.name + ' : ' + params.value + '%';
-        return params.name + ' : ' + params.value + '%';
+        return params.name + ' : \\n' + params.value + '%';
     }
     """
 
@@ -100,9 +106,10 @@ fn = """
 def new_label_opts():
     return opts.LabelOpts(
         formatter=JsCode(fn),
-        position="center",
-        font_size=15,
+        # position="center",
+        font_size=20,
         font_family="Microsoft YaHei",
+        font_weight="bold",
     )
 
 
@@ -112,44 +119,89 @@ please write your code below here!
 """
 
 
-def get_success_ratio_chart(request):
+def get_success_ratio_charts(request):
     selected_therapy = request.GET["selected_therapy"]
-    x_data = []
-    for i in selected_therapy.split(" ")[:-1]:
-        x_data.append(i)
-    print(x_data)
+
+    # success ratio
+    data = {
+        "treatment_1": 80,
+        "treatment_2": 90,
+        "treatment_3": 70,
+    }
+
+    pie = Pie(
+        init_opts=opts.InitOpts(
+            # width="600px",
+        )
+    )
+    pie_str = draw_success_chart(pie, selected_therapy, data[selected_therapy])
+    
+    return HttpResponse(pie_str)
+  
+
+def draw_success_chart(chart, x, y):
+    chart.add(
+        x,
+        [list(i) for i in zip(["成功率(%)", "失敗率(%)"], [y, 100-y])],
+        radius=[60, 100],
+        label_opts=new_label_opts(),
+    )
+
+    chart.set_global_opts(
+        title_opts=opts.TitleOpts(
+            title="",
+            pos_top="5%",
+            title_textstyle_opts=opts.TextStyleOpts(
+                font_size=30,
+                font_family="Microsoft YaHei",
+            ),
+
+            item_gap=40,
+            subtitle=" " * 24 + x,
+            subtitle_textstyle_opts=opts.TextStyleOpts(
+                font_size=24,
+                font_family="Microsoft YaHei",
+            )
+        ),
+        
+        legend_opts=opts.LegendOpts(
+            is_show=False,
+        ),
+        tooltip_opts=opts.TooltipOpts(
+            background_color="white",
+            border_width=1,
+            textstyle_opts=opts.TextStyleOpts(
+                color="black"
+            ),
+        )
+    )
+    
+    chart_str = chart.dump_options()
+
+    return chart_str
+
+
+def get_cost_bar_charts(request):
+    selected_therapy = request.GET["selected_therapy"]
 
     # success ratio
     y_data = [80, 90, 70]
 
     pie = Pie()
+    pie_str = draw_cost_chart(pie, selected_therapy, y_data[0])
+    
+    return HttpResponse(pie_str)
 
-    # 分3個寫是因為每個的位置都要獨立調
-    pie.add(
-        x_data[0],
-        [list(i) for i in zip(["成功率(%)", "失敗率(%)"], [y_data[0], 100-y_data[0]])],
-        center=["15%", "65%"],
-        radius=[55, 100],
+
+def draw_cost_chart(chart, x, y):
+    chart.add(
+        x,
+        [list(i) for i in zip(["成功率(%)", "失敗率(%)"], [y, 100-y])],
+        radius=[60, 100],
         label_opts=new_label_opts(),
     )
 
-    pie.add(
-        x_data[1],
-        [list(i) for i in zip(["成功率(%)", "失敗率(%)"], [y_data[1], 100-y_data[1]])],
-        center=["45%", "65%"],
-        radius=[55, 100],
-        label_opts=new_label_opts(),
-    )
-
-    pie.add(
-        x_data[2],
-        [list(i) for i in zip(["成功率(%)", "失敗率(%)"], [y_data[2], 100-y_data[2]])],
-        center=["75%", "65%"],
-        radius=[55, 100],
-        label_opts=new_label_opts(),
-    )
-
-    pie.set_global_opts(
+    chart.set_global_opts(
         title_opts=opts.TitleOpts(
             title="Therapy success ratio",
             pos_top="5%",
@@ -157,17 +209,32 @@ def get_success_ratio_chart(request):
                 font_size=30,
                 font_family="Microsoft YaHei",
             ),
+            item_gap=35,
+            subtitle=" " * 28 + x,
+            subtitle_textstyle_opts=opts.TextStyleOpts(
+                font_size=24,
+                font_family="Microsoft YaHei",
+            )
         ),
+        
         legend_opts=opts.LegendOpts(
             is_show=False,
         ),
+        tooltip_opts=opts.TooltipOpts(
+            background_color="white",
+            border_width=1,
+            textstyle_opts=opts.TextStyleOpts(
+                color="black"
+            ),
+        )
     )
     
-    pie_str = pie.dump_options()
+    chart_str = chart.dump_options()
+
+    return chart_str
 
 
-    return HttpResponse(pie_str)
-  
+
 
 
 

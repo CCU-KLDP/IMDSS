@@ -1,7 +1,41 @@
-#success_ratio_chart{
+#success_ratio_chart_container{
     position: absolute;
-    top: 70%;
+    top: 75%;
+    left: 12%;
+    width: 77%;
+    height: 410px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#success_ratio_chart_container>.success_ratio_chart{
+    width: 36%;
+}
+
+#success_ratio_chart_title>b{
+    float: left;
+    font-size: 35px;
+    font-family: Microsoft Yahei;
+    color: #333;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 74%;
+    left: 12%;
+}
+
+#cost_bar_chart_container{
+    position: absolute;
+    top: 150%;
     left: 12%;
     width: 80%;
-    height: 300px;
+    height: 370px;
+    display: flex;
+    justify-content: space-between;
 }
+
+#cost_bar_chart_container>.cost_bar_chart{
+    width: 30%;
+    
+}
+

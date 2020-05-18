@@ -6,5 +6,7 @@ urlpatterns = [
     path("", views.treatement_analytics_view, name="analytics_page"),
     path("disease_table", views.ajax_get_disease, name="get_disease_table"),
     path("treatment_detail", views.ajax_get_treatment_detail, name="get_treatment_detail"),
-    path("success_ratio_chart", views.get_success_ratio_chart, name="success_ratio_chart"),
+    path("success_ratio_chart", views.get_success_ratio_charts, name="success_ratio_chart"),
+    path("side_effect_detail", views.ajax_side_effect_detail, name="side_effect_detail"),
+    path("cost_bar_chart", views.get_cost_bar_charts, name="cost_bar_chart"),
 ]

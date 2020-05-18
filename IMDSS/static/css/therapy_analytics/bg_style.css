@@ -28,14 +28,14 @@
     position: absolute;
     top: 20%;
     left: 12%;
-    width: 70%;
+    width: 75%;
 }
 
 #therapy_checkbox_container{
     position: absolute;
     top: 55%;
     left: 12%;
-    width: 70%;
+    width: 75%;
 }
 
 [type="checkbox"] + span:not(.lever){
@@ -48,10 +48,31 @@
     margin-left: 5%;
 }
 
-#therapy_checkbox_container>h4{
-    font-size: 30px;
+h4>b{
+    font-size: 35px;
     color: #333;
 
+}
+
+#side_effect_card_container{
+    display: flex;
+    justify-content: space-between;
+    height: 60%;
+    
+}
+
+#side_effect_container{
+    position: absolute;
+    top: 110%;
+    left: 12%;
+    width: 75%;
+    height: 40%;
+    padding-top: 10px;
+}
+
+.card{
+    width: 30%;
+    top: 0%;
 }
 
 
