@@ -39,10 +39,10 @@ function fetch_success_ratio_chart(selected_therapy) {
     $.ajax({
         type: "GET",
         url: "http://127.0.0.1:8000/therapy_analytics/success_ratio_chart",
-        dataType: 'json',
         data: {"selected_therapy": selected_therapy},
         success: function (result) {
-            success_ratio_chart.setOption(result.data);
+            var re_obj = (new Function("return " + result))();   //把传来的字串直接转成object
+            success_ratio_chart.setOption(re_obj);
             
         }
     });

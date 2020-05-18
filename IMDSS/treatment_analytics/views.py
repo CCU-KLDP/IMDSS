@@ -2,8 +2,9 @@ from django.shortcuts import render
 from random import randint
 from django.http import HttpResponse
 import json
-from pyecharts.charts import Line, Bar, Grid
+from pyecharts.charts import Line, Bar, Pie
 from pyecharts import options as opts
+from pyecharts.commons.utils import JsCode
 
 
 # Create your views here.
@@ -84,6 +85,25 @@ def json_error(error_string="error", code=500, **kwargs):
 JsonResponse = json_response
 JsonError = json_error
 
+"""
+new label setting by pyecharts
+"""
+fn = """
+    function(params) {
+        if(params.name == '失敗率(%)')
+            return '\\n\\n\\n' + params.name + ' : ' + params.value + '%';
+        return params.name + ' : ' + params.value + '%';
+    }
+    """
+
+
+def new_label_opts():
+    return opts.LabelOpts(
+        formatter=JsCode(fn),
+        position="center",
+        font_size=15,
+        font_family="Microsoft YaHei",
+    )
 
 
 """
@@ -95,72 +115,59 @@ please write your code below here!
 def get_success_ratio_chart(request):
     selected_therapy = request.GET["selected_therapy"]
     x_data = []
-    for i in selected_therapy.split(" "):
+    for i in selected_therapy.split(" ")[:-1]:
         x_data.append(i)
     print(x_data)
 
     # success ratio
     y_data = [80, 90, 70]
 
-    bar = Bar()
-    bar.add_xaxis(x_data)
-    bar.add_yaxis(
-        "成功率(%)",
-        y_data[0],
-        label_opts=opts.LabelOpts(is_show=False),
-        xaxis_index=0,
-        yaxis_index=0,
+    pie = Pie()
+
+    # 分3個寫是因為每個的位置都要獨立調
+    pie.add(
+        x_data[0],
+        [list(i) for i in zip(["成功率(%)", "失敗率(%)"], [y_data[0], 100-y_data[0]])],
+        center=["15%", "65%"],
+        radius=[55, 100],
+        label_opts=new_label_opts(),
     )
 
-    bar.add_yaxis(
-        "成功率(%)",
-        y_data[1],
-        label_opts=opts.LabelOpts(is_show=False),
-        xaxis_index=0,
-        yaxis_index=1,
+    pie.add(
+        x_data[1],
+        [list(i) for i in zip(["成功率(%)", "失敗率(%)"], [y_data[1], 100-y_data[1]])],
+        center=["45%", "65%"],
+        radius=[55, 100],
+        label_opts=new_label_opts(),
     )
 
+    pie.add(
+        x_data[2],
+        [list(i) for i in zip(["成功率(%)", "失敗率(%)"], [y_data[2], 100-y_data[2]])],
+        center=["75%", "65%"],
+        radius=[55, 100],
+        label_opts=new_label_opts(),
+    )
 
-    bar.add_yaxis(
-            "成功率(%)",
-            y_data[2],
-            label_opts=opts.LabelOpts(is_show=False),
-            xaxis_index=0,
-            yaxis_index=2,
-        )
-
-
-    bar.set_global_opts(
+    pie.set_global_opts(
         title_opts=opts.TitleOpts(
-            title="Therapy success ratio(%)",
-            pos_top="0%",
-            pos_left="10%",
+            title="Therapy success ratio",
+            pos_top="5%",
             title_textstyle_opts=opts.TextStyleOpts(
-                font_size=25,
+                font_size=30,
                 font_family="Microsoft YaHei",
             ),
         ),
-        tooltip_opts=opts.TooltipOpts(
-            background_color="white",
-            border_width=1,
-            textstyle_opts=opts.TextStyleOpts(
-                color="black"
-                ),
+        legend_opts=opts.LegendOpts(
+            is_show=False,
         ),
-        legend_opts=opts.LegendOpts(pos_top="15%"),
     )
-    bar.set_series_opts(
-        label_opts=opts.LabelOpts(is_show=False),  
-    ),
-
-    bar.reversal_axis()
-
-    bar_str = bar.dump_options_with_quotes()
-
-    print(bar_str)
-    return JsonResponse(json.loads(bar_str))
+    
+    pie_str = pie.dump_options()
 
 
+    return HttpResponse(pie_str)
+  
 
 
 

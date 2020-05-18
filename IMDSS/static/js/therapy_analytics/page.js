@@ -46,7 +46,7 @@ function disease_change(){
             //$("#collapsible_container").css({"padding-bottom":"25px", "border-bottom":"1px solid black"});
             $("#therapy_checkbox_container").css("border-top", "1px solid black");
             insert_collapsible+='<ul class="collapsible">'
-            insert_checkbox += "<h4>Therapy display</h4><br>"
+            insert_checkbox += "<h4><b>Therapy display</b></h4><br>"
 
             for(i=0;i < result["treatment"].length;i++){
                 insert_collapsible+='<li><div class="collapsible-header"><i class="material-icons">colorize</i>'
