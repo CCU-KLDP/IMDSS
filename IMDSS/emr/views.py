@@ -190,6 +190,10 @@ def ajax_get_emr(request, patient_id):
     @pony
     獲取select-emr-table所選擇的病歷id
     """
+    selected_emr_type = request.GET["selected_emr_type"]
+    print(selected_emr_type)
+
+
     if int(request.GET['selected_emr_id'].split("-")[2][:2]) < 17 : 
         xml = lxml.etree.parse("/Users/kylehuang/DOING-PROJECTS/IMDSS-Project/IMDSS/xml_resource/WA2_1081004143938.xml")
     else : 
