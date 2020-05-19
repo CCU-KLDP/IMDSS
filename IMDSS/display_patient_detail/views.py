@@ -241,7 +241,7 @@ def init_multiple_charts(patient_id) -> Grid:
             title_opts=opts.TitleOpts(
                 pos_top="0%",
                 pos_left="10%",
-                title=u"病患生理圖表",
+                title=u"Physical condition",
                 title_textstyle_opts=opts.TextStyleOpts(
                     font_size=25,
                     font_family="Microsoft YaHei",
@@ -740,8 +740,8 @@ def ajax_get_patient_emr(request):
 def ajax_update_charts(request):
     patient_id = request.GET['patient_id']
     patient_id = 80000154
-    # new_drugs = request.GET['new_drugs']
-    new_drugs = ['NS5', 'POTPH', 'RADIK', 'VANCO', 'KEPPI']
+    new_drugs = request.GET['selected_drugs']
+    new_drugs = list(new_drugs.split(","))
 
     keys, _ = get_all_drug(patient_id)
     new_keys = []
