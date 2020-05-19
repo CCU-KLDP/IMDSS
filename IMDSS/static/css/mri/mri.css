@@ -24,73 +24,36 @@
 }
 
 
- #X_photos, #X_photos li {
+ #photos, #photos li {
      list-style: none;
      margin: 0;
      padding: 0;
      top: 0%;
  }
 
- #X_photos {
+ #photos {
      position: relative;
      left: 25%;
-     top: 5%;
+     top: 3.2%;
  }
 
- #X_photos li {
+ #photos li {
      position: absolute;
-     top: 15%;
+     top: 0%;
  }
 
- #X_photos li a img {
+ #photos li a img {
      border: none;
      width: 50px;
      height: 50px;
      max-width: 500px;
  }
 
- #X_photos li:hover {
+ #photos li:hover {
      transform: scale(2);
      z-index: 1;
      transition: transform 0.4s linear;
  }
-
-
-
-
-
-
- #M_photos, #M_photos li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    top: 0%;
-}
-
-#M_photos {
-    position: relative;
-    left: 25%;
-    top: 5%;
-}
-
-#M_photos li {
-    position: absolute;
-    top: 0%;
-}
-
-#M_photos li a img {
-    border: none;
-    width: 50px;
-    height: 50px;
-    max-width: 500px;
-    top: 10px;
-}
-
-#M_photos li:hover {
-    transform: scale(2);
-    z-index: 1;
-    transition: transform 0.4s linear;
-}
 
  #container {
      float: left;
@@ -98,8 +61,7 @@
      width: 8%;
      height: 870px;
      position: relative;
-     overflow-y: auto;
-     overflow-x: unset;
+     overflow: auto;
  }
 
  .page-footer {
@@ -122,8 +84,8 @@
  #painter {
     
      position: relative;
-     top: 20px;
-     left: 17%;
+     top: 10px;
+     left: 20%;
      width: 70%;
      max-width: 70%;
      height: 50%;
@@ -158,25 +120,4 @@
      top:0;
      left: 0;
      z-index: 5;
- }
-
- .range-field{
-    float: left;
-     position: absolute;
-     top: 20px;
-     left:10%;
-     width: 10%;
-     height: 5%;
-     z-index: 40;
-     line-height: 7px;
- }
-
- .color{
-     float: left;
-    position: relative;
-    top: 24px;
-    left:20%;
-    width: 10%;
-    height: 5%;
-    line-height: 7px;
  }
