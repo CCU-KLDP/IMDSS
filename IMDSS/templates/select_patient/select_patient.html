@@ -78,7 +78,7 @@
                             <li><a href="#"><img src="{{  mri.mri_image.url }}" /></a></li>
                         {% endif %}
                         <tr>
-                            <td width="7%">{{  patient.name }}</td>
+                            <td width="7%" id="{{ patient.patient_id }}">{{  patient.name }}</td>
                         </tr>
 
                     {% endfor %}
