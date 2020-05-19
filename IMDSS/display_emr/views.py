@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 from db_models.models import Department
-from emr.models import TestEmr
+# from emr.models import TestEmr
 import pandas as pd
 import lxml
 from lxml import etree

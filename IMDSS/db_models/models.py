@@ -140,7 +140,7 @@ class Hospitalized_data(models.Model):
     @Kyle
     hospitalized_data
     """
-    time = models.DateField(auto_now=False)
+    time = models.CharField(max_length=50, null=True)
     doctor_id = models.ForeignKey(
         'db_models.Doctor',
         on_delete=models.DO_NOTHING,
