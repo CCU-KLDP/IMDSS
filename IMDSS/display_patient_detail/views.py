@@ -103,7 +103,6 @@ def init_multiple_charts(patient_id) -> Grid:
     y_SBP = tpr_df['SBP1'].tolist()
     y_DBP = tpr_df['DBP1'].tolist()
 
-
     # print(tpr_df.index.apply(lambda x: datetime.datetime.strptime(x, "%Y%M%D %H%M%S")))
     # x_list = [datetime.datetime.fromtimestamp(x, "%Y%M%D %H%M%S") for x in tpr_df.index.tolist()]
     # print(type(x_data[0]))
@@ -148,7 +147,7 @@ def init_multiple_charts(patient_id) -> Grid:
         # y axis chart
         .extend_axis(
             yaxis=opts.AxisOpts(
-                name="Temperature",
+                name="Body Temperature",
                 name_location="middle",
                 name_rotate=-90,
                 name_gap=55,
@@ -158,18 +157,18 @@ def init_multiple_charts(patient_id) -> Grid:
                 ),
                 type_="value",
                 min_=0,
-                max_=250,
+                max_=50,
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
                     linestyle_opts=opts.LineStyleOpts(color="#d14a61")
                 ),
-                axislabel_opts=opts.LabelOpts(formatter="{value} ml"),
+                axislabel_opts=opts.LabelOpts(formatter="{value} ℃"), 
             )
         )
         # also y acxis
         .extend_axis(
             yaxis=opts.AxisOpts(
-                name="other",
+                name="Respiration Rate",
                 name_location="middle",
                 name_rotate=-90,
                 name_gap="55",
@@ -180,12 +179,12 @@ def init_multiple_charts(patient_id) -> Grid:
                 offset=100,
                 type_="value",
                 min_=0,
-                max_=250,
+                max_=40,
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
                     linestyle_opts=opts.LineStyleOpts(color="#675bba")
                 ),
-                axislabel_opts=opts.LabelOpts(formatter="{value} °C"),
+                axislabel_opts=opts.LabelOpts(formatter="{value} bpm"), # breath per minute
                 splitline_opts=opts.SplitLineOpts(
                     is_show=True, linestyle_opts=opts.LineStyleOpts(opacity=1)
                 ),
@@ -194,7 +193,7 @@ def init_multiple_charts(patient_id) -> Grid:
         # also y axis
         .set_global_opts(
             yaxis_opts=opts.AxisOpts(
-                name="some pointer",
+                name="Heart Rate",
                 name_location="middle",
                 name_rotate=90,
                 name_gap="55",
@@ -204,12 +203,12 @@ def init_multiple_charts(patient_id) -> Grid:
                 ),
                 type_="value",
                 min_=0,
-                max_=250,
+                max_=150,
                 position="left",
                 axisline_opts=opts.AxisLineOpts(
                     linestyle_opts=opts.LineStyleOpts(color="#5793f3")
                 ),
-                axislabel_opts=opts.LabelOpts(formatter="{value} ml"),
+                axislabel_opts=opts.LabelOpts(formatter="{value} bpm"), # beats per minute
             ),
             toolbox_opts=opts.ToolboxOpts(
                 is_show=True,
@@ -288,7 +287,7 @@ def init_multiple_charts(patient_id) -> Grid:
             yaxis_opts=opts.AxisOpts(
                 grid_index=1,
                 type_="value",
-                name="other",
+                name="",
                 name_location="middle",
                 name_rotate=-90,
                 name_gap=55,
@@ -297,18 +296,18 @@ def init_multiple_charts(patient_id) -> Grid:
                     font_family="Courier New",
                 ),
                 min_=0,
-                max_=250,
+                max_=400,
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
                     linestyle_opts=opts.LineStyleOpts(color="#675bba")
                 ),
-                axislabel_opts=opts.LabelOpts(formatter="{value} °C"),
+                axislabel_opts=opts.LabelOpts(formatter="{value} mmHg"),
                 splitline_opts=opts.SplitLineOpts(
                     is_show=True, linestyle_opts=opts.LineStyleOpts(opacity=1)
                 ),
             ),
             title_opts=opts.TitleOpts(
-                title="血壓",
+                title="Blood Pressure",
                 pos_top="20.5%",
                 pos_left="10%",
                 title_textstyle_opts=opts.TextStyleOpts(
@@ -390,7 +389,7 @@ def get_drug_charts(patient_id, keys):
             yaxis_opts=opts.AxisOpts(
                 grid_index=2,
                 type_="value",
-                name="other",
+                name="",
                 name_location="middle",
                 name_rotate=-90,
                 name_gap=55,
@@ -441,7 +440,7 @@ def get_drug_charts(patient_id, keys):
             yaxis_opts=opts.AxisOpts(
                 grid_index=3,
                 type_="value",
-                name="other",
+                name="",
                 name_location="middle",
                 name_rotate=-90,
                 name_gap=55,
@@ -492,7 +491,7 @@ def get_drug_charts(patient_id, keys):
             yaxis_opts=opts.AxisOpts(
                 grid_index=4,
                 type_="value",
-                name="other",
+                name="",
                 name_location="middle",
                 name_rotate=-90,
                 name_gap=55,
@@ -543,7 +542,7 @@ def get_drug_charts(patient_id, keys):
             yaxis_opts=opts.AxisOpts(
                 grid_index=5,
                 type_="value",
-                name="other",
+                name="",
                 name_location="middle",
                 name_rotate=-90,
                 name_gap=55,
@@ -594,7 +593,7 @@ def get_drug_charts(patient_id, keys):
             yaxis_opts=opts.AxisOpts(
                 grid_index=6,
                 type_="value",
-                name="other",
+                name="",
                 name_location="middle",
                 name_rotate=-90,
                 name_gap=55,
@@ -791,7 +790,7 @@ def ajax_update_charts(request):
             yaxis_opts=opts.AxisOpts(
                 grid_index=2,
                 type_="value",
-                name="other",
+                name="",
                 name_location="middle",
                 name_rotate=-90,
                 name_gap=55,
@@ -842,7 +841,7 @@ def ajax_update_charts(request):
             yaxis_opts=opts.AxisOpts(
                 grid_index=3,
                 type_="value",
-                name="other",
+                name="",
                 name_location="middle",
                 name_rotate=-90,
                 name_gap=55,
@@ -893,7 +892,7 @@ def ajax_update_charts(request):
             yaxis_opts=opts.AxisOpts(
                 grid_index=4,
                 type_="value",
-                name="other",
+                name="",
                 name_location="middle",
                 name_rotate=-90,
                 name_gap=55,
@@ -944,7 +943,7 @@ def ajax_update_charts(request):
             yaxis_opts=opts.AxisOpts(
                 grid_index=5,
                 type_="value",
-                name="other",
+                name="",
                 name_location="middle",
                 name_rotate=-90,
                 name_gap=55,
@@ -995,7 +994,7 @@ def ajax_update_charts(request):
             yaxis_opts=opts.AxisOpts(
                 grid_index=6,
                 type_="value",
-                name="other",
+                name="｀",
                 name_location="middle",
                 name_rotate=-90,
                 name_gap=55,
