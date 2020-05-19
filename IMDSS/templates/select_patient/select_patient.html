@@ -39,7 +39,7 @@
 
         <div class="hello_doc">
             <i class="material-icons">public</i>
-            hello, doctor _______
+                Hello, {{  doctor.first_name }} {{ doctor.last_name }}
             <div></div>
             <!--doctor's name show up here-->
         </div>
@@ -71,7 +71,18 @@
                     <th>Patient Name</th>
                 </thead>
                 <tbody id="tbse" >
-                    <tr>
+                    
+                    
+                    {% for patient in patients %}
+                        {% if mri.mri_image %}
+                            <li><a href="#"><img src="{{  mri.mri_image.url }}" /></a></li>
+                        {% endif %}
+                        <tr>
+                            <td width="7%">{{  patient.name }}</td>
+                        </tr>
+
+                    {% endfor %}
+                    <!-- <tr>
                         <td width="7%" onclick="">Alethea Gorney</td>
                     </tr>
                     <tr>
@@ -113,7 +124,7 @@
                     </tr>
                     <tr>
                         <td width="7%">Sharonda Muscarella</td>
-                    </tr>
+                    </tr> -->
                 </tbody>
                 
             </table>
