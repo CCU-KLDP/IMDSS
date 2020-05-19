@@ -1,32 +1,82 @@
-$(document).ready(function(){
-    $('select').formSelect();
+// take care of post request, by django official
+function getCookie(name) {  
+    var cookieValue = null;  
+    if (document.cookie && document.cookie != '') {  
+        var cookies = document.cookie.split(';');  
+        for (var i = 0; i < cookies.length; i++) {  
+            var cookie = jQuery.trim(cookies[i]);  
+            // Does this cookie string begin with the name we want?  
+            if (cookie.substring(0, name.length + 1) == (name + '=')) {  
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));  
+                break;  
+            }  
+        }  
+    }  
+    return cookieValue;  
+}  
+var csrftoken = getCookie('csrftoken');  
+  
+function csrfSafeMethod(method) {  
+    // these HTTP methods do not require CSRF protection  
+    return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));  
+}  
+$.ajaxSetup({  
+    crossDomain: false, // obviates need for sameOrigin test  
+    beforeSend: function(xhr, settings) {  
+        if (!csrfSafeMethod(settings.type)) {  
+            xhr.setRequestHeader("X-CSRFToken", csrftoken);  
+        }  
+    }  
+});  
+
+
+
+
+
+// our code
+$("#select-pats-table>tbody").on("click", "tr", function() {
+  
+  var selected_pats_id=$(this).find("td:eq(2)").text();
+  $("#select-pats-table>tbody>tr").removeClass("selected")
+  $(this).addClass("selected")
+  
+  $.ajax({
+      type: "GET",
+      data: {"selected_emr_id": selected_pats_id},
+      dataType: "json",
+      success: function(result){
+
+      }
+      
+  });
 });
 
-  $(document).ready(function(){
-    $('.tooltipped').tooltip();
-  });
 
-  $(document).ready(function(){
-    $('.parallax').parallax();
-  });
+$("#visualize").on("click", function() {
+    var patient_id = 1232131
+    $.ajax({
+        type: "POST",
+        url: location.href + "visualize",
+        data: {"patient_id": patient_id},
+        dataType: "json",
+        success: function(result){
+            window.location.href = result
+        }
 
-  var instance = M.Parallax.getInstance(elem);
+    });
+});
+
+$("#emr_search").on("click", function() {
+    var patient_id = 32482922
+    $.ajax({
+        type: "POST",
+        url: location.href + "emr_search",
+        data: {"patient_id": patient_id},
+        dataType: "json",
+        success: function(result){
+            window.location.href = result
+        }
+    });
+});
 
 
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.parallax');
-    var instances = M.Parallax.init(elems, options);
-  });
-  $(document).ready(function(){
-    $('.sidenav').sidenav();
-  });
-
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, options);
-  });
-
-  var instance = M.Sidenav.getInstance(elem);
-  instance.open();
-  instance.close();
-  instance.destroy();

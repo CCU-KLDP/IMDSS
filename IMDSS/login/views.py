@@ -30,7 +30,7 @@ def login_view(request):
         password = request.POST.get('password')
         user = authenticate(username=username, password=password)
         if user:
-            return HttpResponseRedirect(reverse("login:success"))
+            return HttpResponseRedirect(reverse("select_patient:select_page"))
         else:
             return render(request, "login/login_page.html", {"error": "Username and password did not match!"})
 

@@ -2,7 +2,8 @@ from django.db import models
 from django.contrib.auth.models import User
 
 # Create your models here.
-# 用分上下集來思考foreignkey 一個科有很多醫生，所以Doctor要有department foreignkey
+
+
 class Department(models.Model):
     """
     @Kyle
@@ -31,7 +32,11 @@ class Doctor(models.Model):
     )
 
     def __str__(self):
-        return self.name
+        return self.first_name
+
+    # def create(user, first_name, last_name, create_time, department):
+
+
     # class Meta():
     #     ordering = ["-department"]
 
@@ -45,88 +50,43 @@ class Patient(models.Model):
     identification = models.CharField(max_length=20)
 
 
-class OutPatient_data(models.Model):
-    """
-    @Kyle
-    Outpatient_data
-    """
-    time = models.DateField()
-    doctor = models.ForeignKey(
-        'db_models.Doctor',
-        on_delete=models.DO_NOTHING,
-        related_name='doctor_outpatient'
-        )
-    patient = models.ForeignKey(
-        'db_models.Patient',
-        on_delete=models.DO_NOTHING,
-        related_name='patient_outpatient'
-        )
+class Evaluation_form(models.Model):
+    name = models.CharField(max_length=50)
+    medical_condition = models.CharField(max_length=200)
+    time_frame = models.CharField(max_length=50, null=True)
+    cuis_list = models.CharField(max_length=2500)
     dep_id = models.ForeignKey(
         'db_models.Department',
-        on_delete=models.DO_NOTHING,
+        related_name='dep_evaluation',
+        on_delete=models.DO_NOTHING
         )
 
 
-class Outpatient_Med(models.Model):
-    MedPRS = models.CharField(max_length=100)  # 處置代碼
-    OrderId = models.CharField(max_length=100)  # NIA編號+NIB序號
-    begin_at = models.DateField()
-    end_at = models.DateField()
-    routePmName = models.CharField(max_length=50)  # 途徑代碼
-    dose = models.IntegerField()  # 劑量
-    doseUnit = models.CharField(max_length=20)  # 劑量單位
-    outpatient_data = models.ForeignKey(
-        'db_models.Outpatient_data',
-        on_delete=models.DO_NOTHING,
-        related_name='data_med',
-        )
-
-
-class Hospitalized_data(models.Model):
+class Med(models.Model):
     """
-    @Kyle
-    hospitalized_data
+    @Louise
+    Change med model
     """
-    time = models.DateField(auto_now=False)
-    doctor = models.ForeignKey(
-        'db_models.Doctor',
-        on_delete=models.DO_NOTHING,
-        related_name='doctor_hospitalized_data',
-        )
-    patient = models.ForeignKey(
+    patient_id = models.ForeignKey(
         'db_models.Patient',
         on_delete=models.DO_NOTHING,
-        related_name='patient_hospitalized_data'
+        to_field='patient_id',
         )
-    department = models.ForeignKey(
-        'db_models.Department',
-        on_delete=models.DO_NOTHING,
-        related_name='department_hospitalized_data',
-        )
-
-
-class Hospitalized_Med(models.Model):
-    MedPRS = models.CharField(max_length=100)  # 處置代碼
+    EncounterId = models.CharField(max_length=20) # 住院序號
     OrderId = models.CharField(max_length=100)  # NIA編號+NIB序號
-    begin_at = models.DateField()
-    end_at = models.DateField()
-    routePmName = models.CharField(max_length=50)  # 途徑代碼
+    MedPRS = models.CharField(max_length=100)  # 處置代碼
     dose = models.IntegerField()  # 劑量
     doseUnit = models.CharField(max_length=20)  # 劑量單位
-    hospitalized_data = models.ForeignKey(
-        'db_models.Hospitalized_data',
-        on_delete=models.DO_NOTHING,
-        related_name='data_med',
-        )
+    exeDt = models.CharField(max_length=15) #執行時間
 
 
 class Tpr_data(models.Model):
     # medical_record = models.IntegerField()  # 病歷號
-    hospitalized_data = models.ForeignKey(
-        'db_models.Hospitalized_data',
+    patient_id = models.ForeignKey(
+        'db_models.Patient',
         on_delete=models.DO_NOTHING,
-        related_name='data_tpr'
-    )
+        to_field='patient_id',
+        )
     item = models.CharField(max_length=100, null=True)  # 量測的項
     value = models.DecimalField(max_digits=4, decimal_places=1, null=True)
     unit = models.CharField(max_length=20, null=True)
@@ -136,22 +96,129 @@ class Tpr_data(models.Model):
     resident_doctor = models.ForeignKey(
         'db_models.Doctor',
         on_delete=models.DO_NOTHING
-    )  # 登錄時的主治醫師
+        )  # 登錄時的主治醫師
 
     def __str__(self):
         return self.patient_id
 
-class Evaluation_form(models.Model):
-    name = models.CharField(max_length=50)
-    medical_condition = models.CharField(max_length=200)
-    time_frame = models.CharField(max_length=50, null=True)
-    cuis_list = models.CharField(max_length=2500)
-    department = models.ForeignKey(
+
+class Emr_data(models.Model):
+    """
+    @Louise
+    All emr string with tag
+    """
+    EmrId = models.CharField(max_length=50,unique=True)     # 病歷檔名編號
+    Sequence = models.IntegerField()                        # 行數
+    EmrContent = models.CharField(max_length=5000)          # 包含tag內容
+
+
+class Xsl_data(models.Model):
+    """
+    @Louise
+    All xsl string with tag
+    """
+    XslId = models.CharField(max_length=50)          # Xsl檔名編號
+    Sequence = models.IntegerField()                 # 行數
+    XslContent = models.CharField(max_length=5000)   # 包含tag內容
+
+
+class Memo_data(models.Model):
+    time = models.DateField(auto_now=True)
+    doctor_id = models.ForeignKey(
+        'db_models.Doctor',
+        on_delete=models.DO_NOTHING,
+        to_field='doctor_id',
+        related_name='memo_doctor',
+        )
+    patient_id = models.ForeignKey(
+        'db_models.Patient',
+        on_delete=models.DO_NOTHING,
+        to_field='patient_id',
+        related_name='memo_patients'
+        )
+    content = models.CharField(max_length=6000)
+
+
+class OutPatient_data(models.Model):
+    """
+    @Kyle
+    Outpatient_data
+    """
+    time = models.CharField(max_length=100)
+    EmrId = models.ForeignKey(
+        'db_models.Emr_data',
+        on_delete=models.DO_NOTHING,
+        to_field='EmrId'
+        )
+    doctor_id = models.ForeignKey(
+        'db_models.Doctor',
+        on_delete=models.DO_NOTHING,
+        to_field='doctor_id',
+        related_name='outpatient_doctor'
+        )
+    patient_id = models.ForeignKey(
+        'db_models.Patient',
+        on_delete=models.DO_NOTHING,
+        to_field='patient_id',
+        related_name='outpatient_patients'
+        )
+    dep_id = models.ForeignKey(
         'db_models.Department',
-        related_name='department_evaluation',
-        on_delete=models.DO_NOTHING
-    )
+        on_delete=models.DO_NOTHING,
+        to_field='dep_id'
+        )
+    Type = models.CharField(max_length=100)
+    """
+    need to temporary ignore it
+    med_id = models.ForeignKey(
+        'db_models.Med',
+        on_delete=models.DO_NOTHING,
+        to_field='id'
+        )
+    """
 
 
+class Hospitalized_data(models.Model):
+    """
+    @Kyle
+    hospitalized_data
+    """
+    time = models.CharField(max_length=100)
+    EmrId = models.ForeignKey(
+        'db_models.Emr_data',
+        on_delete=models.DO_NOTHING,
+        to_field='EmrId'
+        )
+    doctor_id = models.ForeignKey(
+        'db_models.Doctor',
+        on_delete=models.DO_NOTHING,
+        to_field='doctor_id',
+        related_name='hospitalized_doctor'
+        )
+    patient_id = models.ForeignKey(
+        'db_models.Patient',
+        on_delete=models.DO_NOTHING,
+        to_field='patient_id',
+        related_name='hospitalized_patients'
+        )
+    dep_id = models.ForeignKey(
+        'db_models.Department',
+        on_delete=models.DO_NOTHING,
+        to_field='dep_id'
+        )
+    Type = models.CharField(max_length=100)
+    """
+    need to temporary ignore it
+    med_id = models.ForeignKey(
+        'db_models.Med',
+        on_delete=models.DO_NOTHING,
+        to_field='id'
+        )
+    tpr_id = models.ForeignKey(
+        'db_models.Tpr_data',
+        on_delete=models.DO_NOTHING,
+        to_field='id'
+        )
+    """
 
 

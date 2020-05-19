@@ -1,30 +1,48 @@
+
+body{
+    background:#424242
+}
+
+
 .side-list-section {
     float: left;
-    width: 27%;
+    width: 14%;
     text-align: center;
-    border-right: 1px solid black;
-    height: 93.25vh;
+    height: 93.25vh;   
 }
 
 .top-select-container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 8%;
+    margin-bottom: 10%;
 }
 
 #dept-select-container {
-    float: left;
-    width: 40%;
+    width: 85%;
     margin: 0 auto;
     padding-bottom: 5%;
 }
 
 #table-select-container {
-    float: right;
-    width: 40%;
+    width: 85%;
     margin: 0 auto;
     padding-bottom: 5%;
 }
+
+.select-wrapper input.select-dropdown{
+    color: white;
+    font-size: 20px;
+}
+
+.select-wrapper .caret {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.dropdown-content li > span{
+    color: black;
+}
+
 
 .divider {
     float: none;
@@ -40,5 +58,11 @@
 }
 
 .item-list-container {
-    padding-bottom: 6.5%;
+    padding-bottom: 20%;
+}
+
+[type="checkbox"] + span:not(.lever) {
+    font-size:20px;
+    font-family: Microsoft Yahei;
+    color: white;
 }

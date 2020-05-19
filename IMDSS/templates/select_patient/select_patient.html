@@ -35,10 +35,10 @@
 
 
     <div class="sel_title">
-        <div class="bgsqr2" style="background-color: #333232" ;></div>
+        <div class="bgsqr2"></div>
 
         <div class="hello_doc">
-            <i class="material-icons" style="color: white;">public</i>
+            <i class="material-icons">public</i>
             hello, doctor _______
             <div></div>
             <!--doctor's name show up here-->
@@ -46,71 +46,95 @@
         <h3><b>Select The Patient</b></h3>
 
     </div>
-    <div class="bgsqr" style="background-color: #414040" ;></div>
-    <div class="bgsqr3" style="background-color: #706868" ;></div>
-    <div class="row1">
+    <div class="bgsqr"></div>
+    <div class="bgsqr3"></div>
+    <div class="row-container">
+
+        <div class="display white-text">
+            8/01:&nbsp;trouble&nbsp;w&nbsp;balance&nbsp;x&nbsp;1&nbsp;year,&nbsp;fatigue,<br>
+            &nbsp;fall&nbsp;
+            (retropulsex3)
+            No&nbsp;tremor,&nbsp;handwriting&nbsp;OK,&nbsp;no&nbsp;shuffling<br>
+            &nbsp;gait <br><br>
+            1Decline&nbsp;in&nbsp;function&nbsp;&nbsp;no&nbsp;aerobics&nbsp;x&nbsp;yrs
+            Walking&nbsp;lowly&nbsp;for&nbsp;few&nbsp;years&nbsp;getting&nbsp;<br>
+            worse
+
+        </div>
 
 
         <div class="select">
-
-            <div class="options">
-
-                <select>
-                    <option value="" disabled selected>Choose your patient</option>
-                    <option value="1">pony</option>
-                    <option value="2">kyle</option>
-                    <option value="3">louise</option>
-                    <option value="4">danny</option>
-                    <option value="5">john</option>
-                    <option value="6">kimdami</option>
-                    <option value="7">Park Sa-Roi </option>
-                </select>
-            </div>
-            <div class="form">
-                <ul><B>
-                        <div class="col s12 m2 z-depth-4">
-
-                            <li>
-                                <h5 style="text-align: center;">《般若波羅蜜多心經》</h5>
-                            </li>
-                            <li>觀自在菩薩，行深般若波羅蜜多時，照見五蘊皆空，度一切苦厄。</li>
-
-                            <li>舍利子！色不異空，空不異色；色即是空，空即是色，受想行識亦復如是。</li>
-
-                            <li>舍利子！是諸法空相，不生不滅，不垢不淨，不增不減。</li>
-
-                            <li>是故，空中無色，無受想行識；無眼耳鼻舌身意；無色聲香味觸法；</li>
-
-                            <li>無眼界，乃至無意識界；無無明，亦無無明盡，乃至無老死，亦無老死盡；</li>
-
-                            <li>無苦集滅道；無智亦無得。以無所得故，菩提薩埵。</li>
-
-                            <li> 依般若波羅蜜多故，心無罣礙；無罣礙故，無有恐怖，遠離顛倒夢想，究竟涅槃。</li>
-
-                            <li> 三世諸佛，依般若波羅蜜多故，得阿耨多羅三藐三菩提。</li>
-
-                            <li> 故知：般若波羅蜜多是大神咒，是大明咒，是無上咒，是無等等咒，能除一切苦，真實不虛。</li>
-
-                            <li>故說般若波羅蜜多咒，即說咒曰：揭諦揭諦，波羅揭諦，波羅僧揭諦，菩提薩婆訶。</li>
-                    </B> </ul>
-            </div>
-            <button class="btn waves-effect waves-light" type="submit" name="action">Visualize
-                <i class="material-icons right">remove_red_eye</i>
-
-              
-            </button>
-            <button class="btn waves-effect waves-light" type="submit" name="action">Compare CUI
-                <i class="material-icons right">compare</i>
-            </button>
+            <table id="select-pats-table">
+                
+                <thead>
+                    <th width="7%"></th>
+                    <th>Patient Name</th>
+                </thead>
+                <tbody id="tbse" >
+                    <tr>
+                        <td width="7%" onclick="">Alethea Gorney</td>
+                    </tr>
+                    <tr>
+                        <td width="7%">Nakita Bible</td>
+                    </tr>
+                    <tr>
+                        <td width="7%">Diane Ruano</td>
+                    </tr>
+                    <tr>
+                        <td width="7%">Delaine Connor</td>
+                    </tr>
+                    <tr>
+                        <td width="7%">Lezlie Agar</td>
+                    </tr>
+                    <tr>
+                        <td width="7%">Kassie Pascual</td>
+                    </tr>
+                    <tr>
+                        <td width="7%">Clint Lenzen</td>
+                    </tr>
+                    <tr>
+                        <td width="7%">Cornelius Helbing</td>
+                    </tr>
+                    <tr>
+                        <td width="7%">Luci Bondurant</td>
+                    </tr>
+                    <tr>
+                        <td width="7%">Alden Wroten</td>
+                    </tr>
+                    <tr>
+                        <td width="7%">Kristina Sansom</td>
+                    </tr>
+                    <tr>
+                        <td width="7%">Dottie Waddington</td>
+                    </tr>
+                    <tr>
+                        <td width="7%">Chanell Paddock
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="7%">Sharonda Muscarella</td>
+                    </tr>
+                </tbody>
+                
+            </table>
         </div>
 
+
+
+        <div class="btn-grp">
+            <button class="btn waves-effect waves-light" type="submit" name="action" id = "visualize">Visualize
+                <i class="material-icons right">remove_red_eye</i>
+            </button>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <button class="btn waves-effect waves-light" type="submit" name="action" id = "emr_search">Compare CUI
+                <i class="material-icons right">compare</i>
+            </button>
+        </div>  
     </div>
 
 
-    <div class="par1"
-        style="background-image: url('https://images.unsplash.com/photo-1565536421966-1e4aec32c7e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');">
+    <div class="par1">
     </div>
-
     </div>
     <div class="par2"></div>
 

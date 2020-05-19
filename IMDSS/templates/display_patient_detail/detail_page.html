@@ -3,6 +3,7 @@
 
 {% block ref %}
 <link rel="stylesheet" href="{% static 'css/display_patient_detail/bg_style.css' %}">
+<link rel="stylesheet" href="{% static 'css/memo/memo.css' %}">
 {% endblock %}    
 
 {% block content %}
@@ -31,12 +32,38 @@
             <div id="top_chart"></div>
         </div>
     </div>
+    <div id="drug_title">
+        <h5><b>用藥紀錄</b></h5>
+    </div>
+    <div id="select_drugs">
+        
+            {% for i in test %}
+                <label class="select_drugs_options">
+
+                    {% if forloop.counter0 < 5 %}
+                        <input type="checkbox" class="filled-in" checked="checked" onclick="onCheckBox(this)" name="item"/>
+                    {% else %}
+                        <input type="checkbox" class="filled-in" disabled="disabled" onclick="onCheckBox(this)" name="item"/>
+                    {% endif %}
+
+                    <span>drug-{{ i }}</span>
+                </label>
+            {% endfor %}
+    </div>
     
+    <a class="btn-floating btn-medium waves-effect waves-light red" id="clear"><i class="material-icons">clear</i></a>
+    <a class="waves-effect waves-light btn" id="search"><i class="material-icons right">search</i>Search</a> 
     
+    {% include "memo/memo.html"  %}
+
+
+
 {% block js-ref %}
     <script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+    <script type="text/javascript", src="{% static 'js/materialize.js' %}"></script>
     <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
     <script type="text/javascript" src="{% static 'js/display_patient_detail/top_chart.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/memo/memo.js' %}"></script>
 {% endblock js-ref %}
 </body>
 {% endblock content %}
