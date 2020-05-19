@@ -1,5 +1,5 @@
 from django.shortcuts import render
-# from db_models.models import Patient
+from db_models.models import Patient, Doctor
 from django.http import HttpResponse
 from django.urls import reverse
 import json
@@ -18,8 +18,16 @@ def response_as_json(data):
 
 
 def select_patient_view(request):
+    
+    # doctor_id = request.GET['doctor_id']
+    doctor_id = '04135'
+    login_doctor = Doctor.objects.get(doctor_id=doctor_id) 
+
+    patients = list(Patient.objects.all().values())
+
     content = {
-        # "user": user
+        "doctor": login_doctor,
+        "patients": patients,
     }
     return render(request, "select_patient/select_patient.html", content)
 
