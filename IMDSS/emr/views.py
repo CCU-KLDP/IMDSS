@@ -1,7 +1,7 @@
 from django.shortcuts   import render
 from django.http        import JsonResponse
 from django.http        import HttpResponse
-from db_models.models   import Department, Doctor
+from db_models.models   import Department, Doctor, Xsl_data
 from emr.models         import EmrData, HospitalizedData
 from lxml               import etree
 
@@ -66,6 +66,7 @@ def get_emr_table(patient_id):
             "type": row['type'],
             "dept": Department.objects.get(dep_id=row['dep_id_id']),
             "doctor": doctor.first_name + " " + doctor.last_name,
+            "id": row['emrid_id'],
         }
         emr_lst.append(emr_dict)
 
@@ -176,25 +177,26 @@ def ajax_get_table_item(request):
     
     return JsonResponse(table_item_list, safe=False)
 
+
 # also working
 def ajax_get_emr(request, patient_id):
     """
     @pony
     獲取select-emr-table所選擇的病歷id
     """
-    selected_emr_type = request.GET["selected_emr_type"]
+    # selected_emr_id = request.GET['selected_emr_id']
+    selected_emr_id = 'WA1_1081004143855'
+    selected_emr_type = request.GET["selected_emr_type"].replace(' ', '_').lower()
+
     # print(selected_emr_type)
-    print(request.GET)
-
-    if int(request.GET['selected_emr_id'].split("-")[2][:2]) < 17 : 
-        xml = lxml.etree.parse("/Users/kylehuang/DOING-PROJECTS/IMDSS-Project/IMDSS/xml_resource/WA2_1081004143938.xml")
-    else : 
-        xml = lxml.etree.parse("/Users/kylehuang/DOING-PROJECTS/IMDSS-Project/IMDSS/xml_resource/WA2_1081004143941.xml")
-    # print(type(xml))
-
-    # print(request.GET)
-
-    transform = lxml.etree.XSLT(etree.parse("/Users/kylehuang/DOING-PROJECTS/IMDSS-Project/IMDSS/xml_resource/Progress_note.xsl"))
+    xml_df = pd.DataFrame(list(EmrData.objects.filter(emrid=selected_emr_id).values()))
+    xsl_df = pd.DataFrame(list(Xsl_data.objects.filter(XslId=selected_emr_type).values()))
+    # print(xml_df)
+    # print(xml_df['emrcontent'].str.cat(sep=''))
+    # xml = lxml.etree.parse("/Users/kylehuang/DOING-PROJECTS/IMDSS-Project/IMDSS/xml_resource/WA2_1081004143938.xml")
+    xml = lxml.etree.fromstring(xml_df['emrcontent'].str.cat(sep=''))
+    # transform = lxml.etree.XSLT(etree.parse("/Users/kylehuang/DOING-PROJECTS/IMDSS-Project/IMDSS/xml_resource/Progress_note.xsl"))
+    transform = lxml.etree.XSLT(etree.fromstring(xsl_df['XslContent'].str.cat(sep='')))
     html = transform(xml)
 
     content = {u"insert_html": str(html)}

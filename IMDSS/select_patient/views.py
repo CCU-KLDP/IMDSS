@@ -33,6 +33,7 @@ def select_patient_view(request):
 
 
 def ajax_get_visualize_url(request):
+
     patient_id = request.POST["patient_id"]
     base_url = "http://127.0.0.1:8000/"
     vis_url = base_url + "charts/" + patient_id
@@ -42,7 +43,8 @@ def ajax_get_visualize_url(request):
 
 def ajax_get_emr_search_url(request):
     patient_id = request.POST["patient_id"]
+    # print(request.GET)
     base_url = "http://127.0.0.1:8000/"
     emr_url = base_url + "emr_search/" + patient_id
-
+    
     return response_as_json(emr_url)
