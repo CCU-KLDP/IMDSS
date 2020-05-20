@@ -1,0 +1,84 @@
+Processing 00000000.tx.1: ????:434 occlusion of cerebral arteries
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 434 occlusion of cerebral arteries
+>>>>> Phrase
+434 occlusion of cerebral arteries
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (926):
+   926   C0028790:Occlusion of cerebral arteries (Cerebral artery occlusion) [Acquired Abnormality]
+<<<<< Mappings
+Processing 00000000.tx.1: ??/??:
+
+Phrase: ??/??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+      
+Processing 00000000.tx.1: ????:434 occlusion of cerebral arteries
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 434 occlusion of cerebral arteries
+>>>>> Phrase
+434 occlusion of cerebral arteries
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (926):
+   926   C0028790:Occlusion of cerebral arteries (Cerebral artery occlusion) [Acquired Abnormality]
+<<<<< Mappings
+Processing 00000000.tx.1: ??/??:
+
+Phrase: ??/??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+      
+Processing 00000000.tx.1: ????:434 occlusion of cerebral arteries
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 434 occlusion of cerebral arteries
+>>>>> Phrase
+434 occlusion of cerebral arteries
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (926):
+   926   C0028790:Occlusion of cerebral arteries (Cerebral artery occlusion) [Acquired Abnormality]
+<<<<< Mappings
+Processing 00000000.tx.1: ??/??:
+
+Phrase: ??/??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+      
