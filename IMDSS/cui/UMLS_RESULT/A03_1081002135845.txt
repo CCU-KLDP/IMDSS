@@ -955,3 +955,1917 @@ Phrase: ??????
 >>>>> Phrase
 <<<<< Phrase
       
+Processing 00000000.tx.1: [? ? ? ?]  ?
+
+Phrase: [? ? ? ?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ]  ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: Diagnosis: .
+
+Phrase: Diagnosis
+>>>>> Phrase
+diagnosis
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1704338:diagnosis (diagnosis aspect) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: : .
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: Acute large cerebral infarction at right middle cerebral artery territory,  young stroke, with acute left limbs weakness,  status post  intravenous thrombolytic therapy and endovascular thrombectomy  (on 2019/9/25) .
+
+Phrase: Acute large cerebral infarction at right middle cerebral artery territory,
+>>>>> Phrase
+acute large cerebral infarction at right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (775):
+   573   C0205178:ACUTE (acute) [Temporal Concept]
+   573   C0549177:LARGE (Large) [Quantitative Concept]
+   573   C0444532:Right (Right sided) [Spatial Concept]
+   820   C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   573   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: young stroke,
+>>>>> Phrase
+young stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0332239:Young [Temporal Concept]
+   861   C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with acute left limbs weakness,
+>>>>> Phrase
+acute left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0205178:ACUTE (acute) [Temporal Concept]
+   645   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: status post  intravenous thrombolytic therapy
+>>>>> Phrase
+intravenous thrombolytic therapy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   913   C0455142:Intravenous therapy [Therapeutic or Preventive Procedure]
+   827   C0520997:Thrombolytic (Thrombolysis, function) [Clinical Attribute]
+Meta Mapping (901):
+   660   C0348016:Intravenous [Spatial Concept]
+   901   C0040044:Thrombolytic Therapy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: endovascular thrombectomy
+>>>>> Phrase
+endovascular thrombectomy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0524425:Endovascular (inside the blood vessel) [Body Location or Region]
+   861   C0162578:Thrombectomy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/25
+>>>>> Phrase
+2019 9 25
+<<<<< Phrase
+
+Phrase: ) .
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: Cardiac arrhythmia, with paroxysmal atrial fibrillation (on 2019/9/27)  and probable paroxysmal supraventricular tachycardia (on 2019/10/1) .Fever case to be determined etiology? favor suspected nosocomial  aspiration pneumonia .
+
+Phrase: Cardiac arrhythmia,
+>>>>> Phrase
+cardiac arrhythmia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0003811:Arrhythmia, Cardiac (Cardiac Arrhythmia) [Finding]
+Meta Mapping (1000):
+  1000   C0264886:CARDIAC Arrythmia (Conduction disorder of the heart) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with paroxysmal atrial fibrillation
+>>>>> Phrase
+paroxysmal atrial fibrillation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0235480:ATRIAL FIBRILLATION, PAROXYSMAL (Paroxysmal atrial fibrillation) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/27
+>>>>> Phrase
+2019 9 27
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C1312248:9-27 (IFITM1 protein, human) [Amino Acid, Peptide, or Protein,Biologically Active Substance]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: probable paroxysmal supraventricular tachycardia
+>>>>> Phrase
+probable paroxysmal supraventricular tachycardia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (916):
+   645   C0033204:Probable (Probability) [Quantitative Concept]
+   923   C0030590:Paroxysmal supraventricular tachycardia [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/10/1
+>>>>> Phrase
+2019 10 1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   827   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ) .Fever case
+>>>>> Phrase
+fever case
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0424755:Fever (Fever symptoms (finding)) [Finding]
+   861   C0868928:Case (Case (situation)) [Functional Concept]
+<<<<< Mappings
+
+Phrase: to
+>>>>> Phrase
+to
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0041260:TO (Tryptophanase) [Amino Acid, Peptide, or Protein,Enzyme]
+<<<<< Mappings
+
+Phrase: be
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: determined etiology?
+>>>>> Phrase
+determined etiology
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0521095:Determined (Determined by) [Qualitative Concept]
+   861   C0015127:etiology (Etiology aspects) [Functional Concept]
+<<<<< Mappings
+
+Phrase: favor
+>>>>> Phrase
+favor
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0309049:FAVOR (favor) [Organic Chemical,Pharmacologic Substance,Vitamin]
+<<<<< Mappings
+
+Phrase: suspected nosocomial  aspiration pneumonia .
+>>>>> Phrase
+suspected nosocomial aspiration pneumonia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0332147:Suspected (Suspected diagnosis) [Qualitative Concept]
+   875   C0949083:Nosocomial Pneumonia (Hospital acquired pneumonia) [Disease or Syndrome]
+   812   C0700198:ASPIRATION (Pulmonary aspiration) [Pathologic Function]
+<<<<< Mappings
+Processing 00000000.tx.5: Mild hyperuricemia and Gout history .
+
+Phrase: Mild hyperuricemia
+>>>>> Phrase
+mild hyperuricemia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4313942:Hyperuricemia, mild [Finding]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Gout history .
+>>>>> Phrase
+gout history
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0018099:GOUT (Gout) [Disease or Syndrome]
+   861   C2004062:History (History of previous events) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.6: Hyperhomocysteinemia with decifiency of folic acid and vitamin B12
+
+Phrase: Hyperhomocysteinemia with decifiency of folic acid
+>>>>> Phrase
+hyperhomocysteinemia with decifiency of folic acid
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (722):
+   753   C0598608:hyperhomocysteinaemia (Hyperhomocysteinemia) [Disease or Syndrome]
+   623   C0016410:FOLIC ACID (Folic Acid) [Organic Chemical,Pharmacologic Substance,Vitamin]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: vitamin B12
+>>>>> Phrase
+vitamin b12
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2936883:Vitamin B12 (Vitamin B12 [EPC]) [Pharmacologic Substance]
+<<<<< Mappings
+Processing 00000000.tx.1: [? ? ? ?]    The patient initially was admitted for Acute large cerebral infarction at right middle cerebral artery territory, young stroke, with acute left limbs weakness,  status post  intravenous thrombolytic therapy and endovascular thrombectomy (on 2019/9/25).   
+
+Phrase: [? ? ? ?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ]
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: The patient
+>>>>> Phrase
+patient
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0030705:*^patient (Patients) [Patient or Disabled Group]
+<<<<< Mappings
+
+Phrase: initially
+>>>>> Phrase
+initially
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205265:Initially [Temporal Concept]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: admitted for Acute large cerebral infarction
+>>>>> Phrase
+admitted for acute large cerebral infarction
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (789):
+   753   C0184666:admitted (Hospital admission) [Health Care Activity]
+   820   C2215101:acute Cerebral Infarction (Acute cerebral ischemia) [Disease or Syndrome]
+   753   C0549177:LARGE (Large) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: at right middle cerebral artery territory,
+>>>>> Phrase
+right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (928):
+   771   C0226213:Right middle cerebral artery (Structure of right middle cerebral artery) [Body Part, Organ, or Organ Component]
+   804   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: young stroke,
+>>>>> Phrase
+young stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0332239:Young [Temporal Concept]
+   861   C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with acute left limbs weakness,
+>>>>> Phrase
+acute left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0205178:ACUTE (acute) [Temporal Concept]
+   645   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: status post  intravenous thrombolytic therapy
+>>>>> Phrase
+intravenous thrombolytic therapy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   913   C0455142:Intravenous therapy [Therapeutic or Preventive Procedure]
+   827   C0520997:Thrombolytic (Thrombolysis, function) [Clinical Attribute]
+Meta Mapping (901):
+   660   C0348016:Intravenous [Spatial Concept]
+   901   C0040044:Thrombolytic Therapy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: endovascular thrombectomy
+>>>>> Phrase
+endovascular thrombectomy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0524425:Endovascular (inside the blood vessel) [Body Location or Region]
+   861   C0162578:Thrombectomy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/25
+>>>>> Phrase
+2019 9 25
+<<<<< Phrase
+
+Phrase: ).
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: During hospitalization, while staying in ICU, Paroxysmal atrial fibrillation even transient RVR develoepd intermittently (by 2019/9/27 06:56 nursing record EKG monitor). 
+
+Phrase: During hospitalization,
+>>>>> Phrase
+hospitalization
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0019993:hospitalisation (Hospitalization) [Health Care Activity]
+<<<<< Mappings
+
+Phrase: while
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: staying
+>>>>> Phrase
+staying
+<<<<< Phrase
+
+Phrase: in ICU, Paroxysmal atrial fibrillation even transient RVR develoepd intermittently
+>>>>> Phrase
+in icu paroxysmal atrial fibrillation even transient rvr develoepd intermittently
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (568):
+   623   C0150312:In (Present) [Finding]
+   623   C0021708:ICU (intensive care unit) [Health Care Related Organization,Manufactured Object]
+   654   C0235480:ATRIAL FIBRILLATION, PAROXYSMAL (Paroxysmal atrial fibrillation) [Disease or Syndrome]
+   623   C0205374:Transient (Transitory) [Temporal Concept]
+   623   C1417822:RVR (NR1D2 gene) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: by 2019/9/27 06
+>>>>> Phrase
+2019 9 27 06
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C1705676:9-27 (IFITM1 wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 56 nursing record EKG monitor
+>>>>> Phrase
+56 nursing record ekg monitor
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (826):
+   673   C0028694:Record, Nursing (Nursing Records) [Intellectual Product,Manufactured Object]
+   840   C0553601:ekg monitor (Electrocardiographic monitors) [Medical Device]
+<<<<< Mappings
+
+Phrase: ).
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: However, tachycardia probable PSVT redeveloped with palpiation last night, and improved after treatment by our duty doctors. 
+
+Phrase: However,
+>>>>> Phrase
+however
+<<<<< Phrase
+
+Phrase: tachycardia probable PSVT
+>>>>> Phrase
+tachycardia probable psvt
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0039231:TACHYCARDIA (Tachycardia) [Finding]
+   660   C0033204:Probable (Probability) [Quantitative Concept]
+   827   C0030590:psvt (Paroxysmal supraventricular tachycardia) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: redeveloped with palpiation last night,
+>>>>> Phrase
+redeveloped with palpiation last night
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (760):
+   760   C0240526:Night (Night time) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: improved after treatment
+>>>>> Phrase
+improved after treatment
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   790   C0332272:Improved (Better) [Qualitative Concept]
+   882   C0001758:After-Treatment (Aftercare) [Health Care Activity]
+<<<<< Mappings
+
+Phrase: by our duty doctors.
+>>>>> Phrase
+duty doctors
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0031831:doctors (Physicians) [Professional or Occupational Group]
+<<<<< Mappings
+Processing 00000000.tx.4: We needed your expertise for further expertise suggested treatmetn for his arrhythmia. 
+
+Phrase: We
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: needed
+>>>>> Phrase
+needed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0686904:needed (Patient need for (contextual qualifier)) [Functional Concept]
+<<<<< Mappings
+
+Phrase: your expertise for further expertise
+>>>>> Phrase
+your expertise for further expertise
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (520):
+   593   C0870520:expertise [Qualitative Concept]
+   593   C1517331:Further [Spatial Concept]
+<<<<< Mappings
+
+Phrase: suggested
+>>>>> Phrase
+suggested
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1705535:Suggest (suggestion) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: treatmetn for his arrhythmia.
+>>>>> Phrase
+treatmetn for his arrhythmia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (604):
+   604   C0003811:Arrythmia (Cardiac Arrhythmia) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.5: Many thanks!
+
+Phrase: Many
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: thanks!
+>>>>> Phrase
+thanks
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2986676:THANK (TNFSF13B wt Allele) [Gene or Genome]
+<<<<< Mappings
+Processing 00000000.tx.1: [????????]   
+
+Phrase: [????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ]
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: [?????]   
+
+Phrase: [?????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ]
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: [??(????)]  
+
+Phrase: [??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ]
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: pAf and PSVT->tx ?
+
+Phrase: pAf
+>>>>> Phrase
+paf
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3811388:PAF (Platelet Activating Factor Measurement) [Laboratory Procedure]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: PSVT-
+>>>>> Phrase
+psvt
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2108093:PSVT (continuous electrocardiogram - paroxysmal supraventricular tachycardia) [Finding]
+<<<<< Mappings
+
+Phrase: >tx ?
+>>>>> Phrase
+tx
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0041403:TX (Turkmenistan) [Geographic Area]
+<<<<< Mappings
+Processing 00000000.tx.1: ???? 
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: ?????? 
+
+Phrase: ??????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: :  2019-10-02 ?? 
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 2019-10-02 ??
+>>>>> Phrase
+2019 10 02
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   827   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.4: :  13:58  ??? 
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 13
+>>>>> Phrase
+13
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 58  ???
+>>>>> Phrase
+58
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4517817:58 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.5: : ???
+
+Phrase: : ???
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.1: ????????????? 
+
+Phrase: ?????????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: : ?????,????????????  
+
+Phrase: : ?????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ????????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: ???? 
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: (S.O.) 
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: S.
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: O.
+>>>>> Phrase
+o
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0483204:O NOS (O NOS Ab) [Amino Acid, Peptide, or Protein,Immunologic Factor]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.5: : 1. 
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 1.
+>>>>> Phrase
+1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2981698:1+ (1+ Score, WHO) [Classification]
+<<<<< Mappings
+Processing 00000000.tx.6: episoded of PSVT and PAf attacked to him. 
+
+Phrase: episoded of PSVT
+>>>>> Phrase
+episoded of psvt
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (623):
+   623   C2108093:PSVT (continuous electrocardiogram - paroxysmal supraventricular tachycardia) [Finding]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: PAf
+>>>>> Phrase
+paf
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3811388:PAF (Platelet Activating Factor Measurement) [Laboratory Procedure]
+<<<<< Mappings
+
+Phrase: attacked to him.
+>>>>> Phrase
+attacked to him
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   790   C0004063:attacked (Assault) [Injury or Poisoning]
+<<<<< Mappings
+Processing 00000000.tx.7: 2. 
+
+Phrase: 2.
+>>>>> Phrase
+2
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2981700:2+ (2+ Score, WHO) [Classification]
+<<<<< Mappings
+Processing 00000000.tx.8: No hemodynamic compromise and no loss of conscioussness.
+
+Phrase: No hemodynamic compromise
+>>>>> Phrase
+hemodynamic compromise
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0019010:Hemodynamic (Hemodynamics) [Organ or Tissue Function]
+   861 N C2945640:compromise [Finding]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no loss of conscioussness.
+>>>>> Phrase
+no loss of conscioussness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (770):
+   770   C1517945:Loss [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.1: ???? 
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: (A) : Supra-ventricular tachy-arrhythmia.
+
+Phrase: (A
+>>>>> Phrase
+a
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Supra-ventricular tachy-arrhythmia.
+>>>>> Phrase
+supra ventricular tachy arrhythmia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (923):
+   923   C1963243:Supraventricular arrhythmia NOS (Supraventricular Arrhythmia Adverse Event NOS) [Pathologic Function]
+<<<<< Mappings
+Processing 00000000.tx.1: ???? 
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: (P) :1. 
+
+Phrase: (P) :1.
+>>>>> Phrase
+p 1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+Processing 00000000.tx.3: adding on inderal(10) and rytmonorm, low dose. 
+
+Phrase: adding on inderal
+>>>>> Phrase
+adding on inderal
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (730):
+   756   C1883712:Add (Add - instruction imperative) [Functional Concept]
+   623   C0591636:Inderal [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: (10
+>>>>> Phrase
+10
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: rytmonorm,
+>>>>> Phrase
+rytmonorm
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0282316:Rytmonorm (Rythmol) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: low dose.
+>>>>> Phrase
+low dose
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0445550:Low dose [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.4: 2. 
+
+Phrase: 2.
+>>>>> Phrase
+2
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2981700:2+ (2+ Score, WHO) [Classification]
+<<<<< Mappings
+Processing 00000000.tx.5: closely monitor vital signs. 
+
+Phrase: closely
+>>>>> Phrase
+closely
+<<<<< Phrase
+
+Phrase: monitor
+>>>>> Phrase
+monitor
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0030695:monitor (Patient Monitoring) [Health Care Activity]
+<<<<< Mappings
+
+Phrase: vital signs.
+>>>>> Phrase
+vital signs
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0150404:Vital signs (Taking vital signs) [Health Care Activity]
+<<<<< Mappings
+Processing 00000000.tx.6: 3. 
+
+Phrase: 3.
+>>>>> Phrase
+3
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439086:<3 (<3 (qualifier value)) [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.7: like to visit again if necessary.
+
+Phrase: like
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: to
+>>>>> Phrase
+to
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1883351:To [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: visit
+>>>>> Phrase
+visit
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0545082:Visit [Behavior]
+<<<<< Mappings
+
+Phrase: again
+>>>>> Phrase
+again
+<<<<< Phrase
+
+Phrase: if
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: necessary.
+>>>>> Phrase
+necessary
+<<<<< Phrase
+Processing 00000000.tx.1: ??????
+
+Phrase: ??????
+>>>>> Phrase
+<<<<< Phrase
+      
+Processing 00000000.tx.1: [? ? ? ?]  ?
+
+Phrase: [? ? ? ?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ]  ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: Diagnosis: .
+
+Phrase: Diagnosis
+>>>>> Phrase
+diagnosis
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1704338:diagnosis (diagnosis aspect) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: : .
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: Acute large cerebral infarction at right middle cerebral artery territory,  young stroke, with acute left limbs weakness,  status post  intravenous thrombolytic therapy and endovascular thrombectomy  (on 2019/9/25) .
+
+Phrase: Acute large cerebral infarction at right middle cerebral artery territory,
+>>>>> Phrase
+acute large cerebral infarction at right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (775):
+   573   C0205178:ACUTE (acute) [Temporal Concept]
+   573   C0549177:LARGE (Large) [Quantitative Concept]
+   573   C0444532:Right (Right sided) [Spatial Concept]
+   820   C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   573   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: young stroke,
+>>>>> Phrase
+young stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0332239:Young [Temporal Concept]
+   861   C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with acute left limbs weakness,
+>>>>> Phrase
+acute left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0205178:ACUTE (acute) [Temporal Concept]
+   645   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: status post  intravenous thrombolytic therapy
+>>>>> Phrase
+intravenous thrombolytic therapy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   913   C0455142:Intravenous therapy [Therapeutic or Preventive Procedure]
+   827   C0520997:Thrombolytic (Thrombolysis, function) [Clinical Attribute]
+Meta Mapping (901):
+   660   C0348016:Intravenous [Spatial Concept]
+   901   C0040044:Thrombolytic Therapy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: endovascular thrombectomy
+>>>>> Phrase
+endovascular thrombectomy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0524425:Endovascular (inside the blood vessel) [Body Location or Region]
+   861   C0162578:Thrombectomy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/25
+>>>>> Phrase
+2019 9 25
+<<<<< Phrase
+
+Phrase: ) .
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: Cardiac arrhythmia, with paroxysmal atrial fibrillation (on 2019/9/27)  and probable paroxysmal supraventricular tachycardia (on 2019/10/1) .Fever case to be determined etiology? favor suspected nosocomial  aspiration pneumonia .
+
+Phrase: Cardiac arrhythmia,
+>>>>> Phrase
+cardiac arrhythmia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0003811:Arrhythmia, Cardiac (Cardiac Arrhythmia) [Finding]
+Meta Mapping (1000):
+  1000   C0264886:CARDIAC Arrythmia (Conduction disorder of the heart) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with paroxysmal atrial fibrillation
+>>>>> Phrase
+paroxysmal atrial fibrillation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0235480:ATRIAL FIBRILLATION, PAROXYSMAL (Paroxysmal atrial fibrillation) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/27
+>>>>> Phrase
+2019 9 27
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C1312248:9-27 (IFITM1 protein, human) [Amino Acid, Peptide, or Protein,Biologically Active Substance]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: probable paroxysmal supraventricular tachycardia
+>>>>> Phrase
+probable paroxysmal supraventricular tachycardia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (916):
+   645   C0033204:Probable (Probability) [Quantitative Concept]
+   923   C0030590:Paroxysmal supraventricular tachycardia [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/10/1
+>>>>> Phrase
+2019 10 1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   827   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ) .Fever case
+>>>>> Phrase
+fever case
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0424755:Fever (Fever symptoms (finding)) [Finding]
+   861   C0868928:Case (Case (situation)) [Functional Concept]
+<<<<< Mappings
+
+Phrase: to
+>>>>> Phrase
+to
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0041260:TO (Tryptophanase) [Amino Acid, Peptide, or Protein,Enzyme]
+<<<<< Mappings
+
+Phrase: be
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: determined etiology?
+>>>>> Phrase
+determined etiology
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0521095:Determined (Determined by) [Qualitative Concept]
+   861   C0015127:etiology (Etiology aspects) [Functional Concept]
+<<<<< Mappings
+
+Phrase: favor
+>>>>> Phrase
+favor
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0309049:FAVOR (favor) [Organic Chemical,Pharmacologic Substance,Vitamin]
+<<<<< Mappings
+
+Phrase: suspected nosocomial  aspiration pneumonia .
+>>>>> Phrase
+suspected nosocomial aspiration pneumonia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0332147:Suspected (Suspected diagnosis) [Qualitative Concept]
+   875   C0949083:Nosocomial Pneumonia (Hospital acquired pneumonia) [Disease or Syndrome]
+   812   C0700198:ASPIRATION (Pulmonary aspiration) [Pathologic Function]
+<<<<< Mappings
+Processing 00000000.tx.5: Mild hyperuricemia and Gout history .
+
+Phrase: Mild hyperuricemia
+>>>>> Phrase
+mild hyperuricemia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4313942:Hyperuricemia, mild [Finding]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Gout history .
+>>>>> Phrase
+gout history
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0018099:GOUT (Gout) [Disease or Syndrome]
+   861   C2004062:History (History of previous events) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.6: Hyperhomocysteinemia with decifiency of folic acid and vitamin B12
+
+Phrase: Hyperhomocysteinemia with decifiency of folic acid
+>>>>> Phrase
+hyperhomocysteinemia with decifiency of folic acid
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (722):
+   753   C0598608:hyperhomocysteinaemia (Hyperhomocysteinemia) [Disease or Syndrome]
+   623   C0016410:FOLIC ACID (Folic Acid) [Organic Chemical,Pharmacologic Substance,Vitamin]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: vitamin B12
+>>>>> Phrase
+vitamin b12
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2936883:Vitamin B12 (Vitamin B12 [EPC]) [Pharmacologic Substance]
+<<<<< Mappings
+Processing 00000000.tx.1: [? ? ? ?]    The patient initially was admitted for Acute large cerebral infarction at right middle cerebral artery territory, young stroke, with acute left limbs weakness,  status post  intravenous thrombolytic therapy and endovascular thrombectomy (on 2019/9/25).   
+
+Phrase: [? ? ? ?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ]
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: The patient
+>>>>> Phrase
+patient
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0030705:*^patient (Patients) [Patient or Disabled Group]
+<<<<< Mappings
+
+Phrase: initially
+>>>>> Phrase
+initially
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205265:Initially [Temporal Concept]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: admitted for Acute large cerebral infarction
+>>>>> Phrase
+admitted for acute large cerebral infarction
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (789):
+   753   C0184666:admitted (Hospital admission) [Health Care Activity]
+   820   C2215101:acute Cerebral Infarction (Acute cerebral ischemia) [Disease or Syndrome]
+   753   C0549177:LARGE (Large) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: at right middle cerebral artery territory,
+>>>>> Phrase
+right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (928):
+   771   C0226213:Right middle cerebral artery (Structure of right middle cerebral artery) [Body Part, Organ, or Organ Component]
+   804   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: young stroke,
+>>>>> Phrase
+young stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0332239:Young [Temporal Concept]
+   861   C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with acute left limbs weakness,
+>>>>> Phrase
+acute left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0205178:ACUTE (acute) [Temporal Concept]
+   645   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: status post  intravenous thrombolytic therapy
+>>>>> Phrase
+intravenous thrombolytic therapy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   913   C0455142:Intravenous therapy [Therapeutic or Preventive Procedure]
+   827   C0520997:Thrombolytic (Thrombolysis, function) [Clinical Attribute]
+Meta Mapping (901):
+   660   C0348016:Intravenous [Spatial Concept]
+   901   C0040044:Thrombolytic Therapy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: endovascular thrombectomy
+>>>>> Phrase
+endovascular thrombectomy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0524425:Endovascular (inside the blood vessel) [Body Location or Region]
+   861   C0162578:Thrombectomy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/25
+>>>>> Phrase
+2019 9 25
+<<<<< Phrase
+
+Phrase: ).
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: During hospitalization, while staying in ICU, Paroxysmal atrial fibrillation even transient RVR develoepd intermittently (by 2019/9/27 06:56 nursing record EKG monitor). 
+
+Phrase: During hospitalization,
+>>>>> Phrase
+hospitalization
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0019993:hospitalisation (Hospitalization) [Health Care Activity]
+<<<<< Mappings
+
+Phrase: while
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: staying
+>>>>> Phrase
+staying
+<<<<< Phrase
+
+Phrase: in ICU, Paroxysmal atrial fibrillation even transient RVR develoepd intermittently
+>>>>> Phrase
+in icu paroxysmal atrial fibrillation even transient rvr develoepd intermittently
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (568):
+   623   C0150312:In (Present) [Finding]
+   623   C0021708:ICU (intensive care unit) [Health Care Related Organization,Manufactured Object]
+   654   C0235480:ATRIAL FIBRILLATION, PAROXYSMAL (Paroxysmal atrial fibrillation) [Disease or Syndrome]
+   623   C0205374:Transient (Transitory) [Temporal Concept]
+   623   C1417822:RVR (NR1D2 gene) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: by 2019/9/27 06
+>>>>> Phrase
+2019 9 27 06
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C1705676:9-27 (IFITM1 wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 56 nursing record EKG monitor
+>>>>> Phrase
+56 nursing record ekg monitor
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (826):
+   673   C0028694:Record, Nursing (Nursing Records) [Intellectual Product,Manufactured Object]
+   840   C0553601:ekg monitor (Electrocardiographic monitors) [Medical Device]
+<<<<< Mappings
+
+Phrase: ).
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: However, tachycardia probable PSVT redeveloped with palpiation last night, and improved after treatment by our duty doctors. 
+
+Phrase: However,
+>>>>> Phrase
+however
+<<<<< Phrase
+
+Phrase: tachycardia probable PSVT
+>>>>> Phrase
+tachycardia probable psvt
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0039231:TACHYCARDIA (Tachycardia) [Finding]
+   660   C0033204:Probable (Probability) [Quantitative Concept]
+   827   C0030590:psvt (Paroxysmal supraventricular tachycardia) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: redeveloped with palpiation last night,
+>>>>> Phrase
+redeveloped with palpiation last night
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (760):
+   760   C0240526:Night (Night time) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: improved after treatment
+>>>>> Phrase
+improved after treatment
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   790   C0332272:Improved (Better) [Qualitative Concept]
+   882   C0001758:After-Treatment (Aftercare) [Health Care Activity]
+<<<<< Mappings
+
+Phrase: by our duty doctors.
+>>>>> Phrase
+duty doctors
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0031831:doctors (Physicians) [Professional or Occupational Group]
+<<<<< Mappings
+Processing 00000000.tx.4: We needed your expertise for further expertise suggested treatmetn for his arrhythmia. 
+
+Phrase: We
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: needed
+>>>>> Phrase
+needed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0686904:needed (Patient need for (contextual qualifier)) [Functional Concept]
+<<<<< Mappings
+
+Phrase: your expertise for further expertise
+>>>>> Phrase
+your expertise for further expertise
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (520):
+   593   C0870520:expertise [Qualitative Concept]
+   593   C1517331:Further [Spatial Concept]
+<<<<< Mappings
+
+Phrase: suggested
+>>>>> Phrase
+suggested
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1705535:Suggest (suggestion) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: treatmetn for his arrhythmia.
+>>>>> Phrase
+treatmetn for his arrhythmia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (604):
+   604   C0003811:Arrythmia (Cardiac Arrhythmia) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.5: Many thanks!
+
+Phrase: Many
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: thanks!
+>>>>> Phrase
+thanks
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2986676:THANK (TNFSF13B wt Allele) [Gene or Genome]
+<<<<< Mappings
+Processing 00000000.tx.1: [????????]   
+
+Phrase: [????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ]
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: [?????]   
+
+Phrase: [?????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ]
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: [??(????)]  
+
+Phrase: [??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ]
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: pAf and PSVT->tx ?
+
+Phrase: pAf
+>>>>> Phrase
+paf
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3811388:PAF (Platelet Activating Factor Measurement) [Laboratory Procedure]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: PSVT-
+>>>>> Phrase
+psvt
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2108093:PSVT (continuous electrocardiogram - paroxysmal supraventricular tachycardia) [Finding]
+<<<<< Mappings
+
+Phrase: >tx ?
+>>>>> Phrase
+tx
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0041403:TX (Turkmenistan) [Geographic Area]
+<<<<< Mappings
+Processing 00000000.tx.1: ???? 
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: ?????? 
+
+Phrase: ??????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: :  2019-10-02 ?? 
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 2019-10-02 ??
+>>>>> Phrase
+2019 10 02
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   827   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.4: :  13:58  ??? 
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 13
+>>>>> Phrase
+13
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 58  ???
+>>>>> Phrase
+58
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4517817:58 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.5: : ???
+
+Phrase: : ???
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.1: ????????????? 
+
+Phrase: ?????????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: : ?????,????????????  
+
+Phrase: : ?????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ????????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: ???? 
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: (S.O.) 
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: S.
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: O.
+>>>>> Phrase
+o
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0483204:O NOS (O NOS Ab) [Amino Acid, Peptide, or Protein,Immunologic Factor]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.5: : 1. 
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 1.
+>>>>> Phrase
+1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2981698:1+ (1+ Score, WHO) [Classification]
+<<<<< Mappings
+Processing 00000000.tx.6: episoded of PSVT and PAf attacked to him. 
+
+Phrase: episoded of PSVT
+>>>>> Phrase
+episoded of psvt
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (623):
+   623   C2108093:PSVT (continuous electrocardiogram - paroxysmal supraventricular tachycardia) [Finding]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: PAf
+>>>>> Phrase
+paf
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3811388:PAF (Platelet Activating Factor Measurement) [Laboratory Procedure]
+<<<<< Mappings
+
+Phrase: attacked to him.
+>>>>> Phrase
+attacked to him
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   790   C0004063:attacked (Assault) [Injury or Poisoning]
+<<<<< Mappings
+Processing 00000000.tx.7: 2. 
+
+Phrase: 2.
+>>>>> Phrase
+2
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2981700:2+ (2+ Score, WHO) [Classification]
+<<<<< Mappings
+Processing 00000000.tx.8: No hemodynamic compromise and no loss of conscioussness.
+
+Phrase: No hemodynamic compromise
+>>>>> Phrase
+hemodynamic compromise
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0019010:Hemodynamic (Hemodynamics) [Organ or Tissue Function]
+   861 N C2945640:compromise [Finding]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no loss of conscioussness.
+>>>>> Phrase
+no loss of conscioussness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (770):
+   770   C1517945:Loss [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.1: ???? 
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: (A) : Supra-ventricular tachy-arrhythmia.
+
+Phrase: (A
+>>>>> Phrase
+a
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Supra-ventricular tachy-arrhythmia.
+>>>>> Phrase
+supra ventricular tachy arrhythmia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (923):
+   923   C1963243:Supraventricular arrhythmia NOS (Supraventricular Arrhythmia Adverse Event NOS) [Pathologic Function]
+<<<<< Mappings
+Processing 00000000.tx.1: ???? 
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: (P) :1. 
+
+Phrase: (P) :1.
+>>>>> Phrase
+p 1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+Processing 00000000.tx.3: adding on inderal(10) and rytmonorm, low dose. 
+
+Phrase: adding on inderal
+>>>>> Phrase
+adding on inderal
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (730):
+   756   C1883712:Add (Add - instruction imperative) [Functional Concept]
+   623   C0591636:Inderal [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: (10
+>>>>> Phrase
+10
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: rytmonorm,
+>>>>> Phrase
+rytmonorm
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0282316:Rytmonorm (Rythmol) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: low dose.
+>>>>> Phrase
+low dose
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0445550:Low dose [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.4: 2. 
+
+Phrase: 2.
+>>>>> Phrase
+2
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2981700:2+ (2+ Score, WHO) [Classification]
+<<<<< Mappings
+Processing 00000000.tx.5: closely monitor vital signs. 
+
+Phrase: closely
+>>>>> Phrase
+closely
+<<<<< Phrase
+
+Phrase: monitor
+>>>>> Phrase
+monitor
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0030695:monitor (Patient Monitoring) [Health Care Activity]
+<<<<< Mappings
+
+Phrase: vital signs.
+>>>>> Phrase
+vital signs
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0150404:Vital signs (Taking vital signs) [Health Care Activity]
+<<<<< Mappings
+Processing 00000000.tx.6: 3. 
+
+Phrase: 3.
+>>>>> Phrase
+3
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439086:<3 (<3 (qualifier value)) [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.7: like to visit again if necessary.
+
+Phrase: like
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: to
+>>>>> Phrase
+to
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1883351:To [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: visit
+>>>>> Phrase
+visit
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0545082:Visit [Behavior]
+<<<<< Mappings
+
+Phrase: again
+>>>>> Phrase
+again
+<<<<< Phrase
+
+Phrase: if
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: necessary.
+>>>>> Phrase
+necessary
+<<<<< Phrase
+Processing 00000000.tx.1: ??????
+
+Phrase: ??????
+>>>>> Phrase
+<<<<< Phrase
+      

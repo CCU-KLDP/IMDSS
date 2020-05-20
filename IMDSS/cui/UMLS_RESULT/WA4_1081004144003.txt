@@ -4768,3 +4768,1911 @@ Meta Mapping (861):
    861   C0442027:PO (Oral) [Spatial Concept]
 <<<<< Mappings
       
+Processing 00000000.tx.1: 1.Item  MRI 2.
+
+Phrase: 1.Item  MRI 2.
+>>>>> Phrase
+1 item mri 2
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   902   C0580272:1/2 [Intellectual Product]
+   812   C1551338:Item (Entity) [Entity]
+   812   C0024485:MRI (Magnetic Resonance Imaging) [Diagnostic Procedure]
+<<<<< Mappings
+Processing 00000000.tx.2: Indication  acute stroke s/p r-TPA + EVT 3.
+
+Phrase: Indication  acute stroke s/p r-TPA + EVT 3.
+>>>>> Phrase
+indication acute stroke s p r tpa evt 3
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (739):
+   791   C3146298:Indication [Idea or Concept]
+   807   C0751956:Acute stroke (Acute Cerebrovascular Accidents) [Disease or Syndrome]
+   807   C0032143:r-tPA (alteplase) [Amino Acid, Peptide, or Protein,Enzyme,Pharmacologic Substance]
+<<<<< Mappings
+Processing 00000000.tx.3: Result 2019-09-26 ?ITEM:? 
+
+Phrase: Result 2019-09-26 ?ITEM
+>>>>> Phrase
+result 2019 09 26 item
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (786):
+   637   C1546471:Result (What subject filter - Result) [Idea or Concept]
+   804   C1551338:Item (Entity) [Entity]
+<<<<< Mappings
+
+Phrase: :?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: , MRI-Brain MRA ????
+
+Phrase: , MRI-Brain MRA ????
+>>>>> Phrase
+mri brain mra
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   734   C0412675:MRI brain (MRI brain procedure) [Diagnostic Procedure]
+   827   C0243032:MRA (Magnetic Resonance Angiography) [Diagnostic Procedure]
+<<<<< Mappings
+Processing 00000000.tx.1: ?
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: Indication:? 
+
+Phrase: Indication
+>>>>> Phrase
+indication
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0392360:indication (Indication of (contextual qualifier)) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: :?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: MRI ????????(CT,MRI?????) 
+
+Phrase: MRI ????????
+>>>>> Phrase
+mri
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0024485:MRI (Magnetic Resonance Imaging) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: (CT,
+>>>>> Phrase
+ct
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0007673:CT (Central African Republic) [Geographic Area]
+<<<<< Mappings
+
+Phrase: MRI?????
+>>>>> Phrase
+mri
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0024485:MRI (Magnetic Resonance Imaging) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: ???? 
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.5: ???:???????????? 
+
+Phrase: ???
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :????????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.6: Highly suspect dense hypervascular sign induced acute large cerebral infarction at right middle cerebral artery territory s/p t-PA and EVT
+
+Phrase: Highly
+>>>>> Phrase
+highly
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205250:Highly (High) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: suspect
+>>>>> Phrase
+suspect
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0750491:suspect (Suspected qualifier) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: dense hypervascular sign
+>>>>> Phrase
+dense hypervascular sign
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0439794:Dense [Qualitative Concept]
+   660   C1512560:Hypervascular (hypervascular) [Qualitative Concept]
+   827   C0311392:Sign (Physical findings) [Finding]
+<<<<< Mappings
+
+Phrase: induced
+>>>>> Phrase
+induced
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205263:Induced (Induce (action)) [Functional Concept]
+<<<<< Mappings
+
+Phrase: acute large cerebral infarction at right middle cerebral artery territory s/p t-PA
+>>>>> Phrase
+acute large cerebral infarction at right middle cerebral artery territory s p t pa
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (709):
+   568   C0205178:ACUTE (acute) [Temporal Concept]
+   568   C0549177:LARGE (Large) [Quantitative Concept]
+   568   C0205090:RIGHT (Right) [Spatial Concept]
+   789   C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   568   C1301808:Territory (Geographic state) [Geographic Area]
+   568   C0030428:PA (Paraguay) [Geographic Area]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: EVT
+>>>>> Phrase
+evt
+<<<<< Phrase
+Processing 00000000.tx.1: MRI of brain, with the following pulse sequences are performed: 1. 
+
+Phrase: MRI of brain,
+>>>>> Phrase
+mri of brain
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0412675:MRI of brain (MRI brain procedure) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: with the following pulse sequences
+>>>>> Phrase
+following pulse sequences
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (884):
+   660   C0332282:Following [Temporal Concept]
+   867   C3828438:Pulse Sequence [Spatial Concept]
+<<<<< Mappings
+
+Phrase: are
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: performed
+>>>>> Phrase
+performed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0884358:PERFORMED (Performed) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 1.
+>>>>> Phrase
+1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2981698:1+ (1+ Score, WHO) [Classification]
+<<<<< Mappings
+Processing 00000000.tx.2: FLAIR T1WI axial and sagittal section 2. 
+
+Phrase: FLAIR T1WI
+>>>>> Phrase
+flair t1wi
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C0309093:FLAIR (FLAIR (product)) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: axial
+>>>>> Phrase
+axial
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205131:Axial [Spatial Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: sagittal section 2.
+>>>>> Phrase
+sagittal section 2
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   827   C0205129:Sagittal [Spatial Concept]
+   827   C0152060:Section, NOS (Transection (procedure)) [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+Processing 00000000.tx.3: FSE T2WI axial and coronal section 3. 
+
+Phrase: FSE T2WI
+>>>>> Phrase
+fse t2wi
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C0180647:FSE (Fetal scalp electrode) [Medical Device]
+<<<<< Mappings
+
+Phrase: axial
+>>>>> Phrase
+axial
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205131:Axial [Spatial Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: coronal section 3.
+>>>>> Phrase
+coronal section 3
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   827   C0205123:Coronal [Spatial Concept]
+   827   C0152060:Section, NOS (Transection (procedure)) [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+Processing 00000000.tx.4: GRE T2*WI, FLAIR heavy T2WI and EPI DWI axial section 4. 
+
+Phrase: GRE T2*WI,
+>>>>> Phrase
+gre t2 wi
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   827   C0043193:WI (Wisconsin) [Geographic Area]
+<<<<< Mappings
+
+Phrase: FLAIR heavy T2WI
+>>>>> Phrase
+flair heavy t2wi
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (623):
+   660   C0309093:FLAIR (FLAIR (product)) [Organic Chemical,Pharmacologic Substance]
+   660   C0439539:Heavy (Heavy sensation quality) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: EPI DWI axial section 4.
+>>>>> Phrase
+epi dwi axial section 4
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (771):
+   804   C0162734:EPI (Echo-Planar Imaging) [Diagnostic Procedure]
+   804   C0598801:DWI (Diffusion weighted imaging) [Diagnostic Procedure]
+   804   C0205131:Axial [Spatial Concept]
+   804   C0152060:Section, NOS (Transection (procedure)) [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+Processing 00000000.tx.5: 3D TOF SPGR MRA
+
+Phrase: 3D TOF SPGR MRA
+>>>>> Phrase
+3d tof spgr mra
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   645   C1442459:3D (3 Days) [Temporal Concept]
+   645   C1825291:TOF (FEZF2 gene) [Gene or Genome]
+   645   C3897360:SPGR (Three-Dimensional Spoiled Gradient MRI) [Diagnostic Procedure]
+   812   C0243032:MRA (Magnetic Resonance Angiography) [Diagnostic Procedure]
+<<<<< Mappings
+Processing 00000000.tx.1: Findings: 1. 
+
+Phrase: Findings
+>>>>> Phrase
+findings
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2607943:findings (findings aspects) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 1.
+>>>>> Phrase
+1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2827734:1+ (1+ Score) [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.2: Normal size of the ventricles without hydrocephalus. 
+
+Phrase: Normal size of the ventricles
+>>>>> Phrase
+normal size of the ventricles
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (745):
+   806   C0332506:Normal size [Quantitative Concept]
+   593   C0007799:Ventricles (Cerebral Ventricles) [Body Space or Junction]
+<<<<< Mappings
+
+Phrase: without hydrocephalus.
+>>>>> Phrase
+hydrocephalus
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0020255:HYDROCEPHALUS (Hydrocephalus) [Disease or Syndrome]
+<<<<< Mappings
+Processing 00000000.tx.3: Presence of 5th and 6th ventricles is seen. 
+
+Phrase: Presence of 5th
+>>>>> Phrase
+presence of 5th
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (746):
+   790   C0150312:Presence (Present) [Finding]
+   623   C0205439:5th (Fifth) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 6th ventricles
+>>>>> Phrase
+6th ventricles
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0007799:Ventricles (Cerebral Ventricles) [Body Space or Junction]
+<<<<< Mappings
+
+Phrase: is
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: seen.
+>>>>> Phrase
+seen
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205397:Seen (seen) [Qualitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.4: 2. 
+
+Phrase: 2.
+>>>>> Phrase
+2
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2827735:2+ (2+ Score) [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.5: A large wedge-shaped hyperintense lesion on the DWI can be seen at right side T-P lobe, basal ganglion and corona radiata. 
+
+Phrase: A large wedge-shaped hyperintense lesion on the DWI
+>>>>> Phrase
+a large wedge shaped hyperintense lesion on the dwi
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (669):
+   575   C0549177:LARGE (Large) [Quantitative Concept]
+   598   C0332503:Wedge shaped (Wedge shape) [Spatial Concept]
+   742   C0221198:Lesion [Finding]
+   575   C1171335:DWI (Driving While Intoxicated) [Individual Behavior]
+<<<<< Mappings
+
+Phrase: can
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: be
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: seen at right side T-P lobe,
+>>>>> Phrase
+seen at right side t p lobe
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (692):
+   748   C0205397:Seen (seen) [Qualitative Concept]
+   778   C0205090:Right side (Right) [Spatial Concept]
+   748   C0796494:Lobe (lobe) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: basal ganglion
+>>>>> Phrase
+basal ganglion
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0004781:Basal ganglion (Basal Ganglia) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: corona radiata.
+>>>>> Phrase
+corona radiata
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0737244:Corona radiata [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+Processing 00000000.tx.6: It shows low signal on the ADC map. 
+
+Phrase: It
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: shows
+>>>>> Phrase
+shows
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: low signal on the ADC map.
+>>>>> Phrase
+low signal on the adc map
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (691):
+   753   C0205251:Low (low) [Qualitative Concept]
+   753   C1710082:Signal [Phenomenon or Process]
+   586   C0879593:ADC (therapeutic autologous dendritic cells) [Cell,Pharmacologic Substance]
+   586   C1706473:Map (Functional Map) [Conceptual Entity]
+<<<<< Mappings
+Processing 00000000.tx.7: Acute ischemic infarct at right side MCA territory is considered. 
+
+Phrase: Acute ischemic infarct at right side MCA territory
+>>>>> Phrase
+acute ischemic infarct at right side mca territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (739):
+   767   C0333548:Acute infarct [Pathologic Function]
+   578   C0475224:Ischemic [Functional Concept]
+   604   C0205090:Right side (Right) [Spatial Concept]
+   578   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+   578   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: is
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: considered.
+>>>>> Phrase
+considered
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0750591:considered (consider) [Idea or Concept]
+<<<<< Mappings
+Processing 00000000.tx.8: 3. 
+
+Phrase: 3.
+>>>>> Phrase
+3
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2827736:3+ (3+ Score) [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.9: Mild mass effect, but no midline shift. 
+
+Phrase: Mild mass effect,
+>>>>> Phrase
+mild mass effect
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C2945599:MILD (Mild (qualifier value)) [Qualitative Concept]
+   901   C4086564:Mass Effect [Finding]
+<<<<< Mappings
+
+Phrase: but
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no midline shift.
+>>>>> Phrase
+midline shift
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C4086580:Midline Shift [Finding]
+<<<<< Mappings
+Processing 00000000.tx.10: 4. 
+
+Phrase: 4.
+>>>>> Phrase
+4
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3838679:4+ (4+ Answer to question) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.11: No obvious hemorrhage or tumor mass within the brain. 
+
+Phrase: No obvious hemorrhage
+>>>>> Phrase
+obvious hemorrhage
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861 N C0019080:HEMORRHAGE (Hemorrhage) [Pathologic Function]
+<<<<< Mappings
+
+Phrase: or
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: tumor mass within the brain.
+>>>>> Phrase
+tumor mass within the brain
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (844):
+   844 N C0006118:Brain Tumor Mass (Brain Neoplasms) [Neoplastic Process]
+<<<<< Mappings
+Processing 00000000.tx.12: 5. 
+
+Phrase: 5.
+>>>>> Phrase
+5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.13: The pons, medulla, midbrain and cerebellum seem to be normal. 
+
+Phrase: The pons,
+>>>>> Phrase
+pons
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0032639:Pons (Pontine structure) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: medulla,
+>>>>> Phrase
+medulla
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0025148:medulla (Medulla Oblongata) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: midbrain
+>>>>> Phrase
+midbrain
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0025462:Mid-brain (Midbrain structure) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: cerebellum
+>>>>> Phrase
+cerebellum
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0007765:CEREBELLUM (Cerebellum) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: seem
+>>>>> Phrase
+seem
+<<<<< Phrase
+
+Phrase: to
+>>>>> Phrase
+to
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0041260:TO (Tryptophanase) [Amino Acid, Peptide, or Protein,Enzyme]
+<<<<< Mappings
+
+Phrase: be
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: normal.
+>>>>> Phrase
+normal
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205307:NORMAL (Normal) [Qualitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.14: 6. 
+
+Phrase: 6.
+>>>>> Phrase
+6
+<<<<< Phrase
+Processing 00000000.tx.15: The 3D MRA shows no obvious stenosis/occlusion of intra-cranial arteries. 
+
+Phrase: The 3D MRA
+>>>>> Phrase
+3d mra
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0450363:3D (Three-dimensional) [Spatial Concept]
+   861   C0243032:MRA (Magnetic Resonance Angiography) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: shows
+>>>>> Phrase
+shows
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: no obvious stenosis/occlusion of intra-cranial arteries.
+>>>>> Phrase
+no obvious stenosis occlusion of intra cranial arteries
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (778):
+   612 N C0038449:Stenosis of artery (Stricture of artery) [Pathologic Function]
+   744   C0011382:Occlusion (Dental Occlusion) [Organ or Tissue Function]
+   604   C0524466:Intracranial [Body Location or Region]
+Meta Mapping (778):
+   578   C0678234:Stenosis (Stenosis Morphology) [Qualitative Concept]
+   782 N C0264995:Occlusion of artery (Occlusion of artery (disorder)) [Pathologic Function]
+   604   C0524466:Intracranial [Body Location or Region]
+<<<<< Mappings
+Processing 00000000.tx.16: 7. 
+
+Phrase: 7.
+>>>>> Phrase
+7
+<<<<< Phrase
+Processing 00000000.tx.17: Hypertrophy of bil. nasal turbinates with deviation of nasal septum. 
+
+Phrase: Hypertrophy of bil. nasal turbinates
+>>>>> Phrase
+hypertrophy of bil nasal turbinates
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (891):
+   891   C0155840:Hypertrophy of nasal turbinates [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with deviation of nasal septum.
+>>>>> Phrase
+with deviation of nasal septum
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (844):
+   844   C0549397:nasal septum deviation (Deviated nasal septum) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.18: Mucosal thickening in bil. maxillary and ethmoid sinuses is seen. 
+
+Phrase: Mucosal thickening in bil. maxillary
+>>>>> Phrase
+mucosal thickening in bil maxillary
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (745):
+   806   C3686502:Mucosal thickening [Finding]
+   593   C0024947:Maxillary (Maxilla) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ethmoid sinuses
+>>>>> Phrase
+ethmoid sinuses
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0015028:ETHMOID SINUSES (Ethmoid sinus structure) [Body Space or Junction]
+<<<<< Mappings
+
+Phrase: is
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: seen.
+>>>>> Phrase
+seen
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205397:Seen (seen) [Qualitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.19: Mild adenoid hyperplasia in the nasopharynx is considered.
+
+Phrase: Mild adenoid hyperplasia in the nasopharynx
+>>>>> Phrase
+mild adenoid hyperplasia in the nasopharynx
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (725):
+   586   C2945599:MILD (Mild (qualifier value)) [Qualitative Concept]
+   790   C0155833:adenoid hyperplasia (Hyperplasia of adenoids) [Disease or Syndrome]
+   586   C0027442:NASOPHARYNX (Nasopharynx) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: is
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: considered.
+>>>>> Phrase
+considered
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0750591:considered (consider) [Idea or Concept]
+<<<<< Mappings
+Processing 00000000.tx.1: Impression: > Large acute ischemic infarct at right side T-P lobe, basal ganglion and corona radiata ( MCA territory ). 
+
+Phrase: Impression
+>>>>> Phrase
+impression
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1998467:Impression [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: > Large acute ischemic infarct at right side T-P lobe,
+>>>>> Phrase
+large acute ischemic infarct at right side t p lobe
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (689):
+   573   C0549177:LARGE (Large) [Quantitative Concept]
+   757   C0333548:Acute infarct [Pathologic Function]
+   573   C0475224:Ischemic [Functional Concept]
+   593   C0205090:Right side (Right) [Spatial Concept]
+   573   C0796494:Lobe (lobe) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: basal ganglion
+>>>>> Phrase
+basal ganglion
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0004781:Basal ganglion (Basal Ganglia) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: corona radiata
+>>>>> Phrase
+corona radiata
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0737244:Corona radiata [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: ( MCA territory
+>>>>> Phrase
+mca territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+   861   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: ).
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: > The 3D MRA shows no obvious stenosis/occlusion of intra-cranial arteries.
+
+Phrase: >
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: The 3D MRA
+>>>>> Phrase
+3d mra
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0450363:3D (Three-dimensional) [Spatial Concept]
+   861   C0243032:MRA (Magnetic Resonance Angiography) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: shows
+>>>>> Phrase
+shows
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: no obvious stenosis/occlusion of intra-cranial arteries.
+>>>>> Phrase
+no obvious stenosis occlusion of intra cranial arteries
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (778):
+   612 N C0038449:Stenosis of artery (Stricture of artery) [Pathologic Function]
+   744   C1947917:Occlusion (Occluded) [Functional Concept]
+   604   C0524466:Intracranial [Body Location or Region]
+Meta Mapping (778):
+   578   C0678234:Stenosis (Stenosis Morphology) [Qualitative Concept]
+   782 N C0264995:Occlusion of artery (Occlusion of artery (disorder)) [Pathologic Function]
+   604   C0524466:Intracranial [Body Location or Region]
+<<<<< Mappings
+Processing 00000000.tx.1: 4.Plan: monitor GCS     add bokey po
+
+Phrase: 4.Plan
+>>>>> Phrase
+4 plan
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C3838679:4+ (4+ Answer to question) [Finding]
+   861   C1301732:Plan (Planned) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: monitor GCS
+>>>>> Phrase
+monitor gcs
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0030695:monitor (Patient Monitoring) [Health Care Activity]
+   861   C4283742:GCS (Ceramide Glucosyltransferase, human) [Amino Acid, Peptide, or Protein,Enzyme]
+<<<<< Mappings
+
+Phrase: add
+>>>>> Phrase
+add
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1883712:Add (Add - instruction imperative) [Functional Concept]
+<<<<< Mappings
+
+Phrase: bokey po
+>>>>> Phrase
+bokey po
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0442027:PO (Oral) [Spatial Concept]
+<<<<< Mappings
+      
+Processing 00000000.tx.1: 1.Item  MRI 2.
+
+Phrase: 1.Item  MRI 2.
+>>>>> Phrase
+1 item mri 2
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   902   C0580272:1/2 [Intellectual Product]
+   812   C1551338:Item (Entity) [Entity]
+   812   C0024485:MRI (Magnetic Resonance Imaging) [Diagnostic Procedure]
+<<<<< Mappings
+Processing 00000000.tx.2: Indication  acute stroke s/p r-TPA + EVT 3.
+
+Phrase: Indication  acute stroke s/p r-TPA + EVT 3.
+>>>>> Phrase
+indication acute stroke s p r tpa evt 3
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (739):
+   791   C3146298:Indication [Idea or Concept]
+   807   C0751956:Acute stroke (Acute Cerebrovascular Accidents) [Disease or Syndrome]
+   807   C0032143:r-tPA (alteplase) [Amino Acid, Peptide, or Protein,Enzyme,Pharmacologic Substance]
+<<<<< Mappings
+Processing 00000000.tx.3: Result 2019-09-26 ?ITEM:? 
+
+Phrase: Result 2019-09-26 ?ITEM
+>>>>> Phrase
+result 2019 09 26 item
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (786):
+   637   C1546471:Result (What subject filter - Result) [Idea or Concept]
+   804   C1551338:Item (Entity) [Entity]
+<<<<< Mappings
+
+Phrase: :?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: , MRI-Brain MRA ????
+
+Phrase: , MRI-Brain MRA ????
+>>>>> Phrase
+mri brain mra
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   734   C0412675:MRI brain (MRI brain procedure) [Diagnostic Procedure]
+   827   C0243032:MRA (Magnetic Resonance Angiography) [Diagnostic Procedure]
+<<<<< Mappings
+Processing 00000000.tx.1: ?
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: Indication:? 
+
+Phrase: Indication
+>>>>> Phrase
+indication
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0392360:indication (Indication of (contextual qualifier)) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: :?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: MRI ????????(CT,MRI?????) 
+
+Phrase: MRI ????????
+>>>>> Phrase
+mri
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0024485:MRI (Magnetic Resonance Imaging) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: (CT,
+>>>>> Phrase
+ct
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0007673:CT (Central African Republic) [Geographic Area]
+<<<<< Mappings
+
+Phrase: MRI?????
+>>>>> Phrase
+mri
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0024485:MRI (Magnetic Resonance Imaging) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: ???? 
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.5: ???:???????????? 
+
+Phrase: ???
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :????????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.6: Highly suspect dense hypervascular sign induced acute large cerebral infarction at right middle cerebral artery territory s/p t-PA and EVT
+
+Phrase: Highly
+>>>>> Phrase
+highly
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205250:Highly (High) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: suspect
+>>>>> Phrase
+suspect
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0750491:suspect (Suspected qualifier) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: dense hypervascular sign
+>>>>> Phrase
+dense hypervascular sign
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0439794:Dense [Qualitative Concept]
+   660   C1512560:Hypervascular (hypervascular) [Qualitative Concept]
+   827   C0311392:Sign (Physical findings) [Finding]
+<<<<< Mappings
+
+Phrase: induced
+>>>>> Phrase
+induced
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205263:Induced (Induce (action)) [Functional Concept]
+<<<<< Mappings
+
+Phrase: acute large cerebral infarction at right middle cerebral artery territory s/p t-PA
+>>>>> Phrase
+acute large cerebral infarction at right middle cerebral artery territory s p t pa
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (709):
+   568   C0205178:ACUTE (acute) [Temporal Concept]
+   568   C0549177:LARGE (Large) [Quantitative Concept]
+   568   C0205090:RIGHT (Right) [Spatial Concept]
+   789   C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   568   C1301808:Territory (Geographic state) [Geographic Area]
+   568   C0030428:PA (Paraguay) [Geographic Area]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: EVT
+>>>>> Phrase
+evt
+<<<<< Phrase
+Processing 00000000.tx.1: MRI of brain, with the following pulse sequences are performed: 1. 
+
+Phrase: MRI of brain,
+>>>>> Phrase
+mri of brain
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0412675:MRI of brain (MRI brain procedure) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: with the following pulse sequences
+>>>>> Phrase
+following pulse sequences
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (884):
+   660   C0332282:Following [Temporal Concept]
+   867   C3828438:Pulse Sequence [Spatial Concept]
+<<<<< Mappings
+
+Phrase: are
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: performed
+>>>>> Phrase
+performed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0884358:PERFORMED (Performed) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 1.
+>>>>> Phrase
+1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2981698:1+ (1+ Score, WHO) [Classification]
+<<<<< Mappings
+Processing 00000000.tx.2: FLAIR T1WI axial and sagittal section 2. 
+
+Phrase: FLAIR T1WI
+>>>>> Phrase
+flair t1wi
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C0309093:FLAIR (FLAIR (product)) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: axial
+>>>>> Phrase
+axial
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205131:Axial [Spatial Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: sagittal section 2.
+>>>>> Phrase
+sagittal section 2
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   827   C0205129:Sagittal [Spatial Concept]
+   827   C0152060:Section, NOS (Transection (procedure)) [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+Processing 00000000.tx.3: FSE T2WI axial and coronal section 3. 
+
+Phrase: FSE T2WI
+>>>>> Phrase
+fse t2wi
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C0180647:FSE (Fetal scalp electrode) [Medical Device]
+<<<<< Mappings
+
+Phrase: axial
+>>>>> Phrase
+axial
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205131:Axial [Spatial Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: coronal section 3.
+>>>>> Phrase
+coronal section 3
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   827   C0205123:Coronal [Spatial Concept]
+   827   C0152060:Section, NOS (Transection (procedure)) [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+Processing 00000000.tx.4: GRE T2*WI, FLAIR heavy T2WI and EPI DWI axial section 4. 
+
+Phrase: GRE T2*WI,
+>>>>> Phrase
+gre t2 wi
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   827   C0043193:WI (Wisconsin) [Geographic Area]
+<<<<< Mappings
+
+Phrase: FLAIR heavy T2WI
+>>>>> Phrase
+flair heavy t2wi
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (623):
+   660   C0309093:FLAIR (FLAIR (product)) [Organic Chemical,Pharmacologic Substance]
+   660   C0439539:Heavy (Heavy sensation quality) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: EPI DWI axial section 4.
+>>>>> Phrase
+epi dwi axial section 4
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (771):
+   804   C0162734:EPI (Echo-Planar Imaging) [Diagnostic Procedure]
+   804   C0598801:DWI (Diffusion weighted imaging) [Diagnostic Procedure]
+   804   C0205131:Axial [Spatial Concept]
+   804   C0152060:Section, NOS (Transection (procedure)) [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+Processing 00000000.tx.5: 3D TOF SPGR MRA
+
+Phrase: 3D TOF SPGR MRA
+>>>>> Phrase
+3d tof spgr mra
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   645   C1442459:3D (3 Days) [Temporal Concept]
+   645   C1825291:TOF (FEZF2 gene) [Gene or Genome]
+   645   C3897360:SPGR (Three-Dimensional Spoiled Gradient MRI) [Diagnostic Procedure]
+   812   C0243032:MRA (Magnetic Resonance Angiography) [Diagnostic Procedure]
+<<<<< Mappings
+Processing 00000000.tx.1: Findings: 1. 
+
+Phrase: Findings
+>>>>> Phrase
+findings
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2607943:findings (findings aspects) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 1.
+>>>>> Phrase
+1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2827734:1+ (1+ Score) [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.2: Normal size of the ventricles without hydrocephalus. 
+
+Phrase: Normal size of the ventricles
+>>>>> Phrase
+normal size of the ventricles
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (745):
+   806   C0332506:Normal size [Quantitative Concept]
+   593   C0007799:Ventricles (Cerebral Ventricles) [Body Space or Junction]
+<<<<< Mappings
+
+Phrase: without hydrocephalus.
+>>>>> Phrase
+hydrocephalus
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0020255:HYDROCEPHALUS (Hydrocephalus) [Disease or Syndrome]
+<<<<< Mappings
+Processing 00000000.tx.3: Presence of 5th and 6th ventricles is seen. 
+
+Phrase: Presence of 5th
+>>>>> Phrase
+presence of 5th
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (746):
+   790   C0150312:Presence (Present) [Finding]
+   623   C0205439:5th (Fifth) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 6th ventricles
+>>>>> Phrase
+6th ventricles
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0007799:Ventricles (Cerebral Ventricles) [Body Space or Junction]
+<<<<< Mappings
+
+Phrase: is
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: seen.
+>>>>> Phrase
+seen
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205397:Seen (seen) [Qualitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.4: 2. 
+
+Phrase: 2.
+>>>>> Phrase
+2
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2827735:2+ (2+ Score) [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.5: A large wedge-shaped hyperintense lesion on the DWI can be seen at right side T-P lobe, basal ganglion and corona radiata. 
+
+Phrase: A large wedge-shaped hyperintense lesion on the DWI
+>>>>> Phrase
+a large wedge shaped hyperintense lesion on the dwi
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (669):
+   575   C0549177:LARGE (Large) [Quantitative Concept]
+   598   C0332503:Wedge shaped (Wedge shape) [Spatial Concept]
+   742   C0221198:Lesion [Finding]
+   575   C1171335:DWI (Driving While Intoxicated) [Individual Behavior]
+<<<<< Mappings
+
+Phrase: can
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: be
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: seen at right side T-P lobe,
+>>>>> Phrase
+seen at right side t p lobe
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (692):
+   748   C0205397:Seen (seen) [Qualitative Concept]
+   778   C0205090:Right side (Right) [Spatial Concept]
+   748   C0796494:Lobe (lobe) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: basal ganglion
+>>>>> Phrase
+basal ganglion
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0004781:Basal ganglion (Basal Ganglia) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: corona radiata.
+>>>>> Phrase
+corona radiata
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0737244:Corona radiata [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+Processing 00000000.tx.6: It shows low signal on the ADC map. 
+
+Phrase: It
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: shows
+>>>>> Phrase
+shows
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: low signal on the ADC map.
+>>>>> Phrase
+low signal on the adc map
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (691):
+   753   C0205251:Low (low) [Qualitative Concept]
+   753   C1710082:Signal [Phenomenon or Process]
+   586   C0879593:ADC (therapeutic autologous dendritic cells) [Cell,Pharmacologic Substance]
+   586   C1706473:Map (Functional Map) [Conceptual Entity]
+<<<<< Mappings
+Processing 00000000.tx.7: Acute ischemic infarct at right side MCA territory is considered. 
+
+Phrase: Acute ischemic infarct at right side MCA territory
+>>>>> Phrase
+acute ischemic infarct at right side mca territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (739):
+   767   C0333548:Acute infarct [Pathologic Function]
+   578   C0475224:Ischemic [Functional Concept]
+   604   C0205090:Right side (Right) [Spatial Concept]
+   578   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+   578   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: is
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: considered.
+>>>>> Phrase
+considered
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0750591:considered (consider) [Idea or Concept]
+<<<<< Mappings
+Processing 00000000.tx.8: 3. 
+
+Phrase: 3.
+>>>>> Phrase
+3
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2827736:3+ (3+ Score) [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.9: Mild mass effect, but no midline shift. 
+
+Phrase: Mild mass effect,
+>>>>> Phrase
+mild mass effect
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C2945599:MILD (Mild (qualifier value)) [Qualitative Concept]
+   901   C4086564:Mass Effect [Finding]
+<<<<< Mappings
+
+Phrase: but
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no midline shift.
+>>>>> Phrase
+midline shift
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C4086580:Midline Shift [Finding]
+<<<<< Mappings
+Processing 00000000.tx.10: 4. 
+
+Phrase: 4.
+>>>>> Phrase
+4
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3838679:4+ (4+ Answer to question) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.11: No obvious hemorrhage or tumor mass within the brain. 
+
+Phrase: No obvious hemorrhage
+>>>>> Phrase
+obvious hemorrhage
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861 N C0019080:HEMORRHAGE (Hemorrhage) [Pathologic Function]
+<<<<< Mappings
+
+Phrase: or
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: tumor mass within the brain.
+>>>>> Phrase
+tumor mass within the brain
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (844):
+   844 N C0006118:Brain Tumor Mass (Brain Neoplasms) [Neoplastic Process]
+<<<<< Mappings
+Processing 00000000.tx.12: 5. 
+
+Phrase: 5.
+>>>>> Phrase
+5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.13: The pons, medulla, midbrain and cerebellum seem to be normal. 
+
+Phrase: The pons,
+>>>>> Phrase
+pons
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0032639:Pons (Pontine structure) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: medulla,
+>>>>> Phrase
+medulla
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0025148:medulla (Medulla Oblongata) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: midbrain
+>>>>> Phrase
+midbrain
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0025462:Mid-brain (Midbrain structure) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: cerebellum
+>>>>> Phrase
+cerebellum
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0007765:CEREBELLUM (Cerebellum) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: seem
+>>>>> Phrase
+seem
+<<<<< Phrase
+
+Phrase: to
+>>>>> Phrase
+to
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0041260:TO (Tryptophanase) [Amino Acid, Peptide, or Protein,Enzyme]
+<<<<< Mappings
+
+Phrase: be
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: normal.
+>>>>> Phrase
+normal
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205307:NORMAL (Normal) [Qualitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.14: 6. 
+
+Phrase: 6.
+>>>>> Phrase
+6
+<<<<< Phrase
+Processing 00000000.tx.15: The 3D MRA shows no obvious stenosis/occlusion of intra-cranial arteries. 
+
+Phrase: The 3D MRA
+>>>>> Phrase
+3d mra
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0450363:3D (Three-dimensional) [Spatial Concept]
+   861   C0243032:MRA (Magnetic Resonance Angiography) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: shows
+>>>>> Phrase
+shows
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: no obvious stenosis/occlusion of intra-cranial arteries.
+>>>>> Phrase
+no obvious stenosis occlusion of intra cranial arteries
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (778):
+   612 N C0038449:Stenosis of artery (Stricture of artery) [Pathologic Function]
+   744   C0011382:Occlusion (Dental Occlusion) [Organ or Tissue Function]
+   604   C0524466:Intracranial [Body Location or Region]
+Meta Mapping (778):
+   578   C0678234:Stenosis (Stenosis Morphology) [Qualitative Concept]
+   782 N C0264995:Occlusion of artery (Occlusion of artery (disorder)) [Pathologic Function]
+   604   C0524466:Intracranial [Body Location or Region]
+<<<<< Mappings
+Processing 00000000.tx.16: 7. 
+
+Phrase: 7.
+>>>>> Phrase
+7
+<<<<< Phrase
+Processing 00000000.tx.17: Hypertrophy of bil. nasal turbinates with deviation of nasal septum. 
+
+Phrase: Hypertrophy of bil. nasal turbinates
+>>>>> Phrase
+hypertrophy of bil nasal turbinates
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (891):
+   891   C0155840:Hypertrophy of nasal turbinates [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with deviation of nasal septum.
+>>>>> Phrase
+with deviation of nasal septum
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (844):
+   844   C0549397:nasal septum deviation (Deviated nasal septum) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.18: Mucosal thickening in bil. maxillary and ethmoid sinuses is seen. 
+
+Phrase: Mucosal thickening in bil. maxillary
+>>>>> Phrase
+mucosal thickening in bil maxillary
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (745):
+   806   C3686502:Mucosal thickening [Finding]
+   593   C0024947:Maxillary (Maxilla) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ethmoid sinuses
+>>>>> Phrase
+ethmoid sinuses
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0015028:ETHMOID SINUSES (Ethmoid sinus structure) [Body Space or Junction]
+<<<<< Mappings
+
+Phrase: is
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: seen.
+>>>>> Phrase
+seen
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205397:Seen (seen) [Qualitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.19: Mild adenoid hyperplasia in the nasopharynx is considered.
+
+Phrase: Mild adenoid hyperplasia in the nasopharynx
+>>>>> Phrase
+mild adenoid hyperplasia in the nasopharynx
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (725):
+   586   C2945599:MILD (Mild (qualifier value)) [Qualitative Concept]
+   790   C0155833:adenoid hyperplasia (Hyperplasia of adenoids) [Disease or Syndrome]
+   586   C0027442:NASOPHARYNX (Nasopharynx) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: is
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: considered.
+>>>>> Phrase
+considered
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0750591:considered (consider) [Idea or Concept]
+<<<<< Mappings
+Processing 00000000.tx.1: Impression: > Large acute ischemic infarct at right side T-P lobe, basal ganglion and corona radiata ( MCA territory ). 
+
+Phrase: Impression
+>>>>> Phrase
+impression
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1998467:Impression [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: > Large acute ischemic infarct at right side T-P lobe,
+>>>>> Phrase
+large acute ischemic infarct at right side t p lobe
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (689):
+   573   C0549177:LARGE (Large) [Quantitative Concept]
+   757   C0333548:Acute infarct [Pathologic Function]
+   573   C0475224:Ischemic [Functional Concept]
+   593   C0205090:Right side (Right) [Spatial Concept]
+   573   C0796494:Lobe (lobe) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: basal ganglion
+>>>>> Phrase
+basal ganglion
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0004781:Basal ganglion (Basal Ganglia) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: corona radiata
+>>>>> Phrase
+corona radiata
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0737244:Corona radiata [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: ( MCA territory
+>>>>> Phrase
+mca territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+   861   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: ).
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: > The 3D MRA shows no obvious stenosis/occlusion of intra-cranial arteries.
+
+Phrase: >
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: The 3D MRA
+>>>>> Phrase
+3d mra
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0450363:3D (Three-dimensional) [Spatial Concept]
+   861   C0243032:MRA (Magnetic Resonance Angiography) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: shows
+>>>>> Phrase
+shows
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: no obvious stenosis/occlusion of intra-cranial arteries.
+>>>>> Phrase
+no obvious stenosis occlusion of intra cranial arteries
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (778):
+   612 N C0038449:Stenosis of artery (Stricture of artery) [Pathologic Function]
+   744   C1947917:Occlusion (Occluded) [Functional Concept]
+   604   C0524466:Intracranial [Body Location or Region]
+Meta Mapping (778):
+   578   C0678234:Stenosis (Stenosis Morphology) [Qualitative Concept]
+   782 N C0264995:Occlusion of artery (Occlusion of artery (disorder)) [Pathologic Function]
+   604   C0524466:Intracranial [Body Location or Region]
+<<<<< Mappings
+Processing 00000000.tx.1: 4.Plan: monitor GCS     add bokey po
+
+Phrase: 4.Plan
+>>>>> Phrase
+4 plan
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C3838679:4+ (4+ Answer to question) [Finding]
+   861   C1301732:Plan (Planned) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: monitor GCS
+>>>>> Phrase
+monitor gcs
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0030695:monitor (Patient Monitoring) [Health Care Activity]
+   861   C4283742:GCS (Ceramide Glucosyltransferase, human) [Amino Acid, Peptide, or Protein,Enzyme]
+<<<<< Mappings
+
+Phrase: add
+>>>>> Phrase
+add
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1883712:Add (Add - instruction imperative) [Functional Concept]
+<<<<< Mappings
+
+Phrase: bokey po
+>>>>> Phrase
+bokey po
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0442027:PO (Oral) [Spatial Concept]
+<<<<< Mappings
+      

@@ -1,5 +1,5 @@
 ,RegisterID,inputtext
-0,WA1_1081004143855,"Chief Complaints
+0,WA1_1081004143855_1,"Chief Complaints
 Sudden of trunk deviation to left side, left limbs weakness, then right-ward looking, and slurred speech while having meeting with sitting position at 08:30 this morning 
 
 Present Illness
@@ -23,8 +23,243 @@ right MCA post EVT.
 acute large cerebral infarction at right middle cerebral artery territory s/p t
 -PA and EVT so he was admitted to ICU for further management.
  
-"
-1,WA2_1080926105745,"Subjective
+
+Past History
+
+[History]
+	Hypertension(-)
+
+	Diabetes Mellitus(-)
+
+	Heart disease(-)
+
+	Lung disease(-)
+
+	Renal disease(-)
+ 
+[Operation History]
+       病患沒做過手術
+[過敏性疾病]
+	Nil
+[藥物過敏史]
+	【無已知用藥過敏史】
+[院外用藥]
+	病人尚未簽署同意下載雲端藥歷，所以無法載入院外用藥。
+ 
+
+ 
+
+Personal, Social and Occupational History
+
+Marital status：Unmarried (未婚)
+Race/ethnicity：華人
+吸菸：沒有吸菸(含電子煙)的習慣
+喝酒：沒有喝酒的習慣
+吃檳榔：沒有嚼檳榔的習慣
+
+ 
+
+Family History
+
+病患無已知的家族疾病
+[補充說明]
+	Nil.
+
+ 
+
+ 
+
+Review of Systems
+
+1.Systemic        ：BW change(-)                fatigue(-)
+2.HEENT           ：hearing loss(-)             headache(-)
+3.Chest ＆ CV      ：chest pain(-)               palpitation(-)
+4.GI              ：constipation(-)
+                    ★nausea(+)
+                    in this morning
+ 
+5.GU              ：dysuria(-)                  acute urinary retention(-)
+6.Genitalia       ：Swelling in scrotum(-)      Pain in scrotum(-)
+7.Musculoskeletal ：★weakness(+)
+                    left limbs weakness
+ 
+8.Neurological    ：numbness(-)                 convulsion(-)
+9.Skin            ：purpura(-)                  itching(-)
+10.Mental         ：insomnia(-)                 anxiety(-)
+
+ 
+
+Physical Examination
+
+★ Insight：intact
+BH：180.0cm             BW： 92.000kg            BMI： 28.3  BMI status：過重
+BT： 36.0℃             HR：107次/Min            RR： 26次/Min
+SBP：121mmHg            DBP： 77mmHg
+Physical Examination：
+  ◇ Consciousness：E4V5M6
+  ◇ Appearance   ：acute ill-looking or well
+  ◇ Head         ：no deformity,
+  ◇ Eyes         ：isocoric
+     light reflex ：right    +    ,left   +
+     conjunctiva  ：pink,     sclera：anicteric.
+  ◇ ENT          ：no injected throat, no enlarged tonsil
+  ◇ Neck         ：supple,
+                    carotid bruit: nil
+  ◇ Chest        ：symmetric expansion,
+                    Breathing sound clear
+  ◇ Heart        ：regular heart beat
+                    no murmurs
+  ◇ Abdomen     ： soft and flat, no tenderness
+                   bowel sounds ：normoactive
+  ◇ Extremity    ：freely movable, no pedal edema
+Neurological Examination：
+  ◇ Consciousness：clear
+  ◇ High cortical function ：
+     orientation to time(+), place(+), person(+)
+     speech  ：spontaneous speech
+     comprehension：ok
+Cranial nerves：
+  Ⅱ - isocoric：right  3.5  mm, left   3.5  mm,
+       light reflex ：right   +    , left   +    ,
+       visual acuity： normal
+       visual field ：intact
+Ⅲ、Ⅳ、Ⅵ
+                        Ｏ      Ｏ                    Ｏ      Ｏ
+                        │      │                    │      │
+                    Ｏ─┼Ｘ──┼─Ｏ            Ｏ─┼Ｘ──┼─Ｏ
+                        │      │                    │      │
+                        Ｏ      Ｏ                    Ｏ      Ｏ
+
+Ⅴ - facial sensation ：left central facial palsy
+     mastication      ：symmetric
+Ⅶ - facial expression：mild elevation of left side
+
+
+Ⅷ - normal hearing
+     no nystagmus
+Ⅸ,Ⅹ - palatal elevation：mild elevation of left side
+Ⅸ - muscle power in sternocleidomastoid and trapezius：muscle power in
+      sternocleidomastoid and trapezius：symmetric
+XⅡ - no atrophy, no fasciculation,
+      tongue protrusion：mild elevation of left side
+
+Motor system：
+   Muscle status - no atrophy, fasciculation, hypertrophy, or tenderness,
+   Muscle tone   - no rigidity, spasticity, hypotonia,
+ Muscle power and deep tendon reflexes：
+
+                   ○
+                   │
+              4＼／▽＼／3
+                   │
+                 ／  ＼
+                4＼  ／3
+                 ／  ＼
+
+NF: right :no dysmetria, left: too weak to perform
+Pinprick: favor anaesthesia in left limbs
+ 
+
+ "
+1,WA1_1081004143855_2,"Image Findings and Other Laboratory Examinations
+2019-09-25  , Chest
+
+------------------------------------------------------------------------------
+
+2019-09-25  , CT-Brain (腦中風特急件)
+
+The transaxial non-contrast brain CT scan in slice thickness of 5 mm shows:
+1.Hyperdense of right middle cerebral artery (Ima 10 of series 2).
+  Dense hypervascular sign of thrombosis should be highly suspected.
+2.No evidence of intracranial hemorrhage.
+3.The midline structure and bilateral ventricular system
+  shows essentially normal.
+4.No evidence of bony fracture or destruction.
+5.No evidence of abnormal density in bilateral cerebello-pontine angles
+  and pituitary fossa.
+
+IMP:Highly suspect dense hypervascular sign of right MCA.Advise
+    clinical to exclude acute thrombosis.
+------------------------------------------------------------------------------
+
+2019-09-25  , CT-Arteriogram-Brain Multi Phase 有/無造
+
+Multiphase brain CTA with and without enhancement
+
+＞A segmental occlusion at M1 segment of Rt MCA.
+
+IMP
+＞Large vessel occlusion, M1 segment of Rt MCA.
+Please correlate clinically and recommend follow up regularly.
+------------------------------------------------------------------------------
+
+2019-09-25  , 4NEAIS
+
+------------------------------------------------------------------------------
+
+2019-09-25  , Carotid a
+
+------------------------------------------------------------------------------
+ 
+
+Diagnosis / Problem list
+
+ 1  Highly suspect dense hypervascular sign induced
+    acute large cerebral infarction at right middle cerebral
+    artery territory s/p t-PA and EVT
+
+ 
+
+Assessment and Plan
+
+★ 1. Highly suspect dense hypervascular sign induced
+      acute large cerebral infarction at right middle cerebral
+      artery territory s/p t-PA and EVT
+   ■  Assessment
+          Sudden of trunk deviation to left side, left limbs weakness, then
+       right-ward looking, and slurred speech while having meeting with sitting
+       position at 08:30 this morning
+          Brain CT finding no ICH,favor right dense MCA sign s/p t-PA (NIHHS:21)
+          BTA was arranged done then showed highly suspect dense hypervascular sign
+       of right MCA post EVT.
+          Highly suspect dense hypervascular sign induced acute large cerebral
+       infarction at right middle cerebral artery territory s/p t-PA and EVT
+   ■  Diagnostic plan
+       - Monitor consciousness level and neurological examinations
+       - Watch vital signs
+       - Arrange brain MRI-MRA for further stroke lesion survey
+       - Check lipid profile for stroke risk factor survey
+   ■  Therapeutic plan
+       .Check vital signs and GCS q15 min x 2 hr, 之後 q30 min x 6 hr,之後 q60 min
+        x 16 hr; 之後同 ICU routine
+       .如TICI 分數2b或3，收縮壓大於140。以上情形使用降血壓藥物注射後 15 分鐘再
+        check BP 一次, 如仍超過血壓控制目標, 立即再次通知醫師
+       .Record NIHSS Q4h with prn 24hrs then Q8h with prn
+       .If NIHSS 惡化大於或等於4分, 請 call Dr, 馬上安排 noncontrast head CT
+       .NPO for 24 hr (避免 on NG for 24 hr)
+       .24 小時內禁用 Heparin, Coumadin, ASA, Bokey, Tapal, Aggrenox, Plavix,
+        Licodin, Persantin 等抗凝劑及抗血栓藥物
+       .於EVT 術後24 到 36 小時之間追蹤 noncontrast head CT
+       - Adequate intravensous fluid hydration
+         NS 0.9% 500cc                               500   Q6H  IVD
+       - H2 receptor antagonist for stress uler preventions
+         (針)Gaster 20mg inj(Famodine)                 1   Q12H IVP
+ 
+
+ 
+Discharge planning
+
+ 
+
+住院診療計畫告知
+■入院診療計畫已告知病人之父母
+
+ 
+
+VS Comment
+keep current treatment
+ "
+2,WA2_1080926105745,"Subjective
 
  Much improved left limbs weakness
  improved EOM limitation gradually since last evening time 
@@ -46,7 +281,7 @@ FNF:left dysmetria, and overshooting
  no ICH,
  Acute large cerebral infarction at right middle cerebral artery territory
  especially in right parietal region "
-2,WA2_1080927170326,"Subjective
+3,WA2_1080927170326,"Subjective
 
 fluctuated drowsiness; no fever episodes; no vomiting
 improved left limbs weakness
@@ -70,7 +305,7 @@ FNF:left dysmetria, and overshooting
  especially in right parietal region
 EKG lead II monitor at 2019/9/27 06:56 (by nursing record)
    showed atrial fibrillation, paroxysmal, rapid ventricular rate "
-3,WA2_1080928090740,"Subjective
+4,WA2_1080928090740,"Subjective
 
 .paroxysmal transient pAf with irregular heart rate remained
 .high fever developed last evening then subsided after using antibiotics
@@ -100,7 +335,7 @@ FNF:left dysmetria, and overshooting improved
 2019/9/27 06:56, EKG lead II monitor (by nursing record)
    showed atrial fibrillation, paroxysmal, rapid ventricular rate
 2019/9/27 EEG: no epileptiform discharge "
-4,WA2_1081001213657,"Subjective
+5,WA2_1081001213657,"Subjective
 
 Left side mild weakness improved.
 still cough. 
@@ -165,7 +400,7 @@ Plan
 - Monitor neurological sign
 - Keep rehabilitation
 - Consult Ophthalmology for 視野檢查 "
-5,WA2_1081003104618,"Subjective
+6,WA2_1081003104618,"Subjective
 
 Palpitations and tachycardia were noted at last night, after treatment then
 improved. 
@@ -257,7 +492,7 @@ Plan
 - Keep antitussive agent for symptoms relief
 - Monitor neurological sign
 - Keep rehabilitation "
-6,WA2_1081003154333,"Subjective
+7,WA2_1081003154333,"Subjective
 
 no more palpitation, 有胃酸逆流及胃不適感, patient reported GU and DU hx in
 mid 2018. 
@@ -333,7 +568,7 @@ Arrange OPD follow-up
  吸煙-若加上高血壓,中風機率比常人高15倍!早戒為妙!
  飲酒-最好戒酒,喝酒的人即使喝的再少,腦出血的機率還是比不喝酒
  的人高. "
-7,WA2_1081004143929,"Subjective
+8,WA2_1081004143929,"Subjective
 
 Sudden of trunk deviation to left side, left limbs weakness, then right-ward
 looking, and slurred speech while having meeting with sitting position at
@@ -444,7 +679,7 @@ Plan
   NS 0.9% 500cc                               500   Q6H  IVD
 - H2 receptor antagonist for stress uler preventions
   (針)Gaster 20mg inj(Famodine)                 1   Q12H IVP "
-8,WA2_1081004143931,"Subjective
+9,WA2_1081004143931,"Subjective
 
 Left limbs weakness 
 
@@ -484,7 +719,7 @@ Muscle power and deep tendon reflexes：
  
 NF: right :no dysmetria, left: too weak to perform
 Pinprick: favor anaesthesia in left limbs "
-9,WA2_1081004143933,"Subjective
+10,WA2_1081004143933,"Subjective
 
 Left side weakness more relieved
 clear of conscious 
@@ -589,7 +824,7 @@ Plan
 - Add anti-platate agent, bokey 1# po qd + st
 - Try diet
 - N/S 500ml st (large urine output ) "
-10,WA2_1081004143936,"Subjective
+11,WA2_1081004143936,"Subjective
 
 tachy-arrhythmia when sleeping last night
 Polyuria 
@@ -705,7 +940,7 @@ Plan
 - N/S 500ml st
 ---Educational plan
 1) Explain condition to the family "
-11,WA2_1081004143938,"Subjective
+12,WA2_1081004143938,"Subjective
 
 Polyuria
 left side mild weakness 
@@ -812,7 +1047,7 @@ Plan
 - On soft diet
 ---Educational plan
 1) Explain condition to the family "
-12,WA2_1081004143941,"Subjective
+13,WA2_1081004143941,"Subjective
 
 Left side mild weakness 
 
@@ -895,7 +1130,7 @@ Plan
 - Keep anti-platate agent, bokey 1# po qd
 - Adequate intravensous fluid hydration
   NS 0.9% 500cc                               500   Q6H  IVD "
-13,WA2_1081004143943,"Subjective
+14,WA2_1081004143943,"Subjective
 
 No fever 
 
@@ -933,7 +1168,7 @@ Neurological Examination：
                  ／  ＼
                 5＼  ／4
                  ／  ＼ "
-14,WA2_1081004143945,"Subjective
+15,WA2_1081004143945,"Subjective
 
 No fever 
 
@@ -970,7 +1205,7 @@ Neurological Examination：
                  ／  ＼
                 5＼  ／4
                  ／  ＼ "
-15,WA2_1081004143946,"Subjective
+16,WA2_1081004143946,"Subjective
 
 Afebrile
 breath pattern smoothly 
@@ -1008,7 +1243,7 @@ Neurological Examination：
                  ／  ＼
                 5＼  ／4
                  ／  ＼ "
-16,WA2_1081004143949,"Subjective
+17,WA2_1081004143949,"Subjective
 
 Left side mild weakness near recovered 
 
@@ -1090,14 +1325,14 @@ Plan
   NS 0.9% 500cc                               500   Q6H  IVD
 - Monitor neurological sign
 - Transfer to ward "
-17,WA3_1081004143858,"NO. MEDICAL PROBLEM DATE OF ONSET DATE RESOLVED 
+18,WA3_1081004143858,"NO. MEDICAL PROBLEM DATE OF ONSET DATE RESOLVED 
  1   Acute large cerebral infarction at right middle cerebral
 artery territory; young stroke, with acute left limbs
 weakness,  status post intravenous thrombolytic therapy and
 endovascular thrombectomy (on 2019/9/25) 2019-09-25 2019-10-03(治癒) 
  2   Fever 2019-09-27 2019-10-03(治癒) 
  3   Af 2019-10-02 2019-10-03(治癒) "
-18,WA4_1081001213113," ◆Diagnosis:
+19,WA4_1081001213113," ◆Diagnosis:
 .Acute large cerebral infarction at right middle cerebral artery territory,
  young stroke, with acute left limbs weakness,  status post
  intravenous thrombolytic therapy and endovascular thrombectomy
@@ -1141,7 +1376,7 @@ VS Comment
 Keep rehabilitation since staying at our ICH
 Simplify his medications
 May consult our ophthalmologist for formal perimetry for his VF "
-19,WA4_1081001213138," ◎Diagnosis:
+20,WA4_1081001213138," ◎Diagnosis:
 .Acute large cerebral infarction at right middle cerebral artery territory,
  young stroke, with acute left limbs weakness,  status post
  intravenous thrombolytic therapy and endovascular thrombectomy
@@ -1196,7 +1431,7 @@ VS Comment
  -＞favor APC in EKG of 2019/9/28
 .Arrange Holter study
  for evaluation his pAf frequency or burden severity "
-20,WA4_1081004144002,"1.Item
+21,WA4_1081004144002,"1.Item
  CT of gbrain
 2.Indication
  left side weakness
@@ -1212,7 +1447,7 @@ IMP
 Please correlate clinically and recommend follow up regularly.
 ------------------------------------------------------------------------------
 4.Plan: MONitor GCS and NPO"
-21,WA4_1081004144003,"1.Item
+22,WA4_1081004144003,"1.Item
  MRI
 2.Indication
  acute stroke s/p r-TPA + EVT
@@ -1258,7 +1493,7 @@ arteries.
  
 4.Plan: monitor GCS
     add bokey po"
-22,WA4_1081004144004,".Item EEG /超音波心臟圖
+23,WA4_1081004144004,".Item EEG /超音波心臟圖
  
 .Indication Excluded seizure and vegetation
  
@@ -1315,7 +1550,7 @@ Diastolic：
  
 Pericardium：
     There is no pericardial effusion."
-23,WA4_1081004144011," ◎Diagnosis:
+24,WA4_1081004144011," ◎Diagnosis:
 .Acute large cerebral infarction at right middle cerebral artery territory,
  young stroke, with acute left limbs weakness,  status post
  intravenous thrombolytic therapy and endovascular thrombectomy
@@ -1350,7 +1585,7 @@ THROT    Through 20mg tab                              2   HS   PO
  
 VS Comment  
 keep current treatment "
-24,A01_1080925140442,"主訴/徵候: 
+25,A01_1080925140442,"主訴/徵候: 
 ★★2019/09/25 08:56:56 鄭凱元
 PH: gout.
 Event: sudden onset of left side weakness and
@@ -1436,7 +1671,7 @@ RUE/LUE: 5/4 RLE/LLE:5/4
 
 診斷: 
 ◾I639 (434.91 ) 腦梗塞 "
-25,A01_1081009143950,"重大傷病：434 occlusion of cerebral arteries
+26,A01_1081009143950,"重大傷病：434 occlusion of cerebral arteries
 
 
 
@@ -1488,7 +1723,7 @@ OT
 診斷: 
 ◾I63.511 (434.91 ) Cerebral infarction due to unspecified occlusion or stenosis of right middle cerebral artery 
 ◾I48.0 (427.31 ) Paroxysmal atrial fibrillation "
-26,A01_1081014121510,"重大傷病：434 腦動脈阻塞
+27,A01_1081014121510,"重大傷病：434 腦動脈阻塞
 
 
 
@@ -1537,7 +1772,7 @@ P: oral medications
 ◾I4891 (427.31 ) Unspecified atrial fibrillation 
 ◾K319 (536.9 ) Disease of stomach and duodenum, unspecified 
 ◾J309 (477.9 ) Allergic rhinitis, unspecified "
-27,A01_1081016153534,"重大傷病：434 occlusion of cerebral arteries
+28,A01_1081016153534,"重大傷病：434 occlusion of cerebral arteries
 
 
 
@@ -1568,7 +1803,7 @@ from Neuro NOAC rytmonorm
 診斷: 
 ◾I63.40 (434.11 ) Cerebral infarction due to embolism of unspecified cerebral artery 
 ◾I49.8 (427.89 ) Other specified cardiac arrhythmias"
-28,A01_1081021164428,"重大傷病：434 occlusion of cerebral arteries
+29,A01_1081021164428,"重大傷病：434 occlusion of cerebral arteries
 
 
 
@@ -1660,7 +1895,7 @@ acid and vitamin B12 in such young age
 ◾E72.11 (270.4 ) Homocystinuria 
 ◾D52.9 (281.2 ) Folate deficiency anemia, unspecified 
 ◾E53.8 (266.2 ) Deficiency of other specified B group vitamins "
-29,A01_1081024093106,"重大傷病：434 occlusion of cerebral arteries
+30,A01_1081024093106,"重大傷病：434 occlusion of cerebral arteries
 
 
 
@@ -1715,7 +1950,7 @@ OT
 診斷: 
 ◾I63.511 (434.91 ) Cerebral infarction due to unspecified occlusion or stenosis of right middle cerebral artery 
 ◾I48.0 (427.31 ) Paroxysmal atrial fibrillation "
-30,A01_1081105153705,"主訴/徵候: 
+31,A01_1081105153705,"主訴/徵候: 
 .Acute large cerebral infarction
  at right middle cerebral artery territory,
  (by 2019/9/26 brain MRA scans)
@@ -1802,7 +2037,7 @@ acid and vitamin B12 in such young age
 ◾E72.11 (270.4 ) Homocystinuria 
 ◾D52.9 (281.2 ) Folate deficiency anemia, unspecified 
 ◾E53.8 (266.2 ) Deficiency of other specified B group vitamins"
-31,A01_1081112141030,"主訴/徵候: 
+32,A01_1081112141030,"主訴/徵候: 
 .History of
  Acute large cerebral infarction
  at right middle cerebral artery territory,
@@ -1891,7 +2126,7 @@ acid and vitamin B12 in such young age
 ◾E72.11 (270.4 ) Homocystinuria 
 ◾D52.9 (281.2 ) Folate deficiency anemia, unspecified 
 ◾E53.8 (266.2 ) Deficiency of other specified B group vitamins "
-32,A01_1081113164132,"主訴/徵候: 
+33,A01_1081113164132,"主訴/徵候: 
 Acute stroke post t-PA and thrombectomy 9/25
 Holter: 9/30 PAFL 13:26 (30sec) 13:55 ( 4 min)
 21:32 ( 85 min) atrial flutter with pauses (22:19
@@ -1922,7 +2157,7 @@ going to Japan feb 2020
 診斷: 
 ◾I63.40 (434.11 ) Cerebral infarction due to embolism of unspecified cerebral artery 
 ◾I49.8 (427.89 ) Other specified cardiac arrhythmias "
-33,A01_1081117022011,"主訴/徵候: 
+34,A01_1081117022011,"主訴/徵候: 
 ★★2019/11/16 23:35:58 李約鞍   / 林士文
 Source of information: p'T
 ==CC :
@@ -1987,7 +2222,7 @@ MBD
 
 診斷: 
 ◾R5381 (799.3 ) 其他之乏力 "
-34,A01_1081119143101,"主訴/徵候: 
+35,A01_1081119143101,"主訴/徵候: 
 .History of
  Acute large cerebral infarction
  at right middle cerebral artery territory,
@@ -2115,7 +2350,7 @@ add Flucil 600mg 1# bid
 ◾E72.11 (270.4 ) Homocystinuria 
 ◾D52.9 (281.2 ) Folate deficiency anemia, unspecified 
 ◾E53.8 (266.2 ) Deficiency of other specified B group vitamins "
-35,A01_1081125085456,"主訴/徵候: 
+36,A01_1081125085456,"主訴/徵候: 
 .History of
  Acute large cerebral infarction
  at right middle cerebral artery territory,
@@ -2216,7 +2451,7 @@ ask for uric acid lowering agent
 ◾E72.11 (270.4 ) Homocystinuria 
 ◾D52.9 (281.2 ) Folate deficiency anemia, unspecified 
 ◾M10.071 (274.0 ) Idiopathic gout, right ankle and foot "
-36,A01_1081126160326,"主訴/徵候: 
+37,A01_1081126160326,"主訴/徵候: 
 .History of
  Acute large cerebral infarction
  at right middle cerebral artery territory,
@@ -2324,7 +2559,7 @@ ask for uric acid lowering agent
 ◾E72.11 (270.4 ) Homocystinuria 
 ◾J40 (490 ) Bronchitis, not specified as acute or chronic 
 ◾M10.071 (274.0 ) Idiopathic gout, right ankle and foot"
-37,A01_1081203141011,"主訴/徵候: 
+38,A01_1081203141011,"主訴/徵候: 
 .History of
  Acute large cerebral infarction
  at right middle cerebral artery territory,
@@ -2442,7 +2677,7 @@ f/u homocystein
 ◾J40 (490 ) Bronchitis, not specified as acute or chronic 
 ◾E79.0 (790.6 ) Hyperuricemia without signs of inflammatory arthritisand tophaceous disease 
 ◾D52.9 (281.2 ) Folate deficiency anemia, unspecified "
-38,A03_1080926163819,"[主 要 診 斷]  ◆Diagnosis:
+39,A03_1080926163819,"[主 要 診 斷]  ◆Diagnosis:
 1.Highly suspect dense hypervascular sign induced acute large cerebral
   infarction at right middle cerebral artery territory s/p t-PA and EVT
 
@@ -2526,7 +2761,7 @@ Thank you for your  referral
 
 
 會診追蹤報告"
-39,A03_1081001130648,"[主 要 診 斷]  ◆Diagnosis:
+40,A03_1081001130648,"[主 要 診 斷]  ◆Diagnosis:
 .Acute large cerebral infarction at right middle cerebral artery territory,
  young stroke, with acute left limbs weakness,  status post
  intravenous thrombolytic therapy and endovascular thrombectomy
@@ -2572,7 +2807,7 @@ time, we need your help for 視野檢查. Thank you!!
 
 
 會診追蹤報告"
-40,A03_1081002135845,"[主 要 診 斷]  ◆Diagnosis:
+41,A03_1081002135845,"[主 要 診 斷]  ◆Diagnosis:
 .Acute large cerebral infarction at right middle cerebral artery territory,
  young stroke, with acute left limbs weakness,  status post
  intravenous thrombolytic therapy and endovascular thrombectomy
@@ -2630,7 +2865,7 @@ thanks!
 
 
 會診追蹤報告"
-41,A04_1080925100721,"會診主診斷：        伴有腦梗塞的未明示之腦動脈阻塞
+42,A04_1080925100721,"會診主診斷：        伴有腦梗塞的未明示之腦動脈阻塞
 急診診斷：        
 I63.9    腦梗塞
 	

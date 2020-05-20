@@ -915,3 +915,1837 @@ Phrase: ) ?????
 >>>>> Phrase
 <<<<< Phrase
       
+Processing 00000000.tx.1: ??/??:  
+
+Phrase: ??/??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: ??2019/11/16 23:35:58 ???   
+
+Phrase: ??2019/11/16 23
+>>>>> Phrase
+2019 11 16 23
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (824):
+   861   C3843644:11-16 [Finding]
+   812   C0450348:23 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 35
+>>>>> Phrase
+35
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 58 ???
+>>>>> Phrase
+58
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4517817:58 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.3: / ??? 
+
+Phrase: / ???
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: Source of information: p'T ==CC : General weakness with mild palpitation since afternoon ==PI : This 38 y/o gentleman with VCA at right middle cerebral artery territory, he suffered from general weakness and palpitation this afternoon. 
+
+Phrase: Source of information
+>>>>> Phrase
+source of information
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0683836:Source of information [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: p'T ==CC
+>>>>> Phrase
+p t cc
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (802):
+   660   C2603361:P' (P prime) [Clinical Attribute]
+   827   C0008318:CC (Cholecalciferol) [Organic Chemical,Pharmacologic Substance,Vitamin]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: General weakness with mild palpitation
+>>>>> Phrase
+general weakness with mild palpitation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (752):
+   806   C3714552:General weakness (Weakness) [Sign or Symptom]
+   593   C2945599:MILD (Mild (qualifier value)) [Qualitative Concept]
+   593   C0030252:PALPITATION (Palpitations) [Finding]
+Meta Mapping (752):
+   593   C0205246:General (Generalized) [Spatial Concept]
+   797   C2749419:Mild weakness [Finding]
+   593   C0030252:PALPITATION (Palpitations) [Finding]
+<<<<< Mappings
+
+Phrase: since
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: afternoon
+>>>>> Phrase
+afternoon
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439550:Afternoon [Temporal Concept]
+<<<<< Mappings
+
+Phrase: =
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: =PI
+>>>>> Phrase
+pi
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0429863:PI (Pulsatility index, arterial velocity waveform) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: This 38 y/o gentleman with VCA
+>>>>> Phrase
+this 38 y o gentleman with vca
+<<<<< Phrase
+
+Phrase: at right middle cerebral artery territory,
+>>>>> Phrase
+right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (928):
+   771   C0226213:Right middle cerebral artery (Structure of right middle cerebral artery) [Body Part, Organ, or Organ Component]
+   804   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: he
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: suffered from general weakness
+>>>>> Phrase
+suffered from general weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (783):
+   770   C0683278:suffered (Mental Suffering) [Mental or Behavioral Dysfunction]
+   833   C3714552:General weakness (Weakness) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: palpitation
+>>>>> Phrase
+palpitation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0030252:PALPITATION (Palpitations) [Finding]
+<<<<< Mappings
+
+Phrase: this afternoon.
+>>>>> Phrase
+afternoon
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439550:Afternoon [Temporal Concept]
+<<<<< Mappings
+Processing 00000000.tx.5: He said mild SOB without further complaint. denied of fever, abdominal pain and further discomfort.
+
+Phrase: He
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: said
+>>>>> Phrase
+said
+<<<<< Phrase
+
+Phrase: mild SOB without further complaint.
+>>>>> Phrase
+mild sob without further complaint
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (724):
+   593   C2945599:MILD (Mild (qualifier value)) [Qualitative Concept]
+   760 N C0013404:SOB (Dyspnea) [Sign or Symptom]
+   593   C1517331:Further [Spatial Concept]
+   593 N C0277786:Complaint (Chief complaint (finding)) [Finding]
+<<<<< Mappings
+
+Phrase: denied of fever,
+>>>>> Phrase
+denied of fever
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (746):
+   790   C0332319:Denied (Denied (qualifier)) [Qualitative Concept]
+   790 N C0424755:Fever (Fever symptoms (finding)) [Finding]
+<<<<< Mappings
+
+Phrase: abdominal pain
+>>>>> Phrase
+abdominal pain
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0000737:ABDOMINAL PAIN (Abdominal Pain) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: further discomfort.
+>>>>> Phrase
+further discomfort
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1517331:Further [Spatial Concept]
+   861 N C0231218:DISCOMFORT (Malaise) [Sign or Symptom]
+<<<<< Mappings
+Processing 00000000.tx.1: ==Allergy : NDKA ==PE : Consciousness :clear Activity :fair Skin turgor :NP Head  Conjunctivae : pink  Sclerae : an-icteric Neck : Supple Chest  H.S.: 
+
+Phrase: =
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: =Allergy
+>>>>> Phrase
+allergy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0002111:Allergy (Allergy Specialty) [Biomedical Occupation or Discipline]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: NDKA
+>>>>> Phrase
+ndka
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0068895:NDKA (nucleoside diphosphate kinase A) [Amino Acid, Peptide, or Protein,Biologically Active Substance]
+<<<<< Mappings
+
+Phrase: =
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: =PE
+>>>>> Phrase
+pe
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0070939:PE (phosphoethanolamine) [Biologically Active Substance,Organic Chemical]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Consciousness
+>>>>> Phrase
+consciousness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0009791:consciousness (Consciousness related finding) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: clear Activity
+>>>>> Phrase
+clear activity
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1709157:Clear (Negative Surgical Margin) [Finding]
+   861   C0441655:ACTIVITY (Activities) [Activity]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: fair Skin turgor
+>>>>> Phrase
+fair skin turgor
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   734   C1858570:Fair Skin [Finding]
+   827   C0277937:Turgor (Skin turgor) [Finding]
+Meta Mapping (901):
+   660   C2911689:Fair (Fair (qualifier)) [Qualitative Concept]
+   901   C0277937:Skin turgor [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: NP Head  Conjunctivae
+>>>>> Phrase
+np head conjunctivae
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (840):
+   660   C3887659:NP (Purine Nucleoside Phosphorylase, human) [Amino Acid, Peptide, or Protein,Enzyme]
+   660   C1706305:Head (Head - Component of Device) [Manufactured Object]
+   793   C0229274:Conjunctiva (Structure of palpebral conjunctiva) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: pink  Sclerae
+>>>>> Phrase
+pink sclerae
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (872):
+   694   C0332585:PINK (Pink color) [Qualitative Concept]
+   827   C0036410:SCLERA (Sclera) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: an-icteric Neck
+>>>>> Phrase
+icteric neck
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0022346:Icteric (Icterus) [Sign or Symptom]
+   861   C0027530:NECK (Neck) [Body Location or Region]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Supple Chest  H.S.
+>>>>> Phrase
+supple chest h s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (775):
+   645   C0332254:Supple [Functional Concept]
+   812   C0817096:CHEST (Chest) [Body Location or Region]
+   645   C0033727:H+ (Protons) [Element, Ion, or Isotope]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: Regular  Murmur : No  B.s.; bilateral clear breathing sounds Extremities : Freely movable
+
+Phrase: Regular  Murmur
+>>>>> Phrase
+regular murmur
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0205272:Regular [Qualitative Concept]
+   861   C0018808:MURMUR (Heart murmur) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: No  B.s.
+>>>>> Phrase
+b s
+<<<<< Phrase
+
+Phrase: ; bilateral clear breathing
+>>>>> Phrase
+bilateral clear breathing
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0238767:BILATERAL (Bilateral) [Spatial Concept]
+   660 N C1709157:Clear (Negative Surgical Margin) [Finding]
+   827 N C0035203:Breathing (Respiration) [Physiologic Function]
+<<<<< Mappings
+
+Phrase: sounds
+>>>>> Phrase
+sounds
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0175663:Sound, NOS (Sounds device) [Medical Device]
+<<<<< Mappings
+
+Phrase: Extremities
+>>>>> Phrase
+extremities
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0015385:Extremities (Limb structure) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Freely movable
+>>>>> Phrase
+freely movable
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1879743:Freely (As Much as Desired) [Qualitative Concept]
+   861   C0577537:Moveable [Functional Concept]
+<<<<< Mappings
+Processing 00000000.tx.1: <Neurologic exam>  Pupils: isocoric, L/R: 2+/2+,  EOM : full and free  FNF : no dysmetria  Romberg test : negative  tendom gait : ataxia No ataxia, No saliva drooling No double or blured vision, No facial numbness Muscle power: RUE 5/ RLE 4 LUE 5/ LLE 5
+
+Phrase: <Neurologic exam
+>>>>> Phrase
+neurologic exam
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (950):
+   950   C0027853:neurological exam (Neurologic Examination) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: >  Pupils
+>>>>> Phrase
+pupils
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0034121:Pupils (Pupil) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: isocoric,
+>>>>> Phrase
+isocoric
+<<<<< Phrase
+
+Phrase: L/R
+>>>>> Phrase
+l r
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0439394:l's (liter/second) [Quantitative Concept]
+   861   C0205090:R- (Right) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 2+/2+,
+>>>>> Phrase
+2 2
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4517629:2.2 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: EOM
+>>>>> Phrase
+eom
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0241886:EOM (extraocular) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: full
+>>>>> Phrase
+full
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0443225:Full [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: free  FNF
+>>>>> Phrase
+free fnf
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1996904:Free (Free (available (qualifier))) [Qualitative Concept]
+   861   C0033228:FNF (Fenofibrate) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no dysmetria  Romberg test
+>>>>> Phrase
+dysmetria romberg test
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660 N C0234162:DYSMETRIA (Cerebellar Dysmetria) [Finding]
+   901 N C0278127:Romberg test (Romberg sign finding) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: negative  tendom gait
+>>>>> Phrase
+negative tendom gait
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (802):
+   660 N C0205160:Negative [Finding]
+   827 N C0016928:Gait [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ataxia
+>>>>> Phrase
+ataxia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0007758:Ataxia (Cerebellar Ataxia) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: No ataxia,
+>>>>> Phrase
+ataxia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0007758:Ataxia (Cerebellar Ataxia) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: No saliva drooling
+>>>>> Phrase
+saliva drooling
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0036087:SALIVA (saliva) [Body Substance]
+   861 N C0013132:DROOLING (Drooling) [Finding]
+<<<<< Mappings
+
+Phrase: No double
+>>>>> Phrase
+double
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1705765:Double (Double Value Type) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: or
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: blured vision,
+>>>>> Phrase
+blured vision
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0042789:Vision [Organism Function]
+<<<<< Mappings
+
+Phrase: No facial numbness Muscle power
+>>>>> Phrase
+facial numbness muscle power
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694 N C0239511:FACIAL NUMBNESS (Numbness of face) [Sign or Symptom]
+   861 N C0427052:Muscle power (Finding of power of skeletal muscle) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: RUE 5/ RLE 4 LUE 5/ LLE 5
+>>>>> Phrase
+rue 5 rle 4 lue 5 lle 5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (793):
+   793   C0939812:RUE (Ruta graveolens preparation) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+Processing 00000000.tx.1: ==Impression : Geberal weakness ==Plan 1. 
+
+Phrase: =
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: =Impression
+>>>>> Phrase
+impression
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1998467:Impression [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Geberal weakness
+>>>>> Phrase
+geberal weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3714552:WEAKNESS (Weakness) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: =
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: =Plan 1.
+>>>>> Phrase
+plan 1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0270724:PLAN (Infantile Neuroaxonal Dystrophy) [Disease or Syndrome]
+<<<<< Mappings
+Processing 00000000.tx.2: CBC-DC, ?? 
+
+Phrase: CBC-DC,
+>>>>> Phrase
+cbc dc
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C0009555:CBC (Complete Blood Count) [Laboratory Procedure]
+<<<<< Mappings
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: 2. 
+
+Phrase: 2.
+>>>>> Phrase
+2
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2981700:2+ (2+ Score, WHO) [Classification]
+<<<<< Mappings
+Processing 00000000.tx.4: Fluid supplement
+
+Phrase: Fluid supplement
+>>>>> Phrase
+fluid supplement
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0302908:fluid (Liquid substance) [Substance]
+   861   C2348609:Supplement [Functional Concept]
+<<<<< Mappings
+Processing 00000000.tx.1: ??2019/11/17 01:28:55 ???   
+
+Phrase: ??2019/11/17 01
+>>>>> Phrase
+2019 11 17 01
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 28
+>>>>> Phrase
+28
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 55 ???
+>>>>> Phrase
+55
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0450382:55 [Intellectual Product]
+<<<<< Mappings
+Processing 00000000.tx.2: / ??? 
+
+Phrase: / ???
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: <<Progress Note>> [S]Palpitation [O]HR:84 bpm [P]keep monitor clinical condition ??2019/11/17 02:09:18 ???   
+
+Phrase: <
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: <Progress Note
+>>>>> Phrase
+progress note
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0747978:Progress note [Intellectual Product]
+<<<<< Mappings
+
+Phrase: >
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: >
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: [
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: S]
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Palpitation
+>>>>> Phrase
+palpitation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0030252:PALPITATION (Palpitations) [Finding]
+<<<<< Mappings
+
+Phrase: [O]HR
+>>>>> Phrase
+o hr
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C0483204:O NOS (O NOS Ab) [Amino Acid, Peptide, or Protein,Immunologic Factor]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 84 bpm
+>>>>> Phrase
+84 bpm
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C4319623:84 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: [P]
+>>>>> Phrase
+p
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: keep
+>>>>> Phrase
+keep
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0333118:Keep (Retained) [Functional Concept]
+<<<<< Mappings
+
+Phrase: monitor
+>>>>> Phrase
+monitor
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1521743:Monitor (Monitor, occupation) [Professional or Occupational Group]
+<<<<< Mappings
+
+Phrase: clinical condition ??2019/11/17 02
+>>>>> Phrase
+clinical condition 2019 11 17 02
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (716):
+   799   C0205210:Clinical [Qualitative Concept]
+   799   C1705253:Condition (Logical Condition) [Conceptual Entity]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 09
+>>>>> Phrase
+09
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 18 ???
+>>>>> Phrase
+18
+<<<<< Phrase
+Processing 00000000.tx.4: / ??? 
+
+Phrase: / ???
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.5: <<Progress Note>> ???????????,?????? 
+
+Phrase: <
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: <Progress Note
+>>>>> Phrase
+progress note
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0747978:Progress note [Intellectual Product]
+<<<<< Mappings
+
+Phrase: >
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: > ???????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ??????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.6: MBD
+
+Phrase: MBD
+>>>>> Phrase
+mbd
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0005944:MBD (Metabolic Bone Disorder) [Disease or Syndrome]
+<<<<< Mappings
+Processing 00000000.tx.1: ??:  
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: ?R5381 (799.3 ) ?????
+
+Phrase: ?R5381
+>>>>> Phrase
+r5381
+<<<<< Phrase
+
+Phrase: (799.3
+>>>>> Phrase
+799 3
+<<<<< Phrase
+
+Phrase: ) ?????
+>>>>> Phrase
+<<<<< Phrase
+      
+Processing 00000000.tx.1: ??/??:  
+
+Phrase: ??/??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: ??2019/11/16 23:35:58 ???   
+
+Phrase: ??2019/11/16 23
+>>>>> Phrase
+2019 11 16 23
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (824):
+   861   C3843644:11-16 [Finding]
+   812   C0450348:23 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 35
+>>>>> Phrase
+35
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 58 ???
+>>>>> Phrase
+58
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4517817:58 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.3: / ??? 
+
+Phrase: / ???
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: Source of information: p'T ==CC : General weakness with mild palpitation since afternoon ==PI : This 38 y/o gentleman with VCA at right middle cerebral artery territory, he suffered from general weakness and palpitation this afternoon. 
+
+Phrase: Source of information
+>>>>> Phrase
+source of information
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0683836:Source of information [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: p'T ==CC
+>>>>> Phrase
+p t cc
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (802):
+   660   C2603361:P' (P prime) [Clinical Attribute]
+   827   C0008318:CC (Cholecalciferol) [Organic Chemical,Pharmacologic Substance,Vitamin]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: General weakness with mild palpitation
+>>>>> Phrase
+general weakness with mild palpitation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (752):
+   806   C3714552:General weakness (Weakness) [Sign or Symptom]
+   593   C2945599:MILD (Mild (qualifier value)) [Qualitative Concept]
+   593   C0030252:PALPITATION (Palpitations) [Finding]
+Meta Mapping (752):
+   593   C0205246:General (Generalized) [Spatial Concept]
+   797   C2749419:Mild weakness [Finding]
+   593   C0030252:PALPITATION (Palpitations) [Finding]
+<<<<< Mappings
+
+Phrase: since
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: afternoon
+>>>>> Phrase
+afternoon
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439550:Afternoon [Temporal Concept]
+<<<<< Mappings
+
+Phrase: =
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: =PI
+>>>>> Phrase
+pi
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0429863:PI (Pulsatility index, arterial velocity waveform) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: This 38 y/o gentleman with VCA
+>>>>> Phrase
+this 38 y o gentleman with vca
+<<<<< Phrase
+
+Phrase: at right middle cerebral artery territory,
+>>>>> Phrase
+right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (928):
+   771   C0226213:Right middle cerebral artery (Structure of right middle cerebral artery) [Body Part, Organ, or Organ Component]
+   804   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: he
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: suffered from general weakness
+>>>>> Phrase
+suffered from general weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (783):
+   770   C0683278:suffered (Mental Suffering) [Mental or Behavioral Dysfunction]
+   833   C3714552:General weakness (Weakness) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: palpitation
+>>>>> Phrase
+palpitation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0030252:PALPITATION (Palpitations) [Finding]
+<<<<< Mappings
+
+Phrase: this afternoon.
+>>>>> Phrase
+afternoon
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439550:Afternoon [Temporal Concept]
+<<<<< Mappings
+Processing 00000000.tx.5: He said mild SOB without further complaint. denied of fever, abdominal pain and further discomfort.
+
+Phrase: He
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: said
+>>>>> Phrase
+said
+<<<<< Phrase
+
+Phrase: mild SOB without further complaint.
+>>>>> Phrase
+mild sob without further complaint
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (724):
+   593   C2945599:MILD (Mild (qualifier value)) [Qualitative Concept]
+   760 N C0013404:SOB (Dyspnea) [Sign or Symptom]
+   593   C1517331:Further [Spatial Concept]
+   593 N C0277786:Complaint (Chief complaint (finding)) [Finding]
+<<<<< Mappings
+
+Phrase: denied of fever,
+>>>>> Phrase
+denied of fever
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (746):
+   790   C0332319:Denied (Denied (qualifier)) [Qualitative Concept]
+   790 N C0424755:Fever (Fever symptoms (finding)) [Finding]
+<<<<< Mappings
+
+Phrase: abdominal pain
+>>>>> Phrase
+abdominal pain
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0000737:ABDOMINAL PAIN (Abdominal Pain) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: further discomfort.
+>>>>> Phrase
+further discomfort
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1517331:Further [Spatial Concept]
+   861 N C0231218:DISCOMFORT (Malaise) [Sign or Symptom]
+<<<<< Mappings
+Processing 00000000.tx.1: ==Allergy : NDKA ==PE : Consciousness :clear Activity :fair Skin turgor :NP Head  Conjunctivae : pink  Sclerae : an-icteric Neck : Supple Chest  H.S.: 
+
+Phrase: =
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: =Allergy
+>>>>> Phrase
+allergy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0002111:Allergy (Allergy Specialty) [Biomedical Occupation or Discipline]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: NDKA
+>>>>> Phrase
+ndka
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0068895:NDKA (nucleoside diphosphate kinase A) [Amino Acid, Peptide, or Protein,Biologically Active Substance]
+<<<<< Mappings
+
+Phrase: =
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: =PE
+>>>>> Phrase
+pe
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0070939:PE (phosphoethanolamine) [Biologically Active Substance,Organic Chemical]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Consciousness
+>>>>> Phrase
+consciousness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0009791:consciousness (Consciousness related finding) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: clear Activity
+>>>>> Phrase
+clear activity
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1709157:Clear (Negative Surgical Margin) [Finding]
+   861   C0441655:ACTIVITY (Activities) [Activity]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: fair Skin turgor
+>>>>> Phrase
+fair skin turgor
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   734   C1858570:Fair Skin [Finding]
+   827   C0277937:Turgor (Skin turgor) [Finding]
+Meta Mapping (901):
+   660   C2911689:Fair (Fair (qualifier)) [Qualitative Concept]
+   901   C0277937:Skin turgor [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: NP Head  Conjunctivae
+>>>>> Phrase
+np head conjunctivae
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (840):
+   660   C3887659:NP (Purine Nucleoside Phosphorylase, human) [Amino Acid, Peptide, or Protein,Enzyme]
+   660   C1706305:Head (Head - Component of Device) [Manufactured Object]
+   793   C0229274:Conjunctiva (Structure of palpebral conjunctiva) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: pink  Sclerae
+>>>>> Phrase
+pink sclerae
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (872):
+   694   C0332585:PINK (Pink color) [Qualitative Concept]
+   827   C0036410:SCLERA (Sclera) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: an-icteric Neck
+>>>>> Phrase
+icteric neck
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0022346:Icteric (Icterus) [Sign or Symptom]
+   861   C0027530:NECK (Neck) [Body Location or Region]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Supple Chest  H.S.
+>>>>> Phrase
+supple chest h s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (775):
+   645   C0332254:Supple [Functional Concept]
+   812   C0817096:CHEST (Chest) [Body Location or Region]
+   645   C0033727:H+ (Protons) [Element, Ion, or Isotope]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: Regular  Murmur : No  B.s.; bilateral clear breathing sounds Extremities : Freely movable
+
+Phrase: Regular  Murmur
+>>>>> Phrase
+regular murmur
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0205272:Regular [Qualitative Concept]
+   861   C0018808:MURMUR (Heart murmur) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: No  B.s.
+>>>>> Phrase
+b s
+<<<<< Phrase
+
+Phrase: ; bilateral clear breathing
+>>>>> Phrase
+bilateral clear breathing
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0238767:BILATERAL (Bilateral) [Spatial Concept]
+   660 N C1709157:Clear (Negative Surgical Margin) [Finding]
+   827 N C0035203:Breathing (Respiration) [Physiologic Function]
+<<<<< Mappings
+
+Phrase: sounds
+>>>>> Phrase
+sounds
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0175663:Sound, NOS (Sounds device) [Medical Device]
+<<<<< Mappings
+
+Phrase: Extremities
+>>>>> Phrase
+extremities
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0015385:Extremities (Limb structure) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Freely movable
+>>>>> Phrase
+freely movable
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1879743:Freely (As Much as Desired) [Qualitative Concept]
+   861   C0577537:Moveable [Functional Concept]
+<<<<< Mappings
+Processing 00000000.tx.1: <Neurologic exam>  Pupils: isocoric, L/R: 2+/2+,  EOM : full and free  FNF : no dysmetria  Romberg test : negative  tendom gait : ataxia No ataxia, No saliva drooling No double or blured vision, No facial numbness Muscle power: RUE 5/ RLE 4 LUE 5/ LLE 5
+
+Phrase: <Neurologic exam
+>>>>> Phrase
+neurologic exam
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (950):
+   950   C0027853:neurological exam (Neurologic Examination) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: >  Pupils
+>>>>> Phrase
+pupils
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0034121:Pupils (Pupil) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: isocoric,
+>>>>> Phrase
+isocoric
+<<<<< Phrase
+
+Phrase: L/R
+>>>>> Phrase
+l r
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0439394:l's (liter/second) [Quantitative Concept]
+   861   C0205090:R- (Right) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 2+/2+,
+>>>>> Phrase
+2 2
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4517629:2.2 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: EOM
+>>>>> Phrase
+eom
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0241886:EOM (extraocular) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: full
+>>>>> Phrase
+full
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0443225:Full [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: free  FNF
+>>>>> Phrase
+free fnf
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1996904:Free (Free (available (qualifier))) [Qualitative Concept]
+   861   C0033228:FNF (Fenofibrate) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no dysmetria  Romberg test
+>>>>> Phrase
+dysmetria romberg test
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660 N C0234162:DYSMETRIA (Cerebellar Dysmetria) [Finding]
+   901 N C0278127:Romberg test (Romberg sign finding) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: negative  tendom gait
+>>>>> Phrase
+negative tendom gait
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (802):
+   660 N C0205160:Negative [Finding]
+   827 N C0016928:Gait [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ataxia
+>>>>> Phrase
+ataxia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0007758:Ataxia (Cerebellar Ataxia) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: No ataxia,
+>>>>> Phrase
+ataxia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0007758:Ataxia (Cerebellar Ataxia) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: No saliva drooling
+>>>>> Phrase
+saliva drooling
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0036087:SALIVA (saliva) [Body Substance]
+   861 N C0013132:DROOLING (Drooling) [Finding]
+<<<<< Mappings
+
+Phrase: No double
+>>>>> Phrase
+double
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1705765:Double (Double Value Type) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: or
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: blured vision,
+>>>>> Phrase
+blured vision
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0042789:Vision [Organism Function]
+<<<<< Mappings
+
+Phrase: No facial numbness Muscle power
+>>>>> Phrase
+facial numbness muscle power
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694 N C0239511:FACIAL NUMBNESS (Numbness of face) [Sign or Symptom]
+   861 N C0427052:Muscle power (Finding of power of skeletal muscle) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: RUE 5/ RLE 4 LUE 5/ LLE 5
+>>>>> Phrase
+rue 5 rle 4 lue 5 lle 5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (793):
+   793   C0939812:RUE (Ruta graveolens preparation) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+Processing 00000000.tx.1: ==Impression : Geberal weakness ==Plan 1. 
+
+Phrase: =
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: =Impression
+>>>>> Phrase
+impression
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1998467:Impression [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Geberal weakness
+>>>>> Phrase
+geberal weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3714552:WEAKNESS (Weakness) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: =
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: =Plan 1.
+>>>>> Phrase
+plan 1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0270724:PLAN (Infantile Neuroaxonal Dystrophy) [Disease or Syndrome]
+<<<<< Mappings
+Processing 00000000.tx.2: CBC-DC, ?? 
+
+Phrase: CBC-DC,
+>>>>> Phrase
+cbc dc
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C0009555:CBC (Complete Blood Count) [Laboratory Procedure]
+<<<<< Mappings
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: 2. 
+
+Phrase: 2.
+>>>>> Phrase
+2
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2981700:2+ (2+ Score, WHO) [Classification]
+<<<<< Mappings
+Processing 00000000.tx.4: Fluid supplement
+
+Phrase: Fluid supplement
+>>>>> Phrase
+fluid supplement
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0302908:fluid (Liquid substance) [Substance]
+   861   C2348609:Supplement [Functional Concept]
+<<<<< Mappings
+Processing 00000000.tx.1: ??2019/11/17 01:28:55 ???   
+
+Phrase: ??2019/11/17 01
+>>>>> Phrase
+2019 11 17 01
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 28
+>>>>> Phrase
+28
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 55 ???
+>>>>> Phrase
+55
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0450382:55 [Intellectual Product]
+<<<<< Mappings
+Processing 00000000.tx.2: / ??? 
+
+Phrase: / ???
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: <<Progress Note>> [S]Palpitation [O]HR:84 bpm [P]keep monitor clinical condition ??2019/11/17 02:09:18 ???   
+
+Phrase: <
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: <Progress Note
+>>>>> Phrase
+progress note
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0747978:Progress note [Intellectual Product]
+<<<<< Mappings
+
+Phrase: >
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: >
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: [
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: S]
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Palpitation
+>>>>> Phrase
+palpitation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0030252:PALPITATION (Palpitations) [Finding]
+<<<<< Mappings
+
+Phrase: [O]HR
+>>>>> Phrase
+o hr
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C0483204:O NOS (O NOS Ab) [Amino Acid, Peptide, or Protein,Immunologic Factor]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 84 bpm
+>>>>> Phrase
+84 bpm
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C4319623:84 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: [P]
+>>>>> Phrase
+p
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: keep
+>>>>> Phrase
+keep
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0333118:Keep (Retained) [Functional Concept]
+<<<<< Mappings
+
+Phrase: monitor
+>>>>> Phrase
+monitor
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1521743:Monitor (Monitor, occupation) [Professional or Occupational Group]
+<<<<< Mappings
+
+Phrase: clinical condition ??2019/11/17 02
+>>>>> Phrase
+clinical condition 2019 11 17 02
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (716):
+   799   C0205210:Clinical [Qualitative Concept]
+   799   C1705253:Condition (Logical Condition) [Conceptual Entity]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 09
+>>>>> Phrase
+09
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 18 ???
+>>>>> Phrase
+18
+<<<<< Phrase
+Processing 00000000.tx.4: / ??? 
+
+Phrase: / ???
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.5: <<Progress Note>> ???????????,?????? 
+
+Phrase: <
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: <Progress Note
+>>>>> Phrase
+progress note
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0747978:Progress note [Intellectual Product]
+<<<<< Mappings
+
+Phrase: >
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: > ???????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ??????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.6: MBD
+
+Phrase: MBD
+>>>>> Phrase
+mbd
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0005944:MBD (Metabolic Bone Disorder) [Disease or Syndrome]
+<<<<< Mappings
+Processing 00000000.tx.1: ??:  
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: ?R5381 (799.3 ) ?????
+
+Phrase: ?R5381
+>>>>> Phrase
+r5381
+<<<<< Phrase
+
+Phrase: (799.3
+>>>>> Phrase
+799 3
+<<<<< Phrase
+
+Phrase: ) ?????
+>>>>> Phrase
+<<<<< Phrase
+      

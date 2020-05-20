@@ -853,3 +853,1713 @@ Meta Mapping (1000):
   1000   C0235480:ATRIAL FIBRILLATION, PAROXYSMAL (Paroxysmal atrial fibrillation) [Disease or Syndrome]
 <<<<< Mappings
       
+Processing 00000000.tx.1: ????:434 occlusion of cerebral arteries
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 434 occlusion of cerebral arteries
+>>>>> Phrase
+434 occlusion of cerebral arteries
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (926):
+   926   C0028790:Occlusion of cerebral arteries (Cerebral artery occlusion) [Acquired Abnormality]
+<<<<< Mappings
+Processing 00000000.tx.1: ??/??:  
+
+Phrase: ??/??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: S: a 38 y/o  patient  was admitted due to Acute large cerebral infarction at right middle cerebral artery territory,  young stroke, with acute left limbs weakness, status post  intravenous thrombolytic therapy and endovascular thrombectomy  (on 2019/9/25) .
+
+Phrase: S
+>>>>> Phrase
+s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2603362:S' (S prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: a 38 y/o  patient
+>>>>> Phrase
+38 y o patient
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (812):
+   812   C0030705:*^patient (Patients) [Patient or Disabled Group]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: admitted due to Acute large cerebral infarction
+>>>>> Phrase
+admitted due to acute large cerebral infarction
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (845):
+   748   C0809949:Admitted (Admission activity) [Health Care Activity]
+   778   C0678226:Due To (Due to) [Functional Concept]
+   804   C2215101:acute Cerebral Infarction (Acute cerebral ischemia) [Disease or Syndrome]
+   748   C0549177:LARGE (Large) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: at right middle cerebral artery territory,
+>>>>> Phrase
+right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (928):
+   771   C0226213:Right middle cerebral artery (Structure of right middle cerebral artery) [Body Part, Organ, or Organ Component]
+   804   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: young stroke,
+>>>>> Phrase
+young stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0332239:Young [Temporal Concept]
+   861   C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with acute left limbs weakness,
+>>>>> Phrase
+acute left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0205178:ACUTE (acute) [Temporal Concept]
+   645   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: status post  intravenous thrombolytic therapy
+>>>>> Phrase
+intravenous thrombolytic therapy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   913   C0455142:Intravenous therapy [Therapeutic or Preventive Procedure]
+   827   C0016018:Thrombolytic (Fibrinolytic Agents) [Pharmacologic Substance]
+Meta Mapping (901):
+   660   C0348016:Intravenous [Spatial Concept]
+   901   C0040044:Thrombolytic Therapy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: endovascular thrombectomy
+>>>>> Phrase
+endovascular thrombectomy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0524425:Endovascular (inside the blood vessel) [Body Location or Region]
+   861   C0162578:Thrombectomy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/25
+>>>>> Phrase
+2019 9 25
+<<<<< Phrase
+
+Phrase: ) .
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: Cardiac arrhythmia, supra-ventriscular tachy- arrhythmia with paroxysmal atrial fibrillation (on 2019/9/27) and  paroxysmal supraventricular tachycardia (on 2019/10/1) Left limbs weakness noted O: conscious level : clear   communication:    comprehension: can obey simple order    articulation:can communicate   swallowing: no significant choke,               NG(-), fair oral motor control   Muscle power: Lt upper limb : 4+ Lt Lower limb: 4+   brunnstrom's stage:   Lt upper limb proximal/distal :V/V ,                  Lt lower limb: V  Lt hand function: poor dexterity, grasp (+) pinch (+) extension (+) balance: sit static/dynamic:G/G , stand static/dynamic:G/fair coordination: left hand rapid laternating motion cluminess than right ambulation: walk under supervision for a longer distance transfer:ID ADL: feeding /grooming /toileting /bathing:      ID/ ID/ ID /ID      upper dressing/lower dressing:ID/ID ???? 
+
+Phrase: Cardiac arrhythmia,
+>>>>> Phrase
+cardiac arrhythmia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0264886:CARDIAC Arrythmia (Conduction disorder of the heart) [Disease or Syndrome]
+Meta Mapping (1000):
+  1000   C1560249:CARDIAC ARRHYTHMIA (Adverse Event Associated with Cardiac Arrhythmia) [Pathologic Function]
+<<<<< Mappings
+
+Phrase: supra-ventriscular tachy- arrhythmia with paroxysmal atrial fibrillation
+>>>>> Phrase
+supra ventriscular tachy arrhythmia with paroxysmal atrial fibrillation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (721):
+   578   C1282910:Supra- (Upper) [Spatial Concept]
+   744   C0003811:Arrythmia (Cardiac Arrhythmia) [Finding]
+   633   C0235480:ATRIAL FIBRILLATION, PAROXYSMAL (Paroxysmal atrial fibrillation) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/27
+>>>>> Phrase
+2019 9 27
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C1705676:9-27 (IFITM1 wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: paroxysmal supraventricular tachycardia
+>>>>> Phrase
+paroxysmal supraventricular tachycardia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0030590:Paroxysmal supraventricular tachycardia [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/10/1
+>>>>> Phrase
+2019 10 1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   827   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Left limbs weakness
+>>>>> Phrase
+left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0205091:LEFT (Left) [Spatial Concept]
+   901   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: noted
+>>>>> Phrase
+noted
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4288581:Noted (Notable) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: O
+>>>>> Phrase
+o
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0483204:O NOS (O NOS Ab) [Amino Acid, Peptide, or Protein,Immunologic Factor]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: conscious level
+>>>>> Phrase
+conscious level
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0456384:Conscious level [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: clear   communication
+>>>>> Phrase
+clear communication
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1709157:Clear (Negative Surgical Margin) [Finding]
+   861   C0009452:COMMUNICATION (Communication) [Social Behavior]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: comprehension
+>>>>> Phrase
+comprehension
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0162340:Comprehension [Mental Process]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: can
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: obey
+>>>>> Phrase
+obey
+<<<<< Phrase
+
+Phrase: simple order    articulation
+>>>>> Phrase
+simple order articulation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0205352:Simple [Qualitative Concept]
+   660   C1882348:Order (Permutation) [Qualitative Concept]
+   827   C0022417:Articulation (Joints) [Body Space or Junction]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: can
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: communicate
+>>>>> Phrase
+communicate
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0566001:communicate (Does communicate) [Finding]
+<<<<< Mappings
+
+Phrase: swallowing
+>>>>> Phrase
+swallowing
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0011167:Swallowing (Deglutition) [Organism Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no significant choke,
+>>>>> Phrase
+significant choke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0750502:Significant [Idea or Concept]
+   861 N C0008301:choke (Choking) [Pathologic Function]
+<<<<< Mappings
+
+Phrase: NG(-
+>>>>> Phrase
+ng
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0017887:NG (Nitroglycerin) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: fair oral motor control   Muscle power
+>>>>> Phrase
+fair oral motor control muscle power
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   632   C2911689:Fair (Fair (qualifier)) [Qualitative Concept]
+   632   C0442027:Oral [Spatial Concept]
+   632   C1513492:Motor (motor movement) [Functional Concept]
+   632   C1882979:Control (Scientific Control) [Conceptual Entity]
+   827 N C0427052:Muscle power (Finding of power of skeletal muscle) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Lt upper limb
+>>>>> Phrase
+lt upper limb
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0230426:LT (Structure of left thigh) [Body Part, Organ, or Organ Component]
+   901   C1140618:LIMB, UPPER (Upper Extremity) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 4+ Lt Lower limb
+>>>>> Phrase
+4 lt lower limb
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C3838679:4+ (4+ Answer to question) [Finding]
+   645   C0230426:LT (Structure of left thigh) [Body Part, Organ, or Organ Component]
+   861   C0023216:LIMB, LOWER (Lower Extremity) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 4+   brunnstrom's stage
+>>>>> Phrase
+4 brunnstrom stage
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (802):
+   660   C3838679:4+ (4+ Answer to question) [Finding]
+   827   C1306673:Stage [Temporal Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Lt upper limb proximal/distal
+>>>>> Phrase
+lt upper limb proximal distal
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (840):
+   637   C0230426:LT (Structure of left thigh) [Body Part, Organ, or Organ Component]
+   673   C1140618:LIMB, UPPER (Upper Extremity) [Body Part, Organ, or Organ Component]
+   637   C0205107:PROXIMAL (Proximal) [Spatial Concept]
+   804   C0205108:DISTAL (Distal (qualifier value)) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: V/V ,
+>>>>> Phrase
+v v
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3887614:%V/V (Percent Volume per Volume) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: Lt lower limb
+>>>>> Phrase
+lt lower limb
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0230426:LT (Structure of left thigh) [Body Part, Organ, or Organ Component]
+   901   C0023216:LIMB, LOWER (Lower Extremity) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: V  Lt hand function
+>>>>> Phrase
+v lt hand function
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (824):
+   645   C0230426:LT (Structure of left thigh) [Body Part, Organ, or Organ Component]
+   861   C0562230:hand function (Hand functions) [Organism Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: poor dexterity,
+>>>>> Phrase
+poor dexterity
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C2700379:Poor (Poor - qualifier) [Qualitative Concept]
+   861   C0565699:Dexterity (Ability to perform general manipulative activities) [Finding]
+<<<<< Mappings
+
+Phrase: grasp
+>>>>> Phrase
+grasp
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0220843:Grasp (grasp) [Organism Function]
+<<<<< Mappings
+
+Phrase: (+
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: pinch
+>>>>> Phrase
+pinch
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0418416:pinch (Pinched) [Injury or Poisoning]
+<<<<< Mappings
+
+Phrase: (+
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: extension
+>>>>> Phrase
+extension
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0231448:Extension [Functional Concept]
+<<<<< Mappings
+
+Phrase: (+
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: balance
+>>>>> Phrase
+balance
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0560184:Balance (Ability to balance) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: sit static/dynamic
+>>>>> Phrase
+sit static dynamic
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0728713:sit (Does sit) [Finding]
+   660   C0441463:Static [Qualitative Concept]
+   827   C0729333:Dynamic [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: G/G ,
+>>>>> Phrase
+g g
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1319635:g/g (mg/mg) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: stand static/dynamic
+>>>>> Phrase
+stand static dynamic
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0596013:stand (Does stand) [Finding]
+   660   C0441463:Static [Qualitative Concept]
+   827   C0729333:Dynamic [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: G/fair coordination
+>>>>> Phrase
+g fair coordination
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0439267:g% (Gram per Deciliter) [Quantitative Concept]
+   660   C2911689:Fair (Fair (qualifier)) [Qualitative Concept]
+   827   C0242414:Coordination (Physiologic Coordination) [Physiologic Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: left hand rapid laternating motion cluminess than right ambulation
+>>>>> Phrase
+left hand rapid laternating motion cluminess than right ambulation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (513):
+   598   C0230371:Left Hand (Structure of left hand) [Body Part, Organ, or Organ Component]
+   575   C0456962:Rapid [Qualitative Concept]
+   575   C0026597:Motion [Natural Phenomenon or Process]
+   575   C0444532:Right (Right sided) [Spatial Concept]
+   575   C0080331:Ambulation (Walking (activity)) [Daily or Recreational Activity]
+Meta Mapping (513):
+   575   C0205091:LEFT (Left) [Spatial Concept]
+   575   C0456962:Rapid [Qualitative Concept]
+   575   C0026597:Motion [Natural Phenomenon or Process]
+   595   C0230370:Right Hand (Structure of right hand) [Body Part, Organ, or Organ Component]
+   575   C0080331:Ambulation (Walking (activity)) [Daily or Recreational Activity]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: walk under supervision
+>>>>> Phrase
+walk under supervision
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (746):
+   790   C0080331:Walk (Walking (activity)) [Daily or Recreational Activity]
+   623   C0038842:Supervision (Supervision (regime/therapy)) [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: for a longer distance transfer
+>>>>> Phrase
+longer distance transfer
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (840):
+   627   C0205166:LONG (Long) [Qualitative Concept]
+   660   C0012751:Distance [Quantitative Concept]
+   827   C1705822:Transfer (Transfer Technique) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ID ADL
+>>>>> Phrase
+id adl
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0600091:ID (Identifier) [Intellectual Product]
+   861   C0001288:ADL (Activities of Daily Living (activity)) [Daily or Recreational Activity]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: feeding
+>>>>> Phrase
+feeding
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0204695:Feeding (Feeding patient) [Health Care Activity]
+<<<<< Mappings
+
+Phrase: /grooming /toileting /bathing
+>>>>> Phrase
+grooming toileting bathing
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0518461:grooming (Grooming self-care) [Finding]
+   660   C0150810:Toileting (Toileting activity) [Daily or Recreational Activity]
+   827   C0150141:Bathing [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ID/ ID/ ID /ID      upper dressing/lower dressing
+>>>>> Phrase
+id id id id upper dressing lower dressing
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (559):
+   626   C0600091:ID (Identifier) [Intellectual Product]
+   626   C1282910:UPPER (Upper) [Spatial Concept]
+   626   C0013119:DRESSING (Medical dressing) [Medical Device]
+   626   C2003888:Lower (Lower (action)) [Activity]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ID/ID ????
+>>>>> Phrase
+id id
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0600091:ID (Identifier) [Intellectual Product]
+<<<<< Mappings
+Processing 00000000.tx.4: (A) : cerebral infarct with Lt hemiparesis ???? 
+
+Phrase: (A
+>>>>> Phrase
+a
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: cerebral infarct with Lt hemiparesis ????
+>>>>> Phrase
+cerebral infarct with lt hemiparesis
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (752):
+   806   C0007785:CEREBRAL INFARCT (Cerebral Infarction) [Disease or Syndrome]
+   593   C0230426:LT (Structure of left thigh) [Body Part, Organ, or Organ Component]
+   593   C0018989:HEMIPARESIS (Hemiparesis) [Sign or Symptom]
+Meta Mapping (752):
+   631   C0278116:Cerebral hemiparesis [Disease or Syndrome]
+   760   C0021308:INFARCT (Infarction) [Pathologic Function]
+   593   C0230426:LT (Structure of left thigh) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+Processing 00000000.tx.5: (P) : ????: 
+
+Phrase: (P
+>>>>> Phrase
+p
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: : ????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.6: PT: OT
+
+Phrase: PT
+>>>>> Phrase
+pt
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0699718:PT (Physical therapy (field)) [Biomedical Occupation or Discipline]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: OT
+>>>>> Phrase
+ot
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1318464:OT (Occupational therapy regime) [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+Processing 00000000.tx.1: ??:  
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: ?I63.511 (434.91 ) Cerebral infarction due to unspecified occlusion or stenosis of right middle cerebral artery  ?I48.0 (427.31 ) Paroxysmal atrial fibrillation
+
+Phrase: ?I63.511
+>>>>> Phrase
+i63 511
+<<<<< Phrase
+
+Phrase: (434.91
+>>>>> Phrase
+434 91
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Cerebral infarction due to unspecified occlusion
+>>>>> Phrase
+cerebral infarction due to unspecified occlusion
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (864):
+   623   C0678226:Due To (Due to) [Functional Concept]
+   820   C0007785:Cerebral infarction, unspecified (Cerebral Infarction) [Disease or Syndrome]
+   586   C0011382:Occlusion (Dental Occlusion) [Organ or Tissue Function]
+<<<<< Mappings
+
+Phrase: or
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: stenosis of right middle cerebral artery  ?I48.0
+>>>>> Phrase
+stenosis of right middle cerebral artery i48 0
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (832):
+   848   C1504568:Stenosis of middle cerebral artery [Disease or Syndrome]
+   578   C0205090:RIGHT (Right) [Spatial Concept]
+   578   C3842591:0% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: (427.31
+>>>>> Phrase
+427 31
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0450355:31 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Paroxysmal atrial fibrillation
+>>>>> Phrase
+paroxysmal atrial fibrillation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0235480:ATRIAL FIBRILLATION, PAROXYSMAL (Paroxysmal atrial fibrillation) [Disease or Syndrome]
+<<<<< Mappings
+      
+Processing 00000000.tx.1: ????:434 occlusion of cerebral arteries
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 434 occlusion of cerebral arteries
+>>>>> Phrase
+434 occlusion of cerebral arteries
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (926):
+   926   C0028790:Occlusion of cerebral arteries (Cerebral artery occlusion) [Acquired Abnormality]
+<<<<< Mappings
+Processing 00000000.tx.1: ??/??:  
+
+Phrase: ??/??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: S: a 38 y/o  patient  was admitted due to Acute large cerebral infarction at right middle cerebral artery territory,  young stroke, with acute left limbs weakness, status post  intravenous thrombolytic therapy and endovascular thrombectomy  (on 2019/9/25) .
+
+Phrase: S
+>>>>> Phrase
+s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2603362:S' (S prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: a 38 y/o  patient
+>>>>> Phrase
+38 y o patient
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (812):
+   812   C0030705:*^patient (Patients) [Patient or Disabled Group]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: admitted due to Acute large cerebral infarction
+>>>>> Phrase
+admitted due to acute large cerebral infarction
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (845):
+   748   C0809949:Admitted (Admission activity) [Health Care Activity]
+   778   C0678226:Due To (Due to) [Functional Concept]
+   804   C2215101:acute Cerebral Infarction (Acute cerebral ischemia) [Disease or Syndrome]
+   748   C0549177:LARGE (Large) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: at right middle cerebral artery territory,
+>>>>> Phrase
+right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (928):
+   771   C0226213:Right middle cerebral artery (Structure of right middle cerebral artery) [Body Part, Organ, or Organ Component]
+   804   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: young stroke,
+>>>>> Phrase
+young stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0332239:Young [Temporal Concept]
+   861   C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with acute left limbs weakness,
+>>>>> Phrase
+acute left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0205178:ACUTE (acute) [Temporal Concept]
+   645   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: status post  intravenous thrombolytic therapy
+>>>>> Phrase
+intravenous thrombolytic therapy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   913   C0455142:Intravenous therapy [Therapeutic or Preventive Procedure]
+   827   C0016018:Thrombolytic (Fibrinolytic Agents) [Pharmacologic Substance]
+Meta Mapping (901):
+   660   C0348016:Intravenous [Spatial Concept]
+   901   C0040044:Thrombolytic Therapy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: endovascular thrombectomy
+>>>>> Phrase
+endovascular thrombectomy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0524425:Endovascular (inside the blood vessel) [Body Location or Region]
+   861   C0162578:Thrombectomy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/25
+>>>>> Phrase
+2019 9 25
+<<<<< Phrase
+
+Phrase: ) .
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: Cardiac arrhythmia, supra-ventriscular tachy- arrhythmia with paroxysmal atrial fibrillation (on 2019/9/27) and  paroxysmal supraventricular tachycardia (on 2019/10/1) Left limbs weakness noted O: conscious level : clear   communication:    comprehension: can obey simple order    articulation:can communicate   swallowing: no significant choke,               NG(-), fair oral motor control   Muscle power: Lt upper limb : 4+ Lt Lower limb: 4+   brunnstrom's stage:   Lt upper limb proximal/distal :V/V ,                  Lt lower limb: V  Lt hand function: poor dexterity, grasp (+) pinch (+) extension (+) balance: sit static/dynamic:G/G , stand static/dynamic:G/fair coordination: left hand rapid laternating motion cluminess than right ambulation: walk under supervision for a longer distance transfer:ID ADL: feeding /grooming /toileting /bathing:      ID/ ID/ ID /ID      upper dressing/lower dressing:ID/ID ???? 
+
+Phrase: Cardiac arrhythmia,
+>>>>> Phrase
+cardiac arrhythmia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0264886:CARDIAC Arrythmia (Conduction disorder of the heart) [Disease or Syndrome]
+Meta Mapping (1000):
+  1000   C1560249:CARDIAC ARRHYTHMIA (Adverse Event Associated with Cardiac Arrhythmia) [Pathologic Function]
+<<<<< Mappings
+
+Phrase: supra-ventriscular tachy- arrhythmia with paroxysmal atrial fibrillation
+>>>>> Phrase
+supra ventriscular tachy arrhythmia with paroxysmal atrial fibrillation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (721):
+   578   C1282910:Supra- (Upper) [Spatial Concept]
+   744   C0003811:Arrythmia (Cardiac Arrhythmia) [Finding]
+   633   C0235480:ATRIAL FIBRILLATION, PAROXYSMAL (Paroxysmal atrial fibrillation) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/27
+>>>>> Phrase
+2019 9 27
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C1705676:9-27 (IFITM1 wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: paroxysmal supraventricular tachycardia
+>>>>> Phrase
+paroxysmal supraventricular tachycardia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0030590:Paroxysmal supraventricular tachycardia [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/10/1
+>>>>> Phrase
+2019 10 1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   827   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Left limbs weakness
+>>>>> Phrase
+left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0205091:LEFT (Left) [Spatial Concept]
+   901   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: noted
+>>>>> Phrase
+noted
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4288581:Noted (Notable) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: O
+>>>>> Phrase
+o
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0483204:O NOS (O NOS Ab) [Amino Acid, Peptide, or Protein,Immunologic Factor]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: conscious level
+>>>>> Phrase
+conscious level
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0456384:Conscious level [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: clear   communication
+>>>>> Phrase
+clear communication
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1709157:Clear (Negative Surgical Margin) [Finding]
+   861   C0009452:COMMUNICATION (Communication) [Social Behavior]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: comprehension
+>>>>> Phrase
+comprehension
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0162340:Comprehension [Mental Process]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: can
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: obey
+>>>>> Phrase
+obey
+<<<<< Phrase
+
+Phrase: simple order    articulation
+>>>>> Phrase
+simple order articulation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0205352:Simple [Qualitative Concept]
+   660   C1882348:Order (Permutation) [Qualitative Concept]
+   827   C0022417:Articulation (Joints) [Body Space or Junction]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: can
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: communicate
+>>>>> Phrase
+communicate
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0566001:communicate (Does communicate) [Finding]
+<<<<< Mappings
+
+Phrase: swallowing
+>>>>> Phrase
+swallowing
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0011167:Swallowing (Deglutition) [Organism Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no significant choke,
+>>>>> Phrase
+significant choke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0750502:Significant [Idea or Concept]
+   861 N C0008301:choke (Choking) [Pathologic Function]
+<<<<< Mappings
+
+Phrase: NG(-
+>>>>> Phrase
+ng
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0017887:NG (Nitroglycerin) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: fair oral motor control   Muscle power
+>>>>> Phrase
+fair oral motor control muscle power
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   632   C2911689:Fair (Fair (qualifier)) [Qualitative Concept]
+   632   C0442027:Oral [Spatial Concept]
+   632   C1513492:Motor (motor movement) [Functional Concept]
+   632   C1882979:Control (Scientific Control) [Conceptual Entity]
+   827 N C0427052:Muscle power (Finding of power of skeletal muscle) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Lt upper limb
+>>>>> Phrase
+lt upper limb
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0230426:LT (Structure of left thigh) [Body Part, Organ, or Organ Component]
+   901   C1140618:LIMB, UPPER (Upper Extremity) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 4+ Lt Lower limb
+>>>>> Phrase
+4 lt lower limb
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C3838679:4+ (4+ Answer to question) [Finding]
+   645   C0230426:LT (Structure of left thigh) [Body Part, Organ, or Organ Component]
+   861   C0023216:LIMB, LOWER (Lower Extremity) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 4+   brunnstrom's stage
+>>>>> Phrase
+4 brunnstrom stage
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (802):
+   660   C3838679:4+ (4+ Answer to question) [Finding]
+   827   C1306673:Stage [Temporal Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Lt upper limb proximal/distal
+>>>>> Phrase
+lt upper limb proximal distal
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (840):
+   637   C0230426:LT (Structure of left thigh) [Body Part, Organ, or Organ Component]
+   673   C1140618:LIMB, UPPER (Upper Extremity) [Body Part, Organ, or Organ Component]
+   637   C0205107:PROXIMAL (Proximal) [Spatial Concept]
+   804   C0205108:DISTAL (Distal (qualifier value)) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: V/V ,
+>>>>> Phrase
+v v
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3887614:%V/V (Percent Volume per Volume) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: Lt lower limb
+>>>>> Phrase
+lt lower limb
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0230426:LT (Structure of left thigh) [Body Part, Organ, or Organ Component]
+   901   C0023216:LIMB, LOWER (Lower Extremity) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: V  Lt hand function
+>>>>> Phrase
+v lt hand function
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (824):
+   645   C0230426:LT (Structure of left thigh) [Body Part, Organ, or Organ Component]
+   861   C0562230:hand function (Hand functions) [Organism Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: poor dexterity,
+>>>>> Phrase
+poor dexterity
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C2700379:Poor (Poor - qualifier) [Qualitative Concept]
+   861   C0565699:Dexterity (Ability to perform general manipulative activities) [Finding]
+<<<<< Mappings
+
+Phrase: grasp
+>>>>> Phrase
+grasp
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0220843:Grasp (grasp) [Organism Function]
+<<<<< Mappings
+
+Phrase: (+
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: pinch
+>>>>> Phrase
+pinch
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0418416:pinch (Pinched) [Injury or Poisoning]
+<<<<< Mappings
+
+Phrase: (+
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: extension
+>>>>> Phrase
+extension
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0231448:Extension [Functional Concept]
+<<<<< Mappings
+
+Phrase: (+
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: balance
+>>>>> Phrase
+balance
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0560184:Balance (Ability to balance) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: sit static/dynamic
+>>>>> Phrase
+sit static dynamic
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0728713:sit (Does sit) [Finding]
+   660   C0441463:Static [Qualitative Concept]
+   827   C0729333:Dynamic [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: G/G ,
+>>>>> Phrase
+g g
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1319635:g/g (mg/mg) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: stand static/dynamic
+>>>>> Phrase
+stand static dynamic
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0596013:stand (Does stand) [Finding]
+   660   C0441463:Static [Qualitative Concept]
+   827   C0729333:Dynamic [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: G/fair coordination
+>>>>> Phrase
+g fair coordination
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0439267:g% (Gram per Deciliter) [Quantitative Concept]
+   660   C2911689:Fair (Fair (qualifier)) [Qualitative Concept]
+   827   C0242414:Coordination (Physiologic Coordination) [Physiologic Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: left hand rapid laternating motion cluminess than right ambulation
+>>>>> Phrase
+left hand rapid laternating motion cluminess than right ambulation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (513):
+   598   C0230371:Left Hand (Structure of left hand) [Body Part, Organ, or Organ Component]
+   575   C0456962:Rapid [Qualitative Concept]
+   575   C0026597:Motion [Natural Phenomenon or Process]
+   575   C0444532:Right (Right sided) [Spatial Concept]
+   575   C0080331:Ambulation (Walking (activity)) [Daily or Recreational Activity]
+Meta Mapping (513):
+   575   C0205091:LEFT (Left) [Spatial Concept]
+   575   C0456962:Rapid [Qualitative Concept]
+   575   C0026597:Motion [Natural Phenomenon or Process]
+   595   C0230370:Right Hand (Structure of right hand) [Body Part, Organ, or Organ Component]
+   575   C0080331:Ambulation (Walking (activity)) [Daily or Recreational Activity]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: walk under supervision
+>>>>> Phrase
+walk under supervision
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (746):
+   790   C0080331:Walk (Walking (activity)) [Daily or Recreational Activity]
+   623   C0038842:Supervision (Supervision (regime/therapy)) [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: for a longer distance transfer
+>>>>> Phrase
+longer distance transfer
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (840):
+   627   C0205166:LONG (Long) [Qualitative Concept]
+   660   C0012751:Distance [Quantitative Concept]
+   827   C1705822:Transfer (Transfer Technique) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ID ADL
+>>>>> Phrase
+id adl
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0600091:ID (Identifier) [Intellectual Product]
+   861   C0001288:ADL (Activities of Daily Living (activity)) [Daily or Recreational Activity]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: feeding
+>>>>> Phrase
+feeding
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0204695:Feeding (Feeding patient) [Health Care Activity]
+<<<<< Mappings
+
+Phrase: /grooming /toileting /bathing
+>>>>> Phrase
+grooming toileting bathing
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0518461:grooming (Grooming self-care) [Finding]
+   660   C0150810:Toileting (Toileting activity) [Daily or Recreational Activity]
+   827   C0150141:Bathing [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ID/ ID/ ID /ID      upper dressing/lower dressing
+>>>>> Phrase
+id id id id upper dressing lower dressing
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (559):
+   626   C0600091:ID (Identifier) [Intellectual Product]
+   626   C1282910:UPPER (Upper) [Spatial Concept]
+   626   C0013119:DRESSING (Medical dressing) [Medical Device]
+   626   C2003888:Lower (Lower (action)) [Activity]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ID/ID ????
+>>>>> Phrase
+id id
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0600091:ID (Identifier) [Intellectual Product]
+<<<<< Mappings
+Processing 00000000.tx.4: (A) : cerebral infarct with Lt hemiparesis ???? 
+
+Phrase: (A
+>>>>> Phrase
+a
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: cerebral infarct with Lt hemiparesis ????
+>>>>> Phrase
+cerebral infarct with lt hemiparesis
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (752):
+   806   C0007785:CEREBRAL INFARCT (Cerebral Infarction) [Disease or Syndrome]
+   593   C0230426:LT (Structure of left thigh) [Body Part, Organ, or Organ Component]
+   593   C0018989:HEMIPARESIS (Hemiparesis) [Sign or Symptom]
+Meta Mapping (752):
+   631   C0278116:Cerebral hemiparesis [Disease or Syndrome]
+   760   C0021308:INFARCT (Infarction) [Pathologic Function]
+   593   C0230426:LT (Structure of left thigh) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+Processing 00000000.tx.5: (P) : ????: 
+
+Phrase: (P
+>>>>> Phrase
+p
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: : ????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.6: PT: OT
+
+Phrase: PT
+>>>>> Phrase
+pt
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0699718:PT (Physical therapy (field)) [Biomedical Occupation or Discipline]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: OT
+>>>>> Phrase
+ot
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1318464:OT (Occupational therapy regime) [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+Processing 00000000.tx.1: ??:  
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: ?I63.511 (434.91 ) Cerebral infarction due to unspecified occlusion or stenosis of right middle cerebral artery  ?I48.0 (427.31 ) Paroxysmal atrial fibrillation
+
+Phrase: ?I63.511
+>>>>> Phrase
+i63 511
+<<<<< Phrase
+
+Phrase: (434.91
+>>>>> Phrase
+434 91
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Cerebral infarction due to unspecified occlusion
+>>>>> Phrase
+cerebral infarction due to unspecified occlusion
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (864):
+   623   C0678226:Due To (Due to) [Functional Concept]
+   820   C0007785:Cerebral infarction, unspecified (Cerebral Infarction) [Disease or Syndrome]
+   586   C0011382:Occlusion (Dental Occlusion) [Organ or Tissue Function]
+<<<<< Mappings
+
+Phrase: or
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: stenosis of right middle cerebral artery  ?I48.0
+>>>>> Phrase
+stenosis of right middle cerebral artery i48 0
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (832):
+   848   C1504568:Stenosis of middle cerebral artery [Disease or Syndrome]
+   578   C0205090:RIGHT (Right) [Spatial Concept]
+   578   C3842591:0% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: (427.31
+>>>>> Phrase
+427 31
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0450355:31 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Paroxysmal atrial fibrillation
+>>>>> Phrase
+paroxysmal atrial fibrillation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0235480:ATRIAL FIBRILLATION, PAROXYSMAL (Paroxysmal atrial fibrillation) [Disease or Syndrome]
+<<<<< Mappings
+      

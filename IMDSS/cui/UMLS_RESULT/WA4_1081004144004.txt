@@ -6133,3 +6133,2457 @@ Meta Mapping (1000):
   1000 N C0031039:Effusion, Pericardial (Pericardial effusion) [Disease or Syndrome]
 <<<<< Mappings
       
+Processing 00000000.tx.1: .Item EEG /??????
+
+Phrase: .Item EEG /??????
+>>>>> Phrase
+item eeg
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1551338:Item (Entity) [Entity]
+   861   C0013819:EEG, NOS (Electroencephalography) [Diagnostic Procedure]
+<<<<< Mappings
+Processing 00000000.tx.1: .
+
+Phrase: .
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: Indication Excluded seizure and vegetation
+
+Phrase: Indication
+>>>>> Phrase
+indication
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0392360:indication (Indication of (contextual qualifier)) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: Excluded
+>>>>> Phrase
+excluded
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0332196:Excluded (Exclude) [Functional Concept]
+<<<<< Mappings
+
+Phrase: seizure
+>>>>> Phrase
+seizure
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1959629:Seizure (Seizure Adverse Event) [Finding]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: vegetation
+>>>>> Phrase
+vegetation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1285498:Vegetation [Anatomical Abnormality]
+<<<<< Mappings
+Processing 00000000.tx.1: .
+
+Phrase: .
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: Result as below
+
+Phrase: Result
+>>>>> Phrase
+result
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2825142:Result (Experimental Result) [Finding]
+<<<<< Mappings
+
+Phrase: as below
+>>>>> Phrase
+as below
+<<<<< Phrase
+Processing 00000000.tx.1: .Plan current treatment
+
+Phrase: .
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Plan
+>>>>> Phrase
+plan
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0599880:Plan (Treatment Plan) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: current treatment
+>>>>> Phrase
+current treatment
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2827774:Current Treatment (Current Therapy) [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+Processing 00000000.tx.1: ?
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: Date:? 
+
+Phrase: Date
+>>>>> Phrase
+date
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0011008:DATE (Date in time) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: :?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: 2019-09-27 , ???,EEG,??
+
+Phrase: 2019-09-27 ,
+>>>>> Phrase
+2019 09 27
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   827   C4319602:27 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ???,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: EEG,??
+>>>>> Phrase
+eeg
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0013819:EEG, NOS (Electroencephalography) [Diagnostic Procedure]
+<<<<< Mappings
+Processing 00000000.tx.1: Diagnosis
+
+Phrase: Diagnosis
+>>>>> Phrase
+diagnosis
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1704656:DIAGNOSIS (Diagnosis Study) [Research Activity]
+<<<<< Mappings
+Processing 00000000.tx.1: Recordist's Note [Machine] GRASS [Pt's condition] Awake, drowsy [Note] E1087822
+
+Phrase: Recordist's Note
+>>>>> Phrase
+recordist note
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C1317574:Note (Note (document)) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: [Machine
+>>>>> Phrase
+machine
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0336779:Machine [Manufactured Object]
+<<<<< Mappings
+
+Phrase: ] GRASS
+>>>>> Phrase
+grass
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0018210:Grass (Poaceae) [Plant]
+<<<<< Mappings
+
+Phrase: [Pt's condition
+>>>>> Phrase
+pt condition
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0699718:PT (Physical therapy (field)) [Biomedical Occupation or Discipline]
+   861   C1705253:Condition (Logical Condition) [Conceptual Entity]
+<<<<< Mappings
+
+Phrase: ] Awake, drowsy
+>>>>> Phrase
+awake drowsy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0234422:Awake [Finding]
+   861   C0013144:DROWSY (Drowsiness) [Finding]
+<<<<< Mappings
+
+Phrase: [Note
+>>>>> Phrase
+note
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1317574:Note (Note (document)) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: ] E1087822
+>>>>> Phrase
+e1087822
+<<<<< Phrase
+Processing 00000000.tx.1: EEG Report EEG diagnosis: Abnormal; diffuse theta waves. 
+
+Phrase: EEG Report EEG diagnosis
+>>>>> Phrase
+eeg report eeg diagnosis
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (775):
+   645   C0013819:EEG, NOS (Electroencephalography) [Diagnostic Procedure]
+   645   C0700287:Report (Reporting) [Health Care Activity]
+   812   C0011900:DIAGNOSIS (Diagnosis) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Abnormal
+>>>>> Phrase
+abnormal
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205161:ABNORMAL (Abnormal) [Finding]
+<<<<< Mappings
+
+Phrase: ; diffuse theta waves.
+>>>>> Phrase
+diffuse theta waves
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0205219:DIFFUSE (Diffuse) [Spatial Concept]
+   827   C1422662:THETA (GABRQ gene) [Gene or Genome]
+   827   C0678544:waves (wave - physical agent) [Natural Phenomenon or Process]
+<<<<< Mappings
+Processing 00000000.tx.2: Description: The EEG was performed when the patient was awake and drowsy. 
+
+Phrase: Description
+>>>>> Phrase
+description
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0678257:Description [Intellectual Product]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: The EEG
+>>>>> Phrase
+eeg
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0013819:EEG, NOS (Electroencephalography) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: performed
+>>>>> Phrase
+performed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0884358:PERFORMED (Performed) [Functional Concept]
+<<<<< Mappings
+
+Phrase: when
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: the patient
+>>>>> Phrase
+patient
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0030705:*^patient (Patients) [Patient or Disabled Group]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: awake
+>>>>> Phrase
+awake
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234422:Awake [Finding]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: drowsy.
+>>>>> Phrase
+drowsy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0013144:DROWSY (Drowsiness) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.3: The background activities consisted of diffuse theta waves at 6-7Hz, 20-40uV. 
+
+Phrase: The background activities
+>>>>> Phrase
+background activities
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   861   C1706907:Background [Conceptual Entity]
+   861   C0441655:Activities [Activity]
+<<<<< Mappings
+
+Phrase: consisted of diffuse theta waves
+>>>>> Phrase
+consisted of diffuse theta waves
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (725):
+   726   C0332529:CONSIST (Consistency) [Qualitative Concept]
+   760   C0205219:DIFFUSE (Diffuse) [Spatial Concept]
+   760   C1422662:THETA (GABRQ gene) [Gene or Genome]
+   760   C0678544:waves (wave - physical agent) [Natural Phenomenon or Process]
+<<<<< Mappings
+
+Phrase: at 6-7Hz,
+>>>>> Phrase
+6 7hz
+<<<<< Phrase
+
+Phrase: 20-40uV.
+>>>>> Phrase
+20 40uv
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C3842589:20% [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.4: Photic stimulation did not induce photic driving response. 
+
+Phrase: Photic stimulation
+>>>>> Phrase
+photic stimulation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0031734:Photic Stimulation [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: did
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: not
+>>>>> Phrase
+not
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1518422:Not (Negation) [Functional Concept]
+<<<<< Mappings
+
+Phrase: induce
+>>>>> Phrase
+induce
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205263:Induce (Induce (action)) [Functional Concept]
+<<<<< Mappings
+
+Phrase: photic driving response.
+>>>>> Phrase
+photic driving response
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (882):
+   885   C2945741:light response (response to light) [Organism Function]
+   660   C0004379:Driving (Automobile Driving) [Daily or Recreational Activity]
+<<<<< Mappings
+Processing 00000000.tx.5: Hyperventilation was not done. 
+
+Phrase: Hyperventilation
+>>>>> Phrase
+hyperventilation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0020578:HYPERVENTILATION (Hyperventilation) [Finding]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: not
+>>>>> Phrase
+not
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1518422:Not (Negation) [Functional Concept]
+<<<<< Mappings
+
+Phrase: done.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.6: There were no epileptiform discharges. 
+
+Phrase: There
+>>>>> Phrase
+there
+<<<<< Phrase
+
+Phrase: were
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no epileptiform discharges.
+>>>>> Phrase
+epileptiform discharges
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0012621:Discharges (Body Fluid Discharge) [Body Substance]
+<<<<< Mappings
+Processing 00000000.tx.7: Interpretations: Mild diffuse cortical dysfunction. 
+
+Phrase: Interpretations
+>>>>> Phrase
+interpretations
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0459471:interpretations (Interpretation Process) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Mild diffuse cortical dysfunction.
+>>>>> Phrase
+mild diffuse cortical dysfunction
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   902   C3274775:MILD DYSFUNCTION (Mildly Abnormal Ejection Fraction) [Finding]
+   645   C0205219:DIFFUSE (Diffuse) [Spatial Concept]
+   645   C0007776:Cortical (Cerebral cortex) [Body Part, Organ, or Organ Component]
+Meta Mapping (861):
+   645   C2945599:MILD (Mild (qualifier value)) [Qualitative Concept]
+   645   C0205219:DIFFUSE (Diffuse) [Spatial Concept]
+   861   C0235454:Cortical dysfunction (ADRENAL CORTEX DYSFUNCTION) [Disease or Syndrome]
+<<<<< Mappings
+Processing 00000000.tx.8: ------------------------------------------------------------------------------ ?
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: --
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.9: Date:? 
+
+Phrase: Date
+>>>>> Phrase
+date
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0011008:DATE (Date in time) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: :?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.10: 2019-09-28 , ??????(M-Mode), Doppler Color flow m
+
+Phrase: 2019-09-28 ,
+>>>>> Phrase
+2019 09 28
+<<<<< Phrase
+
+Phrase: ??????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (M-Mode
+>>>>> Phrase
+m mode
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4331911:M-MODE (M-Mode Ultrasound Mode) [Functional Concept]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Doppler Color flow m
+>>>>> Phrase
+doppler color flow m
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (916):
+   756   C0475380:Doppler colour flow (Doppler color flow) [Diagnostic Procedure]
+   812   C0369637:M NOS (M NOS ANTIBODY) [Amino Acid, Peptide, or Protein,Immunologic Factor]
+<<<<< Mappings
+Processing 00000000.tx.1: Measurement: cm LVIDd: 4.76    LVIDs: 2.89     IVSd: 1.10    LVPWd: 1.19    LA: 4.55       AO: 3.31      ACS: 2.17     EPSS:         MV_EF: cm/s    EF: 70 %      E/A: <1
+
+Phrase: Measurement
+>>>>> Phrase
+measurement
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0242485:MEASUREMENT (Measurement) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: cm LVIDd
+>>>>> Phrase
+cm lvidd
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 4.76    LVIDs
+>>>>> Phrase
+4 76 lvids
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (623):
+   660   C3838679:4+ (4+ Answer to question) [Finding]
+   660   C4319622:76 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 2.89     IVSd
+>>>>> Phrase
+2 89 ivsd
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (660):
+   660   C2981700:2+ (2+ Score, WHO) [Classification]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 1.10    LVPWd
+>>>>> Phrase
+1 10 lvpwd
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (734):
+   734   C3843645:1-10 [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 1.19    LA
+>>>>> Phrase
+1 19 la
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (802):
+   660   C2981698:1+ (1+ Score, WHO) [Classification]
+   827   C2346906:LA (Lupus Anticoagulant Antibody) [Amino Acid, Peptide, or Protein,Immunologic Factor]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 4.55       AO
+>>>>> Phrase
+4 55 ao
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (623):
+   660   C3838679:4+ (4+ Answer to question) [Finding]
+   660   C0450382:55 [Intellectual Product]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 3.31      ACS
+>>>>> Phrase
+3 31 acs
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0439086:<3 (<3 (qualifier value)) [Quantitative Concept]
+   660   C0450355:31 [Quantitative Concept]
+   827   C0742343:ACS (Acute Chest Syndrome) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 2.17     EPSS
+>>>>> Phrase
+2 17 epss
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (734):
+   734   C4517628:2.17 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: MV_EF
+>>>>> Phrase
+mv ef
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C1454484:MV (VCL protein, human) [Amino Acid, Peptide, or Protein,Biologically Active Substance]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: cm/s    EF
+>>>>> Phrase
+cm s ef
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (734):
+   734   C0439392:cm/s [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 70 %      E/A
+>>>>> Phrase
+70 e a
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (660):
+   660   C3842584:70% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: <1
+>>>>> Phrase
+1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2981698:1+ (1+ Score, WHO) [Classification]
+<<<<< Mappings
+Processing 00000000.tx.1: Dilated Chamber:     Nil
+
+Phrase: Dilated Chamber
+>>>>> Phrase
+dilated chamber
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0700124:Dilated [Finding]
+   861   C0179874:Chamber (Chamber (physical object)) [Manufactured Object]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Nil
+>>>>> Phrase
+nil
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0442734:Nil [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.1: Hypertrophic Wall:     Nil
+
+Phrase: Hypertrophic Wall
+>>>>> Phrase
+hypertrophic wall
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0333959:Hypertrophic [Functional Concept]
+   861   C0677535:Wall (Walls of a building) [Manufactured Object]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Nil
+>>>>> Phrase
+nil
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0442734:Nil [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.1: Valvular Pathology:     There is no significant valvular lesion.
+
+Phrase: Valvular Pathology
+>>>>> Phrase
+valvular pathology
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (853):
+   623   C1186983:valves (anatomic valve) [Body Part, Organ, or Organ Component]
+   861   C0205469:pathology (Pathological aspects) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: There
+>>>>> Phrase
+there
+<<<<< Phrase
+
+Phrase: is
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no significant valvular lesion.
+>>>>> Phrase
+significant valvular lesion
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (828):
+   660   C0750502:Significant [Idea or Concept]
+   589   C1186983:valves (anatomic valve) [Body Part, Organ, or Organ Component]
+   827 N C0221198:Lesion [Finding]
+<<<<< Mappings
+Processing 00000000.tx.1: Wall Motion Abnormality:     There is no regional wall motion abnormality
+
+Phrase: Wall Motion Abnormality
+>>>>> Phrase
+wall motion abnormality
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C1980023:Wall motion [Clinical Attribute]
+   827   C1704258:Abnormality [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: There
+>>>>> Phrase
+there
+<<<<< Phrase
+
+Phrase: is
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no regional wall motion abnormality
+>>>>> Phrase
+regional wall motion abnormality
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   902 N C0266641:Regional ABNORMALITY (Regional congenital anomaly) [Congenital Abnormality]
+   861   C1980023:Wall motion [Clinical Attribute]
+<<<<< Mappings
+Processing 00000000.tx.1: Global LV function:     The global LV systolic function is normal.
+
+Phrase: Global LV function
+>>>>> Phrase
+global lv function
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C2348867:Global [Qualitative Concept]
+   660   C0023128:LV (Latvia) [Geographic Area]
+   827   C0031843:function (physiological aspects) [Physiologic Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: The global LV systolic function
+>>>>> Phrase
+global lv systolic function
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   645   C2348867:Global [Qualitative Concept]
+   812   C0023128:LV (Latvia) [Geographic Area]
+   812   C0039155:Systolic (Systole) [Temporal Concept]
+   812   C0031843:function (physiological aspects) [Physiologic Function]
+<<<<< Mappings
+
+Phrase: is
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: normal.
+>>>>> Phrase
+normal
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205307:NORMAL (Normal) [Qualitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.1: Diastolic:     Abnormal LV diastolic compliance
+
+Phrase: Diastolic
+>>>>> Phrase
+diastolic
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0012000:Diastolic (Diastole) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Abnormal LV diastolic compliance
+>>>>> Phrase
+abnormal lv diastolic compliance
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   645   C0205161:ABNORMAL (Abnormal) [Finding]
+   645   C0023128:LV (Latvia) [Geographic Area]
+   645   C0012000:Diastolic (Diastole) [Clinical Attribute]
+   812   C1321605:COMPLIANCE (Compliance behavior) [Individual Behavior]
+<<<<< Mappings
+Processing 00000000.tx.1: Pericardium:     There is no pericardial effusion.
+
+Phrase: Pericardium
+>>>>> Phrase
+pericardium
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0031050:PERICARDIUM (Pericardial sac structure) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: There
+>>>>> Phrase
+there
+<<<<< Phrase
+
+Phrase: is
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no pericardial effusion.
+>>>>> Phrase
+pericardial effusion
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0031039:Effusion, Pericardial (Pericardial effusion) [Disease or Syndrome]
+<<<<< Mappings
+      
+Processing 00000000.tx.1: .Item EEG /??????
+
+Phrase: .Item EEG /??????
+>>>>> Phrase
+item eeg
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1551338:Item (Entity) [Entity]
+   861   C0013819:EEG, NOS (Electroencephalography) [Diagnostic Procedure]
+<<<<< Mappings
+Processing 00000000.tx.1: .
+
+Phrase: .
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: Indication Excluded seizure and vegetation
+
+Phrase: Indication
+>>>>> Phrase
+indication
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0392360:indication (Indication of (contextual qualifier)) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: Excluded
+>>>>> Phrase
+excluded
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0332196:Excluded (Exclude) [Functional Concept]
+<<<<< Mappings
+
+Phrase: seizure
+>>>>> Phrase
+seizure
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1959629:Seizure (Seizure Adverse Event) [Finding]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: vegetation
+>>>>> Phrase
+vegetation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1285498:Vegetation [Anatomical Abnormality]
+<<<<< Mappings
+Processing 00000000.tx.1: .
+
+Phrase: .
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: Result as below
+
+Phrase: Result
+>>>>> Phrase
+result
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2825142:Result (Experimental Result) [Finding]
+<<<<< Mappings
+
+Phrase: as below
+>>>>> Phrase
+as below
+<<<<< Phrase
+Processing 00000000.tx.1: .Plan current treatment
+
+Phrase: .
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Plan
+>>>>> Phrase
+plan
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0599880:Plan (Treatment Plan) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: current treatment
+>>>>> Phrase
+current treatment
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2827774:Current Treatment (Current Therapy) [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+Processing 00000000.tx.1: ?
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: Date:? 
+
+Phrase: Date
+>>>>> Phrase
+date
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0011008:DATE (Date in time) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: :?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: 2019-09-27 , ???,EEG,??
+
+Phrase: 2019-09-27 ,
+>>>>> Phrase
+2019 09 27
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   827   C4319602:27 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ???,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: EEG,??
+>>>>> Phrase
+eeg
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0013819:EEG, NOS (Electroencephalography) [Diagnostic Procedure]
+<<<<< Mappings
+Processing 00000000.tx.1: Diagnosis
+
+Phrase: Diagnosis
+>>>>> Phrase
+diagnosis
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1704656:DIAGNOSIS (Diagnosis Study) [Research Activity]
+<<<<< Mappings
+Processing 00000000.tx.1: Recordist's Note [Machine] GRASS [Pt's condition] Awake, drowsy [Note] E1087822
+
+Phrase: Recordist's Note
+>>>>> Phrase
+recordist note
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C1317574:Note (Note (document)) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: [Machine
+>>>>> Phrase
+machine
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0336779:Machine [Manufactured Object]
+<<<<< Mappings
+
+Phrase: ] GRASS
+>>>>> Phrase
+grass
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0018210:Grass (Poaceae) [Plant]
+<<<<< Mappings
+
+Phrase: [Pt's condition
+>>>>> Phrase
+pt condition
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0699718:PT (Physical therapy (field)) [Biomedical Occupation or Discipline]
+   861   C1705253:Condition (Logical Condition) [Conceptual Entity]
+<<<<< Mappings
+
+Phrase: ] Awake, drowsy
+>>>>> Phrase
+awake drowsy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0234422:Awake [Finding]
+   861   C0013144:DROWSY (Drowsiness) [Finding]
+<<<<< Mappings
+
+Phrase: [Note
+>>>>> Phrase
+note
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1317574:Note (Note (document)) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: ] E1087822
+>>>>> Phrase
+e1087822
+<<<<< Phrase
+Processing 00000000.tx.1: EEG Report EEG diagnosis: Abnormal; diffuse theta waves. 
+
+Phrase: EEG Report EEG diagnosis
+>>>>> Phrase
+eeg report eeg diagnosis
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (775):
+   645   C0013819:EEG, NOS (Electroencephalography) [Diagnostic Procedure]
+   645   C0700287:Report (Reporting) [Health Care Activity]
+   812   C0011900:DIAGNOSIS (Diagnosis) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Abnormal
+>>>>> Phrase
+abnormal
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205161:ABNORMAL (Abnormal) [Finding]
+<<<<< Mappings
+
+Phrase: ; diffuse theta waves.
+>>>>> Phrase
+diffuse theta waves
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0205219:DIFFUSE (Diffuse) [Spatial Concept]
+   827   C1422662:THETA (GABRQ gene) [Gene or Genome]
+   827   C0678544:waves (wave - physical agent) [Natural Phenomenon or Process]
+<<<<< Mappings
+Processing 00000000.tx.2: Description: The EEG was performed when the patient was awake and drowsy. 
+
+Phrase: Description
+>>>>> Phrase
+description
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0678257:Description [Intellectual Product]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: The EEG
+>>>>> Phrase
+eeg
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0013819:EEG, NOS (Electroencephalography) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: performed
+>>>>> Phrase
+performed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0884358:PERFORMED (Performed) [Functional Concept]
+<<<<< Mappings
+
+Phrase: when
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: the patient
+>>>>> Phrase
+patient
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0030705:*^patient (Patients) [Patient or Disabled Group]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: awake
+>>>>> Phrase
+awake
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234422:Awake [Finding]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: drowsy.
+>>>>> Phrase
+drowsy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0013144:DROWSY (Drowsiness) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.3: The background activities consisted of diffuse theta waves at 6-7Hz, 20-40uV. 
+
+Phrase: The background activities
+>>>>> Phrase
+background activities
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   861   C1706907:Background [Conceptual Entity]
+   861   C0441655:Activities [Activity]
+<<<<< Mappings
+
+Phrase: consisted of diffuse theta waves
+>>>>> Phrase
+consisted of diffuse theta waves
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (725):
+   726   C0332529:CONSIST (Consistency) [Qualitative Concept]
+   760   C0205219:DIFFUSE (Diffuse) [Spatial Concept]
+   760   C1422662:THETA (GABRQ gene) [Gene or Genome]
+   760   C0678544:waves (wave - physical agent) [Natural Phenomenon or Process]
+<<<<< Mappings
+
+Phrase: at 6-7Hz,
+>>>>> Phrase
+6 7hz
+<<<<< Phrase
+
+Phrase: 20-40uV.
+>>>>> Phrase
+20 40uv
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C3842589:20% [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.4: Photic stimulation did not induce photic driving response. 
+
+Phrase: Photic stimulation
+>>>>> Phrase
+photic stimulation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0031734:Photic Stimulation [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: did
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: not
+>>>>> Phrase
+not
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1518422:Not (Negation) [Functional Concept]
+<<<<< Mappings
+
+Phrase: induce
+>>>>> Phrase
+induce
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205263:Induce (Induce (action)) [Functional Concept]
+<<<<< Mappings
+
+Phrase: photic driving response.
+>>>>> Phrase
+photic driving response
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (882):
+   885   C2945741:light response (response to light) [Organism Function]
+   660   C0004379:Driving (Automobile Driving) [Daily or Recreational Activity]
+<<<<< Mappings
+Processing 00000000.tx.5: Hyperventilation was not done. 
+
+Phrase: Hyperventilation
+>>>>> Phrase
+hyperventilation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0020578:HYPERVENTILATION (Hyperventilation) [Finding]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: not
+>>>>> Phrase
+not
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1518422:Not (Negation) [Functional Concept]
+<<<<< Mappings
+
+Phrase: done.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.6: There were no epileptiform discharges. 
+
+Phrase: There
+>>>>> Phrase
+there
+<<<<< Phrase
+
+Phrase: were
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no epileptiform discharges.
+>>>>> Phrase
+epileptiform discharges
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0012621:Discharges (Body Fluid Discharge) [Body Substance]
+<<<<< Mappings
+Processing 00000000.tx.7: Interpretations: Mild diffuse cortical dysfunction. 
+
+Phrase: Interpretations
+>>>>> Phrase
+interpretations
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0459471:interpretations (Interpretation Process) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Mild diffuse cortical dysfunction.
+>>>>> Phrase
+mild diffuse cortical dysfunction
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   902   C3274775:MILD DYSFUNCTION (Mildly Abnormal Ejection Fraction) [Finding]
+   645   C0205219:DIFFUSE (Diffuse) [Spatial Concept]
+   645   C0007776:Cortical (Cerebral cortex) [Body Part, Organ, or Organ Component]
+Meta Mapping (861):
+   645   C2945599:MILD (Mild (qualifier value)) [Qualitative Concept]
+   645   C0205219:DIFFUSE (Diffuse) [Spatial Concept]
+   861   C0235454:Cortical dysfunction (ADRENAL CORTEX DYSFUNCTION) [Disease or Syndrome]
+<<<<< Mappings
+Processing 00000000.tx.8: ------------------------------------------------------------------------------ ?
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: --
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.9: Date:? 
+
+Phrase: Date
+>>>>> Phrase
+date
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0011008:DATE (Date in time) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: :?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.10: 2019-09-28 , ??????(M-Mode), Doppler Color flow m
+
+Phrase: 2019-09-28 ,
+>>>>> Phrase
+2019 09 28
+<<<<< Phrase
+
+Phrase: ??????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (M-Mode
+>>>>> Phrase
+m mode
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4331911:M-MODE (M-Mode Ultrasound Mode) [Functional Concept]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Doppler Color flow m
+>>>>> Phrase
+doppler color flow m
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (916):
+   756   C0475380:Doppler colour flow (Doppler color flow) [Diagnostic Procedure]
+   812   C0369637:M NOS (M NOS ANTIBODY) [Amino Acid, Peptide, or Protein,Immunologic Factor]
+<<<<< Mappings
+Processing 00000000.tx.1: Measurement: cm LVIDd: 4.76    LVIDs: 2.89     IVSd: 1.10    LVPWd: 1.19    LA: 4.55       AO: 3.31      ACS: 2.17     EPSS:         MV_EF: cm/s    EF: 70 %      E/A: <1
+
+Phrase: Measurement
+>>>>> Phrase
+measurement
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0242485:MEASUREMENT (Measurement) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: cm LVIDd
+>>>>> Phrase
+cm lvidd
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 4.76    LVIDs
+>>>>> Phrase
+4 76 lvids
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (623):
+   660   C3838679:4+ (4+ Answer to question) [Finding]
+   660   C4319622:76 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 2.89     IVSd
+>>>>> Phrase
+2 89 ivsd
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (660):
+   660   C2981700:2+ (2+ Score, WHO) [Classification]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 1.10    LVPWd
+>>>>> Phrase
+1 10 lvpwd
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (734):
+   734   C3843645:1-10 [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 1.19    LA
+>>>>> Phrase
+1 19 la
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (802):
+   660   C2981698:1+ (1+ Score, WHO) [Classification]
+   827   C2346906:LA (Lupus Anticoagulant Antibody) [Amino Acid, Peptide, or Protein,Immunologic Factor]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 4.55       AO
+>>>>> Phrase
+4 55 ao
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (623):
+   660   C3838679:4+ (4+ Answer to question) [Finding]
+   660   C0450382:55 [Intellectual Product]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 3.31      ACS
+>>>>> Phrase
+3 31 acs
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0439086:<3 (<3 (qualifier value)) [Quantitative Concept]
+   660   C0450355:31 [Quantitative Concept]
+   827   C0742343:ACS (Acute Chest Syndrome) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 2.17     EPSS
+>>>>> Phrase
+2 17 epss
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (734):
+   734   C4517628:2.17 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: MV_EF
+>>>>> Phrase
+mv ef
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C1454484:MV (VCL protein, human) [Amino Acid, Peptide, or Protein,Biologically Active Substance]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: cm/s    EF
+>>>>> Phrase
+cm s ef
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (734):
+   734   C0439392:cm/s [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 70 %      E/A
+>>>>> Phrase
+70 e a
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (660):
+   660   C3842584:70% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: <1
+>>>>> Phrase
+1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2981698:1+ (1+ Score, WHO) [Classification]
+<<<<< Mappings
+Processing 00000000.tx.1: Dilated Chamber:     Nil
+
+Phrase: Dilated Chamber
+>>>>> Phrase
+dilated chamber
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0700124:Dilated [Finding]
+   861   C0179874:Chamber (Chamber (physical object)) [Manufactured Object]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Nil
+>>>>> Phrase
+nil
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0442734:Nil [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.1: Hypertrophic Wall:     Nil
+
+Phrase: Hypertrophic Wall
+>>>>> Phrase
+hypertrophic wall
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0333959:Hypertrophic [Functional Concept]
+   861   C0677535:Wall (Walls of a building) [Manufactured Object]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Nil
+>>>>> Phrase
+nil
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0442734:Nil [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.1: Valvular Pathology:     There is no significant valvular lesion.
+
+Phrase: Valvular Pathology
+>>>>> Phrase
+valvular pathology
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (853):
+   623   C1186983:valves (anatomic valve) [Body Part, Organ, or Organ Component]
+   861   C0205469:pathology (Pathological aspects) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: There
+>>>>> Phrase
+there
+<<<<< Phrase
+
+Phrase: is
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no significant valvular lesion.
+>>>>> Phrase
+significant valvular lesion
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (828):
+   660   C0750502:Significant [Idea or Concept]
+   589   C1186983:valves (anatomic valve) [Body Part, Organ, or Organ Component]
+   827 N C0221198:Lesion [Finding]
+<<<<< Mappings
+Processing 00000000.tx.1: Wall Motion Abnormality:     There is no regional wall motion abnormality
+
+Phrase: Wall Motion Abnormality
+>>>>> Phrase
+wall motion abnormality
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C1980023:Wall motion [Clinical Attribute]
+   827   C1704258:Abnormality [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: There
+>>>>> Phrase
+there
+<<<<< Phrase
+
+Phrase: is
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no regional wall motion abnormality
+>>>>> Phrase
+regional wall motion abnormality
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   902 N C0266641:Regional ABNORMALITY (Regional congenital anomaly) [Congenital Abnormality]
+   861   C1980023:Wall motion [Clinical Attribute]
+<<<<< Mappings
+Processing 00000000.tx.1: Global LV function:     The global LV systolic function is normal.
+
+Phrase: Global LV function
+>>>>> Phrase
+global lv function
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C2348867:Global [Qualitative Concept]
+   660   C0023128:LV (Latvia) [Geographic Area]
+   827   C0031843:function (physiological aspects) [Physiologic Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: The global LV systolic function
+>>>>> Phrase
+global lv systolic function
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   645   C2348867:Global [Qualitative Concept]
+   812   C0023128:LV (Latvia) [Geographic Area]
+   812   C0039155:Systolic (Systole) [Temporal Concept]
+   812   C0031843:function (physiological aspects) [Physiologic Function]
+<<<<< Mappings
+
+Phrase: is
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: normal.
+>>>>> Phrase
+normal
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205307:NORMAL (Normal) [Qualitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.1: Diastolic:     Abnormal LV diastolic compliance
+
+Phrase: Diastolic
+>>>>> Phrase
+diastolic
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0012000:Diastolic (Diastole) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Abnormal LV diastolic compliance
+>>>>> Phrase
+abnormal lv diastolic compliance
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   645   C0205161:ABNORMAL (Abnormal) [Finding]
+   645   C0023128:LV (Latvia) [Geographic Area]
+   645   C0012000:Diastolic (Diastole) [Clinical Attribute]
+   812   C1321605:COMPLIANCE (Compliance behavior) [Individual Behavior]
+<<<<< Mappings
+Processing 00000000.tx.1: Pericardium:     There is no pericardial effusion.
+
+Phrase: Pericardium
+>>>>> Phrase
+pericardium
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0031050:PERICARDIUM (Pericardial sac structure) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: There
+>>>>> Phrase
+there
+<<<<< Phrase
+
+Phrase: is
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no pericardial effusion.
+>>>>> Phrase
+pericardial effusion
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0031039:Effusion, Pericardial (Pericardial effusion) [Disease or Syndrome]
+<<<<< Mappings
+      

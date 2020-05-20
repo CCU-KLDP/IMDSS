@@ -1,5 +1,5 @@
 ﻿RegisterID,PresentIllness
-WA1_1081004143855,"Chief Complaints
+WA1_1081004143855_1,"Chief Complaints
 Sudden of trunk deviation to left side, left limbs weakness, then right-ward looking, and slurred speech while having meeting with sitting position at 08:30 this morning 
 
 Present Illness
@@ -23,7 +23,242 @@ right MCA post EVT.
 acute large cerebral infarction at right middle cerebral artery territory s/p t
 -PA and EVT so he was admitted to ICU for further management.
  
-"
+
+Past History
+
+[History]
+	Hypertension(-)
+
+	Diabetes Mellitus(-)
+
+	Heart disease(-)
+
+	Lung disease(-)
+
+	Renal disease(-)
+ 
+[Operation History]
+       病患沒做過手術
+[過敏性疾病]
+	Nil
+[藥物過敏史]
+	【無已知用藥過敏史】
+[院外用藥]
+	病人尚未簽署同意下載雲端藥歷，所以無法載入院外用藥。
+ 
+
+ 
+
+Personal, Social and Occupational History
+
+Marital status：Unmarried (未婚)
+Race/ethnicity：華人
+吸菸：沒有吸菸(含電子煙)的習慣
+喝酒：沒有喝酒的習慣
+吃檳榔：沒有嚼檳榔的習慣
+
+ 
+
+Family History
+
+病患無已知的家族疾病
+[補充說明]
+	Nil.
+
+ 
+
+ 
+
+Review of Systems
+
+1.Systemic        ：BW change(-)                fatigue(-)
+2.HEENT           ：hearing loss(-)             headache(-)
+3.Chest ＆ CV      ：chest pain(-)               palpitation(-)
+4.GI              ：constipation(-)
+                    ★nausea(+)
+                    in this morning
+ 
+5.GU              ：dysuria(-)                  acute urinary retention(-)
+6.Genitalia       ：Swelling in scrotum(-)      Pain in scrotum(-)
+7.Musculoskeletal ：★weakness(+)
+                    left limbs weakness
+ 
+8.Neurological    ：numbness(-)                 convulsion(-)
+9.Skin            ：purpura(-)                  itching(-)
+10.Mental         ：insomnia(-)                 anxiety(-)
+
+ 
+
+Physical Examination
+
+★ Insight：intact
+BH：180.0cm             BW： 92.000kg            BMI： 28.3  BMI status：過重
+BT： 36.0℃             HR：107次/Min            RR： 26次/Min
+SBP：121mmHg            DBP： 77mmHg
+Physical Examination：
+  ◇ Consciousness：E4V5M6
+  ◇ Appearance   ：acute ill-looking or well
+  ◇ Head         ：no deformity,
+  ◇ Eyes         ：isocoric
+     light reflex ：right    +    ,left   +
+     conjunctiva  ：pink,     sclera：anicteric.
+  ◇ ENT          ：no injected throat, no enlarged tonsil
+  ◇ Neck         ：supple,
+                    carotid bruit: nil
+  ◇ Chest        ：symmetric expansion,
+                    Breathing sound clear
+  ◇ Heart        ：regular heart beat
+                    no murmurs
+  ◇ Abdomen     ： soft and flat, no tenderness
+                   bowel sounds ：normoactive
+  ◇ Extremity    ：freely movable, no pedal edema
+Neurological Examination：
+  ◇ Consciousness：clear
+  ◇ High cortical function ：
+     orientation to time(+), place(+), person(+)
+     speech  ：spontaneous speech
+     comprehension：ok
+Cranial nerves：
+  Ⅱ - isocoric：right  3.5  mm, left   3.5  mm,
+       light reflex ：right   +    , left   +    ,
+       visual acuity： normal
+       visual field ：intact
+Ⅲ、Ⅳ、Ⅵ
+                        Ｏ      Ｏ                    Ｏ      Ｏ
+                        │      │                    │      │
+                    Ｏ─┼Ｘ──┼─Ｏ            Ｏ─┼Ｘ──┼─Ｏ
+                        │      │                    │      │
+                        Ｏ      Ｏ                    Ｏ      Ｏ
+
+Ⅴ - facial sensation ：left central facial palsy
+     mastication      ：symmetric
+Ⅶ - facial expression：mild elevation of left side
+
+
+Ⅷ - normal hearing
+     no nystagmus
+Ⅸ,Ⅹ - palatal elevation：mild elevation of left side
+Ⅸ - muscle power in sternocleidomastoid and trapezius：muscle power in
+      sternocleidomastoid and trapezius：symmetric
+XⅡ - no atrophy, no fasciculation,
+      tongue protrusion：mild elevation of left side
+
+Motor system：
+   Muscle status - no atrophy, fasciculation, hypertrophy, or tenderness,
+   Muscle tone   - no rigidity, spasticity, hypotonia,
+ Muscle power and deep tendon reflexes：
+
+                   ○
+                   │
+              4＼／▽＼／3
+                   │
+                 ／  ＼
+                4＼  ／3
+                 ／  ＼
+
+NF: right :no dysmetria, left: too weak to perform
+Pinprick: favor anaesthesia in left limbs
+ 
+
+ "
+WA1_1081004143855_2,"Image Findings and Other Laboratory Examinations
+2019-09-25  , Chest
+
+------------------------------------------------------------------------------
+
+2019-09-25  , CT-Brain (腦中風特急件)
+
+The transaxial non-contrast brain CT scan in slice thickness of 5 mm shows:
+1.Hyperdense of right middle cerebral artery (Ima 10 of series 2).
+  Dense hypervascular sign of thrombosis should be highly suspected.
+2.No evidence of intracranial hemorrhage.
+3.The midline structure and bilateral ventricular system
+  shows essentially normal.
+4.No evidence of bony fracture or destruction.
+5.No evidence of abnormal density in bilateral cerebello-pontine angles
+  and pituitary fossa.
+
+IMP:Highly suspect dense hypervascular sign of right MCA.Advise
+    clinical to exclude acute thrombosis.
+------------------------------------------------------------------------------
+
+2019-09-25  , CT-Arteriogram-Brain Multi Phase 有/無造
+
+Multiphase brain CTA with and without enhancement
+
+＞A segmental occlusion at M1 segment of Rt MCA.
+
+IMP
+＞Large vessel occlusion, M1 segment of Rt MCA.
+Please correlate clinically and recommend follow up regularly.
+------------------------------------------------------------------------------
+
+2019-09-25  , 4NEAIS
+
+------------------------------------------------------------------------------
+
+2019-09-25  , Carotid a
+
+------------------------------------------------------------------------------
+ 
+
+Diagnosis / Problem list
+
+ 1  Highly suspect dense hypervascular sign induced
+    acute large cerebral infarction at right middle cerebral
+    artery territory s/p t-PA and EVT
+
+ 
+
+Assessment and Plan
+
+★ 1. Highly suspect dense hypervascular sign induced
+      acute large cerebral infarction at right middle cerebral
+      artery territory s/p t-PA and EVT
+   ■  Assessment
+          Sudden of trunk deviation to left side, left limbs weakness, then
+       right-ward looking, and slurred speech while having meeting with sitting
+       position at 08:30 this morning
+          Brain CT finding no ICH,favor right dense MCA sign s/p t-PA (NIHHS:21)
+          BTA was arranged done then showed highly suspect dense hypervascular sign
+       of right MCA post EVT.
+          Highly suspect dense hypervascular sign induced acute large cerebral
+       infarction at right middle cerebral artery territory s/p t-PA and EVT
+   ■  Diagnostic plan
+       - Monitor consciousness level and neurological examinations
+       - Watch vital signs
+       - Arrange brain MRI-MRA for further stroke lesion survey
+       - Check lipid profile for stroke risk factor survey
+   ■  Therapeutic plan
+       .Check vital signs and GCS q15 min x 2 hr, 之後 q30 min x 6 hr,之後 q60 min
+        x 16 hr; 之後同 ICU routine
+       .如TICI 分數2b或3，收縮壓大於140。以上情形使用降血壓藥物注射後 15 分鐘再
+        check BP 一次, 如仍超過血壓控制目標, 立即再次通知醫師
+       .Record NIHSS Q4h with prn 24hrs then Q8h with prn
+       .If NIHSS 惡化大於或等於4分, 請 call Dr, 馬上安排 noncontrast head CT
+       .NPO for 24 hr (避免 on NG for 24 hr)
+       .24 小時內禁用 Heparin, Coumadin, ASA, Bokey, Tapal, Aggrenox, Plavix,
+        Licodin, Persantin 等抗凝劑及抗血栓藥物
+       .於EVT 術後24 到 36 小時之間追蹤 noncontrast head CT
+       - Adequate intravensous fluid hydration
+         NS 0.9% 500cc                               500   Q6H  IVD
+       - H2 receptor antagonist for stress uler preventions
+         (針)Gaster 20mg inj(Famodine)                 1   Q12H IVP
+ 
+
+ 
+Discharge planning
+
+ 
+
+住院診療計畫告知
+■入院診療計畫已告知病人之父母
+
+ 
+
+VS Comment
+keep current treatment
+ "
 WA2_1080926105745,"Subjective
 
  Much improved left limbs weakness

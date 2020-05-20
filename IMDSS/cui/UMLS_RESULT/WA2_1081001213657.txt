@@ -4838,3 +4838,1939 @@ Meta Mapping (833):
    833   C0029087:OPHTHALMOLOGY (Ophthalmology specialty) [Biomedical Occupation or Discipline]
 <<<<< Mappings
       
+Processing 00000000.tx.1: Subjective Left side mild weakness improved. still cough.  
+
+Phrase: Subjective Left side mild weakness
+>>>>> Phrase
+subjective left side mild weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (875):
+   637   C0439655:Subjective (Subjective observation (qualifier value)) [Qualitative Concept]
+   888   C0457436:left side weakness (Left hemiparesis) [Finding]
+   637   C2945599:MILD (Mild (qualifier value)) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: improved.
+>>>>> Phrase
+improved
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0332272:Improved (Better) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: still
+>>>>> Phrase
+still
+<<<<< Phrase
+
+Phrase: cough.
+>>>>> Phrase
+cough
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1961131:Cough (Cough Adverse Event) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.2: Objective 2019-10-01 08:10 V/S:BT36.5C(?);HR 96?/?;RR 16?/?;NBP 110/ 81mmHg Consciousness: clear and alert today Chest        : smooth breath pattern                breathing sound clear ->no wheezing, no crackles Abdomen      : Soft, norval active bowel sound, no tenderness EXT:  warm of limbs ; no patting edema
+
+Phrase: Objective 2019-10-01 08
+>>>>> Phrase
+objective 2019 10 01 08
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (742):
+   804   C0018017:Objective (objective (goal)) [Intellectual Product]
+   804   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 10 V/S
+>>>>> Phrase
+10 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C3842590:10% [Quantitative Concept]
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT36.5C
+>>>>> Phrase
+bt36 5c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 96?/?
+>>>>> Phrase
+hr 96
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C4319625:96 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ;RR 16?/?
+>>>>> Phrase
+rr 16
+<<<<< Phrase
+
+Phrase: ;NBP 110/ 81mmHg Consciousness
+>>>>> Phrase
+nbp 110 81mmhg consciousness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (812):
+   812   C0009791:consciousness (Consciousness related finding) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: clear
+>>>>> Phrase
+clear
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1709157:Clear (Negative Surgical Margin) [Finding]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: alert today Chest
+>>>>> Phrase
+alert today chest
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0239110:ALERT (Consciousness clear) [Finding]
+   660   C0310367:Today [Antibiotic,Organic Chemical]
+   827   C0817096:CHEST (Chest) [Body Location or Region]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: smooth breath pattern                breathing sound clear -
+>>>>> Phrase
+smooth breath pattern breathing sound clear
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   632   C0205357:Smooth [Qualitative Concept]
+   691   C0035234:breath sound (Respiratory Sounds) [Clinical Attribute]
+   632   C0449774:Pattern (Patterns) [Spatial Concept]
+   632   C0035203:Breathing (Respiration) [Physiologic Function]
+   799   C1709157:Clear (Negative Surgical Margin) [Finding]
+Meta Mapping (827):
+   632   C0205357:Smooth [Qualitative Concept]
+   632   C0225386:Breath [Body Substance]
+   632   C0449774:Pattern (Patterns) [Spatial Concept]
+   660   C0035234:Sound, Breathing (Respiratory Sounds) [Clinical Attribute]
+   799   C1709157:Clear (Negative Surgical Margin) [Finding]
+<<<<< Mappings
+
+Phrase: >
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no wheezing,
+>>>>> Phrase
+wheezing
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0043144:WHEEZING (Wheezing) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: no
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: crackles
+>>>>> Phrase
+crackles
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0240859:Crackles (Basilar Rales) [Finding]
+<<<<< Mappings
+
+Phrase: Abdomen
+>>>>> Phrase
+abdomen
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0000726:ABDOMEN (Abdomen) [Body Location or Region]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Soft, norval active bowel sound,
+>>>>> Phrase
+soft norval active bowel sound
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (794):
+   637   C0205358:Soft [Qualitative Concept]
+   637   C0205177:Active [Qualitative Concept]
+   840 N C0232693:bowel sound (Bowel sounds) [Finding]
+<<<<< Mappings
+
+Phrase: no tenderness EXT
+>>>>> Phrase
+tenderness ext
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694 N C0234233:TENDERNESS (NOS) (Sore to touch) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: warm of limbs
+>>>>> Phrase
+warm of limbs
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (858):
+   858 N C0424742:Warm Limbs (Warm extremities) [Finding]
+<<<<< Mappings
+
+Phrase: ;
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no patting edema
+>>>>> Phrase
+patting edema
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (872):
+   661   C2825250:PAT (Fenamole) [Organic Chemical,Pharmacologic Substance]
+   861 N C0013604:OEDEMA (Edema) [Sign or Symptom]
+<<<<< Mappings
+Processing 00000000.tx.1: Neurological Examination:  Cranial nerves:   II - isocoric:right  3.5  mm, left   3.5  mm,        light reflex :right   +    , left   +    ,        visual acuity: normal        visual field :favor mild peripheral left homonymous hemianopsia III,IV,VI                         O      O                    O      O                         ?      
+
+Phrase: Neurological Examination
+>>>>> Phrase
+neurological examination
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0027853:Neurological Examination (Neurologic Examination) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Cranial nerves
+>>>>> Phrase
+cranial nerves
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0010268:CRANIAL NERVES (Cranial Nerves) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: II - isocoric
+>>>>> Phrase
+ii isocoric
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C1710602:II (VIPR1 wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: right  3.5  mm,
+>>>>> Phrase
+right 3 5 mm
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (791):
+   645   C0205090:RIGHT (Right) [Spatial Concept]
+   812   C4330985:/mm (Per Millimeter) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: left
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: 3.5  mm,
+>>>>> Phrase
+3 5 mm
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (913):
+   913   C3842088:3 mm [Finding]
+<<<<< Mappings
+
+Phrase: light reflex
+>>>>> Phrase
+light reflex
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234671:Light reflex (Pupil afferent light reaction) [Organ or Tissue Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: right   +    ,
+>>>>> Phrase
+right
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205090:RIGHT (Right) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: left   +    ,
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: visual acuity
+>>>>> Phrase
+visual acuity
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0042812:Visual Acuity [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: normal        visual field
+>>>>> Phrase
+normal visual field
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0205307:NORMAL (Normal) [Qualitative Concept]
+   901   C0042826:Visual Field (Visual Fields) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: favor
+>>>>> Phrase
+favor
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0309049:FAVOR (favor) [Organic Chemical,Pharmacologic Substance,Vitamin]
+<<<<< Mappings
+
+Phrase: mild peripheral left homonymous hemianopsia III,
+>>>>> Phrase
+mild peripheral left homonymous hemianopsia iii
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   632   C2945599:MILD (Mild (qualifier value)) [Qualitative Concept]
+   632   C0205100:PERIPHERAL (Peripheral) [Spatial Concept]
+   694   C0271204:Left homonymous hemianopsia [Finding]
+   799   C1705160:III (III (suffix)) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: IV,
+>>>>> Phrase
+iv
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0022326:IV (Ivory Coast) [Geographic Area]
+<<<<< Mappings
+
+Phrase: VI                         O      O                    O      O                         ?
+>>>>> Phrase
+vi o o o o
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (637):
+   637   C0205999:VI (British Virgin Islands) [Geographic Area]
+<<<<< Mappings
+Processing 00000000.tx.2: ?                    
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: ?      
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: ?                     
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.5: O???X???O            O???X???O                         ?      
+
+Phrase: O???X???O            O???X???O                         ?
+>>>>> Phrase
+o x o o x o
+<<<<< Phrase
+Processing 00000000.tx.6: ?                    
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.7: ?      
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.8: ?                         
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.9: O      O                    O      O  Muscle power:
+
+Phrase: O      O                    O      O  Muscle power
+>>>>> Phrase
+o o o o muscle power
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (805):
+   632   C0483204:O NOS (O NOS Ab) [Amino Acid, Peptide, or Protein,Immunologic Factor]
+   827   C0427052:Muscle power (Finding of power of skeletal muscle) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.1: ?               
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: 5   5? 
+
+Phrase: 5   5?
+>>>>> Phrase
+5 5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3844008:5.5 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.3: >4 >4                ?/??/                    ?                  
+
+Phrase: >4
+>>>>> Phrase
+4
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3838679:4+ (4+ Answer to question) [Finding]
+<<<<< Mappings
+
+Phrase: >4                ?/??/                    ?
+>>>>> Phrase
+4
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3838679:4+ (4+ Answer to question) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.4: /  ?               
+
+Phrase: /  ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.5: 5  ?  
+
+Phrase: 5  ?
+>>>>> Phrase
+5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.6: / 4                  /  ?
+
+Phrase: / 4                  /  ?
+>>>>> Phrase
+4
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3838679:4+ (4+ Answer to question) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.1: Gait: mild wide base gait, mild left ward deviation
+
+Phrase: Gait
+>>>>> Phrase
+gait
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0016928:Gait [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: mild wide base gait,
+>>>>> Phrase
+mild wide base gait
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (898):
+   645   C2945599:MILD (Mild (qualifier value)) [Qualitative Concept]
+   899   C0856863:Wide-based gait (Broad-based gait) [Finding]
+<<<<< Mappings
+
+Phrase: mild left ward deviation
+>>>>> Phrase
+mild left ward deviation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   645   C2945599:MILD (Mild (qualifier value)) [Qualitative Concept]
+   645   C0205091:LEFT (Left) [Spatial Concept]
+   645   C2355574:Ward (Ward (person)) [Population Group]
+   812   C1705236:Deviation (Protocol Deviation) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.1: Problem 01 .
+
+Phrase: Problem 01 .
+>>>>> Phrase
+problem 01
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0033213:Problem [Finding]
+<<<<< Mappings
+Processing 00000000.tx.2: Acute large cerebral infarction at right middle cerebral artery territory; young stroke, with acute left limbs weakness,  status post intravenous thrombolytic therapy and endovascular thrombectomy (on 2019/9/25)  Assessment - GCS E4V5M6 - MP: RUL:5, RUL:5, LUL:5, LLL:5 - EOM free - Lab showed hyperhomocysteinemia with decifiency of folic acid and vitamin   B12, FA and KoBal were prescribe
+
+Phrase: Acute large cerebral infarction at right middle cerebral artery territory
+>>>>> Phrase
+acute large cerebral infarction at right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (775):
+   573   C0205178:ACUTE (acute) [Temporal Concept]
+   573   C0549177:LARGE (Large) [Quantitative Concept]
+   573   C0444532:Right (Right sided) [Spatial Concept]
+   820 N C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   573   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: ; young stroke,
+>>>>> Phrase
+young stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0332239:Young [Temporal Concept]
+   861 N C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with acute left limbs weakness,
+>>>>> Phrase
+acute left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0205178:ACUTE (acute) [Temporal Concept]
+   645   C0205091:LEFT (Left) [Spatial Concept]
+   861 N C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: status post intravenous thrombolytic therapy
+>>>>> Phrase
+intravenous thrombolytic therapy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   913   C0455142:Intravenous therapy [Therapeutic or Preventive Procedure]
+   827   C0520997:Thrombolytic (Thrombolysis, function) [Clinical Attribute]
+Meta Mapping (901):
+   660   C0348016:Intravenous [Spatial Concept]
+   901   C0040044:Thrombolytic Therapy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: endovascular thrombectomy
+>>>>> Phrase
+endovascular thrombectomy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0524425:Endovascular (inside the blood vessel) [Body Location or Region]
+   861   C0162578:Thrombectomy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/25
+>>>>> Phrase
+2019 9 25
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Assessment - GCS E4V5M6 - MP
+>>>>> Phrase
+assessment gcs e4v5m6 mp
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (775):
+   645   C1516048:Assessment (Assessed) [Activity]
+   645   C4283742:GCS (Ceramide Glucosyltransferase, human) [Amino Acid, Peptide, or Protein,Enzyme]
+   812   C0024944:MP (Mauritius) [Geographic Area]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: RUL
+>>>>> Phrase
+rul
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1261074:RUL (Structure of right upper lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5,
+>>>>> Phrase
+5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: RUL
+>>>>> Phrase
+rul
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1261074:RUL (Structure of right upper lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5,
+>>>>> Phrase
+5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: LUL
+>>>>> Phrase
+lul
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1261076:LUL (Structure of left upper lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5,
+>>>>> Phrase
+5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: LLL
+>>>>> Phrase
+lll
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1261077:LLL (Structure of left lower lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5 - EOM free - Lab
+>>>>> Phrase
+5 eom free lab
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   645   C0439084:>5 [Quantitative Concept]
+   645   C0241886:EOM (extraocular) [Functional Concept]
+   645   C1996904:Free (Free (available (qualifier))) [Qualitative Concept]
+   812   C0022877:Lab (Laboratory) [Health Care Related Organization,Manufactured Object]
+<<<<< Mappings
+
+Phrase: showed
+>>>>> Phrase
+showed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: hyperhomocysteinemia with decifiency of folic acid
+>>>>> Phrase
+hyperhomocysteinemia with decifiency of folic acid
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (722):
+   753   C0598608:hyperhomocysteinaemia (Hyperhomocysteinemia) [Disease or Syndrome]
+   623   C0016410:FOLIC ACID (Folic Acid) [Organic Chemical,Pharmacologic Substance,Vitamin]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: vitamin   B12,
+>>>>> Phrase
+vitamin b12
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0042845:Vitamin B12 (Vitamin B 12) [Organic Chemical,Pharmacologic Substance,Vitamin]
+<<<<< Mappings
+
+Phrase: FA
+>>>>> Phrase
+fa
+<<<<< Phrase
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: KoBal
+>>>>> Phrase
+kobal
+<<<<< Phrase
+
+Phrase: were
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: prescribe
+>>>>> Phrase
+prescribe
+<<<<< Phrase
+Processing 00000000.tx.1: Plan ---Therapeutic plan - Keep anti-platate agent with Bokey 1# po qd - Adequate intravensous fluid hydration with NS 0.9% 500cc Q12H IVD - Increased dose with FA 1# QD to 1# BID - DC Gaster po and decreased Mopride 1# TID ro 1# QD - Keep antitussive agent for symptoms relief - Monitor neurological sign - Keep rehabilitation - Consult Ophthalmology for ????
+
+Phrase: Plan
+>>>>> Phrase
+plan
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1301732:Plan (Planned) [Functional Concept]
+<<<<< Mappings
+
+Phrase: ---
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Therapeutic plan -
+>>>>> Phrase
+therapeutic plan
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0087111:Therapeutic (Therapeutic procedure) [Therapeutic or Preventive Procedure]
+   861   C1301732:Plan (Planned) [Functional Concept]
+<<<<< Mappings
+
+Phrase: Keep
+>>>>> Phrase
+keep
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0333118:Keep (Retained) [Functional Concept]
+<<<<< Mappings
+
+Phrase: anti-platate agent with Bokey 1# po qd - Adequate intravensous fluid hydration
+>>>>> Phrase
+anti platate agent with bokey 1 po qd adequate intravensous fluid hydration
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (654):
+   736   C1254351:Agent (Pharmacologic Substance) [Pharmacologic Substance]
+   584   C0297198:PO-1 [Organic Chemical]
+   570   C0332173:QD (Daily) [Temporal Concept]
+   570   C0205411:Adequate [Qualitative Concept]
+   570   C0302908:fluid (Liquid substance) [Substance]
+   570   C1321013:Hydration (Hydration status) [Finding]
+<<<<< Mappings
+
+Phrase: with NS 0.9% 500cc Q12H IVD - Increased dose with FA 1# QD
+>>>>> Phrase
+with ns 0 9 500cc q12h ivd increased dose with fa 1 qd
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (681):
+   582   C1541397:NS-9 [Pharmacologic Substance]
+   569   C3842591:0% [Quantitative Concept]
+   569   C0585327:Q12H (Every twelve hours) [Temporal Concept]
+   569   C1416523:IVD (IVD gene) [Gene or Genome]
+   569   C0205217:Increased [Quantitative Concept]
+   735   C0178602:DOSE (Dosage) [Quantitative Concept]
+   583   C1417724:FA-1 (SNU13 gene) [Gene or Genome]
+   569   C0332173:QD (Daily) [Temporal Concept]
+Meta Mapping (681):
+   569   C0038944:NS (Suriname) [Geographic Area]
+   583   C4068881:0.9 [Quantitative Concept]
+   569   C0585327:Q12H (Every twelve hours) [Temporal Concept]
+   569   C1416523:IVD (IVD gene) [Gene or Genome]
+   569   C0205217:Increased [Quantitative Concept]
+   735   C0178602:DOSE (Dosage) [Quantitative Concept]
+   583   C1417724:FA-1 (SNU13 gene) [Gene or Genome]
+   569   C0332173:QD (Daily) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: to 1# BID - DC Gaster po
+>>>>> Phrase
+1 bid dc gaster po
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (762):
+   637   C2981698:1+ (1+ Score, WHO) [Classification]
+   637   C0038351:Gaster (Stomach) [Body Part, Organ, or Organ Component]
+   804   C0442027:PO (Oral) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: decreased Mopride 1# TID ro 1# QD -
+>>>>> Phrase
+decreased mopride 1 tid ro 1 qd
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (735):
+   629   C0205216:Decreased [Quantitative Concept]
+   629   C1610169:TID (three times a day at institution-specified times) [Temporal Concept]
+   629   C1413096:RO (CALR gene) [Gene or Genome]
+   795   C0332173:QD (Daily) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: Keep
+>>>>> Phrase
+keep
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0333118:Keep (Retained) [Functional Concept]
+<<<<< Mappings
+
+Phrase: antitussive agent for symptoms relief -
+>>>>> Phrase
+antitussive agent for symptoms relief
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (759):
+   806   C0003449:Antitussive Agent (Antitussive Agents) [Pharmacologic Substance]
+   598   C3242309:symptomatic relief [Idea or Concept]
+<<<<< Mappings
+
+Phrase: Monitor
+>>>>> Phrase
+monitor
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0150369:monitor (Preventive monitoring) [Health Care Activity]
+<<<<< Mappings
+
+Phrase: neurological sign -
+>>>>> Phrase
+neurological sign
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0205494:NEUROLOGICAL (Neurologic (qualifier value)) [Qualitative Concept]
+   861 N C0311392:Sign (Physical findings) [Finding]
+<<<<< Mappings
+
+Phrase: Keep
+>>>>> Phrase
+keep
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0333118:Keep (Retained) [Functional Concept]
+<<<<< Mappings
+
+Phrase: rehabilitation -
+>>>>> Phrase
+rehabilitation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1306847:Rehabilitation (Rehabilitation - specialty) [Biomedical Occupation or Discipline]
+<<<<< Mappings
+
+Phrase: Consult
+>>>>> Phrase
+consult
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0009818:Consult (Consultation) [Health Care Activity]
+<<<<< Mappings
+
+Phrase: Ophthalmology for ????
+>>>>> Phrase
+ophthalmology for
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   833   C0029087:OPHTHALMOLOGY (Ophthalmology specialty) [Biomedical Occupation or Discipline]
+<<<<< Mappings
+      
+Processing 00000000.tx.1: Subjective Left side mild weakness improved. still cough.  
+
+Phrase: Subjective Left side mild weakness
+>>>>> Phrase
+subjective left side mild weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (875):
+   637   C0439655:Subjective (Subjective observation (qualifier value)) [Qualitative Concept]
+   888   C0457436:left side weakness (Left hemiparesis) [Finding]
+   637   C2945599:MILD (Mild (qualifier value)) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: improved.
+>>>>> Phrase
+improved
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0332272:Improved (Better) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: still
+>>>>> Phrase
+still
+<<<<< Phrase
+
+Phrase: cough.
+>>>>> Phrase
+cough
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1961131:Cough (Cough Adverse Event) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.2: Objective 2019-10-01 08:10 V/S:BT36.5C(?);HR 96?/?;RR 16?/?;NBP 110/ 81mmHg Consciousness: clear and alert today Chest        : smooth breath pattern                breathing sound clear ->no wheezing, no crackles Abdomen      : Soft, norval active bowel sound, no tenderness EXT:  warm of limbs ; no patting edema
+
+Phrase: Objective 2019-10-01 08
+>>>>> Phrase
+objective 2019 10 01 08
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (742):
+   804   C0018017:Objective (objective (goal)) [Intellectual Product]
+   804   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 10 V/S
+>>>>> Phrase
+10 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C3842590:10% [Quantitative Concept]
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT36.5C
+>>>>> Phrase
+bt36 5c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 96?/?
+>>>>> Phrase
+hr 96
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C4319625:96 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ;RR 16?/?
+>>>>> Phrase
+rr 16
+<<<<< Phrase
+
+Phrase: ;NBP 110/ 81mmHg Consciousness
+>>>>> Phrase
+nbp 110 81mmhg consciousness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (812):
+   812   C0009791:consciousness (Consciousness related finding) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: clear
+>>>>> Phrase
+clear
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1709157:Clear (Negative Surgical Margin) [Finding]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: alert today Chest
+>>>>> Phrase
+alert today chest
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0239110:ALERT (Consciousness clear) [Finding]
+   660   C0310367:Today [Antibiotic,Organic Chemical]
+   827   C0817096:CHEST (Chest) [Body Location or Region]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: smooth breath pattern                breathing sound clear -
+>>>>> Phrase
+smooth breath pattern breathing sound clear
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   632   C0205357:Smooth [Qualitative Concept]
+   691   C0035234:breath sound (Respiratory Sounds) [Clinical Attribute]
+   632   C0449774:Pattern (Patterns) [Spatial Concept]
+   632   C0035203:Breathing (Respiration) [Physiologic Function]
+   799   C1709157:Clear (Negative Surgical Margin) [Finding]
+Meta Mapping (827):
+   632   C0205357:Smooth [Qualitative Concept]
+   632   C0225386:Breath [Body Substance]
+   632   C0449774:Pattern (Patterns) [Spatial Concept]
+   660   C0035234:Sound, Breathing (Respiratory Sounds) [Clinical Attribute]
+   799   C1709157:Clear (Negative Surgical Margin) [Finding]
+<<<<< Mappings
+
+Phrase: >
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no wheezing,
+>>>>> Phrase
+wheezing
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0043144:WHEEZING (Wheezing) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: no
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: crackles
+>>>>> Phrase
+crackles
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0240859:Crackles (Basilar Rales) [Finding]
+<<<<< Mappings
+
+Phrase: Abdomen
+>>>>> Phrase
+abdomen
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0000726:ABDOMEN (Abdomen) [Body Location or Region]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Soft, norval active bowel sound,
+>>>>> Phrase
+soft norval active bowel sound
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (794):
+   637   C0205358:Soft [Qualitative Concept]
+   637   C0205177:Active [Qualitative Concept]
+   840 N C0232693:bowel sound (Bowel sounds) [Finding]
+<<<<< Mappings
+
+Phrase: no tenderness EXT
+>>>>> Phrase
+tenderness ext
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694 N C0234233:TENDERNESS (NOS) (Sore to touch) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: warm of limbs
+>>>>> Phrase
+warm of limbs
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (858):
+   858 N C0424742:Warm Limbs (Warm extremities) [Finding]
+<<<<< Mappings
+
+Phrase: ;
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no patting edema
+>>>>> Phrase
+patting edema
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (872):
+   661   C2825250:PAT (Fenamole) [Organic Chemical,Pharmacologic Substance]
+   861 N C0013604:OEDEMA (Edema) [Sign or Symptom]
+<<<<< Mappings
+Processing 00000000.tx.1: Neurological Examination:  Cranial nerves:   II - isocoric:right  3.5  mm, left   3.5  mm,        light reflex :right   +    , left   +    ,        visual acuity: normal        visual field :favor mild peripheral left homonymous hemianopsia III,IV,VI                         O      O                    O      O                         ?      
+
+Phrase: Neurological Examination
+>>>>> Phrase
+neurological examination
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0027853:Neurological Examination (Neurologic Examination) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Cranial nerves
+>>>>> Phrase
+cranial nerves
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0010268:CRANIAL NERVES (Cranial Nerves) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: II - isocoric
+>>>>> Phrase
+ii isocoric
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C1710602:II (VIPR1 wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: right  3.5  mm,
+>>>>> Phrase
+right 3 5 mm
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (791):
+   645   C0205090:RIGHT (Right) [Spatial Concept]
+   812   C4330985:/mm (Per Millimeter) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: left
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: 3.5  mm,
+>>>>> Phrase
+3 5 mm
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (913):
+   913   C3842088:3 mm [Finding]
+<<<<< Mappings
+
+Phrase: light reflex
+>>>>> Phrase
+light reflex
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234671:Light reflex (Pupil afferent light reaction) [Organ or Tissue Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: right   +    ,
+>>>>> Phrase
+right
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205090:RIGHT (Right) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: left   +    ,
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: visual acuity
+>>>>> Phrase
+visual acuity
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0042812:Visual Acuity [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: normal        visual field
+>>>>> Phrase
+normal visual field
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0205307:NORMAL (Normal) [Qualitative Concept]
+   901   C0042826:Visual Field (Visual Fields) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: favor
+>>>>> Phrase
+favor
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0309049:FAVOR (favor) [Organic Chemical,Pharmacologic Substance,Vitamin]
+<<<<< Mappings
+
+Phrase: mild peripheral left homonymous hemianopsia III,
+>>>>> Phrase
+mild peripheral left homonymous hemianopsia iii
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   632   C2945599:MILD (Mild (qualifier value)) [Qualitative Concept]
+   632   C0205100:PERIPHERAL (Peripheral) [Spatial Concept]
+   694   C0271204:Left homonymous hemianopsia [Finding]
+   799   C1705160:III (III (suffix)) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: IV,
+>>>>> Phrase
+iv
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0022326:IV (Ivory Coast) [Geographic Area]
+<<<<< Mappings
+
+Phrase: VI                         O      O                    O      O                         ?
+>>>>> Phrase
+vi o o o o
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (637):
+   637   C0205999:VI (British Virgin Islands) [Geographic Area]
+<<<<< Mappings
+Processing 00000000.tx.2: ?                    
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: ?      
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: ?                     
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.5: O???X???O            O???X???O                         ?      
+
+Phrase: O???X???O            O???X???O                         ?
+>>>>> Phrase
+o x o o x o
+<<<<< Phrase
+Processing 00000000.tx.6: ?                    
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.7: ?      
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.8: ?                         
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.9: O      O                    O      O  Muscle power:
+
+Phrase: O      O                    O      O  Muscle power
+>>>>> Phrase
+o o o o muscle power
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (805):
+   632   C0483204:O NOS (O NOS Ab) [Amino Acid, Peptide, or Protein,Immunologic Factor]
+   827   C0427052:Muscle power (Finding of power of skeletal muscle) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.1: ?               
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: 5   5? 
+
+Phrase: 5   5?
+>>>>> Phrase
+5 5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3844008:5.5 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.3: >4 >4                ?/??/                    ?                  
+
+Phrase: >4
+>>>>> Phrase
+4
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3838679:4+ (4+ Answer to question) [Finding]
+<<<<< Mappings
+
+Phrase: >4                ?/??/                    ?
+>>>>> Phrase
+4
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3838679:4+ (4+ Answer to question) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.4: /  ?               
+
+Phrase: /  ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.5: 5  ?  
+
+Phrase: 5  ?
+>>>>> Phrase
+5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.6: / 4                  /  ?
+
+Phrase: / 4                  /  ?
+>>>>> Phrase
+4
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3838679:4+ (4+ Answer to question) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.1: Gait: mild wide base gait, mild left ward deviation
+
+Phrase: Gait
+>>>>> Phrase
+gait
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0016928:Gait [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: mild wide base gait,
+>>>>> Phrase
+mild wide base gait
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (898):
+   645   C2945599:MILD (Mild (qualifier value)) [Qualitative Concept]
+   899   C0856863:Wide-based gait (Broad-based gait) [Finding]
+<<<<< Mappings
+
+Phrase: mild left ward deviation
+>>>>> Phrase
+mild left ward deviation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   645   C2945599:MILD (Mild (qualifier value)) [Qualitative Concept]
+   645   C0205091:LEFT (Left) [Spatial Concept]
+   645   C2355574:Ward (Ward (person)) [Population Group]
+   812   C1705236:Deviation (Protocol Deviation) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.1: Problem 01 .
+
+Phrase: Problem 01 .
+>>>>> Phrase
+problem 01
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0033213:Problem [Finding]
+<<<<< Mappings
+Processing 00000000.tx.2: Acute large cerebral infarction at right middle cerebral artery territory; young stroke, with acute left limbs weakness,  status post intravenous thrombolytic therapy and endovascular thrombectomy (on 2019/9/25)  Assessment - GCS E4V5M6 - MP: RUL:5, RUL:5, LUL:5, LLL:5 - EOM free - Lab showed hyperhomocysteinemia with decifiency of folic acid and vitamin   B12, FA and KoBal were prescribe
+
+Phrase: Acute large cerebral infarction at right middle cerebral artery territory
+>>>>> Phrase
+acute large cerebral infarction at right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (775):
+   573   C0205178:ACUTE (acute) [Temporal Concept]
+   573   C0549177:LARGE (Large) [Quantitative Concept]
+   573   C0444532:Right (Right sided) [Spatial Concept]
+   820 N C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   573   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: ; young stroke,
+>>>>> Phrase
+young stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0332239:Young [Temporal Concept]
+   861 N C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with acute left limbs weakness,
+>>>>> Phrase
+acute left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0205178:ACUTE (acute) [Temporal Concept]
+   645   C0205091:LEFT (Left) [Spatial Concept]
+   861 N C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: status post intravenous thrombolytic therapy
+>>>>> Phrase
+intravenous thrombolytic therapy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   913   C0455142:Intravenous therapy [Therapeutic or Preventive Procedure]
+   827   C0520997:Thrombolytic (Thrombolysis, function) [Clinical Attribute]
+Meta Mapping (901):
+   660   C0348016:Intravenous [Spatial Concept]
+   901   C0040044:Thrombolytic Therapy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: endovascular thrombectomy
+>>>>> Phrase
+endovascular thrombectomy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0524425:Endovascular (inside the blood vessel) [Body Location or Region]
+   861   C0162578:Thrombectomy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/25
+>>>>> Phrase
+2019 9 25
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Assessment - GCS E4V5M6 - MP
+>>>>> Phrase
+assessment gcs e4v5m6 mp
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (775):
+   645   C1516048:Assessment (Assessed) [Activity]
+   645   C4283742:GCS (Ceramide Glucosyltransferase, human) [Amino Acid, Peptide, or Protein,Enzyme]
+   812   C0024944:MP (Mauritius) [Geographic Area]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: RUL
+>>>>> Phrase
+rul
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1261074:RUL (Structure of right upper lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5,
+>>>>> Phrase
+5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: RUL
+>>>>> Phrase
+rul
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1261074:RUL (Structure of right upper lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5,
+>>>>> Phrase
+5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: LUL
+>>>>> Phrase
+lul
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1261076:LUL (Structure of left upper lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5,
+>>>>> Phrase
+5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: LLL
+>>>>> Phrase
+lll
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1261077:LLL (Structure of left lower lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5 - EOM free - Lab
+>>>>> Phrase
+5 eom free lab
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   645   C0439084:>5 [Quantitative Concept]
+   645   C0241886:EOM (extraocular) [Functional Concept]
+   645   C1996904:Free (Free (available (qualifier))) [Qualitative Concept]
+   812   C0022877:Lab (Laboratory) [Health Care Related Organization,Manufactured Object]
+<<<<< Mappings
+
+Phrase: showed
+>>>>> Phrase
+showed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: hyperhomocysteinemia with decifiency of folic acid
+>>>>> Phrase
+hyperhomocysteinemia with decifiency of folic acid
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (722):
+   753   C0598608:hyperhomocysteinaemia (Hyperhomocysteinemia) [Disease or Syndrome]
+   623   C0016410:FOLIC ACID (Folic Acid) [Organic Chemical,Pharmacologic Substance,Vitamin]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: vitamin   B12,
+>>>>> Phrase
+vitamin b12
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0042845:Vitamin B12 (Vitamin B 12) [Organic Chemical,Pharmacologic Substance,Vitamin]
+<<<<< Mappings
+
+Phrase: FA
+>>>>> Phrase
+fa
+<<<<< Phrase
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: KoBal
+>>>>> Phrase
+kobal
+<<<<< Phrase
+
+Phrase: were
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: prescribe
+>>>>> Phrase
+prescribe
+<<<<< Phrase
+Processing 00000000.tx.1: Plan ---Therapeutic plan - Keep anti-platate agent with Bokey 1# po qd - Adequate intravensous fluid hydration with NS 0.9% 500cc Q12H IVD - Increased dose with FA 1# QD to 1# BID - DC Gaster po and decreased Mopride 1# TID ro 1# QD - Keep antitussive agent for symptoms relief - Monitor neurological sign - Keep rehabilitation - Consult Ophthalmology for ????
+
+Phrase: Plan
+>>>>> Phrase
+plan
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1301732:Plan (Planned) [Functional Concept]
+<<<<< Mappings
+
+Phrase: ---
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Therapeutic plan -
+>>>>> Phrase
+therapeutic plan
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0087111:Therapeutic (Therapeutic procedure) [Therapeutic or Preventive Procedure]
+   861   C1301732:Plan (Planned) [Functional Concept]
+<<<<< Mappings
+
+Phrase: Keep
+>>>>> Phrase
+keep
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0333118:Keep (Retained) [Functional Concept]
+<<<<< Mappings
+
+Phrase: anti-platate agent with Bokey 1# po qd - Adequate intravensous fluid hydration
+>>>>> Phrase
+anti platate agent with bokey 1 po qd adequate intravensous fluid hydration
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (654):
+   736   C1254351:Agent (Pharmacologic Substance) [Pharmacologic Substance]
+   584   C0297198:PO-1 [Organic Chemical]
+   570   C0332173:QD (Daily) [Temporal Concept]
+   570   C0205411:Adequate [Qualitative Concept]
+   570   C0302908:fluid (Liquid substance) [Substance]
+   570   C1321013:Hydration (Hydration status) [Finding]
+<<<<< Mappings
+
+Phrase: with NS 0.9% 500cc Q12H IVD - Increased dose with FA 1# QD
+>>>>> Phrase
+with ns 0 9 500cc q12h ivd increased dose with fa 1 qd
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (681):
+   582   C1541397:NS-9 [Pharmacologic Substance]
+   569   C3842591:0% [Quantitative Concept]
+   569   C0585327:Q12H (Every twelve hours) [Temporal Concept]
+   569   C1416523:IVD (IVD gene) [Gene or Genome]
+   569   C0205217:Increased [Quantitative Concept]
+   735   C0178602:DOSE (Dosage) [Quantitative Concept]
+   583   C1417724:FA-1 (SNU13 gene) [Gene or Genome]
+   569   C0332173:QD (Daily) [Temporal Concept]
+Meta Mapping (681):
+   569   C0038944:NS (Suriname) [Geographic Area]
+   583   C4068881:0.9 [Quantitative Concept]
+   569   C0585327:Q12H (Every twelve hours) [Temporal Concept]
+   569   C1416523:IVD (IVD gene) [Gene or Genome]
+   569   C0205217:Increased [Quantitative Concept]
+   735   C0178602:DOSE (Dosage) [Quantitative Concept]
+   583   C1417724:FA-1 (SNU13 gene) [Gene or Genome]
+   569   C0332173:QD (Daily) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: to 1# BID - DC Gaster po
+>>>>> Phrase
+1 bid dc gaster po
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (762):
+   637   C2981698:1+ (1+ Score, WHO) [Classification]
+   637   C0038351:Gaster (Stomach) [Body Part, Organ, or Organ Component]
+   804   C0442027:PO (Oral) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: decreased Mopride 1# TID ro 1# QD -
+>>>>> Phrase
+decreased mopride 1 tid ro 1 qd
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (735):
+   629   C0205216:Decreased [Quantitative Concept]
+   629   C1610169:TID (three times a day at institution-specified times) [Temporal Concept]
+   629   C1413096:RO (CALR gene) [Gene or Genome]
+   795   C0332173:QD (Daily) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: Keep
+>>>>> Phrase
+keep
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0333118:Keep (Retained) [Functional Concept]
+<<<<< Mappings
+
+Phrase: antitussive agent for symptoms relief -
+>>>>> Phrase
+antitussive agent for symptoms relief
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (759):
+   806   C0003449:Antitussive Agent (Antitussive Agents) [Pharmacologic Substance]
+   598   C3242309:symptomatic relief [Idea or Concept]
+<<<<< Mappings
+
+Phrase: Monitor
+>>>>> Phrase
+monitor
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0150369:monitor (Preventive monitoring) [Health Care Activity]
+<<<<< Mappings
+
+Phrase: neurological sign -
+>>>>> Phrase
+neurological sign
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0205494:NEUROLOGICAL (Neurologic (qualifier value)) [Qualitative Concept]
+   861 N C0311392:Sign (Physical findings) [Finding]
+<<<<< Mappings
+
+Phrase: Keep
+>>>>> Phrase
+keep
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0333118:Keep (Retained) [Functional Concept]
+<<<<< Mappings
+
+Phrase: rehabilitation -
+>>>>> Phrase
+rehabilitation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1306847:Rehabilitation (Rehabilitation - specialty) [Biomedical Occupation or Discipline]
+<<<<< Mappings
+
+Phrase: Consult
+>>>>> Phrase
+consult
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0009818:Consult (Consultation) [Health Care Activity]
+<<<<< Mappings
+
+Phrase: Ophthalmology for ????
+>>>>> Phrase
+ophthalmology for
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   833   C0029087:OPHTHALMOLOGY (Ophthalmology specialty) [Biomedical Occupation or Discipline]
+<<<<< Mappings
+      
