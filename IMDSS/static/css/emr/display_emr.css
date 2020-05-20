@@ -1,3 +1,8 @@
+body{
+    overflow-y: hidden;
+}
+
+
 .display-emr-section {
     float: right;
     width: 86%;
@@ -122,7 +127,7 @@
     overflow-y: scroll;
     scrollbar-width: 10px;
     scrollbar-track-color: #f1f1f1;
-    height: 445px;
+    height: 425px;
 }
 
 

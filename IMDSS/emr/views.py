@@ -184,8 +184,7 @@ def ajax_get_emr(request, patient_id):
     @pony
     獲取select-emr-table所選擇的病歷id
     """
-    # selected_emr_id = request.GET['selected_emr_id']
-    selected_emr_id = 'WA1_1081004143855'
+    selected_emr_id = request.GET['selected_emr_id']
     selected_emr_type = request.GET["selected_emr_type"].replace(' ', '_').lower()
 
     # print(selected_emr_type)
