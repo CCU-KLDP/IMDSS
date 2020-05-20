@@ -1,9 +1,5 @@
 from django.shortcuts import render
-<<<<<<< HEAD
-from db_models.models import Patient
-=======
 from db_models.models import Patient, Doctor
->>>>>>> 21ec17d83137c6a02f2fa341e558f89d6012a7cc
 from django.http import HttpResponse
 from django.urls import reverse
 import json
@@ -25,20 +21,6 @@ def get_patient_list():
     return list(Patient.objects.all())
 
 def select_patient_view(request):
-<<<<<<< HEAD
-    """
-    @Louise
-    @return list
-    從資料庫獲得所有病人
-    """
-    patients = list(Patient.objects.all().values())
-    # print(type(patients))
-    patient_name = [patient['name'] for patient in patients]
-
-    print(patient_name)
-    content = {
-        "patient": patient_name
-=======
     
     # doctor_id = request.GET['doctor_id']
     doctor_id = '04135'
@@ -49,7 +31,6 @@ def select_patient_view(request):
     content = {
         "doctor": login_doctor,
         "patients": patients,
->>>>>>> 21ec17d83137c6a02f2fa341e558f89d6012a7cc
     }
     return render(request, "select_patient/select_patient.html", content)
 
