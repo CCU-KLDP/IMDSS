@@ -1,0 +1,2140 @@
+Processing 00000000.tx.1: ??/??:  
+
+Phrase: ??/??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: ??2019/09/25 08:56:56 ??? 
+
+Phrase: ??2019/09/25 08
+>>>>> Phrase
+2019 09 25 08
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 56
+>>>>> Phrase
+56
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 56 ???
+>>>>> Phrase
+56
+<<<<< Phrase
+Processing 00000000.tx.3: PH: gout. 
+
+Phrase: PH
+>>>>> Phrase
+ph
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0450407:ph+ [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: gout.
+>>>>> Phrase
+gout
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0018099:GOUT (Gout) [Disease or Syndrome]
+<<<<< Mappings
+Processing 00000000.tx.4: Event: sudden onset of left side weakness and hemineglect while meeting at 0830. 
+
+Phrase: Event
+>>>>> Phrase
+event
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0441471:Event [Event]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: sudden onset of left side weakness
+>>>>> Phrase
+sudden onset of left side weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (794):
+   790   C1272517:Sudden onset (Sudden onset (contextual qualifier) (qualifier value)) [Intellectual Product]
+   666   C0457436:left side weakness (Left hemiparesis) [Finding]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: hemineglect
+>>>>> Phrase
+hemineglect
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0150088:Hemi-neglect [Finding]
+<<<<< Mappings
+
+Phrase: while
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: meeting at 0830.
+>>>>> Phrase
+meeting at 0830
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   790   C0556656:Meeting (Meetings) [Activity]
+<<<<< Mappings
+Processing 00000000.tx.5: (?????). 
+
+Phrase: (?????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ).
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.6: sent to ED F/S 140~. 
+
+Phrase: sent to ED F/S 140~.
+>>>>> Phrase
+sent to ed f s 140
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (725):
+   753   C1519246:Sent (Send (transmission)) [Functional Concept]
+   753   C3538926:ED (Endocrine System Findings Domain) [Idea or Concept]
+   790   C3714799:F/s (Frames Per Second) [Temporal Concept]
+<<<<< Mappings
+Processing 00000000.tx.7: Sent to ED with left side flaccid, clear consicounss, left side hemineglect. eye only look to right side. could obey order raise his right side extremities. 
+
+Phrase: Sent to ED
+>>>>> Phrase
+sent to ed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (746):
+   790   C1519246:Sent (Send (transmission)) [Functional Concept]
+   790   C3538926:ED (Endocrine System Findings Domain) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: with left side flaccid, clear consicounss,
+>>>>> Phrase
+left side flaccid clear consicounss
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (632):
+   673   C0205091:Left side (Left) [Spatial Concept]
+   637   C0231511:Flaccid [Qualitative Concept]
+   637   C1709157:Clear (Negative Surgical Margin) [Finding]
+<<<<< Mappings
+
+Phrase: left side hemineglect. eye
+>>>>> Phrase
+left side hemineglect eye
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (857):
+   902   C0229090:Left Eye (Left eye structure) [Body Part, Organ, or Organ Component]
+   645   C0441987:Side [Spatial Concept]
+   645   C0150088:Hemi-neglect [Finding]
+Meta Mapping (857):
+   694   C0205091:Left side (Left) [Spatial Concept]
+   645   C0150088:Hemi-neglect [Finding]
+   812   C0015392:?Eye (Eye) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: only
+>>>>> Phrase
+only
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205171:Only (Singular) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: look to right side.
+>>>>> Phrase
+look to right side
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (783):
+   770   C0233426:look (Personal appearance) [Organism Attribute]
+   833   C0205090:Right side (Right) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: could
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: obey
+>>>>> Phrase
+obey
+<<<<< Phrase
+
+Phrase: order
+>>>>> Phrase
+order
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1705176:Order (Order (arrangement)) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: raise
+>>>>> Phrase
+raise
+<<<<< Phrase
+
+Phrase: his right side extremities.
+>>>>> Phrase
+right side extremities
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   734   C0205090:Right side (Right) [Spatial Concept]
+   827   C0015385:Extremities (Limb structure) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+Processing 00000000.tx.8: Order left side extremities but patient raise his right side extremities.
+
+Phrase: Order
+>>>>> Phrase
+order
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1705176:Order (Order (arrangement)) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: left side extremities
+>>>>> Phrase
+left side extremities
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   734   C0205091:Left side (Left) [Spatial Concept]
+   827   C0015385:Extremities (Limb structure) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: but
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: patient
+>>>>> Phrase
+patient
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0030705:*^patient (Patients) [Patient or Disabled Group]
+<<<<< Mappings
+
+Phrase: raise
+>>>>> Phrase
+raise
+<<<<< Phrase
+
+Phrase: his right side extremities.
+>>>>> Phrase
+right side extremities
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   734   C0205090:Right side (Right) [Spatial Concept]
+   827   C0015385:Extremities (Limb structure) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+Processing 00000000.tx.1: PE: GCS E4V1M6 HEENT: anicteric sclear, pink conjcunva eye look rightward. 
+
+Phrase: PE
+>>>>> Phrase
+pe
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0070939:PE (phosphoethanolamine) [Biologically Active Substance,Organic Chemical]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: GCS E4V1M6 HEENT
+>>>>> Phrase
+gcs e4v1m6 heent
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (802):
+   660   C4283742:GCS (Ceramide Glucosyltransferase, human) [Amino Acid, Peptide, or Protein,Enzyme]
+   827   C1512338:HEENT [Body Location or Region]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: anicteric sclear,
+>>>>> Phrase
+anicteric sclear
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C0205180:Anicteric [Finding]
+<<<<< Mappings
+
+Phrase: pink conjcunva eye
+>>>>> Phrase
+pink conjcunva eye
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (913):
+   913   C1313983:PINK EYE (Acute contagious conjunctivitis) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: look
+>>>>> Phrase
+look
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0233426:look (Personal appearance) [Organism Attribute]
+<<<<< Mappings
+
+Phrase: rightward.
+>>>>> Phrase
+rightward
+<<<<< Phrase
+Processing 00000000.tx.2: Breaht sonds:vesicular HEart sounds rHB aBdomen: soft, globular. no tendenress. 
+
+Phrase: Breaht sonds
+>>>>> Phrase
+breaht sonds
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: vesicular HEart sounds rHB aBdomen
+>>>>> Phrase
+vesicular heart sounds rhb abdomen
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (794):
+   637   C0205378:Vesicular [Qualitative Concept]
+   673   C0018820:HEART SOUNDS (Heart Sounds) [Organ or Tissue Function]
+   804   C0000726:ABDOMEN (Abdomen) [Body Location or Region]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: soft, globular.
+>>>>> Phrase
+soft globular
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0205358:Soft [Qualitative Concept]
+   861   C0332501:Globular (Spherical shape) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: no tendenress.
+>>>>> Phrase
+tendenress
+<<<<< Phrase
+Processing 00000000.tx.3: Exteroiyt: RUE/LUE: 5/1  RLE/LLE:5/1 no convulsionn now. no postictal apperance. 
+
+Phrase: Exteroiyt
+>>>>> Phrase
+exteroiyt
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: RUE/LUE
+>>>>> Phrase
+rue lue
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C0939812:RUE (Ruta graveolens preparation) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5/1  RLE/LLE
+>>>>> Phrase
+5 1 rle lle
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (645):
+   645   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5/1
+>>>>> Phrase
+5 1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: no convulsionn now.
+>>>>> Phrase
+convulsionn now
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C1948052:Now (Now (temporal qualifier)) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: no postictal apperance.
+>>>>> Phrase
+postictal apperance
+<<<<< Phrase
+Processing 00000000.tx.4: ??2019/09/25 09:08:43 ??? 
+
+Phrase: ??2019/09/25 09
+>>>>> Phrase
+2019 09 25 09
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 08
+>>>>> Phrase
+08
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 43 ???
+>>>>> Phrase
+43
+<<<<< Phrase
+Processing 00000000.tx.5: Started speeaking now. 
+
+Phrase: Started
+>>>>> Phrase
+started
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1272689:Started [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: speeaking now.
+>>>>> Phrase
+speeaking now
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C1948052:Now (Now (temporal qualifier)) [Temporal Concept]
+<<<<< Mappings
+Processing 00000000.tx.6: V3 Brain CT: right side dense MCA sign was noted.
+
+Phrase: V3 Brain CT
+>>>>> Phrase
+v3 brain ct
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0507236:V3 (Anterior bronchopulmonary segment of superior pulmonary vein) [Body Part, Organ, or Organ Component]
+   901   C0412585:brain ct (CAT scan of brain) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: right side dense MCA sign
+>>>>> Phrase
+right side dense mca sign
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (840):
+   673   C0205090:Right side (Right) [Spatial Concept]
+   637   C0439794:Dense [Qualitative Concept]
+   637   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+   804   C0311392:Sign (Physical findings) [Finding]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: noted.
+>>>>> Phrase
+noted
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4288581:Noted (Notable) [Qualitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.1: BW 92.4 kg.
+
+Phrase: BW 92.4 kg.
+>>>>> Phrase
+bw 92 4 kg
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (791):
+   645   C0005910:BW (Body Weight) [Organism Attribute]
+   812   C0439209:kg (Kilogram) [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.1: EKG: NSR. 
+
+Phrase: EKG
+>>>>> Phrase
+ekg
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0013798:EKG (Electrocardiogram) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: NSR.
+>>>>> Phrase
+nsr
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1704493:NSR (Neutral Sidebent Rotated) [Pathologic Function]
+<<<<< Mappings
+Processing 00000000.tx.2: no STT. 
+
+Phrase: no STT.
+>>>>> Phrase
+stt
+<<<<< Phrase
+Processing 00000000.tx.3: ??2019/09/25 09:13:04 ??? 
+
+Phrase: ??2019/09/25 09
+>>>>> Phrase
+2019 09 25 09
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 13
+>>>>> Phrase
+13
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 04 ???
+>>>>> Phrase
+04
+<<<<< Phrase
+Processing 00000000.tx.4: CT ???? 
+
+Phrase: CT ????
+>>>>> Phrase
+ct
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0007673:CT (Central African Republic) [Geographic Area]
+<<<<< Mappings
+Processing 00000000.tx.5: ???? 
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.6: : 2019-09-25 (X3578502) ??????? 
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 2019-09-25
+>>>>> Phrase
+2019 09 25
+<<<<< Phrase
+
+Phrase: (X3578502
+>>>>> Phrase
+x3578502
+<<<<< Phrase
+
+Phrase: ) ???????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.7: ????? 
+
+Phrase: ?????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.8: ????: 
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.9: 2019-09-25 ?? 
+
+Phrase: 2019-09-25 ??
+>>>>> Phrase
+2019 09 25
+<<<<< Phrase
+Processing 00000000.tx.10: :????  
+
+Phrase: :????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.11: ?? 
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.12: : ???
+
+Phrase: : ???
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.1: ???? 
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: : 08:50 ?? 
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 08
+>>>>> Phrase
+08
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 50 ??
+>>>>> Phrase
+50
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3843766:<50 [Finding]
+<<<<< Mappings
+Processing 00000000.tx.3: : ??   
+
+Phrase: : ??
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: ??? 
+
+Phrase: ???
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.5: : 16903845 ???? 
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 16903845 ????
+>>>>> Phrase
+16903845
+<<<<< Phrase
+Processing 00000000.tx.6: : ??     
+
+Phrase: : ??
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.7: (????: 
+
+Phrase: (????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.8: ???381 )  ???? 
+
+Phrase: ???381
+>>>>> Phrase
+381
+<<<<< Phrase
+
+Phrase: )  ????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.9: : ???  
+
+Phrase: : ???
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.10: ? 
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.11: ?? 
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.12: : 1981-05-27 ( 38 ) ?
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 1981-05-27
+>>>>> Phrase
+1981 05 27
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   827   C4319602:27 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ( 38
+>>>>> Phrase
+38
+<<<<< Phrase
+
+Phrase: ) ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.1: ?? 
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: : ?????????????
+
+Phrase: : ?????????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.1: -------------------------------------------------- ------------------------------ ????: 
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: --
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: 70BRASCT-Brain (?????) 
+
+Phrase: 70BRASCT-Brain
+>>>>> Phrase
+70brasct brain
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0006104:BRAIN (Brain) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: (?????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: . 
+
+Phrase: .
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: -------------------------------------------------- ------------------------------
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.1: The transaxial non-contrast brain CT scan in slice thickness of 5 mm shows: 1.
+
+Phrase: The transaxial non-contrast brain CT scan in slice thickness of 5 mm
+>>>>> Phrase
+the transaxial non contrast brain ct scan in slice thickness of 5 mm
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (698):
+   569   C2986831:Transaxial (Transaxial Plane) [Spatial Concept]
+   569   C1518422:Non (Negation) [Functional Concept]
+   569   C0009924:Contrast (Contrast Media) [Indicator, Reagent, or Diagnostic Aid]
+   595   C0412585:CT of brain (CAT scan of brain) [Diagnostic Procedure]
+   569   C0441633:Scan (Scanning) [Diagnostic Procedure]
+   750   C3829566:Slice Thickness (Image Slice Thickness) [Quantitative Concept]
+   569   C4330985:/mm (Per Millimeter) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: shows
+>>>>> Phrase
+shows
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 1.
+>>>>> Phrase
+1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2981698:1+ (1+ Score, WHO) [Classification]
+<<<<< Mappings
+Processing 00000000.tx.2: Hyperdense of right middle cerebral artery (Ima 10 of series 2).   
+
+Phrase: Hyperdense of right middle cerebral artery
+>>>>> Phrase
+hyperdense of right middle cerebral artery
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (716):
+   716   C0226213:Right middle cerebral artery (Structure of right middle cerebral artery) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: (Ima 10 of series 2
+>>>>> Phrase
+ima 10 of series 2
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (686):
+   760   C3842590:10% [Quantitative Concept]
+   760   C2348044:Series (Series - set of composite instances) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: ).
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: Dense hypervascular sign of thrombosis should be highly suspected. 
+
+Phrase: Dense hypervascular sign of thrombosis
+>>>>> Phrase
+dense hypervascular sign of thrombosis
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (733):
+   593   C0439794:Dense [Qualitative Concept]
+   593   C1512560:Hypervascular (hypervascular) [Qualitative Concept]
+   760   C0311392:Sign (Physical findings) [Finding]
+   593   C0040053:THROMBOSIS (Thrombosis) [Pathologic Function]
+<<<<< Mappings
+
+Phrase: should
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: be
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: highly
+>>>>> Phrase
+highly
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205250:Highly (High) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: suspected.
+>>>>> Phrase
+suspected
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0332147:Suspected (Suspected diagnosis) [Qualitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.4: 2.No evidence of intracranial hemorrhage. 
+
+Phrase: 2.
+>>>>> Phrase
+2
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2981700:2+ (2+ Score, WHO) [Classification]
+<<<<< Mappings
+
+Phrase: No evidence of intracranial hemorrhage.
+>>>>> Phrase
+no evidence of intracranial hemorrhage
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (745):
+   760   C3887511:Evidence [Idea or Concept]
+   640 N C0151699:Intracranial haemorrhage (Intracranial Hemorrhages) [Disease or Syndrome]
+<<<<< Mappings
+Processing 00000000.tx.5: 3.The midline structure and bilateral ventricular system   shows essentially normal. 
+
+Phrase: 3.
+>>>>> Phrase
+3
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439086:<3 (<3 (qualifier value)) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: The midline structure
+>>>>> Phrase
+midline structure
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1660780:midline (midline cell component) [Cell Component]
+   861   C0678594:Structure (structure) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: bilateral ventricular system
+>>>>> Phrase
+bilateral ventricular system
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0238767:BILATERAL (Bilateral) [Spatial Concept]
+   901   C0007799:ventricular system (Cerebral Ventricles) [Body Space or Junction]
+<<<<< Mappings
+
+Phrase: shows
+>>>>> Phrase
+shows
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: essentially normal.
+>>>>> Phrase
+essentially normal
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0205307:NORMAL (Normal) [Qualitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.6: 4.No evidence of bony fracture or destruction. 
+
+Phrase: 4.
+>>>>> Phrase
+4
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3838679:4+ (4+ Answer to question) [Finding]
+<<<<< Mappings
+
+Phrase: No evidence of bony fracture
+>>>>> Phrase
+no evidence of bony fracture
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (825):
+   760   C3887511:Evidence [Idea or Concept]
+   653 N C0016658:Fracture of bones NOS (Fracture) [Injury or Poisoning]
+<<<<< Mappings
+
+Phrase: or
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: destruction.
+>>>>> Phrase
+destruction
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1261381:Destruction (Destructive procedure (surgical)) [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+Processing 00000000.tx.7: 5.No evidence of abnormal density in bilateral cerebello-pontine angles   and pituitary fossa.
+
+Phrase: 5.
+>>>>> Phrase
+5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: No evidence of abnormal density
+>>>>> Phrase
+no evidence of abnormal density
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (745):
+   760   C3887511:Evidence [Idea or Concept]
+   640 N C0544704:Abnormal density [Finding]
+<<<<< Mappings
+
+Phrase: in bilateral cerebello-pontine angles
+>>>>> Phrase
+bilateral cerebello pontine angles
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   645   C0238767:BILATERAL (Bilateral) [Spatial Concept]
+   812   C0007765:Cerebello- (Cerebellum) [Body Part, Organ, or Organ Component]
+   812   C0032639:Pontine (Pontine structure) [Body Part, Organ, or Organ Component]
+   812   C0205143:angles (Angular) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: pituitary fossa.
+>>>>> Phrase
+pituitary fossa
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0036609:Pituitary fossa (Structure of pituitary fossa) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+Processing 00000000.tx.1: IMP:Highly suspect dense hypervascular sign of right MCA.Advise     clinical to exclude acute thrombosis.                      
+
+Phrase: IMP
+>>>>> Phrase
+imp
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1416425:IMP (IMPA1 gene) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Highly
+>>>>> Phrase
+highly
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205250:Highly (High) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: suspect
+>>>>> Phrase
+suspect
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0750491:suspect (Suspected qualifier) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: dense hypervascular sign of right MCA.
+>>>>> Phrase
+dense hypervascular sign of right mca
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (723):
+   586   C0439794:Dense [Qualitative Concept]
+   586   C1512560:Hypervascular (hypervascular) [Qualitative Concept]
+   753   C0311392:Sign (Physical findings) [Finding]
+   586   C0205090:RIGHT (Right) [Spatial Concept]
+   586   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: Advise
+>>>>> Phrase
+advise
+<<<<< Phrase
+
+Phrase: clinical
+>>>>> Phrase
+clinical
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4523057:Clinical (Clinical Batch) [Entity]
+<<<<< Mappings
+
+Phrase: to
+>>>>> Phrase
+to
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0041260:TO (Tryptophanase) [Amino Acid, Peptide, or Protein,Enzyme]
+<<<<< Mappings
+
+Phrase: exclude
+>>>>> Phrase
+exclude
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0332196:Exclude [Functional Concept]
+<<<<< Mappings
+
+Phrase: acute thrombosis.
+>>>>> Phrase
+acute thrombosis
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0205178:ACUTE (acute) [Temporal Concept]
+   861 N C2586211:thrombosis (Thrombosis of blood vessel) [Pathologic Function]
+<<<<< Mappings
+Processing 00000000.tx.2: (END ????:2019-09-25  08:50 ????:2019-09-25  09:11 ??2019/09/25 09:14:00 ??? 
+
+Phrase: (END ????
+>>>>> Phrase
+end
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2746065:End (Stop (qualifier value)) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 2019-09-25  08
+>>>>> Phrase
+2019 09 25 08
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 50 ????
+>>>>> Phrase
+50
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3843766:<50 [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 2019-09-25  09
+>>>>> Phrase
+2019 09 25 09
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 11 ??2019/09/25 09
+>>>>> Phrase
+11 2019 09 25 09
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 14
+>>>>> Phrase
+14
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 00 ???
+>>>>> Phrase
+00
+<<<<< Phrase
+Processing 00000000.tx.3: Plan of rt-PA: 8.4 IVP 47.6 IVD. 
+
+Phrase: Plan of rt-PA
+>>>>> Phrase
+plan of rt pa
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (783):
+   770   C1301732:Plan (Planned) [Functional Concept]
+   666   C0032143:rt-PA (alteplase) [Amino Acid, Peptide, or Protein,Enzyme,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 8.4 IVP 47.6 IVD.
+>>>>> Phrase
+8 4 ivp 47 6 ivd
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (780):
+   660   C4517876:8.4 [Quantitative Concept]
+   632   C1548873:IVP (Consent Type - IVP) [Health Care Activity]
+   799   C1416523:IVD (IVD gene) [Gene or Genome]
+<<<<< Mappings
+Processing 00000000.tx.4: ??2019/09/25 09:20:36 ??? 
+
+Phrase: ??2019/09/25 09
+>>>>> Phrase
+2019 09 25 09
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 20
+>>>>> Phrase
+20
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842589:20% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 36 ???
+>>>>> Phrase
+36
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4319606:36 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.5: CXR: bilaterla increased infilation. 
+
+Phrase: CXR
+>>>>> Phrase
+cxr
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0039985:cxr (Plain chest X-ray) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: bilaterla
+>>>>> Phrase
+bilaterla
+<<<<< Phrase
+
+Phrase: increased
+>>>>> Phrase
+increased
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0442805:Increased (Increase) [Functional Concept]
+<<<<< Mappings
+
+Phrase: infilation.
+>>>>> Phrase
+infilation
+<<<<< Phrase
+Processing 00000000.tx.6: ??2019/09/25 10:18:36 ??? 
+
+Phrase: ??2019/09/25 10
+>>>>> Phrase
+2019 09 25 10
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (812):
+   812   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 18
+>>>>> Phrase
+18
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 36 ???
+>>>>> Phrase
+36
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4319606:36 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.7: Clear consciosness. could speak his name and answer questions now. still look rightward could not look leftward. 
+
+Phrase: Clear consciosness.
+>>>>> Phrase
+clear consciosness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C1709157:Clear (Negative Surgical Margin) [Finding]
+<<<<< Mappings
+
+Phrase: could
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: speak
+>>>>> Phrase
+speak
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234856:Speak (Speaking (activity)) [Daily or Recreational Activity]
+<<<<< Mappings
+
+Phrase: his name
+>>>>> Phrase
+name
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0027365:Name [Intellectual Product]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: answer
+>>>>> Phrase
+answer
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1706817:Answer (Response (statement)) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: questions
+>>>>> Phrase
+questions
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1522634:Question (Question (inquiry)) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: now.
+>>>>> Phrase
+now
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1948052:Now (Now (temporal qualifier)) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: still
+>>>>> Phrase
+still
+<<<<< Phrase
+
+Phrase: look
+>>>>> Phrase
+look
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0233426:look (Personal appearance) [Organism Attribute]
+<<<<< Mappings
+
+Phrase: rightward
+>>>>> Phrase
+rightward
+<<<<< Phrase
+
+Phrase: could
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: not
+>>>>> Phrase
+not
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1518422:Not (Negation) [Functional Concept]
+<<<<< Mappings
+
+Phrase: look
+>>>>> Phrase
+look
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0233426:look (Personal appearance) [Organism Attribute]
+<<<<< Mappings
+
+Phrase: leftward.
+>>>>> Phrase
+leftward
+<<<<< Phrase
+Processing 00000000.tx.8: MP: RUE/LUE: 5/4 RLE/LLE:5/4
+
+Phrase: MP
+>>>>> Phrase
+mp
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0024944:MP (Mauritius) [Geographic Area]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: RUE/LUE
+>>>>> Phrase
+rue lue
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C0939812:RUE (Ruta graveolens preparation) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5/4 RLE/LLE
+>>>>> Phrase
+5 4 rle lle
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C4517792:5.4 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5/4
+>>>>> Phrase
+5 4
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4517792:5.4 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.1: ??:  
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: ?I639 (434.91 ) ??
+
+Phrase: ?I639
+>>>>> Phrase
+i639
+<<<<< Phrase
+
+Phrase: (434.91
+>>>>> Phrase
+434 91
+<<<<< Phrase
+
+Phrase: ) ??
+>>>>> Phrase
+<<<<< Phrase
+      

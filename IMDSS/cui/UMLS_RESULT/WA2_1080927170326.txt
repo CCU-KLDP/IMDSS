@@ -1,0 +1,3186 @@
+Processing 00000000.tx.1: Subjective fluctuated drowsiness; no fever episodes; no vomiting improved left limbs weakness tachy-arrhythmia noted transiently in this early morning  Objective 2019-09-27 06:20 V/S:BT37.1C(?);HR 65?/?;RR 17?/?;NBP 130/ 89mmHg Consciousness:E3V5M6, drowsy state, arousable state, could obey order pupil size R/L:3/3, light reflex: +/+ improved EOM limitation, 0 --X-- -1 , 0 --X-- -1 still left central facial palsy , improved dysarthria MP  RUL P/D:5/5  , LUL P/D:4-/4  RLL P/D:5/5  , LLL P/D:4 /4 FNF:left dysmetria, and overshooting
+
+Phrase: Subjective fluctuated drowsiness
+>>>>> Phrase
+subjective fluctuated drowsiness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0439655:Subjective (Subjective observation (qualifier value)) [Qualitative Concept]
+   660   C0231241:fluctuated (Fluctuating (qualifier value)) [Temporal Concept]
+   827   C0013144:DROWSINESS (Drowsiness) [Finding]
+<<<<< Mappings
+
+Phrase: ;
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no fever episodes
+>>>>> Phrase
+fever episodes
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694 N C0424755:Fever (Fever symptoms (finding)) [Finding]
+   861   C0332189:Episodes (Episode of) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: ;
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no vomiting improved left limbs weakness tachy-arrhythmia
+>>>>> Phrase
+vomiting improved left limbs weakness tachy arrhythmia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (775):
+   629 N C1963281:Vomiting (Vomiting Adverse Event) [Finding]
+   629   C0332272:Improved (Better) [Qualitative Concept]
+   629   C0205091:LEFT (Left) [Spatial Concept]
+   651 N C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+   795 N C0003811:Arrythmia (Cardiac Arrhythmia) [Finding]
+<<<<< Mappings
+
+Phrase: noted
+>>>>> Phrase
+noted
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4288581:Noted (Notable) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: transiently in this early morning  Objective 2019-09-27 06
+>>>>> Phrase
+transiently in this early morning objective 2019 09 27 06
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (633):
+   739   C1279919:Early [Temporal Concept]
+   739   C0332170:Morning [Temporal Concept]
+   739   C0018017:Objective (objective (goal)) [Intellectual Product]
+   739   C4319602:27 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 20 V/S
+>>>>> Phrase
+20 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C3842589:20% [Quantitative Concept]
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT37.1C
+>>>>> Phrase
+bt37 1c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 65?/?
+>>>>> Phrase
+hr 65
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3843765:65+ [Finding]
+<<<<< Mappings
+
+Phrase: ;RR 17?/?
+>>>>> Phrase
+rr 17
+<<<<< Phrase
+
+Phrase: ;NBP 130/ 89mmHg Consciousness
+>>>>> Phrase
+nbp 130 89mmhg consciousness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (812):
+   812   C0009791:consciousness (Consciousness related finding) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: E3V5M6,
+>>>>> Phrase
+e3v5m6
+<<<<< Phrase
+
+Phrase: drowsy state,
+>>>>> Phrase
+drowsy state
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0013144:DROWSY (Drowsiness) [Finding]
+   861   C1301808:State (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: arousable state,
+>>>>> Phrase
+arousable state
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C1301808:State (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: could
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: obey
+>>>>> Phrase
+obey
+<<<<< Phrase
+
+Phrase: order
+>>>>> Phrase
+order
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3889825:ORDER (Sequence of Planned Assessment Schedule) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: pupil size R/L:3/3,
+>>>>> Phrase
+pupil size r l 3 3
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   827   C0517965:pupil size (Size of pupil) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: light reflex
+>>>>> Phrase
+light reflex
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234671:Light reflex (Pupil afferent light reaction) [Organ or Tissue Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: +/+ improved EOM limitation,
+>>>>> Phrase
+improved eom limitation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0332272:Improved (Better) [Qualitative Concept]
+   660   C0241886:EOM (extraocular) [Functional Concept]
+   827   C0449295:Limitation [Functional Concept]
+<<<<< Mappings
+
+Phrase: 0
+>>>>> Phrase
+0
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842591:0% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: --
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: X-- -1 ,
+>>>>> Phrase
+x 1
+<<<<< Phrase
+
+Phrase: 0
+>>>>> Phrase
+0
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842591:0% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: --
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: X-- -1
+>>>>> Phrase
+x 1
+<<<<< Phrase
+
+Phrase: still
+>>>>> Phrase
+still
+<<<<< Phrase
+
+Phrase: left
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: central facial palsy ,
+>>>>> Phrase
+central facial palsy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (981):
+   981   C0751141:Paralysis, Central Facial (Facial Palsy, Upper Motor Neuron) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: improved dysarthria MP  RUL
+>>>>> Phrase
+improved dysarthria mp rul
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   645   C0332272:Improved (Better) [Qualitative Concept]
+   645   C0013362:DYSARTHRIA (Dysarthria) [Mental or Behavioral Dysfunction]
+   645   C0024944:MP (Mauritius) [Geographic Area]
+   812   C1261074:RUL (Structure of right upper lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5/5  ,
+>>>>> Phrase
+5 5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3844008:5.5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: LUL
+>>>>> Phrase
+lul
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1261076:LUL (Structure of left upper lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 4-/4  RLL
+>>>>> Phrase
+4 4 rll
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   734   C4517761:4.4 [Quantitative Concept]
+   827   C1261075:RLL (Structure of right lower lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5/5  ,
+>>>>> Phrase
+5 5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3844008:5.5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: LLL
+>>>>> Phrase
+lll
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1261077:LLL (Structure of left lower lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 4 /4 FNF
+>>>>> Phrase
+4 4 fnf
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   734   C4517761:4.4 [Quantitative Concept]
+   827   C0033228:FNF (Fenofibrate) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: left dysmetria,
+>>>>> Phrase
+left dysmetria
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0234162:DYSMETRIA (Cerebellar Dysmetria) [Finding]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: overshooting
+>>>>> Phrase
+overshooting
+<<<<< Phrase
+Processing 00000000.tx.1: 2019/9/26 Brain MRA scans:  no ICH,  Acute large cerebral infarction at right middle cerebral artery territory  especially in right parietal region EKG lead II monitor at 2019/9/27 06:56 (by nursing record)    showed atrial fibrillation, paroxysmal, rapid ventricular rate
+
+Phrase: 2019/9/26 Brain MRA scans
+>>>>> Phrase
+2019 9 26 brain mra scans
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (762):
+   839   C0596217:brain scans (Brain scan) [Diagnostic Procedure]
+   799   C0243032:MRA (Magnetic Resonance Angiography) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no ICH,
+>>>>> Phrase
+ich
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0019191:ICH (Infectious Canine Hepatitis) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: Acute large cerebral infarction at right middle cerebral artery territory  especially
+>>>>> Phrase
+acute large cerebral infarction at right middle cerebral artery territory especially
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (753):
+   571   C0205178:ACUTE (acute) [Temporal Concept]
+   571   C0549177:LARGE (Large) [Quantitative Concept]
+   571   C0205090:RIGHT (Right) [Spatial Concept]
+   809 N C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   571   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: in right parietal region EKG
+>>>>> Phrase
+right parietal region ekg
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (916):
+   756   C0932003:Right parietal region (Right parietal part of head) [Body Location or Region]
+   812   C1623258:EKG (Electrocardiography) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: lead
+>>>>> Phrase
+lead
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2348269:Lead (Dietary Lead) [Element, Ion, or Isotope]
+<<<<< Mappings
+
+Phrase: II monitor at 2019/9/27 06
+>>>>> Phrase
+ii monitor at 2019 9 27 06
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (696):
+   581   C1710602:II (VIPR1 wt Allele) [Gene or Genome]
+   748   C0181904:Monitor (Biomedical Monitors) [Medical Device]
+   612   C1705676:9-27 (IFITM1 wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 56
+>>>>> Phrase
+56
+<<<<< Phrase
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: by nursing record
+>>>>> Phrase
+nursing record
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0028694:Record, Nursing (Nursing Records) [Intellectual Product,Manufactured Object]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: showed
+>>>>> Phrase
+showed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: atrial fibrillation,
+>>>>> Phrase
+atrial fibrillation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1963067:Atrial fibrillation (Atrial Fibrillation Adverse Event) [Finding]
+<<<<< Mappings
+
+Phrase: paroxysmal,
+>>>>> Phrase
+paroxysmal
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205311:Paroxysmal [Temporal Concept]
+<<<<< Mappings
+
+Phrase: rapid ventricular rate
+>>>>> Phrase
+rapid ventricular rate
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0456962:Rapid [Qualitative Concept]
+   827   C0018827:Ventricular (Heart Ventricle) [Body Part, Organ, or Organ Component]
+   827   C1521828:Rate [Quantitative Concept]
+<<<<< Mappings
+      
+Processing 00000000.tx.1: Subjective fluctuated drowsiness; no fever episodes; no vomiting improved left limbs weakness tachy-arrhythmia noted transiently in this early morning  Objective 2019-09-27 06:20 V/S:BT37.1C(?);HR 65?/?;RR 17?/?;NBP 130/ 89mmHg Consciousness:E3V5M6, drowsy state, arousable state, could obey order pupil size R/L:3/3, light reflex: +/+ improved EOM limitation, 0 --X-- -1 , 0 --X-- -1 still left central facial palsy , improved dysarthria MP  RUL P/D:5/5  , LUL P/D:4-/4  RLL P/D:5/5  , LLL P/D:4 /4 FNF:left dysmetria, and overshooting
+
+Phrase: Subjective fluctuated drowsiness
+>>>>> Phrase
+subjective fluctuated drowsiness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0439655:Subjective (Subjective observation (qualifier value)) [Qualitative Concept]
+   660   C0231241:fluctuated (Fluctuating (qualifier value)) [Temporal Concept]
+   827   C0013144:DROWSINESS (Drowsiness) [Finding]
+<<<<< Mappings
+
+Phrase: ;
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no fever episodes
+>>>>> Phrase
+fever episodes
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694 N C0424755:Fever (Fever symptoms (finding)) [Finding]
+   861   C0332189:Episodes (Episode of) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: ;
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no vomiting improved left limbs weakness tachy-arrhythmia
+>>>>> Phrase
+vomiting improved left limbs weakness tachy arrhythmia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (775):
+   629 N C1963281:Vomiting (Vomiting Adverse Event) [Finding]
+   629   C0332272:Improved (Better) [Qualitative Concept]
+   629   C0205091:LEFT (Left) [Spatial Concept]
+   651 N C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+   795 N C0003811:Arrythmia (Cardiac Arrhythmia) [Finding]
+<<<<< Mappings
+
+Phrase: noted
+>>>>> Phrase
+noted
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4288581:Noted (Notable) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: transiently in this early morning  Objective 2019-09-27 06
+>>>>> Phrase
+transiently in this early morning objective 2019 09 27 06
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (633):
+   739   C1279919:Early [Temporal Concept]
+   739   C0332170:Morning [Temporal Concept]
+   739   C0018017:Objective (objective (goal)) [Intellectual Product]
+   739   C4319602:27 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 20 V/S
+>>>>> Phrase
+20 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C3842589:20% [Quantitative Concept]
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT37.1C
+>>>>> Phrase
+bt37 1c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 65?/?
+>>>>> Phrase
+hr 65
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3843765:65+ [Finding]
+<<<<< Mappings
+
+Phrase: ;RR 17?/?
+>>>>> Phrase
+rr 17
+<<<<< Phrase
+
+Phrase: ;NBP 130/ 89mmHg Consciousness
+>>>>> Phrase
+nbp 130 89mmhg consciousness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (812):
+   812   C0009791:consciousness (Consciousness related finding) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: E3V5M6,
+>>>>> Phrase
+e3v5m6
+<<<<< Phrase
+
+Phrase: drowsy state,
+>>>>> Phrase
+drowsy state
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0013144:DROWSY (Drowsiness) [Finding]
+   861   C1301808:State (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: arousable state,
+>>>>> Phrase
+arousable state
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C1301808:State (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: could
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: obey
+>>>>> Phrase
+obey
+<<<<< Phrase
+
+Phrase: order
+>>>>> Phrase
+order
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3889825:ORDER (Sequence of Planned Assessment Schedule) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: pupil size R/L:3/3,
+>>>>> Phrase
+pupil size r l 3 3
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   827   C0517965:pupil size (Size of pupil) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: light reflex
+>>>>> Phrase
+light reflex
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234671:Light reflex (Pupil afferent light reaction) [Organ or Tissue Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: +/+ improved EOM limitation,
+>>>>> Phrase
+improved eom limitation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0332272:Improved (Better) [Qualitative Concept]
+   660   C0241886:EOM (extraocular) [Functional Concept]
+   827   C0449295:Limitation [Functional Concept]
+<<<<< Mappings
+
+Phrase: 0
+>>>>> Phrase
+0
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842591:0% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: --
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: X-- -1 ,
+>>>>> Phrase
+x 1
+<<<<< Phrase
+
+Phrase: 0
+>>>>> Phrase
+0
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842591:0% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: --
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: X-- -1
+>>>>> Phrase
+x 1
+<<<<< Phrase
+
+Phrase: still
+>>>>> Phrase
+still
+<<<<< Phrase
+
+Phrase: left
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: central facial palsy ,
+>>>>> Phrase
+central facial palsy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (981):
+   981   C0751141:Paralysis, Central Facial (Facial Palsy, Upper Motor Neuron) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: improved dysarthria MP  RUL
+>>>>> Phrase
+improved dysarthria mp rul
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   645   C0332272:Improved (Better) [Qualitative Concept]
+   645   C0013362:DYSARTHRIA (Dysarthria) [Mental or Behavioral Dysfunction]
+   645   C0024944:MP (Mauritius) [Geographic Area]
+   812   C1261074:RUL (Structure of right upper lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5/5  ,
+>>>>> Phrase
+5 5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3844008:5.5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: LUL
+>>>>> Phrase
+lul
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1261076:LUL (Structure of left upper lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 4-/4  RLL
+>>>>> Phrase
+4 4 rll
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   734   C4517761:4.4 [Quantitative Concept]
+   827   C1261075:RLL (Structure of right lower lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5/5  ,
+>>>>> Phrase
+5 5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3844008:5.5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: LLL
+>>>>> Phrase
+lll
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1261077:LLL (Structure of left lower lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 4 /4 FNF
+>>>>> Phrase
+4 4 fnf
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   734   C4517761:4.4 [Quantitative Concept]
+   827   C0033228:FNF (Fenofibrate) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: left dysmetria,
+>>>>> Phrase
+left dysmetria
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0234162:DYSMETRIA (Cerebellar Dysmetria) [Finding]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: overshooting
+>>>>> Phrase
+overshooting
+<<<<< Phrase
+Processing 00000000.tx.1: 2019/9/26 Brain MRA scans:  no ICH,  Acute large cerebral infarction at right middle cerebral artery territory  especially in right parietal region EKG lead II monitor at 2019/9/27 06:56 (by nursing record)    showed atrial fibrillation, paroxysmal, rapid ventricular rate
+
+Phrase: 2019/9/26 Brain MRA scans
+>>>>> Phrase
+2019 9 26 brain mra scans
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (762):
+   839   C0596217:brain scans (Brain scan) [Diagnostic Procedure]
+   799   C0243032:MRA (Magnetic Resonance Angiography) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no ICH,
+>>>>> Phrase
+ich
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0019191:ICH (Infectious Canine Hepatitis) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: Acute large cerebral infarction at right middle cerebral artery territory  especially
+>>>>> Phrase
+acute large cerebral infarction at right middle cerebral artery territory especially
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (753):
+   571   C0205178:ACUTE (acute) [Temporal Concept]
+   571   C0549177:LARGE (Large) [Quantitative Concept]
+   571   C0205090:RIGHT (Right) [Spatial Concept]
+   809 N C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   571   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: in right parietal region EKG
+>>>>> Phrase
+right parietal region ekg
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (916):
+   756   C0932003:Right parietal region (Right parietal part of head) [Body Location or Region]
+   812   C1623258:EKG (Electrocardiography) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: lead
+>>>>> Phrase
+lead
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2348269:Lead (Dietary Lead) [Element, Ion, or Isotope]
+<<<<< Mappings
+
+Phrase: II monitor at 2019/9/27 06
+>>>>> Phrase
+ii monitor at 2019 9 27 06
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (696):
+   581   C1710602:II (VIPR1 wt Allele) [Gene or Genome]
+   748   C0181904:Monitor (Biomedical Monitors) [Medical Device]
+   612   C1705676:9-27 (IFITM1 wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 56
+>>>>> Phrase
+56
+<<<<< Phrase
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: by nursing record
+>>>>> Phrase
+nursing record
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0028694:Record, Nursing (Nursing Records) [Intellectual Product,Manufactured Object]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: showed
+>>>>> Phrase
+showed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: atrial fibrillation,
+>>>>> Phrase
+atrial fibrillation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1963067:Atrial fibrillation (Atrial Fibrillation Adverse Event) [Finding]
+<<<<< Mappings
+
+Phrase: paroxysmal,
+>>>>> Phrase
+paroxysmal
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205311:Paroxysmal [Temporal Concept]
+<<<<< Mappings
+
+Phrase: rapid ventricular rate
+>>>>> Phrase
+rapid ventricular rate
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0456962:Rapid [Qualitative Concept]
+   827   C0018827:Ventricular (Heart Ventricle) [Body Part, Organ, or Organ Component]
+   827   C1521828:Rate [Quantitative Concept]
+<<<<< Mappings
+      
+Processing 00000000.tx.1: Subjective fluctuated drowsiness; no fever episodes; no vomiting improved left limbs weakness tachy-arrhythmia noted transiently in this early morning  Objective 2019-09-27 06:20 V/S:BT37.1C(?);HR 65?/?;RR 17?/?;NBP 130/ 89mmHg Consciousness:E3V5M6, drowsy state, arousable state, could obey order pupil size R/L:3/3, light reflex: +/+ improved EOM limitation, 0 --X-- -1 , 0 --X-- -1 still left central facial palsy , improved dysarthria MP  RUL P/D:5/5  , LUL P/D:4-/4  RLL P/D:5/5  , LLL P/D:4 /4 FNF:left dysmetria, and overshooting
+
+Phrase: Subjective fluctuated drowsiness
+>>>>> Phrase
+subjective fluctuated drowsiness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0439655:Subjective (Subjective observation (qualifier value)) [Qualitative Concept]
+   660   C0231241:fluctuated (Fluctuating (qualifier value)) [Temporal Concept]
+   827   C0013144:DROWSINESS (Drowsiness) [Finding]
+<<<<< Mappings
+
+Phrase: ;
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no fever episodes
+>>>>> Phrase
+fever episodes
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694 N C0424755:Fever (Fever symptoms (finding)) [Finding]
+   861   C0332189:Episodes (Episode of) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: ;
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no vomiting improved left limbs weakness tachy-arrhythmia
+>>>>> Phrase
+vomiting improved left limbs weakness tachy arrhythmia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (775):
+   629 N C1963281:Vomiting (Vomiting Adverse Event) [Finding]
+   629   C0332272:Improved (Better) [Qualitative Concept]
+   629   C0205091:LEFT (Left) [Spatial Concept]
+   651 N C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+   795 N C0003811:Arrythmia (Cardiac Arrhythmia) [Finding]
+<<<<< Mappings
+
+Phrase: noted
+>>>>> Phrase
+noted
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4288581:Noted (Notable) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: transiently in this early morning  Objective 2019-09-27 06
+>>>>> Phrase
+transiently in this early morning objective 2019 09 27 06
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (633):
+   739   C1279919:Early [Temporal Concept]
+   739   C0332170:Morning [Temporal Concept]
+   739   C0018017:Objective (objective (goal)) [Intellectual Product]
+   739   C4319602:27 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 20 V/S
+>>>>> Phrase
+20 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C3842589:20% [Quantitative Concept]
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT37.1C
+>>>>> Phrase
+bt37 1c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 65?/?
+>>>>> Phrase
+hr 65
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3843765:65+ [Finding]
+<<<<< Mappings
+
+Phrase: ;RR 17?/?
+>>>>> Phrase
+rr 17
+<<<<< Phrase
+
+Phrase: ;NBP 130/ 89mmHg Consciousness
+>>>>> Phrase
+nbp 130 89mmhg consciousness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (812):
+   812   C0009791:consciousness (Consciousness related finding) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: E3V5M6,
+>>>>> Phrase
+e3v5m6
+<<<<< Phrase
+
+Phrase: drowsy state,
+>>>>> Phrase
+drowsy state
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0013144:DROWSY (Drowsiness) [Finding]
+   861   C1301808:State (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: arousable state,
+>>>>> Phrase
+arousable state
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C1301808:State (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: could
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: obey
+>>>>> Phrase
+obey
+<<<<< Phrase
+
+Phrase: order
+>>>>> Phrase
+order
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3889825:ORDER (Sequence of Planned Assessment Schedule) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: pupil size R/L:3/3,
+>>>>> Phrase
+pupil size r l 3 3
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   827   C0517965:pupil size (Size of pupil) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: light reflex
+>>>>> Phrase
+light reflex
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234671:Light reflex (Pupil afferent light reaction) [Organ or Tissue Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: +/+ improved EOM limitation,
+>>>>> Phrase
+improved eom limitation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0332272:Improved (Better) [Qualitative Concept]
+   660   C0241886:EOM (extraocular) [Functional Concept]
+   827   C0449295:Limitation [Functional Concept]
+<<<<< Mappings
+
+Phrase: 0
+>>>>> Phrase
+0
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842591:0% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: --
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: X-- -1 ,
+>>>>> Phrase
+x 1
+<<<<< Phrase
+
+Phrase: 0
+>>>>> Phrase
+0
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842591:0% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: --
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: X-- -1
+>>>>> Phrase
+x 1
+<<<<< Phrase
+
+Phrase: still
+>>>>> Phrase
+still
+<<<<< Phrase
+
+Phrase: left
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: central facial palsy ,
+>>>>> Phrase
+central facial palsy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (981):
+   981   C0751141:Paralysis, Central Facial (Facial Palsy, Upper Motor Neuron) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: improved dysarthria MP  RUL
+>>>>> Phrase
+improved dysarthria mp rul
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   645   C0332272:Improved (Better) [Qualitative Concept]
+   645   C0013362:DYSARTHRIA (Dysarthria) [Mental or Behavioral Dysfunction]
+   645   C0024944:MP (Mauritius) [Geographic Area]
+   812   C1261074:RUL (Structure of right upper lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5/5  ,
+>>>>> Phrase
+5 5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3844008:5.5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: LUL
+>>>>> Phrase
+lul
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1261076:LUL (Structure of left upper lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 4-/4  RLL
+>>>>> Phrase
+4 4 rll
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   734   C4517761:4.4 [Quantitative Concept]
+   827   C1261075:RLL (Structure of right lower lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5/5  ,
+>>>>> Phrase
+5 5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3844008:5.5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: LLL
+>>>>> Phrase
+lll
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1261077:LLL (Structure of left lower lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 4 /4 FNF
+>>>>> Phrase
+4 4 fnf
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   734   C4517761:4.4 [Quantitative Concept]
+   827   C0033228:FNF (Fenofibrate) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: left dysmetria,
+>>>>> Phrase
+left dysmetria
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0234162:DYSMETRIA (Cerebellar Dysmetria) [Finding]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: overshooting
+>>>>> Phrase
+overshooting
+<<<<< Phrase
+Processing 00000000.tx.1: 2019/9/26 Brain MRA scans:  no ICH,  Acute large cerebral infarction at right middle cerebral artery territory  especially in right parietal region EKG lead II monitor at 2019/9/27 06:56 (by nursing record)    showed atrial fibrillation, paroxysmal, rapid ventricular rate
+
+Phrase: 2019/9/26 Brain MRA scans
+>>>>> Phrase
+2019 9 26 brain mra scans
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (762):
+   839   C0596217:brain scans (Brain scan) [Diagnostic Procedure]
+   799   C0243032:MRA (Magnetic Resonance Angiography) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no ICH,
+>>>>> Phrase
+ich
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0019191:ICH (Infectious Canine Hepatitis) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: Acute large cerebral infarction at right middle cerebral artery territory  especially
+>>>>> Phrase
+acute large cerebral infarction at right middle cerebral artery territory especially
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (753):
+   571   C0205178:ACUTE (acute) [Temporal Concept]
+   571   C0549177:LARGE (Large) [Quantitative Concept]
+   571   C0205090:RIGHT (Right) [Spatial Concept]
+   809 N C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   571   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: in right parietal region EKG
+>>>>> Phrase
+right parietal region ekg
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (916):
+   756   C0932003:Right parietal region (Right parietal part of head) [Body Location or Region]
+   812   C1623258:EKG (Electrocardiography) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: lead
+>>>>> Phrase
+lead
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2348269:Lead (Dietary Lead) [Element, Ion, or Isotope]
+<<<<< Mappings
+
+Phrase: II monitor at 2019/9/27 06
+>>>>> Phrase
+ii monitor at 2019 9 27 06
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (696):
+   581   C1710602:II (VIPR1 wt Allele) [Gene or Genome]
+   748   C0181904:Monitor (Biomedical Monitors) [Medical Device]
+   612   C1705676:9-27 (IFITM1 wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 56
+>>>>> Phrase
+56
+<<<<< Phrase
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: by nursing record
+>>>>> Phrase
+nursing record
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0028694:Record, Nursing (Nursing Records) [Intellectual Product,Manufactured Object]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: showed
+>>>>> Phrase
+showed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: atrial fibrillation,
+>>>>> Phrase
+atrial fibrillation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1963067:Atrial fibrillation (Atrial Fibrillation Adverse Event) [Finding]
+<<<<< Mappings
+
+Phrase: paroxysmal,
+>>>>> Phrase
+paroxysmal
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205311:Paroxysmal [Temporal Concept]
+<<<<< Mappings
+
+Phrase: rapid ventricular rate
+>>>>> Phrase
+rapid ventricular rate
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0456962:Rapid [Qualitative Concept]
+   827   C0018827:Ventricular (Heart Ventricle) [Body Part, Organ, or Organ Component]
+   827   C1521828:Rate [Quantitative Concept]
+<<<<< Mappings
+      
+Processing 00000000.tx.1: Subjective fluctuated drowsiness; no fever episodes; no vomiting improved left limbs weakness tachy-arrhythmia noted transiently in this early morning  Objective 2019-09-27 06:20 V/S:BT37.1C(?);HR 65?/?;RR 17?/?;NBP 130/ 89mmHg Consciousness:E3V5M6, drowsy state, arousable state, could obey order pupil size R/L:3/3, light reflex: +/+ improved EOM limitation, 0 --X-- -1 , 0 --X-- -1 still left central facial palsy , improved dysarthria MP  RUL P/D:5/5  , LUL P/D:4-/4  RLL P/D:5/5  , LLL P/D:4 /4 FNF:left dysmetria, and overshooting
+
+Phrase: Subjective fluctuated drowsiness
+>>>>> Phrase
+subjective fluctuated drowsiness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0439655:Subjective (Subjective observation (qualifier value)) [Qualitative Concept]
+   660   C0231241:fluctuated (Fluctuating (qualifier value)) [Temporal Concept]
+   827   C0013144:DROWSINESS (Drowsiness) [Finding]
+<<<<< Mappings
+
+Phrase: ;
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no fever episodes
+>>>>> Phrase
+fever episodes
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694 N C0424755:Fever (Fever symptoms (finding)) [Finding]
+   861   C0332189:Episodes (Episode of) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: ;
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no vomiting improved left limbs weakness tachy-arrhythmia
+>>>>> Phrase
+vomiting improved left limbs weakness tachy arrhythmia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (775):
+   629 N C1963281:Vomiting (Vomiting Adverse Event) [Finding]
+   629   C0332272:Improved (Better) [Qualitative Concept]
+   629   C0205091:LEFT (Left) [Spatial Concept]
+   651 N C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+   795 N C0003811:Arrythmia (Cardiac Arrhythmia) [Finding]
+<<<<< Mappings
+
+Phrase: noted
+>>>>> Phrase
+noted
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4288581:Noted (Notable) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: transiently in this early morning  Objective 2019-09-27 06
+>>>>> Phrase
+transiently in this early morning objective 2019 09 27 06
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (633):
+   739   C1279919:Early [Temporal Concept]
+   739   C0332170:Morning [Temporal Concept]
+   739   C0018017:Objective (objective (goal)) [Intellectual Product]
+   739   C4319602:27 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 20 V/S
+>>>>> Phrase
+20 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C3842589:20% [Quantitative Concept]
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT37.1C
+>>>>> Phrase
+bt37 1c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 65?/?
+>>>>> Phrase
+hr 65
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3843765:65+ [Finding]
+<<<<< Mappings
+
+Phrase: ;RR 17?/?
+>>>>> Phrase
+rr 17
+<<<<< Phrase
+
+Phrase: ;NBP 130/ 89mmHg Consciousness
+>>>>> Phrase
+nbp 130 89mmhg consciousness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (812):
+   812   C0009791:consciousness (Consciousness related finding) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: E3V5M6,
+>>>>> Phrase
+e3v5m6
+<<<<< Phrase
+
+Phrase: drowsy state,
+>>>>> Phrase
+drowsy state
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0013144:DROWSY (Drowsiness) [Finding]
+   861   C1301808:State (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: arousable state,
+>>>>> Phrase
+arousable state
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C1301808:State (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: could
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: obey
+>>>>> Phrase
+obey
+<<<<< Phrase
+
+Phrase: order
+>>>>> Phrase
+order
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3889825:ORDER (Sequence of Planned Assessment Schedule) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: pupil size R/L:3/3,
+>>>>> Phrase
+pupil size r l 3 3
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   827   C0517965:pupil size (Size of pupil) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: light reflex
+>>>>> Phrase
+light reflex
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234671:Light reflex (Pupil afferent light reaction) [Organ or Tissue Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: +/+ improved EOM limitation,
+>>>>> Phrase
+improved eom limitation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0332272:Improved (Better) [Qualitative Concept]
+   660   C0241886:EOM (extraocular) [Functional Concept]
+   827   C0449295:Limitation [Functional Concept]
+<<<<< Mappings
+
+Phrase: 0
+>>>>> Phrase
+0
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842591:0% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: --
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: X-- -1 ,
+>>>>> Phrase
+x 1
+<<<<< Phrase
+
+Phrase: 0
+>>>>> Phrase
+0
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842591:0% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: --
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: X-- -1
+>>>>> Phrase
+x 1
+<<<<< Phrase
+
+Phrase: still
+>>>>> Phrase
+still
+<<<<< Phrase
+
+Phrase: left
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: central facial palsy ,
+>>>>> Phrase
+central facial palsy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (981):
+   981   C0751141:Paralysis, Central Facial (Facial Palsy, Upper Motor Neuron) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: improved dysarthria MP  RUL
+>>>>> Phrase
+improved dysarthria mp rul
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   645   C0332272:Improved (Better) [Qualitative Concept]
+   645   C0013362:DYSARTHRIA (Dysarthria) [Mental or Behavioral Dysfunction]
+   645   C0024944:MP (Mauritius) [Geographic Area]
+   812   C1261074:RUL (Structure of right upper lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5/5  ,
+>>>>> Phrase
+5 5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3844008:5.5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: LUL
+>>>>> Phrase
+lul
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1261076:LUL (Structure of left upper lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 4-/4  RLL
+>>>>> Phrase
+4 4 rll
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   734   C4517761:4.4 [Quantitative Concept]
+   827   C1261075:RLL (Structure of right lower lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5/5  ,
+>>>>> Phrase
+5 5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3844008:5.5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: LLL
+>>>>> Phrase
+lll
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1261077:LLL (Structure of left lower lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 4 /4 FNF
+>>>>> Phrase
+4 4 fnf
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   734   C4517761:4.4 [Quantitative Concept]
+   827   C0033228:FNF (Fenofibrate) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: left dysmetria,
+>>>>> Phrase
+left dysmetria
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0234162:DYSMETRIA (Cerebellar Dysmetria) [Finding]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: overshooting
+>>>>> Phrase
+overshooting
+<<<<< Phrase
+Processing 00000000.tx.1: 2019/9/26 Brain MRA scans:  no ICH,  Acute large cerebral infarction at right middle cerebral artery territory  especially in right parietal region EKG lead II monitor at 2019/9/27 06:56 (by nursing record)    showed atrial fibrillation, paroxysmal, rapid ventricular rate
+
+Phrase: 2019/9/26 Brain MRA scans
+>>>>> Phrase
+2019 9 26 brain mra scans
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (762):
+   839   C0596217:brain scans (Brain scan) [Diagnostic Procedure]
+   799   C0243032:MRA (Magnetic Resonance Angiography) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no ICH,
+>>>>> Phrase
+ich
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0019191:ICH (Infectious Canine Hepatitis) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: Acute large cerebral infarction at right middle cerebral artery territory  especially
+>>>>> Phrase
+acute large cerebral infarction at right middle cerebral artery territory especially
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (753):
+   571   C0205178:ACUTE (acute) [Temporal Concept]
+   571   C0549177:LARGE (Large) [Quantitative Concept]
+   571   C0205090:RIGHT (Right) [Spatial Concept]
+   809 N C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   571   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: in right parietal region EKG
+>>>>> Phrase
+right parietal region ekg
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (916):
+   756   C0932003:Right parietal region (Right parietal part of head) [Body Location or Region]
+   812   C1623258:EKG (Electrocardiography) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: lead
+>>>>> Phrase
+lead
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2348269:Lead (Dietary Lead) [Element, Ion, or Isotope]
+<<<<< Mappings
+
+Phrase: II monitor at 2019/9/27 06
+>>>>> Phrase
+ii monitor at 2019 9 27 06
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (696):
+   581   C1710602:II (VIPR1 wt Allele) [Gene or Genome]
+   748   C0181904:Monitor (Biomedical Monitors) [Medical Device]
+   612   C1705676:9-27 (IFITM1 wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 56
+>>>>> Phrase
+56
+<<<<< Phrase
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: by nursing record
+>>>>> Phrase
+nursing record
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0028694:Record, Nursing (Nursing Records) [Intellectual Product,Manufactured Object]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: showed
+>>>>> Phrase
+showed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: atrial fibrillation,
+>>>>> Phrase
+atrial fibrillation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1963067:Atrial fibrillation (Atrial Fibrillation Adverse Event) [Finding]
+<<<<< Mappings
+
+Phrase: paroxysmal,
+>>>>> Phrase
+paroxysmal
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205311:Paroxysmal [Temporal Concept]
+<<<<< Mappings
+
+Phrase: rapid ventricular rate
+>>>>> Phrase
+rapid ventricular rate
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0456962:Rapid [Qualitative Concept]
+   827   C0018827:Ventricular (Heart Ventricle) [Body Part, Organ, or Organ Component]
+   827   C1521828:Rate [Quantitative Concept]
+<<<<< Mappings
+      
+Processing 00000000.tx.1: Subjective fluctuated drowsiness; no fever episodes; no vomiting improved left limbs weakness tachy-arrhythmia noted transiently in this early morning  Objective 2019-09-27 06:20 V/S:BT37.1C(?);HR 65?/?;RR 17?/?;NBP 130/ 89mmHg Consciousness:E3V5M6, drowsy state, arousable state, could obey order pupil size R/L:3/3, light reflex: +/+ improved EOM limitation, 0 --X-- -1 , 0 --X-- -1 still left central facial palsy , improved dysarthria MP  RUL P/D:5/5  , LUL P/D:4-/4  RLL P/D:5/5  , LLL P/D:4 /4 FNF:left dysmetria, and overshooting
+
+Phrase: Subjective fluctuated drowsiness
+>>>>> Phrase
+subjective fluctuated drowsiness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0439655:Subjective (Subjective observation (qualifier value)) [Qualitative Concept]
+   660   C0231241:fluctuated (Fluctuating (qualifier value)) [Temporal Concept]
+   827   C0013144:DROWSINESS (Drowsiness) [Finding]
+<<<<< Mappings
+
+Phrase: ;
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no fever episodes
+>>>>> Phrase
+fever episodes
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694 N C0424755:Fever (Fever symptoms (finding)) [Finding]
+   861   C0332189:Episodes (Episode of) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: ;
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no vomiting improved left limbs weakness tachy-arrhythmia
+>>>>> Phrase
+vomiting improved left limbs weakness tachy arrhythmia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (775):
+   629 N C1963281:Vomiting (Vomiting Adverse Event) [Finding]
+   629   C0332272:Improved (Better) [Qualitative Concept]
+   629   C0205091:LEFT (Left) [Spatial Concept]
+   651 N C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+   795 N C0003811:Arrythmia (Cardiac Arrhythmia) [Finding]
+<<<<< Mappings
+
+Phrase: noted
+>>>>> Phrase
+noted
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4288581:Noted (Notable) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: transiently in this early morning  Objective 2019-09-27 06
+>>>>> Phrase
+transiently in this early morning objective 2019 09 27 06
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (633):
+   739   C1279919:Early [Temporal Concept]
+   739   C0332170:Morning [Temporal Concept]
+   739   C0018017:Objective (objective (goal)) [Intellectual Product]
+   739   C4319602:27 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 20 V/S
+>>>>> Phrase
+20 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C3842589:20% [Quantitative Concept]
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT37.1C
+>>>>> Phrase
+bt37 1c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 65?/?
+>>>>> Phrase
+hr 65
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3843765:65+ [Finding]
+<<<<< Mappings
+
+Phrase: ;RR 17?/?
+>>>>> Phrase
+rr 17
+<<<<< Phrase
+
+Phrase: ;NBP 130/ 89mmHg Consciousness
+>>>>> Phrase
+nbp 130 89mmhg consciousness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (812):
+   812   C0009791:consciousness (Consciousness related finding) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: E3V5M6,
+>>>>> Phrase
+e3v5m6
+<<<<< Phrase
+
+Phrase: drowsy state,
+>>>>> Phrase
+drowsy state
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0013144:DROWSY (Drowsiness) [Finding]
+   861   C1301808:State (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: arousable state,
+>>>>> Phrase
+arousable state
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C1301808:State (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: could
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: obey
+>>>>> Phrase
+obey
+<<<<< Phrase
+
+Phrase: order
+>>>>> Phrase
+order
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3889825:ORDER (Sequence of Planned Assessment Schedule) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: pupil size R/L:3/3,
+>>>>> Phrase
+pupil size r l 3 3
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   827   C0517965:pupil size (Size of pupil) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: light reflex
+>>>>> Phrase
+light reflex
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234671:Light reflex (Pupil afferent light reaction) [Organ or Tissue Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: +/+ improved EOM limitation,
+>>>>> Phrase
+improved eom limitation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0332272:Improved (Better) [Qualitative Concept]
+   660   C0241886:EOM (extraocular) [Functional Concept]
+   827   C0449295:Limitation [Functional Concept]
+<<<<< Mappings
+
+Phrase: 0
+>>>>> Phrase
+0
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842591:0% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: --
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: X-- -1 ,
+>>>>> Phrase
+x 1
+<<<<< Phrase
+
+Phrase: 0
+>>>>> Phrase
+0
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842591:0% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: --
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: X-- -1
+>>>>> Phrase
+x 1
+<<<<< Phrase
+
+Phrase: still
+>>>>> Phrase
+still
+<<<<< Phrase
+
+Phrase: left
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: central facial palsy ,
+>>>>> Phrase
+central facial palsy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (981):
+   981   C0751141:Paralysis, Central Facial (Facial Palsy, Upper Motor Neuron) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: improved dysarthria MP  RUL
+>>>>> Phrase
+improved dysarthria mp rul
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   645   C0332272:Improved (Better) [Qualitative Concept]
+   645   C0013362:DYSARTHRIA (Dysarthria) [Mental or Behavioral Dysfunction]
+   645   C0024944:MP (Mauritius) [Geographic Area]
+   812   C1261074:RUL (Structure of right upper lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5/5  ,
+>>>>> Phrase
+5 5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3844008:5.5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: LUL
+>>>>> Phrase
+lul
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1261076:LUL (Structure of left upper lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 4-/4  RLL
+>>>>> Phrase
+4 4 rll
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   734   C4517761:4.4 [Quantitative Concept]
+   827   C1261075:RLL (Structure of right lower lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5/5  ,
+>>>>> Phrase
+5 5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3844008:5.5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: LLL
+>>>>> Phrase
+lll
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1261077:LLL (Structure of left lower lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 4 /4 FNF
+>>>>> Phrase
+4 4 fnf
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   734   C4517761:4.4 [Quantitative Concept]
+   827   C0033228:FNF (Fenofibrate) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: left dysmetria,
+>>>>> Phrase
+left dysmetria
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0234162:DYSMETRIA (Cerebellar Dysmetria) [Finding]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: overshooting
+>>>>> Phrase
+overshooting
+<<<<< Phrase
+Processing 00000000.tx.1: 2019/9/26 Brain MRA scans:  no ICH,  Acute large cerebral infarction at right middle cerebral artery territory  especially in right parietal region EKG lead II monitor at 2019/9/27 06:56 (by nursing record)    showed atrial fibrillation, paroxysmal, rapid ventricular rate
+
+Phrase: 2019/9/26 Brain MRA scans
+>>>>> Phrase
+2019 9 26 brain mra scans
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (762):
+   839   C0596217:brain scans (Brain scan) [Diagnostic Procedure]
+   799   C0243032:MRA (Magnetic Resonance Angiography) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no ICH,
+>>>>> Phrase
+ich
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0019191:ICH (Infectious Canine Hepatitis) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: Acute large cerebral infarction at right middle cerebral artery territory  especially
+>>>>> Phrase
+acute large cerebral infarction at right middle cerebral artery territory especially
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (753):
+   571   C0205178:ACUTE (acute) [Temporal Concept]
+   571   C0549177:LARGE (Large) [Quantitative Concept]
+   571   C0205090:RIGHT (Right) [Spatial Concept]
+   809 N C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   571   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: in right parietal region EKG
+>>>>> Phrase
+right parietal region ekg
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (916):
+   756   C0932003:Right parietal region (Right parietal part of head) [Body Location or Region]
+   812   C1623258:EKG (Electrocardiography) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: lead
+>>>>> Phrase
+lead
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2348269:Lead (Dietary Lead) [Element, Ion, or Isotope]
+<<<<< Mappings
+
+Phrase: II monitor at 2019/9/27 06
+>>>>> Phrase
+ii monitor at 2019 9 27 06
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (696):
+   581   C1710602:II (VIPR1 wt Allele) [Gene or Genome]
+   748   C0181904:Monitor (Biomedical Monitors) [Medical Device]
+   612   C1705676:9-27 (IFITM1 wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 56
+>>>>> Phrase
+56
+<<<<< Phrase
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: by nursing record
+>>>>> Phrase
+nursing record
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0028694:Record, Nursing (Nursing Records) [Intellectual Product,Manufactured Object]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: showed
+>>>>> Phrase
+showed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: atrial fibrillation,
+>>>>> Phrase
+atrial fibrillation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1963067:Atrial fibrillation (Atrial Fibrillation Adverse Event) [Finding]
+<<<<< Mappings
+
+Phrase: paroxysmal,
+>>>>> Phrase
+paroxysmal
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205311:Paroxysmal [Temporal Concept]
+<<<<< Mappings
+
+Phrase: rapid ventricular rate
+>>>>> Phrase
+rapid ventricular rate
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0456962:Rapid [Qualitative Concept]
+   827   C0018827:Ventricular (Heart Ventricle) [Body Part, Organ, or Organ Component]
+   827   C1521828:Rate [Quantitative Concept]
+<<<<< Mappings
+      
+Processing 00000000.tx.1: Subjective fluctuated drowsiness; no fever episodes; no vomiting improved left limbs weakness tachy-arrhythmia noted transiently in this early morning  Objective 2019-09-27 06:20 V/S:BT37.1C(?);HR 65?/?;RR 17?/?;NBP 130/ 89mmHg Consciousness:E3V5M6, drowsy state, arousable state, could obey order pupil size R/L:3/3, light reflex: +/+ improved EOM limitation, 0 --X-- -1 , 0 --X-- -1 still left central facial palsy , improved dysarthria MP  RUL P/D:5/5  , LUL P/D:4-/4  RLL P/D:5/5  , LLL P/D:4 /4 FNF:left dysmetria, and overshooting
+
+Phrase: Subjective fluctuated drowsiness
+>>>>> Phrase
+subjective fluctuated drowsiness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0439655:Subjective (Subjective observation (qualifier value)) [Qualitative Concept]
+   660   C0231241:fluctuated (Fluctuating (qualifier value)) [Temporal Concept]
+   827   C0013144:DROWSINESS (Drowsiness) [Finding]
+<<<<< Mappings
+
+Phrase: ;
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no fever episodes
+>>>>> Phrase
+fever episodes
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694 N C0424755:Fever (Fever symptoms (finding)) [Finding]
+   861   C0332189:Episodes (Episode of) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: ;
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no vomiting improved left limbs weakness tachy-arrhythmia
+>>>>> Phrase
+vomiting improved left limbs weakness tachy arrhythmia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (775):
+   629 N C1963281:Vomiting (Vomiting Adverse Event) [Finding]
+   629   C0332272:Improved (Better) [Qualitative Concept]
+   629   C0205091:LEFT (Left) [Spatial Concept]
+   651 N C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+   795 N C0003811:Arrythmia (Cardiac Arrhythmia) [Finding]
+<<<<< Mappings
+
+Phrase: noted
+>>>>> Phrase
+noted
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4288581:Noted (Notable) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: transiently in this early morning  Objective 2019-09-27 06
+>>>>> Phrase
+transiently in this early morning objective 2019 09 27 06
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (633):
+   739   C1279919:Early [Temporal Concept]
+   739   C0332170:Morning [Temporal Concept]
+   739   C0018017:Objective (objective (goal)) [Intellectual Product]
+   739   C4319602:27 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 20 V/S
+>>>>> Phrase
+20 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C3842589:20% [Quantitative Concept]
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT37.1C
+>>>>> Phrase
+bt37 1c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 65?/?
+>>>>> Phrase
+hr 65
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3843765:65+ [Finding]
+<<<<< Mappings
+
+Phrase: ;RR 17?/?
+>>>>> Phrase
+rr 17
+<<<<< Phrase
+
+Phrase: ;NBP 130/ 89mmHg Consciousness
+>>>>> Phrase
+nbp 130 89mmhg consciousness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (812):
+   812   C0009791:consciousness (Consciousness related finding) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: E3V5M6,
+>>>>> Phrase
+e3v5m6
+<<<<< Phrase
+
+Phrase: drowsy state,
+>>>>> Phrase
+drowsy state
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0013144:DROWSY (Drowsiness) [Finding]
+   861   C1301808:State (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: arousable state,
+>>>>> Phrase
+arousable state
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C1301808:State (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: could
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: obey
+>>>>> Phrase
+obey
+<<<<< Phrase
+
+Phrase: order
+>>>>> Phrase
+order
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3889825:ORDER (Sequence of Planned Assessment Schedule) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: pupil size R/L:3/3,
+>>>>> Phrase
+pupil size r l 3 3
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   827   C0517965:pupil size (Size of pupil) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: light reflex
+>>>>> Phrase
+light reflex
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234671:Light reflex (Pupil afferent light reaction) [Organ or Tissue Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: +/+ improved EOM limitation,
+>>>>> Phrase
+improved eom limitation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0332272:Improved (Better) [Qualitative Concept]
+   660   C0241886:EOM (extraocular) [Functional Concept]
+   827   C0449295:Limitation [Functional Concept]
+<<<<< Mappings
+
+Phrase: 0
+>>>>> Phrase
+0
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842591:0% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: --
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: X-- -1 ,
+>>>>> Phrase
+x 1
+<<<<< Phrase
+
+Phrase: 0
+>>>>> Phrase
+0
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842591:0% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: --
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: X-- -1
+>>>>> Phrase
+x 1
+<<<<< Phrase
+
+Phrase: still
+>>>>> Phrase
+still
+<<<<< Phrase
+
+Phrase: left
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: central facial palsy ,
+>>>>> Phrase
+central facial palsy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (981):
+   981   C0751141:Paralysis, Central Facial (Facial Palsy, Upper Motor Neuron) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: improved dysarthria MP  RUL
+>>>>> Phrase
+improved dysarthria mp rul
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   645   C0332272:Improved (Better) [Qualitative Concept]
+   645   C0013362:DYSARTHRIA (Dysarthria) [Mental or Behavioral Dysfunction]
+   645   C0024944:MP (Mauritius) [Geographic Area]
+   812   C1261074:RUL (Structure of right upper lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5/5  ,
+>>>>> Phrase
+5 5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3844008:5.5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: LUL
+>>>>> Phrase
+lul
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1261076:LUL (Structure of left upper lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 4-/4  RLL
+>>>>> Phrase
+4 4 rll
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   734   C4517761:4.4 [Quantitative Concept]
+   827   C1261075:RLL (Structure of right lower lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5/5  ,
+>>>>> Phrase
+5 5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3844008:5.5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: LLL
+>>>>> Phrase
+lll
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1261077:LLL (Structure of left lower lobe of lung) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: P/D
+>>>>> Phrase
+p d
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 4 /4 FNF
+>>>>> Phrase
+4 4 fnf
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   734   C4517761:4.4 [Quantitative Concept]
+   827   C0033228:FNF (Fenofibrate) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: left dysmetria,
+>>>>> Phrase
+left dysmetria
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0234162:DYSMETRIA (Cerebellar Dysmetria) [Finding]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: overshooting
+>>>>> Phrase
+overshooting
+<<<<< Phrase
+Processing 00000000.tx.1: 2019/9/26 Brain MRA scans:  no ICH,  Acute large cerebral infarction at right middle cerebral artery territory  especially in right parietal region EKG lead II monitor at 2019/9/27 06:56 (by nursing record)    showed atrial fibrillation, paroxysmal, rapid ventricular rate
+
+Phrase: 2019/9/26 Brain MRA scans
+>>>>> Phrase
+2019 9 26 brain mra scans
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (762):
+   839   C0596217:brain scans (Brain scan) [Diagnostic Procedure]
+   799   C0243032:MRA (Magnetic Resonance Angiography) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no ICH,
+>>>>> Phrase
+ich
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0019191:ICH (Infectious Canine Hepatitis) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: Acute large cerebral infarction at right middle cerebral artery territory  especially
+>>>>> Phrase
+acute large cerebral infarction at right middle cerebral artery territory especially
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (753):
+   571   C0205178:ACUTE (acute) [Temporal Concept]
+   571   C0549177:LARGE (Large) [Quantitative Concept]
+   571   C0205090:RIGHT (Right) [Spatial Concept]
+   809 N C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   571   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: in right parietal region EKG
+>>>>> Phrase
+right parietal region ekg
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (916):
+   756   C0932003:Right parietal region (Right parietal part of head) [Body Location or Region]
+   812   C1623258:EKG (Electrocardiography) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: lead
+>>>>> Phrase
+lead
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2348269:Lead (Dietary Lead) [Element, Ion, or Isotope]
+<<<<< Mappings
+
+Phrase: II monitor at 2019/9/27 06
+>>>>> Phrase
+ii monitor at 2019 9 27 06
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (696):
+   581   C1710602:II (VIPR1 wt Allele) [Gene or Genome]
+   748   C0181904:Monitor (Biomedical Monitors) [Medical Device]
+   612   C1705676:9-27 (IFITM1 wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 56
+>>>>> Phrase
+56
+<<<<< Phrase
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: by nursing record
+>>>>> Phrase
+nursing record
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0028694:Record, Nursing (Nursing Records) [Intellectual Product,Manufactured Object]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: showed
+>>>>> Phrase
+showed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: atrial fibrillation,
+>>>>> Phrase
+atrial fibrillation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1963067:Atrial fibrillation (Atrial Fibrillation Adverse Event) [Finding]
+<<<<< Mappings
+
+Phrase: paroxysmal,
+>>>>> Phrase
+paroxysmal
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205311:Paroxysmal [Temporal Concept]
+<<<<< Mappings
+
+Phrase: rapid ventricular rate
+>>>>> Phrase
+rapid ventricular rate
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0456962:Rapid [Qualitative Concept]
+   827   C0018827:Ventricular (Heart Ventricle) [Body Part, Organ, or Organ Component]
+   827   C1521828:Rate [Quantitative Concept]
+<<<<< Mappings
+      

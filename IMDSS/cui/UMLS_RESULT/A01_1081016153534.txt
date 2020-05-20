@@ -1,0 +1,521 @@
+Processing 00000000.tx.1: ????:434 occlusion of cerebral arteries
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 434 occlusion of cerebral arteries
+>>>>> Phrase
+434 occlusion of cerebral arteries
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (926):
+   926   C0028790:Occlusion of cerebral arteries (Cerebral artery occlusion) [Acquired Abnormality]
+<<<<< Mappings
+Processing 00000000.tx.1: ??/??:  
+
+Phrase: ??/??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: Acute stroke post t-PA and thrombectomy 9/25 Holter: 9/30 PAFL 13:26 (30sec) 13:55 ( 4 min) 21:32 ( 85 min) atrial flutter with pauses (22:19 -22:22 x 4 episodes 1.8 -3.1 sec) mono VPCs couplet 8 triplet 9
+
+Phrase: Acute stroke post t-PA
+>>>>> Phrase
+acute stroke post t pa
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (794):
+   673   C0751956:Acute stroke (Acute Cerebrovascular Accidents) [Disease or Syndrome]
+   637   C0687676:Post [Temporal Concept]
+   804   C0030428:PA (Paraguay) [Geographic Area]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: thrombectomy 9/25 Holter
+>>>>> Phrase
+thrombectomy 9 25 holter
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (645):
+   645   C0162578:Thrombectomy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 9/30 PAFL 13
+>>>>> Phrase
+9 30 pafl 13
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (812):
+   812   C3842588:30% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 26
+>>>>> Phrase
+26
+<<<<< Phrase
+
+Phrase: (30sec
+>>>>> Phrase
+30sec
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 13
+>>>>> Phrase
+13
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 55
+>>>>> Phrase
+55
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0450382:55 [Intellectual Product]
+<<<<< Mappings
+
+Phrase: ( 4 min) 21
+>>>>> Phrase
+4 min 21
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   827   C3838679:4+ (4+ Answer to question) [Finding]
+   827   C0702093:/min (Per Minute) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 32
+>>>>> Phrase
+32
+<<<<< Phrase
+
+Phrase: ( 85 min) atrial flutter with pauses
+>>>>> Phrase
+85 min atrial flutter with pauses
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (753):
+   586   C4517892:85 [Quantitative Concept]
+   586   C0702093:/min (Per Minute) [Temporal Concept]
+   790   C1963068:Atrial flutter (Atrial Flutter Adverse Event) [Pathologic Function]
+   586   C0489607:Pauses [Temporal Concept]
+<<<<< Mappings
+
+Phrase: (22
+>>>>> Phrase
+22
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 19 -22
+>>>>> Phrase
+19 22
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 22 x 4 episodes 1.8 -3.1 sec
+>>>>> Phrase
+22 x 4 episodes 1 8 3 1 sec
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (743):
+   624   C0332189:Episodes (Episode of) [Temporal Concept]
+   791   C0565930:/sec (per second) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: mono VPCs couplet 8 triplet 9
+>>>>> Phrase
+mono vpcs couplet 8 triplet 9
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (734):
+   799   C1551969:Mono (Mono language) [Language]
+   799   C0151636:VPC (Premature ventricular contractions) [Disease or Syndrome]
+   799   C0429001:Couplet (Paired ventricular premature complexes) [Pathologic Function]
+   799   C0041095:Triplet (Triplet Multiple Birth) [Family Group]
+<<<<< Mappings
+Processing 00000000.tx.1: ?[2019/10/16]131/84/74 S: occasional episodes of palpitation 1 st about 6 months ago duration: 5-10 min frequency: 2-3 /mo other: regular fast beating, somewhat discomfort, denied syncope or fainting no attack post discharge 10/3 O: ectopics normal S1 and S2, no murmur, clear breathing sound bil, no leg edema, ECG-2019 12-lead sinus 66 VPCs, long lead II APC x 9, 6, 3, A:PAf , initiated by APCs from Neuro NOAC rytmonorm
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: [2019/10/16
+>>>>> Phrase
+2019 10 16
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C4517518:10.16 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ]131/84/74 S
+>>>>> Phrase
+131 84 74 s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (583):
+   645   C4319623:84 [Quantitative Concept]
+   645   C4517867:74 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: occasional episodes of palpitation 1 st
+>>>>> Phrase
+occasional episodes of palpitation 1 st
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (746):
+   586   C0521114:Occasional (Infrequent) [Temporal Concept]
+   773   C0332189:Episode of [Temporal Concept]
+   586   C0030252:PALPITATION (Palpitations) [Finding]
+   586   C0036056:ST (Saint Lucia) [Geographic Area]
+<<<<< Mappings
+
+Phrase: about 6 months ago duration
+>>>>> Phrase
+6 months ago duration
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (763):
+   645   C0439231:MONTHS (month) [Temporal Concept]
+   812   C0449238:Duration (Duration (temporal concept)) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 5-10 min frequency
+>>>>> Phrase
+5 10 min frequency
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   694   C4086718:5-10 (PSA Level Five to Ten) [Laboratory or Test Result]
+   645   C0702093:/min (Per Minute) [Temporal Concept]
+   812   C0439603:Frequency (Frequencies (time pattern)) [Temporal Concept]
+Meta Mapping (861):
+   645   C0439084:>5 [Quantitative Concept]
+   694   C0456692:/10 min [Temporal Concept]
+   812   C0439603:Frequency (Frequencies (time pattern)) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 2-3 /mo
+>>>>> Phrase
+2 3 mo
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   734   C1519042:2-3 (Phase II/III Trial) [Research Activity]
+   827   C0332177:/mo (Monthly (qualifier value)) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: other
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: regular fast beating,
+>>>>> Phrase
+regular fast beating
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0205272:Regular [Qualitative Concept]
+   660   C0456962:Fast (Rapid) [Qualitative Concept]
+   827   C0868443:beating (beatings nos) [Social Behavior]
+<<<<< Mappings
+
+Phrase: somewhat discomfort,
+>>>>> Phrase
+somewhat discomfort
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C2984079:Somewhat [Finding]
+   861   C0231218:DISCOMFORT (Malaise) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: denied
+>>>>> Phrase
+denied
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0332319:Denied (Denied (qualifier)) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: syncope
+>>>>> Phrase
+syncope
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0039070:SYNCOPE (Syncope) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: or
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: fainting
+>>>>> Phrase
+fainting
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0039070:FAINTING (Syncope) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: no attack post discharge 10/3 O
+>>>>> Phrase
+attack post discharge 10 3 o
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (620):
+   632   C0277793:Attack (Onset of illness) [Temporal Concept]
+   632   C0687676:Post [Temporal Concept]
+   632   C0030685:Discharge (Patient Discharge) [Health Care Activity]
+   660   C1883310:10^3 (One Thousand) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ectopics normal S1
+>>>>> Phrase
+ectopics normal s1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660 N C0340464:Ectopics (Premature Cardiac Complex) [Pathologic Function]
+   660   C0205307:NORMAL (Normal) [Qualitative Concept]
+   827 N C3715215:S1 [Finding]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: S2,
+>>>>> Phrase
+s2
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1419718:S2 (RPS2 gene) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: no murmur,
+>>>>> Phrase
+murmur
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0018808:MURMUR (Heart murmur) [Finding]
+<<<<< Mappings
+
+Phrase: clear breathing sound bil,
+>>>>> Phrase
+clear breathing sound bil
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (658):
+   645 N C1709157:Clear (Negative Surgical Margin) [Finding]
+   694   C0035234:Sound, Breathing (Respiratory Sounds) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: no leg edema,
+>>>>> Phrase
+leg edema
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0235886:Leg oedema (Leg edema) [Pathologic Function]
+<<<<< Mappings
+
+Phrase: ECG-2019 12-lead sinus 66 VPCs,
+>>>>> Phrase
+ecg 2019 12 lead sinus 66 vpcs
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (749):
+   629   C1623258:ECG NOS (Electrocardiography) [Diagnostic Procedure]
+   629   C2348269:Lead (Dietary Lead) [Element, Ion, or Isotope]
+   629 N C0016169:Sinus (pathologic fistula) [Anatomical Abnormality]
+   629   C4517841:66 [Quantitative Concept]
+   795 N C0151636:VPC (Premature ventricular contractions) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: long lead II APC x 9,
+>>>>> Phrase
+long lead ii apc x 9
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (787):
+   799   C0205166:LONG (Long) [Qualitative Concept]
+   799   C2348269:Lead (Dietary Lead) [Element, Ion, or Isotope]
+   839   C0444968:II/X [Intellectual Product]
+   799   C0032580:APC (Adenomatous Polyposis Coli) [Neoplastic Process]
+<<<<< Mappings
+
+Phrase: 6,
+>>>>> Phrase
+6
+<<<<< Phrase
+
+Phrase: 3,
+>>>>> Phrase
+3
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439086:<3 (<3 (qualifier value)) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: A
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: PAf ,
+>>>>> Phrase
+paf
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3811388:PAF (Platelet Activating Factor Measurement) [Laboratory Procedure]
+<<<<< Mappings
+
+Phrase: initiated by APCs
+>>>>> Phrase
+initiated by apcs
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (730):
+   756   C1548602:Initiate (Initiate (source type)) [Idea or Concept]
+   790   C0033036:apcs (Atrial Premature Complexes) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: from Neuro NOAC rytmonorm
+>>>>> Phrase
+neuro noac rytmonorm
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0027855:NEURO (Neurology speciality) [Biomedical Occupation or Discipline]
+   660   C0642228:NOAC (N(4)-oleylcytosine arabinoside) [Nucleic Acid, Nucleoside, or Nucleotide,Pharmacologic Substance]
+   827   C0282316:Rytmonorm (Rythmol) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+Processing 00000000.tx.1: ??:  
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: ?I63.40 (434.11 ) Cerebral infarction due to embolism of unspecified cerebral artery  ?I49.8 (427.89 ) Other specified cardiac arrhythmias
+
+Phrase: ?I63.40
+>>>>> Phrase
+i63 40
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3842587:40% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: (434.11
+>>>>> Phrase
+434 11
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Cerebral infarction due to embolism of unspecified cerebral artery  ?I49.8
+>>>>> Phrase
+cerebral infarction due to embolism of unspecified cerebral artery i49 8
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (932):
+   932   C2882380:Cerebral infarction due to embolism of unspecified cerebral artery [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: (427.89
+>>>>> Phrase
+427 89
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Other specified cardiac arrhythmias
+>>>>> Phrase
+specified cardiac arrhythmias
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0205369:Specified (Specific qualifier value) [Qualitative Concept]
+   901   C0003811:Cardiac Arrhythmias (Cardiac Arrhythmia) [Finding]
+<<<<< Mappings
+      

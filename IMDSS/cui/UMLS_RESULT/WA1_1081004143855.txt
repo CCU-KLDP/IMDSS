@@ -1,0 +1,4060 @@
+Processing 00000000.tx.1: Chief Complaints Sudden of trunk deviation to left side, left limbs weakness, then right-ward looking, and slurred speech while having meeting with sitting position at 08:30 this morning  Present Illness    This is 38-old man was relatively healthy before and denied any systemic disorder.    
+
+Phrase: Chief Complaints
+>>>>> Phrase
+chief complaints
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C0277786:Chief Complaint (Chief complaint (finding)) [Finding]
+<<<<< Mappings
+
+Phrase: Sudden of trunk deviation
+>>>>> Phrase
+sudden of trunk deviation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (733):
+   770   C1276802:Sudden (Sudden onset (attribute)) [Qualitative Concept]
+   604   C0460005:TRUNK (Trunk structure) [Body Location or Region]
+   604   C0205419:Deviation (Variant) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: to left side,
+>>>>> Phrase
+left side
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:Left side (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: left limbs weakness,
+>>>>> Phrase
+left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0205091:LEFT (Left) [Spatial Concept]
+   901   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: then right-ward looking,
+>>>>> Phrase
+then right ward looking
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (825):
+   645   C1883708:Then [Temporal Concept]
+   645   C0444532:Right (Right sided) [Spatial Concept]
+   645   C1305702:Ward (Ward (environment)) [Health Care Related Organization,Manufactured Object]
+   779   C0233426:look (Personal appearance) [Organism Attribute]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: slurred speech
+>>>>> Phrase
+slurred speech
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234518:SLURRED SPEECH (Slurred speech) [Finding]
+<<<<< Mappings
+
+Phrase: while
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: having
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: meeting with sitting position
+>>>>> Phrase
+meeting with sitting position
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (783):
+   770   C0556656:Meeting (Meetings) [Activity]
+   666   C0277814:Sitting Position (Sitting position) [Finding]
+<<<<< Mappings
+
+Phrase: at 08
+>>>>> Phrase
+08
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 30
+>>>>> Phrase
+30
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842588:30% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: this morning  Present Illness
+>>>>> Phrase
+morning present illness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0332170:Morning [Temporal Concept]
+   901   C4264312:Present illness [Finding]
+<<<<< Mappings
+
+Phrase: This
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: is
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 38-old man
+>>>>> Phrase
+38 old man
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   660   C0580836:Old [Temporal Concept]
+   827   C0086582:MAN (Males) [Organism Attribute]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: relatively healthy before
+>>>>> Phrase
+relatively healthy before
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (882):
+   882   C3897120:Relatively Healthy [Intellectual Product]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: denied
+>>>>> Phrase
+denied
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0332319:Denied (Denied (qualifier)) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: any systemic disorder.
+>>>>> Phrase
+systemic disorder
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0442893:Systemic Disorder (Systemic disease) [Disease or Syndrome]
+<<<<< Mappings
+Processing 00000000.tx.2: He had sudden of trunk deviation to left side, left limbs weakness, then right-ward looking, and slurred speech while having meeting with sitting position at 08:30 this morning so transfer to our emergency deaprtement.    
+
+Phrase: He
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: had
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: sudden of trunk deviation
+>>>>> Phrase
+sudden of trunk deviation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (733):
+   770   C1276802:Sudden (Sudden onset (attribute)) [Qualitative Concept]
+   604   C0460005:TRUNK (Trunk structure) [Body Location or Region]
+   604   C0205419:Deviation (Variant) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: to left side,
+>>>>> Phrase
+left side
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:Left side (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: left limbs weakness,
+>>>>> Phrase
+left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0205091:LEFT (Left) [Spatial Concept]
+   901   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: then right-ward looking,
+>>>>> Phrase
+then right ward looking
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (825):
+   645   C1883708:Then [Temporal Concept]
+   645   C0444532:Right (Right sided) [Spatial Concept]
+   645   C1305702:Ward (Ward (environment)) [Health Care Related Organization,Manufactured Object]
+   779   C0233426:look (Personal appearance) [Organism Attribute]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: slurred speech
+>>>>> Phrase
+slurred speech
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234518:SLURRED SPEECH (Slurred speech) [Finding]
+<<<<< Mappings
+
+Phrase: while
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: having
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: meeting with sitting position
+>>>>> Phrase
+meeting with sitting position
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (783):
+   770   C0556656:Meeting (Meetings) [Activity]
+   666   C0277814:Sitting Position (Sitting position) [Finding]
+<<<<< Mappings
+
+Phrase: at 08
+>>>>> Phrase
+08
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 30
+>>>>> Phrase
+30
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842588:30% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: this morning
+>>>>> Phrase
+morning
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0332170:Morning [Temporal Concept]
+<<<<< Mappings
+
+Phrase: so
+>>>>> Phrase
+so
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0037640:SO (Somalia) [Geographic Area]
+<<<<< Mappings
+
+Phrase: transfer to our emergency deaprtement.
+>>>>> Phrase
+transfer to our emergency deaprtement
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (686):
+   760   C1705822:Transfer (Transfer Technique) [Functional Concept]
+   760   C0013956:EMERGENCY (Emergency Situation) [Phenomenon or Process]
+<<<<< Mappings
+Processing 00000000.tx.3: At emergency room, vital sign showed TPR 36/101/22 BP:146/97. 
+
+Phrase: At emergency room,
+>>>>> Phrase
+emergency room
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0562508:EMERGENCY ROOM (Accident and Emergency department) [Health Care Related Organization,Manufactured Object]
+<<<<< Mappings
+
+Phrase: vital sign
+>>>>> Phrase
+vital sign
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0518766:Vital Sign (Vital signs) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: showed
+>>>>> Phrase
+showed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: TPR 36/101/22 BP
+>>>>> Phrase
+tpr 36 101 22 bp
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (762):
+   637   C1420877:TPR (TPR gene) [Gene or Genome]
+   637   C4319606:36 [Quantitative Concept]
+   804   C0037623:BP (Solomon Islands) [Geographic Area]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 146/97.
+>>>>> Phrase
+146 97
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0439082:>97 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.4: IVF challenge was performed.
+
+Phrase: IVF challenge
+>>>>> Phrase
+ivf challenge
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C2751898:IVF (Ventricular Fibrillation, Paroxysmal Familial, 1) [Disease or Syndrome]
+   861   C0798503:Challenge (Challenge:Type:Point in time:^Patient:Nominal) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: performed.
+>>>>> Phrase
+performed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0884358:PERFORMED (Performed) [Functional Concept]
+<<<<< Mappings
+Processing 00000000.tx.5: Neurological examination revealed could speaking and slurredly could obey simple order,pupil size R/L:3/3, light reflex: +/+, left homonymous hemianopsia,EOM: forced right-ward conjugate gaze, X----, X----,left central facial palsy,dysarthria,MT: flaccid weakness in left limbs,FNF: right : no dysmetria, left: too weak to perform,Pinprick: favor anaesthesia in left limbs were noted so arranged Brain CT for lesion survey.The scan finding no ICH, favor right dense MCA sign then explaining to his family about benefit and hemorrhagic complication of t-PA they agreed of t-PA treatment.(NIHSS:21) Post BTA was arranged done then showed highly suspect dense hypervascular sign of right MCA post EVT.    
+
+Phrase: Neurological examination
+>>>>> Phrase
+neurological examination
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0027853:Neurological Examination (Neurologic Examination) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: revealed
+>>>>> Phrase
+revealed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0443289:Revealed [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: could
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: speaking
+>>>>> Phrase
+speaking
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234856:Speaking (Speaking (activity)) [Daily or Recreational Activity]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: slurredly
+>>>>> Phrase
+slurredly
+<<<<< Phrase
+
+Phrase: could
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: obey
+>>>>> Phrase
+obey
+<<<<< Phrase
+
+Phrase: simple order,
+>>>>> Phrase
+simple order
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0205352:Simple [Qualitative Concept]
+   861   C1705176:Order (Order (arrangement)) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: pupil size R/L:3/3,
+>>>>> Phrase
+pupil size r l 3 3
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   827   C0517965:pupil size (Size of pupil) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: light reflex
+>>>>> Phrase
+light reflex
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234671:Light reflex (Pupil afferent light reaction) [Organ or Tissue Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: +/+,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: left
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: homonymous hemianopsia,
+>>>>> Phrase
+homonymous hemianopsia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0271202:Hemianopsia, Homonymous [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: EOM
+>>>>> Phrase
+eom
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0241886:EOM (extraocular) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: forced right-ward conjugate gaze,
+>>>>> Phrase
+forced right ward conjugate gaze
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (840):
+   637   C0441722:Forced (Force) [Phenomenon or Process]
+   875   C0439765:Right gaze [Spatial Concept]
+   637   C1305702:Ward (Ward (environment)) [Health Care Related Organization,Manufactured Object]
+   637   C0301869:Conjugate (Immunostimulating conjugate (antigen)) [Immunologic Factor]
+Meta Mapping (840):
+   637   C0441722:Forced (Force) [Phenomenon or Process]
+   637   C0444532:Right (Right sided) [Spatial Concept]
+   637   C1305702:Ward (Ward (environment)) [Health Care Related Organization,Manufactured Object]
+   840   C0522329:Conjugate gaze [Organ or Tissue Function]
+<<<<< Mappings
+
+Phrase: X--
+>>>>> Phrase
+x
+<<<<< Phrase
+
+Phrase: --
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: X----,
+>>>>> Phrase
+x
+<<<<< Phrase
+
+Phrase: left
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: central facial palsy,
+>>>>> Phrase
+central facial palsy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (981):
+   981   C0751141:Paralysis, Central Facial (Facial Palsy, Upper Motor Neuron) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: dysarthria,
+>>>>> Phrase
+dysarthria
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0013362:DYSARTHRIA (Dysarthria) [Mental or Behavioral Dysfunction]
+<<<<< Mappings
+
+Phrase: MT
+>>>>> Phrase
+mt
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: flaccid weakness in left limbs,
+>>>>> Phrase
+flaccid weakness in left limbs
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (752):
+   593   C0231511:Flaccid [Qualitative Concept]
+   593   C0205091:LEFT (Left) [Spatial Concept]
+   797   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: FNF
+>>>>> Phrase
+fnf
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0033228:FNF (Fenofibrate) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: right
+>>>>> Phrase
+right
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0444532:Right (Right sided) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no dysmetria,
+>>>>> Phrase
+dysmetria
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0234162:DYSMETRIA (Cerebellar Dysmetria) [Finding]
+<<<<< Mappings
+
+Phrase: left
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: too weak
+>>>>> Phrase
+too weak
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C1762617:Weak [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: to
+>>>>> Phrase
+to
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0041260:TO (Tryptophanase) [Amino Acid, Peptide, or Protein,Enzyme]
+<<<<< Mappings
+
+Phrase: perform
+>>>>> Phrase
+perform
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0884358:Perform (Performed) [Functional Concept]
+<<<<< Mappings
+
+Phrase: ,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Pinprick
+>>>>> Phrase
+pinprick
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: favor anaesthesia in left limbs
+>>>>> Phrase
+favor anaesthesia in left limbs
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (724):
+   593   C0309049:FAVOR (favor) [Organic Chemical,Pharmacologic Substance,Vitamin]
+   760   C0002903:anaesthesia (Anesthesia procedures) [Therapeutic or Preventive Procedure]
+   593   C0205091:LEFT (Left) [Spatial Concept]
+   593   C0015385:Limbs (Limb structure) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: were
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: noted
+>>>>> Phrase
+noted
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4288581:Noted (Notable) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: so arranged Brain CT for lesion survey.
+>>>>> Phrase
+so arranged brain ct for lesion survey
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (737):
+   581   C0037640:SO (Somalia) [Geographic Area]
+   581   C1546854:Arranged (Arranged (transportation)) [Idea or Concept]
+   778   C0412585:brain ct (CAT scan of brain) [Diagnostic Procedure]
+   581   C0221198:Lesion [Finding]
+   581   C0038951:Survey (Surveys) [Intellectual Product]
+Meta Mapping (737):
+   581   C0037640:SO (Somalia) [Geographic Area]
+   581   C1546854:Arranged (Arranged (transportation)) [Idea or Concept]
+   607   C0221505:brain lesion (Lesion of brain) [Disease or Syndrome]
+   748   C0007673:CT (Central African Republic) [Geographic Area]
+   581   C0038951:Survey (Surveys) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: The scan
+>>>>> Phrase
+scan
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0441633:Scan (Scanning) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: finding
+>>>>> Phrase
+finding
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0037088:Finding (Signs and Symptoms) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: no ICH,
+>>>>> Phrase
+ich
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0019191:ICH (Infectious Canine Hepatitis) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: favor
+>>>>> Phrase
+favor
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0309049:FAVOR (favor) [Organic Chemical,Pharmacologic Substance,Vitamin]
+<<<<< Mappings
+
+Phrase: right dense MCA
+>>>>> Phrase
+right dense mca
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0444532:Right (Right sided) [Spatial Concept]
+   660   C0439794:Dense [Qualitative Concept]
+   827   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: sign
+>>>>> Phrase
+sign
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0311392:Sign (Physical findings) [Finding]
+<<<<< Mappings
+
+Phrase: then
+>>>>> Phrase
+then
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1883708:Then [Temporal Concept]
+<<<<< Mappings
+
+Phrase: explaining to his family
+>>>>> Phrase
+explaining to his family
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (770):
+   770   C0015576:Family [Family Group]
+<<<<< Mappings
+
+Phrase: about benefit
+>>>>> Phrase
+benefit
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0814225:Benefit (benefit) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: hemorrhagic complication of t-PA
+>>>>> Phrase
+hemorrhagic complication of t pa
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (721):
+   770   C0940931:Complication, hemorrhage (hemorrhage as a complication) [Disease or Syndrome]
+   593   C0030428:PA (Paraguay) [Geographic Area]
+<<<<< Mappings
+
+Phrase: they
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: agreed of t-PA treatment.
+>>>>> Phrase
+agreed of t pa treatment
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (685):
+   726   C3641827:Agree [Finding]
+   760   C0030428:PA (Paraguay) [Geographic Area]
+   760   C0087111:Treatment (Therapeutic procedure) [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (NIHSS
+>>>>> Phrase
+nihss
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3476804:NIHSS [Intellectual Product]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 21
+>>>>> Phrase
+21
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Post BTA
+>>>>> Phrase
+post bta
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0687676:Post [Temporal Concept]
+   861   C1519830:BTA (Urinary Bladder Tumor Antigen) [Amino Acid, Peptide, or Protein,Immunologic Factor,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: arranged
+>>>>> Phrase
+arranged
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1546854:Arranged (Arranged (transportation)) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: done
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: then
+>>>>> Phrase
+then
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1883708:Then [Temporal Concept]
+<<<<< Mappings
+
+Phrase: showed
+>>>>> Phrase
+showed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: highly
+>>>>> Phrase
+highly
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205250:Highly (High) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: suspect
+>>>>> Phrase
+suspect
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0750491:suspect (Suspected qualifier) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: dense hypervascular sign of right MCA post EVT.
+>>>>> Phrase
+dense hypervascular sign of right mca post evt
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (693):
+   578   C0439794:Dense [Qualitative Concept]
+   578   C1512560:Hypervascular (hypervascular) [Qualitative Concept]
+   744   C0311392:Sign (Physical findings) [Finding]
+   578   C0444532:Right (Right sided) [Spatial Concept]
+   578   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+   578   C0687676:Post [Temporal Concept]
+<<<<< Mappings
+Processing 00000000.tx.6: Under the impression of .
+
+Phrase: Under the impression of .
+>>>>> Phrase
+under the impression of
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (770):
+   770   C1998467:Impression [Qualitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.7: Highly suspect dense hypervascular sign induced acute large cerebral infarction at right middle cerebral artery territory s/p t -PA and EVT so he was admitted to ICU for further management.
+
+Phrase: Highly
+>>>>> Phrase
+highly
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205250:Highly (High) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: suspect
+>>>>> Phrase
+suspect
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0750491:suspect (Suspected qualifier) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: dense hypervascular sign
+>>>>> Phrase
+dense hypervascular sign
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0439794:Dense [Qualitative Concept]
+   660   C1512560:Hypervascular (hypervascular) [Qualitative Concept]
+   827   C0311392:Sign (Physical findings) [Finding]
+<<<<< Mappings
+
+Phrase: induced
+>>>>> Phrase
+induced
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205263:Induced (Induce (action)) [Functional Concept]
+<<<<< Mappings
+
+Phrase: acute large cerebral infarction at right middle cerebral artery territory s/p t -PA
+>>>>> Phrase
+acute large cerebral infarction at right middle cerebral artery territory s p t pa
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (709):
+   568   C0205178:ACUTE (acute) [Temporal Concept]
+   568   C0549177:LARGE (Large) [Quantitative Concept]
+   568   C0444532:Right (Right sided) [Spatial Concept]
+   789   C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   568   C1301808:Territory (Geographic state) [Geographic Area]
+   568   C0030428:PA (Paraguay) [Geographic Area]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: EVT
+>>>>> Phrase
+evt
+<<<<< Phrase
+
+Phrase: so
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: he
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: admitted to ICU
+>>>>> Phrase
+admitted to icu
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (746):
+   790   C0809949:Admitted (Admission activity) [Health Care Activity]
+   790   C0021708:ICU (intensive care unit) [Health Care Related Organization,Manufactured Object]
+<<<<< Mappings
+
+Phrase: for further management.
+>>>>> Phrase
+further management
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1517331:Further [Spatial Concept]
+   861   C1273870:Management (Management procedure) [Occupational Activity]
+<<<<< Mappings
+      
+Processing 00000000.tx.1: Chief Complaints Sudden of trunk deviation to left side, left limbs weakness, then right-ward looking, and slurred speech while having meeting with sitting position at 08:30 this morning  Present Illness    This is 38-old man was relatively healthy before and denied any systemic disorder.    
+
+Phrase: Chief Complaints
+>>>>> Phrase
+chief complaints
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C0277786:Chief Complaint (Chief complaint (finding)) [Finding]
+<<<<< Mappings
+
+Phrase: Sudden of trunk deviation
+>>>>> Phrase
+sudden of trunk deviation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (733):
+   770   C1276802:Sudden (Sudden onset (attribute)) [Qualitative Concept]
+   604   C0460005:TRUNK (Trunk structure) [Body Location or Region]
+   604   C0205419:Deviation (Variant) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: to left side,
+>>>>> Phrase
+left side
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:Left side (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: left limbs weakness,
+>>>>> Phrase
+left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0205091:LEFT (Left) [Spatial Concept]
+   901   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: then right-ward looking,
+>>>>> Phrase
+then right ward looking
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (825):
+   645   C1883708:Then [Temporal Concept]
+   645   C0444532:Right (Right sided) [Spatial Concept]
+   645   C1305702:Ward (Ward (environment)) [Health Care Related Organization,Manufactured Object]
+   779   C0233426:look (Personal appearance) [Organism Attribute]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: slurred speech
+>>>>> Phrase
+slurred speech
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234518:SLURRED SPEECH (Slurred speech) [Finding]
+<<<<< Mappings
+
+Phrase: while
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: having
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: meeting with sitting position
+>>>>> Phrase
+meeting with sitting position
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (783):
+   770   C0556656:Meeting (Meetings) [Activity]
+   666   C0277814:Sitting Position (Sitting position) [Finding]
+<<<<< Mappings
+
+Phrase: at 08
+>>>>> Phrase
+08
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 30
+>>>>> Phrase
+30
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842588:30% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: this morning  Present Illness
+>>>>> Phrase
+morning present illness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0332170:Morning [Temporal Concept]
+   901   C4264312:Present illness [Finding]
+<<<<< Mappings
+
+Phrase: This
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: is
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 38-old man
+>>>>> Phrase
+38 old man
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   660   C0580836:Old [Temporal Concept]
+   827   C0086582:MAN (Males) [Organism Attribute]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: relatively healthy before
+>>>>> Phrase
+relatively healthy before
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (882):
+   882   C3897120:Relatively Healthy [Intellectual Product]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: denied
+>>>>> Phrase
+denied
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0332319:Denied (Denied (qualifier)) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: any systemic disorder.
+>>>>> Phrase
+systemic disorder
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0442893:Systemic Disorder (Systemic disease) [Disease or Syndrome]
+<<<<< Mappings
+Processing 00000000.tx.2: He had sudden of trunk deviation to left side, left limbs weakness, then right-ward looking, and slurred speech while having meeting with sitting position at 08:30 this morning so transfer to our emergency deaprtement.    
+
+Phrase: He
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: had
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: sudden of trunk deviation
+>>>>> Phrase
+sudden of trunk deviation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (733):
+   770   C1276802:Sudden (Sudden onset (attribute)) [Qualitative Concept]
+   604   C0460005:TRUNK (Trunk structure) [Body Location or Region]
+   604   C0205419:Deviation (Variant) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: to left side,
+>>>>> Phrase
+left side
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:Left side (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: left limbs weakness,
+>>>>> Phrase
+left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0205091:LEFT (Left) [Spatial Concept]
+   901   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: then right-ward looking,
+>>>>> Phrase
+then right ward looking
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (825):
+   645   C1883708:Then [Temporal Concept]
+   645   C0444532:Right (Right sided) [Spatial Concept]
+   645   C1305702:Ward (Ward (environment)) [Health Care Related Organization,Manufactured Object]
+   779   C0233426:look (Personal appearance) [Organism Attribute]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: slurred speech
+>>>>> Phrase
+slurred speech
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234518:SLURRED SPEECH (Slurred speech) [Finding]
+<<<<< Mappings
+
+Phrase: while
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: having
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: meeting with sitting position
+>>>>> Phrase
+meeting with sitting position
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (783):
+   770   C0556656:Meeting (Meetings) [Activity]
+   666   C0277814:Sitting Position (Sitting position) [Finding]
+<<<<< Mappings
+
+Phrase: at 08
+>>>>> Phrase
+08
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 30
+>>>>> Phrase
+30
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842588:30% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: this morning
+>>>>> Phrase
+morning
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0332170:Morning [Temporal Concept]
+<<<<< Mappings
+
+Phrase: so
+>>>>> Phrase
+so
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0037640:SO (Somalia) [Geographic Area]
+<<<<< Mappings
+
+Phrase: transfer to our emergency deaprtement.
+>>>>> Phrase
+transfer to our emergency deaprtement
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (686):
+   760   C1705822:Transfer (Transfer Technique) [Functional Concept]
+   760   C0013956:EMERGENCY (Emergency Situation) [Phenomenon or Process]
+<<<<< Mappings
+Processing 00000000.tx.3: At emergency room, vital sign showed TPR 36/101/22 BP:146/97. 
+
+Phrase: At emergency room,
+>>>>> Phrase
+emergency room
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0562508:EMERGENCY ROOM (Accident and Emergency department) [Health Care Related Organization,Manufactured Object]
+<<<<< Mappings
+
+Phrase: vital sign
+>>>>> Phrase
+vital sign
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0518766:Vital Sign (Vital signs) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: showed
+>>>>> Phrase
+showed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: TPR 36/101/22 BP
+>>>>> Phrase
+tpr 36 101 22 bp
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (762):
+   637   C1420877:TPR (TPR gene) [Gene or Genome]
+   637   C4319606:36 [Quantitative Concept]
+   804   C0037623:BP (Solomon Islands) [Geographic Area]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 146/97.
+>>>>> Phrase
+146 97
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0439082:>97 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.4: IVF challenge was performed.
+
+Phrase: IVF challenge
+>>>>> Phrase
+ivf challenge
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C2751898:IVF (Ventricular Fibrillation, Paroxysmal Familial, 1) [Disease or Syndrome]
+   861   C0798503:Challenge (Challenge:Type:Point in time:^Patient:Nominal) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: performed.
+>>>>> Phrase
+performed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0884358:PERFORMED (Performed) [Functional Concept]
+<<<<< Mappings
+Processing 00000000.tx.5: Neurological examination revealed could speaking and slurredly could obey simple order,pupil size R/L:3/3, light reflex: +/+, left homonymous hemianopsia,EOM: forced right-ward conjugate gaze, X----, X----,left central facial palsy,dysarthria,MT: flaccid weakness in left limbs,FNF: right : no dysmetria, left: too weak to perform,Pinprick: favor anaesthesia in left limbs were noted so arranged Brain CT for lesion survey.The scan finding no ICH, favor right dense MCA sign then explaining to his family about benefit and hemorrhagic complication of t-PA they agreed of t-PA treatment.(NIHSS:21) Post BTA was arranged done then showed highly suspect dense hypervascular sign of right MCA post EVT.    
+
+Phrase: Neurological examination
+>>>>> Phrase
+neurological examination
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0027853:Neurological Examination (Neurologic Examination) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: revealed
+>>>>> Phrase
+revealed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0443289:Revealed [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: could
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: speaking
+>>>>> Phrase
+speaking
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234856:Speaking (Speaking (activity)) [Daily or Recreational Activity]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: slurredly
+>>>>> Phrase
+slurredly
+<<<<< Phrase
+
+Phrase: could
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: obey
+>>>>> Phrase
+obey
+<<<<< Phrase
+
+Phrase: simple order,
+>>>>> Phrase
+simple order
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0205352:Simple [Qualitative Concept]
+   861   C1705176:Order (Order (arrangement)) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: pupil size R/L:3/3,
+>>>>> Phrase
+pupil size r l 3 3
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   827   C0517965:pupil size (Size of pupil) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: light reflex
+>>>>> Phrase
+light reflex
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234671:Light reflex (Pupil afferent light reaction) [Organ or Tissue Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: +/+,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: left
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: homonymous hemianopsia,
+>>>>> Phrase
+homonymous hemianopsia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0271202:Hemianopsia, Homonymous [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: EOM
+>>>>> Phrase
+eom
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0241886:EOM (extraocular) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: forced right-ward conjugate gaze,
+>>>>> Phrase
+forced right ward conjugate gaze
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (840):
+   637   C0441722:Forced (Force) [Phenomenon or Process]
+   875   C0439765:Right gaze [Spatial Concept]
+   637   C1305702:Ward (Ward (environment)) [Health Care Related Organization,Manufactured Object]
+   637   C0301869:Conjugate (Immunostimulating conjugate (antigen)) [Immunologic Factor]
+Meta Mapping (840):
+   637   C0441722:Forced (Force) [Phenomenon or Process]
+   637   C0444532:Right (Right sided) [Spatial Concept]
+   637   C1305702:Ward (Ward (environment)) [Health Care Related Organization,Manufactured Object]
+   840   C0522329:Conjugate gaze [Organ or Tissue Function]
+<<<<< Mappings
+
+Phrase: X--
+>>>>> Phrase
+x
+<<<<< Phrase
+
+Phrase: --
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: X----,
+>>>>> Phrase
+x
+<<<<< Phrase
+
+Phrase: left
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: central facial palsy,
+>>>>> Phrase
+central facial palsy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (981):
+   981   C0751141:Paralysis, Central Facial (Facial Palsy, Upper Motor Neuron) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: dysarthria,
+>>>>> Phrase
+dysarthria
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0013362:DYSARTHRIA (Dysarthria) [Mental or Behavioral Dysfunction]
+<<<<< Mappings
+
+Phrase: MT
+>>>>> Phrase
+mt
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: flaccid weakness in left limbs,
+>>>>> Phrase
+flaccid weakness in left limbs
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (752):
+   593   C0231511:Flaccid [Qualitative Concept]
+   593   C0205091:LEFT (Left) [Spatial Concept]
+   797   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: FNF
+>>>>> Phrase
+fnf
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0033228:FNF (Fenofibrate) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: right
+>>>>> Phrase
+right
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0444532:Right (Right sided) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no dysmetria,
+>>>>> Phrase
+dysmetria
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0234162:DYSMETRIA (Cerebellar Dysmetria) [Finding]
+<<<<< Mappings
+
+Phrase: left
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: too weak
+>>>>> Phrase
+too weak
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C1762617:Weak [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: to
+>>>>> Phrase
+to
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0041260:TO (Tryptophanase) [Amino Acid, Peptide, or Protein,Enzyme]
+<<<<< Mappings
+
+Phrase: perform
+>>>>> Phrase
+perform
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0884358:Perform (Performed) [Functional Concept]
+<<<<< Mappings
+
+Phrase: ,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Pinprick
+>>>>> Phrase
+pinprick
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: favor anaesthesia in left limbs
+>>>>> Phrase
+favor anaesthesia in left limbs
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (724):
+   593   C0309049:FAVOR (favor) [Organic Chemical,Pharmacologic Substance,Vitamin]
+   760   C0002903:anaesthesia (Anesthesia procedures) [Therapeutic or Preventive Procedure]
+   593   C0205091:LEFT (Left) [Spatial Concept]
+   593   C0015385:Limbs (Limb structure) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: were
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: noted
+>>>>> Phrase
+noted
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4288581:Noted (Notable) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: so arranged Brain CT for lesion survey.
+>>>>> Phrase
+so arranged brain ct for lesion survey
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (737):
+   581   C0037640:SO (Somalia) [Geographic Area]
+   581   C1546854:Arranged (Arranged (transportation)) [Idea or Concept]
+   778   C0412585:brain ct (CAT scan of brain) [Diagnostic Procedure]
+   581   C0221198:Lesion [Finding]
+   581   C0038951:Survey (Surveys) [Intellectual Product]
+Meta Mapping (737):
+   581   C0037640:SO (Somalia) [Geographic Area]
+   581   C1546854:Arranged (Arranged (transportation)) [Idea or Concept]
+   607   C0221505:brain lesion (Lesion of brain) [Disease or Syndrome]
+   748   C0007673:CT (Central African Republic) [Geographic Area]
+   581   C0038951:Survey (Surveys) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: The scan
+>>>>> Phrase
+scan
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0441633:Scan (Scanning) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: finding
+>>>>> Phrase
+finding
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0037088:Finding (Signs and Symptoms) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: no ICH,
+>>>>> Phrase
+ich
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0019191:ICH (Infectious Canine Hepatitis) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: favor
+>>>>> Phrase
+favor
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0309049:FAVOR (favor) [Organic Chemical,Pharmacologic Substance,Vitamin]
+<<<<< Mappings
+
+Phrase: right dense MCA
+>>>>> Phrase
+right dense mca
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0444532:Right (Right sided) [Spatial Concept]
+   660   C0439794:Dense [Qualitative Concept]
+   827   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: sign
+>>>>> Phrase
+sign
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0311392:Sign (Physical findings) [Finding]
+<<<<< Mappings
+
+Phrase: then
+>>>>> Phrase
+then
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1883708:Then [Temporal Concept]
+<<<<< Mappings
+
+Phrase: explaining to his family
+>>>>> Phrase
+explaining to his family
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (770):
+   770   C0015576:Family [Family Group]
+<<<<< Mappings
+
+Phrase: about benefit
+>>>>> Phrase
+benefit
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0814225:Benefit (benefit) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: hemorrhagic complication of t-PA
+>>>>> Phrase
+hemorrhagic complication of t pa
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (721):
+   770   C0940931:Complication, hemorrhage (hemorrhage as a complication) [Disease or Syndrome]
+   593   C0030428:PA (Paraguay) [Geographic Area]
+<<<<< Mappings
+
+Phrase: they
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: agreed of t-PA treatment.
+>>>>> Phrase
+agreed of t pa treatment
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (685):
+   726   C3641827:Agree [Finding]
+   760   C0030428:PA (Paraguay) [Geographic Area]
+   760   C0087111:Treatment (Therapeutic procedure) [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (NIHSS
+>>>>> Phrase
+nihss
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3476804:NIHSS [Intellectual Product]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 21
+>>>>> Phrase
+21
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Post BTA
+>>>>> Phrase
+post bta
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0687676:Post [Temporal Concept]
+   861   C1519830:BTA (Urinary Bladder Tumor Antigen) [Amino Acid, Peptide, or Protein,Immunologic Factor,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: arranged
+>>>>> Phrase
+arranged
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1546854:Arranged (Arranged (transportation)) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: done
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: then
+>>>>> Phrase
+then
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1883708:Then [Temporal Concept]
+<<<<< Mappings
+
+Phrase: showed
+>>>>> Phrase
+showed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: highly
+>>>>> Phrase
+highly
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205250:Highly (High) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: suspect
+>>>>> Phrase
+suspect
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0750491:suspect (Suspected qualifier) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: dense hypervascular sign of right MCA post EVT.
+>>>>> Phrase
+dense hypervascular sign of right mca post evt
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (693):
+   578   C0439794:Dense [Qualitative Concept]
+   578   C1512560:Hypervascular (hypervascular) [Qualitative Concept]
+   744   C0311392:Sign (Physical findings) [Finding]
+   578   C0444532:Right (Right sided) [Spatial Concept]
+   578   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+   578   C0687676:Post [Temporal Concept]
+<<<<< Mappings
+Processing 00000000.tx.6: Under the impression of .
+
+Phrase: Under the impression of .
+>>>>> Phrase
+under the impression of
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (770):
+   770   C1998467:Impression [Qualitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.7: Highly suspect dense hypervascular sign induced acute large cerebral infarction at right middle cerebral artery territory s/p t -PA and EVT so he was admitted to ICU for further management.
+
+Phrase: Highly
+>>>>> Phrase
+highly
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205250:Highly (High) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: suspect
+>>>>> Phrase
+suspect
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0750491:suspect (Suspected qualifier) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: dense hypervascular sign
+>>>>> Phrase
+dense hypervascular sign
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0439794:Dense [Qualitative Concept]
+   660   C1512560:Hypervascular (hypervascular) [Qualitative Concept]
+   827   C0311392:Sign (Physical findings) [Finding]
+<<<<< Mappings
+
+Phrase: induced
+>>>>> Phrase
+induced
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205263:Induced (Induce (action)) [Functional Concept]
+<<<<< Mappings
+
+Phrase: acute large cerebral infarction at right middle cerebral artery territory s/p t -PA
+>>>>> Phrase
+acute large cerebral infarction at right middle cerebral artery territory s p t pa
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (709):
+   568   C0205178:ACUTE (acute) [Temporal Concept]
+   568   C0549177:LARGE (Large) [Quantitative Concept]
+   568   C0444532:Right (Right sided) [Spatial Concept]
+   789   C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   568   C1301808:Territory (Geographic state) [Geographic Area]
+   568   C0030428:PA (Paraguay) [Geographic Area]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: EVT
+>>>>> Phrase
+evt
+<<<<< Phrase
+
+Phrase: so
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: he
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: admitted to ICU
+>>>>> Phrase
+admitted to icu
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (746):
+   790   C0809949:Admitted (Admission activity) [Health Care Activity]
+   790   C0021708:ICU (intensive care unit) [Health Care Related Organization,Manufactured Object]
+<<<<< Mappings
+
+Phrase: for further management.
+>>>>> Phrase
+further management
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1517331:Further [Spatial Concept]
+   861   C1273870:Management (Management procedure) [Occupational Activity]
+<<<<< Mappings
+      
+Processing 00000000.tx.1: Chief Complaints Sudden of trunk deviation to left side, left limbs weakness, then right-ward looking, and slurred speech while having meeting with sitting position at 08:30 this morning  Present Illness    This is 38-old man was relatively healthy before and denied any systemic disorder.    
+
+Phrase: Chief Complaints
+>>>>> Phrase
+chief complaints
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C0277786:Chief Complaint (Chief complaint (finding)) [Finding]
+<<<<< Mappings
+
+Phrase: Sudden of trunk deviation
+>>>>> Phrase
+sudden of trunk deviation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (733):
+   770   C1276802:Sudden (Sudden onset (attribute)) [Qualitative Concept]
+   604   C0460005:TRUNK (Trunk structure) [Body Location or Region]
+   604   C0205419:Deviation (Variant) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: to left side,
+>>>>> Phrase
+left side
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:Left side (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: left limbs weakness,
+>>>>> Phrase
+left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0205091:LEFT (Left) [Spatial Concept]
+   901   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: then right-ward looking,
+>>>>> Phrase
+then right ward looking
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (825):
+   645   C1883708:Then [Temporal Concept]
+   645   C0444532:Right (Right sided) [Spatial Concept]
+   645   C1305702:Ward (Ward (environment)) [Health Care Related Organization,Manufactured Object]
+   779   C0233426:look (Personal appearance) [Organism Attribute]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: slurred speech
+>>>>> Phrase
+slurred speech
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234518:SLURRED SPEECH (Slurred speech) [Finding]
+<<<<< Mappings
+
+Phrase: while
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: having
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: meeting with sitting position
+>>>>> Phrase
+meeting with sitting position
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (783):
+   770   C0556656:Meeting (Meetings) [Activity]
+   666   C0277814:Sitting Position (Sitting position) [Finding]
+<<<<< Mappings
+
+Phrase: at 08
+>>>>> Phrase
+08
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 30
+>>>>> Phrase
+30
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842588:30% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: this morning  Present Illness
+>>>>> Phrase
+morning present illness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0332170:Morning [Temporal Concept]
+   901   C4264312:Present illness [Finding]
+<<<<< Mappings
+
+Phrase: This
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: is
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 38-old man
+>>>>> Phrase
+38 old man
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   660   C0580836:Old [Temporal Concept]
+   827   C0086582:MAN (Males) [Organism Attribute]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: relatively healthy before
+>>>>> Phrase
+relatively healthy before
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (882):
+   882   C3897120:Relatively Healthy [Intellectual Product]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: denied
+>>>>> Phrase
+denied
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0332319:Denied (Denied (qualifier)) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: any systemic disorder.
+>>>>> Phrase
+systemic disorder
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0442893:Systemic Disorder (Systemic disease) [Disease or Syndrome]
+<<<<< Mappings
+Processing 00000000.tx.2: He had sudden of trunk deviation to left side, left limbs weakness, then right-ward looking, and slurred speech while having meeting with sitting position at 08:30 this morning so transfer to our emergency deaprtement.    
+
+Phrase: He
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: had
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: sudden of trunk deviation
+>>>>> Phrase
+sudden of trunk deviation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (733):
+   770   C1276802:Sudden (Sudden onset (attribute)) [Qualitative Concept]
+   604   C0460005:TRUNK (Trunk structure) [Body Location or Region]
+   604   C0205419:Deviation (Variant) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: to left side,
+>>>>> Phrase
+left side
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:Left side (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: left limbs weakness,
+>>>>> Phrase
+left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0205091:LEFT (Left) [Spatial Concept]
+   901   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: then right-ward looking,
+>>>>> Phrase
+then right ward looking
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (825):
+   645   C1883708:Then [Temporal Concept]
+   645   C0444532:Right (Right sided) [Spatial Concept]
+   645   C1305702:Ward (Ward (environment)) [Health Care Related Organization,Manufactured Object]
+   779   C0233426:look (Personal appearance) [Organism Attribute]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: slurred speech
+>>>>> Phrase
+slurred speech
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234518:SLURRED SPEECH (Slurred speech) [Finding]
+<<<<< Mappings
+
+Phrase: while
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: having
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: meeting with sitting position
+>>>>> Phrase
+meeting with sitting position
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (783):
+   770   C0556656:Meeting (Meetings) [Activity]
+   666   C0277814:Sitting Position (Sitting position) [Finding]
+<<<<< Mappings
+
+Phrase: at 08
+>>>>> Phrase
+08
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 30
+>>>>> Phrase
+30
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842588:30% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: this morning
+>>>>> Phrase
+morning
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0332170:Morning [Temporal Concept]
+<<<<< Mappings
+
+Phrase: so
+>>>>> Phrase
+so
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0037640:SO (Somalia) [Geographic Area]
+<<<<< Mappings
+
+Phrase: transfer to our emergency deaprtement.
+>>>>> Phrase
+transfer to our emergency deaprtement
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (686):
+   760   C1705822:Transfer (Transfer Technique) [Functional Concept]
+   760   C0013956:EMERGENCY (Emergency Situation) [Phenomenon or Process]
+<<<<< Mappings
+Processing 00000000.tx.3: At emergency room, vital sign showed TPR 36/101/22 BP:146/97. 
+
+Phrase: At emergency room,
+>>>>> Phrase
+emergency room
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0562508:EMERGENCY ROOM (Accident and Emergency department) [Health Care Related Organization,Manufactured Object]
+<<<<< Mappings
+
+Phrase: vital sign
+>>>>> Phrase
+vital sign
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0518766:Vital Sign (Vital signs) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: showed
+>>>>> Phrase
+showed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: TPR 36/101/22 BP
+>>>>> Phrase
+tpr 36 101 22 bp
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (762):
+   637   C1420877:TPR (TPR gene) [Gene or Genome]
+   637   C4319606:36 [Quantitative Concept]
+   804   C0037623:BP (Solomon Islands) [Geographic Area]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 146/97.
+>>>>> Phrase
+146 97
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0439082:>97 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.4: IVF challenge was performed.
+
+Phrase: IVF challenge
+>>>>> Phrase
+ivf challenge
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C2751898:IVF (Ventricular Fibrillation, Paroxysmal Familial, 1) [Disease or Syndrome]
+   861   C0798503:Challenge (Challenge:Type:Point in time:^Patient:Nominal) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: performed.
+>>>>> Phrase
+performed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0884358:PERFORMED (Performed) [Functional Concept]
+<<<<< Mappings
+Processing 00000000.tx.5: Neurological examination revealed could speaking and slurredly could obey simple order,pupil size R/L:3/3, light reflex: +/+, left homonymous hemianopsia,EOM: forced right-ward conjugate gaze, X----, X----,left central facial palsy,dysarthria,MT: flaccid weakness in left limbs,FNF: right : no dysmetria, left: too weak to perform,Pinprick: favor anaesthesia in left limbs were noted so arranged Brain CT for lesion survey.The scan finding no ICH, favor right dense MCA sign then explaining to his family about benefit and hemorrhagic complication of t-PA they agreed of t-PA treatment.(NIHSS:21) Post BTA was arranged done then showed highly suspect dense hypervascular sign of right MCA post EVT.    
+
+Phrase: Neurological examination
+>>>>> Phrase
+neurological examination
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0027853:Neurological Examination (Neurologic Examination) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: revealed
+>>>>> Phrase
+revealed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0443289:Revealed [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: could
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: speaking
+>>>>> Phrase
+speaking
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234856:Speaking (Speaking (activity)) [Daily or Recreational Activity]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: slurredly
+>>>>> Phrase
+slurredly
+<<<<< Phrase
+
+Phrase: could
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: obey
+>>>>> Phrase
+obey
+<<<<< Phrase
+
+Phrase: simple order,
+>>>>> Phrase
+simple order
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0205352:Simple [Qualitative Concept]
+   861   C1705176:Order (Order (arrangement)) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: pupil size R/L:3/3,
+>>>>> Phrase
+pupil size r l 3 3
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   827   C0517965:pupil size (Size of pupil) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: light reflex
+>>>>> Phrase
+light reflex
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234671:Light reflex (Pupil afferent light reaction) [Organ or Tissue Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: +/+,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: left
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: homonymous hemianopsia,
+>>>>> Phrase
+homonymous hemianopsia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0271202:Hemianopsia, Homonymous [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: EOM
+>>>>> Phrase
+eom
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0241886:EOM (extraocular) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: forced right-ward conjugate gaze,
+>>>>> Phrase
+forced right ward conjugate gaze
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (840):
+   637   C0441722:Forced (Force) [Phenomenon or Process]
+   875   C0439765:Right gaze [Spatial Concept]
+   637   C1305702:Ward (Ward (environment)) [Health Care Related Organization,Manufactured Object]
+   637   C0301869:Conjugate (Immunostimulating conjugate (antigen)) [Immunologic Factor]
+Meta Mapping (840):
+   637   C0441722:Forced (Force) [Phenomenon or Process]
+   637   C0444532:Right (Right sided) [Spatial Concept]
+   637   C1305702:Ward (Ward (environment)) [Health Care Related Organization,Manufactured Object]
+   840   C0522329:Conjugate gaze [Organ or Tissue Function]
+<<<<< Mappings
+
+Phrase: X--
+>>>>> Phrase
+x
+<<<<< Phrase
+
+Phrase: --
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: X----,
+>>>>> Phrase
+x
+<<<<< Phrase
+
+Phrase: left
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: central facial palsy,
+>>>>> Phrase
+central facial palsy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (981):
+   981   C0751141:Paralysis, Central Facial (Facial Palsy, Upper Motor Neuron) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: dysarthria,
+>>>>> Phrase
+dysarthria
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0013362:DYSARTHRIA (Dysarthria) [Mental or Behavioral Dysfunction]
+<<<<< Mappings
+
+Phrase: MT
+>>>>> Phrase
+mt
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: flaccid weakness in left limbs,
+>>>>> Phrase
+flaccid weakness in left limbs
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (752):
+   593   C0231511:Flaccid [Qualitative Concept]
+   593   C0205091:LEFT (Left) [Spatial Concept]
+   797   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: FNF
+>>>>> Phrase
+fnf
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0033228:FNF (Fenofibrate) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: right
+>>>>> Phrase
+right
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0444532:Right (Right sided) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no dysmetria,
+>>>>> Phrase
+dysmetria
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0234162:DYSMETRIA (Cerebellar Dysmetria) [Finding]
+<<<<< Mappings
+
+Phrase: left
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: too weak
+>>>>> Phrase
+too weak
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C1762617:Weak [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: to
+>>>>> Phrase
+to
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0041260:TO (Tryptophanase) [Amino Acid, Peptide, or Protein,Enzyme]
+<<<<< Mappings
+
+Phrase: perform
+>>>>> Phrase
+perform
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0884358:Perform (Performed) [Functional Concept]
+<<<<< Mappings
+
+Phrase: ,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Pinprick
+>>>>> Phrase
+pinprick
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: favor anaesthesia in left limbs
+>>>>> Phrase
+favor anaesthesia in left limbs
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (724):
+   593   C0309049:FAVOR (favor) [Organic Chemical,Pharmacologic Substance,Vitamin]
+   760   C0002903:anaesthesia (Anesthesia procedures) [Therapeutic or Preventive Procedure]
+   593   C0205091:LEFT (Left) [Spatial Concept]
+   593   C0015385:Limbs (Limb structure) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: were
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: noted
+>>>>> Phrase
+noted
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4288581:Noted (Notable) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: so arranged Brain CT for lesion survey.
+>>>>> Phrase
+so arranged brain ct for lesion survey
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (737):
+   581   C0037640:SO (Somalia) [Geographic Area]
+   581   C1546854:Arranged (Arranged (transportation)) [Idea or Concept]
+   778   C0412585:brain ct (CAT scan of brain) [Diagnostic Procedure]
+   581   C0221198:Lesion [Finding]
+   581   C0038951:Survey (Surveys) [Intellectual Product]
+Meta Mapping (737):
+   581   C0037640:SO (Somalia) [Geographic Area]
+   581   C1546854:Arranged (Arranged (transportation)) [Idea or Concept]
+   607   C0221505:brain lesion (Lesion of brain) [Disease or Syndrome]
+   748   C0007673:CT (Central African Republic) [Geographic Area]
+   581   C0038951:Survey (Surveys) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: The scan
+>>>>> Phrase
+scan
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0441633:Scan (Scanning) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: finding
+>>>>> Phrase
+finding
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0037088:Finding (Signs and Symptoms) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: no ICH,
+>>>>> Phrase
+ich
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0019191:ICH (Infectious Canine Hepatitis) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: favor
+>>>>> Phrase
+favor
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0309049:FAVOR (favor) [Organic Chemical,Pharmacologic Substance,Vitamin]
+<<<<< Mappings
+
+Phrase: right dense MCA
+>>>>> Phrase
+right dense mca
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0444532:Right (Right sided) [Spatial Concept]
+   660   C0439794:Dense [Qualitative Concept]
+   827   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: sign
+>>>>> Phrase
+sign
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0311392:Sign (Physical findings) [Finding]
+<<<<< Mappings
+
+Phrase: then
+>>>>> Phrase
+then
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1883708:Then [Temporal Concept]
+<<<<< Mappings
+
+Phrase: explaining to his family
+>>>>> Phrase
+explaining to his family
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (770):
+   770   C0015576:Family [Family Group]
+<<<<< Mappings
+
+Phrase: about benefit
+>>>>> Phrase
+benefit
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0814225:Benefit (benefit) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: hemorrhagic complication of t-PA
+>>>>> Phrase
+hemorrhagic complication of t pa
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (721):
+   770   C0940931:Complication, hemorrhage (hemorrhage as a complication) [Disease or Syndrome]
+   593   C0030428:PA (Paraguay) [Geographic Area]
+<<<<< Mappings
+
+Phrase: they
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: agreed of t-PA treatment.
+>>>>> Phrase
+agreed of t pa treatment
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (685):
+   726   C3641827:Agree [Finding]
+   760   C0030428:PA (Paraguay) [Geographic Area]
+   760   C0087111:Treatment (Therapeutic procedure) [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (NIHSS
+>>>>> Phrase
+nihss
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3476804:NIHSS [Intellectual Product]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 21
+>>>>> Phrase
+21
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Post BTA
+>>>>> Phrase
+post bta
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0687676:Post [Temporal Concept]
+   861   C1519830:BTA (Urinary Bladder Tumor Antigen) [Amino Acid, Peptide, or Protein,Immunologic Factor,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: arranged
+>>>>> Phrase
+arranged
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1546854:Arranged (Arranged (transportation)) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: done
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: then
+>>>>> Phrase
+then
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1883708:Then [Temporal Concept]
+<<<<< Mappings
+
+Phrase: showed
+>>>>> Phrase
+showed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: highly
+>>>>> Phrase
+highly
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205250:Highly (High) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: suspect
+>>>>> Phrase
+suspect
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0750491:suspect (Suspected qualifier) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: dense hypervascular sign of right MCA post EVT.
+>>>>> Phrase
+dense hypervascular sign of right mca post evt
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (693):
+   578   C0439794:Dense [Qualitative Concept]
+   578   C1512560:Hypervascular (hypervascular) [Qualitative Concept]
+   744   C0311392:Sign (Physical findings) [Finding]
+   578   C0444532:Right (Right sided) [Spatial Concept]
+   578   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+   578   C0687676:Post [Temporal Concept]
+<<<<< Mappings
+Processing 00000000.tx.6: Under the impression of .
+
+Phrase: Under the impression of .
+>>>>> Phrase
+under the impression of
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (770):
+   770   C1998467:Impression [Qualitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.7: Highly suspect dense hypervascular sign induced acute large cerebral infarction at right middle cerebral artery territory s/p t -PA and EVT so he was admitted to ICU for further management.
+
+Phrase: Highly
+>>>>> Phrase
+highly
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205250:Highly (High) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: suspect
+>>>>> Phrase
+suspect
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0750491:suspect (Suspected qualifier) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: dense hypervascular sign
+>>>>> Phrase
+dense hypervascular sign
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0439794:Dense [Qualitative Concept]
+   660   C1512560:Hypervascular (hypervascular) [Qualitative Concept]
+   827   C0311392:Sign (Physical findings) [Finding]
+<<<<< Mappings
+
+Phrase: induced
+>>>>> Phrase
+induced
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205263:Induced (Induce (action)) [Functional Concept]
+<<<<< Mappings
+
+Phrase: acute large cerebral infarction at right middle cerebral artery territory s/p t -PA
+>>>>> Phrase
+acute large cerebral infarction at right middle cerebral artery territory s p t pa
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (709):
+   568   C0205178:ACUTE (acute) [Temporal Concept]
+   568   C0549177:LARGE (Large) [Quantitative Concept]
+   568   C0444532:Right (Right sided) [Spatial Concept]
+   789   C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   568   C1301808:Territory (Geographic state) [Geographic Area]
+   568   C0030428:PA (Paraguay) [Geographic Area]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: EVT
+>>>>> Phrase
+evt
+<<<<< Phrase
+
+Phrase: so
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: he
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: admitted to ICU
+>>>>> Phrase
+admitted to icu
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (746):
+   790   C0809949:Admitted (Admission activity) [Health Care Activity]
+   790   C0021708:ICU (intensive care unit) [Health Care Related Organization,Manufactured Object]
+<<<<< Mappings
+
+Phrase: for further management.
+>>>>> Phrase
+further management
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1517331:Further [Spatial Concept]
+   861   C1273870:Management (Management procedure) [Occupational Activity]
+<<<<< Mappings
+      
+Processing 00000000.tx.1: Chief Complaints Sudden of trunk deviation to left side, left limbs weakness, then right-ward looking, and slurred speech while having meeting with sitting position at 08:30 this morning  Present Illness    This is 38-old man was relatively healthy before and denied any systemic disorder.    
+
+Phrase: Chief Complaints
+>>>>> Phrase
+chief complaints
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C0277786:Chief Complaint (Chief complaint (finding)) [Finding]
+<<<<< Mappings
+
+Phrase: Sudden of trunk deviation
+>>>>> Phrase
+sudden of trunk deviation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (733):
+   770   C1276802:Sudden (Sudden onset (attribute)) [Qualitative Concept]
+   604   C0460005:TRUNK (Trunk structure) [Body Location or Region]
+   604   C0205419:Deviation (Variant) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: to left side,
+>>>>> Phrase
+left side
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:Left side (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: left limbs weakness,
+>>>>> Phrase
+left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0205091:LEFT (Left) [Spatial Concept]
+   901   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: then right-ward looking,
+>>>>> Phrase
+then right ward looking
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (825):
+   645   C1883708:Then [Temporal Concept]
+   645   C0444532:Right (Right sided) [Spatial Concept]
+   645   C1305702:Ward (Ward (environment)) [Health Care Related Organization,Manufactured Object]
+   779   C0233426:look (Personal appearance) [Organism Attribute]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: slurred speech
+>>>>> Phrase
+slurred speech
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234518:SLURRED SPEECH (Slurred speech) [Finding]
+<<<<< Mappings
+
+Phrase: while
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: having
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: meeting with sitting position
+>>>>> Phrase
+meeting with sitting position
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (783):
+   770   C0556656:Meeting (Meetings) [Activity]
+   666   C0277814:Sitting Position (Sitting position) [Finding]
+<<<<< Mappings
+
+Phrase: at 08
+>>>>> Phrase
+08
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 30
+>>>>> Phrase
+30
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842588:30% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: this morning  Present Illness
+>>>>> Phrase
+morning present illness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0332170:Morning [Temporal Concept]
+   901   C4264312:Present illness [Finding]
+<<<<< Mappings
+
+Phrase: This
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: is
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 38-old man
+>>>>> Phrase
+38 old man
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   660   C0580836:Old [Temporal Concept]
+   827   C0086582:MAN (Males) [Organism Attribute]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: relatively healthy before
+>>>>> Phrase
+relatively healthy before
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (882):
+   882   C3897120:Relatively Healthy [Intellectual Product]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: denied
+>>>>> Phrase
+denied
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0332319:Denied (Denied (qualifier)) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: any systemic disorder.
+>>>>> Phrase
+systemic disorder
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0442893:Systemic Disorder (Systemic disease) [Disease or Syndrome]
+<<<<< Mappings
+Processing 00000000.tx.2: He had sudden of trunk deviation to left side, left limbs weakness, then right-ward looking, and slurred speech while having meeting with sitting position at 08:30 this morning so transfer to our emergency deaprtement.    
+
+Phrase: He
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: had
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: sudden of trunk deviation
+>>>>> Phrase
+sudden of trunk deviation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (733):
+   770   C1276802:Sudden (Sudden onset (attribute)) [Qualitative Concept]
+   604   C0460005:TRUNK (Trunk structure) [Body Location or Region]
+   604   C0205419:Deviation (Variant) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: to left side,
+>>>>> Phrase
+left side
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:Left side (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: left limbs weakness,
+>>>>> Phrase
+left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0205091:LEFT (Left) [Spatial Concept]
+   901   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: then right-ward looking,
+>>>>> Phrase
+then right ward looking
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (825):
+   645   C1883708:Then [Temporal Concept]
+   645   C0444532:Right (Right sided) [Spatial Concept]
+   645   C1305702:Ward (Ward (environment)) [Health Care Related Organization,Manufactured Object]
+   779   C0233426:look (Personal appearance) [Organism Attribute]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: slurred speech
+>>>>> Phrase
+slurred speech
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234518:SLURRED SPEECH (Slurred speech) [Finding]
+<<<<< Mappings
+
+Phrase: while
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: having
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: meeting with sitting position
+>>>>> Phrase
+meeting with sitting position
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (783):
+   770   C0556656:Meeting (Meetings) [Activity]
+   666   C0277814:Sitting Position (Sitting position) [Finding]
+<<<<< Mappings
+
+Phrase: at 08
+>>>>> Phrase
+08
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 30
+>>>>> Phrase
+30
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842588:30% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: this morning
+>>>>> Phrase
+morning
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0332170:Morning [Temporal Concept]
+<<<<< Mappings
+
+Phrase: so
+>>>>> Phrase
+so
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0037640:SO (Somalia) [Geographic Area]
+<<<<< Mappings
+
+Phrase: transfer to our emergency deaprtement.
+>>>>> Phrase
+transfer to our emergency deaprtement
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (686):
+   760   C1705822:Transfer (Transfer Technique) [Functional Concept]
+   760   C0013956:EMERGENCY (Emergency Situation) [Phenomenon or Process]
+<<<<< Mappings
+Processing 00000000.tx.3: At emergency room, vital sign showed TPR 36/101/22 BP:146/97. 
+
+Phrase: At emergency room,
+>>>>> Phrase
+emergency room
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0562508:EMERGENCY ROOM (Accident and Emergency department) [Health Care Related Organization,Manufactured Object]
+<<<<< Mappings
+
+Phrase: vital sign
+>>>>> Phrase
+vital sign
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0518766:Vital Sign (Vital signs) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: showed
+>>>>> Phrase
+showed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: TPR 36/101/22 BP
+>>>>> Phrase
+tpr 36 101 22 bp
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (762):
+   637   C1420877:TPR (TPR gene) [Gene or Genome]
+   637   C4319606:36 [Quantitative Concept]
+   804   C0037623:BP (Solomon Islands) [Geographic Area]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 146/97.
+>>>>> Phrase
+146 97
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0439082:>97 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.4: IVF challenge was performed.
+
+Phrase: IVF challenge
+>>>>> Phrase
+ivf challenge
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C2751898:IVF (Ventricular Fibrillation, Paroxysmal Familial, 1) [Disease or Syndrome]
+   861   C0798503:Challenge (Challenge:Type:Point in time:^Patient:Nominal) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: performed.
+>>>>> Phrase
+performed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0884358:PERFORMED (Performed) [Functional Concept]
+<<<<< Mappings
+Processing 00000000.tx.5: Neurological examination revealed could speaking and slurredly could obey simple order,pupil size R/L:3/3, light reflex: +/+, left homonymous hemianopsia,EOM: forced right-ward conjugate gaze, X----, X----,left central facial palsy,dysarthria,MT: flaccid weakness in left limbs,FNF: right : no dysmetria, left: too weak to perform,Pinprick: favor anaesthesia in left limbs were noted so arranged Brain CT for lesion survey.The scan finding no ICH, favor right dense MCA sign then explaining to his family about benefit and hemorrhagic complication of t-PA they agreed of t-PA treatment.(NIHSS:21) Post BTA was arranged done then showed highly suspect dense hypervascular sign of right MCA post EVT.    
+
+Phrase: Neurological examination
+>>>>> Phrase
+neurological examination
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0027853:Neurological Examination (Neurologic Examination) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: revealed
+>>>>> Phrase
+revealed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0443289:Revealed [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: could
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: speaking
+>>>>> Phrase
+speaking
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234856:Speaking (Speaking (activity)) [Daily or Recreational Activity]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: slurredly
+>>>>> Phrase
+slurredly
+<<<<< Phrase
+
+Phrase: could
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: obey
+>>>>> Phrase
+obey
+<<<<< Phrase
+
+Phrase: simple order,
+>>>>> Phrase
+simple order
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0205352:Simple [Qualitative Concept]
+   861   C1705176:Order (Order (arrangement)) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: pupil size R/L:3/3,
+>>>>> Phrase
+pupil size r l 3 3
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   827   C0517965:pupil size (Size of pupil) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: light reflex
+>>>>> Phrase
+light reflex
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234671:Light reflex (Pupil afferent light reaction) [Organ or Tissue Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: +/+,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: left
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: homonymous hemianopsia,
+>>>>> Phrase
+homonymous hemianopsia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0271202:Hemianopsia, Homonymous [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: EOM
+>>>>> Phrase
+eom
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0241886:EOM (extraocular) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: forced right-ward conjugate gaze,
+>>>>> Phrase
+forced right ward conjugate gaze
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (840):
+   637   C0441722:Forced (Force) [Phenomenon or Process]
+   875   C0439765:Right gaze [Spatial Concept]
+   637   C1305702:Ward (Ward (environment)) [Health Care Related Organization,Manufactured Object]
+   637   C0301869:Conjugate (Immunostimulating conjugate (antigen)) [Immunologic Factor]
+Meta Mapping (840):
+   637   C0441722:Forced (Force) [Phenomenon or Process]
+   637   C0444532:Right (Right sided) [Spatial Concept]
+   637   C1305702:Ward (Ward (environment)) [Health Care Related Organization,Manufactured Object]
+   840   C0522329:Conjugate gaze [Organ or Tissue Function]
+<<<<< Mappings
+
+Phrase: X--
+>>>>> Phrase
+x
+<<<<< Phrase
+
+Phrase: --
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: X----,
+>>>>> Phrase
+x
+<<<<< Phrase
+
+Phrase: left
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: central facial palsy,
+>>>>> Phrase
+central facial palsy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (981):
+   981   C0751141:Paralysis, Central Facial (Facial Palsy, Upper Motor Neuron) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: dysarthria,
+>>>>> Phrase
+dysarthria
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0013362:DYSARTHRIA (Dysarthria) [Mental or Behavioral Dysfunction]
+<<<<< Mappings
+
+Phrase: MT
+>>>>> Phrase
+mt
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: flaccid weakness in left limbs,
+>>>>> Phrase
+flaccid weakness in left limbs
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (752):
+   593   C0231511:Flaccid [Qualitative Concept]
+   593   C0205091:LEFT (Left) [Spatial Concept]
+   797   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: FNF
+>>>>> Phrase
+fnf
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0033228:FNF (Fenofibrate) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: right
+>>>>> Phrase
+right
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0444532:Right (Right sided) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no dysmetria,
+>>>>> Phrase
+dysmetria
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0234162:DYSMETRIA (Cerebellar Dysmetria) [Finding]
+<<<<< Mappings
+
+Phrase: left
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: too weak
+>>>>> Phrase
+too weak
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C1762617:Weak [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: to
+>>>>> Phrase
+to
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0041260:TO (Tryptophanase) [Amino Acid, Peptide, or Protein,Enzyme]
+<<<<< Mappings
+
+Phrase: perform
+>>>>> Phrase
+perform
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0884358:Perform (Performed) [Functional Concept]
+<<<<< Mappings
+
+Phrase: ,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Pinprick
+>>>>> Phrase
+pinprick
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: favor anaesthesia in left limbs
+>>>>> Phrase
+favor anaesthesia in left limbs
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (724):
+   593   C0309049:FAVOR (favor) [Organic Chemical,Pharmacologic Substance,Vitamin]
+   760   C0002903:anaesthesia (Anesthesia procedures) [Therapeutic or Preventive Procedure]
+   593   C0205091:LEFT (Left) [Spatial Concept]
+   593   C0015385:Limbs (Limb structure) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: were
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: noted
+>>>>> Phrase
+noted
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4288581:Noted (Notable) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: so arranged Brain CT for lesion survey.
+>>>>> Phrase
+so arranged brain ct for lesion survey
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (737):
+   581   C0037640:SO (Somalia) [Geographic Area]
+   581   C1546854:Arranged (Arranged (transportation)) [Idea or Concept]
+   778   C0412585:brain ct (CAT scan of brain) [Diagnostic Procedure]
+   581   C0221198:Lesion [Finding]
+   581   C0038951:Survey (Surveys) [Intellectual Product]
+Meta Mapping (737):
+   581   C0037640:SO (Somalia) [Geographic Area]
+   581   C1546854:Arranged (Arranged (transportation)) [Idea or Concept]
+   607   C0221505:brain lesion (Lesion of brain) [Disease or Syndrome]
+   748   C0007673:CT (Central African Republic) [Geographic Area]
+   581   C0038951:Survey (Surveys) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: The scan
+>>>>> Phrase
+scan
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0441633:Scan (Scanning) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: finding
+>>>>> Phrase
+finding
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0037088:Finding (Signs and Symptoms) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: no ICH,
+>>>>> Phrase
+ich
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0019191:ICH (Infectious Canine Hepatitis) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: favor
+>>>>> Phrase
+favor
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0309049:FAVOR (favor) [Organic Chemical,Pharmacologic Substance,Vitamin]
+<<<<< Mappings
+
+Phrase: right dense MCA
+>>>>> Phrase
+right dense mca
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0444532:Right (Right sided) [Spatial Concept]
+   660   C0439794:Dense [Qualitative Concept]
+   827   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: sign
+>>>>> Phrase
+sign
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0311392:Sign (Physical findings) [Finding]
+<<<<< Mappings
+
+Phrase: then
+>>>>> Phrase
+then
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1883708:Then [Temporal Concept]
+<<<<< Mappings
+
+Phrase: explaining to his family
+>>>>> Phrase
+explaining to his family
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (770):
+   770   C0015576:Family [Family Group]
+<<<<< Mappings
+
+Phrase: about benefit
+>>>>> Phrase
+benefit
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0814225:Benefit (benefit) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: hemorrhagic complication of t-PA
+>>>>> Phrase
+hemorrhagic complication of t pa
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (721):
+   770   C0940931:Complication, hemorrhage (hemorrhage as a complication) [Disease or Syndrome]
+   593   C0030428:PA (Paraguay) [Geographic Area]
+<<<<< Mappings
+
+Phrase: they
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: agreed of t-PA treatment.
+>>>>> Phrase
+agreed of t pa treatment
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (685):
+   726   C3641827:Agree [Finding]
+   760   C0030428:PA (Paraguay) [Geographic Area]
+   760   C0087111:Treatment (Therapeutic procedure) [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (NIHSS
+>>>>> Phrase
+nihss
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3476804:NIHSS [Intellectual Product]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 21
+>>>>> Phrase
+21
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Post BTA
+>>>>> Phrase
+post bta
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0687676:Post [Temporal Concept]
+   861   C1519830:BTA (Urinary Bladder Tumor Antigen) [Amino Acid, Peptide, or Protein,Immunologic Factor,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: arranged
+>>>>> Phrase
+arranged
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1546854:Arranged (Arranged (transportation)) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: done
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: then
+>>>>> Phrase
+then
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1883708:Then [Temporal Concept]
+<<<<< Mappings
+
+Phrase: showed
+>>>>> Phrase
+showed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: highly
+>>>>> Phrase
+highly
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205250:Highly (High) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: suspect
+>>>>> Phrase
+suspect
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0750491:suspect (Suspected qualifier) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: dense hypervascular sign of right MCA post EVT.
+>>>>> Phrase
+dense hypervascular sign of right mca post evt
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (693):
+   578   C0439794:Dense [Qualitative Concept]
+   578   C1512560:Hypervascular (hypervascular) [Qualitative Concept]
+   744   C0311392:Sign (Physical findings) [Finding]
+   578   C0444532:Right (Right sided) [Spatial Concept]
+   578   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+   578   C0687676:Post [Temporal Concept]
+<<<<< Mappings
+Processing 00000000.tx.6: Under the impression of .
+
+Phrase: Under the impression of .
+>>>>> Phrase
+under the impression of
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (770):
+   770   C1998467:Impression [Qualitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.7: Highly suspect dense hypervascular sign induced acute large cerebral infarction at right middle cerebral artery territory s/p t -PA and EVT so he was admitted to ICU for further management.
+
+Phrase: Highly
+>>>>> Phrase
+highly
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205250:Highly (High) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: suspect
+>>>>> Phrase
+suspect
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0750491:suspect (Suspected qualifier) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: dense hypervascular sign
+>>>>> Phrase
+dense hypervascular sign
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0439794:Dense [Qualitative Concept]
+   660   C1512560:Hypervascular (hypervascular) [Qualitative Concept]
+   827   C0311392:Sign (Physical findings) [Finding]
+<<<<< Mappings
+
+Phrase: induced
+>>>>> Phrase
+induced
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205263:Induced (Induce (action)) [Functional Concept]
+<<<<< Mappings
+
+Phrase: acute large cerebral infarction at right middle cerebral artery territory s/p t -PA
+>>>>> Phrase
+acute large cerebral infarction at right middle cerebral artery territory s p t pa
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (709):
+   568   C0205178:ACUTE (acute) [Temporal Concept]
+   568   C0549177:LARGE (Large) [Quantitative Concept]
+   568   C0444532:Right (Right sided) [Spatial Concept]
+   789   C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   568   C1301808:Territory (Geographic state) [Geographic Area]
+   568   C0030428:PA (Paraguay) [Geographic Area]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: EVT
+>>>>> Phrase
+evt
+<<<<< Phrase
+
+Phrase: so
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: he
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: admitted to ICU
+>>>>> Phrase
+admitted to icu
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (746):
+   790   C0809949:Admitted (Admission activity) [Health Care Activity]
+   790   C0021708:ICU (intensive care unit) [Health Care Related Organization,Manufactured Object]
+<<<<< Mappings
+
+Phrase: for further management.
+>>>>> Phrase
+further management
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1517331:Further [Spatial Concept]
+   861   C1273870:Management (Management procedure) [Occupational Activity]
+<<<<< Mappings
+      

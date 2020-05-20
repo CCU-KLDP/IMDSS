@@ -1,0 +1,4715 @@
+Processing 00000000.tx.1: Subjective no more palpitation, ??????????, patient reported GU and DU hx in mid 2018.  
+
+Phrase: Subjective
+>>>>> Phrase
+subjective
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439655:Subjective (Subjective observation (qualifier value)) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: no more palpitation,
+>>>>> Phrase
+palpitation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0030252:PALPITATION (Palpitations) [Finding]
+<<<<< Mappings
+
+Phrase: ??????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: patient
+>>>>> Phrase
+patient
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0030705:*^patient (Patients) [Patient or Disabled Group]
+<<<<< Mappings
+
+Phrase: reported
+>>>>> Phrase
+reported
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0700287:Reported (Reporting) [Health Care Activity]
+<<<<< Mappings
+
+Phrase: GU
+>>>>> Phrase
+gu
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0120446:Gu (Guanidine) [Biologically Active Substance,Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: DU hx in mid 2018.
+>>>>> Phrase
+du hx in mid 2018
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (695):
+   593   C0011535:dU (Deoxyuridine) [Biologically Active Substance,Nucleic Acid, Nucleoside, or Nucleotide]
+   760 N C0262926:Hx (Medical History) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.2: Objective 2019-10-02 17:14 V/S:BT36.0C(?);HR 82?/?;RR 18?/?;NBP 114/ 80mmHg 2019-10-02 20:17 V/S:BT36.7C(?);HR 87?/?;RR 18?/?;NBP 120/ 79mmHg 2019-10-03 08:07 V/S:BT36.9C(?);HR 87?/?;RR 16?/?;NBP 114/ 86mmHg Consciousness: clear  EOM: free and full  left central facial palsy Muscle power:
+
+Phrase: Objective 2019-10-02 17
+>>>>> Phrase
+objective 2019 10 02 17
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (742):
+   804   C0018017:Objective (objective (goal)) [Intellectual Product]
+   804   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 14 V/S
+>>>>> Phrase
+14 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT36.0C
+>>>>> Phrase
+bt36 0c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 82?/?
+>>>>> Phrase
+hr 82
+<<<<< Phrase
+
+Phrase: ;RR 18?/?
+>>>>> Phrase
+rr 18
+<<<<< Phrase
+
+Phrase: ;NBP 114/ 80mmHg 2019-10-02 20
+>>>>> Phrase
+nbp 114 80mmhg 2019 10 02 20
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (718):
+   795   C3842590:10% [Quantitative Concept]
+   795   C3842589:20% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 17 V/S
+>>>>> Phrase
+17 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT36.7C
+>>>>> Phrase
+bt36 7c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 87?/?
+>>>>> Phrase
+hr 87
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C4517895:87 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ;RR 18?/?
+>>>>> Phrase
+rr 18
+<<<<< Phrase
+
+Phrase: ;NBP 120/ 79mmHg 2019-10-03 08
+>>>>> Phrase
+nbp 120 79mmhg 2019 10 03 08
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (795):
+   795   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 07 V/S
+>>>>> Phrase
+07 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT36.9C
+>>>>> Phrase
+bt36 9c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 87?/?
+>>>>> Phrase
+hr 87
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C4517895:87 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ;RR 16?/?
+>>>>> Phrase
+rr 16
+<<<<< Phrase
+
+Phrase: ;NBP 114/ 86mmHg Consciousness
+>>>>> Phrase
+nbp 114 86mmhg consciousness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (812):
+   812 N C0234421:Consciousness (Conscious) [Mental Process]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: clear  EOM
+>>>>> Phrase
+clear eom
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694 N C1709157:Clear (Negative Surgical Margin) [Finding]
+   861   C0241886:EOM (extraocular) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: free
+>>>>> Phrase
+free
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1996904:Free (Free (available (qualifier))) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: full  left central facial palsy Muscle power
+>>>>> Phrase
+full left central facial palsy muscle power
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (836):
+   629   C0443225:Full [Qualitative Concept]
+   863   C4543350:Left facial muscle (Structure of left facial muscle) [Body Part, Organ, or Organ Component]
+   629   C1879652:Central - (Central Minus) [Laboratory Procedure]
+   629   C0522224:Palsy (Paralysed) [Finding]
+   795   C0032863:POWER (Power (Psychology)) [Human-caused Phenomenon or Process]
+Meta Mapping (836):
+   629   C0443225:Full [Qualitative Concept]
+   629   C0205091:LEFT (Left) [Spatial Concept]
+   660   C0751141:Paralysis, Central Facial (Facial Palsy, Upper Motor Neuron) [Sign or Symptom]
+   818   C0427052:Muscle power (Finding of power of skeletal muscle) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.1: ?               
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: 5   5?4+  4+                ?/??/                    ?                  
+
+Phrase: 5   5?4+  4+                ?/??/                    ?
+>>>>> Phrase
+5 5 4 4
+<<<<< Phrase
+Processing 00000000.tx.3: /  ?               
+
+Phrase: /  ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: 5  ?  
+
+Phrase: 5  ?
+>>>>> Phrase
+5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.5: / 4+                  /  ? could walk by himself without support, no deviation
+
+Phrase: / 4+                  /  ?
+>>>>> Phrase
+4
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3838679:4+ (4+ Answer to question) [Finding]
+<<<<< Mappings
+
+Phrase: could
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: walk by himself
+>>>>> Phrase
+walk by himself
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   790   C0080331:Walk (Walking (activity)) [Daily or Recreational Activity]
+<<<<< Mappings
+
+Phrase: without support,
+>>>>> Phrase
+support
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0183683:Support, NOS (Support, device) [Medical Device]
+<<<<< Mappings
+
+Phrase: no deviation
+>>>>> Phrase
+deviation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C1705236:Deviation (Protocol Deviation) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.1: Problem 01 Acute large cerebral infarction at right middle cerebral artery territory; young stroke, with acute left limbs weakness,  status post intravenous thrombolytic therapy and endovascular thrombectomy (on 2019/9/25)  Assessment Stable neurological condition
+
+Phrase: Problem 01 Acute large cerebral infarction at right middle cerebral artery territory
+>>>>> Phrase
+problem 01 acute large cerebral infarction at right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (737):
+   570   C0033213:Problem [Finding]
+   570   C0205178:ACUTE (acute) [Temporal Concept]
+   570   C0549177:LARGE (Large) [Quantitative Concept]
+   570   C0444532:Right (Right sided) [Spatial Concept]
+   801   C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   570   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: ; young stroke,
+>>>>> Phrase
+young stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0332239:Young [Temporal Concept]
+   861   C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with acute left limbs weakness,
+>>>>> Phrase
+acute left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0205178:ACUTE (acute) [Temporal Concept]
+   645   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: status post intravenous thrombolytic therapy
+>>>>> Phrase
+intravenous thrombolytic therapy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   913   C0455142:Intravenous therapy [Therapeutic or Preventive Procedure]
+   827   C0520997:Thrombolytic (Thrombolysis, function) [Clinical Attribute]
+Meta Mapping (901):
+   660   C0348016:Intravenous [Spatial Concept]
+   901   C0040044:Thrombolytic Therapy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: endovascular thrombectomy
+>>>>> Phrase
+endovascular thrombectomy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0524425:Endovascular (inside the blood vessel) [Body Location or Region]
+   861   C0162578:Thrombectomy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/25
+>>>>> Phrase
+2019 9 25
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Assessment Stable neurological condition
+>>>>> Phrase
+assessment stable neurological condition
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C1516048:Assessment (Assessed) [Activity]
+   875   C0677946:Stable condition (Stable Disease) [Finding]
+   645   C0205494:NEUROLOGICAL (Neurologic (qualifier value)) [Qualitative Concept]
+Meta Mapping (861):
+   645   C1516048:Assessment (Assessed) [Activity]
+   645   C1547311:Stable (Patient Condition Code - Stable) [Intellectual Product]
+   861   C0027765:Neurological condition (nervous system disorder) [Disease or Syndrome]
+<<<<< Mappings
+Processing 00000000.tx.1: Plan ---Therapeutic plan Discharge today Add Gaster 20mg 1# BID PO Medications x 6 days Arrange OPD follow-up ??? 
+
+Phrase: Plan
+>>>>> Phrase
+plan
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1301732:Plan (Planned) [Functional Concept]
+<<<<< Mappings
+
+Phrase: ---
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Therapeutic plan Discharge today
+>>>>> Phrase
+therapeutic plan discharge today
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   645   C0087111:Therapeutic (Therapeutic procedure) [Therapeutic or Preventive Procedure]
+   645   C1301732:Plan (Planned) [Functional Concept]
+   645   C0030685:Discharge (Patient Discharge) [Health Care Activity]
+   812   C0310367:Today [Antibiotic,Organic Chemical]
+<<<<< Mappings
+
+Phrase: Add
+>>>>> Phrase
+add
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1883712:Add (Add - instruction imperative) [Functional Concept]
+<<<<< Mappings
+
+Phrase: Gaster 20mg 1# BID PO Medications x 6 days
+>>>>> Phrase
+gaster 20mg 1 bid po medications x 6 days
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (730):
+   624   C0038351:Gaster (Stomach) [Body Part, Organ, or Organ Component]
+   624   C0442027:PO (Oral) [Spatial Concept]
+   624   C0013227:Medications (Pharmaceutical Preparations) [Pharmacologic Substance]
+   791   C0439228:DAYS (day) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: Arrange
+>>>>> Phrase
+arrange
+<<<<< Phrase
+
+Phrase: OPD
+>>>>> Phrase
+opd
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3810599:OPD (FLNA wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: follow-up ???
+>>>>> Phrase
+follow up
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0589120:Follow-up (Follow-up status) [Finding]
+Meta Mapping (1000):
+  1000   C1522577:Followup (follow-up) [Health Care Activity]
+<<<<< Mappings
+Processing 00000000.tx.2: ---Educational plan 1.??????????,????????? 
+
+Phrase: ---
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Educational plan 1.??????????,
+>>>>> Phrase
+educational plan 1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (865):
+   865   C0920485:education plan (education planning) [Educational Activity]
+<<<<< Mappings
+
+Phrase: ?????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: 2.????????? 
+
+Phrase: 2.?????????
+>>>>> Phrase
+2
+<<<<< Phrase
+Processing 00000000.tx.4: 3.??????????,????????? 
+
+Phrase: 3.??????????,
+>>>>> Phrase
+3
+<<<<< Phrase
+
+Phrase: ?????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.5: 4.?????????????????? 
+
+Phrase: 4.??????????????????
+>>>>> Phrase
+4
+<<<<< Phrase
+Processing 00000000.tx.6: 5.???????,?????????,???????? 
+
+Phrase: 5.???????,
+>>>>> Phrase
+5
+<<<<< Phrase
+
+Phrase: ?????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.7: 6.??????:   
+
+Phrase: 6.??????
+>>>>> Phrase
+6
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.8: ????????.   
+
+Phrase: ????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.9: ??????,???????.   
+
+Phrase: ??????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ???????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.10: ???????????.   
+
+Phrase: ???????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.11: ??????,??????.   
+
+Phrase: ??????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ??????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.12: ?????????. 
+
+Phrase: ?????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.13: 7.????????,????????????????. 
+
+Phrase: 7.????????,
+>>>>> Phrase
+7
+<<<<< Phrase
+
+Phrase: ????????????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.14: 8.??????*???????????:  
+
+Phrase: 8.??????
+>>>>> Phrase
+8
+<<<<< Phrase
+
+Phrase: *???????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.15: ??(55???,???10?,?????.)  
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (55???,
+>>>>> Phrase
+55
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0450382:55 [Intellectual Product]
+<<<<< Mappings
+
+Phrase: ???10?,
+>>>>> Phrase
+10
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ?????.
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.16: ??(65???,??????????.)  
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (65???,
+>>>>> Phrase
+65
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3843765:65+ [Finding]
+<<<<< Mappings
+
+Phrase: ??????????.
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.17: ??(?????????????????.)  
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (?????????????????.
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.18: ???(?? 
+
+Phrase: ???
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (??
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.19: ??? 
+
+Phrase: ???
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.20: ?????????????????.)  
+
+Phrase: ?????????????????.
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.21: ???????????(?????????):?????   
+
+Phrase: ???????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (?????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :?????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.22: ??????????. 
+
+Phrase: ??????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.23: ?? 
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.24: ????*??????????:  
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: *??????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.25: ???-???????140/90mmHg??.  
+
+Phrase: ???-???????140/90mmHg??.
+>>>>> Phrase
+140 90mmhg
+<<<<< Phrase
+Processing 00000000.tx.26: ???-????:??<130/80mmHg,?????????,  ?????HbA1C<7.0. 
+
+Phrase: ???-????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: <130/80mmHg,
+>>>>> Phrase
+130 80mmhg
+<<<<< Phrase
+
+Phrase: ?????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ?????HbA1C
+>>>>> Phrase
+hba1c
+<<<<< Phrase
+
+Phrase: <7.0.
+>>>>> Phrase
+7 0
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3842591:0% [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.27: ?????????<100mg/dl.  
+
+Phrase: ?????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: <100mg/dl.
+>>>>> Phrase
+100mg dl
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3642216:/dL (Per Deciliter) [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.28: ???-??????????????.  
+
+Phrase: ???-??????????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.29: ????-???????,?????????LDL-C>=100mg/dl,  ?????TC>=160mg/dl??????TG>=200mg/dl(???  
+
+Phrase: ????-???????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ?????????LDL-C
+>>>>> Phrase
+ldl c
+<<<<< Phrase
+
+Phrase: >
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: =100mg/dl,
+>>>>> Phrase
+100mg dl
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3642216:/dL (Per Deciliter) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ?????TC>
+>>>>> Phrase
+tc
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1824670:TC (CD55 gene) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: =160mg/dl??????TG>
+>>>>> Phrase
+160mg dl tg
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   660   C3642216:/dL (Per Deciliter) [Quantitative Concept]
+   827   C0337445:TG (Thyroglobulin measurement) [Laboratory Procedure]
+<<<<< Mappings
+
+Phrase: =200mg/dl(???
+>>>>> Phrase
+200mg dl
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3642216:/dL (Per Deciliter) [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.30: TC/HDL>5)??????????.  
+
+Phrase: TC/HDL
+>>>>> Phrase
+tc hdl
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1824670:TC (CD55 gene) [Gene or Genome]
+   861   C3715113:HDL (HSD11B1 wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: >5
+>>>>> Phrase
+5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: )??????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.31: ????-?????????,???????,??30??.  
+
+Phrase: ????-?????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ???????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ??30??.
+>>>>> Phrase
+30
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842588:30% [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.32: ??-??????,????????15?!????!  
+
+Phrase: ??-??????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ????????15?!????!
+>>>>> Phrase
+15
+<<<<< Phrase
+Processing 00000000.tx.33: ??-????,??????????,???????????  
+
+Phrase: ??-????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ??????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ???????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.34: ???.
+
+Phrase: ???.
+>>>>> Phrase
+<<<<< Phrase
+      
+Processing 00000000.tx.1: Subjective no more palpitation, ??????????, patient reported GU and DU hx in mid 2018.  
+
+Phrase: Subjective
+>>>>> Phrase
+subjective
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439655:Subjective (Subjective observation (qualifier value)) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: no more palpitation,
+>>>>> Phrase
+palpitation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0030252:PALPITATION (Palpitations) [Finding]
+<<<<< Mappings
+
+Phrase: ??????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: patient
+>>>>> Phrase
+patient
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0030705:*^patient (Patients) [Patient or Disabled Group]
+<<<<< Mappings
+
+Phrase: reported
+>>>>> Phrase
+reported
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0700287:Reported (Reporting) [Health Care Activity]
+<<<<< Mappings
+
+Phrase: GU
+>>>>> Phrase
+gu
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0120446:Gu (Guanidine) [Biologically Active Substance,Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: DU hx in mid 2018.
+>>>>> Phrase
+du hx in mid 2018
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (695):
+   593   C0011535:dU (Deoxyuridine) [Biologically Active Substance,Nucleic Acid, Nucleoside, or Nucleotide]
+   760 N C0262926:Hx (Medical History) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.2: Objective 2019-10-02 17:14 V/S:BT36.0C(?);HR 82?/?;RR 18?/?;NBP 114/ 80mmHg 2019-10-02 20:17 V/S:BT36.7C(?);HR 87?/?;RR 18?/?;NBP 120/ 79mmHg 2019-10-03 08:07 V/S:BT36.9C(?);HR 87?/?;RR 16?/?;NBP 114/ 86mmHg Consciousness: clear  EOM: free and full  left central facial palsy Muscle power:
+
+Phrase: Objective 2019-10-02 17
+>>>>> Phrase
+objective 2019 10 02 17
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (742):
+   804   C0018017:Objective (objective (goal)) [Intellectual Product]
+   804   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 14 V/S
+>>>>> Phrase
+14 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT36.0C
+>>>>> Phrase
+bt36 0c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 82?/?
+>>>>> Phrase
+hr 82
+<<<<< Phrase
+
+Phrase: ;RR 18?/?
+>>>>> Phrase
+rr 18
+<<<<< Phrase
+
+Phrase: ;NBP 114/ 80mmHg 2019-10-02 20
+>>>>> Phrase
+nbp 114 80mmhg 2019 10 02 20
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (718):
+   795   C3842590:10% [Quantitative Concept]
+   795   C3842589:20% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 17 V/S
+>>>>> Phrase
+17 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT36.7C
+>>>>> Phrase
+bt36 7c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 87?/?
+>>>>> Phrase
+hr 87
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C4517895:87 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ;RR 18?/?
+>>>>> Phrase
+rr 18
+<<<<< Phrase
+
+Phrase: ;NBP 120/ 79mmHg 2019-10-03 08
+>>>>> Phrase
+nbp 120 79mmhg 2019 10 03 08
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (795):
+   795   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 07 V/S
+>>>>> Phrase
+07 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT36.9C
+>>>>> Phrase
+bt36 9c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 87?/?
+>>>>> Phrase
+hr 87
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C4517895:87 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ;RR 16?/?
+>>>>> Phrase
+rr 16
+<<<<< Phrase
+
+Phrase: ;NBP 114/ 86mmHg Consciousness
+>>>>> Phrase
+nbp 114 86mmhg consciousness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (812):
+   812 N C0234421:Consciousness (Conscious) [Mental Process]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: clear  EOM
+>>>>> Phrase
+clear eom
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694 N C1709157:Clear (Negative Surgical Margin) [Finding]
+   861   C0241886:EOM (extraocular) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: free
+>>>>> Phrase
+free
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1996904:Free (Free (available (qualifier))) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: full  left central facial palsy Muscle power
+>>>>> Phrase
+full left central facial palsy muscle power
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (836):
+   629   C0443225:Full [Qualitative Concept]
+   863   C4543350:Left facial muscle (Structure of left facial muscle) [Body Part, Organ, or Organ Component]
+   629   C1879652:Central - (Central Minus) [Laboratory Procedure]
+   629   C0522224:Palsy (Paralysed) [Finding]
+   795   C0032863:POWER (Power (Psychology)) [Human-caused Phenomenon or Process]
+Meta Mapping (836):
+   629   C0443225:Full [Qualitative Concept]
+   629   C0205091:LEFT (Left) [Spatial Concept]
+   660   C0751141:Paralysis, Central Facial (Facial Palsy, Upper Motor Neuron) [Sign or Symptom]
+   818   C0427052:Muscle power (Finding of power of skeletal muscle) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.1: ?               
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: 5   5?4+  4+                ?/??/                    ?                  
+
+Phrase: 5   5?4+  4+                ?/??/                    ?
+>>>>> Phrase
+5 5 4 4
+<<<<< Phrase
+Processing 00000000.tx.3: /  ?               
+
+Phrase: /  ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: 5  ?  
+
+Phrase: 5  ?
+>>>>> Phrase
+5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.5: / 4+                  /  ? could walk by himself without support, no deviation
+
+Phrase: / 4+                  /  ?
+>>>>> Phrase
+4
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3838679:4+ (4+ Answer to question) [Finding]
+<<<<< Mappings
+
+Phrase: could
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: walk by himself
+>>>>> Phrase
+walk by himself
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   790   C0080331:Walk (Walking (activity)) [Daily or Recreational Activity]
+<<<<< Mappings
+
+Phrase: without support,
+>>>>> Phrase
+support
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0183683:Support, NOS (Support, device) [Medical Device]
+<<<<< Mappings
+
+Phrase: no deviation
+>>>>> Phrase
+deviation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C1705236:Deviation (Protocol Deviation) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.1: Problem 01 Acute large cerebral infarction at right middle cerebral artery territory; young stroke, with acute left limbs weakness,  status post intravenous thrombolytic therapy and endovascular thrombectomy (on 2019/9/25)  Assessment Stable neurological condition
+
+Phrase: Problem 01 Acute large cerebral infarction at right middle cerebral artery territory
+>>>>> Phrase
+problem 01 acute large cerebral infarction at right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (737):
+   570   C0033213:Problem [Finding]
+   570   C0205178:ACUTE (acute) [Temporal Concept]
+   570   C0549177:LARGE (Large) [Quantitative Concept]
+   570   C0444532:Right (Right sided) [Spatial Concept]
+   801   C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   570   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: ; young stroke,
+>>>>> Phrase
+young stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0332239:Young [Temporal Concept]
+   861   C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with acute left limbs weakness,
+>>>>> Phrase
+acute left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0205178:ACUTE (acute) [Temporal Concept]
+   645   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: status post intravenous thrombolytic therapy
+>>>>> Phrase
+intravenous thrombolytic therapy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   913   C0455142:Intravenous therapy [Therapeutic or Preventive Procedure]
+   827   C0520997:Thrombolytic (Thrombolysis, function) [Clinical Attribute]
+Meta Mapping (901):
+   660   C0348016:Intravenous [Spatial Concept]
+   901   C0040044:Thrombolytic Therapy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: endovascular thrombectomy
+>>>>> Phrase
+endovascular thrombectomy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0524425:Endovascular (inside the blood vessel) [Body Location or Region]
+   861   C0162578:Thrombectomy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/25
+>>>>> Phrase
+2019 9 25
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Assessment Stable neurological condition
+>>>>> Phrase
+assessment stable neurological condition
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C1516048:Assessment (Assessed) [Activity]
+   875   C0677946:Stable condition (Stable Disease) [Finding]
+   645   C0205494:NEUROLOGICAL (Neurologic (qualifier value)) [Qualitative Concept]
+Meta Mapping (861):
+   645   C1516048:Assessment (Assessed) [Activity]
+   645   C1547311:Stable (Patient Condition Code - Stable) [Intellectual Product]
+   861   C0027765:Neurological condition (nervous system disorder) [Disease or Syndrome]
+<<<<< Mappings
+Processing 00000000.tx.1: Plan ---Therapeutic plan Discharge today Add Gaster 20mg 1# BID PO Medications x 6 days Arrange OPD follow-up ??? 
+
+Phrase: Plan
+>>>>> Phrase
+plan
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1301732:Plan (Planned) [Functional Concept]
+<<<<< Mappings
+
+Phrase: ---
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Therapeutic plan Discharge today
+>>>>> Phrase
+therapeutic plan discharge today
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   645   C0087111:Therapeutic (Therapeutic procedure) [Therapeutic or Preventive Procedure]
+   645   C1301732:Plan (Planned) [Functional Concept]
+   645   C0030685:Discharge (Patient Discharge) [Health Care Activity]
+   812   C0310367:Today [Antibiotic,Organic Chemical]
+<<<<< Mappings
+
+Phrase: Add
+>>>>> Phrase
+add
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1883712:Add (Add - instruction imperative) [Functional Concept]
+<<<<< Mappings
+
+Phrase: Gaster 20mg 1# BID PO Medications x 6 days
+>>>>> Phrase
+gaster 20mg 1 bid po medications x 6 days
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (730):
+   624   C0038351:Gaster (Stomach) [Body Part, Organ, or Organ Component]
+   624   C0442027:PO (Oral) [Spatial Concept]
+   624   C0013227:Medications (Pharmaceutical Preparations) [Pharmacologic Substance]
+   791   C0439228:DAYS (day) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: Arrange
+>>>>> Phrase
+arrange
+<<<<< Phrase
+
+Phrase: OPD
+>>>>> Phrase
+opd
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3810599:OPD (FLNA wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: follow-up ???
+>>>>> Phrase
+follow up
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0589120:Follow-up (Follow-up status) [Finding]
+Meta Mapping (1000):
+  1000   C1522577:Followup (follow-up) [Health Care Activity]
+<<<<< Mappings
+Processing 00000000.tx.2: ---Educational plan 1.??????????,????????? 
+
+Phrase: ---
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Educational plan 1.??????????,
+>>>>> Phrase
+educational plan 1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (865):
+   865   C0920485:education plan (education planning) [Educational Activity]
+<<<<< Mappings
+
+Phrase: ?????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: 2.????????? 
+
+Phrase: 2.?????????
+>>>>> Phrase
+2
+<<<<< Phrase
+Processing 00000000.tx.4: 3.??????????,????????? 
+
+Phrase: 3.??????????,
+>>>>> Phrase
+3
+<<<<< Phrase
+
+Phrase: ?????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.5: 4.?????????????????? 
+
+Phrase: 4.??????????????????
+>>>>> Phrase
+4
+<<<<< Phrase
+Processing 00000000.tx.6: 5.???????,?????????,???????? 
+
+Phrase: 5.???????,
+>>>>> Phrase
+5
+<<<<< Phrase
+
+Phrase: ?????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.7: 6.??????:   
+
+Phrase: 6.??????
+>>>>> Phrase
+6
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.8: ????????.   
+
+Phrase: ????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.9: ??????,???????.   
+
+Phrase: ??????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ???????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.10: ???????????.   
+
+Phrase: ???????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.11: ??????,??????.   
+
+Phrase: ??????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ??????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.12: ?????????. 
+
+Phrase: ?????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.13: 7.????????,????????????????. 
+
+Phrase: 7.????????,
+>>>>> Phrase
+7
+<<<<< Phrase
+
+Phrase: ????????????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.14: 8.??????*???????????:  
+
+Phrase: 8.??????
+>>>>> Phrase
+8
+<<<<< Phrase
+
+Phrase: *???????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.15: ??(55???,???10?,?????.)  
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (55???,
+>>>>> Phrase
+55
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0450382:55 [Intellectual Product]
+<<<<< Mappings
+
+Phrase: ???10?,
+>>>>> Phrase
+10
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ?????.
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.16: ??(65???,??????????.)  
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (65???,
+>>>>> Phrase
+65
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3843765:65+ [Finding]
+<<<<< Mappings
+
+Phrase: ??????????.
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.17: ??(?????????????????.)  
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (?????????????????.
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.18: ???(?? 
+
+Phrase: ???
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (??
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.19: ??? 
+
+Phrase: ???
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.20: ?????????????????.)  
+
+Phrase: ?????????????????.
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.21: ???????????(?????????):?????   
+
+Phrase: ???????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (?????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :?????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.22: ??????????. 
+
+Phrase: ??????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.23: ?? 
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.24: ????*??????????:  
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: *??????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.25: ???-???????140/90mmHg??.  
+
+Phrase: ???-???????140/90mmHg??.
+>>>>> Phrase
+140 90mmhg
+<<<<< Phrase
+Processing 00000000.tx.26: ???-????:??<130/80mmHg,?????????,  ?????HbA1C<7.0. 
+
+Phrase: ???-????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: <130/80mmHg,
+>>>>> Phrase
+130 80mmhg
+<<<<< Phrase
+
+Phrase: ?????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ?????HbA1C
+>>>>> Phrase
+hba1c
+<<<<< Phrase
+
+Phrase: <7.0.
+>>>>> Phrase
+7 0
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3842591:0% [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.27: ?????????<100mg/dl.  
+
+Phrase: ?????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: <100mg/dl.
+>>>>> Phrase
+100mg dl
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3642216:/dL (Per Deciliter) [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.28: ???-??????????????.  
+
+Phrase: ???-??????????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.29: ????-???????,?????????LDL-C>=100mg/dl,  ?????TC>=160mg/dl??????TG>=200mg/dl(???  
+
+Phrase: ????-???????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ?????????LDL-C
+>>>>> Phrase
+ldl c
+<<<<< Phrase
+
+Phrase: >
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: =100mg/dl,
+>>>>> Phrase
+100mg dl
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3642216:/dL (Per Deciliter) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ?????TC>
+>>>>> Phrase
+tc
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1824670:TC (CD55 gene) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: =160mg/dl??????TG>
+>>>>> Phrase
+160mg dl tg
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   660   C3642216:/dL (Per Deciliter) [Quantitative Concept]
+   827   C0337445:TG (Thyroglobulin measurement) [Laboratory Procedure]
+<<<<< Mappings
+
+Phrase: =200mg/dl(???
+>>>>> Phrase
+200mg dl
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3642216:/dL (Per Deciliter) [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.30: TC/HDL>5)??????????.  
+
+Phrase: TC/HDL
+>>>>> Phrase
+tc hdl
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1824670:TC (CD55 gene) [Gene or Genome]
+   861   C3715113:HDL (HSD11B1 wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: >5
+>>>>> Phrase
+5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: )??????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.31: ????-?????????,???????,??30??.  
+
+Phrase: ????-?????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ???????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ??30??.
+>>>>> Phrase
+30
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842588:30% [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.32: ??-??????,????????15?!????!  
+
+Phrase: ??-??????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ????????15?!????!
+>>>>> Phrase
+15
+<<<<< Phrase
+Processing 00000000.tx.33: ??-????,??????????,???????????  
+
+Phrase: ??-????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ??????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ???????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.34: ???.
+
+Phrase: ???.
+>>>>> Phrase
+<<<<< Phrase
+      
+Processing 00000000.tx.1: Subjective no more palpitation, ??????????, patient reported GU and DU hx in mid 2018.  
+
+Phrase: Subjective
+>>>>> Phrase
+subjective
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439655:Subjective (Subjective observation (qualifier value)) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: no more palpitation,
+>>>>> Phrase
+palpitation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0030252:PALPITATION (Palpitations) [Finding]
+<<<<< Mappings
+
+Phrase: ??????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: patient
+>>>>> Phrase
+patient
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0030705:*^patient (Patients) [Patient or Disabled Group]
+<<<<< Mappings
+
+Phrase: reported
+>>>>> Phrase
+reported
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0700287:Reported (Reporting) [Health Care Activity]
+<<<<< Mappings
+
+Phrase: GU
+>>>>> Phrase
+gu
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0120446:Gu (Guanidine) [Biologically Active Substance,Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: DU hx in mid 2018.
+>>>>> Phrase
+du hx in mid 2018
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (695):
+   593   C0011535:dU (Deoxyuridine) [Biologically Active Substance,Nucleic Acid, Nucleoside, or Nucleotide]
+   760 N C0262926:Hx (Medical History) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.2: Objective 2019-10-02 17:14 V/S:BT36.0C(?);HR 82?/?;RR 18?/?;NBP 114/ 80mmHg 2019-10-02 20:17 V/S:BT36.7C(?);HR 87?/?;RR 18?/?;NBP 120/ 79mmHg 2019-10-03 08:07 V/S:BT36.9C(?);HR 87?/?;RR 16?/?;NBP 114/ 86mmHg Consciousness: clear  EOM: free and full  left central facial palsy Muscle power:
+
+Phrase: Objective 2019-10-02 17
+>>>>> Phrase
+objective 2019 10 02 17
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (742):
+   804   C0018017:Objective (objective (goal)) [Intellectual Product]
+   804   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 14 V/S
+>>>>> Phrase
+14 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT36.0C
+>>>>> Phrase
+bt36 0c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 82?/?
+>>>>> Phrase
+hr 82
+<<<<< Phrase
+
+Phrase: ;RR 18?/?
+>>>>> Phrase
+rr 18
+<<<<< Phrase
+
+Phrase: ;NBP 114/ 80mmHg 2019-10-02 20
+>>>>> Phrase
+nbp 114 80mmhg 2019 10 02 20
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (718):
+   795   C3842590:10% [Quantitative Concept]
+   795   C3842589:20% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 17 V/S
+>>>>> Phrase
+17 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT36.7C
+>>>>> Phrase
+bt36 7c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 87?/?
+>>>>> Phrase
+hr 87
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C4517895:87 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ;RR 18?/?
+>>>>> Phrase
+rr 18
+<<<<< Phrase
+
+Phrase: ;NBP 120/ 79mmHg 2019-10-03 08
+>>>>> Phrase
+nbp 120 79mmhg 2019 10 03 08
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (795):
+   795   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 07 V/S
+>>>>> Phrase
+07 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT36.9C
+>>>>> Phrase
+bt36 9c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 87?/?
+>>>>> Phrase
+hr 87
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C4517895:87 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ;RR 16?/?
+>>>>> Phrase
+rr 16
+<<<<< Phrase
+
+Phrase: ;NBP 114/ 86mmHg Consciousness
+>>>>> Phrase
+nbp 114 86mmhg consciousness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (812):
+   812 N C0234421:Consciousness (Conscious) [Mental Process]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: clear  EOM
+>>>>> Phrase
+clear eom
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694 N C1709157:Clear (Negative Surgical Margin) [Finding]
+   861   C0241886:EOM (extraocular) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: free
+>>>>> Phrase
+free
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1996904:Free (Free (available (qualifier))) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: full  left central facial palsy Muscle power
+>>>>> Phrase
+full left central facial palsy muscle power
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (836):
+   629   C0443225:Full [Qualitative Concept]
+   863   C4543350:Left facial muscle (Structure of left facial muscle) [Body Part, Organ, or Organ Component]
+   629   C1879652:Central - (Central Minus) [Laboratory Procedure]
+   629   C0522224:Palsy (Paralysed) [Finding]
+   795   C0032863:POWER (Power (Psychology)) [Human-caused Phenomenon or Process]
+Meta Mapping (836):
+   629   C0443225:Full [Qualitative Concept]
+   629   C0205091:LEFT (Left) [Spatial Concept]
+   660   C0751141:Paralysis, Central Facial (Facial Palsy, Upper Motor Neuron) [Sign or Symptom]
+   818   C0427052:Muscle power (Finding of power of skeletal muscle) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.1: ?               
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: 5   5?4+  4+                ?/??/                    ?                  
+
+Phrase: 5   5?4+  4+                ?/??/                    ?
+>>>>> Phrase
+5 5 4 4
+<<<<< Phrase
+Processing 00000000.tx.3: /  ?               
+
+Phrase: /  ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: 5  ?  
+
+Phrase: 5  ?
+>>>>> Phrase
+5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.5: / 4+                  /  ? could walk by himself without support, no deviation
+
+Phrase: / 4+                  /  ?
+>>>>> Phrase
+4
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3838679:4+ (4+ Answer to question) [Finding]
+<<<<< Mappings
+
+Phrase: could
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: walk by himself
+>>>>> Phrase
+walk by himself
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   790   C0080331:Walk (Walking (activity)) [Daily or Recreational Activity]
+<<<<< Mappings
+
+Phrase: without support,
+>>>>> Phrase
+support
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0183683:Support, NOS (Support, device) [Medical Device]
+<<<<< Mappings
+
+Phrase: no deviation
+>>>>> Phrase
+deviation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C1705236:Deviation (Protocol Deviation) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.1: Problem 01 Acute large cerebral infarction at right middle cerebral artery territory; young stroke, with acute left limbs weakness,  status post intravenous thrombolytic therapy and endovascular thrombectomy (on 2019/9/25)  Assessment Stable neurological condition
+
+Phrase: Problem 01 Acute large cerebral infarction at right middle cerebral artery territory
+>>>>> Phrase
+problem 01 acute large cerebral infarction at right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (737):
+   570   C0033213:Problem [Finding]
+   570   C0205178:ACUTE (acute) [Temporal Concept]
+   570   C0549177:LARGE (Large) [Quantitative Concept]
+   570   C0444532:Right (Right sided) [Spatial Concept]
+   801   C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   570   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: ; young stroke,
+>>>>> Phrase
+young stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0332239:Young [Temporal Concept]
+   861   C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with acute left limbs weakness,
+>>>>> Phrase
+acute left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0205178:ACUTE (acute) [Temporal Concept]
+   645   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: status post intravenous thrombolytic therapy
+>>>>> Phrase
+intravenous thrombolytic therapy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   913   C0455142:Intravenous therapy [Therapeutic or Preventive Procedure]
+   827   C0520997:Thrombolytic (Thrombolysis, function) [Clinical Attribute]
+Meta Mapping (901):
+   660   C0348016:Intravenous [Spatial Concept]
+   901   C0040044:Thrombolytic Therapy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: endovascular thrombectomy
+>>>>> Phrase
+endovascular thrombectomy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0524425:Endovascular (inside the blood vessel) [Body Location or Region]
+   861   C0162578:Thrombectomy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/25
+>>>>> Phrase
+2019 9 25
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Assessment Stable neurological condition
+>>>>> Phrase
+assessment stable neurological condition
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C1516048:Assessment (Assessed) [Activity]
+   875   C0677946:Stable condition (Stable Disease) [Finding]
+   645   C0205494:NEUROLOGICAL (Neurologic (qualifier value)) [Qualitative Concept]
+Meta Mapping (861):
+   645   C1516048:Assessment (Assessed) [Activity]
+   645   C1547311:Stable (Patient Condition Code - Stable) [Intellectual Product]
+   861   C0027765:Neurological condition (nervous system disorder) [Disease or Syndrome]
+<<<<< Mappings
+Processing 00000000.tx.1: Plan ---Therapeutic plan Discharge today Add Gaster 20mg 1# BID PO Medications x 6 days Arrange OPD follow-up ??? 
+
+Phrase: Plan
+>>>>> Phrase
+plan
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1301732:Plan (Planned) [Functional Concept]
+<<<<< Mappings
+
+Phrase: ---
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Therapeutic plan Discharge today
+>>>>> Phrase
+therapeutic plan discharge today
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   645   C0087111:Therapeutic (Therapeutic procedure) [Therapeutic or Preventive Procedure]
+   645   C1301732:Plan (Planned) [Functional Concept]
+   645   C0030685:Discharge (Patient Discharge) [Health Care Activity]
+   812   C0310367:Today [Antibiotic,Organic Chemical]
+<<<<< Mappings
+
+Phrase: Add
+>>>>> Phrase
+add
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1883712:Add (Add - instruction imperative) [Functional Concept]
+<<<<< Mappings
+
+Phrase: Gaster 20mg 1# BID PO Medications x 6 days
+>>>>> Phrase
+gaster 20mg 1 bid po medications x 6 days
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (730):
+   624   C0038351:Gaster (Stomach) [Body Part, Organ, or Organ Component]
+   624   C0442027:PO (Oral) [Spatial Concept]
+   624   C0013227:Medications (Pharmaceutical Preparations) [Pharmacologic Substance]
+   791   C0439228:DAYS (day) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: Arrange
+>>>>> Phrase
+arrange
+<<<<< Phrase
+
+Phrase: OPD
+>>>>> Phrase
+opd
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3810599:OPD (FLNA wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: follow-up ???
+>>>>> Phrase
+follow up
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0589120:Follow-up (Follow-up status) [Finding]
+Meta Mapping (1000):
+  1000   C1522577:Followup (follow-up) [Health Care Activity]
+<<<<< Mappings
+Processing 00000000.tx.2: ---Educational plan 1.??????????,????????? 
+
+Phrase: ---
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Educational plan 1.??????????,
+>>>>> Phrase
+educational plan 1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (865):
+   865   C0920485:education plan (education planning) [Educational Activity]
+<<<<< Mappings
+
+Phrase: ?????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: 2.????????? 
+
+Phrase: 2.?????????
+>>>>> Phrase
+2
+<<<<< Phrase
+Processing 00000000.tx.4: 3.??????????,????????? 
+
+Phrase: 3.??????????,
+>>>>> Phrase
+3
+<<<<< Phrase
+
+Phrase: ?????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.5: 4.?????????????????? 
+
+Phrase: 4.??????????????????
+>>>>> Phrase
+4
+<<<<< Phrase
+Processing 00000000.tx.6: 5.???????,?????????,???????? 
+
+Phrase: 5.???????,
+>>>>> Phrase
+5
+<<<<< Phrase
+
+Phrase: ?????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.7: 6.??????:   
+
+Phrase: 6.??????
+>>>>> Phrase
+6
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.8: ????????.   
+
+Phrase: ????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.9: ??????,???????.   
+
+Phrase: ??????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ???????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.10: ???????????.   
+
+Phrase: ???????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.11: ??????,??????.   
+
+Phrase: ??????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ??????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.12: ?????????. 
+
+Phrase: ?????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.13: 7.????????,????????????????. 
+
+Phrase: 7.????????,
+>>>>> Phrase
+7
+<<<<< Phrase
+
+Phrase: ????????????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.14: 8.??????*???????????:  
+
+Phrase: 8.??????
+>>>>> Phrase
+8
+<<<<< Phrase
+
+Phrase: *???????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.15: ??(55???,???10?,?????.)  
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (55???,
+>>>>> Phrase
+55
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0450382:55 [Intellectual Product]
+<<<<< Mappings
+
+Phrase: ???10?,
+>>>>> Phrase
+10
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ?????.
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.16: ??(65???,??????????.)  
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (65???,
+>>>>> Phrase
+65
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3843765:65+ [Finding]
+<<<<< Mappings
+
+Phrase: ??????????.
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.17: ??(?????????????????.)  
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (?????????????????.
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.18: ???(?? 
+
+Phrase: ???
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (??
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.19: ??? 
+
+Phrase: ???
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.20: ?????????????????.)  
+
+Phrase: ?????????????????.
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.21: ???????????(?????????):?????   
+
+Phrase: ???????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (?????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :?????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.22: ??????????. 
+
+Phrase: ??????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.23: ?? 
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.24: ????*??????????:  
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: *??????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.25: ???-???????140/90mmHg??.  
+
+Phrase: ???-???????140/90mmHg??.
+>>>>> Phrase
+140 90mmhg
+<<<<< Phrase
+Processing 00000000.tx.26: ???-????:??<130/80mmHg,?????????,  ?????HbA1C<7.0. 
+
+Phrase: ???-????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: <130/80mmHg,
+>>>>> Phrase
+130 80mmhg
+<<<<< Phrase
+
+Phrase: ?????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ?????HbA1C
+>>>>> Phrase
+hba1c
+<<<<< Phrase
+
+Phrase: <7.0.
+>>>>> Phrase
+7 0
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3842591:0% [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.27: ?????????<100mg/dl.  
+
+Phrase: ?????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: <100mg/dl.
+>>>>> Phrase
+100mg dl
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3642216:/dL (Per Deciliter) [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.28: ???-??????????????.  
+
+Phrase: ???-??????????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.29: ????-???????,?????????LDL-C>=100mg/dl,  ?????TC>=160mg/dl??????TG>=200mg/dl(???  
+
+Phrase: ????-???????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ?????????LDL-C
+>>>>> Phrase
+ldl c
+<<<<< Phrase
+
+Phrase: >
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: =100mg/dl,
+>>>>> Phrase
+100mg dl
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3642216:/dL (Per Deciliter) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ?????TC>
+>>>>> Phrase
+tc
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1824670:TC (CD55 gene) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: =160mg/dl??????TG>
+>>>>> Phrase
+160mg dl tg
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   660   C3642216:/dL (Per Deciliter) [Quantitative Concept]
+   827   C0337445:TG (Thyroglobulin measurement) [Laboratory Procedure]
+<<<<< Mappings
+
+Phrase: =200mg/dl(???
+>>>>> Phrase
+200mg dl
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3642216:/dL (Per Deciliter) [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.30: TC/HDL>5)??????????.  
+
+Phrase: TC/HDL
+>>>>> Phrase
+tc hdl
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1824670:TC (CD55 gene) [Gene or Genome]
+   861   C3715113:HDL (HSD11B1 wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: >5
+>>>>> Phrase
+5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: )??????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.31: ????-?????????,???????,??30??.  
+
+Phrase: ????-?????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ???????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ??30??.
+>>>>> Phrase
+30
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842588:30% [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.32: ??-??????,????????15?!????!  
+
+Phrase: ??-??????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ????????15?!????!
+>>>>> Phrase
+15
+<<<<< Phrase
+Processing 00000000.tx.33: ??-????,??????????,???????????  
+
+Phrase: ??-????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ??????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ???????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.34: ???.
+
+Phrase: ???.
+>>>>> Phrase
+<<<<< Phrase
+      
+Processing 00000000.tx.1: Subjective no more palpitation, ??????????, patient reported GU and DU hx in mid 2018.  
+
+Phrase: Subjective
+>>>>> Phrase
+subjective
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439655:Subjective (Subjective observation (qualifier value)) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: no more palpitation,
+>>>>> Phrase
+palpitation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0030252:PALPITATION (Palpitations) [Finding]
+<<<<< Mappings
+
+Phrase: ??????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: patient
+>>>>> Phrase
+patient
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0030705:*^patient (Patients) [Patient or Disabled Group]
+<<<<< Mappings
+
+Phrase: reported
+>>>>> Phrase
+reported
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0700287:Reported (Reporting) [Health Care Activity]
+<<<<< Mappings
+
+Phrase: GU
+>>>>> Phrase
+gu
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0120446:Gu (Guanidine) [Biologically Active Substance,Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: DU hx in mid 2018.
+>>>>> Phrase
+du hx in mid 2018
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (695):
+   593   C0011535:dU (Deoxyuridine) [Biologically Active Substance,Nucleic Acid, Nucleoside, or Nucleotide]
+   760 N C0262926:Hx (Medical History) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.2: Objective 2019-10-02 17:14 V/S:BT36.0C(?);HR 82?/?;RR 18?/?;NBP 114/ 80mmHg 2019-10-02 20:17 V/S:BT36.7C(?);HR 87?/?;RR 18?/?;NBP 120/ 79mmHg 2019-10-03 08:07 V/S:BT36.9C(?);HR 87?/?;RR 16?/?;NBP 114/ 86mmHg Consciousness: clear  EOM: free and full  left central facial palsy Muscle power:
+
+Phrase: Objective 2019-10-02 17
+>>>>> Phrase
+objective 2019 10 02 17
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (742):
+   804   C0018017:Objective (objective (goal)) [Intellectual Product]
+   804   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 14 V/S
+>>>>> Phrase
+14 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT36.0C
+>>>>> Phrase
+bt36 0c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 82?/?
+>>>>> Phrase
+hr 82
+<<<<< Phrase
+
+Phrase: ;RR 18?/?
+>>>>> Phrase
+rr 18
+<<<<< Phrase
+
+Phrase: ;NBP 114/ 80mmHg 2019-10-02 20
+>>>>> Phrase
+nbp 114 80mmhg 2019 10 02 20
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (718):
+   795   C3842590:10% [Quantitative Concept]
+   795   C3842589:20% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 17 V/S
+>>>>> Phrase
+17 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT36.7C
+>>>>> Phrase
+bt36 7c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 87?/?
+>>>>> Phrase
+hr 87
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C4517895:87 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ;RR 18?/?
+>>>>> Phrase
+rr 18
+<<<<< Phrase
+
+Phrase: ;NBP 120/ 79mmHg 2019-10-03 08
+>>>>> Phrase
+nbp 120 79mmhg 2019 10 03 08
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (795):
+   795   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 07 V/S
+>>>>> Phrase
+07 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT36.9C
+>>>>> Phrase
+bt36 9c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 87?/?
+>>>>> Phrase
+hr 87
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C4517895:87 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ;RR 16?/?
+>>>>> Phrase
+rr 16
+<<<<< Phrase
+
+Phrase: ;NBP 114/ 86mmHg Consciousness
+>>>>> Phrase
+nbp 114 86mmhg consciousness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (812):
+   812 N C0234421:Consciousness (Conscious) [Mental Process]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: clear  EOM
+>>>>> Phrase
+clear eom
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694 N C1709157:Clear (Negative Surgical Margin) [Finding]
+   861   C0241886:EOM (extraocular) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: free
+>>>>> Phrase
+free
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1996904:Free (Free (available (qualifier))) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: full  left central facial palsy Muscle power
+>>>>> Phrase
+full left central facial palsy muscle power
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (836):
+   629   C0443225:Full [Qualitative Concept]
+   863   C4543350:Left facial muscle (Structure of left facial muscle) [Body Part, Organ, or Organ Component]
+   629   C1879652:Central - (Central Minus) [Laboratory Procedure]
+   629   C0522224:Palsy (Paralysed) [Finding]
+   795   C0032863:POWER (Power (Psychology)) [Human-caused Phenomenon or Process]
+Meta Mapping (836):
+   629   C0443225:Full [Qualitative Concept]
+   629   C0205091:LEFT (Left) [Spatial Concept]
+   660   C0751141:Paralysis, Central Facial (Facial Palsy, Upper Motor Neuron) [Sign or Symptom]
+   818   C0427052:Muscle power (Finding of power of skeletal muscle) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.1: ?               
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: 5   5?4+  4+                ?/??/                    ?                  
+
+Phrase: 5   5?4+  4+                ?/??/                    ?
+>>>>> Phrase
+5 5 4 4
+<<<<< Phrase
+Processing 00000000.tx.3: /  ?               
+
+Phrase: /  ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: 5  ?  
+
+Phrase: 5  ?
+>>>>> Phrase
+5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.5: / 4+                  /  ? could walk by himself without support, no deviation
+
+Phrase: / 4+                  /  ?
+>>>>> Phrase
+4
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3838679:4+ (4+ Answer to question) [Finding]
+<<<<< Mappings
+
+Phrase: could
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: walk by himself
+>>>>> Phrase
+walk by himself
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   790   C0080331:Walk (Walking (activity)) [Daily or Recreational Activity]
+<<<<< Mappings
+
+Phrase: without support,
+>>>>> Phrase
+support
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0183683:Support, NOS (Support, device) [Medical Device]
+<<<<< Mappings
+
+Phrase: no deviation
+>>>>> Phrase
+deviation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C1705236:Deviation (Protocol Deviation) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.1: Problem 01 Acute large cerebral infarction at right middle cerebral artery territory; young stroke, with acute left limbs weakness,  status post intravenous thrombolytic therapy and endovascular thrombectomy (on 2019/9/25)  Assessment Stable neurological condition
+
+Phrase: Problem 01 Acute large cerebral infarction at right middle cerebral artery territory
+>>>>> Phrase
+problem 01 acute large cerebral infarction at right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (737):
+   570   C0033213:Problem [Finding]
+   570   C0205178:ACUTE (acute) [Temporal Concept]
+   570   C0549177:LARGE (Large) [Quantitative Concept]
+   570   C0444532:Right (Right sided) [Spatial Concept]
+   801   C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   570   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: ; young stroke,
+>>>>> Phrase
+young stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0332239:Young [Temporal Concept]
+   861   C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with acute left limbs weakness,
+>>>>> Phrase
+acute left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0205178:ACUTE (acute) [Temporal Concept]
+   645   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: status post intravenous thrombolytic therapy
+>>>>> Phrase
+intravenous thrombolytic therapy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   913   C0455142:Intravenous therapy [Therapeutic or Preventive Procedure]
+   827   C0520997:Thrombolytic (Thrombolysis, function) [Clinical Attribute]
+Meta Mapping (901):
+   660   C0348016:Intravenous [Spatial Concept]
+   901   C0040044:Thrombolytic Therapy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: endovascular thrombectomy
+>>>>> Phrase
+endovascular thrombectomy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0524425:Endovascular (inside the blood vessel) [Body Location or Region]
+   861   C0162578:Thrombectomy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/25
+>>>>> Phrase
+2019 9 25
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Assessment Stable neurological condition
+>>>>> Phrase
+assessment stable neurological condition
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C1516048:Assessment (Assessed) [Activity]
+   875   C0677946:Stable condition (Stable Disease) [Finding]
+   645   C0205494:NEUROLOGICAL (Neurologic (qualifier value)) [Qualitative Concept]
+Meta Mapping (861):
+   645   C1516048:Assessment (Assessed) [Activity]
+   645   C1547311:Stable (Patient Condition Code - Stable) [Intellectual Product]
+   861   C0027765:Neurological condition (nervous system disorder) [Disease or Syndrome]
+<<<<< Mappings
+Processing 00000000.tx.1: Plan ---Therapeutic plan Discharge today Add Gaster 20mg 1# BID PO Medications x 6 days Arrange OPD follow-up ??? 
+
+Phrase: Plan
+>>>>> Phrase
+plan
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1301732:Plan (Planned) [Functional Concept]
+<<<<< Mappings
+
+Phrase: ---
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Therapeutic plan Discharge today
+>>>>> Phrase
+therapeutic plan discharge today
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   645   C0087111:Therapeutic (Therapeutic procedure) [Therapeutic or Preventive Procedure]
+   645   C1301732:Plan (Planned) [Functional Concept]
+   645   C0030685:Discharge (Patient Discharge) [Health Care Activity]
+   812   C0310367:Today [Antibiotic,Organic Chemical]
+<<<<< Mappings
+
+Phrase: Add
+>>>>> Phrase
+add
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1883712:Add (Add - instruction imperative) [Functional Concept]
+<<<<< Mappings
+
+Phrase: Gaster 20mg 1# BID PO Medications x 6 days
+>>>>> Phrase
+gaster 20mg 1 bid po medications x 6 days
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (730):
+   624   C0038351:Gaster (Stomach) [Body Part, Organ, or Organ Component]
+   624   C0442027:PO (Oral) [Spatial Concept]
+   624   C0013227:Medications (Pharmaceutical Preparations) [Pharmacologic Substance]
+   791   C0439228:DAYS (day) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: Arrange
+>>>>> Phrase
+arrange
+<<<<< Phrase
+
+Phrase: OPD
+>>>>> Phrase
+opd
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3810599:OPD (FLNA wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: follow-up ???
+>>>>> Phrase
+follow up
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0589120:Follow-up (Follow-up status) [Finding]
+Meta Mapping (1000):
+  1000   C1522577:Followup (follow-up) [Health Care Activity]
+<<<<< Mappings
+Processing 00000000.tx.2: ---Educational plan 1.??????????,????????? 
+
+Phrase: ---
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Educational plan 1.??????????,
+>>>>> Phrase
+educational plan 1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (865):
+   865   C0920485:education plan (education planning) [Educational Activity]
+<<<<< Mappings
+
+Phrase: ?????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: 2.????????? 
+
+Phrase: 2.?????????
+>>>>> Phrase
+2
+<<<<< Phrase
+Processing 00000000.tx.4: 3.??????????,????????? 
+
+Phrase: 3.??????????,
+>>>>> Phrase
+3
+<<<<< Phrase
+
+Phrase: ?????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.5: 4.?????????????????? 
+
+Phrase: 4.??????????????????
+>>>>> Phrase
+4
+<<<<< Phrase
+Processing 00000000.tx.6: 5.???????,?????????,???????? 
+
+Phrase: 5.???????,
+>>>>> Phrase
+5
+<<<<< Phrase
+
+Phrase: ?????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.7: 6.??????:   
+
+Phrase: 6.??????
+>>>>> Phrase
+6
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.8: ????????.   
+
+Phrase: ????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.9: ??????,???????.   
+
+Phrase: ??????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ???????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.10: ???????????.   
+
+Phrase: ???????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.11: ??????,??????.   
+
+Phrase: ??????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ??????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.12: ?????????. 
+
+Phrase: ?????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.13: 7.????????,????????????????. 
+
+Phrase: 7.????????,
+>>>>> Phrase
+7
+<<<<< Phrase
+
+Phrase: ????????????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.14: 8.??????*???????????:  
+
+Phrase: 8.??????
+>>>>> Phrase
+8
+<<<<< Phrase
+
+Phrase: *???????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.15: ??(55???,???10?,?????.)  
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (55???,
+>>>>> Phrase
+55
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0450382:55 [Intellectual Product]
+<<<<< Mappings
+
+Phrase: ???10?,
+>>>>> Phrase
+10
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ?????.
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.16: ??(65???,??????????.)  
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (65???,
+>>>>> Phrase
+65
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3843765:65+ [Finding]
+<<<<< Mappings
+
+Phrase: ??????????.
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.17: ??(?????????????????.)  
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (?????????????????.
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.18: ???(?? 
+
+Phrase: ???
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (??
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.19: ??? 
+
+Phrase: ???
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.20: ?????????????????.)  
+
+Phrase: ?????????????????.
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.21: ???????????(?????????):?????   
+
+Phrase: ???????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (?????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :?????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.22: ??????????. 
+
+Phrase: ??????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.23: ?? 
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.24: ????*??????????:  
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: *??????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.25: ???-???????140/90mmHg??.  
+
+Phrase: ???-???????140/90mmHg??.
+>>>>> Phrase
+140 90mmhg
+<<<<< Phrase
+Processing 00000000.tx.26: ???-????:??<130/80mmHg,?????????,  ?????HbA1C<7.0. 
+
+Phrase: ???-????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: <130/80mmHg,
+>>>>> Phrase
+130 80mmhg
+<<<<< Phrase
+
+Phrase: ?????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ?????HbA1C
+>>>>> Phrase
+hba1c
+<<<<< Phrase
+
+Phrase: <7.0.
+>>>>> Phrase
+7 0
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3842591:0% [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.27: ?????????<100mg/dl.  
+
+Phrase: ?????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: <100mg/dl.
+>>>>> Phrase
+100mg dl
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3642216:/dL (Per Deciliter) [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.28: ???-??????????????.  
+
+Phrase: ???-??????????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.29: ????-???????,?????????LDL-C>=100mg/dl,  ?????TC>=160mg/dl??????TG>=200mg/dl(???  
+
+Phrase: ????-???????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ?????????LDL-C
+>>>>> Phrase
+ldl c
+<<<<< Phrase
+
+Phrase: >
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: =100mg/dl,
+>>>>> Phrase
+100mg dl
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3642216:/dL (Per Deciliter) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ?????TC>
+>>>>> Phrase
+tc
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1824670:TC (CD55 gene) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: =160mg/dl??????TG>
+>>>>> Phrase
+160mg dl tg
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   660   C3642216:/dL (Per Deciliter) [Quantitative Concept]
+   827   C0337445:TG (Thyroglobulin measurement) [Laboratory Procedure]
+<<<<< Mappings
+
+Phrase: =200mg/dl(???
+>>>>> Phrase
+200mg dl
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3642216:/dL (Per Deciliter) [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.30: TC/HDL>5)??????????.  
+
+Phrase: TC/HDL
+>>>>> Phrase
+tc hdl
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1824670:TC (CD55 gene) [Gene or Genome]
+   861   C3715113:HDL (HSD11B1 wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: >5
+>>>>> Phrase
+5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: )??????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.31: ????-?????????,???????,??30??.  
+
+Phrase: ????-?????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ???????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ??30??.
+>>>>> Phrase
+30
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842588:30% [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.32: ??-??????,????????15?!????!  
+
+Phrase: ??-??????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ????????15?!????!
+>>>>> Phrase
+15
+<<<<< Phrase
+Processing 00000000.tx.33: ??-????,??????????,???????????  
+
+Phrase: ??-????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ??????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ???????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.34: ???.
+
+Phrase: ???.
+>>>>> Phrase
+<<<<< Phrase
+      
+Processing 00000000.tx.1: Subjective no more palpitation, ??????????, patient reported GU and DU hx in mid 2018.  
+
+Phrase: Subjective
+>>>>> Phrase
+subjective
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439655:Subjective (Subjective observation (qualifier value)) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: no more palpitation,
+>>>>> Phrase
+palpitation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0030252:PALPITATION (Palpitations) [Finding]
+<<<<< Mappings
+
+Phrase: ??????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: patient
+>>>>> Phrase
+patient
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0030705:*^patient (Patients) [Patient or Disabled Group]
+<<<<< Mappings
+
+Phrase: reported
+>>>>> Phrase
+reported
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0700287:Reported (Reporting) [Health Care Activity]
+<<<<< Mappings
+
+Phrase: GU
+>>>>> Phrase
+gu
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0120446:Gu (Guanidine) [Biologically Active Substance,Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: DU hx in mid 2018.
+>>>>> Phrase
+du hx in mid 2018
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (695):
+   593   C0011535:dU (Deoxyuridine) [Biologically Active Substance,Nucleic Acid, Nucleoside, or Nucleotide]
+   760 N C0262926:Hx (Medical History) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.2: Objective 2019-10-02 17:14 V/S:BT36.0C(?);HR 82?/?;RR 18?/?;NBP 114/ 80mmHg 2019-10-02 20:17 V/S:BT36.7C(?);HR 87?/?;RR 18?/?;NBP 120/ 79mmHg 2019-10-03 08:07 V/S:BT36.9C(?);HR 87?/?;RR 16?/?;NBP 114/ 86mmHg Consciousness: clear  EOM: free and full  left central facial palsy Muscle power:
+
+Phrase: Objective 2019-10-02 17
+>>>>> Phrase
+objective 2019 10 02 17
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (742):
+   804   C0018017:Objective (objective (goal)) [Intellectual Product]
+   804   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 14 V/S
+>>>>> Phrase
+14 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT36.0C
+>>>>> Phrase
+bt36 0c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 82?/?
+>>>>> Phrase
+hr 82
+<<<<< Phrase
+
+Phrase: ;RR 18?/?
+>>>>> Phrase
+rr 18
+<<<<< Phrase
+
+Phrase: ;NBP 114/ 80mmHg 2019-10-02 20
+>>>>> Phrase
+nbp 114 80mmhg 2019 10 02 20
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (718):
+   795   C3842590:10% [Quantitative Concept]
+   795   C3842589:20% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 17 V/S
+>>>>> Phrase
+17 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT36.7C
+>>>>> Phrase
+bt36 7c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 87?/?
+>>>>> Phrase
+hr 87
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C4517895:87 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ;RR 18?/?
+>>>>> Phrase
+rr 18
+<<<<< Phrase
+
+Phrase: ;NBP 120/ 79mmHg 2019-10-03 08
+>>>>> Phrase
+nbp 120 79mmhg 2019 10 03 08
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (795):
+   795   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 07 V/S
+>>>>> Phrase
+07 v s
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C3642225:V/s (Volt Per Second) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BT36.9C
+>>>>> Phrase
+bt36 9c
+<<<<< Phrase
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ;HR 87?/?
+>>>>> Phrase
+hr 87
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C4517895:87 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ;RR 16?/?
+>>>>> Phrase
+rr 16
+<<<<< Phrase
+
+Phrase: ;NBP 114/ 86mmHg Consciousness
+>>>>> Phrase
+nbp 114 86mmhg consciousness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (812):
+   812 N C0234421:Consciousness (Conscious) [Mental Process]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: clear  EOM
+>>>>> Phrase
+clear eom
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694 N C1709157:Clear (Negative Surgical Margin) [Finding]
+   861   C0241886:EOM (extraocular) [Functional Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: free
+>>>>> Phrase
+free
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1996904:Free (Free (available (qualifier))) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: full  left central facial palsy Muscle power
+>>>>> Phrase
+full left central facial palsy muscle power
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (836):
+   629   C0443225:Full [Qualitative Concept]
+   863   C4543350:Left facial muscle (Structure of left facial muscle) [Body Part, Organ, or Organ Component]
+   629   C1879652:Central - (Central Minus) [Laboratory Procedure]
+   629   C0522224:Palsy (Paralysed) [Finding]
+   795   C0032863:POWER (Power (Psychology)) [Human-caused Phenomenon or Process]
+Meta Mapping (836):
+   629   C0443225:Full [Qualitative Concept]
+   629   C0205091:LEFT (Left) [Spatial Concept]
+   660   C0751141:Paralysis, Central Facial (Facial Palsy, Upper Motor Neuron) [Sign or Symptom]
+   818   C0427052:Muscle power (Finding of power of skeletal muscle) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.1: ?               
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: 5   5?4+  4+                ?/??/                    ?                  
+
+Phrase: 5   5?4+  4+                ?/??/                    ?
+>>>>> Phrase
+5 5 4 4
+<<<<< Phrase
+Processing 00000000.tx.3: /  ?               
+
+Phrase: /  ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: 5  ?  
+
+Phrase: 5  ?
+>>>>> Phrase
+5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.5: / 4+                  /  ? could walk by himself without support, no deviation
+
+Phrase: / 4+                  /  ?
+>>>>> Phrase
+4
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3838679:4+ (4+ Answer to question) [Finding]
+<<<<< Mappings
+
+Phrase: could
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: walk by himself
+>>>>> Phrase
+walk by himself
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   790   C0080331:Walk (Walking (activity)) [Daily or Recreational Activity]
+<<<<< Mappings
+
+Phrase: without support,
+>>>>> Phrase
+support
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0183683:Support, NOS (Support, device) [Medical Device]
+<<<<< Mappings
+
+Phrase: no deviation
+>>>>> Phrase
+deviation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C1705236:Deviation (Protocol Deviation) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.1: Problem 01 Acute large cerebral infarction at right middle cerebral artery territory; young stroke, with acute left limbs weakness,  status post intravenous thrombolytic therapy and endovascular thrombectomy (on 2019/9/25)  Assessment Stable neurological condition
+
+Phrase: Problem 01 Acute large cerebral infarction at right middle cerebral artery territory
+>>>>> Phrase
+problem 01 acute large cerebral infarction at right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (737):
+   570   C0033213:Problem [Finding]
+   570   C0205178:ACUTE (acute) [Temporal Concept]
+   570   C0549177:LARGE (Large) [Quantitative Concept]
+   570   C0444532:Right (Right sided) [Spatial Concept]
+   801   C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   570   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: ; young stroke,
+>>>>> Phrase
+young stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0332239:Young [Temporal Concept]
+   861   C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with acute left limbs weakness,
+>>>>> Phrase
+acute left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0205178:ACUTE (acute) [Temporal Concept]
+   645   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: status post intravenous thrombolytic therapy
+>>>>> Phrase
+intravenous thrombolytic therapy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   913   C0455142:Intravenous therapy [Therapeutic or Preventive Procedure]
+   827   C0520997:Thrombolytic (Thrombolysis, function) [Clinical Attribute]
+Meta Mapping (901):
+   660   C0348016:Intravenous [Spatial Concept]
+   901   C0040044:Thrombolytic Therapy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: endovascular thrombectomy
+>>>>> Phrase
+endovascular thrombectomy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0524425:Endovascular (inside the blood vessel) [Body Location or Region]
+   861   C0162578:Thrombectomy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/25
+>>>>> Phrase
+2019 9 25
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Assessment Stable neurological condition
+>>>>> Phrase
+assessment stable neurological condition
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C1516048:Assessment (Assessed) [Activity]
+   875   C0677946:Stable condition (Stable Disease) [Finding]
+   645   C0205494:NEUROLOGICAL (Neurologic (qualifier value)) [Qualitative Concept]
+Meta Mapping (861):
+   645   C1516048:Assessment (Assessed) [Activity]
+   645   C1547311:Stable (Patient Condition Code - Stable) [Intellectual Product]
+   861   C0027765:Neurological condition (nervous system disorder) [Disease or Syndrome]
+<<<<< Mappings
+Processing 00000000.tx.1: Plan ---Therapeutic plan Discharge today Add Gaster 20mg 1# BID PO Medications x 6 days Arrange OPD follow-up ??? 
+
+Phrase: Plan
+>>>>> Phrase
+plan
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1301732:Plan (Planned) [Functional Concept]
+<<<<< Mappings
+
+Phrase: ---
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Therapeutic plan Discharge today
+>>>>> Phrase
+therapeutic plan discharge today
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (833):
+   645   C0087111:Therapeutic (Therapeutic procedure) [Therapeutic or Preventive Procedure]
+   645   C1301732:Plan (Planned) [Functional Concept]
+   645   C0030685:Discharge (Patient Discharge) [Health Care Activity]
+   812   C0310367:Today [Antibiotic,Organic Chemical]
+<<<<< Mappings
+
+Phrase: Add
+>>>>> Phrase
+add
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1883712:Add (Add - instruction imperative) [Functional Concept]
+<<<<< Mappings
+
+Phrase: Gaster 20mg 1# BID PO Medications x 6 days
+>>>>> Phrase
+gaster 20mg 1 bid po medications x 6 days
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (730):
+   624   C0038351:Gaster (Stomach) [Body Part, Organ, or Organ Component]
+   624   C0442027:PO (Oral) [Spatial Concept]
+   624   C0013227:Medications (Pharmaceutical Preparations) [Pharmacologic Substance]
+   791   C0439228:DAYS (day) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: Arrange
+>>>>> Phrase
+arrange
+<<<<< Phrase
+
+Phrase: OPD
+>>>>> Phrase
+opd
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3810599:OPD (FLNA wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: follow-up ???
+>>>>> Phrase
+follow up
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0589120:Follow-up (Follow-up status) [Finding]
+Meta Mapping (1000):
+  1000   C1522577:Followup (follow-up) [Health Care Activity]
+<<<<< Mappings
+Processing 00000000.tx.2: ---Educational plan 1.??????????,????????? 
+
+Phrase: ---
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Educational plan 1.??????????,
+>>>>> Phrase
+educational plan 1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (865):
+   865   C0920485:education plan (education planning) [Educational Activity]
+<<<<< Mappings
+
+Phrase: ?????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: 2.????????? 
+
+Phrase: 2.?????????
+>>>>> Phrase
+2
+<<<<< Phrase
+Processing 00000000.tx.4: 3.??????????,????????? 
+
+Phrase: 3.??????????,
+>>>>> Phrase
+3
+<<<<< Phrase
+
+Phrase: ?????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.5: 4.?????????????????? 
+
+Phrase: 4.??????????????????
+>>>>> Phrase
+4
+<<<<< Phrase
+Processing 00000000.tx.6: 5.???????,?????????,???????? 
+
+Phrase: 5.???????,
+>>>>> Phrase
+5
+<<<<< Phrase
+
+Phrase: ?????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.7: 6.??????:   
+
+Phrase: 6.??????
+>>>>> Phrase
+6
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.8: ????????.   
+
+Phrase: ????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.9: ??????,???????.   
+
+Phrase: ??????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ???????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.10: ???????????.   
+
+Phrase: ???????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.11: ??????,??????.   
+
+Phrase: ??????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ??????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.12: ?????????. 
+
+Phrase: ?????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.13: 7.????????,????????????????. 
+
+Phrase: 7.????????,
+>>>>> Phrase
+7
+<<<<< Phrase
+
+Phrase: ????????????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.14: 8.??????*???????????:  
+
+Phrase: 8.??????
+>>>>> Phrase
+8
+<<<<< Phrase
+
+Phrase: *???????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.15: ??(55???,???10?,?????.)  
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (55???,
+>>>>> Phrase
+55
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0450382:55 [Intellectual Product]
+<<<<< Mappings
+
+Phrase: ???10?,
+>>>>> Phrase
+10
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ?????.
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.16: ??(65???,??????????.)  
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (65???,
+>>>>> Phrase
+65
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3843765:65+ [Finding]
+<<<<< Mappings
+
+Phrase: ??????????.
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.17: ??(?????????????????.)  
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (?????????????????.
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.18: ???(?? 
+
+Phrase: ???
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (??
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.19: ??? 
+
+Phrase: ???
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.20: ?????????????????.)  
+
+Phrase: ?????????????????.
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.21: ???????????(?????????):?????   
+
+Phrase: ???????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: (?????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :?????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.22: ??????????. 
+
+Phrase: ??????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.23: ?? 
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.24: ????*??????????:  
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: *??????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.25: ???-???????140/90mmHg??.  
+
+Phrase: ???-???????140/90mmHg??.
+>>>>> Phrase
+140 90mmhg
+<<<<< Phrase
+Processing 00000000.tx.26: ???-????:??<130/80mmHg,?????????,  ?????HbA1C<7.0. 
+
+Phrase: ???-????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: <130/80mmHg,
+>>>>> Phrase
+130 80mmhg
+<<<<< Phrase
+
+Phrase: ?????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ?????HbA1C
+>>>>> Phrase
+hba1c
+<<<<< Phrase
+
+Phrase: <7.0.
+>>>>> Phrase
+7 0
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3842591:0% [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.27: ?????????<100mg/dl.  
+
+Phrase: ?????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: <100mg/dl.
+>>>>> Phrase
+100mg dl
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3642216:/dL (Per Deciliter) [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.28: ???-??????????????.  
+
+Phrase: ???-??????????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.29: ????-???????,?????????LDL-C>=100mg/dl,  ?????TC>=160mg/dl??????TG>=200mg/dl(???  
+
+Phrase: ????-???????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ?????????LDL-C
+>>>>> Phrase
+ldl c
+<<<<< Phrase
+
+Phrase: >
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: =100mg/dl,
+>>>>> Phrase
+100mg dl
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3642216:/dL (Per Deciliter) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: ?????TC>
+>>>>> Phrase
+tc
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1824670:TC (CD55 gene) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: =160mg/dl??????TG>
+>>>>> Phrase
+160mg dl tg
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   660   C3642216:/dL (Per Deciliter) [Quantitative Concept]
+   827   C0337445:TG (Thyroglobulin measurement) [Laboratory Procedure]
+<<<<< Mappings
+
+Phrase: =200mg/dl(???
+>>>>> Phrase
+200mg dl
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3642216:/dL (Per Deciliter) [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.30: TC/HDL>5)??????????.  
+
+Phrase: TC/HDL
+>>>>> Phrase
+tc hdl
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1824670:TC (CD55 gene) [Gene or Genome]
+   861   C3715113:HDL (HSD11B1 wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: >5
+>>>>> Phrase
+5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: )??????????.
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.31: ????-?????????,???????,??30??.  
+
+Phrase: ????-?????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ???????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ??30??.
+>>>>> Phrase
+30
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842588:30% [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.32: ??-??????,????????15?!????!  
+
+Phrase: ??-??????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ????????15?!????!
+>>>>> Phrase
+15
+<<<<< Phrase
+Processing 00000000.tx.33: ??-????,??????????,???????????  
+
+Phrase: ??-????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ??????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ???????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.34: ???.
+
+Phrase: ???.
+>>>>> Phrase
+<<<<< Phrase
+      

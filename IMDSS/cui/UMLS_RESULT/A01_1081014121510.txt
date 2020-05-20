@@ -1,0 +1,698 @@
+Processing 00000000.tx.1: ????:434 ????
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 434 ????
+>>>>> Phrase
+434
+<<<<< Phrase
+Processing 00000000.tx.1: ??/??:  
+
+Phrase: ??/??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: #.2019-10-14 mRS:0 CC:stroke stable
+
+Phrase: #.2019-10-14 mRS:0 CC
+>>>>> Phrase
+2019 10 14 mrs 0 cc
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (787):
+   660   C3840694:10-14 [Finding]
+   632   C1522706:MRS (magnetic resonance spectroscopic imaging) [Diagnostic Procedure]
+   632   C3842591:0% [Quantitative Concept]
+   799   C3538933:CC (C-Circle) [Cell Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: stroke
+>>>>> Phrase
+stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: stable
+>>>>> Phrase
+stable
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1547311:Stable (Patient Condition Code - Stable) [Intellectual Product]
+<<<<< Mappings
+Processing 00000000.tx.1: PI:   the patient had stroke with right MCA infarct post rt-tpa and EVT, muscle power recovery to near normal; 2019-10-4 EKG atrial fibrillation, frequent sneeze, condition stable
+
+Phrase: PI
+>>>>> Phrase
+pi
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0429863:PI (Pulsatility index, arterial velocity waveform) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: the patient
+>>>>> Phrase
+patient
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0030705:*^patient (Patients) [Patient or Disabled Group]
+<<<<< Mappings
+
+Phrase: had
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: stroke with right MCA infarct post rt-tpa
+>>>>> Phrase
+stroke with right mca infarct post rt tpa
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (751):
+   744   C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+   767   C0751849:Right MCA Infarction (Right Middle Cerebral Artery Infarction) [Disease or Syndrome]
+   744   C0687676:Post [Temporal Concept]
+   744   C0230425:RT (Structure of right thigh) [Body Part, Organ, or Organ Component]
+   744   C0032143:T-PA (alteplase) [Amino Acid, Peptide, or Protein,Enzyme,Pharmacologic Substance]
+Meta Mapping (751):
+   744   C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+   744   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+   744   C0021308:INFARCT (Infarction) [Pathologic Function]
+   744   C0687676:Post [Temporal Concept]
+   767   C0205090:Rt - Right (Right) [Spatial Concept]
+   744   C0032143:T-PA (alteplase) [Amino Acid, Peptide, or Protein,Enzyme,Pharmacologic Substance]
+Meta Mapping (751):
+   744   C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+   744   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+   744   C0021308:INFARCT (Infarction) [Pathologic Function]
+   744   C0687676:Post [Temporal Concept]
+   767   C2951108:Right RT (Right rostrotemporal auditory area) [Body Location or Region]
+   744   C0032143:T-PA (alteplase) [Amino Acid, Peptide, or Protein,Enzyme,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: EVT,
+>>>>> Phrase
+evt
+<<<<< Phrase
+
+Phrase: muscle power recovery to near normal
+>>>>> Phrase
+muscle power recovery to near normal
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (780):
+   753   C1555688:recovery (recovery - adjustment) [Quantitative Concept]
+   654   C0427078:Normal muscle power (Movement against resistance) [Finding]
+<<<<< Mappings
+
+Phrase: ; 2019-10-4 EKG atrial fibrillation,
+>>>>> Phrase
+2019 10 4 ekg atrial fibrillation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (805):
+   660   C4525847:/10^4 (Per Ten Thousand) [Quantitative Concept]
+   632   C1623258:EKG (Electrocardiography) [Diagnostic Procedure]
+   827   C1963067:Atrial fibrillation (Atrial Fibrillation Adverse Event) [Finding]
+<<<<< Mappings
+
+Phrase: frequent sneeze,
+>>>>> Phrase
+frequent sneeze
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0332183:Frequent (Frequently) [Temporal Concept]
+   861   C0037383:SNEEZE (Sneezing) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: condition
+>>>>> Phrase
+condition
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1705253:Condition (Logical Condition) [Conceptual Entity]
+<<<<< Mappings
+
+Phrase: stable
+>>>>> Phrase
+stable
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1547311:Stable (Patient Condition Code - Stable) [Intellectual Product]
+<<<<< Mappings
+Processing 00000000.tx.1: PH: DM(- ),  HTN (- ) atrial fibrillation (+)    deny other major systemic disease FH: Occupation: PE and NE:  BP:115/82 P:75  HEENT: normal  conj: not pale, anicertic  chest:symmetric expansion    respiraiton smooth  ext: no edema, no cyanosis     free movable  cons clear  E4V5M6; pupil: isocoric  EOM no limitation  No facial palsy  hearing OK, no nystagums  tongue: no deviation  no dysarthria, nor dysphagia  MT:normotonus  MP:right UE 5/5    right LE 5/5     left UE  5/5    left LE  5/5   walking OK #.deny drug allergy history A: stroke stable    atrial fibrillation    sneeze
+
+Phrase: PH
+>>>>> Phrase
+ph
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0450407:ph+ [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: DM(-
+>>>>> Phrase
+dm
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0011816:DM (Dextromethorphan) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: HTN (-
+>>>>> Phrase
+htn
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0020538:HTN (Hypertensive disease) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: atrial fibrillation
+>>>>> Phrase
+atrial fibrillation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1963067:Atrial fibrillation (Atrial Fibrillation Adverse Event) [Finding]
+<<<<< Mappings
+
+Phrase: (+
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: deny
+>>>>> Phrase
+deny
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2700401:Deny (Deny (action)) [Activity]
+<<<<< Mappings
+
+Phrase: other major systemic disease FH
+>>>>> Phrase
+major systemic disease fh
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (658):
+   645   C0205164:Major [Qualitative Concept]
+   694 N C0442893:Systemic Disease (Systemic disease) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Occupation
+>>>>> Phrase
+occupation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0028811:OCCUPATION (Occupations) [Occupation or Discipline]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: PE
+>>>>> Phrase
+pe
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0070939:PE (phosphoethanolamine) [Biologically Active Substance,Organic Chemical]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: NE
+>>>>> Phrase
+ne
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0027608:Ne (Neon) [Element, Ion, or Isotope]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BP
+>>>>> Phrase
+bp
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1415692:Bp (HP gene) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 115/82 P:75  HEENT
+>>>>> Phrase
+115 82 p 75 heent
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (728):
+   637   C4319621:75 [Quantitative Concept]
+   804   C1512338:HEENT [Body Location or Region]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: normal  conj
+>>>>> Phrase
+normal conj
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C0205307:NORMAL (Normal) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: not pale, anicertic  chest
+>>>>> Phrase
+not pale anicertic chest
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (775):
+   645   C1518422:Not (Negation) [Functional Concept]
+   645   C0554991:Pale (Pale color) [Qualitative Concept]
+   812   C1527391:Chest (Anterior thoracic region) [Body Location or Region]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: symmetric expansion    respiraiton smooth  ext
+>>>>> Phrase
+symmetric expansion respiraiton smooth ext
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (597):
+   637   C2699744:Symmetric (Symmetric Relationship) [Conceptual Entity]
+   637   C0205357:Smooth [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no edema,
+>>>>> Phrase
+edema
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0013604:OEDEMA (Edema) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: no cyanosis     free movable  cons
+>>>>> Phrase
+cyanosis free movable cons
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (608):
+   645 N C0010520:CYANOSIS (Cyanosis) [Sign or Symptom]
+   645   C1996904:Free (Free (available (qualifier))) [Qualitative Concept]
+   645   C0577537:Moveable [Functional Concept]
+<<<<< Mappings
+
+Phrase: clear
+>>>>> Phrase
+clear
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C1709157:Clear (Negative Surgical Margin) [Finding]
+<<<<< Mappings
+
+Phrase: E4V5M6
+>>>>> Phrase
+e4v5m6
+<<<<< Phrase
+
+Phrase: ; pupil
+>>>>> Phrase
+pupil
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0034121:PUPIL (Pupil) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: isocoric  EOM
+>>>>> Phrase
+isocoric eom
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0241886:EOM (extraocular) [Functional Concept]
+<<<<< Mappings
+
+Phrase: no limitation
+>>>>> Phrase
+limitation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0449295:Limitation [Functional Concept]
+<<<<< Mappings
+
+Phrase: No facial palsy  hearing OK,
+>>>>> Phrase
+facial palsy hearing ok
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (658):
+   694 N C0015469:Facial Palsy (Facial paralysis) [Disease or Syndrome]
+   645 N C0018767:Hearing [Physiologic Function]
+<<<<< Mappings
+
+Phrase: no nystagums  tongue
+>>>>> Phrase
+nystagums tongue
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0040408:TONGUE (Tongue) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no deviation
+>>>>> Phrase
+deviation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0012727:Deviation (Spatial Displacement) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: no dysarthria,
+>>>>> Phrase
+dysarthria
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0013362:DYSARTHRIA (Dysarthria) [Mental or Behavioral Dysfunction]
+<<<<< Mappings
+
+Phrase: nor
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: dysphagia  MT
+>>>>> Phrase
+dysphagia mt
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694 N C0011168:DYSPHAGIA (Deglutition Disorders) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: normotonus  MP
+>>>>> Phrase
+normotonus mp
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0024944:MP (Mauritius) [Geographic Area]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: right UE 5/5    right LE 5/5     left UE  5/5    left LE  5/5   walking OK #.
+>>>>> Phrase
+right ue 5 5 right le 5 5 left ue 5 5 left le 5 5 walking ok
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (550):
+   617   C0444532:Right (Right sided) [Spatial Concept]
+   617   C1423767:LE (HPS4 gene) [Gene or Genome]
+   617   C0205091:LEFT (Left) [Spatial Concept]
+   617   C0080331:Walking (Walking (activity)) [Daily or Recreational Activity]
+<<<<< Mappings
+
+Phrase: deny
+>>>>> Phrase
+deny
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2700401:Deny (Deny (action)) [Activity]
+<<<<< Mappings
+
+Phrase: drug allergy history A
+>>>>> Phrase
+drug allergy history a
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (756):
+   756   C1548333:Drug allergy history (Drug Allergy Allergen) [Immunologic Factor]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: stroke
+>>>>> Phrase
+stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: stable    atrial fibrillation    sneeze
+>>>>> Phrase
+stable atrial fibrillation sneeze
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C1547311:Stable (Patient Condition Code - Stable) [Intellectual Product]
+   694 N C1963067:Atrial fibrillation (Atrial Fibrillation Adverse Event) [Finding]
+   812 N C0037383:SNEEZE (Sneezing) [Sign or Symptom]
+<<<<< Mappings
+Processing 00000000.tx.1: P: oral medications
+
+Phrase: P
+>>>>> Phrase
+p
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2603361:P' (P prime) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: oral medications
+>>>>> Phrase
+oral medications
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0304289:Oral Medications (Oral drug preparation, NOS) [Pharmacologic Substance]
+<<<<< Mappings
+Processing 00000000.tx.1: ??:  
+
+Phrase: ??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: ?I6340 (434.11 ) Cerebral infarction due to embolism of unspecified cerebral artery  ?I4891 (427.31 ) Unspecified atrial fibrillation  ?K319 (536.9 ) Disease of stomach and duodenum, unspecified  ?J309 (477.9 ) Allergic rhinitis, unspecified
+
+Phrase: ?I6340
+>>>>> Phrase
+i6340
+<<<<< Phrase
+
+Phrase: (434.11
+>>>>> Phrase
+434 11
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Cerebral infarction due to embolism of unspecified cerebral artery  ?I4891
+>>>>> Phrase
+cerebral infarction due to embolism of unspecified cerebral artery i4891
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (962):
+   962   C2882380:Cerebral infarction due to embolism of unspecified cerebral artery [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: (427.31
+>>>>> Phrase
+427 31
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0450355:31 [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Unspecified atrial fibrillation  ?K319
+>>>>> Phrase
+unspecified atrial fibrillation k319
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (756):
+   756   C3264374:Unspecified atrial fibrillation [Pathologic Function]
+<<<<< Mappings
+
+Phrase: (536.9
+>>>>> Phrase
+536 9
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Disease of stomach
+>>>>> Phrase
+disease of stomach
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0038354:Disease of stomach (Stomach Diseases) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: duodenum,
+>>>>> Phrase
+duodenum
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0013303:DUODENUM (Duodenum) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: unspecified  ?J309
+>>>>> Phrase
+unspecified j309
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C1549663:Unspecified (Unspecified - Name type) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: (477.9
+>>>>> Phrase
+477 9
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Allergic rhinitis,
+>>>>> Phrase
+allergic rhinitis
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2607914:ALLERGIC RHINITIS (Allergic rhinitis (disorder)) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: unspecified
+>>>>> Phrase
+unspecified
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1549663:Unspecified (Unspecified - Name type) [Idea or Concept]
+<<<<< Mappings
+      

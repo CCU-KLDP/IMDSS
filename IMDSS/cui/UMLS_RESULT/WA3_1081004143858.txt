@@ -1,0 +1,800 @@
+Processing 00000000.tx.1: NO. 
+
+Phrase: NO.
+>>>>> Phrase
+no
+<<<<< Phrase
+Processing 00000000.tx.2: MEDICAL PROBLEM DATE OF ONSET DATE RESOLVED   1   Acute large cerebral infarction at right middle cerebral artery territory; young stroke, with acute left limbs weakness,  status post intravenous thrombolytic therapy and endovascular thrombectomy (on 2019/9/25) 2019-09-25 2019-10-03(??)   
+
+Phrase: MEDICAL PROBLEM DATE OF ONSET DATE
+>>>>> Phrase
+medical problem date of onset date
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (664):
+   623   C1715372:Medical problem (Medical problem:Finding:Point in time:^Patient:Nominal) [Clinical Attribute]
+   666   C0574845:Date of onset [Finding]
+<<<<< Mappings
+
+Phrase: RESOLVED
+>>>>> Phrase
+resolved
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2699488:Resolved (Resolution) [Conceptual Entity]
+<<<<< Mappings
+
+Phrase: 1   Acute large cerebral infarction at right middle cerebral artery territory
+>>>>> Phrase
+1 acute large cerebral infarction at right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (764):
+   571   C2981698:1+ (1+ Score, WHO) [Classification]
+   571   C0205178:ACUTE (acute) [Temporal Concept]
+   571   C0549177:LARGE (Large) [Quantitative Concept]
+   571   C0444532:Right (Right sided) [Spatial Concept]
+   809 N C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   571   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: ; young stroke,
+>>>>> Phrase
+young stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0332239:Young [Temporal Concept]
+   861   C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with acute left limbs weakness,
+>>>>> Phrase
+acute left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0205178:ACUTE (acute) [Temporal Concept]
+   645   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: status post intravenous thrombolytic therapy
+>>>>> Phrase
+intravenous thrombolytic therapy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   913   C0455142:Intravenous therapy [Therapeutic or Preventive Procedure]
+   827   C0520997:Thrombolytic (Thrombolysis, function) [Clinical Attribute]
+Meta Mapping (901):
+   660   C0348016:Intravenous [Spatial Concept]
+   901   C0040044:Thrombolytic Therapy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: endovascular thrombectomy
+>>>>> Phrase
+endovascular thrombectomy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0524425:Endovascular (inside the blood vessel) [Body Location or Region]
+   861   C0162578:Thrombectomy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/25
+>>>>> Phrase
+2019 9 25
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 2019-09-25 2019-10-03
+>>>>> Phrase
+2019 09 25 2019 10 03
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (799):
+   799   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: (??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: 2   Fever 2019-09-27 2019-10-03(??)   
+
+Phrase: 2   Fever 2019-09-27 2019-10-03
+>>>>> Phrase
+2 fever 2019 09 27 2019 10 03
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (718):
+   793   C2981700:2+ (2+ Score, WHO) [Classification]
+   793   C0424755:Fever (Fever symptoms (finding)) [Finding]
+   793   C4319602:27 [Quantitative Concept]
+   793   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: (??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: 3   Af 2019-10-02 2019-10-03(??)
+
+Phrase: 3   Af 2019-10-02 2019-10-03
+>>>>> Phrase
+3 af 2019 10 02 2019 10 03
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (693):
+   793   C0439086:<3 (<3 (qualifier value)) [Quantitative Concept]
+   793   C0344434:AF (Atrial Fibrillation by ECG Finding) [Laboratory or Test Result]
+   793   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: (??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+      
+Processing 00000000.tx.1: NO. 
+
+Phrase: NO.
+>>>>> Phrase
+no
+<<<<< Phrase
+Processing 00000000.tx.2: MEDICAL PROBLEM DATE OF ONSET DATE RESOLVED   1   Acute large cerebral infarction at right middle cerebral artery territory; young stroke, with acute left limbs weakness,  status post intravenous thrombolytic therapy and endovascular thrombectomy (on 2019/9/25) 2019-09-25 2019-10-03(??)   
+
+Phrase: MEDICAL PROBLEM DATE OF ONSET DATE
+>>>>> Phrase
+medical problem date of onset date
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (664):
+   623   C1715372:Medical problem (Medical problem:Finding:Point in time:^Patient:Nominal) [Clinical Attribute]
+   666   C0574845:Date of onset [Finding]
+<<<<< Mappings
+
+Phrase: RESOLVED
+>>>>> Phrase
+resolved
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2699488:Resolved (Resolution) [Conceptual Entity]
+<<<<< Mappings
+
+Phrase: 1   Acute large cerebral infarction at right middle cerebral artery territory
+>>>>> Phrase
+1 acute large cerebral infarction at right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (764):
+   571   C2981698:1+ (1+ Score, WHO) [Classification]
+   571   C0205178:ACUTE (acute) [Temporal Concept]
+   571   C0549177:LARGE (Large) [Quantitative Concept]
+   571   C0444532:Right (Right sided) [Spatial Concept]
+   809 N C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   571   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: ; young stroke,
+>>>>> Phrase
+young stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0332239:Young [Temporal Concept]
+   861   C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with acute left limbs weakness,
+>>>>> Phrase
+acute left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0205178:ACUTE (acute) [Temporal Concept]
+   645   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: status post intravenous thrombolytic therapy
+>>>>> Phrase
+intravenous thrombolytic therapy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   913   C0455142:Intravenous therapy [Therapeutic or Preventive Procedure]
+   827   C0520997:Thrombolytic (Thrombolysis, function) [Clinical Attribute]
+Meta Mapping (901):
+   660   C0348016:Intravenous [Spatial Concept]
+   901   C0040044:Thrombolytic Therapy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: endovascular thrombectomy
+>>>>> Phrase
+endovascular thrombectomy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0524425:Endovascular (inside the blood vessel) [Body Location or Region]
+   861   C0162578:Thrombectomy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/25
+>>>>> Phrase
+2019 9 25
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 2019-09-25 2019-10-03
+>>>>> Phrase
+2019 09 25 2019 10 03
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (799):
+   799   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: (??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: 2   Fever 2019-09-27 2019-10-03(??)   
+
+Phrase: 2   Fever 2019-09-27 2019-10-03
+>>>>> Phrase
+2 fever 2019 09 27 2019 10 03
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (718):
+   793   C2981700:2+ (2+ Score, WHO) [Classification]
+   793   C0424755:Fever (Fever symptoms (finding)) [Finding]
+   793   C4319602:27 [Quantitative Concept]
+   793   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: (??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: 3   Af 2019-10-02 2019-10-03(??)
+
+Phrase: 3   Af 2019-10-02 2019-10-03
+>>>>> Phrase
+3 af 2019 10 02 2019 10 03
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (693):
+   793   C0439086:<3 (<3 (qualifier value)) [Quantitative Concept]
+   793   C0344434:AF (Atrial Fibrillation by ECG Finding) [Laboratory or Test Result]
+   793   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: (??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+      
+Processing 00000000.tx.1: NO. 
+
+Phrase: NO.
+>>>>> Phrase
+no
+<<<<< Phrase
+Processing 00000000.tx.2: MEDICAL PROBLEM DATE OF ONSET DATE RESOLVED   1   Acute large cerebral infarction at right middle cerebral artery territory; young stroke, with acute left limbs weakness,  status post intravenous thrombolytic therapy and endovascular thrombectomy (on 2019/9/25) 2019-09-25 2019-10-03(??)   
+
+Phrase: MEDICAL PROBLEM DATE OF ONSET DATE
+>>>>> Phrase
+medical problem date of onset date
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (664):
+   623   C1715372:Medical problem (Medical problem:Finding:Point in time:^Patient:Nominal) [Clinical Attribute]
+   666   C0574845:Date of onset [Finding]
+<<<<< Mappings
+
+Phrase: RESOLVED
+>>>>> Phrase
+resolved
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2699488:Resolved (Resolution) [Conceptual Entity]
+<<<<< Mappings
+
+Phrase: 1   Acute large cerebral infarction at right middle cerebral artery territory
+>>>>> Phrase
+1 acute large cerebral infarction at right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (764):
+   571   C2981698:1+ (1+ Score, WHO) [Classification]
+   571   C0205178:ACUTE (acute) [Temporal Concept]
+   571   C0549177:LARGE (Large) [Quantitative Concept]
+   571   C0444532:Right (Right sided) [Spatial Concept]
+   809 N C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   571   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: ; young stroke,
+>>>>> Phrase
+young stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0332239:Young [Temporal Concept]
+   861   C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with acute left limbs weakness,
+>>>>> Phrase
+acute left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0205178:ACUTE (acute) [Temporal Concept]
+   645   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: status post intravenous thrombolytic therapy
+>>>>> Phrase
+intravenous thrombolytic therapy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   913   C0455142:Intravenous therapy [Therapeutic or Preventive Procedure]
+   827   C0520997:Thrombolytic (Thrombolysis, function) [Clinical Attribute]
+Meta Mapping (901):
+   660   C0348016:Intravenous [Spatial Concept]
+   901   C0040044:Thrombolytic Therapy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: endovascular thrombectomy
+>>>>> Phrase
+endovascular thrombectomy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0524425:Endovascular (inside the blood vessel) [Body Location or Region]
+   861   C0162578:Thrombectomy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/25
+>>>>> Phrase
+2019 9 25
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 2019-09-25 2019-10-03
+>>>>> Phrase
+2019 09 25 2019 10 03
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (799):
+   799   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: (??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: 2   Fever 2019-09-27 2019-10-03(??)   
+
+Phrase: 2   Fever 2019-09-27 2019-10-03
+>>>>> Phrase
+2 fever 2019 09 27 2019 10 03
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (718):
+   793   C2981700:2+ (2+ Score, WHO) [Classification]
+   793   C0424755:Fever (Fever symptoms (finding)) [Finding]
+   793   C4319602:27 [Quantitative Concept]
+   793   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: (??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: 3   Af 2019-10-02 2019-10-03(??)
+
+Phrase: 3   Af 2019-10-02 2019-10-03
+>>>>> Phrase
+3 af 2019 10 02 2019 10 03
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (693):
+   793   C0439086:<3 (<3 (qualifier value)) [Quantitative Concept]
+   793   C0344434:AF (Atrial Fibrillation by ECG Finding) [Laboratory or Test Result]
+   793   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: (??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+      
+Processing 00000000.tx.1: NO. 
+
+Phrase: NO.
+>>>>> Phrase
+no
+<<<<< Phrase
+Processing 00000000.tx.2: MEDICAL PROBLEM DATE OF ONSET DATE RESOLVED   1   Acute large cerebral infarction at right middle cerebral artery territory; young stroke, with acute left limbs weakness,  status post intravenous thrombolytic therapy and endovascular thrombectomy (on 2019/9/25) 2019-09-25 2019-10-03(??)   
+
+Phrase: MEDICAL PROBLEM DATE OF ONSET DATE
+>>>>> Phrase
+medical problem date of onset date
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (664):
+   623   C1715372:Medical problem (Medical problem:Finding:Point in time:^Patient:Nominal) [Clinical Attribute]
+   666   C0574845:Date of onset [Finding]
+<<<<< Mappings
+
+Phrase: RESOLVED
+>>>>> Phrase
+resolved
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2699488:Resolved (Resolution) [Conceptual Entity]
+<<<<< Mappings
+
+Phrase: 1   Acute large cerebral infarction at right middle cerebral artery territory
+>>>>> Phrase
+1 acute large cerebral infarction at right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (764):
+   571   C2981698:1+ (1+ Score, WHO) [Classification]
+   571   C0205178:ACUTE (acute) [Temporal Concept]
+   571   C0549177:LARGE (Large) [Quantitative Concept]
+   571   C0444532:Right (Right sided) [Spatial Concept]
+   809 N C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   571   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: ; young stroke,
+>>>>> Phrase
+young stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0332239:Young [Temporal Concept]
+   861   C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with acute left limbs weakness,
+>>>>> Phrase
+acute left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0205178:ACUTE (acute) [Temporal Concept]
+   645   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: status post intravenous thrombolytic therapy
+>>>>> Phrase
+intravenous thrombolytic therapy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   913   C0455142:Intravenous therapy [Therapeutic or Preventive Procedure]
+   827   C0520997:Thrombolytic (Thrombolysis, function) [Clinical Attribute]
+Meta Mapping (901):
+   660   C0348016:Intravenous [Spatial Concept]
+   901   C0040044:Thrombolytic Therapy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: endovascular thrombectomy
+>>>>> Phrase
+endovascular thrombectomy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0524425:Endovascular (inside the blood vessel) [Body Location or Region]
+   861   C0162578:Thrombectomy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/25
+>>>>> Phrase
+2019 9 25
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 2019-09-25 2019-10-03
+>>>>> Phrase
+2019 09 25 2019 10 03
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (799):
+   799   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: (??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: 2   Fever 2019-09-27 2019-10-03(??)   
+
+Phrase: 2   Fever 2019-09-27 2019-10-03
+>>>>> Phrase
+2 fever 2019 09 27 2019 10 03
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (718):
+   793   C2981700:2+ (2+ Score, WHO) [Classification]
+   793   C0424755:Fever (Fever symptoms (finding)) [Finding]
+   793   C4319602:27 [Quantitative Concept]
+   793   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: (??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: 3   Af 2019-10-02 2019-10-03(??)
+
+Phrase: 3   Af 2019-10-02 2019-10-03
+>>>>> Phrase
+3 af 2019 10 02 2019 10 03
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (693):
+   793   C0439086:<3 (<3 (qualifier value)) [Quantitative Concept]
+   793   C0344434:AF (Atrial Fibrillation by ECG Finding) [Laboratory or Test Result]
+   793   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: (??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+      
+Processing 00000000.tx.1: NO. 
+
+Phrase: NO.
+>>>>> Phrase
+no
+<<<<< Phrase
+Processing 00000000.tx.2: MEDICAL PROBLEM DATE OF ONSET DATE RESOLVED   1   Acute large cerebral infarction at right middle cerebral artery territory; young stroke, with acute left limbs weakness,  status post intravenous thrombolytic therapy and endovascular thrombectomy (on 2019/9/25) 2019-09-25 2019-10-03(??)   
+
+Phrase: MEDICAL PROBLEM DATE OF ONSET DATE
+>>>>> Phrase
+medical problem date of onset date
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (664):
+   623   C1715372:Medical problem (Medical problem:Finding:Point in time:^Patient:Nominal) [Clinical Attribute]
+   666   C0574845:Date of onset [Finding]
+<<<<< Mappings
+
+Phrase: RESOLVED
+>>>>> Phrase
+resolved
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2699488:Resolved (Resolution) [Conceptual Entity]
+<<<<< Mappings
+
+Phrase: 1   Acute large cerebral infarction at right middle cerebral artery territory
+>>>>> Phrase
+1 acute large cerebral infarction at right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (764):
+   571   C2981698:1+ (1+ Score, WHO) [Classification]
+   571   C0205178:ACUTE (acute) [Temporal Concept]
+   571   C0549177:LARGE (Large) [Quantitative Concept]
+   571   C0444532:Right (Right sided) [Spatial Concept]
+   809 N C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   571   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: ; young stroke,
+>>>>> Phrase
+young stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0332239:Young [Temporal Concept]
+   861   C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with acute left limbs weakness,
+>>>>> Phrase
+acute left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0205178:ACUTE (acute) [Temporal Concept]
+   645   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: status post intravenous thrombolytic therapy
+>>>>> Phrase
+intravenous thrombolytic therapy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   913   C0455142:Intravenous therapy [Therapeutic or Preventive Procedure]
+   827   C0520997:Thrombolytic (Thrombolysis, function) [Clinical Attribute]
+Meta Mapping (901):
+   660   C0348016:Intravenous [Spatial Concept]
+   901   C0040044:Thrombolytic Therapy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: endovascular thrombectomy
+>>>>> Phrase
+endovascular thrombectomy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0524425:Endovascular (inside the blood vessel) [Body Location or Region]
+   861   C0162578:Thrombectomy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/25
+>>>>> Phrase
+2019 9 25
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 2019-09-25 2019-10-03
+>>>>> Phrase
+2019 09 25 2019 10 03
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (799):
+   799   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: (??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: 2   Fever 2019-09-27 2019-10-03(??)   
+
+Phrase: 2   Fever 2019-09-27 2019-10-03
+>>>>> Phrase
+2 fever 2019 09 27 2019 10 03
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (718):
+   793   C2981700:2+ (2+ Score, WHO) [Classification]
+   793   C0424755:Fever (Fever symptoms (finding)) [Finding]
+   793   C4319602:27 [Quantitative Concept]
+   793   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: (??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: 3   Af 2019-10-02 2019-10-03(??)
+
+Phrase: 3   Af 2019-10-02 2019-10-03
+>>>>> Phrase
+3 af 2019 10 02 2019 10 03
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (693):
+   793   C0439086:<3 (<3 (qualifier value)) [Quantitative Concept]
+   793   C0344434:AF (Atrial Fibrillation by ECG Finding) [Laboratory or Test Result]
+   793   C3842590:10% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: (??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+      
