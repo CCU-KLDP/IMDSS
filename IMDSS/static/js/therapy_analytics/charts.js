@@ -51,6 +51,20 @@ function fetch_success_ratio_chart(selected_therapy) {
 }
 
 
+function fetch_cost_bar_chart(selected_therapy) {
+    var cost_bar_chart = echarts.init(document.getElementById("cost_bar_chart"), 'white', {renderer: 'canvas'});
+    $.ajax({
+        type: "GET",
+        url: "http://127.0.0.1:8000/therapy_analytics/cost_bar_chart",
+        data: {"selected_therapy": selected_therapy},
+        success: function (result) {
+            var re_obj = (new Function("return " + result))();
+            cost_bar_chart.setOption(re_obj);   
+        }
+    });
+    
+}
+
 
 /*
 function onCheckBox(checkbox)

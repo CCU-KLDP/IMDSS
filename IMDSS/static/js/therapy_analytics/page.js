@@ -94,6 +94,7 @@ function disease_change(){
             var selected_therapy=""
             var insert_success_ratio_div=""
             var success_ratio_chart_container=document.getElementById("success_ratio_chart_container");
+            var cost_bar_chart_container=document.getElementById("cost_bar_chart_container")
 
             $(".therapy_checkbox_items>input:checked[name=therapy]").each(function(index){
                 if($(this)[0].checked){
@@ -106,10 +107,10 @@ function disease_change(){
             
             $("#success_ratio_chart_title>b").text("Success ratio")
             success_ratio_chart_container.innerHTML = insert_success_ratio_div
-
+            cost_bar_chart_container.innerHTML = '<div id="cost_bar_chart"></div>'
 
             fetch_success_ratio_chart(selected_therapy)
-            // fetch_cost_bar_chart(selected_therapy)
+            fetch_cost_bar_chart(selected_therapy)
             
   
 

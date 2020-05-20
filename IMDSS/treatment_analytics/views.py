@@ -129,11 +129,8 @@ def get_success_ratio_charts(request):
         "treatment_3": 70,
     }
 
-    pie = Pie(
-        init_opts=opts.InitOpts(
-            # width="600px",
-        )
-    )
+    pie = Pie()
+
     pie_str = draw_success_chart(pie, selected_therapy, data[selected_therapy])
     
     return HttpResponse(pie_str)
@@ -184,73 +181,79 @@ def draw_success_chart(chart, x, y):
 def get_cost_bar_charts(request):
     selected_therapy = request.GET["selected_therapy"]
 
+    selected_therapy_lst = selected_therapy.split(" ")
+    print(selected_therapy_lst)
+
     # success ratio
-    y_data = [80, 90, 70]
+    data = {
+        "treatment_1": 50000,
+        "treatment_2": 73829,
+        "treatment_3": 98529,
+    }
+    cost_lst = []
+    for i in selected_therapy_lst:
+        cost_lst.append(data.get(i))
 
-    pie = Pie()
-    pie_str = draw_cost_chart(pie, selected_therapy, y_data[0])
-    
-    return HttpResponse(pie_str)
+    bar = Bar()
 
-
-def draw_cost_chart(chart, x, y):
-    chart.add(
-        x,
-        [list(i) for i in zip(["成功率(%)", "失敗率(%)"], [y, 100-y])],
-        radius=[60, 100],
-        label_opts=new_label_opts(),
+    bar.add_xaxis(list(reversed(selected_therapy_lst)))
+    bar.add_yaxis(
+        "Cost",
+        list(reversed(cost_lst)),
+        color=['red', 'blue', 'black'],
+        category_gap='35%',
     )
-
-    chart.set_global_opts(
+    bar.reversal_axis()
+    
+    bar.set_global_opts(
         title_opts=opts.TitleOpts(
-            title="Therapy success ratio",
+            title="Cost compare",
             pos_top="5%",
             title_textstyle_opts=opts.TextStyleOpts(
                 font_size=30,
                 font_family="Microsoft YaHei",
             ),
-            item_gap=35,
-            subtitle=" " * 28 + x,
-            subtitle_textstyle_opts=opts.TextStyleOpts(
-                font_size=24,
-                font_family="Microsoft YaHei",
-            )
+            padding='50px',
         ),
         
-        legend_opts=opts.LegendOpts(
-            is_show=False,
-        ),
         tooltip_opts=opts.TooltipOpts(
             background_color="white",
             border_width=1,
             textstyle_opts=opts.TextStyleOpts(
                 color="black"
             ),
-        )
+        ),
+
+        legend_opts=opts.LegendOpts(
+            is_show=False,
+        ),
+
+        xaxis_opts=opts.AxisOpts(
+            axislabel_opts=opts.LabelOpts(
+                font_size=20,
+                font_family="Microsoft YaHei",
+            )
+        ),
+        
+        yaxis_opts=opts.AxisOpts(
+            axislabel_opts=opts.LabelOpts(
+                font_size=20,
+                font_family="Microsoft YaHei",
+            )
+        ),
+        
+    ),
+
+    bar.set_series_opts(
+        label_opts=opts.LabelOpts(
+            position='right',
+        ),
+        
     )
     
-    chart_str = chart.dump_options()
 
-    return chart_str
+    
+    bar_str = bar.dump_options()
+    print(bar_str)
 
-
-
-
-
-
-
-def chart_view(request):
-    """
-    @pony
-    render the charts to json
-    """
-
-    patient_id = request.GET['patient_id']
-
-    #print(json.loads(
-    #    grid_multiple_charts(init_multiple_charts(patient_id))
-    #))
-    return JsonResponse(json.loads(grid_multiple_charts(
-        init_multiple_charts(patient_id),
-        get_drug_charts(patient_id),
-    )))
+    return HttpResponse(bar_str)
