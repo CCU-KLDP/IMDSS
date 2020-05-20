@@ -1,0 +1,1854 @@
+Processing 00000000.tx.1: Subjective Polyuria left side mild weakness  Objective Physical Examination:   ? 
+
+Phrase: Subjective Polyuria
+>>>>> Phrase
+subjective polyuria
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0439655:Subjective (Subjective observation (qualifier value)) [Qualitative Concept]
+   861   C0032617:POLYURIA (Polyuria) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: left
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: side mild weakness  Objective Physical Examination
+>>>>> Phrase
+side mild weakness objective physical examination
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (839):
+   632   C0441987:Side [Spatial Concept]
+   660   C2749419:Mild weakness [Finding]
+   632   C0018017:Objective (objective (goal)) [Intellectual Product]
+   827   C0031809:PHYSICAL EXAMINATION (Physical Examination) [Health Care Activity]
+<<<<< Mappings
+
+Phrase: :   ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: Consciousness:E4V5M6   ? 
+
+Phrase: Consciousness
+>>>>> Phrase
+consciousness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0009791:consciousness (Consciousness related finding) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: E4V5M6   ?
+>>>>> Phrase
+e4v5m6
+<<<<< Phrase
+Processing 00000000.tx.3: Head         :no deformity,   ? 
+
+Phrase: Head
+>>>>> Phrase
+head
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1706305:Head (Head - Component of Device) [Manufactured Object]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no deformity,
+>>>>> Phrase
+deformity
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0302142:Deformity [Anatomical Abnormality]
+<<<<< Mappings
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: Eyes         :isocoric      light reflex :right    +    ,left   +      conjunctiva  :pink,     sclera:anicteric.   
+
+Phrase: Eyes
+>>>>> Phrase
+eyes
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0015392:Eyes (Eye) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: isocoric      light reflex
+>>>>> Phrase
+isocoric light reflex
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C0234671:Light reflex (Pupil afferent light reaction) [Organ or Tissue Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: right    +    ,
+>>>>> Phrase
+right
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205090:RIGHT (Right) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: left   +      conjunctiva
+>>>>> Phrase
+left conjunctiva
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0229277:Left conjunctiva (Structure of conjunctiva of left eye) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: pink,
+>>>>> Phrase
+pink
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0332585:PINK (Pink color) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: sclera
+>>>>> Phrase
+sclera
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0036410:SCLERA (Sclera) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: anicteric.
+>>>>> Phrase
+anicteric
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205180:Anicteric [Finding]
+<<<<< Mappings
+Processing 00000000.tx.5: ? 
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.6: ENT          :no injected throat, no enlarged tonsil   ? 
+
+Phrase: ENT
+>>>>> Phrase
+ent
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3889152:eNT (NT5E wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no injected throat,
+>>>>> Phrase
+injected throat
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (853):
+   623   C1533685:Injection (Injection procedure) [Therapeutic or Preventive Procedure]
+   861   C0031354:Throat (Pharyngeal structure) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: no enlarged tonsil   ?
+>>>>> Phrase
+enlarged tonsil
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0549123:Enlarged tonsil (Large tonsils (finding)) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.7: Neck         :supple,                     carotid bruit: nil   ? 
+
+Phrase: Neck
+>>>>> Phrase
+neck
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0027530:NECK (Neck) [Body Location or Region]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: supple,                     carotid bruit
+>>>>> Phrase
+supple carotid bruit
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0332254:Supple [Functional Concept]
+   901   C0007280:CAROTID BRUIT (Carotid bruit) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: nil   ?
+>>>>> Phrase
+nil
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0442734:Nil [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.8: Chest        :symmetric expansion,                     Breathing sound clear   ? 
+
+Phrase: Chest
+>>>>> Phrase
+chest
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1527391:Chest (Anterior thoracic region) [Body Location or Region]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: symmetric expansion,
+>>>>> Phrase
+symmetric expansion
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C0332516:Symmetric (Symmetrical) [Finding]
+<<<<< Mappings
+
+Phrase: Breathing
+>>>>> Phrase
+breathing
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0035203:Breathing (Respiration) [Physiologic Function]
+<<<<< Mappings
+
+Phrase: sound clear   ?
+>>>>> Phrase
+sound clear
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0037709:Sound (Sound - physical agent) [Natural Phenomenon or Process]
+   861   C1709157:Clear (Negative Surgical Margin) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.9: Heart        :regular heart beat                     no murmurs   ? 
+
+Phrase: Heart
+>>>>> Phrase
+heart
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0018787:HEART (Heart) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: regular heart beat
+>>>>> Phrase
+regular heart beat
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   660   C0205272:Regular [Qualitative Concept]
+   901   C0425583:heartbeat (Heart beat) [Organ or Tissue Function]
+<<<<< Mappings
+
+Phrase: no murmurs   ?
+>>>>> Phrase
+murmurs
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0018808:murmurs (Heart murmur) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.10: Abdomen     : soft and flat, no tenderness                    bowel sounds :normoactive   ? 
+
+Phrase: Abdomen
+>>>>> Phrase
+abdomen
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0000726:ABDOMEN (Abdomen) [Body Location or Region]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: soft
+>>>>> Phrase
+soft
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205358:Soft [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: flat,
+>>>>> Phrase
+flat
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205324:Flat (Flat shape) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: no tenderness                    bowel sounds
+>>>>> Phrase
+tenderness bowel sounds
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660 N C0234233:TENDERNESS (NOS) (Sore to touch) [Sign or Symptom]
+   901 N C0232693:Bowel sounds [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: normoactive   ?
+>>>>> Phrase
+normoactive
+<<<<< Phrase
+Processing 00000000.tx.11: Extremity    :freely movable, no pedal edema Neurological Examination:   ? 
+
+Phrase: Extremity
+>>>>> Phrase
+extremity
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0015385:Extremity (Limb structure) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: freely movable,
+>>>>> Phrase
+freely movable
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1879743:Freely (As Much as Desired) [Qualitative Concept]
+   861   C0577537:Moveable [Functional Concept]
+<<<<< Mappings
+
+Phrase: no pedal edema Neurological Examination
+>>>>> Phrase
+pedal edema neurological examination
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694 N C0574002:Pedal oedema (Edema of foot (finding)) [Sign or Symptom]
+   861   C0027853:Neurological Examination (Neurologic Examination) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: :   ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.12: Consciousness:clear   ? 
+
+Phrase: Consciousness
+>>>>> Phrase
+consciousness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0009791:consciousness (Consciousness related finding) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: clear   ?
+>>>>> Phrase
+clear
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1709157:Clear (Negative Surgical Margin) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.13: High cortical function :      orientation to time(+), place(+), person(+)      speech  :spontaneous speech      comprehension:ok Cranial nerves:   II - isocoric:right  3.5  mm, left   3.5  mm,        light reflex :right   +    , left   +    ,        visual acuity: normal        visual field :???? 
+
+Phrase: High cortical function
+>>>>> Phrase
+high cortical function
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C1299351:High (Abnormally high) [Qualitative Concept]
+   660   C0007776:Cortical (Cerebral cortex) [Body Part, Organ, or Organ Component]
+   827   C1705273:Function (Mathematical Operator) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: orientation to time
+>>>>> Phrase
+orientation to time
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0599544:Orientation to time [Mental Process]
+<<<<< Mappings
+
+Phrase: (+
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: place
+>>>>> Phrase
+place
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0442504:Place [Spatial Concept]
+<<<<< Mappings
+
+Phrase: (+
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: person
+>>>>> Phrase
+person
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2347489:Person (Person Observer) [Group]
+<<<<< Mappings
+
+Phrase: (+
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: speech
+>>>>> Phrase
+speech
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0037817:Speech [Organism Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: spontaneous speech      comprehension
+>>>>> Phrase
+spontaneous speech comprehension
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0205359:Spontaneous [Functional Concept]
+   660   C0037817:Speech [Organism Function]
+   827   C0162340:Comprehension [Mental Process]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ok Cranial nerves
+>>>>> Phrase
+ok cranial nerves
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C0010268:CRANIAL NERVES (Cranial Nerves) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: II - isocoric
+>>>>> Phrase
+ii isocoric
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C1710602:II (VIPR1 wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: right  3.5  mm,
+>>>>> Phrase
+right 3 5 mm
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (791):
+   645   C0205090:RIGHT (Right) [Spatial Concept]
+   812   C4330985:/mm (Per Millimeter) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: left
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: 3.5  mm,
+>>>>> Phrase
+3 5 mm
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (913):
+   913   C3842088:3 mm [Finding]
+<<<<< Mappings
+
+Phrase: light reflex
+>>>>> Phrase
+light reflex
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234671:Light reflex (Pupil afferent light reaction) [Organ or Tissue Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: right   +    ,
+>>>>> Phrase
+right
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205090:RIGHT (Right) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: left   +    ,
+>>>>> Phrase
+left
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:LEFT (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: visual acuity
+>>>>> Phrase
+visual acuity
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0042812:Visual Acuity [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: normal        visual field
+>>>>> Phrase
+normal visual field
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0205307:NORMAL (Normal) [Qualitative Concept]
+   901   C0042826:Visual Field (Visual Fields) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: :????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.14: III,IV,VI                         O      O                    O      O                         ?      
+
+Phrase: III,
+>>>>> Phrase
+iii
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1705160:III (III (suffix)) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: IV,
+>>>>> Phrase
+iv
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0022326:IV (Ivory Coast) [Geographic Area]
+<<<<< Mappings
+
+Phrase: VI                         O      O                    O      O                         ?
+>>>>> Phrase
+vi o o o o
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (637):
+   637   C0205999:VI (British Virgin Islands) [Geographic Area]
+<<<<< Mappings
+Processing 00000000.tx.15: ?                    
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.16: ?      
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.17: ?                     
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.18: O???X???O            O???X???O                         ?      
+
+Phrase: O???X???O            O???X???O                         ?
+>>>>> Phrase
+o x o o x o
+<<<<< Phrase
+Processing 00000000.tx.19: ?                    
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.20: ?      
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.21: ?                         
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.22: O      O                    O      O
+
+Phrase: O      O                    O      O
+>>>>> Phrase
+o o o o
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (645):
+   645   C0483204:O NOS (O NOS Ab) [Amino Acid, Peptide, or Protein,Immunologic Factor]
+<<<<< Mappings
+Processing 00000000.tx.1: V - facial sensation :left central facial palsy                        (??????,????????)      
+
+Phrase: V - facial sensation
+>>>>> Phrase
+v facial sensation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C0517999:facial sensation [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: left central facial palsy
+>>>>> Phrase
+left central facial palsy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (902):
+   645   C0205091:LEFT (Left) [Spatial Concept]
+   905   C0751141:Paralysis, Central Facial (Facial Palsy, Upper Motor Neuron) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: (??????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ????????
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: mastication      :symmetric VII - facial expression:mild elevation of left side
+
+Phrase: mastication
+>>>>> Phrase
+mastication
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0024888:Mastication (Chewing) [Organism Function]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: symmetric VII - facial expression
+>>>>> Phrase
+symmetric vii facial expression
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C2699744:Symmetric (Symmetric Relationship) [Conceptual Entity]
+   645   C0445385:VII (Roman numeral VII) [Intellectual Product]
+   861   C0015457:Facial Expression [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: mild elevation of left side
+>>>>> Phrase
+mild elevation of left side
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (752):
+   593   C2945599:MILD (Mild (qualifier value)) [Qualitative Concept]
+   760   C0439775:Elevation (Elevation procedure) [Therapeutic or Preventive Procedure]
+   640   C0205091:Left side (Left) [Spatial Concept]
+<<<<< Mappings
+Processing 00000000.tx.1: VIII - normal hearing      no nystagmus IX,X - palatal elevation:mild elevation of left side IX - muscle power in sternocleidomastoid and trapezius:muscle power in       sternocleidomastoid and trapezius:symmetric XII - no atrophy, no fasciculation,       tongue protrusion:mild elevation of left side
+
+Phrase: VIII - normal hearing
+>>>>> Phrase
+viii normal hearing
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C1413661:VIII (COX8A gene) [Gene or Genome]
+   901   C0234725:Normal hearing (Hearing normal) [Finding]
+<<<<< Mappings
+
+Phrase: no nystagmus IX,
+>>>>> Phrase
+nystagmus ix
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694 N C1963184:Nystagmus (Nystagmus Adverse Event) [Finding]
+   861   C0015491:IX (factor IX) [Amino Acid, Peptide, or Protein,Biologically Active Substance,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: X - palatal elevation
+>>>>> Phrase
+x palatal elevation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   660   C0700374:Palatal (Palate) [Body Part, Organ, or Organ Component]
+   827   C0702240:Elevation [Spatial Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: mild elevation of left side IX - muscle power
+>>>>> Phrase
+mild elevation of left side ix muscle power
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (746):
+   578   C2945599:MILD (Mild (qualifier value)) [Qualitative Concept]
+   744   C0702240:Elevation [Spatial Concept]
+   604   C0205091:Left side (Left) [Spatial Concept]
+   578   C0015491:IX (factor IX) [Amino Acid, Peptide, or Protein,Biologically Active Substance,Pharmacologic Substance]
+   604   C0427052:Muscle power (Finding of power of skeletal muscle) [Finding]
+<<<<< Mappings
+
+Phrase: in sternocleidomastoid
+>>>>> Phrase
+sternocleidomastoid
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0224153:Sternocleidomastoid (Structure of sternocleidomastoid muscle) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: trapezius:muscle power in       sternocleidomastoid
+>>>>> Phrase
+trapezius muscle power in sternocleidomastoid
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (761):
+   640   C0224361:Trapezius Muscle (Structure of trapezius muscle) [Body Part, Organ, or Organ Component]
+   760   C0032863:POWER (Power (Psychology)) [Human-caused Phenomenon or Process]
+   593   C0224153:Sternocleidomastoid (Structure of sternocleidomastoid muscle) [Body Part, Organ, or Organ Component]
+Meta Mapping (761):
+   593   C0224361:Trapezius (Structure of trapezius muscle) [Body Part, Organ, or Organ Component]
+   806   C0427052:Muscle power (Finding of power of skeletal muscle) [Finding]
+   593   C0224153:Sternocleidomastoid (Structure of sternocleidomastoid muscle) [Body Part, Organ, or Organ Component]
+Meta Mapping (761):
+   593   C0224361:Trapezius (Structure of trapezius muscle) [Body Part, Organ, or Organ Component]
+   631   C0224153:muscle sternocleidomastoid (Structure of sternocleidomastoid muscle) [Body Part, Organ, or Organ Component]
+   760   C0032863:POWER (Power (Psychology)) [Human-caused Phenomenon or Process]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: trapezius
+>>>>> Phrase
+trapezius
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0224361:Trapezius (Structure of trapezius muscle) [Body Part, Organ, or Organ Component]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: symmetric XII -
+>>>>> Phrase
+symmetric xii
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C2699744:Symmetric (Symmetric Relationship) [Conceptual Entity]
+<<<<< Mappings
+
+Phrase: no atrophy,
+>>>>> Phrase
+atrophy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0333641:ATROPHY (Atrophic) [Pathologic Function]
+<<<<< Mappings
+
+Phrase: no fasciculation,
+>>>>> Phrase
+fasciculation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0015644:FASCICULATION (Muscular fasciculation) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: tongue protrusion
+>>>>> Phrase
+tongue protrusion
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0241442:TONGUE PROTRUSION (Protrusion of tongue) [Finding]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: mild elevation of left side
+>>>>> Phrase
+mild elevation of left side
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (752):
+   593   C2945599:MILD (Mild (qualifier value)) [Qualitative Concept]
+   760   C0702240:Elevation [Spatial Concept]
+   640   C0205091:Left side (Left) [Spatial Concept]
+<<<<< Mappings
+Processing 00000000.tx.1: Motor system:    Muscle status - no atrophy, fasciculation, hypertrophy, or tenderness,    Muscle tone   - no rigidity, spasticity, hypotonia,  Muscle power and deep tendon reflexes:
+
+Phrase: Motor system
+>>>>> Phrase
+motor system
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1705994:Motor (Device Motor) [Manufactured Object]
+   861   C1704459:System (Device Component System) [Medical Device]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Muscle status -
+>>>>> Phrase
+muscle status
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0026845:MUSCLE (Muscle) [Tissue]
+   861   C0449438:Status [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: no atrophy,
+>>>>> Phrase
+atrophy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0333641:ATROPHY (Atrophic) [Pathologic Function]
+<<<<< Mappings
+
+Phrase: fasciculation,
+>>>>> Phrase
+fasciculation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0015644:FASCICULATION (Muscular fasciculation) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: hypertrophy,
+>>>>> Phrase
+hypertrophy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0020564:HYPERTROPHY (Hypertrophy) [Pathologic Function]
+<<<<< Mappings
+
+Phrase: or
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: tenderness,
+>>>>> Phrase
+tenderness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0684239:tenderness (Emotional tenderness) [Mental Process]
+<<<<< Mappings
+
+Phrase: Muscle tone   -
+>>>>> Phrase
+muscle tone
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0549465:Muscle tone (Observation of tone of skeletal muscle) [Finding]
+<<<<< Mappings
+
+Phrase: no rigidity,
+>>>>> Phrase
+rigidity
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0026837:Rigidity (Muscle Rigidity) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: spasticity,
+>>>>> Phrase
+spasticity
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0026838:SPASTICITY (Muscle Spasticity) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: hypotonia,
+>>>>> Phrase
+hypotonia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C1858120:Hypotonia (Generalized hypotonia) [Finding]
+<<<<< Mappings
+
+Phrase: Muscle power
+>>>>> Phrase
+muscle power
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0427052:Muscle power (Finding of power of skeletal muscle) [Finding]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: deep tendon reflexes
+>>>>> Phrase
+deep tendon reflexes
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0489815:Deep tendon reflexes (Deep Tendon Reflex) [Clinical Attribute]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.1: ?                    
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: ?               
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: 5?/??/4                    ?                  
+
+Phrase: 5?/??/4                    ?
+>>>>> Phrase
+5 4
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4517792:5.4 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.4: /   ?                 
+
+Phrase: /   ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.5: 5?  
+
+Phrase: 5?
+>>>>> Phrase
+5
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0439084:>5 [Quantitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.6: /4                  /  ?
+
+Phrase: /4                  /  ?
+>>>>> Phrase
+4
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3838679:4+ (4+ Answer to question) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.1: Problem 01 acute large cerebral infarction at right middle cerebral artery territory s/p t-PA and EVT  Assessment    Sudden of trunk deviation to left side, left limbs weakness, then right-ward looking, and slurred speech while having meeting with sitting position at 08:30 this morning    Brain CT finding no ICH,favor right dense MCA sign s/p t-PA (NIHHS:21)    BTA was arranged done then showed highly suspect dense hypervascular sign of right MCA post EVT.    
+
+Phrase: Problem 01 acute large cerebral infarction at right middle cerebral artery territory s/p t-PA
+>>>>> Phrase
+problem 01 acute large cerebral infarction at right middle cerebral artery territory s p t pa
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (690):
+   566   C0033213:Problem [Finding]
+   566   C0205178:ACUTE (acute) [Temporal Concept]
+   566   C0549177:LARGE (Large) [Quantitative Concept]
+   566   C0444532:Right (Right sided) [Spatial Concept]
+   779   C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   566   C1301808:Territory (Geographic state) [Geographic Area]
+   566   C0030428:PA (Paraguay) [Geographic Area]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: EVT  Assessment
+>>>>> Phrase
+evt assessment
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C1261322:Assessment (Evaluation procedure) [Health Care Activity]
+<<<<< Mappings
+
+Phrase: Sudden of trunk deviation
+>>>>> Phrase
+sudden of trunk deviation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (733):
+   770   C1276802:Sudden (Sudden onset (attribute)) [Qualitative Concept]
+   604   C0460005:TRUNK (Trunk structure) [Body Location or Region]
+   604   C0205419:Deviation (Variant) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: to left side,
+>>>>> Phrase
+left side
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205091:Left side (Left) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: left limbs weakness,
+>>>>> Phrase
+left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0205091:LEFT (Left) [Spatial Concept]
+   901   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: then right-ward looking,
+>>>>> Phrase
+then right ward looking
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (825):
+   645   C1883708:Then [Temporal Concept]
+   645   C0444532:Right (Right sided) [Spatial Concept]
+   645   C1305702:Ward (Ward (environment)) [Health Care Related Organization,Manufactured Object]
+   779   C0233426:look (Personal appearance) [Organism Attribute]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: slurred speech
+>>>>> Phrase
+slurred speech
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0234518:SLURRED SPEECH (Slurred speech) [Finding]
+<<<<< Mappings
+
+Phrase: while
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: having
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: meeting with sitting position
+>>>>> Phrase
+meeting with sitting position
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (783):
+   770   C0556656:Meeting (Meetings) [Activity]
+   666   C0277814:Sitting Position (Sitting position) [Finding]
+<<<<< Mappings
+
+Phrase: at 08
+>>>>> Phrase
+08
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 30
+>>>>> Phrase
+30
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C3842588:30% [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: this morning    Brain CT
+>>>>> Phrase
+morning brain ct
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   660   C0332170:Morning [Temporal Concept]
+   901   C0412585:brain ct (CAT scan of brain) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: finding
+>>>>> Phrase
+finding
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0037088:Finding (Signs and Symptoms) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: no ICH,
+>>>>> Phrase
+ich
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0019191:ICH (Infectious Canine Hepatitis) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: favor
+>>>>> Phrase
+favor
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0309049:FAVOR (favor) [Organic Chemical,Pharmacologic Substance,Vitamin]
+<<<<< Mappings
+
+Phrase: right dense MCA sign s/p t-PA
+>>>>> Phrase
+right dense mca sign s p t pa
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (740):
+   626   C0444532:Right (Right sided) [Spatial Concept]
+   626   C0439794:Dense [Qualitative Concept]
+   626   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+   626 N C0311392:Sign (Physical findings) [Finding]
+   793   C0030428:PA (Paraguay) [Geographic Area]
+<<<<< Mappings
+
+Phrase: (NIHHS
+>>>>> Phrase
+nihhs
+<<<<< Phrase
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 21
+>>>>> Phrase
+21
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: BTA
+>>>>> Phrase
+bta
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1519830:BTA (Urinary Bladder Tumor Antigen) [Amino Acid, Peptide, or Protein,Immunologic Factor,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: arranged
+>>>>> Phrase
+arranged
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1546854:Arranged (Arranged (transportation)) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: done
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: then
+>>>>> Phrase
+then
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1883708:Then [Temporal Concept]
+<<<<< Mappings
+
+Phrase: showed
+>>>>> Phrase
+showed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: highly
+>>>>> Phrase
+highly
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205250:Highly (High) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: suspect
+>>>>> Phrase
+suspect
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0750491:suspect (Suspected qualifier) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: dense hypervascular sign of right MCA post EVT.
+>>>>> Phrase
+dense hypervascular sign of right mca post evt
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (693):
+   578   C0439794:Dense [Qualitative Concept]
+   578   C1512560:Hypervascular (hypervascular) [Qualitative Concept]
+   744   C0311392:Sign (Physical findings) [Finding]
+   578   C0444532:Right (Right sided) [Spatial Concept]
+   578   C0149566:MCA (Structure of middle cerebral artery) [Body Part, Organ, or Organ Component]
+   578   C0687676:Post [Temporal Concept]
+<<<<< Mappings
+Processing 00000000.tx.2: Highly suspect dense hypervascular sign induced acute large cerebral infarction at right middle cerebral artery territory s/p t-PA and EVT
+
+Phrase: Highly
+>>>>> Phrase
+highly
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205250:Highly (High) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: suspect
+>>>>> Phrase
+suspect
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0750491:suspect (Suspected qualifier) [Idea or Concept]
+<<<<< Mappings
+
+Phrase: dense hypervascular sign
+>>>>> Phrase
+dense hypervascular sign
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0439794:Dense [Qualitative Concept]
+   660   C1512560:Hypervascular (hypervascular) [Qualitative Concept]
+   827   C0311392:Sign (Physical findings) [Finding]
+<<<<< Mappings
+
+Phrase: induced
+>>>>> Phrase
+induced
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205263:Induced (Induce (action)) [Functional Concept]
+<<<<< Mappings
+
+Phrase: acute large cerebral infarction at right middle cerebral artery territory s/p t-PA
+>>>>> Phrase
+acute large cerebral infarction at right middle cerebral artery territory s p t pa
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (709):
+   568   C0205178:ACUTE (acute) [Temporal Concept]
+   568   C0549177:LARGE (Large) [Quantitative Concept]
+   568   C0444532:Right (Right sided) [Spatial Concept]
+   789   C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   568   C1301808:Territory (Geographic state) [Geographic Area]
+   568   C0030428:PA (Paraguay) [Geographic Area]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: EVT
+>>>>> Phrase
+evt
+<<<<< Phrase
+Processing 00000000.tx.1: -----> 9/26, MRI of brain showed acute large cerebral infarction at right middle cerebral artery territory, no ICH. 
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: --
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: -
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: > 9/26,
+>>>>> Phrase
+9 26
+<<<<< Phrase
+
+Phrase: MRI of brain
+>>>>> Phrase
+mri of brain
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0412675:MRI of brain (MRI brain procedure) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: showed
+>>>>> Phrase
+showed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: acute large cerebral infarction at right middle cerebral artery territory,
+>>>>> Phrase
+acute large cerebral infarction at right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (775):
+   573   C0205178:ACUTE (acute) [Temporal Concept]
+   573   C0549177:LARGE (Large) [Quantitative Concept]
+   573   C0205090:RIGHT (Right) [Spatial Concept]
+   820   C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   573   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: no ICH.
+>>>>> Phrase
+ich
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0019191:ICH (Infectious Canine Hepatitis) [Disease or Syndrome]
+<<<<< Mappings
+Processing 00000000.tx.2: Then, added bokey and try diet. 
+
+Phrase: Then,
+>>>>> Phrase
+then
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1883708:Then [Temporal Concept]
+<<<<< Mappings
+
+Phrase: added
+>>>>> Phrase
+added
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1524062:Added (Additional) [Functional Concept]
+<<<<< Mappings
+
+Phrase: bokey
+>>>>> Phrase
+bokey
+<<<<< Phrase
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: try
+>>>>> Phrase
+try
+<<<<< Phrase
+
+Phrase: diet.
+>>>>> Phrase
+diet
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0012155:Diet [Food]
+<<<<< Mappings
+Processing 00000000.tx.3: 9/27, polyuria and arrhy-tachycardia was noted.
+
+Phrase: 9/27,
+>>>>> Phrase
+9 27
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1705676:9-27 (IFITM1 wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: polyuria
+>>>>> Phrase
+polyuria
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0032617:POLYURIA (Polyuria) [Sign or Symptom]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: arrhy-tachycardia
+>>>>> Phrase
+arrhy tachycardia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0039231:TACHYCARDIA (Tachycardia) [Finding]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: noted.
+>>>>> Phrase
+noted
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4288581:Noted (Notable) [Qualitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.1: Plan ---Diagnostic plan - Monitor consciousness level and neurological examinations - Watch vital signs - Watch I/O and U/O - Arrange echocardiography for survey heart function and disease - EKG prn ---Therapeutic plan .?TICI ??2b?3,?????140??????????????? 
+
+Phrase: Plan
+>>>>> Phrase
+plan
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1301732:Plan (Planned) [Functional Concept]
+<<<<< Mappings
+
+Phrase: ---
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Diagnostic plan - Monitor consciousness level
+>>>>> Phrase
+diagnostic plan monitor consciousness level
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (825):
+   637   C0348026:Diagnostic [Functional Concept]
+   637   C1301732:Plan (Planned) [Functional Concept]
+   637   C0150369:monitor (Preventive monitoring) [Health Care Activity]
+   804   C0456384:Conscious level [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: neurological examinations - Watch vital signs - Watch I/O
+>>>>> Phrase
+neurological examinations watch vital signs watch i o
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (572):
+   645   C0027853:Neurological Examinations (Neurologic Examination) [Diagnostic Procedure]
+   526   C0043012:Watchfulness (Wakefulness) [Mental Process]
+   645   C0150404:Vital signs (Taking vital signs) [Health Care Activity]
+   626   C0221138:I NOS (Blood group antibody I) [Amino Acid, Peptide, or Protein,Immunologic Factor]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: U/O -
+>>>>> Phrase
+u o
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (694):
+   694   C0439148:{U} (Unit) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: Arrange
+>>>>> Phrase
+arrange
+<<<<< Phrase
+
+Phrase: echocardiography for survey heart function
+>>>>> Phrase
+echocardiography for survey heart function
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (761):
+   760   C0013516:ECHOCARDIOGRAPHY (Echocardiography) [Diagnostic Procedure]
+   593   C0038951:Survey (Surveys) [Intellectual Product]
+   640   C0232164:heart function (Cardiac function) [Organ or Tissue Function]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: disease - EKG prn ---Therapeutic plan .?TICI ??2b?3,
+>>>>> Phrase
+disease ekg prn therapeutic plan tici 2b 3
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (727):
+   864   C0067430:MAL-3 (N-(1-oxyl-2,2,5,5-tetramethyl-3-pyrrolidinyl)maleimide) [Organic Chemical]
+   793   C1623258:EKG (Electrocardiography) [Diagnostic Procedure]
+   793   C0087111:Therapeutic (Therapeutic procedure) [Therapeutic or Preventive Procedure]
+   793   C1301732:Plan (Planned) [Functional Concept]
+   793   C0450354:2b [Intellectual Product]
+<<<<< Mappings
+
+Phrase: ?????140???????????????
+>>>>> Phrase
+140
+<<<<< Phrase
+Processing 00000000.tx.2: 15 ???  
+
+Phrase: 15 ???
+>>>>> Phrase
+15
+<<<<< Phrase
+Processing 00000000.tx.3: check BP ??, ??????????, ???????? 
+
+Phrase: check BP ??,
+>>>>> Phrase
+check bp
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1283174:Check (Checking (action)) [Activity]
+   861   C1415692:Bp (HP gene) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: ??????????,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ????????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: .Record NIHSS Q4h  Q8h with prn .If NIHSS ???????4?, ? call Dr, ???? 
+
+Phrase: .Record NIHSS Q4h  Q8h with prn .
+>>>>> Phrase
+record nihss q4h q8h with prn
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (716):
+   586   C0034869:Record (Records) [Intellectual Product]
+   586   C3476804:NIHSS [Intellectual Product]
+   586   C0585324:Q4H (Every four hours) [Temporal Concept]
+   753   C0585326:Q8H (Every eight hours) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: If
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: NIHSS ???????4?,
+>>>>> Phrase
+nihss 4
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C3476804:NIHSS [Intellectual Product]
+<<<<< Mappings
+
+Phrase: ? call Dr,
+>>>>> Phrase
+call dr
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1292769:c all (Precursor B-cell lymphoblastic leukemia) [Neoplastic Process]
+   861   C0031831:DR (Physicians) [Professional or Occupational Group]
+Meta Mapping (888):
+   694   C1947967:Call (Call (Instruction)) [Functional Concept]
+   861   C0031831:DR (Physicians) [Professional or Occupational Group]
+<<<<< Mappings
+
+Phrase: ????
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.5: noncontrast head CT - Adequate intravensous fluid hydration, N/S run 100ml/hour - H2 receptor antagonist for stress uler preventions    gaster 1# po bid - Keep anti-platate agent, bokey 1# po qd - On soft diet ---Educational plan 1) Explain condition to the family
+
+Phrase: noncontrast head CT - Adequate intravensous fluid hydration,
+>>>>> Phrase
+noncontrast head ct adequate intravensous fluid hydration
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (742):
+   651   C0202691:Head CT (CAT scan of head) [Diagnostic Procedure]
+   629   C0205410:Adequate (Sufficient) [Qualitative Concept]
+   629   C0005889:FLUID (Body Fluids) [Body Substance]
+   795   C1321013:Hydration (Hydration status) [Finding]
+<<<<< Mappings
+
+Phrase: N/S run 100ml/hour - H2 receptor antagonist
+>>>>> Phrase
+n s run 100ml hour h2 receptor antagonist
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (771):
+   626   C0441922:N+ (N+ (tumor staging)) [Intellectual Product]
+   626   C1704688:Run (Run action) [Functional Concept]
+   626   C0564385:/hour [Quantitative Concept]
+   835   C0019593:H2 Receptor Antagonist (Histamine H2 Antagonists) [Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: for stress uler preventions    gaster 1# po bid -
+>>>>> Phrase
+stress uler preventions gaster 1 po bid
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (572):
+   646   C0749073:STRESS Prevention [Therapeutic or Preventive Procedure]
+   629   C0038351:Gaster (Stomach) [Body Part, Organ, or Organ Component]
+   629   C0442027:PO (Oral) [Spatial Concept]
+<<<<< Mappings
+
+Phrase: Keep
+>>>>> Phrase
+keep
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0333118:Keep (Retained) [Functional Concept]
+<<<<< Mappings
+
+Phrase: anti-platate agent,
+>>>>> Phrase
+anti platate agent
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (827):
+   827   C1254351:Agent (Pharmacologic Substance) [Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: bokey 1# po qd -
+>>>>> Phrase
+bokey 1 po qd
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (750):
+   645   C0442027:PO (Oral) [Spatial Concept]
+   812   C0332173:QD (Daily) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: On soft diet
+>>>>> Phrase
+soft diet
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0301569:Soft Diet (Soft diet) [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: ---
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Educational plan 1
+>>>>> Phrase
+educational plan 1
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (865):
+   865   C0920485:education plan (education planning) [Educational Activity]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Explain
+>>>>> Phrase
+explain
+<<<<< Phrase
+
+Phrase: condition to the family
+>>>>> Phrase
+condition to the family
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (819):
+   819   C0344339:family condition (Family illness) [Finding]
+<<<<< Mappings
+      

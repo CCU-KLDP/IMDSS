@@ -1,0 +1,1242 @@
+Processing 00000000.tx.1: ?
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: Diagnosis: .
+
+Phrase: Diagnosis
+>>>>> Phrase
+diagnosis
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1704338:diagnosis (diagnosis aspect) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: : .
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.3: Acute large cerebral infarction at right middle cerebral artery territory,  young stroke, with acute left limbs weakness,  status post  intravenous thrombolytic therapy and endovascular thrombectomy  (on 2019/9/25) .
+
+Phrase: Acute large cerebral infarction at right middle cerebral artery territory,
+>>>>> Phrase
+acute large cerebral infarction at right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (775):
+   573   C0205178:ACUTE (acute) [Temporal Concept]
+   573   C0549177:LARGE (Large) [Quantitative Concept]
+   573   C0444532:Right (Right sided) [Spatial Concept]
+   820   C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   573   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: young stroke,
+>>>>> Phrase
+young stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0332239:Young [Temporal Concept]
+   861   C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with acute left limbs weakness,
+>>>>> Phrase
+acute left limbs weakness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0205178:ACUTE (acute) [Temporal Concept]
+   645   C0205091:LEFT (Left) [Spatial Concept]
+   861   C0587246:limbs weakness (Muscle weakness of limb) [Finding]
+<<<<< Mappings
+
+Phrase: status post  intravenous thrombolytic therapy
+>>>>> Phrase
+intravenous thrombolytic therapy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   913   C0455142:Intravenous therapy [Therapeutic or Preventive Procedure]
+   827   C0520997:Thrombolytic (Thrombolysis, function) [Clinical Attribute]
+Meta Mapping (901):
+   660   C0348016:Intravenous [Spatial Concept]
+   901   C0040044:Thrombolytic Therapy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: endovascular thrombectomy
+>>>>> Phrase
+endovascular thrombectomy
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0524425:Endovascular (inside the blood vessel) [Body Location or Region]
+   861   C0162578:Thrombectomy [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+
+Phrase: (
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: on 2019/9/25
+>>>>> Phrase
+2019 9 25
+<<<<< Phrase
+
+Phrase: ) .
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.4: Paroxysmal atrial fibrillation .Fever case to be determined etiology? favor suspected nosocomial  aspiration pneumonia .
+
+Phrase: Paroxysmal atrial fibrillation .Fever case
+>>>>> Phrase
+paroxysmal atrial fibrillation fever case
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (875):
+   717   C0235480:ATRIAL FIBRILLATION, PAROXYSMAL (Paroxysmal atrial fibrillation) [Disease or Syndrome]
+   637   C0424755:Fever (Fever symptoms (finding)) [Finding]
+   804   C0868928:Case (Case (situation)) [Functional Concept]
+<<<<< Mappings
+
+Phrase: to
+>>>>> Phrase
+to
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0041260:TO (Tryptophanase) [Amino Acid, Peptide, or Protein,Enzyme]
+<<<<< Mappings
+
+Phrase: be
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: determined etiology?
+>>>>> Phrase
+determined etiology
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0521095:Determined (Determined by) [Qualitative Concept]
+   861   C0015127:etiology (Etiology aspects) [Functional Concept]
+<<<<< Mappings
+
+Phrase: favor
+>>>>> Phrase
+favor
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0309049:FAVOR (favor) [Organic Chemical,Pharmacologic Substance,Vitamin]
+<<<<< Mappings
+
+Phrase: suspected nosocomial  aspiration pneumonia .
+>>>>> Phrase
+suspected nosocomial aspiration pneumonia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0332147:Suspected (Suspected diagnosis) [Qualitative Concept]
+   875   C0949083:Nosocomial Pneumonia (Hospital acquired pneumonia) [Disease or Syndrome]
+   812   C0700198:ASPIRATION (Pulmonary aspiration) [Pathologic Function]
+<<<<< Mappings
+Processing 00000000.tx.5: Mild hyperuricemia and Gout history .
+
+Phrase: Mild hyperuricemia
+>>>>> Phrase
+mild hyperuricemia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4313942:Hyperuricemia, mild [Finding]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Gout history .
+>>>>> Phrase
+gout history
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0018099:GOUT (Gout) [Disease or Syndrome]
+   861   C2004062:History (History of previous events) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.6: Hyperhomocysteinemia with decifiency of folic acid and vitamin B12
+
+Phrase: Hyperhomocysteinemia with decifiency of folic acid
+>>>>> Phrase
+hyperhomocysteinemia with decifiency of folic acid
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (722):
+   753   C0598608:hyperhomocysteinaemia (Hyperhomocysteinemia) [Disease or Syndrome]
+   623   C0016410:FOLIC ACID (Folic Acid) [Organic Chemical,Pharmacologic Substance,Vitamin]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: vitamin B12
+>>>>> Phrase
+vitamin b12
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C2936883:Vitamin B12 (Vitamin B12 [EPC]) [Pharmacologic Substance]
+<<<<< Mappings
+Processing 00000000.tx.1: ?
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: Treatment course:  After admission to ICU, we recored NIHHS and consciousness with neurological examintions as post-tPA protocal. 
+
+Phrase: Treatment course
+>>>>> Phrase
+treatment course
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0087111:Treatment (Therapeutic procedure) [Therapeutic or Preventive Procedure]
+   861   C0750729:Course [Temporal Concept]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: After
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: admission to ICU,
+>>>>> Phrase
+admission to icu
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (746):
+   790   C0184666:Admission (Hospital admission) [Health Care Activity]
+   623   C0021708:ICU (intensive care unit) [Health Care Related Organization,Manufactured Object]
+<<<<< Mappings
+
+Phrase: we recored NIHHS
+>>>>> Phrase
+recored nihhs
+<<<<< Phrase
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: consciousness with neurological examintions
+>>>>> Phrase
+consciousness with neurological examintions
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (708):
+   770   C0009791:consciousness (Consciousness related finding) [Finding]
+   604   C0205494:NEUROLOGICAL (Neurologic (qualifier value)) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: as
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: post-tPA protocal.
+>>>>> Phrase
+post tpa protocal
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (635):
+   660   C0687676:Post [Temporal Concept]
+   660   C0032143:T-PA (alteplase) [Amino Acid, Peptide, or Protein,Enzyme,Pharmacologic Substance]
+<<<<< Mappings
+Processing 00000000.tx.3: H2-blocker with Gaster 1Amp Q12h was also given for stress ulcer prevention. 
+
+Phrase: H2-blocker with Gaster 1Amp Q12h
+>>>>> Phrase
+h2 blocker with gaster 1amp q12h
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (712):
+   790   C0019593:H2 Blocker (Histamine H2 Antagonists) [Pharmacologic Substance]
+   586   C0038351:Gaster (Stomach) [Body Part, Organ, or Organ Component]
+   586   C0585327:Q12H (Every twelve hours) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: also
+>>>>> Phrase
+also
+<<<<< Phrase
+
+Phrase: given for stress ulcer prevention.
+>>>>> Phrase
+given for stress ulcer prevention
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (761):
+   760   C1442162:GIVEN [Conceptual Entity]
+   806   C0400807:stress ulcer (Stress ulcer of stomach) [Disease or Syndrome]
+   760   C0199176:Prevention (Prophylactic treatment) [Therapeutic or Preventive Procedure]
+Meta Mapping (761):
+   760   C1442162:GIVEN [Conceptual Entity]
+   797   C0749073:STRESS Prevention [Therapeutic or Preventive Procedure]
+   760   C0041582:ULCER (Ulcer) [Disease or Syndrome]
+<<<<< Mappings
+Processing 00000000.tx.4: The patient also received NPO with IVF hydration. 
+
+Phrase: The patient also received NPO with IVF hydration.
+>>>>> Phrase
+the patient also received npo with ivf hydration
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (664):
+   578   C0030705:*^patient (Patients) [Patient or Disabled Group]
+   578   C1514756:RECEIVED (Receive) [Qualitative Concept]
+   744   C0419179:NPO (NPO - Nothing by mouth) [Therapeutic or Preventive Procedure]
+   578   C2751898:IVF (Ventricular Fibrillation, Paroxysmal Familial, 1) [Disease or Syndrome]
+   578   C1321013:Hydration (Hydration status) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.5: Followed Brain MRA scans showed acute large cerebral infarction at right middle cerebral artery territory (especially right parieto-temporal region), and no hemorrhage, so we added Bokey for secondary prevention of stroke. 
+
+Phrase: Followed Brain MRA scans
+>>>>> Phrase
+followed brain mra scans
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   645   C0332283:followed (Followed by) [Temporal Concept]
+   875   C0596217:brain scans (Brain scan) [Diagnostic Procedure]
+   812   C0243032:MRA (Magnetic Resonance Angiography) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: showed
+>>>>> Phrase
+showed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: acute large cerebral infarction at right middle cerebral artery territory
+>>>>> Phrase
+acute large cerebral infarction at right middle cerebral artery territory
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (775):
+   573   C0205178:ACUTE (acute) [Temporal Concept]
+   573   C0549177:LARGE (Large) [Quantitative Concept]
+   573   C0205090:RIGHT (Right) [Spatial Concept]
+   820   C0740392:Cerebral Infarction, Middle Cerebral Artery (Infarction, Middle Cerebral Artery) [Disease or Syndrome]
+   573   C1301808:Territory (Geographic state) [Geographic Area]
+<<<<< Mappings
+
+Phrase: (especially right parieto-temporal region
+>>>>> Phrase
+especially right parieto temporal region
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   888   C1184320:Right temporal region (Right temporal part of head) [Body Location or Region]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: ,
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: no hemorrhage,
+>>>>> Phrase
+hemorrhage
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000 N C0019080:HEMORRHAGE (Hemorrhage) [Pathologic Function]
+<<<<< Mappings
+
+Phrase: so
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: we
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: added
+>>>>> Phrase
+added
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1524062:Added (Additional) [Functional Concept]
+<<<<< Mappings
+
+Phrase: Bokey for secondary prevention of stroke.
+>>>>> Phrase
+bokey for secondary prevention of stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (555):
+   623   C0679699:SECONDARY PREVENTION (Secondary Prevention) [Therapeutic or Preventive Procedure]
+   586 N C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+Meta Mapping (555):
+   586   C0175668:Secondary (Secondary to) [Qualitative Concept]
+   617   C1277289:prevention stroke (Stroke prevention) [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+Processing 00000000.tx.6: Because of his transient consciousness drowsiness accompanied with fever , we added empiric antibiotic with Cravit for cover suspected nosocomial aspiration pneumonia control. 
+
+Phrase: Because of his transient consciousness drowsiness
+>>>>> Phrase
+transient consciousness drowsiness
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (851):
+   660   C0205374:Transient (Transitory) [Temporal Concept]
+   660   C0009791:consciousness (Consciousness related finding) [Finding]
+   827   C0013144:DROWSINESS (Drowsiness) [Finding]
+<<<<< Mappings
+
+Phrase: accompanied with fever ,
+>>>>> Phrase
+accompanied with fever
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (790):
+   790   C0424755:Fever (Fever symptoms (finding)) [Finding]
+<<<<< Mappings
+
+Phrase: we
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: added
+>>>>> Phrase
+added
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1524062:Added (Additional) [Functional Concept]
+<<<<< Mappings
+
+Phrase: empiric antibiotic with Cravit
+>>>>> Phrase
+empiric antibiotic with cravit
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (722):
+   604   C1880496:Empiric [Qualitative Concept]
+   770   C0003232:Antibiotic (Antibiotics) [Antibiotic]
+<<<<< Mappings
+
+Phrase: for cover
+>>>>> Phrase
+cover
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0180153:cover (Covers (device)) [Medical Device]
+<<<<< Mappings
+
+Phrase: suspected
+>>>>> Phrase
+suspected
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0332147:Suspected (Suspected diagnosis) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: nosocomial aspiration pneumonia control.
+>>>>> Phrase
+nosocomial aspiration pneumonia control
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   708   C0949083:Nosocomial Pneumonia (Hospital acquired pneumonia) [Disease or Syndrome]
+   645   C0700198:ASPIRATION (Pulmonary aspiration) [Pathologic Function]
+   812   C0243148:control (control aspects) [Qualitative Concept]
+<<<<< Mappings
+Processing 00000000.tx.7: Electroencephalography was performed and showed no epileptiform discharges. 
+
+Phrase: Electroencephalography
+>>>>> Phrase
+electroencephalography
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0013819:ELECTROENCEPHALOGRAPHY (Electroencephalography) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: performed
+>>>>> Phrase
+performed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0884358:PERFORMED (Performed) [Functional Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: showed
+>>>>> Phrase
+showed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: no epileptiform discharges.
+>>>>> Phrase
+epileptiform discharges
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (861):
+   861   C0012621:Discharges (Body Fluid Discharge) [Body Substance]
+<<<<< Mappings
+Processing 00000000.tx.8: Because of his young stroke, we did complete workup for young strok survey for cardiologic, hematologic, vascular, metabolic etiololgies evaluation. 
+
+Phrase: Because of his young stroke,
+>>>>> Phrase
+young stroke
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0332239:Young [Temporal Concept]
+   861   C0038454:STROKE (Cerebrovascular accident) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: we
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: did
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: complete
+>>>>> Phrase
+complete
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205197:COMPLETE (Complete) [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: workup for young strok survey
+>>>>> Phrase
+workup for young strok survey
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (696):
+   760   C0750430:Work-up (work up) [Diagnostic Procedure]
+   593   C0332239:Young [Temporal Concept]
+   593   C0038951:Survey (Surveys) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: for cardiologic, hematologic, vascular, metabolic etiololgies evaluation.
+>>>>> Phrase
+cardiologic hematologic vascular metabolic etiololgies evaluation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (767):
+   561   C0007189:Cardiology (Cardiology discipline) [Biomedical Occupation or Discipline]
+   632   C0018943:Hematologic (Hematology (discipline)) [Biomedical Occupation or Discipline]
+   858   C0846601:Vascular Evaluation (vascular assessment) [Diagnostic Procedure]
+   632   C1524026:Metabolic (Metabolic Process, Cellular) [Cell Function]
+<<<<< Mappings
+Processing 00000000.tx.9: Bedside EKG monitor showed paroxysmal atrial fibrillation (esp on 2019/9/27 06:56, by nursing record). 
+
+Phrase: Bedside EKG monitor
+>>>>> Phrase
+bedside ekg monitor
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C0553601:ekg monitor (Electrocardiographic monitors) [Medical Device]
+<<<<< Mappings
+
+Phrase: showed
+>>>>> Phrase
+showed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: paroxysmal atrial fibrillation
+>>>>> Phrase
+paroxysmal atrial fibrillation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0235480:ATRIAL FIBRILLATION, PAROXYSMAL (Paroxysmal atrial fibrillation) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: (esp on 2019/9/27 06
+>>>>> Phrase
+esp on 2019 9 27 06
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (623):
+   623   C1705676:9-27 (IFITM1 wt Allele) [Gene or Genome]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 56,
+>>>>> Phrase
+56
+<<<<< Phrase
+
+Phrase: by nursing record
+>>>>> Phrase
+nursing record
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0028694:Record, Nursing (Nursing Records) [Intellectual Product,Manufactured Object]
+<<<<< Mappings
+
+Phrase: ).
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.10: Echocardiography showed not remarkable findings. 
+
+Phrase: Echocardiography
+>>>>> Phrase
+echocardiography
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0013516:ECHOCARDIOGRAPHY (Echocardiography) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: showed
+>>>>> Phrase
+showed
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (966):
+   966   C1547282:Show [Animal]
+<<<<< Mappings
+
+Phrase: not remarkable findings.
+>>>>> Phrase
+not remarkable findings
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (802):
+   660   C1518422:Not (Negation) [Functional Concept]
+   827   C2926606:Findings (Procedure findings:Finding:Point in time:^Patient:Narrative) [Clinical Attribute]
+<<<<< Mappings
+Processing 00000000.tx.11: We also early consulted our physiatrist for arranging rehabilitation. 
+
+Phrase: We also
+>>>>> Phrase
+also
+<<<<< Phrase
+
+Phrase: early
+>>>>> Phrase
+early
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1279919:Early [Temporal Concept]
+<<<<< Mappings
+
+Phrase: consulted
+>>>>> Phrase
+consulted
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0009818:consulted (Consultation) [Health Care Activity]
+<<<<< Mappings
+
+Phrase: our physiatrist for arranging rehabilitation.
+>>>>> Phrase
+our physiatrist for arranging rehabilitation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (686):
+   760   C0260138:Physiatrist (Physiatrists) [Professional or Occupational Group]
+   593   C0034991:Rehabilitation (Rehabilitation therapy) [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+Processing 00000000.tx.12: Then he was transffered to the general ward for further evaluation and treatment.
+
+Phrase: Then
+>>>>> Phrase
+then
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1883708:Then [Temporal Concept]
+<<<<< Mappings
+
+Phrase: he
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: was
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: transffered to the general ward
+>>>>> Phrase
+transffered to the general ward
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (640):
+   640   C0043030:Ward, General (Wards, General) [Manufactured Object]
+<<<<< Mappings
+
+Phrase: for further evaluation
+>>>>> Phrase
+further evaluation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1517331:Further [Spatial Concept]
+   861   C0220825:Evaluation [Health Care Activity]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: treatment.
+>>>>> Phrase
+treatment
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0087111:Treatment (Therapeutic procedure) [Therapeutic or Preventive Procedure]
+<<<<< Mappings
+Processing 00000000.tx.1: ? 
+
+Phrase: ?
+>>>>> Phrase
+<<<<< Phrase
+Processing 00000000.tx.2: Current medication BOKEY    Bokey 100mg cap                               1   QD   PO MOPRT    Mopride F.C 5mg tab(Mosapulin)                1   TID  PO GASTE    Gaster 20mg tab(Voker)                        1   BID  PO MEDIC    Medicon 15mg tab(?)(Nospan)                  1   TID  PO THROT    Through 20mg tab                              2   HS   PO CRAV2    (?)Cravit 250mg inj                        750   QD   IVD FLUI6    Fluimucil 600mg(??)tab(Actein)              1   QD   PO FA5      FA 5mg tab(Folacin)                           1   QD   PO KOBAL    KoBal 500mcg cap(Methycobal)                  1   BID  PO PERDT    PerDipine 20mg tab(Nicarpine)                 1   PRQ6 PO
+
+Phrase: Current medication BOKEY    Bokey 100mg cap                               1   QD   PO MOPRT    Mopride F.C 5mg tab(Mosapulin
+>>>>> Phrase
+current medication bokey bokey 100mg cap 1 qd po moprt mopride f c 5mg tab mosapulin
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (540):
+   626   C0746467:current medication (medication current) [Finding]
+   667   C1422347:CAP-C (SMC4 gene) [Gene or Genome]
+   618   C0332173:QD (Daily) [Temporal Concept]
+   618   C0442027:PO (Oral) [Spatial Concept]
+   618   C0016327:F- (Fluorides) [Inorganic Chemical,Pharmacologic Substance]
+   618   C1705223:Tab (Tablet Dosing Unit) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 1   TID  PO GASTE    Gaster 20mg tab(Voker
+>>>>> Phrase
+1 tid po gaste gaster 20mg tab voker
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (549):
+   626   C2981698:1+ (1+ Score, WHO) [Classification]
+   626   C1610169:TID (three times a day at institution-specified times) [Temporal Concept]
+   626   C0442027:PO (Oral) [Spatial Concept]
+   626   C0038351:Gaster (Stomach) [Body Part, Organ, or Organ Component]
+   626   C1705223:Tab (Tablet Dosing Unit) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 1   BID  PO MEDIC    Medicon 15mg tab(?)(Nospan
+>>>>> Phrase
+1 bid po medic medicon 15mg tab nospan
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (732):
+   626   C2981698:1+ (1+ Score, WHO) [Classification]
+   626   C0442027:PO (Oral) [Spatial Concept]
+   626   C1705223:Tab (Tablet Dosing Unit) [Quantitative Concept]
+   793   C0132868:Nospan (Nospan (brand of antispasmodic)) [Organic Chemical,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 1   TID  PO THROT    Through 20mg tab                              2   HS   PO CRAV2
+>>>>> Phrase
+1 tid po throt through 20mg tab 2 hs po crav2
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (486):
+   571   C1610169:TID (three times a day at institution-specified times) [Temporal Concept]
+   587   C0297198:PO-1 [Organic Chemical]
+   571   C1705223:Tab (Tablet Dosing Unit) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: (?
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Cravit 250mg inj                        750   QD   IVD FLUI6    Fluimucil 600mg
+>>>>> Phrase
+cravit 250mg inj 750 qd ivd flui6 fluimucil 600mg
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (530):
+   624   C1272883:INJ (Injection) [Biomedical or Dental Material]
+   624   C4517868:750 [Quantitative Concept]
+   624   C0332173:QD (Daily) [Temporal Concept]
+   624   C1416523:IVD (IVD gene) [Gene or Genome]
+   624   C0699251:Fluimucil [Amino Acid, Peptide, or Protein,Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: (??
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: tab(Actein
+>>>>> Phrase
+tab actein
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C1705223:Tab (Tablet Dosing Unit) [Quantitative Concept]
+   861   C0382439:actein [Organic Chemical]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 1   QD   PO FA5      FA 5mg tab(Folacin
+>>>>> Phrase
+1 qd po fa5 fa 5mg tab folacin
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (733):
+   626   C2981698:1+ (1+ Score, WHO) [Classification]
+   626   C0332173:QD (Daily) [Temporal Concept]
+   626   C0442027:PO (Oral) [Spatial Concept]
+   626   C1705223:Tab (Tablet Dosing Unit) [Quantitative Concept]
+   793   C0699376:Folacin [Organic Chemical,Pharmacologic Substance,Vitamin]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 1   QD   PO KOBAL    KoBal 500mcg cap(Methycobal
+>>>>> Phrase
+1 qd po kobal kobal 500mcg cap methycobal
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (559):
+   626   C2981698:1+ (1+ Score, WHO) [Classification]
+   626   C0332173:QD (Daily) [Temporal Concept]
+   626   C0442027:PO (Oral) [Spatial Concept]
+   626   C1657858:CAP (Syringe Caps) [Medical Device]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 1   BID  PO PERDT    PerDipine 20mg tab(Nicarpine
+>>>>> Phrase
+1 bid po perdt perdipine 20mg tab nicarpine
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (548):
+   626   C2981698:1+ (1+ Score, WHO) [Classification]
+   626   C0442027:PO (Oral) [Spatial Concept]
+   626   C0086788:Perdipine [Organic Chemical,Pharmacologic Substance]
+   626   C1705223:Tab (Tablet Dosing Unit) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: )
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 1   PRQ6 PO
+>>>>> Phrase
+1 prq6 po
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (802):
+   660   C2981698:1+ (1+ Score, WHO) [Classification]
+   827   C0442027:PO (Oral) [Spatial Concept]
+<<<<< Mappings
+Processing 00000000.tx.1: VS Comment   .Starte rehabilitation; prevent falls; sugggest to use walker or quadricane .
+
+Phrase: VS
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: Comment   .Starte rehabilitation
+>>>>> Phrase
+comment starte rehabilitation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (802):
+   660   C0947611:Comment [Intellectual Product]
+   827   C0034992:rehabilitation (Rehabilitation aspects) [Functional Concept]
+<<<<< Mappings
+
+Phrase: ;
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: prevent
+>>>>> Phrase
+prevent
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0309872:PREVENT (PREVENT (product)) [Pharmacologic Substance]
+<<<<< Mappings
+
+Phrase: falls
+>>>>> Phrase
+falls
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0000921:Falls (Accidental Falls) [Injury or Poisoning]
+<<<<< Mappings
+
+Phrase: ; sugggest
+>>>>> Phrase
+sugggest
+<<<<< Phrase
+
+Phrase: to
+>>>>> Phrase
+to
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0041260:TO (Tryptophanase) [Amino Acid, Peptide, or Protein,Enzyme]
+<<<<< Mappings
+
+Phrase: use
+>>>>> Phrase
+use
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0042153:use (utilization qualifier) [Functional Concept]
+<<<<< Mappings
+
+Phrase: walker
+>>>>> Phrase
+walker
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0043016:Walker (Walkers) [Medical Device]
+<<<<< Mappings
+
+Phrase: or
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: quadricane .
+>>>>> Phrase
+quadricane
+<<<<< Phrase
+Processing 00000000.tx.2: Keep current antiPLT therayp and hydratoin .
+
+Phrase: Keep
+>>>>> Phrase
+keep
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0333118:Keep (Retained) [Functional Concept]
+<<<<< Mappings
+
+Phrase: current antiPLT therayp
+>>>>> Phrase
+current antiplt therayp
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (660):
+   660   C0521116:CURRENT (Current (present time)) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: hydratoin .
+>>>>> Phrase
+hydratoin
+<<<<< Phrase
+Processing 00000000.tx.3: Arrange carotid duplex and TCD .Add kobla, FA for his  Hyperhomocysteinemia with decifiency of folic acid and vitamin B12 .Phone discuss with today duty another one CV  ->after reviewing his recent EKG or bedside EKG monitor  ->favor brief paroxysmal atrial fibrillation by 2019/9/27 06:56 EKG monitor    data in nursing records  ->favor APC in EKG of 2019/9/28 .
+
+Phrase: Arrange
+>>>>> Phrase
+arrange
+<<<<< Phrase
+
+Phrase: carotid duplex
+>>>>> Phrase
+carotid duplex
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0741968:Carotid (carotid) [Body Part, Organ, or Organ Component]
+   861   C0444916:Duplex [Spatial Concept]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: TCD .
+>>>>> Phrase
+tcd
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0206077:TCD (Ultrasonography, Doppler, Transcranial) [Diagnostic Procedure]
+<<<<< Mappings
+
+Phrase: Add
+>>>>> Phrase
+add
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1883712:Add (Add - instruction imperative) [Functional Concept]
+<<<<< Mappings
+
+Phrase: kobla,
+>>>>> Phrase
+kobla
+<<<<< Phrase
+
+Phrase: FA for his  Hyperhomocysteinemia
+>>>>> Phrase
+fa for his hyperhomocysteinemia
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (604):
+   604   C0598608:hyperhomocysteinaemia (Hyperhomocysteinemia) [Disease or Syndrome]
+<<<<< Mappings
+
+Phrase: with decifiency of folic acid
+>>>>> Phrase
+with decifiency of folic acid
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (640):
+   640   C0016410:FOLIC ACID (Folic Acid) [Organic Chemical,Pharmacologic Substance,Vitamin]
+<<<<< Mappings
+
+Phrase: and
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: vitamin B12 .Phone
+>>>>> Phrase
+vitamin b12 phone
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   734   C2936883:Vitamin B12 (Vitamin B12 [EPC]) [Pharmacologic Substance]
+   827   C1515258:Phone (Telephone Number) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: discuss with today duty
+>>>>> Phrase
+discuss with today duty
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (708):
+   770   C2584313:Discuss (Discussion (communication)) [Social Behavior]
+   770   C0310367:Today [Antibiotic,Organic Chemical]
+<<<<< Mappings
+
+Phrase: another one
+>>>>> Phrase
+one
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C0205447:ONE (One) [Quantitative Concept]
+<<<<< Mappings
+
+Phrase: CV  -
+>>>>> Phrase
+cv
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C4318503:CV (ciliary vesicle) [Cell Component]
+<<<<< Mappings
+
+Phrase: >
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: after reviewing
+>>>>> Phrase
+reviewing
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (1000):
+  1000   C1704362:Reviewing [Qualitative Concept]
+<<<<< Mappings
+
+Phrase: his recent EKG
+>>>>> Phrase
+recent ekg
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C0332185:Recent [Temporal Concept]
+   861   C0013798:EKG (Electrocardiogram) [Finding]
+<<<<< Mappings
+
+Phrase: or
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: bedside EKG monitor  -
+>>>>> Phrase
+bedside ekg monitor
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (901):
+   901   C0553601:ekg monitor (Electrocardiographic monitors) [Medical Device]
+<<<<< Mappings
+
+Phrase: >favor brief paroxysmal atrial fibrillation by 2019/9/27 06
+>>>>> Phrase
+favor brief paroxysmal atrial fibrillation by 2019 9 27 06
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (716):
+   573   C0309049:FAVOR (favor) [Organic Chemical,Pharmacologic Substance,Vitamin]
+   573   C1282927:brief (Shortened) [Qualitative Concept]
+   782   C0235480:ATRIAL FIBRILLATION, PAROXYSMAL (Paroxysmal atrial fibrillation) [Disease or Syndrome]
+   593   C1312248:9-27 (IFITM1 protein, human) [Amino Acid, Peptide, or Protein,Biologically Active Substance]
+<<<<< Mappings
+
+Phrase: :
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: 56 EKG monitor    data in nursing records  -
+>>>>> Phrase
+56 ekg monitor data in nursing records
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (728):
+   612   C0553601:ekg monitor (Electrocardiographic monitors) [Medical Device]
+   748   C3245479:data (Data call receiving device) [Medical Device]
+   612   C0028694:Nursing Records [Intellectual Product,Manufactured Object]
+<<<<< Mappings
+
+Phrase: >favor APC in EKG of 2019/9/28 .
+>>>>> Phrase
+favor apc in ekg of 2019 9 28
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (645):
+   578   C0309049:FAVOR (favor) [Organic Chemical,Pharmacologic Substance,Vitamin]
+   744   C0032580:APC (Adenomatous Polyposis Coli) [Neoplastic Process]
+   578   C0013798:EKG (Electrocardiogram) [Finding]
+<<<<< Mappings
+Processing 00000000.tx.4: Arrange Holter study  for evaluation his pAf frequency or burden severity
+
+Phrase: Arrange
+>>>>> Phrase
+arrange
+<<<<< Phrase
+
+Phrase: Holter study  for evaluation
+>>>>> Phrase
+holter study for evaluation
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (819):
+   819   C0015196:evaluation study (Evaluation Studies) [Intellectual Product]
+<<<<< Mappings
+
+Phrase: his pAf frequency
+>>>>> Phrase
+paf frequency
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C3811388:PAF (Platelet Activating Factor Measurement) [Laboratory Procedure]
+   861   C0439603:Frequency (Frequencies (time pattern)) [Temporal Concept]
+<<<<< Mappings
+
+Phrase: or
+>>>>> Phrase
+<<<<< Phrase
+
+Phrase: burden severity
+>>>>> Phrase
+burden severity
+<<<<< Phrase
+>>>>> Mappings
+Meta Mapping (888):
+   694   C2828008:Burden [Idea or Concept]
+   861   C0439793:Severity (Severities) [Qualitative Concept]
+<<<<< Mappings
+      

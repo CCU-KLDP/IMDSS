@@ -1,8 +1,8 @@
 from django.shortcuts   import render
 from django.http        import JsonResponse
 from django.http        import HttpResponse
-from db_models.models   import Department
-from emr.models         import TestEmr
+from db_models.models   import Department, Doctor, Xsl_data
+from emr.models         import EmrData, HospitalizedData
 from lxml               import etree
 
 import random
@@ -32,7 +32,7 @@ def emr_view(request, patient_id):
     how to know which patient_id, 
     2 ways: 1. passing data, 2. create global variable
     """
-    fixed_patient_id = '80001'
+    fixed_patient_id = '80000154'
 
     content = {
         "emr_table": get_emr_table(fixed_patient_id),
@@ -51,21 +51,25 @@ def get_emr_table(patient_id):
     return date, type, dept, content(emr)
     """
 
-    emr_df = pd.DataFrame(list(TestEmr.objects.filter(patient_id=patient_id).values()))
-    # print(emr_df.columns)
-    emr_groups = emr_df.groupby(['chartno', 'notetype', 'datetime'])
-    keys = list(emr_groups.groups.keys())
-    emr_lst = []
+    emr_df = pd.DataFrame(list(HospitalizedData.objects.filter(patient_id_id=patient_id).values()))
+    print(emr_df.columns)
 
-    for key in keys:
-        emr = emr_groups.get_group(key)
+    # keys = list(emr_groups.groups.keys())
+    emr_lst = []
+    print(emr_df)
+
+    for index, row in emr_df.iterrows():
+        # print(row['time'])
+        doctor = Doctor.objects.get(doctor_id=row['doctor_id_id'])
         emr_dict = {
-            "date": emr.iloc[0]['datetime'],
-            "type": emr.iloc[0]['notetype'],
-            "dept": 'secret',
-            "doctor":'pony',
+            "date": row['time'],
+            "type": row['type'],
+            "dept": Department.objects.get(dep_id=row['dep_id_id']),
+            "doctor": doctor.first_name + " " + doctor.last_name,
+            "id": row['emrid_id'],
         }
         emr_lst.append(emr_dict)
+
 
     return emr_lst
 
@@ -89,7 +93,6 @@ def get_dept_lst():
     從資料庫獲得所有部門(科別)
     """
     return list(Department.objects.all())
-
 
 
 def get_dept_table(dept_table_dict):
@@ -139,15 +142,6 @@ def get_table_item(dep_name, selected_table):
 
     return table_item_list
 
-# def get_table_lst():
-#     """
-#     @pony
-#     @return list
-#     建立評估表(table)
-#     """
-#     table_lst = ["table_" + str(x) for x in range(10)]
-#     return table_lst
-
 
 def ajax_get_dept_table(request):
     """
@@ -176,7 +170,6 @@ def ajax_get_table_item(request):
     # selected_dep = request.GET['selected_dep']
     selected_table = request.GET['selected_table']
     selected_dept = request.GET['selected_dept']
-    print(selected_dept)
 
 
     table_item_list = get_table_item(selected_dept, selected_table)
@@ -184,25 +177,26 @@ def ajax_get_table_item(request):
     
     return JsonResponse(table_item_list, safe=False)
 
+
 # also working
 def ajax_get_emr(request, patient_id):
     """
     @pony
     獲取select-emr-table所選擇的病歷id
     """
-    selected_emr_type = request.GET["selected_emr_type"]
-    print(selected_emr_type)
+    # selected_emr_id = request.GET['selected_emr_id']
+    selected_emr_id = 'WA1_1081004143855'
+    selected_emr_type = request.GET["selected_emr_type"].replace(' ', '_').lower()
 
-
-    if int(request.GET['selected_emr_id'].split("-")[2][:2]) < 17 : 
-        xml = lxml.etree.parse("/Users/kylehuang/DOING-PROJECTS/IMDSS-Project/IMDSS/xml_resource/WA2_1081004143938.xml")
-    else : 
-        xml = lxml.etree.parse("/Users/kylehuang/DOING-PROJECTS/IMDSS-Project/IMDSS/xml_resource/WA2_1081004143941.xml")
-    # print(type(xml))
-
-    print(request.GET)
-
-    transform = lxml.etree.XSLT(etree.parse("/Users/kylehuang/DOING-PROJECTS/IMDSS-Project/IMDSS/xml_resource/Progress_note.xsl"))
+    # print(selected_emr_type)
+    xml_df = pd.DataFrame(list(EmrData.objects.filter(emrid=selected_emr_id).values()))
+    xsl_df = pd.DataFrame(list(Xsl_data.objects.filter(XslId=selected_emr_type).values()))
+    # print(xml_df)
+    # print(xml_df['emrcontent'].str.cat(sep=''))
+    # xml = lxml.etree.parse("/Users/kylehuang/DOING-PROJECTS/IMDSS-Project/IMDSS/xml_resource/WA2_1081004143938.xml")
+    xml = lxml.etree.fromstring(xml_df['emrcontent'].str.cat(sep=''))
+    # transform = lxml.etree.XSLT(etree.parse("/Users/kylehuang/DOING-PROJECTS/IMDSS-Project/IMDSS/xml_resource/Progress_note.xsl"))
+    transform = lxml.etree.XSLT(etree.fromstring(xsl_df['XslContent'].str.cat(sep='')))
     html = transform(xml)
 
     content = {u"insert_html": str(html)}
