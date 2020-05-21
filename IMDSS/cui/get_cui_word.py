@@ -18,15 +18,15 @@ cur=conn.cursor()
 
 #cur.execute('create table emr_cui_word(id int AUTO_INCREMENT PRIMARY KEY, EmrId varchar(50), Cui varchar(10), WordList varchar(20000))')
 
-emrName = "WA2_1080926105745"
-f = open('C:\\Users\\Louise\\IMDSS-Project\\IMDSS\\cui\\UMLS_RESULT\\'+ emrName +'.txt', 'r', encoding="utf-8")
+emrName = "檔名"
+f = open('C:\\路徑\\IMDSS-Project\\IMDSS\\cui\\UMLS_RESULT\\'+ emrName +'.txt', 'r', encoding="utf-8")
 
 str1 = 'C'
 
 for line in f.readlines():
     if line.startswith(str1, 9) == True:
         cui = line[9:17]
-        wordlist = line[18:]
+        wordlist = line[18:].strip('\n')
         cur.execute('insert into emr_cui_word(EmrId,Cui,WordList) values(%s,%s,%s)',(emrName,cui,wordlist))
 
 f.close()
