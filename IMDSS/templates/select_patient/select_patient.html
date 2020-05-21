@@ -45,10 +45,39 @@
         </div>
         <h3><b>Select The Patient</b></h3>
 
+        
     </div>
+
+
+    
     <div class="bgsqr"></div>
     <div class="bgsqr3"></div>
     <div class="row-container">
+
+
+
+
+        <div id="slide"><!--GENERAL & SPECIFIC-->
+            <h1 class="ml1 se1">
+                <span class="text-wrapper">
+                    <span class="line line1"></span>
+                    <span class="letters">General</span>
+                    <span class="line line2"></span>
+                </span>
+            </h1><button id="detail" class="btn waves-effect waves-light detail" type="submit" name="action">Case Detail
+            <i class="material-icons right">view_list</i>
+        </button>
+            <h1 class="ml2 se2">
+                <span class="text-wrapper">
+                    <span class="line line1"></span>
+                    <span class="letters">Specific</span>
+                    <span class="line line2"></span>
+                </span>
+            </h1>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        </div>
+
+        
 
         <div class="display">
             8/01:&nbsp;trouble&nbsp;w&nbsp;balance&nbsp;x&nbsp;1&nbsp;year,&nbsp;fatigue,&nbsp;fall&nbsp;
@@ -58,16 +87,16 @@
             Walking&nbsp;lowly&nbsp;for&nbsp;few&nbsp;years&nbsp;getting&nbsp;worse
 
         </div>
-
+        
 
         <div class="select">
             <table id="select-pats-table">
-                
+
                 <thead>
                     <th width="7%"></th>
                     <th>Patient Name</th>
                 </thead>
-                <tbody id="tbse" >
+                <tbody id="tbse">
                     <tr>
                         <td width="7%" onclick="">Alethea Gorney</td>
                     </tr>
@@ -112,11 +141,11 @@
                         <td width="7%">Sharonda Muscarella</td>
                     </tr>
                 </tbody>
-                
+
             </table>
         </div>
 
-
+        
 
         <div class="btn-grp">
             <button class="btn waves-effect waves-light" type="submit" name="action">Visualize
@@ -130,7 +159,7 @@
             <button class="btn waves-effect waves-light" type="submit" name="action">MRI/XRAY IMG
                 <i class="material-icons right">image</i>
             </button>
-        </div>  
+        </div>
     </div>
 
 
@@ -191,6 +220,7 @@
     <script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
     <script type="text/javascript" , src="{% static 'js/materialize.js' %}"></script>
     <script type="text/javascript" , src="{% static 'js/select_patient/sp.js' %}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     {% endblock js-ref %}
 </body>
 

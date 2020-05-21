@@ -1,22 +1,27 @@
 .row-container{
     width: 80%;
     margin: 0 auto;
-    margin-top: 12%; /*改圖片上尖閣*/
-    margin-bottom: 5%;
-    
+    padding: 0;
+    margin-top: 0%; /*改圖片上尖閣*/
+    margin-bottom: 15%;
+    height: 60%;
 }
 
 .row-container .select{
+    position: relative;
     text-align: center;
     border: 1px solid black;
+    margin-top: 0px;
     margin-left: 1.5%;
     padding-right: 0%;
-    margin-top: 5%;
     height: 50%;
     width: 45%;
+    top: 0px;
 }
 
 #select-pats-table>thead>tr{
+    line-height: 10px;
+    top: 70px;
     display: table;
     width: 100%;
     table-layout: fixed;
@@ -24,12 +29,14 @@
     font-size: 30px;
 }
 #select-pats-table>tbody{
+    top: 90px;
     display: block;
-    height: 271px;
+    height: 175px;
     overflow-y: scroll;
     color: white;
     font-size: 20px;
 }
+
 #select-pats-table>tbody>tr{
     display: table;
     width: 100%;
@@ -43,16 +50,20 @@
 #select-pats-table>tbody>tr.selected {
     background-color: rgb(128,203,196);
 }
-
+#detail{ /**BUTTON/*/
+    position: relative;
+    left: 0%;
+    top: 22px;
+}
 
 .display{   
     margin-right: 8%;
     padding-right: 30%;
     margin-bottom: 10%;
-    position: relative;
+    position: absolute;
     float: right;
-    left: 0%;
-    top: 50%;
+    left: 60%;
+    top: 40%;
     width: 30%;
     height: 400px;
    background-color: #3331319a;
@@ -62,6 +73,7 @@
 .btn-grp{
     position: relative;
     left: 0%;
+    top: 18px;
 }
 
 
@@ -114,6 +126,10 @@
     top: 20px;
     left: 60px;
     color:#ffffff;
+}
+.detail{
+   position: absolute;
+    top: 20px;
 }
 .bgsqr2{
     position: absolute;
@@ -249,3 +265,77 @@ body{
 .material-icons{
   color: white;
 }
+
+/*GENERAL SPECIFIC文字*/
+#slide{
+    position: relative;
+    top: 0%;
+   
+}
+.ml1 {
+    font-weight: 900;
+    font-size: 3.5em;
+    color: white;
+    font-family: "SentyTEA";
+  }
+  .ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+    color: white;
+    font-family: "SentyTEA";
+  }
+  
+  .ml1 .letter {
+      position: relative;
+    display: inline-block;
+    line-height: 1em;
+    top: 20px;
+  }
+  .ml2 .letter {
+    position: relative;
+    top: 0px;
+    display: inline-block;
+    line-height: 1em;
+   
+  }
+  .ml1 .text-wrapper {
+    position: relative;
+    top: 16px;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  
+  .ml2 .text-wrapper {
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  .ml1 .line {
+    opacity: 1;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    transform-origin: 0 0;
+  }
+  .ml2 .line {
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    transform-origin: 0 0;
+  }
+  
+  .ml1 .line1 { top: 22px; }
+  .ml1 .line2 { bottom: 0; }
+  .ml2 .line1 { top: 63px; }
+  .ml2 .line2 { bottom: 70px; }
