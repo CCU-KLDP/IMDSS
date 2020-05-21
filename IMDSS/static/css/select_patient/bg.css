@@ -1,7 +1,7 @@
 .row-container{
     width: 80%;
     margin: 0 auto;
-    margin-top: 8%;
+    margin-top: 12%; /*改圖片上尖閣*/
     margin-bottom: 5%;
     
 }
@@ -55,7 +55,8 @@
     top: 50%;
     width: 30%;
     height: 400px;
-   background-color: #b9b0b09a
+   background-color: #3331319a;
+   color: white;
 }
 
 .btn-grp{
