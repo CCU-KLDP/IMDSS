@@ -23,7 +23,7 @@ Explain DB data which is usable.
 * chtor_cre_ti六碼為時間124939為12:49:39
 (住院編碼/伺服器儲存時間未改)
 ----
-##ni_PtMARec
+## ni_PtMARec
 * exeDt欄位 20190214…~20190222…改為20190925~20191010
 * saveDt欄位 20190214…~20190222…改為20190925~20191010
 * 前8碼為日期 後6碼為時間
@@ -50,7 +50,7 @@ Explain DB data which is usable.
  * 出院病摘：D02
  * 手術記錄：D03
 ----
-##db_models xsl data
+## db_models xsl data
 * 存含有tag的xsl檔
 
 

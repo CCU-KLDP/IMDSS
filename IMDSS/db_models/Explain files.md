@@ -9,21 +9,21 @@ Explain files which manual storage into mysql.
 * 用於病人資料視覺化中病患生理圖表、血壓資料
 * 各欄位意義參考CH_TOR.txt檔案
 ----
-##檔案名稱ni_PtMARec
+## 檔案名稱ni_PtMARec
 * 醫院提供之給藥記錄檔
 * 此為原始檔
 * 用於病人資料視覺化中藥物使用情形
 * 需與檔案ni_PtOrderUD一同對照使用
 * 各欄位意義參考ni_PtMARec.doc檔案
 ----
-##檔案名稱ni_PtOrderUD
+## 檔案名稱ni_PtOrderUD
 * 醫院提供之UD醫囑
 * 此為原始檔
 * 用於病人資料視覺化中藥物使用情形
 * 需與檔案ni_PtMARec一同對照使用
 * 各欄位意義參考ni_PtOrderUD.doc檔案
 ----
-##檔案名稱test_emr
+## 檔案名稱test_emr
 * 存學長已處理好之病歷xml資料
 * 用於emr頁面之病歷
 * 各欄位意義
