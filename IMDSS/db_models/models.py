@@ -177,12 +177,12 @@ class OutPatient_data(models.Model):
         )
     """
 
-
+"""
 class Hospitalized_data(models.Model):
-    """
+    '''
     @Kyle
     hospitalized_data
-    """
+    '''
     time = models.CharField(max_length=100)
     EmrId = models.ForeignKey(
         'db_models.Emr_data',
@@ -207,7 +207,7 @@ class Hospitalized_data(models.Model):
         to_field='dep_id'
         )
     Type = models.CharField(max_length=100)
-    """
+    '''
     need to temporary ignore it
     med_id = models.ForeignKey(
         'db_models.Med',
@@ -219,6 +219,6 @@ class Hospitalized_data(models.Model):
         on_delete=models.DO_NOTHING,
         to_field='id'
         )
-    """
+    '''
 
-
+"""
