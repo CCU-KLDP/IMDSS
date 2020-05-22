@@ -66,6 +66,21 @@ function fetch_cost_bar_chart(selected_therapy) {
 }
 
 
+function fetch_select_thread_chart(selected_therapy) {
+    var thread_chart = echarts.init(document.getElementById("thread_chart"), 'white', {renderer: 'canvas'});
+    $.ajax({
+        type: "GET",
+        url: "http://127.0.0.1:8000/therapy_analytics/select_chart/thread_chart",
+        data: {"selected_therapy": selected_therapy},
+        dataType: 'json',
+        success: function (result) {
+            thread_chart.setOption(result.data);
+        }
+    });
+    
+}
+
+
 /*
 function onCheckBox(checkbox)
 {

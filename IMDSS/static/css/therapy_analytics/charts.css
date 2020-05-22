@@ -29,11 +29,29 @@
     top: 147%;
     left: 12%;
     width: 80%;
-    height: 370px;
+    height: 350px;
 }
 
 #cost_bar_chart_container>#cost_bar_chart{
     width: 100%;
-    height: 370px;
+    height: 350px;
 }
 
+#select_ratio_container{
+    position: absolute;
+    top: 185%;
+    left: 12%;
+    width: 80%;
+    height: 430px;
+}
+
+#select_ratio_container>#thread_chart{
+    width: 75%;
+    height: 430px;
+}
+
+#select_ratio_container>#pie_chart{
+    width: 25%;
+    left: 75%;
+    height: 400px;
+}

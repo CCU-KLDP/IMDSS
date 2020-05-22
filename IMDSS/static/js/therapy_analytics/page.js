@@ -111,6 +111,8 @@ function disease_change(){
 
             fetch_success_ratio_chart(selected_therapy)
             fetch_cost_bar_chart(selected_therapy)
+            fetch_select_thread_chart(selected_therapy)
+            // fetch_select_pie_chart(selected_therapy)
             
   
 

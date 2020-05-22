@@ -5,6 +5,7 @@ import json
 from pyecharts.charts import Line, Bar, Pie
 from pyecharts import options as opts
 from pyecharts.commons.utils import JsCode
+from random import shuffle
 
 
 # Create your views here.
@@ -182,7 +183,6 @@ def get_cost_bar_charts(request):
     selected_therapy = request.GET["selected_therapy"]
 
     selected_therapy_lst = selected_therapy.split(" ")
-    print(selected_therapy_lst)
 
     # success ratio
     data = {
@@ -194,6 +194,8 @@ def get_cost_bar_charts(request):
     for i in selected_therapy_lst:
         cost_lst.append(data.get(i))
 
+
+
     bar = Bar()
 
     bar.add_xaxis(list(reversed(selected_therapy_lst)))
@@ -203,6 +205,7 @@ def get_cost_bar_charts(request):
         color=['red', 'blue', 'black'],
         category_gap='35%',
     )
+
     bar.reversal_axis()
     
     bar.set_global_opts(
@@ -246,14 +249,106 @@ def get_cost_bar_charts(request):
 
     bar.set_series_opts(
         label_opts=opts.LabelOpts(
-            position='right',
+            is_show=False,
         ),
         
     )
-    
 
-    
     bar_str = bar.dump_options()
-    print(bar_str)
+
 
     return HttpResponse(bar_str)
+
+
+def get_select_thread_chart(request):
+    selected_therapy = request.GET["selected_therapy"]
+    selected_therapy_lst = list(selected_therapy.split(" "))
+    x_data = [str(x) for x in range(1999, 2020)]
+    bar_data = list(range(10, 101))
+    shuffle(bar_data)
+
+    treatment_1_ratio = bar_data[:21]
+    treatment_2_ratio = bar_data[21:42]
+    treatment_3_ratio = bar_data[42:63]
+    data = {
+        "treatment_1": treatment_1_ratio,
+        "treatment_2": treatment_2_ratio,
+        "treatment_3": treatment_3_ratio,
+    }
+
+    color_lst = ["#5793f3", "#675bba", "#d14a61"]
+
+    line = Line()
+
+    line.add_xaxis(x_data)
+    for i in range(len(selected_therapy_lst)):
+        line.add_yaxis(
+            series_name=selected_therapy_lst[i],
+            y_axis= list(data[selected_therapy_lst[i]]),
+            color=color_lst[i],
+            linestyle_opts=opts.LineStyleOpts(
+                width=3,
+            ), 
+            label_opts=opts.LabelOpts(
+                is_show=False,
+            )
+        )
+
+    line.set_global_opts(
+        yaxis_opts=opts.AxisOpts(
+            type_="value",
+            min_=0,
+            max_=100,
+            position="left",
+            axisline_opts=opts.AxisLineOpts(
+                linestyle_opts=opts.LineStyleOpts(color="baack")
+            ),
+            axislabel_opts=opts.LabelOpts(formatter="{value} %"),
+        ),
+
+
+
+        title_opts=opts.TitleOpts(
+            title="Select ratio(%)",
+            title_textstyle_opts=opts.TextStyleOpts(
+                font_size=30,
+                font_family="Microsoft YaHei",
+            ),
+            padding=[0, 0, 50, 0],
+            
+        ),
+        
+        tooltip_opts=opts.TooltipOpts(
+            trigger="axis",
+            axis_pointer_type="cross",
+            background_color="white",
+            border_width=1,
+            textstyle_opts=opts.TextStyleOpts(
+                color="black"
+            ),
+        ),
+
+        legend_opts=opts.LegendOpts(
+            is_show=False,
+        ),
+        datazoom_opts=[
+            opts.DataZoomOpts(
+                is_show=True,
+                is_realtime=True,
+                type_="inside",
+                range_end=60,
+            ),
+            opts.DataZoomOpts(
+                is_show=True,
+                is_realtime=True,
+                range_end=60,
+            ),
+        ],
+    )
+
+
+    line_str = line.dump_options_with_quotes()
+
+
+
+    return JsonResponse(json.loads(line_str))
