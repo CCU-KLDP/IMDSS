@@ -28,6 +28,7 @@ def select_patient_view(request):
 
     patients = list(Patient.objects.all().values())
 
+    # key: patient_id value: the latest memo by doctor id
     content = {
         "doctor": login_doctor,
         "patients": patients,

@@ -69,7 +69,7 @@ def get_emr_table(patient_id):
             "doctor": doctor.first_name + " " + doctor.last_name,
             "id": row['emrid_id'],
         }
-        print(emr_dict)
+        # print(emr_dict)
         emr_lst.append(emr_dict)
 
 
@@ -150,7 +150,7 @@ def ajax_get_dept_table(request):
 
     return JsonResponse(dept_table_dict)
 
-
+# also working
 def ajax_get_table_item(request):
     """
     @pony
@@ -165,13 +165,15 @@ def ajax_get_table_item(request):
 
     table_item_list = get_table_item(selected_dept, selected_table)
 
+
     
     return JsonResponse(table_item_list, safe=False)
 
 
 def xsl_case_return(selected_emr_type):
     return {
-        "Emergency Outpatient": "opd_style",
+        "Emergency": "opd_style",
+        "Outpatient": "opd_style",
         "Hospitalized Consultation": "consult_ipd",
         "Emergency Consultation": "consult_er",
         "Leave Note": "discharge_style",
@@ -229,3 +231,6 @@ def ajax_save_memo(request, patient_id):
     ret = {"flag": 1}
 
     return response_as_json(ret)
+
+
+#  

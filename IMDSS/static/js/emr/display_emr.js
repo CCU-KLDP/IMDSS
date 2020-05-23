@@ -19,6 +19,7 @@ $("#select-emr-table>tbody").on("click", "tr", function() {
 
     $("#select-emr-table>tbody>tr").removeClass("selected")
     $(this).addClass("selected")
+
     $.ajax({
         type: "GET",
         url: url + "get_emr",
