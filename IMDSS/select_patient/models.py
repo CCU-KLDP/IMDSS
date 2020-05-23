@@ -1,15 +1,20 @@
+# This is an auto-generated Django model module.
+# You'll have to do the following manually to clean this up:
+#   * Rearrange models' order
+#   * Make sure each model has one field with primary_key=True
+#   * Make sure each ForeignKey has `on_delete` set to the desired behavior.
+#   * Remove `managed = False` lines if you wish to allow Django to create, modify, and delete the table
+# Feel free to rename the models, but don't rename db_table values or field names.
 from django.db import models
-# Create your models here.
 
 
-# class Patient_data(models.Model):
-#     """
-#     @Danny
-#     病患資料
-#     """
-#     date = models.DateTimeField(default=datetime.now()) # option 不知道是啥
-#     duration = models.DurationField() 
-#     patients_name = models.CharField(max_length=20)
-#     division = models.CharField(max_length=50) # 科別
-#     doctors_name = models.CharField(max_length=20)
-  
+class MemoData(models.Model):
+    date = models.DateField()
+    content = models.CharField(max_length=6000)
+    doctor_id_id = models.CharField(max_length=100)
+    patient_id_id = models.CharField(max_length=100)
+    time = models.TimeField()
+
+    class Meta:
+        managed = False
+        db_table = 'memo_data'
