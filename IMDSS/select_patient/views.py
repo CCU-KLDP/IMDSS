@@ -1,7 +1,10 @@
-from django.shortcuts import render
-from db_models.models import Patient, Doctor
-from django.http import HttpResponse
-from django.urls import reverse
+from django.shortcuts      import render
+from db_models.models      import Patient, Doctor
+from django.http           import HttpResponse
+from django.urls           import reverse
+from .models               import MemoData
+
+import pandas              as pd
 import json
 # from .forms import Patient_data_form
 
@@ -28,11 +31,26 @@ def select_patient_view(request):
 
     patients = list(Patient.objects.all().values())
 
+    memo_df = pd.DataFrame(list(MemoData.objects.filter(doctor_id_id=doctor_id).values()))
+
+    memo_df['datetime'] = memo_df.apply(lambda r : pd.datetime.combine(r['date'],r['time']),1)
+    print(memo_df)
+    patient_groups = memo_df.groupby('patient_id_id')
+
+    memo_dict = {}
+
+    for key in list(patient_groups.groups.keys()):
+        df = patient_groups.get_group(key).sort_values(by='datetime', ascending=False)
+        memo_dict[key] = df.iloc[0]['content']
+
+        print(memo_dict)
+
+
     # key: patient_id value: the latest memo by doctor id
     content = {
         "doctor": login_doctor,
         "patients": patients,
-        # "patient_description": 
+        "memo": memo_dict,
     }
     return render(request, "select_patient/select_patient.html", content)
 
