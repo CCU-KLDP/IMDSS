@@ -125,10 +125,12 @@ def get_table_item(dep_name, selected_table):
 
     else:
         table_groups = dept_df.groupby('name')
+        table_item_list = []
 
-        table_item_list = table_groups.get_group(selected_table).iloc[:]['medical_condition'].tolist()
+        for index, row in table_groups.get_group(selected_table).iterrows():
+            table_item_list.append([row['medical_condition'], row['cuis_list']])
 
-    # print(table_item_list)
+    print(table_item_list)
 
 
     return table_item_list
