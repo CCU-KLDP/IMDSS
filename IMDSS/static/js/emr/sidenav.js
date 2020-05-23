@@ -44,7 +44,9 @@ function table_change(){
                 html = 
                     '<div class="item-list-container">'+
                     "<label>"+
-                    '<input type="checkbox" class="filled-in item-list" />'+
+                    // 等CUI傳過來，id = CUI
+                    // onclick="update_mark()"
+                    '<input type="checkbox" class="filled-in item-list"  />'+
                     "<span>"+
                     result[i]+
                     "</span>"+

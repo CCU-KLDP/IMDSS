@@ -31,6 +31,7 @@ def select_patient_view(request):
     content = {
         "doctor": login_doctor,
         "patients": patients,
+        # "patient_description": 
     }
     return render(request, "select_patient/select_patient.html", content)
 
