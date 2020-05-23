@@ -25,7 +25,6 @@
             </div>
         </nav>
     </div>
-    <div id="login_flag" style="display: none;">{{ flag }}</div>
 
 
     <div class="row">
@@ -44,20 +43,25 @@
             <div class="col s10 offset-s2">
                 <h4>Login to IMDSS</h4>
             </div>
-            <form class="col s12" method="POST">
+
+            <div id="login_fail">
+                {{ x }} &nbsp{{ error_text }}
+            </div>
+
+            <form class="col s12" method="POST" style="margin-top: 5%;">
                 {% csrf_token %}
                 <div class="row">
                 <div class="input-field col s12">
                     <i class="material-icons prefix">account_circle</i>
                     <!-- {{ user.account }} -->
-                    <input type="text" name="username" placeholder="Username" id="account">
+                    <input type="text" name="username" placeholder="Username">
                 </div>
                 </div>
                 <div class="row">
                 <div class="input-field col s12">
                     <i class="material-icons prefix">lock_outlinee</i>
                     <!-- {{ user.password }} -->
-                    <input type="password" name="password" placeholder="Password" id="pwd">
+                    <input type="password" name="password" placeholder="Password">
                 </div>
                 </div>
                 <div>
@@ -67,7 +71,7 @@
                             <span white-text>Remember me</span>
                         </label>
                     </span>
-                    <button class="btn waves-effect waves-white right" onclick="verify()">Login
+                    <button class="btn waves-effect waves-white right" type="submit">Login
                         <i class="material-icons right">send</i>
                     </button>
                 </div>

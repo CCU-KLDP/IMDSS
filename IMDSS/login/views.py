@@ -23,10 +23,8 @@ def login_view(request):
     @kyle
     login
     """
-
-    return render(request, "login/login_page.html", {"flag": 0})
-
-    """
+    if request.method == "GET":
+        return render(request, "login/login_page.html")
     else:
         username = request.POST.get('username')
         password = request.POST.get('password')
@@ -34,21 +32,7 @@ def login_view(request):
         if user:
             return HttpResponseRedirect(reverse("select_patient:select_page"))
         else:
-            return render(request, "login/login_page.html", {"flag": 1})
-    """
-
-def ajax_verify_user(request):
-    if request.method == "POST":
-        username = request.POST.get('username')
-        password = request.POST.get('password')
-        user = authenticate(username=username, password=password)
-        if user:
-            return HttpResponseRedirect(reverse("select_patient:select_page"))
-        else:
-            return render(request, "login/login_page.html", {"flag": 1})
-    
-    else : 
-        return render(request, "login/login_page.html", {"flag": 0})
+            return render(request, "login/login_page.html", {"x": "x", "error_text": "Login Fail!"})
 
 
 def signup_user(request):

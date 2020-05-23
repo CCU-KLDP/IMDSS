@@ -176,3 +176,12 @@
 #nav-mobile{
     margin-right: 11%;
 }
+
+#login_fail{
+    position: absolute;
+    top: 520%;
+    right:29%;
+    color: red;
+    font-size: 27px;
+    font-family: Microsoft Yahei;
+}
