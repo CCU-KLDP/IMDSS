@@ -440,7 +440,15 @@ def get_select_pie_chart(request):
                 font_size=30,
                 font_family="Microsoft YaHei",
             )
-        )
+        ),
+
+        tooltip_opts=opts.TooltipOpts(
+            background_color="white",
+            border_width=1,
+            textstyle_opts=opts.TextStyleOpts(
+                color="black"
+            ),
+        ),
     )
 
 
