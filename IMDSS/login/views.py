@@ -23,8 +23,10 @@ def login_view(request):
     @kyle
     login
     """
-    if request.method == "GET":
-        return render(request, "login/login_page.html", {})
+
+    return render(request, "login/login_page.html", {"flag": 0})
+
+    """
     else:
         username = request.POST.get('username')
         password = request.POST.get('password')
@@ -32,7 +34,21 @@ def login_view(request):
         if user:
             return HttpResponseRedirect(reverse("select_patient:select_page"))
         else:
-            return render(request, "login/login_page.html", {"error": "Username and password did not match!"})
+            return render(request, "login/login_page.html", {"flag": 1})
+    """
+
+def ajax_verify_user(request):
+    if request.method == "POST":
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        user = authenticate(username=username, password=password)
+        if user:
+            return HttpResponseRedirect(reverse("select_patient:select_page"))
+        else:
+            return render(request, "login/login_page.html", {"flag": 1})
+    
+    else : 
+        return render(request, "login/login_page.html", {"flag": 0})
 
 
 def signup_user(request):
@@ -61,6 +77,3 @@ def signup_user(request):
     #         print(user_form.errors, detail_form.errors)
     #         return render(request, "login/signup_page.html", {"user_form": user_form, "detail_form": detail_form, "error": errors})
     return 0
-
-def success_page_view(request):
-    return render(request, "another/test.html", {})

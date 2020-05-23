@@ -13,49 +13,19 @@
         <nav class="nav-wrapper grey darken-3 ">
             <div class="container">
                 <div class="row">
-                    <div class="col s1">
+                    <div class="col s5">
                         <a href="/login" class="small brand-logo">
                             <img class="responsive-img" src="{% static 'image/login/nav_icon.png' %}" width="150" >
                         </a>
                     </div>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a href="{% url 'login:signup_user' %}">Sign Up</a></li>
-                        <li><a href="/login">Another2</a></li>
-                        <li><a href="/login">Another3</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
-    <!--
-    <div class="slider fullscreen">
-        <ul class="slides">
-            <li>
-                <img src="{% static 'image/bg_picture1.png' %}">
-                <div class="caption center-align">
-                    <h3>这是一个巨大的标签行</h3>
-                    <h5 class="light grey-text text-lighten-3">这是我们的小口号。</h5>
-                </div>
-            </li>
-            <li>
-                <img src="{% static 'image/bg_picture2.jpg' %}"> 
-                <div class="caption left-align">
-                    <h3>左对齐标题</h3>
-                    <h5 class="light grey-text text-lighten-3">这是我们的小口号。</h5>
-                </div>
-            </li>
-            <li>
-                <img src="{% static 'image/bg_picture3.jpg' %}">
-                <div class="caption right-align">
-                    <h3>右对齐标题</h3>
-                    <h5 class="light grey-text text-lighten-3">这是我们的小口号。</h5>
-                </div>
-            </li>
-        </ul>
-    </div>
-    -->
-    <!-- this can display error -->
-    <font size="10" color="red">{{ error }}</font>
+    <div id="login_flag" style="display: none;">{{ flag }}</div>
 
 
     <div class="row">
@@ -80,14 +50,14 @@
                 <div class="input-field col s12">
                     <i class="material-icons prefix">account_circle</i>
                     <!-- {{ user.account }} -->
-                    <input type="text" name="username" placeholder="Username">
+                    <input type="text" name="username" placeholder="Username" id="account">
                 </div>
                 </div>
                 <div class="row">
                 <div class="input-field col s12">
                     <i class="material-icons prefix">lock_outlinee</i>
                     <!-- {{ user.password }} -->
-                    <input type="password" name="password" placeholder="Password">
+                    <input type="password" name="password" placeholder="Password" id="pwd">
                 </div>
                 </div>
                 <div>
@@ -97,7 +67,7 @@
                             <span white-text>Remember me</span>
                         </label>
                     </span>
-                    <button class="btn waves-effect waves-white right" type="submit" name="action">Login
+                    <button class="btn waves-effect waves-white right" onclick="verify()">Login
                         <i class="material-icons right">send</i>
                     </button>
                 </div>
@@ -168,18 +138,7 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript", src="{% static 'js/materialize.js' %}"></script>
 <script type="text/javascript", src="{% static 'js/login/feature_show.js' %}"></script>
-
-<!-- silder demo
-<script>
-    $(document).ready(function(){
-        $('.slider').slider({
-            indicators: false,
-            interval: 5000
-        });
-    });
-</script>
--->
-
+<script type="text/javascript", src="{% static 'js/login/verify.js' %}"></script>
 
 {% endblock js-ref %}
 </body>

@@ -125,12 +125,9 @@ def get_table_item(dep_name, selected_table):
 
     else:
         table_groups = dept_df.groupby('name')
-        table_item_list = []
+        table_item_list = table_groups.get_group(selected_table).iloc[:]['medical_condition'].tolist()
 
-        for index, row in table_groups.get_group(selected_table).iterrows():
-            table_item_list.append([row['medical_condition'], row['cuis_list']])
-
-    print(table_item_list)
+    # print(table_item_list)
 
 
     return table_item_list
@@ -194,9 +191,6 @@ def ajax_get_emr(request, patient_id):
     selected_emr_id = request.GET['selected_emr_id']
     selected_emr_type = xsl_case_return(request.GET["selected_emr_type"])
 
-    print("ajax")
-    print(request.GET)
-
     xml_df = pd.DataFrame(list(EmrData.objects.filter(emrid=selected_emr_id).values()))
     xsl_df = pd.DataFrame(list(Xsl_data.objects.filter(XslId=selected_emr_type).values()))
     # print(xml_df)
@@ -235,4 +229,3 @@ def ajax_save_memo(request, patient_id):
     return response_as_json(ret)
 
 
-#  
