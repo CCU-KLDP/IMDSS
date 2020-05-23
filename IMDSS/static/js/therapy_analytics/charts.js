@@ -74,10 +74,38 @@ function fetch_select_thread_chart(selected_therapy) {
         data: {"selected_therapy": selected_therapy},
         dataType: 'json',
         success: function (result) {
-            thread_chart.setOption(result.data);
+            thread_chart.setOption(result.data, {'notMerge': true});
+            thread_chart.on('click', function (param) {
+                
+                selected_therapy=""
+                
+                $(".therapy_checkbox_items>input:checked[name=therapy]").each(function(index){
+                    if($(this)[0].checked){
+                        selected_therapy+=$(this).next('span').text(); 
+                        selected_therapy+=" ";
+                    }
+                });
+            
+                selected_therapy = selected_therapy.slice(0, -1)
+
+                fetch_select_pie_chart(selected_therapy, param.name)
+            }); 
         }
     });
     
+}
+
+function fetch_select_pie_chart(selected_therapy, selected_year) {
+    var pie_chart = echarts.init(document.getElementById("pie_chart"), 'white', {renderer: 'canvas'});
+    $.ajax({
+        type: "GET",
+        url: "http://127.0.0.1:8000/therapy_analytics/select_chart/pie_chart",
+        data: {"selected_therapy": selected_therapy, "selected_year": selected_year},
+        success: function (result) {
+            var re_obj = (new Function("return " + result))();
+            pie_chart.setOption(re_obj, {'notMerge': true});
+        }
+    });    
 }
 
 

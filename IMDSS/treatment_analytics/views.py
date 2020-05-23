@@ -48,13 +48,33 @@ def ajax_get_treatment_detail(request):
 
 def ajax_side_effect_detail(request):
     selected_disease = request.GET["selected_disease"]
+
     treatment_lst = ["treatment_1", "treatment_2", "treatment_3"]
     dic = {}
     dic['treatment'] = treatment_lst
     for i in treatment_lst:
         dic[i] = "side effect description - " + i.split("_")[1]
 
+
     return response_as_json(dic)
+
+# 乾我之前沒有規劃好，不然應該可以不用拆成 ajax_side_effect_detail 跟 update_side_effect_detail -w-
+def update_side_effect_detail(request):
+    selected_dept = request.GET["selected_dept"]
+    selected_disease = request.GET["selected_disease"]
+    selected_therapy = request.GET["selected_therapy"]
+
+    selected_therapy_lst = selected_therapy.split(" ")
+
+    dic = {}
+
+    dic["selected_therapy"] = selected_therapy_lst
+    for i in selected_therapy_lst:
+        dic[i] = "side effect description - " + i.split("_")[1]
+
+    return response_as_json(dic)
+
+    
 
 
 """
@@ -270,13 +290,28 @@ def get_select_thread_chart(request):
     treatment_1_ratio = bar_data[:21]
     treatment_2_ratio = bar_data[21:42]
     treatment_3_ratio = bar_data[42:63]
+
     data = {
         "treatment_1": treatment_1_ratio,
         "treatment_2": treatment_2_ratio,
         "treatment_3": treatment_3_ratio,
     }
 
-    color_lst = ["#5793f3", "#675bba", "#d14a61"]
+    # 奇怪的bug==，顏色會反過來
+    store_color_lst = ["#5793f3", "#675bba", "#d14a61"]
+
+    use_color_lst = []
+    selected_idx_lst = []
+
+    all_therapy_lst = list(data.keys())
+
+    for i in selected_therapy_lst:
+        selected_idx_lst.append(all_therapy_lst.index(i))
+
+    for i in selected_idx_lst:
+        use_color_lst.append(store_color_lst[i])
+
+    use_color_lst.reverse()
 
     line = Line()
 
@@ -284,15 +319,17 @@ def get_select_thread_chart(request):
     for i in range(len(selected_therapy_lst)):
         line.add_yaxis(
             series_name=selected_therapy_lst[i],
-            y_axis= list(data[selected_therapy_lst[i]]),
-            color=color_lst[i],
+            y_axis=list(data[selected_therapy_lst[i]]),
+            color=use_color_lst[i],
             linestyle_opts=opts.LineStyleOpts(
                 width=3,
+                
             ), 
             label_opts=opts.LabelOpts(
                 is_show=False,
             )
         )
+
 
     line.set_global_opts(
         yaxis_opts=opts.AxisOpts(
@@ -301,7 +338,7 @@ def get_select_thread_chart(request):
             max_=100,
             position="left",
             axisline_opts=opts.AxisLineOpts(
-                linestyle_opts=opts.LineStyleOpts(color="baack")
+                linestyle_opts=opts.LineStyleOpts(color="black")
             ),
             axislabel_opts=opts.LabelOpts(formatter="{value} %"),
         ),
@@ -327,6 +364,7 @@ def get_select_thread_chart(request):
                 color="black"
             ),
         ),
+    
 
         legend_opts=opts.LegendOpts(
             is_show=False,
@@ -346,9 +384,68 @@ def get_select_thread_chart(request):
         ],
     )
 
-
     line_str = line.dump_options_with_quotes()
 
-
-
     return JsonResponse(json.loads(line_str))
+
+
+def get_select_pie_chart(request):
+    selected_therapy = request.GET["selected_therapy"]
+    selected_therapy_lst = list(selected_therapy.split(" "))
+
+    selected_year = request.GET["selected_year"]
+
+    all_therapy_lst = ["treatment_1", "treatment_2", "treatment_3"]
+
+    data = {
+        "treatment_1": 40,
+        "treatment_2": 30,
+        "treatment_3": 30,
+    }
+
+    pie_data = []
+
+    selected_idx_lst = []
+
+    for i in selected_therapy_lst:
+        temp = [i, data[i]]
+        pie_data.append(temp)
+        selected_idx_lst.append(all_therapy_lst.index(i))
+
+    store_color_lst = ["#5793f3", "#675bba", "#d14a61"]
+    use_color_lst = []
+
+    for i in selected_idx_lst:
+        use_color_lst.append(store_color_lst[i])
+
+    pie = Pie()
+    pie.add(
+        "select ratio yearly",
+        pie_data,
+        label_opts=opts.LabelOpts(
+            font_size=18,
+            font_family="Microsoft YaHei",
+        ),
+        radius=[0, 90],
+        
+    )
+    pie.set_colors(use_color_lst)
+    pie.set_global_opts(
+        legend_opts=opts.LegendOpts(
+            is_show=False,
+        ),
+        title_opts=opts.TitleOpts(
+            title=selected_year,
+            title_textstyle_opts=opts.TextStyleOpts(
+                font_size=30,
+                font_family="Microsoft YaHei",
+            )
+        )
+    )
+
+
+
+
+    pie_str = pie.dump_options()
+
+    return HttpResponse(pie_str)
