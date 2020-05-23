@@ -16,12 +16,12 @@ def response_as_json(data):
     response["Access-Control-Allow-Origin"] = "*"
     return response
 
+
 def get_patient_list():
-    
     return list(Patient.objects.all())
 
+
 def select_patient_view(request):
-    
     # doctor_id = request.GET['doctor_id']
     doctor_id = '04135'
     login_doctor = Doctor.objects.get(doctor_id=doctor_id) 
@@ -31,6 +31,7 @@ def select_patient_view(request):
     content = {
         "doctor": login_doctor,
         "patients": patients,
+        # "patient_description": 
     }
     return render(request, "select_patient/select_patient.html", content)
 
