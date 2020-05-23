@@ -64,10 +64,11 @@
                     <span class="letters">General</span>
                     <span class="line line2"></span>
                 </span>
-            </h1><button id="detail" class="btn waves-effect waves-light detail" type="submit" name="action">Case Detail
-            <i class="material-icons right">view_list</i>
-        </button>
-            <h1 class="ml2 se2">
+            </h1>
+            <button id="detail" class="btn waves-effect waves-light detail large" style="margin-left: 3%;">Therapy Analytics
+                <i class="material-icons right">equalizer</i>
+            </button>
+            <h1 class="ml2 se2" style="margin-bottom: 40px;">
                 <span class="text-wrapper">
                     <span class="line line1"></span>
                     <span class="letters">Specific</span>
@@ -79,7 +80,7 @@
 
         
 
-        <div class="display">
+        <div id="display">
             8/01:&nbsp;trouble&nbsp;w&nbsp;balance&nbsp;x&nbsp;1&nbsp;year,&nbsp;fatigue,&nbsp;fall&nbsp;
             (retropulsex3)
             No&nbsp;tremor,&nbsp;handwriting&nbsp;OK,&nbsp;no&nbsp;shuffling<br>
@@ -110,65 +111,22 @@
                         </tr>
 
                     {% endfor %}
-                    <!-- <tr>
-                        <td width="7%" onclick="">Alethea Gorney</td>
-                    </tr>
-                    <tr>
-                        <td width="7%">Nakita Bible</td>
-                    </tr>
-                    <tr>
-                        <td width="7%">Diane Ruano</td>
-                    </tr>
-                    <tr>
-                        <td width="7%">Delaine Connor</td>
-                    </tr>
-                    <tr>
-                        <td width="7%">Lezlie Agar</td>
-                    </tr>
-                    <tr>
-                        <td width="7%">Kassie Pascual</td>
-                    </tr>
-                    <tr>
-                        <td width="7%">Clint Lenzen</td>
-                    </tr>
-                    <tr>
-                        <td width="7%">Cornelius Helbing</td>
-                    </tr>
-                    <tr>
-                        <td width="7%">Luci Bondurant</td>
-                    </tr>
-                    <tr>
-                        <td width="7%">Alden Wroten</td>
-                    </tr>
-                    <tr>
-                        <td width="7%">Kristina Sansom</td>
-                    </tr>
-                    <tr>
-                        <td width="7%">Dottie Waddington</td>
-                    </tr>
-                    <tr>
-                        <td width="7%">Chanell Paddock
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="7%">Sharonda Muscarella</td>
-                    </tr> -->
                 </tbody>
-
             </table>
         </div>
 
         
 
         <div class="btn-grp">
-            <button class="btn waves-effect waves-light" type="submit" name="action" id = "visualize">Visualize
+            <button class="btn waves-effect waves-light" id = "visualize">Visualize
                 <i class="material-icons right">remove_red_eye</i>
             </button>
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-            <button class="btn waves-effect waves-light" type="submit" name="action" id = "emr_search">Compare CUI
+
+            <button class="btn waves-effect waves-light" id = "emr_search">Compare CUI
                 <i class="material-icons right">compare</i>
             </button>
-            <button class="btn waves-effect waves-light" type="submit" name="action">MRI/XRAY IMG
+
+            <button class="btn waves-effect waves-light" id="mri">MRI/XRAY IMG
                 <i class="material-icons right">image</i>
             </button>
         </div>

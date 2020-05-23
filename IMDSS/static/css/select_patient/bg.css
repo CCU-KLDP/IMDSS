@@ -3,7 +3,7 @@
     margin: 0 auto;
     padding: 0;
     margin-top: 0%; /*改圖片上尖閣*/
-    margin-bottom: 15%;
+    margin-bottom: 10%;
     height: 60%;
 }
 
@@ -14,13 +14,14 @@
     margin-top: 0px;
     margin-left: 1.5%;
     padding-right: 0%;
-    height: 50%;
+    height: 65%;
     width: 45%;
     top: 0px;
 }
 
+
+
 #select-pats-table>thead>tr{
-    line-height: 10px;
     top: 70px;
     display: table;
     width: 100%;
@@ -31,7 +32,7 @@
 #select-pats-table>tbody{
     top: 90px;
     display: block;
-    height: 175px;
+    height: 298px;
     overflow-y: scroll;
     color: white;
     font-size: 20px;
@@ -56,14 +57,14 @@
     top: 22px;
 }
 
-.display{   
+#display{   
     margin-right: 8%;
     padding-right: 30%;
     margin-bottom: 10%;
     position: absolute;
     float: right;
     left: 60%;
-    top: 40%;
+    top: 48%;
     width: 30%;
     height: 400px;
     font-size: 25px;
@@ -219,10 +220,10 @@ body{
 .wrapsearch{
  
     width: 200px;
-  position: relative;
-  top: 0px;
-  left: 400px;
-  transform: translate(-50%, -50%);
+    position: relative;
+    top: 0px;
+    left: 400px;
+    transform: translate(-50%, -50%);
 }
 
 .search {
@@ -267,7 +268,17 @@ body{
   color: white;
 }
 
+#visualize{
+    margin-left: 2%;
+}
 
+#emr_search{
+    margin-left: 3%;
+}
+
+#mri{
+    margin-left: 3%;
+}
 
 
 
@@ -317,7 +328,7 @@ body{
   }
   
   .ml1 .letter {
-      position: relative;
+    position: relative;
     display: inline-block;
     line-height: 1em;
     top: 20px;
