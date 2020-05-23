@@ -52,11 +52,11 @@ def get_emr_table(patient_id):
     """
 
     emr_df = pd.DataFrame(list(HospitalizedData.objects.filter(patient_id_id=patient_id).values()))
-    print(emr_df.columns)
+    # print(emr_df.columns)
 
     # keys = list(emr_groups.groups.keys())
     emr_lst = []
-    print(emr_df)
+    # print(emr_df)
 
     for index, row in emr_df.iterrows():
         # print(row['time'])
@@ -68,22 +68,11 @@ def get_emr_table(patient_id):
             "doctor": doctor.first_name + " " + doctor.last_name,
             "id": row['emrid_id'],
         }
+        print(emr_dict)
         emr_lst.append(emr_dict)
 
 
     return emr_lst
-
-"""
-emr content dict
-
-"date": emr.iloc[0]['datetime'],
-"type": emr.iloc[0]['notetype'],
-"dept": 'secret',
-"content": emr.iloc[:]['content'].str.strip()
-"""
-
-
-
 
 
 def get_dept_lst():
@@ -120,6 +109,7 @@ def get_dept_table(dept_table_dict):
     # return dept_table_dict[dept]
     return dept_table_dict
 
+
 def get_table_item(dep_name, selected_table):
 
     table_item_list = []
@@ -137,7 +127,7 @@ def get_table_item(dep_name, selected_table):
 
         table_item_list = table_groups.get_group(selected_table).iloc[:]['medical_condition'].tolist()
 
-    print(table_item_list)
+    # print(table_item_list)
 
 
     return table_item_list
@@ -178,6 +168,18 @@ def ajax_get_table_item(request):
     return JsonResponse(table_item_list, safe=False)
 
 
+def xsl_case_return(selected_emr_type):
+    return {
+        "Emergency Outpatient": "opd_style",
+        "Hospitalized Consultation": "consult_ipd",
+        "Emergency Consultation": "consult_er",
+        "Leave Note": "discharge_style",
+        "Admission Note": "admission_note",
+        "Progress Note": "Progress_note",
+        "Problem List": "ProblemList",
+        "Special note": "Special_Note",
+    }.get(selected_emr_type, "You are wrong!") # You are wrong is default if x not found
+
 # also working
 def ajax_get_emr(request, patient_id):
     """
@@ -185,10 +187,13 @@ def ajax_get_emr(request, patient_id):
     獲取select-emr-table所選擇的病歷id
     """
     # selected_emr_id = request.GET['selected_emr_id']
-    selected_emr_id = 'WA1_1081004143855'
-    selected_emr_type = request.GET["selected_emr_type"].replace(' ', '_').lower()
+    selected_emr_id = 'A03_1081002135845'
+    selected_emr_type = xsl_case_return(request.GET["selected_emr_type"])
 
-    # print(selected_emr_type)
+    print(request.GET)
+
+    # print("id", selected_emr_id)s
+
     xml_df = pd.DataFrame(list(EmrData.objects.filter(emrid=selected_emr_id).values()))
     xsl_df = pd.DataFrame(list(Xsl_data.objects.filter(XslId=selected_emr_type).values()))
     # print(xml_df)
@@ -211,7 +216,7 @@ def ajax_get_search_emr(request):
     """
     input_text = request.GET['input_text']
     highlight = [1, 3]
-    print(input_text)
+    # print(input_text)s
 
     return JsonResponse(highlight, safe=False)
 
@@ -220,7 +225,7 @@ def ajax_save_memo(request, patient_id):
     content = request.GET['content']
     time = request.GET['time']
 
-    print("{} : {},time : {}".format(patient_id, content, time))
+    # print("{} : {},time : {}".format(patient_id, content, time))s
 
     ret = {"flag": 1}
 

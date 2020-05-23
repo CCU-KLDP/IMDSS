@@ -29,3 +29,22 @@ class EmrData(models.Model):
     class Meta:
         managed = False
         db_table = 'emr_data'
+
+
+class EmrCui(models.Model):
+    emrid = models.CharField(db_column='EmrId', max_length=50, blank=True, null=True)  # Field name made lowercase.
+    cuilist = models.CharField(db_column='CuiList', max_length=20000, blank=True, null=True)  # Field name made lowercase.
+
+    class Meta:
+        managed = False
+        db_table = 'emr_cui'
+
+
+class EmrCuiWord(models.Model):
+    emrid = models.CharField(db_column='EmrId', max_length=50, blank=True, null=True)  # Field name made lowercase.
+    cui = models.CharField(db_column='Cui', max_length=10, blank=True, null=True)  # Field name made lowercase.
+    wordlist = models.CharField(db_column='WordList', max_length=20000, blank=True, null=True)  # Field name made lowercase.
+
+    class Meta:
+        managed = False
+        db_table = 'emr_cui_word'
