@@ -48,3 +48,16 @@ class EmrCuiWord(models.Model):
     class Meta:
         managed = False
         db_table = 'emr_cui_word'
+
+
+class OutpatientData(models.Model):
+    time = models.CharField(max_length=100)
+    type = models.CharField(db_column='Type', max_length=100)  # Field name made lowercase.
+    emrid_id = models.CharField(db_column='EmrId_id', max_length=50)  # Field name made lowercase.
+    dep_id_id = models.CharField(max_length=100)
+    doctor_id_id = models.CharField(max_length=100)
+    patient_id_id = models.CharField(max_length=100)
+
+    class Meta:
+        managed = False
+        db_table = 'outpatient_data'

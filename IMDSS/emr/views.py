@@ -2,7 +2,7 @@ from django.shortcuts   import render
 from django.http        import JsonResponse
 from django.http        import HttpResponse
 from db_models.models   import Department, Doctor, Xsl_data
-from emr.models         import EmrData, HospitalizedData
+from emr.models         import EmrData, HospitalizedData ,OutpatientData
 from lxml               import etree
 
 import random
@@ -50,15 +50,16 @@ def get_emr_table(patient_id):
     @kyle
     return date, type, dept, content(emr)
     """
-
+    out_df = pd.DataFrame(list(OutpatientData.objects.filter(patient_id_id=patient_id).values()))
     emr_df = pd.DataFrame(list(HospitalizedData.objects.filter(patient_id_id=patient_id).values()))
     # print(emr_df.columns)
-
+    cat_df = pd.concat([out_df, emr_df], axis=0)
+    # print(cat_df)
     # keys = list(emr_groups.groups.keys())
     emr_lst = []
     # print(emr_df)
 
-    for index, row in emr_df.iterrows():
+    for index, row in cat_df.iterrows():
         # print(row['time'])
         doctor = Doctor.objects.get(doctor_id=row['doctor_id_id'])
         emr_dict = {
@@ -189,7 +190,8 @@ def ajax_get_emr(request, patient_id):
     selected_emr_id = request.GET['selected_emr_id']
     selected_emr_type = xsl_case_return(request.GET["selected_emr_type"])
 
-    print(selected_emr_id)
+    print("ajax")
+    print(request.GET)
 
     xml_df = pd.DataFrame(list(EmrData.objects.filter(emrid=selected_emr_id).values()))
     xsl_df = pd.DataFrame(list(Xsl_data.objects.filter(XslId=selected_emr_type).values()))
