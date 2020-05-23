@@ -32,7 +32,7 @@ function dept_change(){
 }
 
 function table_change(){
-    var cui_lst_container = document.getElementById("middle-list-container");
+    var cui_lst = document.getElementById("middle_list");
     var insert_html = "";
     $.ajax({
         type: "GET",
@@ -53,7 +53,7 @@ function table_change(){
                 insert_html += html   
             }
 
-            cui_lst_container.innerHTML = insert_html;
+            cui_lst.innerHTML = insert_html;
         }
     });
 }

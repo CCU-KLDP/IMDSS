@@ -33,7 +33,7 @@ class Migration(migrations.Migration):
             ],
         ),
         migrations.CreateModel(
-            name='Evaluation_form',
+            name='Emr_data',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=50)),
@@ -44,12 +44,14 @@ class Migration(migrations.Migration):
             ],
         ),
         migrations.CreateModel(
-            name='Hospitalized_data',
+            name='Evaluation_form',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('time', models.DateField()),
-                ('dep_id', models.ForeignKey(on_delete=django.db.models.deletion.DO_NOTHING, to='db_models.Department')),
-                ('doctor_id', models.ForeignKey(on_delete=django.db.models.deletion.DO_NOTHING, related_name='hospitalized_doctor', to='db_models.Doctor')),
+                ('name', models.CharField(max_length=50)),
+                ('medical_condition', models.CharField(max_length=200)),
+                ('time_frame', models.CharField(max_length=50, null=True)),
+                ('cuis_list', models.CharField(max_length=2500)),
+                ('dep_id', models.ForeignKey(on_delete=django.db.models.deletion.DO_NOTHING, related_name='dep_evaluation', to='db_models.Department')),
             ],
         ),
         migrations.CreateModel(
@@ -103,6 +105,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='hospitalized_data',
             name='patient_id',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.DO_NOTHING, related_name='hospitalized_patients', to='db_models.Patient', to_field='patient_id'),
+            field=models.ForeignKey(on_delete=django.db.models.deletion.DO_NOTHING, related_name='memo_patients', to='db_models.Patient', to_field='patient_id'),
         ),
     ]

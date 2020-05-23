@@ -16,6 +16,9 @@ def response_as_json(data):
     response["Access-Control-Allow-Origin"] = "*"
     return response
 
+def get_patient_list():
+    
+    return list(Patient.objects.all())
 
 def select_patient_view(request):
     

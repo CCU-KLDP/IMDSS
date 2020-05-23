@@ -186,13 +186,10 @@ def ajax_get_emr(request, patient_id):
     @pony
     獲取select-emr-table所選擇的病歷id
     """
-    # selected_emr_id = request.GET['selected_emr_id']
-    selected_emr_id = 'A03_1081002135845'
+    selected_emr_id = request.GET['selected_emr_id']
     selected_emr_type = xsl_case_return(request.GET["selected_emr_type"])
 
-    print(request.GET)
-
-    # print("id", selected_emr_id)s
+    print(selected_emr_id)
 
     xml_df = pd.DataFrame(list(EmrData.objects.filter(emrid=selected_emr_id).values()))
     xsl_df = pd.DataFrame(list(Xsl_data.objects.filter(XslId=selected_emr_type).values()))
