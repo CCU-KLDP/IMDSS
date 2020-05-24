@@ -90,4 +90,4 @@ def ajax_get_memo(request):
     doctor_id = '04135'
     print(request.GET["doctor_id"])
 
-    return get_patient_memo(doctor_id, patient_id)  
+    return HttpResponse(get_patient_memo(doctor_id, patient_id))
