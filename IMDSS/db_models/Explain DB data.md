@@ -30,6 +30,7 @@ Explain DB data which is usable.
 ----
 ## ni_PtOrderUD
 * PT_NO改為80000154
+* 先手動刪除重複的order資料，需在trigger修正
 
 ----
 ## mri_mri data

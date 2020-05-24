@@ -31,24 +31,24 @@ def select_patient_view(request):
 
     patients = list(Patient.objects.all().values())
 
-    memo_df = pd.DataFrame(list(MemoData.objects.filter(doctor_id_id=doctor_id).values()))
+    # memo_df = pd.DataFrame(list(MemoData.objects.filter(doctor_id_id=doctor_id).values()))
 
-    memo_df['datetime'] = memo_df.apply(lambda r : pd.datetime.combine(r['date'],r['time']),1)
-    # print(memo_df)
-    patient_groups = memo_df.groupby('patient_id_id')
+    # memo_df['datetime'] = memo_df.apply(lambda r : pd.datetime.combine(r['date'],r['time']),1)
+    # # print(memo_df)
+    # patient_groups = memo_df.groupby('patient_id_id')
 
-    memo_dict = {}
+    # memo_dict = {}
 
-    for key in list(patient_groups.groups.keys()):
-        df = patient_groups.get_group(key).sort_values(by='datetime', ascending=False)
-        memo_dict[key] = df.iloc[0]['content']
+    # for key in list(patient_groups.groups.keys()):
+    #     df = patient_groups.get_group(key).sort_values(by='datetime', ascending=False)
+    #     memo_dict[key] = df.iloc[0]['content']
 
 
     # key: patient_id value: the latest memo by doctor id
     content = {
         "doctor": login_doctor,
         "patients": patients,
-        "memo": memo_dict,
+        # "memo": memo_dict,
     }
     return render(request, "select_patient/select_patient.html", content)
 
@@ -72,11 +72,22 @@ def ajax_get_emr_search_url(request):
     
     return response_as_json(emr_url)
 
+def get_patient_memo(doctor_id, patient_id):
+    memo_df = pd.DataFrame(list(MemoData.objects.filter(doctor_id_id=doctor_id).filter(patient_id_id=patient_id).values()))
+    if memo_df.empty:
+        return ""
+    else:
+        memo_df['datetime'] = memo_df.apply(lambda r : pd.datetime.combine(r['date'],r['time']),1)
+        # print(memo_df)
+
+        df = memo_df.sort_values(by='datetime', ascending=False)
+        
+        return df.iloc[0]['content']
+
 
 def ajax_get_memo(request):
-    print(request.GET["selected_patient_id"])
+    patient_id = request.GET["selected_patient_id"]
+    doctor_id = '04135'
     print(request.GET["doctor_id"])
-    
 
-    #return memo(string)
-    return HttpResponse(123)
+    return get_patient_memo(doctor_id, patient_id)  
