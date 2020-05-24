@@ -34,7 +34,7 @@ def select_patient_view(request):
     memo_df = pd.DataFrame(list(MemoData.objects.filter(doctor_id_id=doctor_id).values()))
 
     memo_df['datetime'] = memo_df.apply(lambda r : pd.datetime.combine(r['date'],r['time']),1)
-    print(memo_df)
+    # print(memo_df)
     patient_groups = memo_df.groupby('patient_id_id')
 
     memo_dict = {}
@@ -42,8 +42,6 @@ def select_patient_view(request):
     for key in list(patient_groups.groups.keys()):
         df = patient_groups.get_group(key).sort_values(by='datetime', ascending=False)
         memo_dict[key] = df.iloc[0]['content']
-
-        print(memo_dict)
 
 
     # key: patient_id value: the latest memo by doctor id
