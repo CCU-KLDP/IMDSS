@@ -1,3 +1,5 @@
+document.write('<script src="{% static "js/emr/sidenav.js" %}"</script>');
+
 function search_icon_to_green() {
     var icon = document.getElementById("search-icon")
     var bar = document.getElementById("search-bar")
@@ -29,6 +31,16 @@ $("#select-emr-table>tbody").on("click", "tr", function() {
             insert_html = result['insert_html']
             $("#emr").empty()
             $("#emr").append(insert_html)
+            for(i=0;i < Object.keys(mark_dic).length;i++){
+                if (Object.keys(mark_dic)[i] == selected_emr_id) {
+                    alert(Object.values(mark_dic)[i])
+                    alert(typeof(Object.values(mark_dic)[i]))
+                    for(j=0;j < Object.values(mark_dic)[i].split(",").length;j++){
+                        alert(Object.values(mark_dic)[i].split(",")[j])
+                    }
+                }
+            
+            }
         }
         
     });
