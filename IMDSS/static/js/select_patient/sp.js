@@ -35,7 +35,7 @@ $.ajaxSetup({
 
 // our code
 $("#visualize").on("click", function() {
-    var patient_id = $(".selected").find("td").attr("id")
+    var patient_id = $("#selected>td").attr("id")
     $.ajax({
         type: "POST",
         url: location.href + "visualize",
@@ -49,9 +49,9 @@ $("#visualize").on("click", function() {
 });
 
 $("#emr_search").on("click", function() {
-    var patient_id = $(".selected").
+    var patient_id = $("#selected>td").attr("id")
     $.ajax({
-        type: "GET",
+        type: "POST",
         url: location.href + "emr_search",
         data: {"patient_id": patient_id},
         dataType: "json",
@@ -73,7 +73,7 @@ $("#select-pats-table>tbody").on("click", "tr", function () {
         url: "http://127.0.0.1:8000/select_patient/memo",
         data: {"selected_patient_id": selected_patient_id},
         success: function (result2) {
-            alert(1)
+            
         }
     });
 });

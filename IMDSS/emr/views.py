@@ -229,3 +229,12 @@ def ajax_save_memo(request, patient_id):
     return response_as_json(ret)
 
 
+def ajax_get_mark(request):
+    itmes = request.GET['items']
+    selected_table = request.GET['selected_table']
+    selected_dept = request.GET['selected_dept']
+
+    itme_lst = itmes.split("***seperator***")
+    itme_lst.pop()
+
+    return response_as_json(123)
