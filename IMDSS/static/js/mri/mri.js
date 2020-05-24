@@ -183,7 +183,7 @@ function clearCanvas(){
 
 /*圖片點擊放大MRI*/
 
-var imgs = document.getElementById('M_photos').getElementsByTagName('img')
+var imgs = document.getElementById('#photos').getElementsByTagName('img')
 var img = document.getElementById('painter').getElementsByTagName('img')[0]
 for (var i = 0; i < imgs.length; i++) {
 
