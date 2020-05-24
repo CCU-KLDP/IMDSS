@@ -271,6 +271,12 @@ def ajax_get_mark(request):
             else:
                 matched_cui_dict[key] = list(set(matched_lst))
 
+
+    
+
+
+
+
     # return
     print(matched_cui_dict)
 
