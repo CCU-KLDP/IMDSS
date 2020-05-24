@@ -42,9 +42,9 @@
     border-width: 10px;
     width: 400px;
     height: 600px;
-    top: 10%;
+    top: 16%;
     background-color: rgb(101, 104, 102);
-    left: 37%;
+    left: 40%;
     z-index: 7;
     color: white;
     /*opacity: 0.7;*/
@@ -113,4 +113,8 @@ input:required:hover {
     float: right;
     width: 50%;
     padding-right: 5%;
+}
+
+#nav-mobile{
+    margin-right: 11%;
 }
