@@ -6,4 +6,5 @@ urlpatterns = [
     path("", views.select_patient_view, name="select_page"),
     path("visualize", views.ajax_get_visualize_url, name="get_vis"),
     path("emr_search", views.ajax_get_emr_search_url, name="get_emr_search"),
+    path("memo", views.ajax_get_memo, name="get_memo"),
 ]

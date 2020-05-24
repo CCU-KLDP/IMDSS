@@ -71,3 +71,11 @@ def ajax_get_emr_search_url(request):
     emr_url = base_url + "emr_search/" + patient_id
     
     return response_as_json(emr_url)
+
+
+def ajax_get_memo(request):
+    print(request.GET["selected_patient_id"])
+
+
+    #return memo(string)
+    return HttpResponse(123)

@@ -48,7 +48,7 @@
     background-color: rgb(178,223,219);
 }
 
-#select-pats-table>tbody>tr.selected {
+#select-pats-table>tbody>tr#selected {
     background-color: rgb(128,203,196);
 }
 #detail{ /**BUTTON/*/
