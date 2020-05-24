@@ -2,13 +2,12 @@ from django.shortcuts   import render
 from django.http        import JsonResponse
 from django.http        import HttpResponse
 from db_models.models   import Department, Doctor, Xsl_data
-from emr.models         import EmrData, HospitalizedData ,OutpatientData
+from emr.models         import EmrData, HospitalizedData ,OutpatientData, EmrCuiWord
 from lxml               import etree
 
 import random
 import pandas as pd
 import lxml
-
 import json
 # Create your views here.
 
@@ -205,6 +204,7 @@ def ajax_get_emr(request, patient_id):
 
     return JsonResponse(content)
 
+
 def ajax_get_search_emr(request):
     """
     @pony
@@ -230,11 +230,52 @@ def ajax_save_memo(request, patient_id):
 
 
 def ajax_get_mark(request):
-    itmes = request.GET['items']
-    selected_table = request.GET['selected_table']
+
     selected_dept = request.GET['selected_dept']
+    selected_table = request.GET['selected_table']
+    selected_item_lst = request.GET['items'].split("***seperator***")
 
-    itme_lst = itmes.split("***seperator***")
-    itme_lst.pop()
+    dept = Department.objects.get(dep_name=selected_dept)
 
-    return response_as_json(123)
+    selected_cui_lst = []
+
+    for selected_item in selected_item_lst:
+        evaluation = dept.dep_evaluation.filter(medical_condition=selected_item)
+
+        if evaluation:
+            evaluation_list = evaluation.first().cuis_list.split(", ")
+            selected_cui_lst = selected_cui_lst + evaluation_list
+
+    selected_cui_lst = list(set(selected_cui_lst))
+
+    emr_cui_df = pd.DataFrame(list(EmrCuiWord.objects.all().values()))
+
+
+    # 1: groupby Emr_id
+    emr_cui_groups = emr_cui_df.groupby('emrid')
+
+    # 2: get groups key
+    keys = list(emr_cui_groups.groups.keys())
+
+    matched_cui_dict = {}
+
+    # 3: for key in keys: get groups for loop compare cui and return match list which store in dict[key]
+    for key in keys:
+        matched_lst = []
+        for index, row in emr_cui_groups.get_group(key).iterrows():
+            if row['cui'] in selected_cui_lst:
+                matched_lst.append(row['wordlist'].split('(')[0].split('[')[0])
+        if matched_lst:
+            if key in matched_cui_dict:     
+                matched_cui_dict[key] = list(set(matched_cui_dict[key] + matched_lst))
+            else:
+                matched_cui_dict[key] = list(set(matched_lst))
+
+    # return
+    print(matched_cui_dict)
+
+
+    # item_lst = itmes.split("***seperator***")
+    # itme_lst.pop()
+
+    return response_as_json(matched_cui_dict)
