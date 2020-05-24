@@ -87,13 +87,15 @@ function item_change(){
         },
         dataType: "json",
         success: function(result){
+            $("#select-emr-table>tbody>tr").each(function(){
+                $(this).find("td:eq(0)").empty()
+            })
+
+
             for(i=0;i < Object.keys(result).length;i++){
                 $("#"+Object.keys(result)[i]+">td:eq(0)").html(insert_html)
             }
             mark_dic = result
-
-
-            // $("#emr>:contains('住院日期')").html('<span style="color: red;">住院日期</span>')
         }
     });
     
