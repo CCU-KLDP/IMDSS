@@ -375,7 +375,7 @@ def get_drug_charts(patient_id, keys):
             xaxis_index=2,
             yaxis_index=4,
             itemstyle_opts=opts.ItemStyleOpts(
-                color=["rgba(255, 204, 188, 1)"],
+                color=["#ff8a65"],
             )
         )
         .set_global_opts(
@@ -395,7 +395,7 @@ def get_drug_charts(patient_id, keys):
                 max_=max_dict[keys[0][0]],
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
-                    linestyle_opts=opts.LineStyleOpts(color="#675bba")
+                    linestyle_opts=opts.LineStyleOpts(color="#ff8a65")
                 ),
                 axislabel_opts=opts.LabelOpts(formatter="{value} " + keys[0][1]),
                 splitline_opts=opts.SplitLineOpts(
@@ -426,7 +426,7 @@ def get_drug_charts(patient_id, keys):
             xaxis_index=3,
             yaxis_index=5,
             itemstyle_opts=opts.ItemStyleOpts(
-                color=["rgba(255, 204, 188, 1)"],
+                color=["#ff8a65"],
             )
         )
         .set_global_opts(
@@ -446,7 +446,7 @@ def get_drug_charts(patient_id, keys):
                 max_=max_dict[keys[1][0]],
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
-                    linestyle_opts=opts.LineStyleOpts(color="#675bba")
+                    linestyle_opts=opts.LineStyleOpts(color="#ff8a65")
                 ),
                 axislabel_opts=opts.LabelOpts(formatter="{value} " + keys[1][1]),
                 splitline_opts=opts.SplitLineOpts(
@@ -477,7 +477,7 @@ def get_drug_charts(patient_id, keys):
             xaxis_index=4,
             yaxis_index=6,
             itemstyle_opts=opts.ItemStyleOpts(
-                color=["rgba(255, 204, 188, 1)"],
+                color=["#ff8a65"],
             )
         )
         .set_global_opts(
@@ -497,7 +497,7 @@ def get_drug_charts(patient_id, keys):
                 max_=max_dict[keys[2][0]],
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
-                    linestyle_opts=opts.LineStyleOpts(color="#675bba")
+                    linestyle_opts=opts.LineStyleOpts(color="#ff8a65")
                 ),
                 axislabel_opts=opts.LabelOpts(formatter="{value} " + keys[2][1]),
                 splitline_opts=opts.SplitLineOpts(
@@ -528,7 +528,7 @@ def get_drug_charts(patient_id, keys):
             xaxis_index=5,
             yaxis_index=7,
             itemstyle_opts=opts.ItemStyleOpts(
-                color=["rgba(255, 204, 188, 1)"],
+                color=["#ff8a65"],
             )
         )
         .set_global_opts(
@@ -548,7 +548,7 @@ def get_drug_charts(patient_id, keys):
                 max_=max_dict[keys[3][0]],
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
-                    linestyle_opts=opts.LineStyleOpts(color="#675bba")
+                    linestyle_opts=opts.LineStyleOpts(color="#ff8a65")
                 ),
                 axislabel_opts=opts.LabelOpts(formatter="{value} " + keys[3][1]),
                 splitline_opts=opts.SplitLineOpts(
@@ -579,7 +579,7 @@ def get_drug_charts(patient_id, keys):
             xaxis_index=6,
             yaxis_index=8,
             itemstyle_opts=opts.ItemStyleOpts(
-                color=["rgba(255, 204, 188, 1)"],
+                color=["#ff8a65"],
             )
         )
         .set_global_opts(
@@ -599,7 +599,7 @@ def get_drug_charts(patient_id, keys):
                 max_=max_dict[keys[4][0]],
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
-                    linestyle_opts=opts.LineStyleOpts(color="#675bba")
+                    linestyle_opts=opts.LineStyleOpts(color="#ff8a65")
                 ),
                 axislabel_opts=opts.LabelOpts(formatter="{value} " + keys[4][1]),
                 splitline_opts=opts.SplitLineOpts(

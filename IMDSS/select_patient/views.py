@@ -73,6 +73,7 @@ def ajax_get_emr_search_url(request):
 
 def ajax_get_memo(request):
     print(request.GET["selected_patient_id"])
+    print(request.GET["doctor_id"])
 
 
     #return memo(string)
