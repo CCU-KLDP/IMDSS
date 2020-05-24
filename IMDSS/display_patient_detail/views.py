@@ -86,16 +86,6 @@ def init_multiple_charts(patient_id) -> Grid:
     tpr_df = tpr_data_frame(patient_id)
     tpr_df = tpr_df.sort_values(by='time',ascending=True)
 
-    # print(tpr_df.index.tolist())
-
-    
-    # x_data = [x for x in tpr_df.index.tolist()[:40]]
-    # y_HR = tpr_df.iloc[:40]['HR'].tolist()
-    # y_BT = tpr_df.iloc[:40]['BT(TA)'].tolist()
-    # y_RR = tpr_df.iloc[:40]['RR'].tolist()
-    # y_SBP = tpr_df.iloc[:40]['SBP1'].tolist()
-    # y_DBP = tpr_df.iloc[:40]['DBP1'].tolist()
-
     x_data = tpr_df.index.tolist()
     y_HR = tpr_df['HR'].tolist()
     y_BT = tpr_df['BT(TA)'].tolist()
@@ -221,12 +211,16 @@ def init_multiple_charts(patient_id) -> Grid:
                     is_realtime=True,
                     type_="inside",
                     xaxis_index=list(range(7)),
+                    range_start=60,
+                    range_end=80,
                 ),
                 opts.DataZoomOpts(
                     is_show=True,
                     is_realtime=True,
                     xaxis_index=list(range(7)),
                     pos_top="17.5%",
+                    range_start=60,
+                    range_end=80,
                 ),
             ],
             tooltip_opts=opts.TooltipOpts(
