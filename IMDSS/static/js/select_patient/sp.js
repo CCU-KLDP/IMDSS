@@ -73,11 +73,12 @@ $("#select-pats-table>tbody").on("click", "tr", function () {
         type: "GET",
         url: "http://127.0.0.1:8000/select_patient/memo",
         data: {"selected_patient_id": selected_patient_id, "doctor_id": doctor_id},
-        success: function (result2) {
-            
+        success: function (result) {
+            $("#display>span").text(result)
         }
     });
 });
+
 
 $(
     function () {

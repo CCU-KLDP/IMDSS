@@ -75,7 +75,7 @@ def ajax_get_emr_search_url(request):
 def get_patient_memo(doctor_id, patient_id):
     memo_df = pd.DataFrame(list(MemoData.objects.filter(doctor_id_id=doctor_id).filter(patient_id_id=patient_id).values()))
     if memo_df.empty:
-        return ""
+        return HttpResponse("")
     else:
         memo_df['datetime'] = memo_df.apply(lambda r : pd.datetime.combine(r['date'],r['time']),1)
         # print(memo_df)
