@@ -35,7 +35,7 @@ $.ajaxSetup({
 
 // our code
 $("#visualize").on("click", function() {
-    var patient_id = $(".selected").find("td").attr("id")
+    var patient_id = $("#selected>td").attr("id")
     $.ajax({
         type: "POST",
         url: location.href + "visualize",
@@ -49,7 +49,7 @@ $("#visualize").on("click", function() {
 });
 
 $("#emr_search").on("click", function() {
-    var patient_id = $(".selected").find("td").attr("id")
+    var patient_id = $("#selected>td").attr("id")
     $.ajax({
         type: "POST",
         url: location.href + "emr_search",
@@ -63,20 +63,19 @@ $("#emr_search").on("click", function() {
 
 
 $("#select-pats-table>tbody").on("click", "tr", function () {
+    $("#select-pats-table>tbody>tr").removeAttr('id')
+    $(this).attr('id', 'selected')
 
-  var selected_pats_id = $(this).find("td:eq(2)").text();
-  $("#select-pats-table>tbody>tr").removeClass("selected")
-  $(this).addClass("selected")
+    var selected_patient_id = $("#selected>td").attr('id')
 
-  $.ajax({
-    type: "GET",
-    data: { "selected_emr_id": selected_pats_id },
-    dataType: "json",
-    success: function (result) {
-
-    }
-
-  });
+    $.ajax({
+        type: "GET",
+        url: "http://127.0.0.1:8000/select_patient/memo",
+        data: {"selected_patient_id": selected_patient_id},
+        success: function (result2) {
+            
+        }
+    });
 });
 
 $(

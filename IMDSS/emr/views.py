@@ -191,9 +191,6 @@ def ajax_get_emr(request, patient_id):
     selected_emr_id = request.GET['selected_emr_id']
     selected_emr_type = xsl_case_return(request.GET["selected_emr_type"])
 
-    print("ajax")
-    print(request.GET)
-
     xml_df = pd.DataFrame(list(EmrData.objects.filter(emrid=selected_emr_id).values()))
     xsl_df = pd.DataFrame(list(Xsl_data.objects.filter(XslId=selected_emr_type).values()))
     # print(xml_df)
@@ -232,4 +229,12 @@ def ajax_save_memo(request, patient_id):
     return response_as_json(ret)
 
 
-#  
+def ajax_get_mark(request):
+    itmes = request.GET['items']
+    selected_table = request.GET['selected_table']
+    selected_dept = request.GET['selected_dept']
+
+    itme_lst = itmes.split("***seperator***")
+    itme_lst.pop()
+
+    return response_as_json(123)
