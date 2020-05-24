@@ -273,7 +273,7 @@ def init_multiple_charts(patient_id) -> Grid:
             xaxis_index=1,
             yaxis_index=3,
             itemstyle_opts=opts.ItemStyleOpts(
-                color=["rgba(41, 182, 246, 0.6)"],
+                color=["#039be5"],
             )
         )
         .set_global_opts(
@@ -293,7 +293,7 @@ def init_multiple_charts(patient_id) -> Grid:
                 max_=400,
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
-                    linestyle_opts=opts.LineStyleOpts(color="#675bba")
+                    linestyle_opts=opts.LineStyleOpts(color="#039be5")
                 ),
                 axislabel_opts=opts.LabelOpts(formatter="{value} mmHg"),
                 splitline_opts=opts.SplitLineOpts(
