@@ -46,7 +46,7 @@ function fetchData() {
     var id = location.href.split("/")[4]
     $.ajax({
         type: "GET",
-        url: "http://127.0.0.1:8000/charts/top_chart",
+        url: "http://127.0.0.1:8000/charts/top_chart/",
         dataType: 'json',
         data: {patient_id : id},
         success: function (result) {

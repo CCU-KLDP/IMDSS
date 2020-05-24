@@ -56,37 +56,38 @@ def select_patient_view(request):
 def ajax_get_visualize_url(request):
 
     patient_id = request.POST["patient_id"]
+    fix_patient_id = 80000154
     base_url = "http://127.0.0.1:8000/"
-    vis_url = base_url + "charts/" + patient_id
+    vis_url = base_url + "charts/" + str(fix_patient_id)
 
     return response_as_json(vis_url)
 
 
 def ajax_get_emr_search_url(request):
     patient_id = request.POST["patient_id"]
+    fix_patient_id = 80000154
     # print(request.GET)
     base_url = "http://127.0.0.1:8000/"
-    emr_url = base_url + "emr_search/" + patient_id
+    emr_url = base_url + "emr_search/" + str(fix_patient_id)
     
     return response_as_json(emr_url)
 
 def get_patient_memo(doctor_id, patient_id):
     memo_df = pd.DataFrame(list(MemoData.objects.filter(doctor_id_id=doctor_id).filter(patient_id_id=patient_id).values()))
     if memo_df.empty:
-        return ""
+        return HttpResponse("")
     else:
         memo_df['datetime'] = memo_df.apply(lambda r : pd.datetime.combine(r['date'],r['time']),1)
         # print(memo_df)
 
         df = memo_df.sort_values(by='datetime', ascending=False)
         
-        return df.iloc[0]['content']
-
+        return HttpResponse(df.iloc[0]['content'])
 
 
 def ajax_get_memo(request):
     patient_id = request.GET["selected_patient_id"]
     doctor_id = '04135'
-    print(request.GET)
-    
-    return HttpResponse(get_patient_memo(doctor_id, patient_id))  
+    print(request.GET["doctor_id"])
+
+    return get_patient_memo(doctor_id, patient_id)  

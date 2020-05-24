@@ -67,16 +67,18 @@ $("#select-pats-table>tbody").on("click", "tr", function () {
     $(this).attr('id', 'selected')
 
     var selected_patient_id = $("#selected>td").attr('id')
+    var doctor_id = $("#doctor_id").text()
 
     $.ajax({
         type: "GET",
         url: "http://127.0.0.1:8000/select_patient/memo",
-        data: {"selected_patient_id": selected_patient_id},
-        success: function (result2) {
-            
+        data: {"selected_patient_id": selected_patient_id, "doctor_id": doctor_id},
+        success: function (result) {
+            $("#display>span").text(result)
         }
     });
 });
+
 
 $(
     function () {
