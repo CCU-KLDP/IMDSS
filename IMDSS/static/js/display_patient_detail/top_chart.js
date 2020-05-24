@@ -46,7 +46,7 @@ function fetchData() {
     var id = location.href.split("/")[4]
     $.ajax({
         type: "GET",
-        url: "http://127.0.0.1:8000/charts/top_chart",
+        url: "http://127.0.0.1:8000/charts/top_chart/",
         dataType: 'json',
         data: {patient_id : id},
         success: function (result) {
@@ -110,25 +110,34 @@ function onCheckBox(checkbox)
 $("#search").click(function(){
     var items = document.getElementsByName("item");
 	var flag = 0;
-	var maxChoices = 5;
+    var maxChoices = 5;
+    var selected_drugs = [];
 	
 	for(var j=0; j<items.length; j++)
 	{
 		if(items[j].checked)
 		{
-			flag++;
+            flag++;
+            
 		}
-	}
-	if(flag < 5)
-	{
-		M.toast({html: 'please select 5 drugs!'})
+    }
+	if(flag < maxChoices){
+        M.toast({html: 'please select 5 drugs!'})
     }
     else{
+        $("input:checked[name=item]").each(function(index){
+
+            if($(this)[0].checked){
+                selected_drugs+=$(this).next('span').text();
+                selected_drugs+=","
+            }
+        });
+        selected_drugs = selected_drugs.slice(0, -1)
         var id = location.href.split("/")[4]
         $.ajax({
             type: "GET",
             url: "http://127.0.0.1:8000/charts/update_drugs",
-            data: {patient_id : id},
+            data: {"patient_id" : id, "selected_drugs": selected_drugs},
             dataType: "json",
             success: function(result){
                 chart.setOption(result.data);

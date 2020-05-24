@@ -8,16 +8,56 @@
 from django.db import models
 
 
-class TestEmr(models.Model):
-    patient_id = models.CharField(db_column='Patient_ID', max_length=255, blank=True, null=True)  # Field name made lowercase.
-    chartno = models.CharField(db_column='ChartNo', max_length=255, blank=True, null=True)  # Field name made lowercase.
-    admissiondate = models.CharField(db_column='AdmissionDate', max_length=255, blank=True, null=True)  # Field name made lowercase.
-    erdate = models.CharField(db_column='ERDate', max_length=255, blank=True, null=True)  # Field name made lowercase.
-    notetype = models.CharField(db_column='NoteType', max_length=255, blank=True, null=True)  # Field name made lowercase.
-    datetime = models.CharField(db_column='DateTime', max_length=255, blank=True, null=True)  # Field name made lowercase.
-    serial = models.IntegerField(db_column='Serial', blank=True, null=True)  # Field name made lowercase.
-    content = models.TextField(db_column='Content', blank=True, null=True)  # Field name made lowercase.
+class HospitalizedData(models.Model):
+    time = models.CharField(max_length=100)
+    type = models.CharField(db_column='Type', max_length=100)  # Field name made lowercase.
+    emrid_id = models.CharField(db_column='EmrId_id', max_length=50)  # Field name made lowercase.
+    dep_id_id = models.CharField(max_length=100)
+    doctor_id_id = models.CharField(max_length=100)
+    patient_id_id = models.CharField(max_length=100)
 
     class Meta:
-        managed = True
-        db_table = 'test_emr'
+        managed = False
+        db_table = 'hospitalized_data'
+
+
+class EmrData(models.Model):
+    emrid = models.CharField(db_column='EmrId', max_length=50)  # Field name made lowercase.
+    sequence = models.IntegerField(db_column='Sequence')  # Field name made lowercase.
+    emrcontent = models.CharField(db_column='EmrContent', max_length=5000)  # Field name made lowercase.
+
+    class Meta:
+        managed = False
+        db_table = 'emr_data'
+
+
+class EmrCui(models.Model):
+    emrid = models.CharField(db_column='EmrId', max_length=50, blank=True, null=True)  # Field name made lowercase.
+    cuilist = models.CharField(db_column='CuiList', max_length=20000, blank=True, null=True)  # Field name made lowercase.
+
+    class Meta:
+        managed = False
+        db_table = 'emr_cui'
+
+
+class EmrCuiWord(models.Model):
+    emrid = models.CharField(db_column='EmrId', max_length=50, blank=True, null=True)  # Field name made lowercase.
+    cui = models.CharField(db_column='Cui', max_length=10, blank=True, null=True)  # Field name made lowercase.
+    wordlist = models.CharField(db_column='WordList', max_length=20000, blank=True, null=True)  # Field name made lowercase.
+
+    class Meta:
+        managed = False
+        db_table = 'emr_cui_word'
+
+
+class OutpatientData(models.Model):
+    time = models.CharField(max_length=100)
+    type = models.CharField(db_column='Type', max_length=100)  # Field name made lowercase.
+    emrid_id = models.CharField(db_column='EmrId_id', max_length=50)  # Field name made lowercase.
+    dep_id_id = models.CharField(max_length=100)
+    doctor_id_id = models.CharField(max_length=100)
+    patient_id_id = models.CharField(max_length=100)
+
+    class Meta:
+        managed = False
+        db_table = 'outpatient_data'

@@ -32,19 +32,24 @@ function dept_change(){
 }
 
 function table_change(){
-    var cui_lst_container = document.getElementById("middle-list-container");
+    var cui_lst = document.getElementById("middle_list");
     var insert_html = "";
     $.ajax({
         type: "GET",
         url: "http://127.0.0.1:8000/emr_search/table_item",
-        data: {"selected_table": $("#table_select option:selected").text(), "selected_dept": $('#dept_select :selected').text()},
+        data: {
+            "selected_table": $("#table_select option:selected").text(),
+            "selected_dept": $('#dept_select :selected').text()
+        },
         dataType: "json",
         success: function(result){
             for(i=0;i < result.length;i++){
                 html = 
-                    '<div class="item-list-container">'+
+                    '<div id="item-list-container">'+
                     "<label>"+
-                    '<input type="checkbox" class="filled-in item-list" />'+
+                    // 等CUI傳過來，id = CUI
+                    // onclick="update_mark()"
+                    '<input type="checkbox" class="filled-in item-list" name="item" onclick="item_change()" />'+
                     "<span>"+
                     result[i]+
                     "</span>"+
@@ -53,7 +58,35 @@ function table_change(){
                 insert_html += html   
             }
 
-            cui_lst_container.innerHTML = insert_html;
+            cui_lst.innerHTML = insert_html;
         }
     });
+}
+
+
+function item_change(){
+    var items = ""
+
+    $("#item-list-container>label>input[name=item]").each(function(index){
+        if($(this)[0].checked){
+            items += $(this).next('span').text();
+            items+= "***seperator***"
+        }
+    });
+
+    $.ajax({
+        type: "GET",
+        url: "http://127.0.0.1:8000/emr_search/get_mark",
+        data: {
+            "selected_table": $("#table_select option:selected").text(),
+            "selected_dept": $('#dept_select :selected').text(),
+            "items": items
+        },
+        dataType: "json",
+        success: function(result){
+            alert(123)
+        }
+    });
+    
+
 }

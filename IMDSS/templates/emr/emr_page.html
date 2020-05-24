@@ -43,6 +43,9 @@
         </div>
         <div class="divider"></div>
         <div id="middle-list-container">
+            <div id="middle_list">
+
+            </div>
         </div>
     </div>
     <div class="display-emr-section">
@@ -77,9 +80,9 @@
                     <tbody>
                         {% for instance in emr_table %}
                             {% if forloop.counter0 == 0 %}
-                                <tr class="selected">
+                                <tr class="selected" id="{{ instance.id }}">
                             {% else %}
-                                <tr>
+                                <tr id="{{ instance.id }}">
                             {% endif %}
                                     <td width = 7%></td>
                                     <td width = 7%></td>

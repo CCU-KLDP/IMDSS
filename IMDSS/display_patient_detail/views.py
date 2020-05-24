@@ -86,23 +86,12 @@ def init_multiple_charts(patient_id) -> Grid:
     tpr_df = tpr_data_frame(patient_id)
     tpr_df = tpr_df.sort_values(by='time',ascending=True)
 
-    # print(tpr_df.index.tolist())
-
-    
-    # x_data = [x for x in tpr_df.index.tolist()[:40]]
-    # y_HR = tpr_df.iloc[:40]['HR'].tolist()
-    # y_BT = tpr_df.iloc[:40]['BT(TA)'].tolist()
-    # y_RR = tpr_df.iloc[:40]['RR'].tolist()
-    # y_SBP = tpr_df.iloc[:40]['SBP1'].tolist()
-    # y_DBP = tpr_df.iloc[:40]['DBP1'].tolist()
-
     x_data = tpr_df.index.tolist()
     y_HR = tpr_df['HR'].tolist()
     y_BT = tpr_df['BT(TA)'].tolist()
     y_RR = tpr_df['RR'].tolist()
     y_SBP = tpr_df['SBP1'].tolist()
     y_DBP = tpr_df['DBP1'].tolist()
-
 
     # print(tpr_df.index.apply(lambda x: datetime.datetime.strptime(x, "%Y%M%D %H%M%S")))
     # x_list = [datetime.datetime.fromtimestamp(x, "%Y%M%D %H%M%S") for x in tpr_df.index.tolist()]
@@ -148,7 +137,7 @@ def init_multiple_charts(patient_id) -> Grid:
         # y axis chart
         .extend_axis(
             yaxis=opts.AxisOpts(
-                name="Temperature",
+                name="Body Temperature",
                 name_location="middle",
                 name_rotate=-90,
                 name_gap=55,
@@ -158,18 +147,18 @@ def init_multiple_charts(patient_id) -> Grid:
                 ),
                 type_="value",
                 min_=0,
-                max_=250,
+                max_=50,
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
                     linestyle_opts=opts.LineStyleOpts(color="#d14a61")
                 ),
-                axislabel_opts=opts.LabelOpts(formatter="{value} ml"),
+                axislabel_opts=opts.LabelOpts(formatter="{value} ℃"), 
             )
         )
         # also y acxis
         .extend_axis(
             yaxis=opts.AxisOpts(
-                name="other",
+                name="Respiration Rate",
                 name_location="middle",
                 name_rotate=-90,
                 name_gap="55",
@@ -180,12 +169,12 @@ def init_multiple_charts(patient_id) -> Grid:
                 offset=100,
                 type_="value",
                 min_=0,
-                max_=250,
+                max_=40,
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
                     linestyle_opts=opts.LineStyleOpts(color="#675bba")
                 ),
-                axislabel_opts=opts.LabelOpts(formatter="{value} °C"),
+                axislabel_opts=opts.LabelOpts(formatter="{value} bpm"), # breath per minute
                 splitline_opts=opts.SplitLineOpts(
                     is_show=True, linestyle_opts=opts.LineStyleOpts(opacity=1)
                 ),
@@ -194,7 +183,7 @@ def init_multiple_charts(patient_id) -> Grid:
         # also y axis
         .set_global_opts(
             yaxis_opts=opts.AxisOpts(
-                name="some pointer",
+                name="Heart Rate",
                 name_location="middle",
                 name_rotate=90,
                 name_gap="55",
@@ -204,12 +193,12 @@ def init_multiple_charts(patient_id) -> Grid:
                 ),
                 type_="value",
                 min_=0,
-                max_=250,
+                max_=150,
                 position="left",
                 axisline_opts=opts.AxisLineOpts(
                     linestyle_opts=opts.LineStyleOpts(color="#5793f3")
                 ),
-                axislabel_opts=opts.LabelOpts(formatter="{value} ml"),
+                axislabel_opts=opts.LabelOpts(formatter="{value} bpm"), # beats per minute
             ),
             toolbox_opts=opts.ToolboxOpts(
                 is_show=True,
@@ -222,12 +211,16 @@ def init_multiple_charts(patient_id) -> Grid:
                     is_realtime=True,
                     type_="inside",
                     xaxis_index=list(range(7)),
+                    range_start=60,
+                    range_end=80,
                 ),
                 opts.DataZoomOpts(
                     is_show=True,
                     is_realtime=True,
                     xaxis_index=list(range(7)),
                     pos_top="17.5%",
+                    range_start=60,
+                    range_end=80,
                 ),
             ],
             tooltip_opts=opts.TooltipOpts(
@@ -242,7 +235,7 @@ def init_multiple_charts(patient_id) -> Grid:
             title_opts=opts.TitleOpts(
                 pos_top="0%",
                 pos_left="10%",
-                title=u"病患生理圖表",
+                title=u"Physical condition",
                 title_textstyle_opts=opts.TextStyleOpts(
                     font_size=25,
                     font_family="Microsoft YaHei",
@@ -280,7 +273,7 @@ def init_multiple_charts(patient_id) -> Grid:
             xaxis_index=1,
             yaxis_index=3,
             itemstyle_opts=opts.ItemStyleOpts(
-                color=["rgba(41, 182, 246, 0.6)"],
+                color=["#039be5"],
             )
         )
         .set_global_opts(
@@ -288,7 +281,7 @@ def init_multiple_charts(patient_id) -> Grid:
             yaxis_opts=opts.AxisOpts(
                 grid_index=1,
                 type_="value",
-                name="other",
+                name="",
                 name_location="middle",
                 name_rotate=-90,
                 name_gap=55,
@@ -297,18 +290,18 @@ def init_multiple_charts(patient_id) -> Grid:
                     font_family="Courier New",
                 ),
                 min_=0,
-                max_=250,
+                max_=400,
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
-                    linestyle_opts=opts.LineStyleOpts(color="#675bba")
+                    linestyle_opts=opts.LineStyleOpts(color="#039be5")
                 ),
-                axislabel_opts=opts.LabelOpts(formatter="{value} °C"),
+                axislabel_opts=opts.LabelOpts(formatter="{value} mmHg"),
                 splitline_opts=opts.SplitLineOpts(
                     is_show=True, linestyle_opts=opts.LineStyleOpts(opacity=1)
                 ),
             ),
             title_opts=opts.TitleOpts(
-                title="血壓",
+                title="Blood Pressure",
                 pos_top="20.5%",
                 pos_left="10%",
                 title_textstyle_opts=opts.TextStyleOpts(
@@ -382,7 +375,7 @@ def get_drug_charts(patient_id, keys):
             xaxis_index=2,
             yaxis_index=4,
             itemstyle_opts=opts.ItemStyleOpts(
-                color=["rgba(255, 204, 188, 1)"],
+                color=["#ff8a65"],
             )
         )
         .set_global_opts(
@@ -390,7 +383,7 @@ def get_drug_charts(patient_id, keys):
             yaxis_opts=opts.AxisOpts(
                 grid_index=2,
                 type_="value",
-                name="other",
+                name="",
                 name_location="middle",
                 name_rotate=-90,
                 name_gap=55,
@@ -402,7 +395,7 @@ def get_drug_charts(patient_id, keys):
                 max_=max_dict[keys[0][0]],
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
-                    linestyle_opts=opts.LineStyleOpts(color="#675bba")
+                    linestyle_opts=opts.LineStyleOpts(color="#ff8a65")
                 ),
                 axislabel_opts=opts.LabelOpts(formatter="{value} " + keys[0][1]),
                 splitline_opts=opts.SplitLineOpts(
@@ -433,7 +426,7 @@ def get_drug_charts(patient_id, keys):
             xaxis_index=3,
             yaxis_index=5,
             itemstyle_opts=opts.ItemStyleOpts(
-                color=["rgba(255, 204, 188, 1)"],
+                color=["#ff8a65"],
             )
         )
         .set_global_opts(
@@ -441,7 +434,7 @@ def get_drug_charts(patient_id, keys):
             yaxis_opts=opts.AxisOpts(
                 grid_index=3,
                 type_="value",
-                name="other",
+                name="",
                 name_location="middle",
                 name_rotate=-90,
                 name_gap=55,
@@ -453,7 +446,7 @@ def get_drug_charts(patient_id, keys):
                 max_=max_dict[keys[1][0]],
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
-                    linestyle_opts=opts.LineStyleOpts(color="#675bba")
+                    linestyle_opts=opts.LineStyleOpts(color="#ff8a65")
                 ),
                 axislabel_opts=opts.LabelOpts(formatter="{value} " + keys[1][1]),
                 splitline_opts=opts.SplitLineOpts(
@@ -484,7 +477,7 @@ def get_drug_charts(patient_id, keys):
             xaxis_index=4,
             yaxis_index=6,
             itemstyle_opts=opts.ItemStyleOpts(
-                color=["rgba(255, 204, 188, 1)"],
+                color=["#ff8a65"],
             )
         )
         .set_global_opts(
@@ -492,7 +485,7 @@ def get_drug_charts(patient_id, keys):
             yaxis_opts=opts.AxisOpts(
                 grid_index=4,
                 type_="value",
-                name="other",
+                name="",
                 name_location="middle",
                 name_rotate=-90,
                 name_gap=55,
@@ -504,7 +497,7 @@ def get_drug_charts(patient_id, keys):
                 max_=max_dict[keys[2][0]],
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
-                    linestyle_opts=opts.LineStyleOpts(color="#675bba")
+                    linestyle_opts=opts.LineStyleOpts(color="#ff8a65")
                 ),
                 axislabel_opts=opts.LabelOpts(formatter="{value} " + keys[2][1]),
                 splitline_opts=opts.SplitLineOpts(
@@ -535,7 +528,7 @@ def get_drug_charts(patient_id, keys):
             xaxis_index=5,
             yaxis_index=7,
             itemstyle_opts=opts.ItemStyleOpts(
-                color=["rgba(255, 204, 188, 1)"],
+                color=["#ff8a65"],
             )
         )
         .set_global_opts(
@@ -543,7 +536,7 @@ def get_drug_charts(patient_id, keys):
             yaxis_opts=opts.AxisOpts(
                 grid_index=5,
                 type_="value",
-                name="other",
+                name="",
                 name_location="middle",
                 name_rotate=-90,
                 name_gap=55,
@@ -555,7 +548,7 @@ def get_drug_charts(patient_id, keys):
                 max_=max_dict[keys[3][0]],
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
-                    linestyle_opts=opts.LineStyleOpts(color="#675bba")
+                    linestyle_opts=opts.LineStyleOpts(color="#ff8a65")
                 ),
                 axislabel_opts=opts.LabelOpts(formatter="{value} " + keys[3][1]),
                 splitline_opts=opts.SplitLineOpts(
@@ -586,7 +579,7 @@ def get_drug_charts(patient_id, keys):
             xaxis_index=6,
             yaxis_index=8,
             itemstyle_opts=opts.ItemStyleOpts(
-                color=["rgba(255, 204, 188, 1)"],
+                color=["#ff8a65"],
             )
         )
         .set_global_opts(
@@ -594,7 +587,7 @@ def get_drug_charts(patient_id, keys):
             yaxis_opts=opts.AxisOpts(
                 grid_index=6,
                 type_="value",
-                name="other",
+                name="",
                 name_location="middle",
                 name_rotate=-90,
                 name_gap=55,
@@ -606,7 +599,7 @@ def get_drug_charts(patient_id, keys):
                 max_=max_dict[keys[4][0]],
                 position="right",
                 axisline_opts=opts.AxisLineOpts(
-                    linestyle_opts=opts.LineStyleOpts(color="#675bba")
+                    linestyle_opts=opts.LineStyleOpts(color="#ff8a65")
                 ),
                 axislabel_opts=opts.LabelOpts(formatter="{value} " + keys[4][1]),
                 splitline_opts=opts.SplitLineOpts(
@@ -693,8 +686,6 @@ def get_all_drug(patient_id):
 
     return keys, med_df['medprs'].value_counts().index.tolist()
 
-
-
 # also working
 def display_patient_detail_view(request, patient_id):
     """
@@ -741,8 +732,8 @@ def ajax_get_patient_emr(request):
 def ajax_update_charts(request):
     patient_id = request.GET['patient_id']
     patient_id = 80000154
-    # new_drugs = request.GET['new_drugs']
-    new_drugs = ['NS5', 'POTPH', 'RADIK', 'VANCO', 'KEPPI']
+    new_drugs = request.GET['selected_drugs']
+    new_drugs = list(new_drugs.split(","))
 
     keys, _ = get_all_drug(patient_id)
     new_keys = []
@@ -760,277 +751,6 @@ def ajax_update_charts(request):
     )))
 
 
-# def get_update_drug_charts(patient_id):
-    x_data = ["month {}".format(i) for i in range(1, 40)]
-    data = list(range(10, 151))
-    shuffle(data)
-    y_HR = data[:40]
-    y_BT = data[40:80]
-    y_RR = data[80:120]
-    bar_data = list(range(10, 101))
-    shuffle(bar_data)
-    y_SBP = bar_data[:40]
-    y_DBP = bar_data[40:80]
-
-    bar_drag_1 = (
-        Bar()
-        .add_xaxis(x_data)
-        .add_yaxis(
-            "Drag-1",  # drug name
-            y_SBP,     # data
-            stack="stack2",
-            label_opts=opts.LabelOpts(is_show=False),
-            xaxis_index=2,
-            yaxis_index=4,
-            itemstyle_opts=opts.ItemStyleOpts(
-                color=["rgba(255, 204, 188, 1)"],
-            )
-        )
-        .set_global_opts(
-            xaxis_opts=opts.AxisOpts(grid_index=2),
-            yaxis_opts=opts.AxisOpts(
-                grid_index=2,
-                type_="value",
-                name="other",
-                name_location="middle",
-                name_rotate=-90,
-                name_gap=55,
-                name_textstyle_opts=opts.TextStyleOpts(
-                    font_size=20,
-                    font_family="Courier New",
-                ),
-                min_=0,
-                max_=250,
-                position="right",
-                axisline_opts=opts.AxisLineOpts(
-                    linestyle_opts=opts.LineStyleOpts(color="#675bba")
-                ),
-                axislabel_opts=opts.LabelOpts(formatter="{value} °C"),
-                splitline_opts=opts.SplitLineOpts(
-                    is_show=True, linestyle_opts=opts.LineStyleOpts(opacity=1)
-                ),
-            ),
-            title_opts=opts.TitleOpts(
-                title="Drug-1",
-                pos_top="44%",
-                pos_left="10%",
-                title_textstyle_opts=opts.TextStyleOpts(
-                    font_size=25,
-                    font_family="Microsoft YaHei",
-                ),
-            ),
-            legend_opts=opts.LegendOpts(pos_top="44%"),
-        )
-    )
-
-    bar_drag_2 = (
-        Bar()
-        .add_xaxis(x_data)
-        .add_yaxis(
-            "Drag-2",
-            y_SBP,
-            stack="stack3",
-            label_opts=opts.LabelOpts(is_show=False),
-            xaxis_index=3,
-            yaxis_index=5,
-            itemstyle_opts=opts.ItemStyleOpts(
-                color=["rgba(0, 0, 0, 1)"],
-            )
-        )
-        .set_global_opts(
-            xaxis_opts=opts.AxisOpts(grid_index=3),
-            yaxis_opts=opts.AxisOpts(
-                grid_index=3,
-                type_="value",
-                name="other",
-                name_location="middle",
-                name_rotate=-90,
-                name_gap=55,
-                name_textstyle_opts=opts.TextStyleOpts(
-                    font_size=20,
-                    font_family="Courier New",
-                ),
-                min_=0,
-                max_=250,
-                position="right",
-                axisline_opts=opts.AxisLineOpts(
-                    linestyle_opts=opts.LineStyleOpts(color="#675bba")
-                ),
-                axislabel_opts=opts.LabelOpts(formatter="{value} °C"),
-                splitline_opts=opts.SplitLineOpts(
-                    is_show=True, linestyle_opts=opts.LineStyleOpts(opacity=1)
-                ),
-            ),
-            title_opts=opts.TitleOpts(
-                title="Drug-2",
-                pos_top="55.5%",
-                pos_left="10%",
-                title_textstyle_opts=opts.TextStyleOpts(
-                    font_size=25,
-                    font_family="Microsoft YaHei",
-                ),
-            ),
-            legend_opts=opts.LegendOpts(pos_top="55.5%"),
-        )
-    )
-
-    bar_drag_3 = (
-        Bar()
-        .add_xaxis(x_data)
-        .add_yaxis(
-            "Drag-3",
-            y_SBP,
-            stack="stack4",
-            label_opts=opts.LabelOpts(is_show=False),
-            xaxis_index=4,
-            yaxis_index=6,
-            itemstyle_opts=opts.ItemStyleOpts(
-                color=["rgba(74, 211, 135, 1)"],
-            )
-        )
-        .set_global_opts(
-            xaxis_opts=opts.AxisOpts(grid_index=4),
-            yaxis_opts=opts.AxisOpts(
-                grid_index=4,
-                type_="value",
-                name="other",
-                name_location="middle",
-                name_rotate=-90,
-                name_gap=55,
-                name_textstyle_opts=opts.TextStyleOpts(
-                    font_size=20,
-                    font_family="Courier New",
-                ),
-                min_=0,
-                max_=250,
-                position="right",
-                axisline_opts=opts.AxisLineOpts(
-                    linestyle_opts=opts.LineStyleOpts(color="#675bba")
-                ),
-                axislabel_opts=opts.LabelOpts(formatter="{value} °C"),
-                splitline_opts=opts.SplitLineOpts(
-                    is_show=True, linestyle_opts=opts.LineStyleOpts(opacity=1)
-                ),
-            ),
-            title_opts=opts.TitleOpts(
-                title="Drug-3",
-                pos_top="67%",
-                pos_left="10%",
-                title_textstyle_opts=opts.TextStyleOpts(
-                    font_size=25,
-                    font_family="Microsoft YaHei",
-                ),
-            ),
-            legend_opts=opts.LegendOpts(pos_top="67%"),
-        )
-    )
-
-    bar_drag_4 = (
-        Bar()
-        .add_xaxis(x_data)
-        .add_yaxis(
-            "Drag-4",
-            y_SBP,
-            stack="stack5",
-            label_opts=opts.LabelOpts(is_show=False),
-            xaxis_index=5,
-            yaxis_index=7,
-            itemstyle_opts=opts.ItemStyleOpts(
-                color=["rgba(211, 74, 81, 1)"],
-            )
-        )
-        .set_global_opts(
-            xaxis_opts=opts.AxisOpts(grid_index=5),
-            yaxis_opts=opts.AxisOpts(
-                grid_index=5,
-                type_="value",
-                name="other",
-                name_location="middle",
-                name_rotate=-90,
-                name_gap=55,
-                name_textstyle_opts=opts.TextStyleOpts(
-                    font_size=20,
-                    font_family="Courier New",
-                ),
-                min_=0,
-                max_=250,
-                position="right",
-                axisline_opts=opts.AxisLineOpts(
-                    linestyle_opts=opts.LineStyleOpts(color="#675bba")
-                ),
-                axislabel_opts=opts.LabelOpts(formatter="{value} °C"),
-                splitline_opts=opts.SplitLineOpts(
-                    is_show=True, linestyle_opts=opts.LineStyleOpts(opacity=1)
-                ),
-            ),
-            title_opts=opts.TitleOpts(
-                title="Drug-4",
-                pos_top="78.5%",
-                pos_left="10%",
-                title_textstyle_opts=opts.TextStyleOpts(
-                    font_size=25,
-                    font_family="Microsoft YaHei",
-                ),
-            ),
-            legend_opts=opts.LegendOpts(pos_top="78.5%"),
-        )
-    )
-
-    bar_drag_5 = (
-        Bar()
-        .add_xaxis(x_data)
-        .add_yaxis(
-            "Drag-5",
-            y_SBP,
-            stack="stack6",
-            label_opts=opts.LabelOpts(is_show=False),
-            xaxis_index=6,
-            yaxis_index=8,
-            itemstyle_opts=opts.ItemStyleOpts(
-                color=["rgba(141, 230, 137, 1)"],
-            )
-        )
-        .set_global_opts(
-            xaxis_opts=opts.AxisOpts(grid_index=6),
-            yaxis_opts=opts.AxisOpts(
-                grid_index=6,
-                type_="value",
-                name="other",
-                name_location="middle",
-                name_rotate=-90,
-                name_gap=55,
-                name_textstyle_opts=opts.TextStyleOpts(
-                    font_size=20,
-                    font_family="Courier New",
-                ),
-                min_=0,
-                max_=250,
-                position="right",
-                axisline_opts=opts.AxisLineOpts(
-                    linestyle_opts=opts.LineStyleOpts(color="#675bba")
-                ),
-                axislabel_opts=opts.LabelOpts(formatter="{value} °C"),
-                splitline_opts=opts.SplitLineOpts(
-                    is_show=True, linestyle_opts=opts.LineStyleOpts(opacity=1)
-                ),
-            ),
-            title_opts=opts.TitleOpts(
-                title="Drug-5",
-                pos_top="90%",
-                pos_left="10%",
-                title_textstyle_opts=opts.TextStyleOpts(
-                    font_size=25,
-                    font_family="Microsoft YaHei",
-                ),
-            ),
-            legend_opts=opts.LegendOpts(pos_top="90%"),
-        )
-    )
-
-    return [bar_drag_1, bar_drag_2, bar_drag_3, bar_drag_4, bar_drag_5]
-# def get_update_drug_charts(patient_id, new_keys):
-
-    return get_drug_charts(patient_id, new_keys)
 def ajax_save_memo(request, patient_id):
     content = request.GET['content']
     time = request.GET['time']
