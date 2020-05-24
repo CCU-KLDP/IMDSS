@@ -176,7 +176,10 @@ for (var i = 0; i < imgs.length; i++) {
     canvas.clearRect()
   }
 }
-
+/*CLEAR CANVAS*/
+function clearCanvas(){
+  ctx.clearRect(0, 0, canvas.width, canvas.height); 
+}
 
 /*圖片點擊放大MRI*/
 

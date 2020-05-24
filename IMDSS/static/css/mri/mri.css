@@ -143,16 +143,25 @@
  }
  #save{
      position: relative;
-     top: 0;
-    left: 900px;
+     top: 30px;
+    left: 850px;
   
     border-color: black;
     border: black;
  }
 
+.Clear{
+    position: relative;
+     top: 36px;
+    left: 880px;
+  
+    border-color: black;
+    border: black;
+}
+
  .Palette{
      position:relative;
-     top: 10px;
-     height: 50px;
+     top: -30px;
+     height: 110px;
      
  }
