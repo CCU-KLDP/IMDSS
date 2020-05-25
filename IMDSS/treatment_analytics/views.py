@@ -394,8 +394,6 @@ def get_select_thread_chart(request):
 
     ana_annual_new_df = pd.pivot_table(ana_annual_df, index='year', columns='treatment_id', values='ratio' , aggfunc=np.sum)
 
-    x_data = ana_annual_new_df.index.tolist()
-
     data = {}
 
     for key in keys:
@@ -421,13 +419,14 @@ def get_select_thread_chart(request):
     use_color_lst.reverse()
 
     line = Line()
-
+    
+    x_data = ana_annual_new_df.index.tolist()
     line.add_xaxis(x_data)
 
     print(x_data)
     i = 0
     for key in keys:
-        print('series_name=', treatment_dict[key])
+        print('series_name=', type(treatment_dict[key]))
         print('y_axis=', list(data[treatment_dict[key]]))
         print('color=', store_color_lst[i])
         line.add_yaxis(
