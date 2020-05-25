@@ -203,7 +203,7 @@ def get_success_ratio_charts(request):
     # selected_disease = request.GET["selected_disease"]
     selected_disease = 'Lung Cancer'
 
-    print('selected_therapy: ', selected_therapy)
+    # print('selected_therapy: ', selected_therapy)
 
     anas = Analysis.objects.filter(disease_name=selected_disease).values()
     data = {}
@@ -217,7 +217,7 @@ def get_success_ratio_charts(request):
         data[selected_therapy] = 0
     
 
-    print("216: ", data)
+    # print("216: ", data)
 
 
     pie = Pie()
@@ -268,7 +268,7 @@ def draw_success_chart(chart, x, y):
 
     return chart_str
 
-
+# should change
 def get_cost_bar_charts(request):
     # selected_therapy = request.GET["selected_therapy"]
 
@@ -288,16 +288,19 @@ def get_cost_bar_charts(request):
     # selected_disease = request.GET["selected_disease"]
     selected_disease = 'Lung Cancer'
 
+    print(selected_therapy)
+
     anas = Analysis.objects.filter(disease_name=selected_disease).values()
     data = {}
     # success ratio
     selected_therapy_lst = selected_therapy.split(" ")
 
     for ana in anas:
-        if ana.treat_name in selected_therapy_lst:
-            data[ana.treat_name] = ana.treat_cost
+        if ana['treat_name'] in selected_therapy_lst:
+            data[ana['treat_name'].split(" ")[0]] = ana['treat_cost']
 
-    # cost_lst
+
+    cost_lst = [data[name] for name in selected_therapy_lst if name in data]
 
     bar = Bar()
 
