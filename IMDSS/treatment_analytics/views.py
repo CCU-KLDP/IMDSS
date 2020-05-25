@@ -181,6 +181,12 @@ fn = """
     }
     """
 
+pie_fn = """
+        function(params) {
+            return params.name + ' : \\n' + params.value;
+        }
+        """
+
 
 def new_label_opts():
     return opts.LabelOpts(
@@ -191,6 +197,14 @@ def new_label_opts():
         font_weight="bold",
     )
 
+
+def pie_label_opts():
+    return opts.LabelOpts(
+        # formatter=JsCode(pie_fn),
+        position="right",
+        font_size=16,
+        font_family="Microsoft YaHei",
+    )
 
 """
 @pony
@@ -555,13 +569,10 @@ def get_select_pie_chart(request):
     pie.add(
         "select ratio yearly",
         pie_data,
-        label_opts=opts.LabelOpts(
-            font_size=18,
-            font_family="Microsoft YaHei",
-        ),
+        label_opts=pie_label_opts(),
         radius=[0, 90],
-        
     )
+
     pie.set_colors(store_color_lst)
     pie.set_global_opts(
         legend_opts=opts.LegendOpts(
