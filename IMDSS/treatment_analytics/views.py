@@ -196,19 +196,28 @@ def new_label_opts():
 please write your code below here!
 """
 
-
+# should change
 def get_success_ratio_charts(request):
  
     selected_therapy = request.GET["selected_therapy"]
-    selected_disease = request.GET["selected_disease"]
-    # selected_disease = 'Surgery'
+    # selected_disease = request.GET["selected_disease"]
+    selected_disease = 'Lung Cancer'
 
+    print('selected_therapy: ', selected_therapy)
 
     anas = Analysis.objects.filter(disease_name=selected_disease).values()
     data = {}
     # success ratio
     for ana in anas:
-        data[ana.treat_name] = ana.treat_success
+        data[ana['treat_name'].split(" ")[0]] = ana['treat_success'] # should change
+        # data[ana['treat_name']] = ana['treat_success']
+
+    # should change
+    if selected_therapy not in data:
+        data[selected_therapy] = 0
+    
+
+    print("216: ", data)
 
 
     pie = Pie()
@@ -276,8 +285,8 @@ def get_cost_bar_charts(request):
     #     cost_lst.append(data.get(i))
 
     selected_therapy = request.GET["selected_therapy"]
-    selected_disease = request.GET["selected_disease"]
-
+    # selected_disease = request.GET["selected_disease"]
+    selected_disease = 'Lung Cancer'
 
     anas = Analysis.objects.filter(disease_name=selected_disease).values()
     data = {}
@@ -287,6 +296,8 @@ def get_cost_bar_charts(request):
     for ana in anas:
         if ana.treat_name in selected_therapy_lst:
             data[ana.treat_name] = ana.treat_cost
+
+    # cost_lst
 
     bar = Bar()
 
