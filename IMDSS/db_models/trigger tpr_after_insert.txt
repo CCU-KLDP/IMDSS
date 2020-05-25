@@ -1,0 +1,32 @@
+бзбиби
+@Louise
+SQL syntax for trigger used to automatically import `db_models_tpr_data` every time new data is stored in `tpr_data_1`.
+бзбиби
+
+DELIMITER //
+CREATE TRIGGER tpr_after_insert
+AFTER INSERT ON tpr_data_1
+FOR EACH ROW
+BEGIN
+DECLARE `item` VARCHAR(100);
+DECLARE `value` DECIMAL;
+DECLARE `unit` VARCHAR(20);
+DECLARE `date` VARCHAR(100);
+DECLARE `time` VARCHAR(100);
+DECLARE `patient_id` VARCHAR(100);
+DECLARE `doctor_id` VARCHAR(100);
+
+SET item = NEW.chtor_item;
+SET value = NEW.chtor_value_num;
+SET unit = NEW.chtor_unit;
+SET date = NEW.chtor_cre_dt;
+SET time = NEW.chtor_cre_ti;
+SET patient_id = NEW.chtor_pat_no;
+SET doctor_id = NEW. chtor_cre_mj_dr;
+
+INSERT INTO db_models_tpr_data(item, value, create_date, create_time, patient_id_id, resident_doctor_id, unit)
+VALUES(item, value, date, time, patient_id, doctor_id, unit);
+
+END //
+DELIMITER ;
+

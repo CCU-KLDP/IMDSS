@@ -2,6 +2,8 @@ $(document).ready(function(){
     $('select').formSelect();
 });
 
+var mark_dic = {}
+
 function dept_change(){
     var dept_idx = document.getElementById("dept_select").value;
     var table_container = document.getElementById("table-select-container");
@@ -32,28 +34,70 @@ function dept_change(){
 }
 
 function table_change(){
-    var cui_lst_container = document.getElementById("middle-list-container");
+    var cui_lst = document.getElementById("middle_list");
     var insert_html = "";
     $.ajax({
         type: "GET",
         url: "http://127.0.0.1:8000/emr_search/table_item",
-        data: {"selected_table": $("#table_select option:selected").text()},
+        data: {
+            "selected_table": $("#table_select option:selected").text(),
+            "selected_dept": $('#dept_select :selected').text()
+        },
         dataType: "json",
         success: function(result){
             for(i=0;i < result.length;i++){
                 html = 
-                    '<div class="item-list-container">'+
-                    "<label>"+
-                    '<input type="checkbox" class="filled-in item-list" />'+
+                    "<label class='item-list'>"+
+                    // 等CUI傳過來，id = CUI
+                    // onclick="update_mark()"
+                    '<input type="checkbox" class="filled-in " name="item" onclick="item_change()" />'+
                     "<span>"+
                     result[i]+
                     "</span>"+
                     "</label>"+
-                    "</div>";
+                    "<br>"+
+                    "<br>"+
+                    "<br>"
                 insert_html += html   
             }
-
-            cui_lst_container.innerHTML = insert_html;
+            cui_lst.innerHTML = insert_html;
         }
     });
+}
+
+
+function item_change(){
+    var items = ""
+    var insert_html="<i class='material-icons'>star</i>"
+
+    $("#middle_list>label>input[name=item]").each(function(index){
+        if($(this)[0].checked){
+            items += $(this).next('span').text();
+            items+= "***seperator***"
+        }
+    });
+
+    $.ajax({
+        type: "GET",
+        url: "http://127.0.0.1:8000/emr_search/get_mark",
+        data: {
+            "selected_table": $("#table_select option:selected").text(),
+            "selected_dept": $('#dept_select :selected').text(),
+            "items": items
+        },
+        dataType: "json",
+        success: function(result){
+            $("#select-emr-table>tbody>tr").each(function(){
+                $(this).find("td:eq(0)").empty()
+            })
+
+
+            for(i=0;i < Object.keys(result).length;i++){
+                $("#"+Object.keys(result)[i]+">td:eq(0)").html(insert_html)
+            }
+            mark_dic = result
+        }
+    });
+    
+
 }

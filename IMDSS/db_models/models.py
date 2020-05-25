@@ -80,36 +80,6 @@ class Med(models.Model):
     exeDt = models.CharField(max_length=15) #執行時間
 
 
-class OutPatient_data(models.Model):
-    """
-    @Kyle
-    Outpatient_data
-    """
-    time = models.DateField()
-    doctor_id = models.ForeignKey(
-        'db_models.Doctor',
-        on_delete=models.DO_NOTHING,
-        to_field='doctor_id',
-        related_name='outpatient_doctor'
-        )
-    patient_id = models.ForeignKey(
-        'db_models.Patient',
-        on_delete=models.DO_NOTHING,
-        to_field='patient_id',
-        related_name='outpatient_patients'
-        )
-    dep_id = models.ForeignKey(
-        'db_models.Department',
-        on_delete=models.DO_NOTHING,
-        to_field='dep_id'
-        )
-    med_id = models.ForeignKey(
-        'db_models.Med',
-        on_delete=models.DO_NOTHING,
-        to_field='id'
-        )
-
-
 class Tpr_data(models.Model):
     # medical_record = models.IntegerField()  # 病歷號
     patient_id = models.ForeignKey(
@@ -132,17 +102,98 @@ class Tpr_data(models.Model):
         return self.patient_id
 
 
-class Hospitalized_data(models.Model):
+class Emr_data(models.Model):
     """
-    @Kyle
-    hospitalized_data
+    @Louise
+    All emr string with tag
     """
-    time = models.DateField(auto_now=False)
+    EmrId = models.CharField(max_length=50,unique=True)     # 病歷檔名編號
+    Sequence = models.IntegerField()                        # 行數
+    EmrContent = models.CharField(max_length=5000)          # 包含tag內容
+
+
+class Xsl_data(models.Model):
+    """
+    @Louise
+    All xsl string with tag
+    """
+    XslId = models.CharField(max_length=50)          # Xsl檔名編號
+    Sequence = models.IntegerField()                 # 行數
+    XslContent = models.CharField(max_length=5000)   # 包含tag內容
+
+
+class Memo_data(models.Model):
+    time = models.DateField(auto_now=True)
     doctor_id = models.ForeignKey(
         'db_models.Doctor',
         on_delete=models.DO_NOTHING,
         to_field='doctor_id',
-        related_name='hospitalized_doctor',
+        related_name='memo_doctor',
+        )
+    patient_id = models.ForeignKey(
+        'db_models.Patient',
+        on_delete=models.DO_NOTHING,
+        to_field='patient_id',
+        related_name='memo_patients'
+        )
+    content = models.CharField(max_length=6000)
+
+
+class OutPatient_data(models.Model):
+    """
+    @Kyle
+    Outpatient_data
+    """
+    time = models.CharField(max_length=100)
+    EmrId = models.ForeignKey(
+        'db_models.Emr_data',
+        on_delete=models.DO_NOTHING,
+        to_field='EmrId'
+        )
+    doctor_id = models.ForeignKey(
+        'db_models.Doctor',
+        on_delete=models.DO_NOTHING,
+        to_field='doctor_id',
+        related_name='outpatient_doctor'
+        )
+    patient_id = models.ForeignKey(
+        'db_models.Patient',
+        on_delete=models.DO_NOTHING,
+        to_field='patient_id',
+        related_name='outpatient_patients'
+        )
+    dep_id = models.ForeignKey(
+        'db_models.Department',
+        on_delete=models.DO_NOTHING,
+        to_field='dep_id'
+        )
+    Type = models.CharField(max_length=100)
+    """
+    need to temporary ignore it
+    med_id = models.ForeignKey(
+        'db_models.Med',
+        on_delete=models.DO_NOTHING,
+        to_field='id'
+        )
+    """
+
+"""
+class Hospitalized_data(models.Model):
+    '''
+    @Kyle
+    hospitalized_data
+    '''
+    time = models.CharField(max_length=100)
+    EmrId = models.ForeignKey(
+        'db_models.Emr_data',
+        on_delete=models.DO_NOTHING,
+        to_field='EmrId'
+        )
+    doctor_id = models.ForeignKey(
+        'db_models.Doctor',
+        on_delete=models.DO_NOTHING,
+        to_field='doctor_id',
+        related_name='hospitalized_doctor'
         )
     patient_id = models.ForeignKey(
         'db_models.Patient',
@@ -155,6 +206,9 @@ class Hospitalized_data(models.Model):
         on_delete=models.DO_NOTHING,
         to_field='dep_id'
         )
+    Type = models.CharField(max_length=100)
+    '''
+    need to temporary ignore it
     med_id = models.ForeignKey(
         'db_models.Med',
         on_delete=models.DO_NOTHING,
@@ -165,13 +219,6 @@ class Hospitalized_data(models.Model):
         on_delete=models.DO_NOTHING,
         to_field='id'
         )
+    '''
 
-
-class Emr_data(models.Model):
-    """
-    @Louise
-    All emr string with tag
-    """
-    EmrId = models.CharField(max_length=50)          # 病歷檔名編號
-    Sequence = models.IntegerField()                 # 行數
-    EmrContent = models.CharField(max_length=5000)   # 包含tag內容
+"""

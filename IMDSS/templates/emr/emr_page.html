@@ -5,6 +5,7 @@
 {% block ref %}
 <link rel="stylesheet" href="{% static 'css/emr/side_select.css' %}">
 <link rel="stylesheet" href="{% static 'css/emr/display_emr.css' %}">
+<link rel="stylesheet" href="{% static 'css/memo/memo.css' %}">
 {% endblock %}
 
 
@@ -19,8 +20,11 @@
                     </a>
                 </div>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="/login">Another1</a></li>
+                    <li><a href="{% url 'select_patient:select_page' %}">Select patient</a></li>
+                    <li><a href="/charts/{{ patient_id }}">Visualize</a></li>
+                    <!--therapy analytics-->
                     <li><a href="/login">Another2</a></li>
+                    <!--mri-->
                     <li><a href="/login">Another3</a></li>
                 </ul>
             </div>
@@ -42,19 +46,27 @@
         </div>
         <div class="divider"></div>
         <div id="middle-list-container">
+            <div id="middle_list">
+
+            </div>
         </div>
     </div>
     <div class="display-emr-section">
         <div class="select-emr-section">
-            <div id="search-bar">
-                <div class="search-text">
-                    <script>
-                        var green_pic = "{% static 'image/emr/search_icon_green.png' %}"
-                        var black_pic = "{% static 'image/emr/search_icon_black.png' %}"
-                    </script>
-                    <input name = input placeholder="病歷號查詢" type="text" onmousedown="search_icon_to_green()" onblur="search_icon_to_black()">
+            <div class="top-bar">
+                <div class="patient_id">
+                    <h5>病人編號 : {{ patient_id }}</h5>
                 </div>
-                <img src="{% static 'image/emr/search_icon_black.png' %}" id="search-icon">
+                <div id="search-bar">
+                    <div class="search-text">
+                        <script>
+                            var green_pic = "{% static 'image/emr/search_icon_green.png' %}"
+                            var black_pic = "{% static 'image/emr/search_icon_black.png' %}"
+                        </script>
+                        <input name = input placeholder="關鍵字查詢" type="text" onmousedown="search_icon_to_green()" onblur="search_icon_to_black()">
+                    </div>
+                    <img src="{% static 'image/emr/search_icon_black.png' %}" id="search-icon">
+                </div>
             </div>
             <div class="select-emr-table-container">
                 <table id="select-emr-table">
@@ -62,27 +74,25 @@
                         <tr>
                             <th width = 7%></th>
                             <th width = 7%></th>
-                            <th>Id</th>
                             <th>Date</th>
                             <th>Type</th>
                             <th>Department</th>
-                            <th>Diagnosis</th>
+                            <th>Doctor</th>
                         </tr>
                     </thead>
                     <tbody>
                         {% for instance in emr_table %}
                             {% if forloop.counter0 == 0 %}
-                                <tr class="selected">
+                                <tr class="selected" id="{{ instance.id }}">
                             {% else %}
-                                <tr>
+                                <tr id="{{ instance.id }}">
                             {% endif %}
-                                    <td width = 7%></td>
-                                    <td width = 7%></td>
-                                    <td>{{ instance.id }}</td>
+                                    <td width = 7% style="text-align: center;"></td>
+                                    <td width = 7% style="text-align: center;"></td>
                                     <td>{{ instance.date }}</td>
                                     <td>{{ instance.type }}</td>
                                     <td>{{ instance.dept }}</td>
-                                    <td>{{ instance.diagnosis }}</td>
+                                    <td>{{ instance.doctor }}</td>
                                 </tr>
                         {% endfor %}
                     </tbody>
@@ -91,12 +101,13 @@
         </div>
         <div class="emr-section">
             <div class="emr-container">
-                <img src="{% static 'image/emr/test_cat.jpg' %}" alt="">
+                <div id="emr"></div>
             </div>
         </div>
             
     </div>
     
+    {% include "memo/memo.html"  %}
     
 
     
@@ -106,6 +117,7 @@
     <script type="text/javascript" src="{% static 'js/materialize.js' %}"></script>
     <script type="text/javascript" src="{% static 'js/emr/sidenav.js' %}"></script>
     <script type="text/javascript" src="{% static 'js/emr/display_emr.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/memo/memo.js' %}"></script>
     {% endblock js-ref %}
 </body>
 {% endblock content %}

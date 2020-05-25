@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="big5" ?>
+<?xml-stylesheet href="Progress_note.xsl" type="text/xsl"?>
+<Progress_note xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Progress_note.xsd">
+<IPD_INFO>
+	<IPD_NO>10809250011</IPD_NO>
+	<IPD_IN_DATE>2019-09-25</IPD_IN_DATE>
+	<IPD_BED>AI205</IPD_BED>
+	<IPD_MAJOR_DRNO>7123</IPD_MAJOR_DRNO>
+	<IPD_MAJOR_DR>李世瑜      </IPD_MAJOR_DR>
+</IPD_INFO>
+<CULTURE_MARK>Y</CULTURE_MARK>
+<CULTURE>
+	<CULTURE_DAY>2019-09-27</CULTURE_DAY>
+	<CULTURE_DESCRIPTION>Sputum Culture(Cough out)</CULTURE_DESCRIPTION>
+	<CULTURE_CATEGORY>
+	</CULTURE_CATEGORY>
+</CULTURE>
+<CULTURE>
+	<CULTURE_DAY>2019-09-27</CULTURE_DAY>
+	<CULTURE_DESCRIPTION>Sputum Culture(Cough out)</CULTURE_DESCRIPTION>
+	<CULTURE_CATEGORY>
+	</CULTURE_CATEGORY>
+</CULTURE>
+<CULTURE>
+	<CULTURE_DAY>2019-09-27</CULTURE_DAY>
+	<CULTURE_DESCRIPTION>Sputum Culture(Cough out)</CULTURE_DESCRIPTION>
+	<CULTURE_CATEGORY>
+	</CULTURE_CATEGORY>
+</CULTURE>
+<HYC_MARK>N</HYC_MARK>
+<RECORD_DATE>2019-09-27</RECORD_DATE>
+<RECORD_TIME>14:38</RECORD_TIME>
+<SUBJECTIVE>Polyuria
+left side mild weakness</SUBJECTIVE>
+<OBJECTIVE>Physical Examination：
+  ◇ Consciousness：E4V5M6
+  ◇ Head         ：no deformity,
+  ◇ Eyes         ：isocoric
+     light reflex ：right    +    ,left   +
+     conjunctiva  ：pink,     sclera：anicteric.
+  ◇ ENT          ：no injected throat, no enlarged tonsil
+  ◇ Neck         ：supple,
+                    carotid bruit: nil
+  ◇ Chest        ：symmetric expansion,
+                    Breathing sound clear
+  ◇ Heart        ：regular heart beat
+                    no murmurs
+  ◇ Abdomen     ： soft and flat, no tenderness
+                   bowel sounds ：normoactive
+  ◇ Extremity    ：freely movable, no pedal edema
+Neurological Examination：
+  ◇ Consciousness：clear
+  ◇ High cortical function ：
+     orientation to time(+), place(+), person(+)
+     speech  ：spontaneous speech
+     comprehension：ok
+Cranial nerves：
+  Ⅱ - isocoric：right  3.5  mm, left   3.5  mm,
+       light reflex ：right   +    , left   +    ,
+       visual acuity： normal
+       visual field ：左側忽略
+Ⅲ、Ⅳ、Ⅵ
+                        Ｏ      Ｏ                    Ｏ      Ｏ
+                        │      │                    │      │
+                    Ｏ─┼─Ｘ─┼─Ｏ            Ｏ─┼─Ｘ─┼─Ｏ
+                        │      │                    │      │
+                        Ｏ      Ｏ                    Ｏ      Ｏ
+ 
+Ⅴ - facial sensation ：left central facial palsy
+                       (左邊感覺異常,感覺不出刺或痛覺)
+     mastication      ：symmetric
+Ⅶ - facial expression：mild elevation of left side
+ 
+Ⅷ - normal hearing
+     no nystagmus
+Ⅸ,Ⅹ - palatal elevation：mild elevation of left side
+Ⅸ - muscle power in sternocleidomastoid and trapezius：muscle power in
+      sternocleidomastoid and trapezius：symmetric
+XⅡ - no atrophy, no fasciculation,
+      tongue protrusion：mild elevation of left side
+ 
+Motor system：
+   Muscle status - no atrophy, fasciculation, hypertrophy, or tenderness,
+   Muscle tone   - no rigidity, spasticity, hypotonia,
+ Muscle power and deep tendon reflexes：
+ 
+                   ○
+                   │
+              5──▽──4
+                   │
+              5──  ──4
+
+</OBJECTIVE>
+<Easy_Progress_Note></Easy_Progress_Note>
+<CONTENT>
+	<PROBLEM_COUNT>01</PROBLEM_COUNT>
+	<PROBLEM>acute large cerebral infarction at right middle cerebral
+artery territory s/p t-PA and EVT</PROBLEM>
+	<ASSESSMENT>   Sudden of trunk deviation to left side, left limbs weakness, then
+right-ward looking, and slurred speech while having meeting with sitting
+position at 08:30 this morning
+   Brain CT finding no ICH,favor right dense MCA sign s/p t-PA (NIHHS:21)
+   BTA was arranged done then showed highly suspect dense hypervascular sign
+of right MCA post EVT.
+   Highly suspect dense hypervascular sign induced acute large cerebral
+infarction at right middle cerebral artery territory s/p t-PA and EVT
+ 
+-----＞ 9/26, MRI of brain showed acute large cerebral infarction at right
+middle cerebral artery territory, no ICH. Then, added bokey and try diet.
+9/27, polyuria and arrhy-tachycardia was noted.</ASSESSMENT>
+	<DIAG_PLAN>- Monitor consciousness level and neurological examinations
+- Watch vital signs
+- Watch I/O and U/O
+- Arrange echocardiography for survey heart function and disease
+- EKG prn</DIAG_PLAN>
+	<THERA_PLAN>.如TICI 分數2b或3，收縮壓大於140。以上情形使用降血壓藥物注射後 15 分鐘再
+ check BP 一次, 如仍超過血壓控制目標, 立即再次通知醫師
+.Record NIHSS Q4h  Q8h with prn
+.If NIHSS 惡化大於或等於4分, 請 call Dr, 馬上安排 noncontrast head CT
+- Adequate intravensous fluid hydration, N/S run 100ml/hour
+- H2 receptor antagonist for stress uler preventions
+   gaster 1# po bid
+- Keep anti-platate agent, bokey 1# po qd
+- On soft diet</THERA_PLAN>
+	<EDUCA_PLAN>1) Explain condition to the family</EDUCA_PLAN>
+	<PLAN>Plan</PLAN>
+</CONTENT>
+<RECORDER></RECORDER>
+<VS_UPLOAD>李世瑜</VS_UPLOAD>
+<VS_NO_UPLOAD></VS_NO_UPLOAD>
+
+</Progress_note>

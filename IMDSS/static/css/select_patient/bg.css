@@ -1,32 +1,84 @@
-.row1{
-   
-   visibility: visible;
-     margin-left: auto;
-     margin-right: auto;
-     margin-bottom: 300px;
-    
-   /* max-width: initial;*/
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: relative;
-  
- }
+.row-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 0%; /*改圖片上尖閣*/
+    margin-bottom: 10%;
+    height: 60%;
+}
 
-.select{
+.row-container .select{
     position: relative;
-   text-align:center;
-    top: 20%;
-    left: 500px;
-    max-width: 400px;
-    max-height: 700;
-  
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 0px;
+    margin-left: 1.5%;
+    padding-right: 0%;
+    height: 65%;
+    width: 45%;
+    top: 0px;
 }
-.options{
-    text-align: center;
-    left: 0px;
-    text-align: center;
+
+
+
+#select-pats-table>thead>tr{
+    top: 70px;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    color: white;
+    font-size: 30px;
+}
+#select-pats-table>tbody{
+    top: 90px;
+    display: block;
+    height: 298px;
+    overflow-y: scroll;
+    color: white;
+    font-size: 20px;
+}
+
+#select-pats-table>tbody>tr{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#select-pats-table>tbody>tr:hover {
+    background-color: rgb(178,223,219);
+}
+
+#select-pats-table>tbody>tr#selected {
+    background-color: rgb(128,203,196);
+}
+#detail{ /**BUTTON/*/
     position: relative;
-    max-width: 200px;
+    left: 0%;
+    top: 22px;
 }
+
+#display{   
+    margin-right: 8%;
+    padding-right: 30%;
+    margin-bottom: 10%;
+    position: absolute;
+    float: right;
+    left: 60%;
+    top: 48%;
+    width: 30%;
+    height: 400px;
+    font-size: 25px;
+    background-color: #3331319a;
+    color: white;
+    white-space: nowrap;
+}
+
+.btn-grp{
+    position: relative;
+    left: 0%;
+    top: 18px;
+}
+
 
 @font-face {
     font-family: 'WeddingTextBT-Regular';
@@ -60,22 +112,16 @@
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
-.form{
-    color: white;
-    background-color: rgba(0, 0, 0, 0.6);
-    text-align: left;
-    height:400px;
-    width: 550px;
- left: 800px;
- 
-}
+
 .bgsqr{
     position: absolute;
+    top : 16%;
     width:100%;
-    height:100%;
-   z-index: -20;
-   margin: 0px;
-   clip-path:polygon(0% 0%, 0% 100%,50% 50%,100% 0%);
+    height:82.5%;
+    z-index: -20;
+    margin: 0px;
+    clip-path:polygon(0% 0%, 0% 100%,50% 50%,100% 0%);
+    background-color: #414040;
   }
 .btn{
     background-color: rgb(34, 34, 34);
@@ -84,76 +130,85 @@
     left: 60px;
     color:#ffffff;
 }
+.detail{
+   position: absolute;
+    top: 20px;
+}
 .bgsqr2{
     position: absolute;
     width:300px;
     height:100px;
     clip-path:polygon(0% 0%, 0% 100%,90% 100%,100% 0%);
+    background-color: #333232 ;
   }
 
 .bgsqr3{
     position: absolute;
-   
+    top: 16%;
     width:100%;
-    height:100%;
+    height:83%;
+    z-index: -100;
     left:0px;
     margin: 0px;
-    clip-path:polygon(49% 50%, 0% 100%,100% 100%,100% 0%);
-  }
+    background-color: #706868;
+}
 
-  html,body{
+html,body{
       height: 100%;
-  }
+}
  
-  .par1{
+.par1{
      
     /* The image used */
    /* background-image: url('https://www.bnext.com.tw/article/54056/free-image-sources');*/
-    max-height: 600px;
+    height: 60%;
     /* Full height */
-    height: 100%; 
-   
+
+    background-image: url('https://images.unsplash.com/photo-1565536421966-1e4aec32c7e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  .par2{ 
+}
+.par2{ 
     height: 5%; 
-    max-height: 200px;
+    max-height: 300px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
-  .page-footer{
+.page-footer{
     visibility: visible;
     margin-left: auto;
     margin-right: auto;
    max-width: initial; 
    position: relative;
   }
-  .row{
-   height: 110px;
+
+.row{
+    height: 110px;
     visibility: visible;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
-   position: relative;
-  }
-  .doctor_name{
+    position: relative;
+}
+
+.doctor_name{
     width:300px;
     height:100px;
-position: absolute;
-z-index: 50;
+    position: absolute;
+    z-index: 50;
 
-  }
+}
 .about_us{
     width:200px;
     height:80px;
-position: relative;
+    position: relative;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
@@ -166,10 +221,10 @@ body{
 .wrapsearch{
  
     width: 200px;
-  position: relative;
-  top: 0px;
-  left: 400px;
-  transform: translate(-50%, -50%);
+    position: relative;
+    top: 0px;
+    left: 400px;
+    transform: translate(-50%, -50%);
 }
 
 .search {
@@ -209,3 +264,121 @@ body{
 .select-wrapper input.select-dropdown {
     color: white;
 }
+
+.material-icons{
+  color: white;
+}
+
+#visualize{
+    margin-left: 2%;
+}
+
+#emr_search{
+    margin-left: 3%;
+}
+
+#mri{
+    margin-left: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+/*GENERAL SPECIFIC文字*/
+#slide{
+    position: relative;
+    top: 0%;
+   
+}
+.ml1 {
+    font-weight: 900;
+    font-size: 3.5em;
+    color: white;
+    font-family: "SentyTEA";
+  }
+  .ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+    color: white;
+    font-family: "SentyTEA";
+  }
+  
+  .ml1 .letter {
+    position: relative;
+    display: inline-block;
+    line-height: 1em;
+    top: 20px;
+  }
+  .ml2 .letter {
+    position: relative;
+    top: 0px;
+    display: inline-block;
+    line-height: 1em;
+   
+  }
+  .ml1 .text-wrapper {
+    position: relative;
+    top: 16px;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  
+  .ml2 .text-wrapper {
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  .ml1 .line {
+    opacity: 1;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    transform-origin: 0 0;
+  }
+  .ml2 .line {
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    transform-origin: 0 0;
+  }
+  
+  .ml1 .line1 { top: 22px; }
+  .ml1 .line2 { bottom: 0; }
+  .ml2 .line1 { top: 63px; }
+  .ml2 .line2 { bottom: 70px; }

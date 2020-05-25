@@ -21,9 +21,7 @@
                         </a>
                     </div>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="/login">Another1</a></li>
-                        <li><a href="/login">Another2</a></li>
-                        <li><a href="/login">Another3</a></li>
+                        <li><a href="/login">Login</a></li>
                     </ul>
                 </div>
             </div>
@@ -37,7 +35,7 @@
             <h2 class="sufo">&nbsp;Sign Up</h2>
             <h7 style="left: 100px;">&nbsp;&nbsp;&nbsp;&nbsp;Already have an account?<a
                     href="http://127.0.0.1:8000/login/">
-                    <h7 id="sign_in">sign in</h7>
+                    <h7 id="sign_in">Sign in</h7>
                 </a></h7>
             <hr id="form_line">
 
@@ -79,20 +77,20 @@
                     <option value="5">Surgery</option> -->
                 </select>
 
-                <div class="input-field col s6 pd-left">
+                <div class="input-field col s6 pd-left text_container">
                     <i class="material-icons prefix lock">lock</i>&nbsp;&nbsp;
                     <input name="password1" id="pwd_text" type="password" class="validate" required>{{  user_form.password }}
                     <label for="pwd_text">Enter your password</label>
                 </div>
-                <div class="input-field col s6 pd-left">
+
+                <div class="input-field col s6 pd-left text_container">
                     <i class="material-icons prefix lock">lock</i>&nbsp;&nbsp;
                     <input name="password2" id="confirm_pwd_text" type="password" class="validate" required>
                     <label for="confirm_pwd_text">Enter your password again</label>
                     <span id="message"></span>
                 </div>
 
-
-                <div class="input-field col s6 email_field">
+                <div class="input-field col s6 email_field" style="margin-top: 7%;">
                     <i class="material-icons prefix mail">email</i>
                     <input name="email" id="email_text" type="email" class="validate" placeholder="&nbsp;sophie@example.com" required>
                     <label for="email_text"><h6 >E-mail Address</h6></label>

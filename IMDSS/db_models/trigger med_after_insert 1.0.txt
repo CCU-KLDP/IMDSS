@@ -1,0 +1,45 @@
+бзбиби
+@Louise
+SQL syntax for trigger used to automatically import `db_models_med` every time new data is stored in `ni_ptmarec`, and join `ni_ptmarec` & `ni_ptorderud`.
+Still have a problem with multiple orderID in `ni_ptorderud`.
+ бзбиби
+
+DELIMITER //
+CREATE TRIGGER med_after_insert
+AFTER INSERT ON ni_PtMARec
+FOR EACH ROW
+BEGIN
+DECLARE pt_no VARCHAR(100);
+DECLARE encounterID VARCHAR(20);
+DECLARE orderID VARCHAR(100);
+DECLARE medprs VARCHAR(100);
+DECLARE `dose` INT;
+DECLARE doseUnit VARCHAR(20);
+DECLARE exeDt VARCHAR(15);
+
+SET encounterID = NEW.ptEncounterID;
+SET orderID = NEW.orderID;
+SET medprs = NEW.MedPRS;
+SET exeDt = NEW.exeDt; 
+
+SET pt_no = (SELECT ni_PtOrderUD.PT_NO 
+FROM ni_PtOrderUD RIGHT JOIN ni_PtMARec
+ON ni_ptorderud.ptEncounterID = ni_PtMARec.ptEncounterID AND ni_ptorderud.OrderID = ni_PtMARec.orderID
+WHERE ni_PtMARec.ptEncounterID = NEW.ptEncounterID AND ni_PtMARec.OrderID = NEW.orderID AND ni_PtMARec.exeDt = NEW.exeDt);
+
+SET dose = (SELECT ni_PtOrderUD.dose
+FROM ni_PtOrderUD RIGHT JOIN ni_PtMARec
+ON ni_ptorderud.ptEncounterID = ni_PtMARec.ptEncounterID AND ni_ptorderud.OrderID = ni_PtMARec.orderID
+WHERE ni_PtMARec.ptEncounterID = NEW.ptEncounterID AND ni_PtMARec.OrderID = NEW.orderID AND ni_PtMARec.exeDt = NEW.exeDt);
+
+SET doseUnit = (SELECT ni_PtOrderUD.doseUnit
+FROM ni_PtOrderUD RIGHT JOIN ni_PtMARec
+ON ni_ptorderud.ptEncounterID = ni_PtMARec.ptEncounterID AND ni_ptorderud.OrderID = ni_PtMARec.orderID
+WHERE ni_PtMARec.ptEncounterID = NEW.ptEncounterID AND ni_PtMARec.OrderID = NEW.orderID AND ni_PtMARec.exeDt = NEW.exeDt);
+
+INSERT INTO db_model_med (patient_id_id,EncounterId,OrderId,MedPRS,dose,doseUnit,exeDt)
+VALUES(pt_no,encounterID,orderID,medprs,dose,doseUnit,exeDt);
+
+END //
+DELIMITER ;
+

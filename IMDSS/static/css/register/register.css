@@ -31,10 +31,10 @@
     border-radius: 10px;
     border-width: 30%;
     width: 25%;
-    height: 81%;
-    top: 10%;
+    height: 67%;
+    top: 13%;
     background-color: rgb(101, 104, 102);
-    left: 37%;
+    left: 40%;
     z-index: 7;
     color: white;
     /*opacity: 0.7;*/
@@ -76,7 +76,6 @@ input:required {
 
 #form_line {
     size: "2px";
-    align: "center";
     width: "80%";
     opacity: 0.5;
 }
@@ -111,9 +110,9 @@ input:required:hover {
 }
 
 .btn_signup {
+    margin-top: 6%;
     left: 35%;
     margin-bottom: 0%;
-    margin: 0%;
     border-radius: 7px;
     background-color: #4caf50;
 }
@@ -143,6 +142,7 @@ input:required:hover {
     left: 50%;
 }
 
+
 #id_text {
     width: 83%;
     left: 28%;
@@ -159,10 +159,17 @@ input:required:hover {
     
 }
 
+.text_container{
+    margin-top: 5%;
+}
+
+
+
+
 /*icon position form the left*/
 
 .lock {
-    left: 5.3%;
+    left: 4%;
 }
 
 .cal {
@@ -170,7 +177,7 @@ input:required:hover {
 }
 
 .mail {
-    left: 3.1%;
+    left: 2%;
 }
 
 #message {
