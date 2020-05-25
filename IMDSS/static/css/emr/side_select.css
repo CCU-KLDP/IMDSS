@@ -8,7 +8,8 @@ body{
     float: left;
     width: 14%;
     text-align: center;
-    height: 93.25vh;   
+    height: 900px;   
+    overflow: hidden;
 }
 
 .top-select-container {
@@ -50,25 +51,23 @@ body{
 }
 
 #middle-list-container {
-    padding-top: 10%;
+    padding-top: 12%;
     float: left;
     width: 80%;
-    height: 750px;
+    height: 730px;
     text-align: left;
     margin-left: 15%;
     padding-bottom: 10px;
-
-
+    overflow: hidden;
 }
 
 #middle_list{
-    height: 95%;
+    height: 670px;
     overflow-y: auto;
-    padding-right: 5px;
-}
+    left: 20px;
+    width: 12%;
+    position: fixed;
 
-#item-list-container {
-    padding-bottom: 20%;
 }
 
 [type="checkbox"] + span:not(.lever) {
@@ -77,8 +76,9 @@ body{
     color: white;
 }
 
-
-
+.item-list{
+    margin-bottom: 10%;
+}
 
 
 

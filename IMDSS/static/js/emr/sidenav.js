@@ -2,6 +2,8 @@ $(document).ready(function(){
     $('select').formSelect();
 });
 
+var mark_dic = {}
+
 function dept_change(){
     var dept_idx = document.getElementById("dept_select").value;
     var table_container = document.getElementById("table-select-container");
@@ -45,19 +47,19 @@ function table_change(){
         success: function(result){
             for(i=0;i < result.length;i++){
                 html = 
-                    '<div id="item-list-container">'+
-                    "<label>"+
+                    "<label class='item-list'>"+
                     // 等CUI傳過來，id = CUI
                     // onclick="update_mark()"
-                    '<input type="checkbox" class="filled-in item-list" name="item" onclick="item_change()" />'+
+                    '<input type="checkbox" class="filled-in " name="item" onclick="item_change()" />'+
                     "<span>"+
                     result[i]+
                     "</span>"+
                     "</label>"+
-                    "</div>";
+                    "<br>"+
+                    "<br>"+
+                    "<br>"
                 insert_html += html   
             }
-
             cui_lst.innerHTML = insert_html;
         }
     });
@@ -66,8 +68,9 @@ function table_change(){
 
 function item_change(){
     var items = ""
+    var insert_html="<i class='material-icons'>star</i>"
 
-    $("#item-list-container>label>input[name=item]").each(function(index){
+    $("#middle_list>label>input[name=item]").each(function(index){
         if($(this)[0].checked){
             items += $(this).next('span').text();
             items+= "***seperator***"
@@ -84,7 +87,15 @@ function item_change(){
         },
         dataType: "json",
         success: function(result){
-            alert(123)
+            $("#select-emr-table>tbody>tr").each(function(){
+                $(this).find("td:eq(0)").empty()
+            })
+
+
+            for(i=0;i < Object.keys(result).length;i++){
+                $("#"+Object.keys(result)[i]+">td:eq(0)").html(insert_html)
+            }
+            mark_dic = result
         }
     });
     
