@@ -37,6 +37,8 @@ def ajax_get_disease(request):
 
 def ajax_get_treatment_detail(request):
     selected_disease = request.GET["selected_disease"]
+    selected_dept = request.GET["selected_dept"]
+
     treatment_lst = ["treatment_1", "treatment_2", "treatment_3"]
     dic = {}
     dic['treatment'] = treatment_lst
@@ -47,7 +49,9 @@ def ajax_get_treatment_detail(request):
 
 
 def ajax_side_effect_detail(request):
+    selected_dept = request.GET["selected_dept"]
     selected_disease = request.GET["selected_disease"]
+    
 
     treatment_lst = ["treatment_1", "treatment_2", "treatment_3"]
     dic = {}
