@@ -64,9 +64,9 @@ def ajax_get_disease(request):
 
 def ajax_get_treatment_detail(request):
 
-    # selected_dept = request.GET['selected_dept'] 
+    selected_dept = request.GET['selected_dept'] 
     selected_disease = request.GET["selected_disease"]
-    selected_dept = 'Chest Medicine'
+    # selected_dept = 'Chest Medicine'
 
     dep_id = Department.objects.get(dep_name=selected_dept).dep_id
 
@@ -201,8 +201,8 @@ please write your code below here!
 def get_success_ratio_charts(request):
  
     selected_therapy = request.GET["selected_therapy"]
-    # selected_disease = request.GET["selected_disease"]
-    selected_disease = 'Lung Cancer'
+    selected_disease = request.GET["selected_disease"]
+    # selected_disease = 'Lung Cancer'
 
     # print('selected_therapy: ', selected_therapy)
 
@@ -286,8 +286,7 @@ def get_cost_bar_charts(request):
     #     cost_lst.append(data.get(i))
 
     selected_therapy = request.GET["selected_therapy"]
-    # selected_disease = request.GET["selected_disease"]
-    selected_disease = 'Lung Cancer'
+    selected_disease = request.GET["selected_disease"]
 
     selected_therapy_lst = selected_therapy.split("**seperator**")
 
@@ -367,9 +366,10 @@ def get_cost_bar_charts(request):
 
 def get_select_thread_chart(request):
     selected_therapy = request.GET["selected_therapy"]
-    # selected_disease = request.GET["selected_disease"]
-    selected_disease = 'Lung Cancer'
-    selected_dept = 'Chest Medicine'
+    selected_disease = request.GET["selected_disease"]
+    selected_dept = request.GET["selected_dept"]
+
+    print(request.GET)
 
     selected_therapy_lst = list(selected_therapy.split("**seperator**"))
 
@@ -502,71 +502,70 @@ def get_select_thread_chart(request):
 
 
 def get_select_pie_chart(request):
-    # selected_therapy = request.GET["selected_therapy"]
-    # selected_therapy_lst = list(selected_therapy.split("**seperator**"))
+    selected_therapy = request.GET["selected_therapy"]
+    selected_therapy_lst = list(selected_therapy.split("**seperator**"))
 
-    # selected_year = request.GET["selected_year"]
+    selected_year = request.GET["selected_year"]
 
-    # all_therapy_lst = ["treatment_1", "treatment_2", "treatment_3"]
+    all_therapy_lst = ["treatment_1", "treatment_2", "treatment_3"]
 
-    # data = {
-    #     "treatment_1": 40,
-    #     "treatment_2": 30,
-    #     "treatment_3": 30,
-    # }
+    data = {
+        "treatment_1": 40,
+        "treatment_2": 30,
+        "treatment_3": 30,
+    }
 
-    # pie_data = []
+    pie_data = []
 
-    # selected_idx_lst = []
+    selected_idx_lst = []
 
-    # for i in selected_therapy_lst:
-    #     temp = [i, data[i]]
-    #     pie_data.append(temp)
-    #     selected_idx_lst.append(all_therapy_lst.index(i))
+    for i in selected_therapy_lst:
+        temp = [i, data[i]]
+        pie_data.append(temp)
+        selected_idx_lst.append(all_therapy_lst.index(i))
 
-    # store_color_lst = ["#5793f3", "#675bba", "#d14a61"]
-    # use_color_lst = []
+    store_color_lst = ["#5793f3", "#675bba", "#d14a61"]
+    use_color_lst = []
 
-    # for i in selected_idx_lst:
-    #     use_color_lst.append(store_color_lst[i])
+    for i in selected_idx_lst:
+        use_color_lst.append(store_color_lst[i])
 
-    # pie = Pie()
-    # pie.add(
-    #     "select ratio yearly",
-    #     pie_data,
-    #     label_opts=opts.LabelOpts(
-    #         font_size=18,
-    #         font_family="Microsoft YaHei",
-    #     ),
-    #     radius=[0, 90],
+    pie = Pie()
+    pie.add(
+        "select ratio yearly",
+        pie_data,
+        label_opts=opts.LabelOpts(
+            font_size=18,
+            font_family="Microsoft YaHei",
+        ),
+        radius=[0, 90],
         
-    # )
-    # pie.set_colors(use_color_lst)
-    # pie.set_global_opts(
-    #     legend_opts=opts.LegendOpts(
-    #         is_show=False,
-    #     ),
-    #     title_opts=opts.TitleOpts(
-    #         title=selected_year,
-    #         title_textstyle_opts=opts.TextStyleOpts(
-    #             font_size=30,
-    #             font_family="Microsoft YaHei",
-    #         )
-    #     ),
+    )
+    pie.set_colors(use_color_lst)
+    pie.set_global_opts(
+        legend_opts=opts.LegendOpts(
+            is_show=False,
+        ),
+        title_opts=opts.TitleOpts(
+            title=selected_year,
+            title_textstyle_opts=opts.TextStyleOpts(
+                font_size=30,
+                font_family="Microsoft YaHei",
+            )
+        ),
 
-    #     tooltip_opts=opts.TooltipOpts(
-    #         background_color="white",
-    #         border_width=1,
-    #         textstyle_opts=opts.TextStyleOpts(
-    #             color="black"
-    #         ),
-    #     ),
-    # )
-
-
+        tooltip_opts=opts.TooltipOpts(
+            background_color="white",
+            border_width=1,
+            textstyle_opts=opts.TextStyleOpts(
+                color="black"
+            ),
+        ),
+    )
 
 
-    # pie_str = pie.dump_options()
 
-    # return HttpResponse(pie_str)
-    return
+
+    pie_str = pie.dump_options()
+
+    return HttpResponse(pie_str)
