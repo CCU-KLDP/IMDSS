@@ -68,8 +68,8 @@ $("#select-emr-table>tbody").on("click", "tr", function() {
                             var highlight_text = Object.values(mark_dic2)[i][j].slice(0, -1)
                             var lower_highlight_text = Object.values(mark_dic2)[i][j].slice(0, -1).toLowerCase();
                             
-                            var original_text = $("#emr>:contains(" + highlight_text + ")").html()
-                            var lower_original_text = $("#emr>:contains(" + lower_highlight_text + ")").html()
+                            var original_text = $("#emr>:contains(" + highlight_text + ")").text()
+                            var lower_original_text = $("#emr>:contains(" + lower_highlight_text + ")").text()
                             
                             var new_text = original_text
                             var lower_new_text = lower_original_text
@@ -80,8 +80,8 @@ $("#select-emr-table>tbody").on("click", "tr", function() {
                             }
 
                             for(k=0;k < 10;k++){
-                                new_text = new_text.replace('*helight*', '<span style="color: blue;">' + highlight_text + '</span>')
-                                lower_new_text = lower_new_text.replace("*helight*", '<span style="color: blue;">' + lower_highlight_text + '</span>')
+                                new_text = new_text.replace('*helight*', '<span style="color: green;">' + highlight_text + '</span>')
+                                lower_new_text = lower_new_text.replace("*helight*", '<span style="color: green;">' + lower_highlight_text + '</span>')
                             }
                     
                             $("#emr>:contains(" + highlight_text + ")").html(new_text)
@@ -91,8 +91,6 @@ $("#select-emr-table>tbody").on("click", "tr", function() {
                 
                 }
             }
-            
-
         }
         
     });
