@@ -66,14 +66,14 @@
             <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
             <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
             <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li> -->
-                <div class="MRI" id="MRI" value="2">
+                <div class="MRI" id="MRI">
                     {% for mri in mris %}
                     {% if mri.mri_image %}
                     <li><a href="#"><img src="{{  mri.mri_image.url }}" /></a></li>
                     {% endif %}
                     {% endfor %}
                 </div>
-                <div class="XRAY" id="XRAY" value="1">
+                <div class="XRAY" id="XRAY">
                     {% for xray in xrays %}
                     {% if xray.xray_image %}
                     <li><a href="#"><img src="{{  xray.xray_image.url }}" /></a></li>
@@ -95,7 +95,7 @@
             <canvas id="canvas"></canvas>
         </div>
 
-        <form action="#"></form>
+        <form action="#">
         <p class="range-field" id="brush_size">Brush Size
             <input type="range" id="bsize" min="1" max="100" />
         </p>
