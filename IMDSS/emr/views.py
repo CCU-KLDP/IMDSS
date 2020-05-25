@@ -1,7 +1,7 @@
 from django.shortcuts   import render
 from django.http        import JsonResponse
 from django.http        import HttpResponse
-from db_models.models   import Department, Doctor, Xsl_data
+from db_models.models   import Department, Doctor, Xsl_data, Evaluation_form
 from emr.models         import EmrData, HospitalizedData ,OutpatientData, EmrCuiWord
 from lxml               import etree
 
@@ -233,8 +233,10 @@ def ajax_get_search_emr(request):
     @return list，表示要標記的emr是第幾個(從0開始)
     """
     input_text = request.GET['input_text']
-    highlight = [1, 3]
-    # print(input_text)s
+
+    evaluation = Evaluation_form.objects.get(medical_condition=input_text)
+
+
 
     return JsonResponse(highlight, safe=False)
 
