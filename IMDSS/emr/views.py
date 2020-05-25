@@ -235,6 +235,10 @@ def ajax_get_search_emr(request):
     input_text = request.GET['input_text']
 
     evaluation = Evaluation_form.objects.get(medical_condition=input_text)
+    
+    if evaluation is null:
+            evaluation_list = evaluation.first().cuis_list.split(", ")
+            selected_cui_lst = selected_cui_lst + evaluation_list
 
 
 
