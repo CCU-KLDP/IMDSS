@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     "register",
     "display_emr",
     "mri",
+    "treatment_analytics",
 ]
 
 MIDDLEWARE = [
