@@ -562,7 +562,7 @@ def get_select_pie_chart(request):
         radius=[0, 90],
         
     )
-    pie.set_colors(use_color_lst)
+    pie.set_colors(store_color_lst)
     pie.set_global_opts(
         legend_opts=opts.LegendOpts(
             is_show=False,
