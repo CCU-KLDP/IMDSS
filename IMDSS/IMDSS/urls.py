@@ -26,7 +26,7 @@ urlpatterns = [
     path("select_patient/", include("select_patient.urls")),
     path("emr/", include("display_emr.urls")),
     path("charts/", include("display_patient_detail.urls")),
-    path("mri/", include("mri.urls"))
+    path("mri/", include("mri.urls")),
     path("therapy_analytics/", include("treatment_analytics.urls")),
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

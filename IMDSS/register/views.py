@@ -33,12 +33,8 @@ def register_view(request):
                 print('success')
             except IntegrityError:
                 return render(request, "register/register.html", {"departments":departments, })
-<<<<<<< HEAD
-        return render(request, "login/login_page.html", {})
-=======
         # return render(request, "register/register.html", {})
         return HttpResponseRedirect(reverse("login:login_page"))
->>>>>>> 07d199c6e405a38c3ef0aedec5bda25fd5d9209f
     else:
         return render(request, "register/register.html", {"departments":departments, })
 
