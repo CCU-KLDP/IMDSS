@@ -506,29 +506,50 @@ def get_select_pie_chart(request):
     selected_therapy_lst = list(selected_therapy.split("**seperator**"))
 
     selected_year = request.GET["selected_year"]
+    selected_dept = request.GET["selected_dept"]
+    selected_disease = request.GET["selected_disease"]
 
-    all_therapy_lst = ["treatment_1", "treatment_2", "treatment_3"]
 
-    data = {
-        "treatment_1": 40,
-        "treatment_2": 30,
-        "treatment_3": 30,
-    }
+    dep_id = Department.objects.get(dep_name=selected_dept).dep_id
+    anas = Analysis.objects.filter(dept_id=dep_id).values()
+
+    # ana_groups = ana_df.groupby('disease_name')
+    treatment_dict = {}
+    for ana in anas:
+        if ana['treat_name'] in selected_therapy_lst:
+            treatment_dict[ana['treatment_id']] = ana['treat_name']
+
+    keys = treatment_dict.keys()
+
+
+
+    ana_annual_df = pd.DataFrame(list(AnalysisAnnual.objects.all().values()))
+
+    ana_annual_new_df = pd.pivot_table(ana_annual_df, index='year', columns='treatment_id', values='ratio' , aggfunc=np.sum)
+
+    # print(ana_annual_new_df.index)
+    data = {}
+    # print(treatment_dict)
+
+    for key in keys:
+        data[treatment_dict[key]] = int(ana_annual_new_df.loc[int(selected_year), key])
+
+    all_therapy_lst = list(data.keys())
 
     pie_data = []
 
     selected_idx_lst = []
 
-    for i in selected_therapy_lst:
-        temp = [i, data[i]]
+    for key in keys:
+        temp = [str(treatment_dict[key]), int(data[treatment_dict[key]])]
         pie_data.append(temp)
-        selected_idx_lst.append(all_therapy_lst.index(i))
-
+        # selected_idx_lst.append(all_therapy_lst.index(i))
+    print(pie_data)
     store_color_lst = ["#5793f3", "#675bba", "#d14a61"]
     use_color_lst = []
 
-    for i in selected_idx_lst:
-        use_color_lst.append(store_color_lst[i])
+    # for i in selected_idx_lst:
+    #     use_color_lst.append(store_color_lst[i])
 
     pie = Pie()
     pie.add(
