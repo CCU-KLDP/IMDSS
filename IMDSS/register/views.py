@@ -1,9 +1,11 @@
-from django.shortcuts import render
-from db_models.models import Doctor, Department
-from .forms import User_data_create_form
-from django.db import IntegrityError
-from django.contrib.auth import login, logout, authenticate
+from django.shortcuts           import render
+from django.http                import HttpResponseRedirect
+from db_models.models           import Doctor, Department
+from .forms                     import User_data_create_form
+from django.db                  import IntegrityError
+from django.contrib.auth        import login, logout, authenticate
 from django.contrib.auth.models import User
+from django.urls                import reverse
 
 import datetime
 # from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
@@ -31,7 +33,12 @@ def register_view(request):
                 print('success')
             except IntegrityError:
                 return render(request, "register/register.html", {"departments":departments, })
+<<<<<<< HEAD
         return render(request, "login/login_page.html", {})
+=======
+        # return render(request, "register/register.html", {})
+        return HttpResponseRedirect(reverse("login:login_page"))
+>>>>>>> 07d199c6e405a38c3ef0aedec5bda25fd5d9209f
     else:
         return render(request, "register/register.html", {"departments":departments, })
 

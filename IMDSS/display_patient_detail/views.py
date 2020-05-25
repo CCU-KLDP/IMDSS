@@ -176,7 +176,8 @@ def init_multiple_charts(patient_id) -> Grid:
                 ),
                 axislabel_opts=opts.LabelOpts(formatter="{value} bpm"), # breath per minute
                 splitline_opts=opts.SplitLineOpts(
-                    is_show=True, linestyle_opts=opts.LineStyleOpts(opacity=1)
+                    is_show=True,
+                    linestyle_opts=opts.LineStyleOpts(opacity=1)
                 ),
             )
         )
@@ -230,7 +231,7 @@ def init_multiple_charts(patient_id) -> Grid:
                 border_width=1,
                 textstyle_opts=opts.TextStyleOpts(
                     color="black"
-                    ),
+                ),
             ),
             title_opts=opts.TitleOpts(
                 pos_top="0%",

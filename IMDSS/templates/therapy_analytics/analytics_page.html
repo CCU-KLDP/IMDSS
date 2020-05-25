@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block ref %}
+<link rel="stylesheet" href="{% static 'css/therapy_analytics/bg_style.css' %}">
+<link rel="stylesheet" href="{% static 'css/therapy_analytics/charts.css' %}">
+{% endblock %}
+
+
+{% block content %}
+
+<body bgcolor="#f5f5f5">
+    <div class="navbar-fixed">
+        <nav class="nav-wrapper grey darken-3 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col s1">
+                        <a href="/login" class="small brand-logo">
+                            <img class="responsive-img" src="{% static 'image/login/nav_icon.png' %}" width="150">
+                        </a>
+                    </div>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="/login">Another1</a></li>
+                        <li><a href="/login">Another2</a></li>
+                        <li><a href="/login">Another3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="top_select_container">
+        <div id="dept_select_container">
+            <select id="dept_select" onchange="dept_change()">
+                <option value="" disabled selected>Select department</option>
+                    {% for i in dept_lst %}
+                        <option value={{forloop.counter0}}>{{i}}</option>
+                    {% endfor %}
+            </select>
+        </div>
+    
+        <div id="disease_select_container">
+            
+        </div>
+    </div>
+    <div id="collapsible_container">
+        
+    </div>
+
+    <div id="therapy_checkbox_container">
+  
+    </div>
+    <div id="success_ratio_chart_title"><b></b></div><br>
+    <div id="success_ratio_chart_container">
+        
+    </div>
+    
+    <div id="side_effect_container">
+        
+    </div>
+    
+    <div id="cost_bar_chart_container">
+
+    </div>
+
+    <div id="select_ratio_container">
+        <div id="thread_chart">
+
+        </div>
+        <div id="pie_chart">
+            
+        </div>
+    </div>
+
+
+    <!--
+    <div class="row">
+        <div class="col s12">
+            {% csrf_token %}
+            <div id="charts"></div>
+        </div>
+    </div>
+    -->
+
+
+
+    
+    
+
+    <!--HTMLå¯«é€™è£¡-->
+
+    {% block js-ref %}
+    <script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+    <script type="text/javascript" , src="{% static 'js/materialize.js' %}"></script>
+    <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+    <script type="text/javascript" src="{% static 'js/therapy_analytics/charts.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/therapy_analytics/page.js' %}"></script>
+    {% endblock js-ref %}
+</body>
+
+
+
+{% endblock content %}
