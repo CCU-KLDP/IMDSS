@@ -1,6 +1,8 @@
-from django.shortcuts import render
-from .models import Mri_data
-from django.http import HttpResponse
+from django.shortcuts       import render
+from django.http            import HttpResponse
+from .models                import Mri_data, XrayData
+
+
 import json
 
 # Create your views here.
@@ -27,12 +29,14 @@ def json_response(data, code=200):
 def mri_view(request):
     mris = Mri_data.objects.all()
     # mris = Mri_data.objects.filter(id='32')
-    print(mris)
+    xrays = XrayData.objects.all()
+    print(xrays)
     # for mri in mris:
     #     print(mri.mri_image.url)
     print(mris)
     content = {
         'mris': mris,
+        'xrays': xrays,
         'first': mris[0],
     }
     return render(request, "mri/mri.html", content)
