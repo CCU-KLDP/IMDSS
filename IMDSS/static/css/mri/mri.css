@@ -203,6 +203,19 @@
     margin-right: 10%;
  }
 
+#display_patient_id{
+    margin-left: 15%;
+    margin-top: 3%;   
+}
+
+
+#display_patient_id>h5{
+    font-size: 200%;
+color: white;
+font-family: Microsoft Yahei; 
+}
+
+
 
 
  

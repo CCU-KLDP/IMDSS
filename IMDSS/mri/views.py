@@ -26,7 +26,7 @@ def json_response(data, code=200):
     return response_as_json(data)
 
 
-def mri_view(request):
+def mri_view(request, patient_id):
     mris = Mri_data.objects.all()
     # mris = Mri_data.objects.filter(id='32')
     xrays = XrayData.objects.all()
@@ -38,6 +38,7 @@ def mri_view(request):
         'mris': mris,
         'xrays': xrays,
         'first': mris[0],
+        "patient_id": patient_id
     }
     return render(request, "mri/mri.html", content)
 
