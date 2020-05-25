@@ -39,8 +39,8 @@
 
             <select class="browser-default z-depth-4 dd_sel">
                 <option value="" disabled selected>MRI/XRAY</option>
-                <option value="1">X-RAY</option>
-                <option value="2">MRI</option>
+                <option value="2">X-RAY</option>
+                <option value="1">MRI</option>
             </select>
 
 
@@ -66,12 +66,20 @@
             <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
             <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
             <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li> -->
-                {% for mri in mris %}
-                {% if mri.mri_image %}
-                <li><a href="#"><img src="{{  mri.mri_image.url }}" /></a></li>
-                {% endif %}
-                {% endfor %}
-
+                <div class="MRI" id="MRI" value="2">
+                    {% for mri in mris %}
+                    {% if mri.mri_image %}
+                    <li><a href="#"><img src="{{  mri.mri_image.url }}" /></a></li>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+                <div class="XRAY" id="XRAY" value="1">
+                    {% for xray in xrays %}
+                    {% if xray.xray_image %}
+                    <li><a href="#"><img src="{{  xray.xray_image.url }}" /></a></li>
+                    {% endif %}
+                    {% endfor %}
+                </div>
             </ul>
 
 
@@ -107,7 +115,7 @@
                 R<input id="red" type="range" name="points" min="0" max="255" value="0"><br>
                 G<input id="green" type="range" name="points" min="0" max="255" value="0"><br>
                 B<input id="blue" type="range" name="points" min="0" max="255" value="0">
-        </div>
+            </div>
 
 
             <!-- 下載 -->

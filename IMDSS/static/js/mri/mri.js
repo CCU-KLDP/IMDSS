@@ -5,12 +5,12 @@ $(function () {
   //给div添加change事件
   $("#dd_sel").change(function () {
     if ($(this).val() == 1) {
-      $("#XRAY").show();
-      $("#MRI").hide();
+      $("#mri.mri_image.url").show();
+      $("#xray.xray_image.url").hide();
 
     } else if ($(this).val() == 2) {
-      $("#MRI").show();
-      $("#XRAY").hide();
+      $("#mri_image.url").show();
+      $("#xray_image.url").hide();
 
     }
 
@@ -165,13 +165,13 @@ $('#save').on('click', function () {
 
 /*圖片點擊放大XRAY*/
 
-var imgs = document.getElementById('X_photos').getElementsByTagName('img')
+var imgs = document.getElementById('#XRAY').getElementsByTagName('img')
 var img = document.getElementById('painter').getElementsByTagName('img')[0]
 for (var i = 0; i < imgs.length; i++) {
 
-  imgs[i].onclick = function () {
+  
     img.src = this.src;
-  }
+  
   if (img.onclick) {
     canvas.clearRect()
   }
@@ -183,7 +183,7 @@ function clearCanvas(){
 
 /*圖片點擊放大MRI*/
 
-var imgs = document.getElementById('#photos').getElementsByTagName('img')
+var imgs = document.getElementById('#MRI').getElementsByTagName('img')
 var img = document.getElementById('painter').getElementsByTagName('img')[0]
 for (var i = 0; i < imgs.length; i++) {
 
