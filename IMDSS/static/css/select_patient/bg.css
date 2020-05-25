@@ -70,6 +70,7 @@
     font-size: 25px;
     background-color: #3331319a;
     color: white;
+    white-space: nowrap;
 }
 
 .btn-grp{
