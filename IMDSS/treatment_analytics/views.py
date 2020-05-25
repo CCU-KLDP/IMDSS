@@ -57,7 +57,7 @@ def ajax_get_disease(request):
     #         temp.append("disease-" + str(randint(1, 11)))
     #     dic[i] = temp
 
-    print(disease_dict)
+    # print(disease_dict)
     return response_as_json(disease_dict)
     # return response_as_json(dic)
 
@@ -128,7 +128,7 @@ def update_side_effect_detail(request):
     # for i in selected_therapy_lst:
     #     dic[i] = "side effect description - " + i.split("_")[1]
 
-    print(dic)
+    # (dic)
 
     return response_as_json(dic)
 
@@ -369,7 +369,7 @@ def get_select_thread_chart(request):
     selected_disease = request.GET["selected_disease"]
     selected_dept = request.GET["selected_dept"]
 
-    print(request.GET)
+    # print(request.GET)
 
     selected_therapy_lst = list(selected_therapy.split("**seperator**"))
 
@@ -421,14 +421,15 @@ def get_select_thread_chart(request):
     line = Line()
     
     x_data = ana_annual_new_df.index.tolist()
-    line.add_xaxis(x_data)
 
-    print(x_data)
+    x_data = [str(i) for i in x_data]
+
+    line.add_xaxis(x_data)
     i = 0
     for key in keys:
-        print('series_name=', type(treatment_dict[key]))
-        print('y_axis=', list(data[treatment_dict[key]]))
-        print('color=', store_color_lst[i])
+        # print('series_name=', treatment_dict[key])
+        # print('y_axis=', list(data[treatment_dict[key]]))
+        # print('color=', store_color_lst[i])
         line.add_yaxis(
             series_name=treatment_dict[key],
             y_axis=list(data[treatment_dict[key]]),
