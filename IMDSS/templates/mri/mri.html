@@ -30,92 +30,93 @@
         </nav>
     </div>
 
-    <div class="delete_margin grey darken-3" id="hexagon_top_black"></div>
-    <div class="delete_margin traingle_top_left_grey grey darken-2"></div>
-    <div class="delete_margin traingle_top_right_black grey darken-3"></div>
-    <div class="col s5 offset-s3 white-text top_title">
-        <div id="container">
+    <div class="grey darken-3"></div>
+    <div class="traingle_top_left_grey grey darken-2"></div>
+    <div class="traingle_top_right_black grey darken-3"></div>
+
+    <div id="container">
 
 
-            <select class="browser-default z-depth-4 dd_sel">
-                <option value="" disabled selected>MRI/XRAY</option>
-                <option value="1">X-RAY</option>
-                <option value="2">MRI</option>
-            </select>
+        <select class="browser-default z-depth-4 dd_sel">
+            <option value="" disabled selected>MRI/XRAY</option>
+            <option value="1">X-RAY</option>
+            <option value="2">MRI</option>
+        </select>
 
 
 
-            <ul id="photos">
-                <!-- <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
-            <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
-            <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
-            <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
-            <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li>
-            <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
-            <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
-            <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
-            <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
-            <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li>
-            <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
-            <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
-            <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
-            <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
-            <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li>
-            <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
-            <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
-            <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
-            <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
-            <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li> -->
-                {% for mri in mris %}
-                {% if mri.mri_image %}
-                <li><a href="#"><img src="{{  mri.mri_image.url }}" /></a></li>
-                {% endif %}
-                {% endfor %}
+        <ul id="photos">
+            <!-- <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li> -->
+            {% for mri in mris %}
+            {% if mri.mri_image %}
+            <li><a href="#"><img src="{{  mri.mri_image.url }}" /></a></li>
+            {% endif %}
+            {% endfor %}
 
-            </ul>
+        </ul>
 
 
+    </div>
+
+
+
+    <div id="painter">
+        <!--<div id="pic_show">-->
+            <img src="{{ first.mri_image.url }}" selected="false" /></div>
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <div id="panel_container">
+        <div id="scroll">
+            <p class="range-field">Brush Size
+                <input type="range" id="bsize" min="1" max="100" />
+            </p>
+        
+
+            <div class="Palette">
+                <!-- 調整色彩 -->
+                <div class="color">
+                    R<input id="red" type="range" name="points" min="0" max="255" value="0"><br>
+                    G<input id="green" type="range" name="points" min="0" max="255" value="0"><br>
+                    B<input id="blue" type="range" name="points" min="0" max="255" value="0">
+            
+                </div>
+            </div>
         </div>
-
-
-
-
-        <div id="painter">
-            <div id="pic_show">
-
-                <img src="{{ first.mri_image.url }}" selected="false" /></div>
-            <canvas id="canvas"></canvas>
-        </div>
-
-        <form action="#"></form>
-        <p class="range-field" id="brush_size">Brush Size
-            <input type="range" id="bsize" min="1" max="100" />
-        </p>
-        </form>
-
-
-
-        <div class="Clear">
-            <!--清除畫布-->
-            <a id="clear" type="submit" onclick="clearCanvas()"
+        <div id="btn">
+        <!--清除畫布-->
+            <a id="clear" onclick="clearCanvas()"
                 class="btn waves-effect waves-light color-btn-green">Clear</a>
+
+
+                <!-- 下載 -->
+            <a id="save" download="saved.jpg" onclick="test()"
+                class="btn waves-effect waves-light color-btn-green">Save Pic
+            </a>
         </div>
+    </div>    
+                <!-- 下載end -->
 
-        <div class="Palette">
-            <!-- 調整色彩 -->
-            <div class="color">
-                R<input id="red" type="range" name="points" min="0" max="255" value="0"><br>
-                G<input id="green" type="range" name="points" min="0" max="255" value="0"><br>
-                B<input id="blue" type="range" name="points" min="0" max="255" value="0">
-        </div>
-
-
-            <!-- 下載 -->
-            <a id="save" href="#" type="submit" download="saved.jpg" onclick="test()"
-                class="btn waves-effect waves-light color-btn-green">Save Pic</a>
-            <!-- 下載end -->
-
-
+            <!--
             <div>
                 <footer class="page-footer footer-position grey darken-4">
                     <div class="container">
@@ -155,7 +156,7 @@
                     </div>
                 </footer>
             </div>
-
+            -->
 
             {% block js-ref %}
             <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

@@ -78,8 +78,8 @@ $(window).load(function () {
 /*小畫家*/
 var _canvas = document.getElementById('canvas');
 var ctx = _canvas.getContext('2d');
-canvas.width = window.innerWidth - 590; // 475
-canvas.height = window.innerHeight - 380; // 250
+canvas.width = window.innerWidth - 735; // 475
+canvas.height = window.innerHeight - 175; // 250
 ctx.strokeStyle = "orange"
 $('.color input').change(function () {
   r = $('#red').val();
