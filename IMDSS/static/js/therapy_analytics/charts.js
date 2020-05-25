@@ -94,11 +94,11 @@ function fetch_select_thread_chart(selected_therapy) {
                 $(".therapy_checkbox_items>input:checked[name=therapy]").each(function(index){
                     if($(this)[0].checked){
                         selected_therapy+=$(this).next('span').text(); 
-                        selected_therapy+=" ";
+                        selected_therapy+="**seperator**";
                     }
                 });
             
-                selected_therapy = selected_therapy.slice(0, -1)
+                selected_therapy = selected_therapy.slice(0, -13)
 
                 fetch_select_pie_chart(selected_therapy, param.name)
             }); 
