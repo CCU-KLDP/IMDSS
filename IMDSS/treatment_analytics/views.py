@@ -196,7 +196,7 @@ def new_label_opts():
 please write your code below here!
 """
 
-# should change
+
 def get_success_ratio_charts(request):
  
     selected_therapy = request.GET["selected_therapy"]
@@ -209,12 +209,12 @@ def get_success_ratio_charts(request):
     data = {}
     # success ratio
     for ana in anas:
-        data[ana['treat_name'].split(" ")[0]] = ana['treat_success'] # should change
-        # data[ana['treat_name']] = ana['treat_success']
+        # data[ana['treat_name'].split(" ")[0]] = ana['treat_success'] # should change
+        data[ana['treat_name']] = ana['treat_success']
 
     # should change
-    if selected_therapy not in data:
-        data[selected_therapy] = 0
+    # if selected_therapy not in data:
+    #     data[selected_therapy] = 0
     
 
     # print("216: ", data)
@@ -366,7 +366,13 @@ def get_cost_bar_charts(request):
 
 def get_select_thread_chart(request):
     selected_therapy = request.GET["selected_therapy"]
+    # selected_disease = request.GET["selected_disease"]
+    selected_disease = 'Lung Cancer'
+
     selected_therapy_lst = list(selected_therapy.split("**seperator**"))
+
+    ana_annual_df = pd.DataFrame(list(AnalysisAnnual.objects.filter()))
+
     x_data = [str(x) for x in range(1999, 2020)]
     bar_data = list(range(10, 101))
     shuffle(bar_data)
