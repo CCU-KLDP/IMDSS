@@ -1,3 +1,5 @@
+document.write('<script src="{% static "js/emr/sidenav.js" %}"</script>');
+
 function search_icon_to_green() {
     var icon = document.getElementById("search-icon")
     var bar = document.getElementById("search-bar")
@@ -29,6 +31,26 @@ $("#select-emr-table>tbody").on("click", "tr", function() {
             insert_html = result['insert_html']
             $("#emr").empty()
             $("#emr").append(insert_html)
+            for(i=0;i < Object.keys(mark_dic).length;i++){
+                if (Object.keys(mark_dic)[i] == selected_emr_id) {
+                   for(j=0;j < Object.values(mark_dic)[i].length;j++){
+                        var highlight_text = Object.values(mark_dic)[i][j].slice(0, -1)
+                        var lower_highlight_text = Object.values(mark_dic)[i][j].slice(0, -1).toLowerCase();
+
+                        var original_text = $("#emr>:contains(" + highlight_text + ")").text()
+                        var lower_original_text = $("#emr>:contains(" + lower_highlight_text + ")").text()
+                        
+                        var new_text = original_text.replace(highlight_text, '<span style="color: red;">' + highlight_text + '</span>')
+                        var lower_new_text = lower_original_text.replace(lower_highlight_text, '<span style="color: red;">' + lower_highlight_text + '</span>')
+                        
+                        alert(lower_highlight_text)
+
+                        $("#emr>:contains(" + highlight_text + ")").html(new_text)
+                        $("#emr>:contains(" + lower_highlight_text + ")").html(lower_new_text)
+                    }
+                }
+            
+            }
         }
         
     });
