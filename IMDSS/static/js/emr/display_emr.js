@@ -34,17 +34,26 @@ $("#select-emr-table>tbody").on("click", "tr", function() {
             for(i=0;i < Object.keys(mark_dic).length;i++){
                 if (Object.keys(mark_dic)[i] == selected_emr_id) {
                    for(j=0;j < Object.values(mark_dic)[i].length;j++){
+                           
                         var highlight_text = Object.values(mark_dic)[i][j].slice(0, -1)
                         var lower_highlight_text = Object.values(mark_dic)[i][j].slice(0, -1).toLowerCase();
 
                         var original_text = $("#emr>:contains(" + highlight_text + ")").text()
                         var lower_original_text = $("#emr>:contains(" + lower_highlight_text + ")").text()
                         
-                        var new_text = original_text.replace(highlight_text, '<span style="color: red;">' + highlight_text + '</span>')
-                        var lower_new_text = lower_original_text.replace(lower_highlight_text, '<span style="color: red;">' + lower_highlight_text + '</span>')
-                        
-                        alert(lower_highlight_text)
+                        var new_text = original_text
+                        var lower_new_text = lower_original_text
 
+                        for(j=0;j < 10;j++){
+                            new_text = new_text.replace(highlight_text, '*helight*')
+                            lower_new_text = lower_new_text.replace(lower_highlight_text, '*helight*')
+                        }
+
+                        for(j=0;j < 10;j++){
+                            new_text = new_text.replace('*helight*', '<span style="color: red;">' + highlight_text + '</span>')
+                            lower_new_text = lower_new_text.replace("*helight*", '<span style="color: red;">' + lower_highlight_text + '</span>')
+                        }
+                
                         $("#emr>:contains(" + highlight_text + ")").html(new_text)
                         $("#emr>:contains(" + lower_highlight_text + ")").html(lower_new_text)
                     }
