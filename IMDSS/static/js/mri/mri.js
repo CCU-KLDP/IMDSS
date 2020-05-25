@@ -158,11 +158,7 @@ $('#save').on('click', function () {
   //利用toDataURL() 把canvas轉成data:image
   this.href = _url;
   //再把href載入上面的Data:image
-}
-
-
-
-);
+});
 
 
 
@@ -180,11 +176,14 @@ for (var i = 0; i < imgs.length; i++) {
     canvas.clearRect()
   }
 }
-
+/*CLEAR CANVAS*/
+function clearCanvas(){
+  ctx.clearRect(0, 0, canvas.width, canvas.height); 
+}
 
 /*圖片點擊放大MRI*/
 
-var imgs = document.getElementById('M_photos').getElementsByTagName('img')
+var imgs = document.getElementById('#photos').getElementsByTagName('img')
 var img = document.getElementById('painter').getElementsByTagName('img')[0]
 for (var i = 0; i < imgs.length; i++) {
 
@@ -195,4 +194,68 @@ for (var i = 0; i < imgs.length; i++) {
 }
 
 
-/*畫筆大小*/
+/*CANVAS存圖片 */
+// 取得input
+const input = document.querySelector('input')
+
+// 當使用者修改內容(選擇檔案)
+input.addEventListener('change', function(event){
+  const files = this.files  // 取得所有 file
+  const container = this.parentNode // 設定一個preview容器
+  
+  // 處理每一個檔案
+  Array.prototype.forEach.call(files, file => {
+    filePreview(file, container)
+  })
+})
+
+// 這個將會把file的預覽圖加入指定container
+function filePreview(file, container) {
+    const url = URL.createObjectURL(file)   // 建立檔案url
+    const image = new Image
+    image.style.width = '150px'
+    image.style.height = 'auto'
+    image.alt = file.name
+    image.addEventListener('load', function(event) {
+        container.appendChild(this)
+    })
+    image.src = url
+}
+
+
+        // 建立 file
+function test(){
+    // 使用canvas的toBlob方法將其轉為blob
+    const blob = canvas.toBlob(blob => {
+        // 有了blob我們就可以使三 URL.createObjectURL建立url
+        const url = URL.createObjectURL(blob)
+        const link = document.createElement('a')
+        link.innerText = 'Download'
+        link.href = url // 將url 設定給 a tage 的 href
+        link.download = 'circle.png'    // 設定 download name
+        document.body.appendChild(link) // 加到指定元素之中，即可點擊下載
+    })
+
+
+
+    const dataURL = canvas.toDataURL('image/png')
+    const blobBin = atob(dataURL.split(',')[1])
+    const array = []
+    for (let i = 0; i < blobBin.length; i++) {
+        array.push(blobBin.charCodeAt(i))
+    }
+    const file = new Blob([new Uint8Array(array)], { type: 'image/png' })
+
+    // 將file 加至 formData
+    const formData = new FormData()
+    formData.append('file', file, 'test.png')
+
+    $.ajax({
+        type: "GET",
+        url: "http://127.0.0.1:8000/mri/save_pic",
+        data: {"form_data": 123},
+        success: function (result) {
+            alert(result)
+        }
+    });
+}

@@ -34,19 +34,19 @@
     <div class="delete_margin traingle_top_left_grey grey darken-2"></div>
     <div class="delete_margin traingle_top_right_black grey darken-3"></div>
     <div class="col s5 offset-s3 white-text top_title">
-    <div id="container">
+        <div id="container">
 
 
-        <select class="browser-default z-depth-4 dd_sel">
-            <option value="" disabled selected>MRI/XRAY</option>
-            <option value="1">X-RAY</option>
-            <option value="2">MRI</option>
-        </select>
+            <select class="browser-default z-depth-4 dd_sel">
+                <option value="" disabled selected>MRI/XRAY</option>
+                <option value="1">X-RAY</option>
+                <option value="2">MRI</option>
+            </select>
 
 
 
-        <ul id="photos">
-            <!-- <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
+            <ul id="photos">
+                <!-- <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
             <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
             <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
             <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
@@ -66,96 +66,102 @@
             <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
             <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
             <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li> -->
-            {% for mri in mris %}
+                {% for mri in mris %}
                 {% if mri.mri_image %}
-                    <li><a href="#"><img src="{{  mri.mri_image.url }}" /></a></li>
+                <li><a href="#"><img src="{{  mri.mri_image.url }}" /></a></li>
                 {% endif %}
-            {% endfor %}
-        </ul>
+                {% endfor %}
 
-        
-    </div>
+            </ul>
 
 
-
-
-    <div id="painter">
-        <div id="pic_show">
-            <img src="{{ first.mri_image.url }}" selected="false" /></div>
-        <canvas id="canvas"></canvas>
-    </div>
-
-<form action="#"></form>
-            <p class="range-field" id="brush_size">Brush Size
-              <input type="range" id="bsize" min="1" max="100" />
-            </p>
-          </form>
+        </div>
 
 
 
 
-          <div class="Palette">
+        <div id="painter">
+            <div id="pic_show">
+
+                <img src="{{ first.mri_image.url }}" selected="false" /></div>
+            <canvas id="canvas"></canvas>
+        </div>
+
+        <form action="#"></form>
+        <p class="range-field" id="brush_size">Brush Size
+            <input type="range" id="bsize" min="1" max="100" />
+        </p>
+        </form>
+
+
+
+        <div class="Clear">
+            <!--清除畫布-->
+            <a id="clear" type="submit" onclick="clearCanvas()"
+                class="btn waves-effect waves-light color-btn-green">Clear</a>
+        </div>
+
+        <div class="Palette">
             <!-- 調整色彩 -->
-              <div class="color">
-              R<input id="red" type="range" name="points" min="0" max="255" value="0"><br>
-              G<input id="green" type="range" name="points" min="0" max="255" value="0"><br>
-              B<input id="blue" type="range" name="points" min="0" max="255" value="0">
-              </div>
-              
-           
-            </div>
+            <div class="color">
+                R<input id="red" type="range" name="points" min="0" max="255" value="0"><br>
+                G<input id="green" type="range" name="points" min="0" max="255" value="0"><br>
+                B<input id="blue" type="range" name="points" min="0" max="255" value="0">
+        </div>
 
- <!-- 下載 -->
-              <a id="save" href="#" type="submit" download="aShareaDay.jpg" class="btn waves-effect waves-light color-btn-green">Save Pic</a>
+
+            <!-- 下載 -->
+            <a id="save" href="#" type="submit" download="saved.jpg" onclick="test()"
+                class="btn waves-effect waves-light color-btn-green">Save Pic</a>
             <!-- 下載end -->
 
 
-    <div>
-        <footer class="page-footer footer-position grey darken-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col l6 s12 about_us">
-                        <h6 class="white-text">About us : </h6>
-                        <p class="grey-text text-lighten-4"></p>
-                        <img class="col s3 offset-s4" src="{% static 'image/login/member.jpg' %}" width="100%">
-                        <a href="https://github.com/CCU-KLDP" class="col s5 white-text">
-                            <h5><u>CCU-KLDP</u></h5><br>
-                        </a>
+            <div>
+                <footer class="page-footer footer-position grey darken-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col l6 s12 about_us">
+                                <h6 class="white-text">About us : </h6>
+                                <p class="grey-text text-lighten-4"></p>
+                                <img class="col s3 offset-s4" src="{% static 'image/login/member.jpg' %}" width="100%">
+                                <a href="https://github.com/CCU-KLDP" class="col s5 white-text">
+                                    <h5><u>CCU-KLDP</u></h5><br>
+                                </a>
+                            </div>
+                            <div class="col l4 offset-s10 s12">
+                                <h5.5 class="white-text">Members' Github</h5.5>
+                                <ul>
+                                    <li><a class="grey-text text-lighten-3" href="https://github.com/PoPoPoPony">
+                                            <h7>Pony Yang: https://github.com/PoPoPoPony</h7>
+                                        </a></li>
+                                    <li><a class="grey-text text-lighten-3" href="https://github.com/vt017017">
+                                            <h7>Louise Lin: https://github.com/vt017017</h7>
+                                        </a></li>
+                                    <li><a class="grey-text text-lighten-3" href="https://github.com/dannnnny12">
+                                            <h7>Danny Chung: https://github.com/dannnnny12</h7>
+                                        </a></li>
+                                    <li><a class="grey-text text-lighten-3" href="https://github.com/Apple1122">
+                                            <h7>Kyle Huang: https://github.com/Apple1122</h7>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col l4 offset-s10 s12">
-                        <h5.5 class="white-text">Members' Github</h5.5>
-                        <ul>
-                            <li><a class="grey-text text-lighten-3" href="https://github.com/PoPoPoPony">
-                                    <h7>Pony Yang: https://github.com/PoPoPoPony</h7>
-                                </a></li>
-                            <li><a class="grey-text text-lighten-3" href="https://github.com/vt017017">
-                                    <h7>Louise Lin: https://github.com/vt017017</h7>
-                                </a></li>
-                            <li><a class="grey-text text-lighten-3" href="https://github.com/dannnnny12">
-                                    <h7>Danny Chung: https://github.com/dannnnny12</h7>
-                                </a></li>
-                            <li><a class="grey-text text-lighten-3" href="https://github.com/Apple1122">
-                                    <h7>Kyle Huang: https://github.com/Apple1122</h7>
-                                </a></li>
-                        </ul>
+                    <div class="footer-copyright">
+                        <div class="container">
+                            © 2020 Copyright Text
+                            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                        </div>
                     </div>
-                </div>
+                </footer>
             </div>
-            <div class="footer-copyright">
-                <div class="container">
-                    © 2020 Copyright Text
-                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-                </div>
-            </div>
-        </footer>
-    </div>
 
 
-    {% block js-ref %}
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" , src="{% static 'js/materialize.js' %}"></script>
-    <script type="text/javascript" , src="{% static 'js/mri/mri.js' %}"></script>
+            {% block js-ref %}
+            <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+            <script type="text/javascript" , src="{% static 'js/materialize.js' %}"></script>
+            <script type="text/javascript" , src="{% static 'js/mri/mri.js' %}"></script>
 
-    {% endblock js-ref %}
+            {% endblock js-ref %}
 </body>
 {% endblock content %}
