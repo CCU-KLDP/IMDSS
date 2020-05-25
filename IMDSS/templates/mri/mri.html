@@ -1,0 +1,174 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block ref %}
+<link rel="stylesheet" href="{% static 'css/mri/mri.css' %}">
+<link rel="stylesheet" href="{% static 'css/materialize.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<body>
+    <!--BODY-->
+    <div class="navbar-fixed">
+        <nav class="nav-wrapper grey darken-3 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col s1">
+                        <a href="/login" class="small brand-logo">
+                            <img class="responsive-img" src="{% static 'image/login/nav_icon.png' %}" width="150">
+                        </a>
+                    </div>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="/login">Another1</a></li>
+                        <li><a href="/login">Another2</a></li>
+                        <li><a href="/login">Another3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="grey darken-3"></div>
+    <div class="traingle_top_left_grey grey darken-2"></div>
+    <div class="traingle_top_right_black grey darken-3"></div>
+
+    <div id="container">
+        <select class="browser-default z-depth-4 dd_sel">
+            <option value="" disabled selected>MRI/XRAY</option>
+            <option value="2">X-RAY</option>
+            <option value="1">MRI</option>
+        </select>
+
+
+
+        <ul id="photos">
+            <!-- <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/j.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/k.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/l.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/m.jpg' %}" /></a></li>
+        <li><a href="#"><img src="{% static 'image/mri/n.jpg' %}" /></a></li> -->
+            <div class="MRI" id="MRI">
+                {% for mri in mris %}
+                {% if mri.mri_image %}
+                <li><a href="#"><img src="{{  mri.mri_image.url }}" /></a></li>
+                {% endif %}
+                {% endfor %}
+            </div>
+            <div class="XRAY" id="XRAY">
+                {% for xray in xrays %}
+                {% if xray.xray_image %}
+                <li><a href="#"><img src="{{  xray.xray_image.url }}" /></a></li>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </ul>
+
+
+    </div>
+
+
+
+    <div id="painter">
+        <!--<div id="pic_show">-->
+            <img src="{{ first.mri_image.url }}" selected="false" /></div>
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <div id="panel_container">
+        <div id="scroll">
+            <p class="range-field">Brush Size
+                <input type="range" id="bsize" min="1" max="100" />
+            </p>
+        
+
+            <div class="Palette">
+                <!-- 調整色彩 -->
+                <div class="color">
+                    R<input id="red" type="range" name="points" min="0" max="255" value="0"><br>
+                    G<input id="green" type="range" name="points" min="0" max="255" value="0"><br>
+                    B<input id="blue" type="range" name="points" min="0" max="255" value="0">
+            
+                </div>
+            </div>
+        </div>
+        <div id="btn">
+        <!--清除畫布-->
+            <a id="clear" onclick="clearCanvas()"
+                class="btn waves-effect waves-light color-btn-green">Clear</a>
+
+
+                <!-- 下載 -->
+            <a id="save" download="saved.jpg" onclick="test()"
+                class="btn waves-effect waves-light color-btn-green">Save Pic
+            </a>
+        </div>
+    </div>    
+                <!-- 下載end -->
+
+            <!--
+            <div>
+                <footer class="page-footer footer-position grey darken-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col l6 s12 about_us">
+                                <h6 class="white-text">About us : </h6>
+                                <p class="grey-text text-lighten-4"></p>
+                                <img class="col s3 offset-s4" src="{% static 'image/login/member.jpg' %}" width="100%">
+                                <a href="https://github.com/CCU-KLDP" class="col s5 white-text">
+                                    <h5><u>CCU-KLDP</u></h5><br>
+                                </a>
+                            </div>
+                            <div class="col l4 offset-s10 s12">
+                                <h5.5 class="white-text">Members' Github</h5.5>
+                                <ul>
+                                    <li><a class="grey-text text-lighten-3" href="https://github.com/PoPoPoPony">
+                                            <h7>Pony Yang: https://github.com/PoPoPoPony</h7>
+                                        </a></li>
+                                    <li><a class="grey-text text-lighten-3" href="https://github.com/vt017017">
+                                            <h7>Louise Lin: https://github.com/vt017017</h7>
+                                        </a></li>
+                                    <li><a class="grey-text text-lighten-3" href="https://github.com/dannnnny12">
+                                            <h7>Danny Chung: https://github.com/dannnnny12</h7>
+                                        </a></li>
+                                    <li><a class="grey-text text-lighten-3" href="https://github.com/Apple1122">
+                                            <h7>Kyle Huang: https://github.com/Apple1122</h7>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-copyright">
+                        <div class="container">
+                            © 2020 Copyright Text
+                            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            -->
+
+            {% block js-ref %}
+            <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+            <script type="text/javascript" , src="{% static 'js/materialize.js' %}"></script>
+            <script type="text/javascript" , src="{% static 'js/mri/mri.js' %}"></script>
+
+            {% endblock js-ref %}
+</body>
+{% endblock content %}
