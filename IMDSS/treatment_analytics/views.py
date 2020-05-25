@@ -114,7 +114,7 @@ def update_side_effect_detail(request):
 
     analysis_df = pd.DataFrame(list(Analysis.objects.filter(dept_id=dep_id).filter(disease_name=selected_disease).values()))
     
-    selected_therapy_lst = selected_therapy.split(" ")
+    selected_therapy_lst = selected_therapy.split("**seperator**")
 
     dic = {}
 
@@ -288,16 +288,14 @@ def get_cost_bar_charts(request):
     # selected_disease = request.GET["selected_disease"]
     selected_disease = 'Lung Cancer'
 
-    print(selected_therapy)
+    selected_therapy_lst = selected_therapy.split("**seperator**")
 
     anas = Analysis.objects.filter(disease_name=selected_disease).values()
     data = {}
-    # success ratio
-    selected_therapy_lst = selected_therapy.split(" ")
 
     for ana in anas:
         if ana['treat_name'] in selected_therapy_lst:
-            data[ana['treat_name'].split(" ")[0]] = ana['treat_cost']
+            data[ana['treat_name']] = ana['treat_cost']
 
 
     cost_lst = [data[name] for name in selected_therapy_lst if name in data]
@@ -368,7 +366,7 @@ def get_cost_bar_charts(request):
 
 def get_select_thread_chart(request):
     selected_therapy = request.GET["selected_therapy"]
-    selected_therapy_lst = list(selected_therapy.split(" "))
+    selected_therapy_lst = list(selected_therapy.split("**seperator**"))
     x_data = [str(x) for x in range(1999, 2020)]
     bar_data = list(range(10, 101))
     shuffle(bar_data)
@@ -477,7 +475,7 @@ def get_select_thread_chart(request):
 
 def get_select_pie_chart(request):
     selected_therapy = request.GET["selected_therapy"]
-    selected_therapy_lst = list(selected_therapy.split(" "))
+    selected_therapy_lst = list(selected_therapy.split("**seperator**"))
 
     selected_year = request.GET["selected_year"]
 
