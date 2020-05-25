@@ -91,21 +91,7 @@ def get_dept_table(dept_table_dict):
     以dept為key(dept_1 ...)
     獲得dept底下的所有table, [table_1, table_2, ...]
     """
-    # table_lst = get_table_lst()
-    # counter_lst = range(1, 11)
-    # dept_lst = get_dept_lst()
-    dept_table_dict = {}
-    # for i in dept_lst:
-    #     dept_table_dict[i] = list(random.sample(table_lst, k=random.choice(counter_lst)))
-    deps = Department.objects.filter(dep_name=dept).values()
-    for dep in deps: 
-        dep_df = pd.DataFrame(list(dep.dep_evaluation.all().values()))
-        dept_table_dict[dep.dep_name] = dep_df['name'].value_counts().index.tolist()
-
-    # print(dept_table_dict[dept])
-
-    # return dept_table_dict[dept]
-    return dept_table_dict
+    dep_name_list = dept_table_dict['dept']
 
     for dep_name in dep_name_list: 
         dep = Department.objects.get(dep_name=dep_name)
@@ -157,15 +143,7 @@ def ajax_get_dept_table(request):
         "dept": dep_lst,
     }
 
-    for i in get_dept_lst():
-        name = i.dep_name
-        dept_table_lst[name] = get_dept_table(name)
-    
-    print("start")
-    print(dept_table_lst)
-
-    return JsonResponse(dept_table_lst)
-
+    dept_table_lst = get_dept_table(dept_table_dict)
 
     return JsonResponse(dept_table_dict)
 
@@ -233,16 +211,43 @@ def ajax_get_search_emr(request):
     @return list，表示要標記的emr是第幾個(從0開始)
     """
     input_text = request.GET['input_text']
+    matched_cui_dict = {}
 
-    evaluation = Evaluation_form.objects.get(medical_condition=input_text)
-    
-    if evaluation is null:
-            evaluation_list = evaluation.first().cuis_list.split(", ")
-            selected_cui_lst = selected_cui_lst + evaluation_list
+    try:
+        evaluation = Evaluation_form.objects.get(medical_condition=input_text)
+
+        evaluation_list = evaluation.cuis_list.split(", ")
+
+        emr_cui_df = pd.DataFrame(list(EmrCuiWord.objects.all().values()))
 
 
+        # 1: groupby Emr_id
+        emr_cui_groups = emr_cui_df.groupby('emrid')
 
-    return JsonResponse(highlight, safe=False)
+        # 2: get groups key
+        keys = list(emr_cui_groups.groups.keys())
+
+
+        # 3: for key in keys: get groups for loop compare cui and return match list which store in dict[key]
+        for key in keys:
+            matched_lst = []
+            for index, row in emr_cui_groups.get_group(key).iterrows():
+                if row['cui'] in evaluation_list:
+                    matched_lst.append(row['wordlist'].split('(')[0].split('[')[0])
+            if matched_lst:
+                if key in matched_cui_dict:     
+                    matched_cui_dict[key] = list(set(matched_cui_dict[key] + matched_lst))
+                else:
+                    matched_cui_dict[key] = list(set(matched_lst))
+
+
+        print(matched_cui_dict)
+
+        return JsonResponse(matched_cui_dict, safe=False)
+
+    except Evaluation_form.DoesNotExist:
+        print('except')
+        return JsonResponse(matched_cui_dict, safe=False)
 
 
 def ajax_save_memo(request, patient_id):
