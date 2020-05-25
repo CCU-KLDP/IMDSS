@@ -35,11 +35,11 @@ $.ajaxSetup({
 
 // our code
 function fetch_success_ratio_chart(selected_therapy) {
-    for(i=0;i < selected_therapy.split(" ").length;i++){    
+    for(i=0;i < selected_therapy.split("**seperator**").length;i++){    
         $.ajax({
             type: "GET",
             url: "http://127.0.0.1:8000/therapy_analytics/success_ratio_chart",
-            data: {"selected_therapy": selected_therapy.split(" ")[i]},
+            data: {"selected_therapy": selected_therapy.split("**seperator**")[i]},
             async:false,
             success: function (result) {
                 var success_ratio_chart = echarts.init($("#success_ratio_chart_container").find(".success_ratio_chart").eq(i).get(0), 'white', {renderer: 'canvas'});

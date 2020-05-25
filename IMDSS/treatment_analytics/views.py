@@ -206,7 +206,7 @@ def draw_success_chart(chart, x, y):
 def get_cost_bar_charts(request):
     selected_therapy = request.GET["selected_therapy"]
 
-    selected_therapy_lst = selected_therapy.split(" ")
+    selected_therapy_lst = selected_therapy.split("**seperator**")
 
     # success ratio
     data = {
@@ -286,7 +286,7 @@ def get_cost_bar_charts(request):
 
 def get_select_thread_chart(request):
     selected_therapy = request.GET["selected_therapy"]
-    selected_therapy_lst = list(selected_therapy.split(" "))
+    selected_therapy_lst = list(selected_therapy.split("**seperator**"))
     x_data = [str(x) for x in range(1999, 2020)]
     bar_data = list(range(10, 101))
     shuffle(bar_data)
@@ -395,7 +395,7 @@ def get_select_thread_chart(request):
 
 def get_select_pie_chart(request):
     selected_therapy = request.GET["selected_therapy"]
-    selected_therapy_lst = list(selected_therapy.split(" "))
+    selected_therapy_lst = list(selected_therapy.split("**seperator**"))
 
     selected_year = request.GET["selected_year"]
 
