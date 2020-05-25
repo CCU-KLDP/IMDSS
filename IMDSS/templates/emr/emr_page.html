@@ -20,8 +20,11 @@
                     </a>
                 </div>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="/login">Another1</a></li>
+                    <li><a href="{% url 'select_patient:select_page' %}">Select patient</a></li>
+                    <li><a href="/charts/{{ patient_id }}">Visualize</a></li>
+                    <!--therapy analytics-->
                     <li><a href="/login">Another2</a></li>
+                    <!--mri-->
                     <li><a href="/login">Another3</a></li>
                 </ul>
             </div>
