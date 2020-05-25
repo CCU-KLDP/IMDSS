@@ -73,7 +73,10 @@ function disease_change(){
                 $.ajax({
                     type: "GET",
                     url: "http://127.0.0.1:8000/therapy_analytics/side_effect_detail",
-                    data: {"selected_dept": $("#dept_select option:selected").text(), "selected_disease": $("#disease_select option:selected").text()},
+                    data: {
+                        "selected_dept": $("#dept_select option:selected").text(),
+                        "selected_disease": $("#disease_select option:selected").text()
+                    },
                     dataType: "json",
                     async:false,
                     success: function(result2){

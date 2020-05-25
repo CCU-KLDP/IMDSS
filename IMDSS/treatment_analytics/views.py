@@ -286,6 +286,8 @@ def get_cost_bar_charts(request):
 
 def get_select_thread_chart(request):
     selected_therapy = request.GET["selected_therapy"]
+    selected_therapy = request.GET["selected_disease"]
+
     selected_therapy_lst = list(selected_therapy.split("**seperator**"))
     x_data = [str(x) for x in range(1999, 2020)]
     bar_data = list(range(10, 101))
