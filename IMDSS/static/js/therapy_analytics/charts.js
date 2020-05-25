@@ -44,7 +44,7 @@ function fetch_success_ratio_chart(selected_therapy) {
             success: function (result) {
                 var success_ratio_chart = echarts.init($("#success_ratio_chart_container").find(".success_ratio_chart").eq(i).get(0), 'white', {renderer: 'canvas'});
                 var re_obj = (new Function("return " + result))();
-                success_ratio_chart.setOption(re_obj);   
+                success_ratio_chart.setOption(re_obj);
             }
         });
     }

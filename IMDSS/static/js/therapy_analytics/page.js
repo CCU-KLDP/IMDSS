@@ -103,6 +103,7 @@ function disease_change(){
                     insert_success_ratio_div+='<div class="success_ratio_chart"></div>'
                 }
             });
+
             selected_therapy = selected_therapy.slice(0, -13)
             
             $("#success_ratio_chart_title>b").text("Success ratio")
@@ -135,12 +136,12 @@ function change_display(){
     $(".therapy_checkbox_items>input:checked[name=therapy]").each(function(index){
         if($(this)[0].checked){
             selected_therapy+=$(this).next('span').text(); 
-            selected_therapy+=" ";
+            selected_therapy+="**seperator**";
             insert_success_ratio_div+='<div class="success_ratio_chart"></div>'
         }
     });
 
-    selected_therapy = selected_therapy.slice(0, -1)
+    selected_therapy = selected_therapy.slice(0, -13)
 
     $.ajax({
         type: "GET",
