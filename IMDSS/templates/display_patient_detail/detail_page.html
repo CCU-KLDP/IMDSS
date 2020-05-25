@@ -18,13 +18,14 @@
                         </a>
                     </div>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="/therapy_analytics">Therapy Analytics</a></li>
+                        
                         <li><a href="{% url 'select_patient:select_page' %}">Select patient</a></li>
                         
                         <li><a href="/emr_search/{{ patient_id }}">Compare CUI</a></li>
-                        <!--mri-->
-                        <li><a href="/login">Another3</a></li>
-                        <!--therapy_analytics-->
-                        <li><a href="/login">Another3</a></li>
+
+                        <li><a href="/mri/{{ patient_id }}">MRI</a></li>
+
                     </ul>
                 </div>
             </div>

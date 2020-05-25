@@ -435,6 +435,8 @@ def get_select_thread_chart(request):
     line = Line()
 
     x_data = ana_annual_new_df.index.tolist()
+    x_data = [str(i) for i in x_data]
+
     line.add_xaxis(x_data)
 
     print(x_data)

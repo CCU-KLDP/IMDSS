@@ -72,6 +72,17 @@ def ajax_get_emr_search_url(request):
     
     return response_as_json(emr_url)
 
+
+def ajax_get_mri_url(request):
+    patient_id = request.POST["patient_id"]
+    fix_patient_id = 80000154
+    # print(request.GET)
+    base_url = "http://127.0.0.1:8000/"
+    mri_url = base_url + "mri/" + str(fix_patient_id)
+    
+    return response_as_json(mri_url)
+
+
 def get_patient_memo(doctor_id, patient_id):
     memo_df = pd.DataFrame(list(MemoData.objects.filter(doctor_id_id=doctor_id).filter(patient_id_id=patient_id).values()))
     if memo_df.empty:

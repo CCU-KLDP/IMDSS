@@ -61,6 +61,19 @@ $("#emr_search").on("click", function() {
     });
 });
 
+$("#mri").on("click", function() {
+    var patient_id = $("#selected>td").attr("id")
+    $.ajax({
+        type: "POST",
+        url: location.href + "mri",
+        data: {"patient_id": patient_id},
+        dataType: "json",
+        success: function(result){
+            window.location.href = result
+        }
+    });
+});
+
 
 $("#select-pats-table>tbody").on("click", "tr", function () {
     $("#select-pats-table>tbody>tr").removeAttr('id')
