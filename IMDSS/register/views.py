@@ -31,7 +31,7 @@ def register_view(request):
                 print('success')
             except IntegrityError:
                 return render(request, "register/register.html", {"departments":departments, })
-        return render(request, "register/register.html", {})
+        return render(request, "login/login_page.html", {})
     else:
         return render(request, "register/register.html", {"departments":departments, })
 
