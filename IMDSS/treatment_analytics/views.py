@@ -84,12 +84,11 @@ def ajax_get_treatment_detail(request):
 
 
 def ajax_side_effect_detail(request):
-
-
-    # selected_dept = request.GET['selected_dept'] 
+    selected_dept = request.GET["selected_dept"]
     selected_disease = request.GET["selected_disease"]
+    
 
-    selected_dept = 'Chest Medicine'
+    # selected_dept = 'Chest Medicine'
 
     dep_id = Department.objects.get(dep_name=selected_dept).dep_id
 
