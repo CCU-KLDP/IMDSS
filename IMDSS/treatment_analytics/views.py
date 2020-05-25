@@ -1,11 +1,15 @@
-from django.shortcuts import render
-from random import randint
-from django.http import HttpResponse
+from django.shortcuts           import render
+from random                     import randint
+from django.http                import HttpResponse
+from pyecharts.charts           import Line, Bar, Pie
+from pyecharts.commons.utils    import JsCode
+from pyecharts                  import options              as opts
+from db_models.models           import Department
+from .models                    import Analysis, AnalysisAnnual
+from random                     import shuffle
+
+import pandas                   as pd
 import json
-from pyecharts.charts import Line, Bar, Pie
-from pyecharts import options as opts
-from pyecharts.commons.utils import JsCode
-from random import shuffle
 
 
 # Create your views here.
@@ -17,43 +21,86 @@ def treatement_analytics_view(request):
 
 
 def get_dept_lst():
-    return ["dept1", "dept_2", "dept_3"]
+    ana_df = pd.DataFrame(list(Analysis.objects.all().values()))
+
+    depts = ana_df['dept_id'].value_counts().index.tolist()
+
+    return [Department.objects.get(dep_id=dept).dep_name for dept in depts]
 
 
 def ajax_get_disease(request):
     dept_lst = get_dept_lst()
-    dic = {
+    # dic = {
+    #     "dept": get_dept_lst()
+    # }
+
+    ana_df = pd.DataFrame(list(Analysis.objects.all().values()))
+
+    ana_groups = ana_df.groupby('dept_id')
+
+    keys = list(ana_groups.groups.keys())
+
+    disease_dict = {
         "dept": get_dept_lst()
     }
 
-    for i in dept_lst:
-        temp = []
-        for j in range(3):
-            temp.append("disease-" + str(randint(1, 11)))
-        dic[i] = temp
-    
-    return response_as_json(dic)
+    for key in keys:
+        dept = Department.objects.get(dep_id=key)
+        disease_dict[dept.dep_name] = list(set(ana_groups.get_group(key)['disease_name'].tolist()))
+
+
+
+    # for i in dept_lst:
+    #     temp = []
+    #     for j in range(3):
+    #         temp.append("disease-" + str(randint(1, 11)))
+    #     dic[i] = temp
+
+    print(disease_dict)
+    return response_as_json(disease_dict)
+    # return response_as_json(dic)
 
 
 def ajax_get_treatment_detail(request):
-    selected_disease = request.GET["selected_disease"]
-    treatment_lst = ["treatment_1", "treatment_2", "treatment_3"]
-    dic = {}
-    dic['treatment'] = treatment_lst
-    for i in treatment_lst:
-        dic[i] = "description" + i.split("_")[1]
 
-    return response_as_json(dic)
+    # selected_dept = request.GET['selected_dept'] 
+    selected_disease = request.GET["selected_disease"]
+    selected_dept = 'Chest Medicine'
+
+    dep_id = Department.objects.get(dep_name=selected_dept).dep_id
+
+    analysis_df = pd.DataFrame(list(Analysis.objects.filter(dept_id=dep_id).filter(disease_name=selected_disease).values()))
+
+    treatment_dict = {
+        "treatment": analysis_df['treat_name'].tolist(),
+    }
+
+    for index, row in analysis_df.iterrows():
+        treatment_dict[row['treat_name']] = row['treat_description']
+
+    # print('treatment_dict: ', treatment_dict)
+
+    return response_as_json(treatment_dict)
 
 
 def ajax_side_effect_detail(request):
+
+
+    # selected_dept = request.GET['selected_dept'] 
     selected_disease = request.GET["selected_disease"]
 
-    treatment_lst = ["treatment_1", "treatment_2", "treatment_3"]
+    selected_dept = 'Chest Medicine'
+
+    dep_id = Department.objects.get(dep_name=selected_dept).dep_id
+
+    analysis_df = pd.DataFrame(list(Analysis.objects.filter(dept_id=dep_id).filter(disease_name=selected_disease).values()))
+
+    treatment_lst = analysis_df['treat_name'].tolist()
     dic = {}
     dic['treatment'] = treatment_lst
-    for i in treatment_lst:
-        dic[i] = "side effect description - " + i.split("_")[1]
+
+    for index, row in analysis_df.iterrows():
+        dic[row['treat_name']] = row['treat_side']
 
 
     return response_as_json(dic)
@@ -64,13 +111,24 @@ def update_side_effect_detail(request):
     selected_disease = request.GET["selected_disease"]
     selected_therapy = request.GET["selected_therapy"]
 
+    dep_id = Department.objects.get(dep_name=selected_dept).dep_id
+
+    analysis_df = pd.DataFrame(list(Analysis.objects.filter(dept_id=dep_id).filter(disease_name=selected_disease).values()))
+    
     selected_therapy_lst = selected_therapy.split(" ")
 
     dic = {}
 
     dic["selected_therapy"] = selected_therapy_lst
-    for i in selected_therapy_lst:
-        dic[i] = "side effect description - " + i.split("_")[1]
+
+    for index, row in analysis_df.iterrows():
+        if row['treat_name'] in selected_therapy_lst:
+            dic[row['treat_name']] = row['treat_side']
+
+    # for i in selected_therapy_lst:
+    #     dic[i] = "side effect description - " + i.split("_")[1]
+
+    print(dic)
 
     return response_as_json(dic)
 
@@ -141,14 +199,18 @@ please write your code below here!
 
 
 def get_success_ratio_charts(request):
+ 
     selected_therapy = request.GET["selected_therapy"]
+    selected_disease = request.GET["selected_disease"]
+    # selected_disease = 'Surgery'
 
+
+    anas = Analysis.objects.filter(disease_name=selected_disease).values()
+    data = {}
     # success ratio
-    data = {
-        "treatment_1": 80,
-        "treatment_2": 90,
-        "treatment_3": 70,
-    }
+    for ana in anas:
+        data[ana.treat_name] = ana.treat_success
+
 
     pie = Pie()
 
@@ -200,21 +262,32 @@ def draw_success_chart(chart, x, y):
 
 
 def get_cost_bar_charts(request):
-    selected_therapy = request.GET["selected_therapy"]
+    # selected_therapy = request.GET["selected_therapy"]
 
+    # selected_therapy_lst = selected_therapy.split(" ")
+
+    # # success ratio
+    # data = {
+    #     "treatment_1": 50000,
+    #     "treatment_2": 73829,
+    #     "treatment_3": 98529,
+    # }
+    # cost_lst = []
+    # for i in selected_therapy_lst:
+    #     cost_lst.append(data.get(i))
+
+    selected_therapy = request.GET["selected_therapy"]
+    selected_disease = request.GET["selected_disease"]
+
+
+    anas = Analysis.objects.filter(disease_name=selected_disease).values()
+    data = {}
+    # success ratio
     selected_therapy_lst = selected_therapy.split(" ")
 
-    # success ratio
-    data = {
-        "treatment_1": 50000,
-        "treatment_2": 73829,
-        "treatment_3": 98529,
-    }
-    cost_lst = []
-    for i in selected_therapy_lst:
-        cost_lst.append(data.get(i))
-
-
+    for ana in anas:
+        if ana.treat_name in selected_therapy_lst:
+            data[ana.treat_name] = ana.treat_cost
 
     bar = Bar()
 
