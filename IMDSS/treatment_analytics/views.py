@@ -541,7 +541,7 @@ def get_select_pie_chart(request):
     selected_idx_lst = []
 
     for key in keys:
-        temp = [str(treatment_dict[key]), int(data[treatment_dict[key]])]
+        temp = [str(treatment_dict[key]).replace(' ', '\n'), int(data[treatment_dict[key]])]
         pie_data.append(temp)
         # selected_idx_lst.append(all_therapy_lst.index(i))
     print(pie_data)
